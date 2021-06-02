@@ -1,7 +1,10 @@
-{{page-title "PrimathonEmberWeb"}}
+{{page-title "Primathon"}}
 
-{{!-- The following component displays Ember's default welcome message. --}}
-<WelcomePage />
-{{!-- Feel free to remove this! --}}
+<div class="container">
+  <Header />
+  <div class="body">
+    {{outlet}}
+  </div>
+</div>
 
 {{outlet}}
