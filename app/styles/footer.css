@@ -1,0 +1,259 @@
+.site-footer {
+  border-top: 1px solid #f9fafc;
+  padding: 40px 0 15px;
+}
+
+.footer-wrapper {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.footer-wrapper .footer-wrapp .container-fluid {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.footer-wrapper .footer-wrapp .footer-wrapp {
+  background-color: #fff;
+  padding-top: 35px;
+  padding-bottom: 5px;
+  font-family: Poppins;
+}
+
+.footer-wrapper .footer-wrapp .container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.footer-wrapper .footer-wrapp .adeva-footer-logo {
+  width: 18%;
+}
+
+.footer-wrapper .footer-wrapp .menu-footer {
+  margin-bottom: 30px;
+}
+
+.footer-wrapper .footer-wrapp .menu-footer h5 {
+  font-size: 12px;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+  color: #1a284d;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+
+.footer-wrapper .footer-wrapp .menu-footer ul li {
+  margin-bottom: 10px;
+  text-align: left;
+  /* Font */
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #1a284d;
+}
+
+.footer-wrapper .footer-wrapp .menu-footer ul li a {
+  color: #546285;
+  font-family: Inter, sans-serif;
+  font-size: 15px;
+  transition: all 0.1s linear;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Copyright */
+.footer-wrapper .post-footer-wrap {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #f9fafc;
+}
+
+.footer-wrapper .post-footer-wrap .copy-links .copyright-footer ul {
+  margin: 0;
+}
+
+.site-footer.large-footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-wrapper .post-footer-wrap .copy-links .copyright-footer ul li {
+  float: left;
+  line-height: 17px;
+  margin-right: 15px;
+  font-size: 14px;
+  opacity: 0.6;
+  font-family: Inter, sans-serif;
+  font-weight: 400;
+}
+
+.footer-wrapper .post-footer-wrap .copy-links .copyright-footer ul li:first-child {
+  opacity: 0.4;
+}
+
+.footer-wrapper .post-footer-wrap .copy-links .copyright-footer ul li a {
+  color: #1a284d;
+  opacity: 0.6;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+.footer-wrapper .post-footer-wrap .copy-links .social-footer .social-list {
+  float: right;
+  background-color: red;
+}
+
+.site-footer a,
+.site-footer p {
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.social-list li a {
+  max-width: 22px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.social-list li a {
+  display: block;
+  width: 20px;
+  height: 20px;
+}
+
+.footer-wrapper .post-footer-wrap .copy-links .social-footer .social-list li a {
+  color: #1a284d;
+  opacity: 0.8;
+  font-size: 20px;
+}
+
+@media (min-width: 768px) {
+  .footer-wrapper .footer-wrapp {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .footer-wrapper .footer-wrapp .container {
+    width: 750px;
+  }
+
+  .footer-wrapper .footer-wrapp .menu-footer {
+    float: right;
+    padding-right: 80px;
+  }
+
+  .footer-wrapper .footer-wrapp .menu-footer:nth-child(2) {
+    padding-right: 0;
+  }
+
+  .footer-wrapper .footer-wrapp .menu-footer:last-child {
+    margin-bottom: 0;
+  }
+
+  .footer-wrapper .footer-wrapp .menu-footer.adeva-footer-logo {
+    float: left;
+    padding: 0;
+  }
+
+  .footer-wrapper .footer-wrapp .menu-footer.adeva-footer-logo a {
+    display: flex;
+  }
+
+  .footer-wrapper .footer-wrapp .menu-footer.adeva-footer-logo a img {
+    margin-right: 15px;
+  }
+
+  .footer-wrapper .footer-wrapp .menu-footer h5 {
+    text-align: left;
+    margin-bottom: 20px;
+    letter-spacing: 1.4px;
+    font-size: 14px;
+  }
+
+  /* Copyright */
+  .footer-wrapper .post-footer-wrap {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .footer-wrapper .post-footer-wrap .copy-links {
+    display: flex;
+    align-items: center;
+  }
+
+  .site-footer .col-md-6 {
+    width: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  .footer-wrapper .footer-wrapp {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .footer-wrapper .footer-wrapp .container {
+    width: 970px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .footer-wrapper .footer-wrapp {
+    padding-top: 75px;
+    padding-bottom: 75px;
+  }
+
+  .footer-wrapper .footer-wrapp .container {
+    width: 1170px;
+  }
+
+  .site-footer .col-md-6 {
+    width: 50%;
+  }
+
+  .footer-wrapper .post-footer-wrap .copy-links .social-footer .social-list {
+    display: flex;
+    align-items: center;
+  }
+
+  .site-footer .social-list li {
+    display: inline-block;
+    float: none;
+  }
+  .footer-wrapper .post-footer-wrap .copy-links .social-footer .social-list li {
+    margin-left: 25px;
+  }
+
+  .site-footer a,
+  .site-footer p {
+    font-size: 18px;
+    line-height: 30px;
+  }
+}
+
+/* Utils */
+.footer-wrapper .clearfix:after,
+.footer-wrapper .container-fluid:after,
+.footer-wrapper .container:after,
+.footer-wrapper .row:after {
+  clear: both;
+}
+
+.footer-wrapper .clearfix:after,
+.footer-wrapper .clearfix:before,
+.footer-wrapper .container-fluid:after,
+.footer-wrapper .container-fluid:before,
+.footer-wrapper .container:after,
+.footer-wrapper .container:before,
+.footer-wrapper .row:after,
+.footer-wrapper .row:before {
+  content: ' ';
+  display: table;
+}

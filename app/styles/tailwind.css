@@ -1,0 +1,29 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* @layer base {
+    @font-face {
+        font-family: 'Roboto';
+        src: local('Roboto'), url('../public/Font/Roboto/Roboto-Regular.ttf') format('truetype');
+        font-weight: normal;
+    }
+
+    @font-face {
+        font-family: 'Roboto';
+        src: local('Roboto'), url('../public/Font/Roboto/Roboto-Medium.ttf') format('truetype');
+        font-weight: 500;
+    }
+
+    @font-face {
+        font-family: 'Roboto';
+        src: local('Roboto'), url('../public/Font/Roboto/Roboto-Bold.ttf') format('truetype');
+        font-weight: bold;
+    }
+
+    @font-face {
+        font-family: 'Roboto';
+        src: local('Roboto'), url('../public/Font/Roboto/Roboto-Black.ttf') format('truetype');
+        font-weight: 900;
+    }
+} */
