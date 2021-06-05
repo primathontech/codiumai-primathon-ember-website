@@ -66,11 +66,9 @@ p {
  * Body Container
  */
 
-.container {
-  min-height: 90vh;
-  background: #f5f0ea;
-  margin: 0 auto;
-  min-width: 100vw;
+.app-container {
+  background: white;
+  width: 100%;
 }
 /**
  * Top Navigation
@@ -262,7 +260,8 @@ p {
 /** Hero Section **/
 #hero-general {
   border-bottom: 1px solid #e1e3eb;
-  padding: 0;
+  background-color: #f5f0ea;
+  padding: 0;  
 }
 .container-fluid {
   margin-right: auto;
@@ -283,13 +282,13 @@ p {
   height: 100%;
   align-items: center;
 }
-.light-cream .hero-wrap {
-  background-color: #f5f0ea;
-}
 .inner-hero {
   height: auto;
   padding: 0;
   margin: auto;
+}
+.section {
+  display: block;
 }
 
 #hero-general .hero-wrap .container {
@@ -306,6 +305,12 @@ p {
 @media (min-width: 1200px) {
   .container {
       width: 1170px;
+  }
+}
+
+@media (min-width: 1280px) and (max-height: 600px) {
+  #hero-general .hero-wrap {
+      height: 85vh;
   }
 }
 
