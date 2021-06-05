@@ -68,7 +68,7 @@ p {
 
 .container {
   min-height: 90vh;
-  background: linear-gradient(to bottom, #272d3b,#06123b);
+  background: #f5f0ea;
   margin: 0 auto;
   min-width: 100vw;
 }
@@ -77,20 +77,31 @@ p {
  */
 
 .menu {
-  height: 100px;
+  height: 65px;
   background-color: transparent;
-  border-bottom: 1px solid #3e4553;
-  width: 80%;
-  margin: 0 auto;
+  width: 100%;
+  padding: 0 15px;  
+  /* border-bottom: 1px solid #e1e3eb; */ 
 }
 
-.menu h1 {
-  position: relative;
-  padding: 0;
-  color: #f9f9f9;
-  font-size: 1.9em;
-  font-weight: bold;
+.menu .nav-items {
+  width: 100%;
+  display: flex;
+  padding-right: 30px;   
 }
+
+.menu .menu-index {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  color: #1a284d;
+  font-size: 1.2em;
+  font-weight: bold;
+  margin: 0 50px;   
+}
+.menu .menu-index img {
+  margin-right: 15px;
+} 
 
 .menu a,
 .menu .links {
@@ -102,10 +113,13 @@ p {
 }
 
 .menu .links a{
-  color: #fff;
-  font-size: 13px;
-  padding: 0 20px;  
-  opacity: 0.8;
+  font-size: 14px;
+  color: #1a284d;
+  font-weight: 600;
+  letter-spacing: 0;
+  padding: 0;
+  margin: 22px 10px;
+
 }
 
 .menu a:hover,
@@ -168,14 +182,16 @@ p {
 }
 
 .menu .menu-primary {
-  border: 1px solid #3e4553;
-  padding: 15px;
+  padding: 10px 16px 8px;
   color: #fff;
   font-size: 12px;
   font-weight: bold;
-  opacity: 0.8;
-  width: 120px;
+  background-color: #24b768;
   text-align: center;
+  font-size: 12px;
+  line-height: 1.9;
+  letter-spacing: .3px;
+  border-radius: 3px;
 }
 /**
  * Content Area

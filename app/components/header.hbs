@@ -1,25 +1,28 @@
-<nav class="menu flex items-center justify-between text-white bg-blue-300">
+<nav class="menu flex items-center text-white bg-blue-300">
   <LinkTo @route="index" class="menu-index">
-    <h1>Primathon</h1>
+    <img src="assets/images/logo.png" />
+    <h1>Primathon</h1>    
   </LinkTo> 
-  <div class="links">
-    <LinkTo @route="about-us" class="menu-about">
-      About Us
-    </LinkTo>
-    <LinkTo @route="careers" class="menu-cases">
-      Case studies
-    </LinkTo>
-    <LinkTo @route="blog" class="menu-blog">
-      Blog
-    </LinkTo>
-    <LinkTo @route="careers" class="menu-careers">
-      Careers
-    </LinkTo>
-    <LinkTo @route="contact" class="menu-contact">
-      Contact
+  <div class="nav-items flex justify-between items-center">
+    <div class="links">
+      <LinkTo @route="about-us" class="menu-about">
+        About Us
+      </LinkTo>
+      <LinkTo @route="careers" class="menu-cases">
+        Case studies
+      </LinkTo>
+      <LinkTo @route="blog" class="menu-blog">
+        Blog
+      </LinkTo>
+      <LinkTo @route="careers" class="menu-careers">
+        Careers
+      </LinkTo>
+      <LinkTo @route="contact" class="menu-contact">
+        Contact
+      </LinkTo>      
+    </div>  
+    <LinkTo @route="contact" class="menu-primary">
+        Hire Top Talent
     </LinkTo>
   </div>
-  <LinkTo @route="contact" class="menu-primary">
-      Let's Talk
-  </LinkTo>
 </nav>
