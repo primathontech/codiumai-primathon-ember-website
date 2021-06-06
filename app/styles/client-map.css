@@ -1,0 +1,110 @@
+.talent-map {
+  background-color: #1a284d;
+  padding: 100px 0;
+  position: relative;
+}
+
+.center {
+  text-align: center!important;
+}
+
+.talent-map h2, .talent-map p {
+  color: #fff;
+}
+
+body h2 {
+  font-size: 30px;
+  line-height: 42px;
+}
+
+.section-sub {
+  font-family: Inter,sans-serif;
+  color: #1a284d;
+  font-size: 18px;
+  line-height: 35px;
+  margin: auto;
+  font-weight: 400;
+  text-align: center;
+}
+
+.talent-map .talent-map-wrap {
+  background-image: url("/assets/images/talent_map.svg");
+  height: 600px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-top: 90px;
+  position: relative;
+  opacity: 0;
+  transition: visibility .7s linear,opacity .7s linear;
+  visibility: hidden;
+}
+
+.red-arc {
+  position: absolute;
+  background-image: url("/assets/images/orange_arc.svg");
+  width: 185px;
+  height: 685px;
+  right: 0;
+  top: 55%;
+}
+
+.talent-map .talent-map-wrap .talent-map-developer {
+  position: absolute;
+  margin: auto;
+  text-align: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: visibility 1.5s linear,opacity 1.5s linear;
+}
+
+.v-show, .v-show.talent-map-wrap .talent-map-developer {
+  visibility: visible!important;
+  opacity: 1!important;
+}
+
+.talent-map .talent-map-wrap .talent-map-developer img {
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  opacity: 0;
+  visibility: hidden;
+  transition: transform .5s ease-in,opacity .5s ease-in;
+  transition-delay: .5s;
+}
+
+.v-show.talent-map-wrap .talent-map-developer img {
+  transform: scale(3);
+  opacity: 1!important;
+  visibility: visible!important;
+}
+
+.talent-map .talent-map-wrap .talent-map-developer .dev-details {
+  visibility: hidden;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 25px;
+  width: 100%;
+  margin-top: -10px;
+}
+
+.talent-map .talent-map-wrap .talent-map-developer .dev-details h5 {
+  font-size: 14px;
+}
+
+.talent-map .talent-map-wrap .talent-map-developer .dev-details p {
+  color: #546285;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+a {
+  color: #198cca;
+  text-decoration: none;
+}
+
+@media (min-width: 768px) {
+  .section-sub, .section-title {
+      margin-bottom: 40px;
+  }
+}
