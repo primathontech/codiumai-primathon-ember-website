@@ -1,0 +1,48 @@
+<div class="container-fluid testimonials-section">
+  <div class="container">
+    <h2 class="center">
+      {{@title}}
+    </h2>
+    <p class="section-sub center">
+      {{@description}}
+    </p>
+    <div class="slider-holder">
+      <div class="slider-content">
+        {{#each @data as |data index|}}
+          {{#if index}}
+            <div class="testimonial-item">
+              {{index}}
+              <blockquote>
+                {{data.comment}}
+              </blockquote>
+              <div class="testimonial-by">
+                <div class="person-img">
+                  <img src={{data.profilePicUrl}} loading="lazy" alt={{data.name}} />
+                </div>
+                <div class="nfo">
+                  <p class="name">
+                    {{data.name}}
+                  </p>
+                  <p class="title">
+                    {{data.title}}
+                  </p>
+                </div>
+              </div>
+            </div>
+          {{/if}}
+        {{/each}}
+      </div>
+      <h1>
+        {{this._activeIndex}}
+      </h1>
+      <div class="slider-action">
+        <button type="button" class="slider-action-btn" {{on 'click' this.showPrevious}}>
+          ← Prev
+        </button>
+        <button type="button" class="slider-action-btn" {{on 'click' this.showNext}}>
+          Next →
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,3 +1,17 @@
-{{page-title "Primathon | Home"}}
-
+{{page-title 'Primathon | Home'}}
+<Header />
+<Homepage::HeroSection />
+<Homepage::Services @title={{this.serviceTitle}} @description={{this.serviceDescription}} @data={{this.serviceData}} />
+<Homepage::CoreValue
+  @title={{this.coreValueTitle}}
+  @description={{this.coreValueDescription}}
+  @data={{this.coreValueData}}
+/>
+<Homepage::Testimonial
+  @title={{this.testimonialTitle}}
+  @description={{this.testimonialDescription}}
+  @data={{this.testimonialData}}
+/>
+<Homepage::HireUs />
+<Homepage::Footer />
 {{outlet}}

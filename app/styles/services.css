@@ -28,6 +28,7 @@
   box-shadow: 0 4px 10px rgb(26 40 77 / 8%);
   padding: 50px 40px 40px;
   border-radius: 5px;
+  height: 100%;
 }
 
 .talent-categories .talent-category:hover {
@@ -62,6 +63,14 @@
   height: 16px;
   visibility: hidden;
   transition: all 0.3s ease;
+}
+
+.talent-categories .talent-category ul {
+  margin-top: 30px;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #1a284d;
 }
 
 .talent-categories .talent-category:hover svg {

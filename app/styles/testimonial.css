@@ -1,0 +1,117 @@
+.testimonials-section {
+  padding: 100px 0;
+}
+
+.testimonials-section .container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.testimonials-section .container h2 {
+  font-size: 30px;
+  line-height: 42px;
+  font-weight: 600;
+  color: #1a284d;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.testimonials-section .section-sub {
+  text-align: center;
+  color: #1a284d;
+  font-size: 18px;
+  line-height: 35px;
+  margin: auto;
+  font-weight: 400;
+  text-align: center;
+}
+
+/* Testimonial Card */
+.testimonials-section .testimonial-item {
+  outline: none;
+  padding: 60px 70px 60px 170px;
+  box-shadow: 0 8px 20px rgb(26 40 77 / 8%);
+  border-radius: 10px;
+  margin: 0 30px;
+  background-image: url(/assets/images/quote_line.png);
+  background-repeat: no-repeat;
+  background-position: 60px 40px;
+  position: relative;
+}
+
+.testimonials-section .testimonial-item blockquote {
+  border: none;
+  padding: 0;
+  color: #1a284d;
+  position: relative;
+  font-size: 24px;
+  margin: 0 0 20px;
+}
+
+.testimonials-section .testimonial-item .testimonial-by {
+  display: flex;
+  align-items: center;
+}
+
+.testimonials-section .testimonial-item .testimonial-by .person-img {
+  width: 60px;
+  float: left;
+  margin-right: 24px;
+}
+
+.testimonials-section .testimonial-item .testimonial-by .person-img img {
+  border-radius: 100%;
+}
+
+.testimonials-section .testimonial-item .testimonial-by .nfo p {
+  margin: 0;
+}
+
+.testimonials-section .testimonial-item .testimonial-by .nfo p.name {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 23px;
+  margin-bottom: 4px;
+}
+
+.testimonials-section .testimonial-item .testimonial-by .nfo p.title {
+  color: #546285;
+  font-size: 12px;
+  line-height: 15px;
+}
+
+.testimonials-section .slider-action {
+  width: 200px;
+  margin: 60px auto auto auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.testimonials-section .slider-action .slider-action-btn {
+  outline: none;
+}
+
+@media (min-width: 768px) {
+  .testimonials-section .container {
+    width: 750px;
+  }
+
+  .testimonials-section .section-sub,
+  .testimonials-section .section-title {
+    margin-bottom: 40px;
+  }
+}
+
+@media (min-width: 992px) {
+  .testimonials-section .container {
+    width: 970px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .testimonials-section .container {
+    width: 1170px;
+  }
+}

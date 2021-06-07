@@ -146,16 +146,6 @@
   letter-spacing: 0.3px;
   border-radius: 3px;
 }
-/**
- * Content Area
- */
-
-.body {
-  padding: 15px;
-}
-/**
- * Similar to Jumbotron
- */
 
 .jumbo {
   padding: 50px;
