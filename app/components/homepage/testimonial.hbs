@@ -11,7 +11,6 @@
         {{#each @data as |data index|}}
           {{#if index}}
             <div class="testimonial-item">
-              {{index}}
               <blockquote>
                 {{data.comment}}
               </blockquote>
@@ -32,9 +31,6 @@
           {{/if}}
         {{/each}}
       </div>
-      <h1>
-        {{this._activeIndex}}
-      </h1>
       <div class="slider-action">
         <button type="button" class="slider-action-btn" {{on 'click' this.showPrevious}}>
           ← Prev
