@@ -82,15 +82,39 @@
   line-height: 15px;
 }
 
+.testimonials-section .slider-holder {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .testimonials-section .slider-action {
-  width: 200px;
-  margin: 60px auto auto auto;
+  width: 100px;
   display: flex;
   justify-content: space-between;
 }
 
 .testimonials-section .slider-action .slider-action-btn {
   outline: none;
+}
+
+.testimonials-section .slider-action .slider-action-btn:hover svg path {
+  fill: #198cca;
+}
+
+.testimonials-section .slider-action .slider-action-btn:last-child {
+  transform: rotate(180deg);
+}
+
+.testimonials-section .slider-action .slider-action-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.testimonials-section .slider-action .slider-action-btn:disabled svg path {
+  fill: #adb4c7;
 }
 
 @media (min-width: 768px) {

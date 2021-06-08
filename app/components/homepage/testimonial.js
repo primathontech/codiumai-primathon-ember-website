@@ -3,33 +3,28 @@ import { tracked } from '@glimmer/tracking';
 import { action } from '@ember/object';
 
 export default class HomepageTestimonialComponent extends Component {
-  _totoalCardCount = 4;
-  @tracked _activeIndex = 0;
-  @tracked activeIndexArray = [true, false, false, false, false, false];
+  @tracked activeIndex = 0;
 
-  isIndexActive(index) {
-    console.log({ index });
-    return true;
+  get disableNext() {
+    return this.activeIndex === this.args.data.length - 1;
+  }
+
+  get disablePrevious() {
+    return this.activeIndex === 0;
   }
 
   @action
   showNext() {
-    console.log(this._activeIndex, this._totoalCardCount);
-    if (this._activeIndex < this._totoalCardCount - 1) {
-      this.activeIndexArray.fill(false);
-      this._activeIndex += 1;
-      this.activeIndexArray[this.activeIndex] = true;
+    const dataCount = this.args.data.length;
+    if (this.activeIndex < dataCount - 1) {
+      this.activeIndex += 1;
     }
   }
 
   @action
   showPrevious() {
-    console.log(this._activeIndex, this._totoalCardCount);
-
-    if (this._activeIndex > 0) {
-      this.activeIndexArray.fill(false);
-      this._activeIndex -= 1;
-      this.activeIndexArray[this.activeIndex] = true;
+    if (this.activeIndex > 0) {
+      this.activeIndex -= 1;
     }
   }
 }

@@ -9,7 +9,7 @@
     <div class="slider-holder">
       <div class="slider-content">
         {{#each @data as |data index|}}
-          {{#if index}}
+          {{#if (eq this.activeIndex index)}}
             <div class="testimonial-item">
               <blockquote>
                 {{data.comment}}
@@ -32,11 +32,30 @@
         {{/each}}
       </div>
       <div class="slider-action">
-        <button type="button" class="slider-action-btn" {{on 'click' this.showPrevious}}>
-          ← Prev
+        <button
+          type="button"
+          class="slider-action-btn"
+          disabled={{this.disablePrevious}}
+          {{on 'click' this.showPrevious}}
+        >
+          {{! ← Prev }}
+          <svg height="20" viewBox="0 0 24.995 20" width="24.995" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="m6.257 15.264h19.488a1.25 1.25 0 1 0 0-2.5h-19.488l6.625-6.625a1.25 1.25 0 1 0 -1.775-1.75l-8.75 8.75a1.25 1.25 0 0 0 0 1.75l8.75 8.75a1.25 1.25 0 0 0 1.775-1.75z"
+              fill="#adb4c7"
+              transform="translate(-2 -3.945)"
+            ></path>
+          </svg>
         </button>
-        <button type="button" class="slider-action-btn" {{on 'click' this.showNext}}>
-          Next →
+        <button type="button" class="slider-action-btn" disabled={{this.disableNext}} {{on 'click' this.showNext}}>
+          {{! Next → }}
+          <svg height="20" viewBox="0 0 24.995 20" width="24.995" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="m6.257 15.264h19.488a1.25 1.25 0 1 0 0-2.5h-19.488l6.625-6.625a1.25 1.25 0 1 0 -1.775-1.75l-8.75 8.75a1.25 1.25 0 0 0 0 1.75l8.75 8.75a1.25 1.25 0 0 0 1.775-1.75z"
+              fill="#adb4c7"
+              transform="translate(-2 -3.945)"
+            ></path>
+          </svg>
         </button>
       </div>
     </div>
