@@ -36,4 +36,16 @@ export default class IndexController extends Controller {
   get testimonialData() {
     return this.model.testimonialData.data;
   }
+
+  get blogTitle() {
+    return this.model.blogData.title;
+  }
+
+  get blogDescription() {
+    return this.model.blogData.description;
+  }
+
+  get blogData() {
+    return this.model.blogData.data;
+  }
 }
