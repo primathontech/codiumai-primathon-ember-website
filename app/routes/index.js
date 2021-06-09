@@ -19,18 +19,16 @@ export default class IndexRoute extends Route {
     const blogData = await (await fetch('/json-data/homepage/blog.json')).json();
 
     const blogResponse = (await (await fetch(this._URL)).json()).slice(0, 6);
-    console.log('### blogResponse: ', blogResponse);
 
     blogData['data'] = blogResponse.map((data) => {
       return {
         title: data.title.rendered,
         link: data.link,
         blogImageUrl: data._embedded['wp:featuredmedia']['0'].source_url,
-        description: data.excerpt.rendered,
-        // "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+        descriptionHtml: data.excerpt.rendered,
       };
     });
-    console.log('### BlogData: ', blogData);
+
     return { serviceData, coreValueData, testimonialData, blogData };
   }
 }
