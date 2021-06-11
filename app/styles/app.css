@@ -1,16 +1,6 @@
 @import 'tailwind';
-@import 'base';
-@import 'typography';
-@import 'utils';
 
-/* Components */
-@import 'poster';
-@import 'footer';
-@import 'hire-us';
-@import 'services.css';
-@import 'code-value';
-@import 'testimonial.css';
-@import 'blog.css';
+@import 'components';
 
 a {
   color: #016aba;
