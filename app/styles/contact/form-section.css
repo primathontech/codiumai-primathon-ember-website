@@ -1,0 +1,44 @@
+.contact-wrapper {
+  margin-bottom: 80px;
+}
+
+.contact-sidebar {
+  background-color: #f9fafc;
+  padding: 45px;
+}
+
+.contact-sidebar .sidebar-box {
+  background-color: transparent;
+  box-shadow: none;
+  margin-bottom: 0;
+}
+
+.contact-sidebar .sidebar-box .contact-label {
+  font-weight: 600;
+  color: #546285;
+  letter-spacing: 0.6px;
+  line-height: 18px;
+  margin-bottom: 16px;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.contact-sidebar .sidebar-box p,
+.contact-sidebar .sidebar-box p a {
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #1a284d;
+}
+
+.sidebar-box.brand-assets a {
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .contact-sidebar .sidebar-box {
+    padding: 50px 35px;
+  }
+}
