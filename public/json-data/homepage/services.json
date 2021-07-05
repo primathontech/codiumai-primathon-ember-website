@@ -1,0 +1,43 @@
+{
+  "title": "Services",
+  "description": "Where can we take your business? Well, everywhere! This is how we do it.",
+  "data": [
+    {
+      "linkUrl": "/",
+      "imageUrl": "/assets/svgs/right_fit.svg",
+      "title": "From Start to Finish- Your Project is now Ours!",
+      "description": "We know how to incorporate the most suitable technological solutions for you. We handle everything from understanding your requirements to perfectly catering to them, from handling your E-commerce development to digitally transforming your business, from hiring software developers for you to delivering products on time. Dashboards and Data visualization",
+      "infoPoint": [
+        "Shopify Stores",
+        "Booking platforms",
+        "Admin panels and CMS",
+        "Web & Mobile App development",
+        "AI/ML based Recommendation engines",
+        "Chatbots",
+        "Chatting platforms",
+        "E-commerce Marketplace/platform"
+      ]
+    },
+    {
+      "linkUrl": "/",
+      "imageUrl": "/assets/svgs/exceptional_engineers.svg",
+      "title": "We find the best Talent for you!",
+      "description": "Count on us if you need an extra pair of experienced hands. We provide the whole team of Software Developers at one place. We identify the cream of designers and developers and provide them to you to add value to your business.",
+      "infoPoint": [
+        "Frontend Developers",
+        "Backend developers",
+        "Full-stack developers",
+        "Product managers",
+        "Quality Analysts",
+        "Product Designers"
+      ]
+    },
+    {
+      "linkUrl": "/",
+      "imageUrl": "/assets/svgs/developers.svg",
+      "title": "Not just Building, We also Manage your Products!",
+      "description": "We deliver as we Guarantee. We assure the best management with Value-driven technology aiming at digitally transforming your business keeping intact the latest industry trends.",
+      "notePoint": "We also need to show technologies Logos like Javascript, Android, Nodejs, etc. in the end of this section."
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+input {
+  padding: 0 15px;
+  min-height: 28px;
+
+  height: 40px;
+  padding: 9px 10px;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 22px;
+  color: #33475b;
+  border: 1px solid #cbd6e2;
+  border-radius: 3px;
+}

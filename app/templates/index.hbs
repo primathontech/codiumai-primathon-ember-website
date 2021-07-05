@@ -1,0 +1,24 @@
+{{page-title 'Primathon | Home'}}
+<Header />
+<div class='app-container'>
+  <Homepage::HeroSection />
+  <Homepage::PartnersSection />
+  <Homepage::Services
+    @title={{this.serviceTitle}}
+    @description={{this.serviceDescription}}
+    @data={{this.serviceData}}
+  />
+  <Homepage::CoreValue
+    @title={{this.coreValueTitle}}
+    @description={{this.coreValueDescription}}
+    @data={{this.coreValueData}}
+  />
+  <Homepage::ClientsSection />
+  <Homepage::Testimonial
+    @title={{this.testimonialTitle}}
+    @description={{this.testimonialDescription}}
+    @data={{this.testimonialData}}
+  />
+  <Homepage::HireUs />
+  <Homepage::Footer />
+</div>
