@@ -18,3 +18,4 @@
 /* Contact */
 @import './contact/hero-section';
 @import './contact/form-section';
+@import './contact/contact-form.css';

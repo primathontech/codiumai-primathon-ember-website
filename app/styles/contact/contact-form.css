@@ -1,0 +1,104 @@
+.contact-form {
+  width: 100%;
+}
+.contact-form .form-field {
+  margin: 0 0 18px 0px;
+  clear: both;
+}
+
+.contact-form .form-input {
+  display: inline-block;
+  width: 100%;
+  max-width: 100%;
+  height: 40px;
+  color: #33475b;
+  border: 1px solid #cbd6e2;
+  border-radius: 3px;
+  padding: 0 15px;
+  min-height: 27px;
+  background-color: #f5f8fa;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.contact-form .form-name {
+  margin: 0 0 18px 0px;
+}
+
+.contact-form .form-label {
+  display: block;
+  color: #1a284d;
+  font-family: Poppins;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+
+.contact-form .form-label .required {
+  color: #ff0000;
+}
+.contact-form .form-input:focus {
+  outline: none;
+  border-color: rgba(82, 168, 236, 0.8);
+}
+.contact-form .submit-btn {
+  float: right;
+  margin: 35px 0;
+  padding: 12px 24px;
+  background: #24b768;
+  border-color: #24b768;
+  color: #ffffff;
+  font-size: 12px;
+  line-height: 12px;
+  font-family: Poppins;
+  font-weight: 700;
+  border-radius: 3px;
+  border-style: solid;
+  border-width: 1px;
+}
+.contact-form textarea.form-input {
+  height: 70px;
+  padding: 10px 15px;
+}
+
+.contact-form .errMessage {
+  color: #f2545b;
+  font-family: Poppins;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.form-response {
+  padding: 0 15px;
+}
+.form-response h2 {
+  font-size: 30px;
+  line-height: 42px;
+  font-family: Poppins, sans-serif;
+  font-weight: 600;
+  color: #1a284d;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.form-response p {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #1a284d;
+  margin: 0 0 10px;
+}
+
+@media (min-width: 505px) {
+  .contact-form .form-name {
+    display: inline-block;
+    width: calc(50% - 12px);
+  }
+
+  .contact-form .form-name:first-child {
+    float: left;
+    width: calc(50% + 12px);
+    padding-right: 24px;
+  }
+}
