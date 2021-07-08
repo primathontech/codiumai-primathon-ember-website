@@ -1,90 +1,193 @@
-<div class="container-fluid talent-map">
-  <div class="container">
-    <h2 class="center">Meet Our Global Clients</h2>
-    <p class="section-sub center">Been providing our Partners and Clients with what they require before they even know it!</p>
-    <div class="talent-map-wrap v-show">
-      <a href="https://primathon.in/contact">
-        <div id="developer-0" class="talent-map-developer" style="top: 13%; left: 41%; z-index: 0;">
-          <img src="https://adevait.com/img/map/martin-panevski.jpg" loading="lazy" alt="Martin Panevski">
-          <div class="dev-details" style="visibility: hidden;">
-            <h5>Martin Panevski</h5>
-            <p>Senior PHP Engineer</p>
+<div class='container-fluid talent-map'>
+  <div class='container'>
+    <h2 class='center'>Meet Our Global Clients</h2>
+    <p class='section-sub center'>Been providing our Partners and Clients with what they require before they even know
+      it!</p>
+    <div class='holder'>
+      <div class='talent-map-wrap v-show'>
+        <img src='/assets/images/talent_map.svg' alt='map' />
+        <a href='https://primathon.in/contact'>
+          <div class='talent-map-developer client-1'>
+            {{! template-lint-disable no-invalid-interactive }}
+            <span class='dot'></span>
+            <img
+              src='https://adevait.com/img/map/martin-panevski.jpg'
+              loading='lazy'
+              alt='Primathon Client'
+              {{on 'mouseover' (fn this.setActiveIndex 1)}}
+              {{on 'mouseleave' this.removeActiveIndexImage}}
+            />
+            <div
+              class='dev-details {{if (eq this.activeIndex 1) 'show' 'hide'}}'
+              {{on 'mouseleave' this.removeActiveIndex}}
+            >
+              <h5>Martin Panevski</h5>
+              <p>Senior PHP Engineer</p>
+            </div>
           </div>
-        </div>
-      </a>
-      <a href="https://primathon.in/contact">
-        <div id="developer-1" class="talent-map-developer" style="top: 20%; left: 13%; z-index: 1;">
-          <img src="https://adevait.com/img/map/marina-trajkovska.jpg" loading="lazy" alt="Marina Trajkovska">
-          <div class="dev-details" style="visibility: hidden;">
-            <h5>Marina Trajkovska</h5>
-            <p>Business Analyst</p>
+        </a>
+        <a href='https://primathon.in/contact'>
+          <div class='talent-map-developer client-2'>
+            {{! template-lint-disable no-invalid-interactive }}
+            <span class='dot'></span>
+            <img
+              src='https://adevait.com/img/map/marina-trajkovska.jpg'
+              loading='lazy'
+              alt='Primathon Client'
+              {{on 'mouseover' (fn this.setActiveIndex 2)}}
+              {{on 'mouseleave' this.removeActiveIndexImage}}
+            />
+            <div
+              class='dev-details {{if (eq this.activeIndex 2) 'show' 'hide'}}'
+              {{on 'mouseleave' this.removeActiveIndex}}
+            >
+              <h5>Marina Trajkovska</h5>
+              <p>Business Analyst</p>
+            </div>
           </div>
-        </div>
-      </a>
-      <a href="https://primathon.in/contact">
-        <div id="developer-2" class="talent-map-developer" style="top: 25%; left: -3%; z-index: 2;">
-          <img src="https://adevait.com/img/map/fernando-raviola.jpg" loading="lazy" alt="Fernando Raviola">
-          <div class="dev-details" style="visibility: hidden;">
-            <h5>Fernando Raviola</h5>
-            <p>Senior Android Engineer</p>
+        </a>
+        <a href='https://primathon.in/contact'>
+          <div class='talent-map-developer client-3'>
+            {{! template-lint-disable no-invalid-interactive }}
+            <span class='dot'></span>
+            <img
+              src='https://adevait.com/img/map/fernando-raviola.jpg'
+              loading='lazy'
+              alt='Primathon Client'
+              {{on 'mouseover' (fn this.setActiveIndex 3)}}
+              {{on 'mouseleave' this.removeActiveIndexImage}}
+            />
+            <div
+              class='dev-details {{if (eq this.activeIndex 3) 'show' 'hide'}}'
+              {{on 'mouseleave' this.removeActiveIndex}}
+            >
+              <h5>Fernando Raviola</h5>
+              <p>Senior Android Engineer</p>
+            </div>
           </div>
-        </div>
-      </a>
-      <a href="https://primathon.in/contact">
-        <div id="developer-3" class="talent-map-developer" style="top: 70%; left: 18%; z-index: 3;">
-          <img src="https://adevait.com/img/map/lucas-pelizza.jpg" loading="lazy" alt="Lucas Pelizza">
-          <div class="dev-details" style="visibility: hidden;">
-            <h5>Lucas Pelizza</h5>
-            <p>Senior Android Engineer</p>
+        </a>
+        <a href='https://primathon.in/contact'>
+          <div class='talent-map-developer client-4'>
+            {{! template-lint-disable no-invalid-interactive }}
+            <span class='dot'></span>
+            <img
+              src='https://adevait.com/img/map/lucas-pelizza.jpg'
+              loading='lazy'
+              alt='Primathon Client'
+              {{on 'mouseover' (fn this.setActiveIndex 4)}}
+              {{on 'mouseleave' this.removeActiveIndexImage}}
+            />
+            <div
+              class='dev-details {{if (eq this.activeIndex 4) 'show' 'hide'}}'
+              {{on 'mouseleave' this.removeActiveIndex}}
+            >
+              <h5>Lucas Pelizza</h5>
+              <p>Senior Android Engineer</p>
+            </div>
           </div>
-        </div>
-      </a>
-      <a href="https://primathon.in/contact">
-        <div id="developer-4" class="talent-map-developer" style="top: 60%; left: 45%; z-index: 4;">
-          <img src="https://adevait.com/img/map/herbert-oketayot.jpg" loading="lazy" alt="Herbert Bruno Oketayot">
-          <div class="dev-details" style="visibility: hidden;">
-            <h5>Herbert Bruno Oketayot</h5>
-            <p>Senior JS Engineer</p>
+        </a>
+        <a href='https://primathon.in/contact'>
+          <div class='talent-map-developer client-5'>
+            {{! template-lint-disable no-invalid-interactive }}
+            <span class='dot'></span>
+            <img
+              src='https://adevait.com/img/map/herbert-oketayot.jpg'
+              loading='lazy'
+              alt='Primathon Client'
+              {{on 'mouseover' (fn this.setActiveIndex 5)}}
+              {{on 'mouseleave' this.removeActiveIndexImage}}
+            />
+            <div
+              class='dev-details {{if (eq this.activeIndex 5) 'show' 'hide'}}'
+              {{on 'mouseleave' this.removeActiveIndex}}
+            >
+              <h5>Herbert Bruno Oketayot</h5>
+              <p>Senior JS Engineer</p>
+            </div>
           </div>
-        </div>
-      </a>
-      <a href="https://primathon.in/contact">
-        <div id="developer-5" class="talent-map-developer" style="top: 39%; left: 75%; z-index: 5;">
-          <img src="https://adevait.com/img/map/alexey-ermolaev.jpg" loading="lazy" alt="Alexey Ermolaev">
-          <div class="dev-details" style="visibility: hidden;">
-            <h5>Alexey Ermolaev</h5>
-            <p>Senior Python Engineer</p>
+        </a>
+        <a href='https://primathon.in/contact'>
+          <div class='talent-map-developer client-6'>
+            {{! template-lint-disable no-invalid-interactive }}
+            <span class='dot'></span>
+            <img
+              src='https://adevait.com/img/map/alexey-ermolaev.jpg'
+              loading='lazy'
+              alt='Primathon Client'
+              {{on 'mouseover' (fn this.setActiveIndex 6)}}
+              {{on 'mouseleave' this.removeActiveIndexImage}}
+            />
+            <div
+              class='dev-details {{if (eq this.activeIndex 6) 'show' 'hide'}}'
+              {{on 'mouseleave' this.removeActiveIndex}}
+            >
+              <h5>Alexey Ermolaev</h5>
+              <p>Senior Python Engineer</p>
+            </div>
           </div>
-        </div>
-      </a>
-      <a href="https://primathon.in/contact">
-        <div id="developer-6" class="talent-map-developer" style="top: 9%; left: 52%; z-index: 6;">
-          <img src="https://adevait.com/img/map/tetiana-donska.jpg" loading="lazy" alt="Tetiana Donska">
-          <div class="dev-details" style="visibility: hidden;">
-            <h5>Tetiana Donska</h5>
-            <p>UI/UX Engineer</p>
+        </a>
+        <a href='https://primathon.in/contact'>
+          <div class='talent-map-developer client-7'>
+            {{! template-lint-disable no-invalid-interactive }}
+            <span class='dot'></span>
+            <img
+              src='https://adevait.com/img/map/tetiana-donska.jpg'
+              loading='lazy'
+              alt='Primathon Client'
+              {{on 'mouseover' (fn this.setActiveIndex 7)}}
+              {{on 'mouseleave' this.removeActiveIndexImage}}
+            />
+            <div
+              class='dev-details {{if (eq this.activeIndex 7) 'show' 'hide'}}'
+              {{on 'mouseleave' this.removeActiveIndex}}
+            >
+              <h5>Tetiana Donska</h5>
+              <p>UI/UX Engineer</p>
+            </div>
           </div>
-        </div>
-      </a>
-      <a href="https://primathon.in/contact">
-        <div id="developer-7" class="talent-map-developer" style="top: 36%; left: 64%; z-index: 7;">
-          <img src="https://adevait.com/img/map/antonio-storni.jpg" loading="lazy" alt="Antonio Storni">
-          <div class="dev-details" style="visibility: hidden;">
-            <h5>Antonio Storni</h5>
-            <p>Senior Python Engineer</p>
+        </a>
+        <a href='https://primathon.in/contact'>
+          <div class='talent-map-developer client-8'>
+            {{! template-lint-disable no-invalid-interactive }}
+            <span class='dot'></span>
+            <img
+              src='https://adevait.com/img/map/antonio-storni.jpg'
+              loading='lazy'
+              alt='Primathon Client'
+              {{on 'mouseover' (fn this.setActiveIndex 8)}}
+              {{on 'mouseleave' this.removeActiveIndexImage}}
+            />
+            <div
+              class='dev-details {{if (eq this.activeIndex 8) 'show' 'hide'}}'
+              {{on 'mouseleave' this.removeActiveIndex}}
+            >
+              <h5>Antonio Storni</h5>
+              <p>Senior Python Engineer</p>
+            </div>
           </div>
-        </div>
-      </a>
-      <a href="https://primathon.in/contact">
-        <div id="developer-8" class="talent-map-developer" style="top: 35%; left: 47%; z-index: 8;">
-          <img src="https://adevait.com/img/map/ramy-moussa.jpg" loading="lazy" alt="Ramy Mohamed Moussa">
-          <div class="dev-details" style="visibility: hidden;">
-            <h5>Ramy Mohamed Moussa</h5>
-            <p>Senior Software Engineer</p>
+        </a>
+        <a href='https://primathon.in/contact'>
+          <div class='talent-map-developer client-9'>
+            {{! template-lint-disable no-invalid-interactive }}
+            <span class='dot'></span>
+            <img
+              src='https://adevait.com/img/map/ramy-moussa.jpg'
+              loading='lazy'
+              alt='Primathon Client'
+              {{on 'mouseover' (fn this.setActiveIndex 9)}}
+              {{on 'mouseleave' this.removeActiveIndexImage}}
+            />
+            <div
+              class='dev-details {{if (eq this.activeIndex 9) 'show' 'hide'}}'
+              {{on 'mouseleave' this.removeActiveIndex}}
+            >
+              <h5>Ramy Mohamed Moussa</h5>
+              <p>Senior Software Engineer</p>
+            </div>
           </div>
-        </div>
-      </a>
+        </a>
+      </div>
     </div>
   </div>
-  <div class="red-arc"></div>
+  <div class='red-arc'></div>
 </div>

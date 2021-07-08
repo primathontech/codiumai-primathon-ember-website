@@ -2,6 +2,11 @@
 
 @import 'components';
 
+html,
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
 a {
   color: #016aba;
   text-decoration: none;
