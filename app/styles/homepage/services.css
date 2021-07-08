@@ -1,6 +1,6 @@
 .talent-categories {
-  padding-top: 80px;
-  padding-bottom: 100px;
+  padding-top: 30px;
+  padding-bottom: 50px;
 }
 
 .talent-categories h2 {
@@ -22,10 +22,20 @@
   margin-bottom: 70px;
 }
 
+.talent-categories .talent-box {
+  grid-gap: 30px;
+}
+
+.talent-categories .talent-box .service-card {
+  max-width: 880px;
+  margin: 0 auto 0 auto;
+}
+
 .talent-categories .talent-category {
   position: relative;
   box-shadow: 0 4px 10px rgb(26 40 77 / 8%);
-  padding: 50px 40px 40px;
+  /* padding: 50px 40px 40px; */
+  padding: 24px;
   border-radius: 5px;
   height: 100%;
 }
@@ -81,6 +91,10 @@
   .talent-categories .container {
     width: 750px;
   }
+
+  .talent-categories .talent-category {
+    padding: 32px;
+  }
 }
 
 @media (min-width: 992px) {
@@ -92,5 +106,15 @@
 @media (min-width: 1200px) {
   .talent-categories .container {
     width: 1170px;
+  }
+
+  .talent-categories .talent-box {
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .talent-categories {
+    padding-top: 80px;
+    padding-bottom: 100px;
   }
 }

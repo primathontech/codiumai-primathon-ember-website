@@ -1,10 +1,19 @@
+.hire-features {
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+
+.hire-features .container {
+  padding: 0;
+}
+
 .hire-features .orange-bar {
   position: absolute;
-  height: 350px;
-  width: 350px;
-  left: -260px;
   background-color: #fdb436;
   border-radius: 100%;
+  height: 200px;
+  width: 200px;
+  left: -170px;
 }
 
 .hire-features h2 {
@@ -26,20 +35,25 @@
   text-align: center;
 }
 
+/* Mobile */
 .hire-features .hire-feature-boxes-wrap {
-  margin-top: 80px;
-  display: flex;
-  justify-content: space-between;
+  margin-top: 40px;
+  display: block;
 }
 
 .hire-features .hire-feature-boxes {
-  width: 58%;
+  width: 100%;
 }
 
 .hire-features .main-image {
-  width: 41%;
+  width: 100%;
   padding-left: 15px;
   padding-right: 15px;
+  margin-bottom: 32px;
+}
+
+.hire-features .main-image img {
+  margin: auto;
 }
 
 .hire-features .hire-feature-box {
@@ -49,11 +63,15 @@
 }
 
 .hire-features .hire-feature-box img {
+  width: 100%;
+  margin: auto;
   max-width: 100%;
   height: auto;
   display: block;
   border-style: solid;
 }
+
+/* Mobile */
 
 .hire-features .hire-feature-box h3 {
   margin-bottom: 30px;
@@ -74,11 +92,57 @@
   .section-title {
     margin-bottom: 40px;
   }
+
+  .hire-features .hire-feature-boxes {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 @media (min-width: 1200px) {
-  h3 {
+  .hire-features {
+    padding-top: 100px;
+  }
+
+  .hire-features h3 {
     font-size: 20px;
     margin-top: 25px;
   }
+
+  /* Mobile */
+  .hire-features .hire-feature-boxes-wrap {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .hire-features .hire-feature-boxes {
+    width: 58%;
+  }
+
+  .hire-features .main-image {
+    width: 41%;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .hire-features .hire-feature-box {
+    padding-bottom: 60px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .hire-features .hire-feature-box img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-style: solid;
+  }
+
+  .hire-features .orange-bar {
+    height: 350px;
+    width: 350px;
+    left: -260px;
+  }
+
+  /* Mobile */
 }

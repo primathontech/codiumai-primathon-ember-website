@@ -16,10 +16,6 @@ p {
   margin-bottom: 15px;
 }
 
-/**
- * Button
- */
-
 .button {
   padding: 10px 30px 10px;
   text-decoration: none;
@@ -36,19 +32,8 @@ p {
 .button:hover {
   opacity: 1;
 }
-/**
- * Body Container
- */
 
 .app-container {
   background: white;
   width: 100%;
 }
-
-/**
- * Content Area
- */
-/* 
-.body {
-  padding: 15px;
-} */
