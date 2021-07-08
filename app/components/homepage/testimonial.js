@@ -33,6 +33,7 @@ export default class HomepageTestimonialComponent extends Component {
     }
   }
 
+  // eslint-disable-next-line require-yield
   *fordwardTransition({ insertedSprites, keptSprites, removedSprites }) {
     console.log('## fordwardTransition: ');
     for (let sprite of insertedSprites) {
@@ -50,6 +51,7 @@ export default class HomepageTestimonialComponent extends Component {
     }
   }
 
+  /* eslint-disable require-yield */
   *backwardTransition({ insertedSprites, keptSprites, removedSprites }) {
     console.log('## backwardTransition: ');
     for (let sprite of insertedSprites) {

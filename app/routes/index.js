@@ -2,17 +2,10 @@ import Route from '@ember/routing/route';
 
 export default class IndexRoute extends Route {
   _HOSTNAME = 'https://blog.primathon.in';
-  _PAGE_SIZE = 3;
+  _PAGE_SIZE = 4;
   _URL = `${this._HOSTNAME}/wp-json/wp/v2/posts?_embed&per_page=${this._PAGE_SIZE}`;
 
   async model() {
-    // const p1 = fetch('/json-data/homepage/services.json');
-    // const p2 = fetch('/json-data/homepage/services.json');
-    // const p3 = fetch('/json-data/homepage/services.json');
-    // const [serviceData, coreValueData, testimonialData] = await Promise.all([p1, p2, p3]);
-
-    // console.log({ serviceData, coreValueData, testimonialData });
-
     const serviceData = await (await fetch('/json-data/homepage/services.json')).json();
     const coreValueData = await (await fetch('/json-data/homepage/core-value.json')).json();
     const testimonialData = await (await fetch('/json-data/homepage/testimonial.json')).json();
@@ -28,7 +21,6 @@ export default class IndexRoute extends Route {
         descriptionHtml: data.excerpt.rendered,
       };
     });
-
     return { serviceData, coreValueData, testimonialData, blogData };
   }
 }

@@ -1,28 +1,29 @@
-<div class="container-fluid blog-categories">
-  <div class="container">
-    <h2 class="center">
+<div class='container-fluid blog-categories'>
+  <div class='container'>
+    <h2 class='center'>
       {{@title}}
     </h2>
-    <p class="section-sub center">
+    <p class='section-sub center'>
       {{@description}}
     </p>
-    <div class="grid grid-cols-3 gap-8">
+    <div class='grid blog-box'>
       {{#each @data as |data|}}
-        <div class="blog-card">
-          <a href={{data.link}} target="_blank">
-            <img src={{data.blogImageUrl}} loading="lazy" alt={{data.title}} title={{data.title}} />
-            <div class="blog-category">
+        <div class='blog-card'>
+          <a href={{data.link}} target='_blank' rel='noopener noreferrer'>
+            <img src={{data.blogImageUrl}} loading='lazy' alt={{data.title}} title={{data.title}} />
+            <div class='blog-category'>
               <h3>
                 {{data.title}}
               </h3>
+              {{! template-lint-disable no-triple-curlies }}
               {{{data.descriptionHtml}}}
             </div>
           </a>
         </div>
       {{/each}}
     </div>
-    <div class="view-more">
-      <a href="https://blog.primathon.in/" target="_blank">
+    <div class='view-more'>
+      <a href='https://blog.primathon.in/' target='_blank' rel='noopener noreferrer'>
         View More
       </a>
     </div>

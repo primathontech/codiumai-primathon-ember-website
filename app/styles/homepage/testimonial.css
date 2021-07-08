@@ -1,5 +1,6 @@
 .testimonials-section {
-  padding: 100px 0;
+  padding-top: 30px;
+  padding-bottom: 50px;
 }
 
 .testimonials-section .container {
@@ -26,19 +27,21 @@
   margin: auto;
   font-weight: 400;
   text-align: center;
+  margin-bottom: 20px;
 }
 
 /* Testimonial Card */
 .testimonials-section .testimonial-item {
+  padding: 50px 30px 30px;
+  margin: 0;
   outline: none;
-  padding: 60px 70px 60px 170px;
   box-shadow: 0 8px 20px rgb(26 40 77 / 8%);
   border-radius: 10px;
-  margin: 0 30px;
   background-image: url(/assets/images/quote_line.png);
   background-repeat: no-repeat;
-  background-position: 60px 40px;
   position: relative;
+  background-position: 25px 15px;
+  background-size: 36px;
 }
 
 .testimonials-section .testimonial-item blockquote {
@@ -46,8 +49,9 @@
   padding: 0;
   color: #1a284d;
   position: relative;
-  font-size: 24px;
   margin: 0 0 20px;
+  font-size: 15px;
+  line-height: 24px;
 }
 
 .testimonials-section .testimonial-item .testimonial-by {
@@ -83,7 +87,7 @@
 }
 
 .testimonials-section .slider-holder {
-  height: 400px;
+  /* height: 400px; */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -94,6 +98,7 @@
   width: 100px;
   display: flex;
   justify-content: space-between;
+  margin-top: 40px;
 }
 
 .testimonials-section .slider-action .slider-action-btn {
@@ -126,6 +131,22 @@
   .testimonials-section .section-title {
     margin-bottom: 40px;
   }
+
+  .testimonials-section .testimonial-item {
+    padding: 60px 70px 60px 170px;
+    margin: 0 30px;
+    background-position: 60px 40px;
+    background-size: 60px;
+  }
+
+  .testimonials-section .testimonial-item blockquote {
+    font-size: 24px;
+    line-height: 1.7;
+  }
+
+  .testimonials-section .slider-action {
+    margin-top: 60px;
+  }
 }
 
 @media (min-width: 992px) {
@@ -137,5 +158,9 @@
 @media (min-width: 1200px) {
   .testimonials-section .container {
     width: 1170px;
+  }
+
+  .testimonials-section {
+    padding: 100px 0;
   }
 }
