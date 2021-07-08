@@ -2,6 +2,15 @@
   margin-bottom: 80px;
 }
 
+.contact-wrapper .grid-box {
+  max-width: 480px;
+  margin: auto;
+}
+
+.contact-wrapper .contact-details {
+  padding: 50px 0 30px 0;
+}
+
 .contact-sidebar {
   background-color: #f9fafc;
   padding: 45px;
@@ -40,5 +49,23 @@
 @media (min-width: 768px) {
   .contact-sidebar .sidebar-box {
     padding: 50px 35px;
+  }
+}
+
+@media (min-width: 992px) {
+  .contact-wrapper .grid-box {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    max-width: 970px;
+  }
+
+  .contact-wrapper .contact-details {
+    padding: 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  .contact-wrapper .grid-box {
+    max-width: 1130px;
   }
 }
