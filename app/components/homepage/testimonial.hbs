@@ -16,7 +16,11 @@
               </blockquote>
               <div class='testimonial-by'>
                 <div class='person-img'>
-                  <img src={{data.profilePicUrl}} loading='lazy' alt={{data.name}} />
+                  <img
+                    src={{if data.profilePicUrl data.profilePicUrl '/assets/images/user.png'}}
+                    loading='lazy'
+                    alt={{data.name}}
+                  />
                 </div>
                 <div class='nfo'>
                   <p class='name'>
