@@ -68,14 +68,17 @@
 
 .talent-map .talent-map-wrap .talent-map-developer img {
   cursor: pointer;
-  width: 20px;
-  height: 20px;
   border-radius: 100%;
+  object-fit: contain;
   opacity: 0;
   visibility: hidden;
   transition: transform 0.5s ease-in, opacity 0.5s ease-in;
   transition-delay: 0.5s;
   display: none;
+  background: white;
+  padding: 2px;
+  width: 24px;
+  height: 24px;
 }
 
 .talent-map .talent-map-wrap .talent-map-developer .dot {
@@ -107,26 +110,25 @@
   visibility: hidden;
   background-color: #fff;
   border-radius: 10px;
-  padding: 20px;
-  width: 100%;
-  margin-top: -8px;
+  padding: 20px 0px 5px;
+  width: 105px;
+  margin: -8px auto 0px 5px;
 }
 
 .talent-map .dev-details h5 {
   font-size: 14px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin: 10px auto;
   font-weight: 600;
   color: #1a284d;
   line-height: 1.6;
 }
 
-.talent-map .dev-details p {
+/* .talent-map .dev-details p {
   color: #546285;
   font-size: 12px;
   line-height: 15px;
   margin-bottom: 0px;
-}
+} */
 
 .talent-map a {
   color: #198cca;
