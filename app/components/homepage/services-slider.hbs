@@ -1,0 +1,70 @@
+<div class='container-fluid service-categories'>
+  <div class='container'>
+    <h2>
+      {{@title}}
+    </h2>
+    <p class='section-sub center'>
+      {{@description}}
+    </p>
+    <div class='grid talent-box'>
+      {{#each @data as |data index|}}
+        {{! template-lint-disable no-invalid-interactive }}
+        <div
+          class='service-card {{if (eq index this.activeIndex) 'service-card-active'}}'
+          {{on 'click' (fn this.onCardClick index)}}
+        >
+          <div class='talent-category'>
+            <img src={{data.imageUrl}} loading='lazy' alt='Developers' title='Software Developers' />
+            <h3>
+              {{data.title}}
+            </h3>
+            <svg height='10.547' viewBox='0 0 13.047 10.547' width='13.047' xmlns='http://www.w3.org/2000/svg'>
+              <path
+                d='m12.369 9.6h-9.744a.625.625 0 1 1 0-1.25h9.744l-3.313-3.308a.625.625 0 1 1 .887-.875l4.375 4.375a.625.625 0 0 1 0 .875l-4.374 4.375a.625.625 0 0 1 -.887-.875z'
+                fill='#198cca'
+                stroke='#198cca'
+                stroke-width='.5'
+                transform='translate(-1.75 -3.69)'
+              ></path>
+            </svg>
+          </div>
+        </div>
+      {{/each}}
+    </div>
+  </div>
+</div>
+
+<div class='container-fluid service-details'>
+  <div class='container'>
+    <ul>
+      <li class='service-details-card'>
+        <h3>
+          {{this.activeCardData.title}}
+        </h3>
+        <p>
+          {{this.activeCardData.description}}
+        </p>
+        {{#if this.activeCardData.infoPoint}}
+          <ul>
+            {{#each this.activeCardData.infoPoint as |infoData|}}
+              <li>
+                •
+                {{infoData}}
+              </li>
+            {{/each}}
+          </ul>
+        {{/if}}
+        {{#if this.activeCardData.notePoint}}
+          <ul>
+            <li>
+              <b>
+                Note:
+              </b>
+              {{this.activeCardData.notePoint}}
+            </li>
+          </ul>
+        {{/if}}
+      </li>
+    </ul>
+  </div>
+</div>
