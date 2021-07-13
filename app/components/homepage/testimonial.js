@@ -5,7 +5,7 @@ import move from 'ember-animated/motions/move';
 import { easeOut, easeIn } from 'ember-animated/easings/cosine';
 
 export default class HomepageTestimonialComponent extends Component {
-  @tracked activeIndex = 3;
+  @tracked activeIndex = 0;
   @tracked _goForward = false;
 
   get disableNext() {
