@@ -1,6 +1,73 @@
-<div class='form-container'>
-  <label for='firstName'>
-    First Name
-    <Input name='firstName' @type='text' @value={{'this.userQuestion'}} />
-  </label>
-</div>
+{{#if this.submitted}}
+  <div class='form-response'>
+    <h2>Thanks for reaching out!</h2>
+    <p>Usually our representatives reply within 48 hours. For immediate assistance, please call our sales line or email
+      our customer support.</p>
+  </div>
+{{else}}
+  <div class='contact-form'>
+    <div class='form-name'>
+      <label for='firstName' class='form-label'>
+        First name
+        <span class='required'>*</span>
+      </label>
+      <Input
+        name='firstName'
+        @type='text'
+        @value={{this.userQuestion.firstName}}
+        class='form-input'
+        onfocus={{this.focus}}
+      />
+      {{#if this.validation.firstName}}
+        <label class='errMessage'>{{this.validation.firstName}}</label>
+      {{/if}}
+    </div>
+
+    <div class='form-name'>
+      <label for='lastName' class='form-label'>
+        Last name
+        <span class='required'>*</span>
+      </label>
+
+      <Input
+        name='lastName'
+        @type='text'
+        @value={{this.userQuestion.lastName}}
+        class='form-input'
+        onfocus={{this.focus}}
+      />
+      {{#if this.validation.lastName}}
+        <label class='errMessage'>{{this.validation.lastName}}</label>
+      {{/if}}
+    </div>
+
+    <div class='form-field'>
+      <label for='email' class='form-label'>
+        Email
+        <span class='required'>*</span>
+      </label>
+      <Input name='email' @type='email' @value={{this.userQuestion.email}} class='form-input' onfocus={{this.focus}} />
+      {{#if this.validation.email}}
+        <label class='errMessage'>{{this.validation.email}}</label>
+      {{/if}}
+    </div>
+
+    <div class='form-field'>
+      <label for='message' class='form-label'>
+        Message
+        <span class='required'>*</span>
+      </label>
+      <Textarea
+        name='message'
+        @type='text'
+        @value={{this.userQuestion.message}}
+        class='form-input text-area'
+        onfocus={{this.focus}}
+      />
+      {{#if this.validation.message}}
+        <label class='errMessage'>{{this.validation.message}}</label>
+      {{/if}}
+    </div>
+    <button class='submit-btn' {{on 'click' this.sendMessage}}>SEND MESSAGE</button>
+  </div>
+{{/if}}

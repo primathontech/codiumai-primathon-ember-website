@@ -1,5 +1,15 @@
 .contact-wrapper {
   margin-bottom: 80px;
+  padding: 0;
+}
+
+.contact-wrapper .grid-box {
+  max-width: 480px;
+  margin: auto;
+}
+
+.contact-wrapper .contact-details {
+  padding: 50px 0 30px 0;
 }
 
 .contact-wrapper .grid-box {
@@ -49,6 +59,27 @@
 @media (min-width: 768px) {
   .contact-sidebar .sidebar-box {
     padding: 50px 35px;
+  }
+  .contact-wrapper {
+    padding: 0 15px 0 15px;
+  }
+}
+
+@media (min-width: 992px) {
+  .contact-wrapper .grid-box {
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    max-width: 970px;
+  }
+
+  .contact-wrapper .contact-details {
+    padding: 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  .contact-wrapper .grid-box {
+    max-width: 1130px;
   }
 }
 
