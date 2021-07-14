@@ -34,37 +34,40 @@
   </div>
 </div>
 
+<div class='service-categories-spacer' id='service-details'></div>
 <div class='container-fluid service-details'>
   <div class='container'>
-    <ul>
-      <li class='service-details-card'>
-        <h3>
-          {{this.activeCardData.title}}
-        </h3>
-        <p>
-          {{this.activeCardData.description}}
-        </p>
-        {{#if this.activeCardData.infoPoint}}
-          <ul>
-            {{#each this.activeCardData.infoPoint as |infoData|}}
+    <AnimatedContainer>
+      {{#animated-value this.activeCardData rules=this.rules duration=300 as |v|}}
+        <div class='service-details-card'>
+          <h3>
+            {{v.title}}
+          </h3>
+          <p>
+            {{v.description}}
+          </p>
+          {{#if v.infoPoint}}
+            <ul>
+              {{#each v.infoPoint as |infoData|}}
+                <li>
+                  •
+                  {{infoData}}
+                </li>
+              {{/each}}
+            </ul>
+          {{/if}}
+          {{#if v.notePoint}}
+            <ul>
               <li>
-                •
-                {{infoData}}
+                <b>
+                  Note:
+                </b>
+                {{v.notePoint}}
               </li>
-            {{/each}}
-          </ul>
-        {{/if}}
-        {{#if this.activeCardData.notePoint}}
-          <ul>
-            <li>
-              <b>
-                Note:
-              </b>
-              {{this.activeCardData.notePoint}}
-            </li>
-          </ul>
-        {{/if}}
-      </li>
-    </ul>
+            </ul>
+          {{/if}}
+        </div>
+      {{/animated-value}}
+    </AnimatedContainer>
   </div>
 </div>
