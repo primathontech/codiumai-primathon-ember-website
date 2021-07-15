@@ -8,30 +8,31 @@
     </p>
     <div class='slider-holder'>
       <div class='slider-content'>
-        {{#animated-value this.activeCardData rules=this.rules duration=300 as |v|}}
-          <div class='testimonial-item'>
+        {{!-- {{#animated-value data rules=this.rules duration=30000 as |v|}} --}}
+        {{#each @data as |data index|}}
+          <div class='testimonial-item {{if (and this.firstRendering (eq this.activeIndex index)) 'opaque'}}'>
             <blockquote>
-              {{v.comment}}
+              {{data.comment}}
             </blockquote>
             <div class='testimonial-by'>
               <div class='person-img'>
                 <img
-                  src={{if v.profilePicUrl v.profilePicUrl '/assets/images/user.png'}}
+                  src={{if data.profilePicUrl data.profilePicUrl '/assets/images/user.png'}}
                   loading='lazy'
-                  alt={{v.name}}
+                  alt={{data.name}}
                 />
               </div>
               <div class='nfo'>
                 <p class='name'>
-                  {{v.name}}
+                  {{data.name}}
                 </p>
                 <p class='title'>
-                  {{v.title}}
+                  {{data.title}}
                 </p>
               </div>
             </div>
-          </div>
-        {{/animated-value}}
+          </div>{{/each}}
+        {{!-- {{/animated-value}} --}}
       </div>
       <div class='slider-action'>
         <button
