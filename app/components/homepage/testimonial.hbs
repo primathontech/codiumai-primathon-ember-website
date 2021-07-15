@@ -8,59 +8,30 @@
     </p>
     <div class='slider-holder'>
       <div class='slider-content'>
-        {{#each @data as |data index|}}
-          {{#if (eq this.activeIndex index)}}
-            <div class='testimonial-item'>
-              <blockquote>
-                {{data.comment}}
-              </blockquote>
-              <div class='testimonial-by'>
-                <div class='person-img'>
-                  <img
-                    src={{if data.profilePicUrl data.profilePicUrl '/assets/images/user.png'}}
-                    loading='lazy'
-                    alt={{data.name}}
-                  />
-                </div>
-                <div class='nfo'>
-                  <p class='name'>
-                    {{data.name}}
-                  </p>
-                  <p class='title'>
-                    {{data.title}}
-                  </p>
-                </div>
+        {{#animated-value this.activeCardData rules=this.rules duration=300 as |v|}}
+          <div class='testimonial-item'>
+            <blockquote>
+              {{v.comment}}
+            </blockquote>
+            <div class='testimonial-by'>
+              <div class='person-img'>
+                <img
+                  src={{if v.profilePicUrl v.profilePicUrl '/assets/images/user.png'}}
+                  loading='lazy'
+                  alt={{v.name}}
+                />
+              </div>
+              <div class='nfo'>
+                <p class='name'>
+                  {{v.name}}
+                </p>
+                <p class='title'>
+                  {{v.title}}
+                </p>
               </div>
             </div>
-          {{/if}}
-          {{!-- {{#animated-if
-            (eq this.activeIndex index)
-            use=(if this._goForward this.fordwardTransition this.backwardTransition)
-          }} --}}
-          {{!-- {{#animated-if
-            (eq this.activeIndex index)
-            use=(if this._goForward this.fordwardTransition this.backwardTransition)
-          }}
-            <div class='testimonial-item'>
-              <blockquote>
-                {{data.comment}}
-              </blockquote>
-              <div class='testimonial-by'>
-                <div class='person-img'>
-                  <img src={{data.profilePicUrl}} loading='lazy' alt={{data.name}} />
-                </div>
-                <div class='nfo'>
-                  <p class='name'>
-                    {{data.name}}
-                  </p>
-                  <p class='title'>
-                    {{data.title}}
-                  </p>
-                </div>
-              </div>
-            </div>
-          {{/animated-if}} --}}
-        {{/each}}
+          </div>
+        {{/animated-value}}
       </div>
       <div class='slider-action'>
         <button

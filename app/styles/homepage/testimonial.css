@@ -87,7 +87,7 @@
 }
 
 .testimonials-section .slider-holder {
-  /* height: 400px; */
+  height: 340px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -147,11 +147,19 @@
   .testimonials-section .slider-action {
     margin-top: 60px;
   }
+
+  .testimonials-section .slider-holder {
+    height: 560px;
+  }
 }
 
 @media (min-width: 992px) {
   .testimonials-section .container {
     width: 970px;
+  }
+
+  .testimonials-section .slider-holder {
+    height: 480px;
   }
 }
 
@@ -162,5 +170,9 @@
 
   .testimonials-section {
     padding: 100px 0;
+  }
+
+  .testimonials-section .slider-holder {
+    height: 440px;
   }
 }

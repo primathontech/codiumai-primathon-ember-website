@@ -6,7 +6,7 @@
         <p>Get in touch or schedule a call.</p>
       </div>
       <div class='global-comm-wrap buttons'>
-        <LinkTo @route='contact' class='btn btn-normal btn-hire'>
+        <LinkTo @route='contact' class='btn btn-normal btn-hire' {{on 'click' (fn (or @onHireUs (noop)))}}>
           Hire Top Talent
         </LinkTo>
       </div>

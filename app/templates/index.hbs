@@ -3,7 +3,14 @@
 <div class='app-container'>
   <Homepage::HeroSection />
   <Homepage::PartnersSection />
-  <Homepage::Services
+
+  {{!-- <Homepage::Services
+    @title={{this.serviceTitle}}
+    @description={{this.serviceDescription}}
+    @data={{this.serviceData}}
+  /> --}}
+
+  <Homepage::ServicesSlider
     @title={{this.serviceTitle}}
     @description={{this.serviceDescription}}
     @data={{this.serviceData}}
