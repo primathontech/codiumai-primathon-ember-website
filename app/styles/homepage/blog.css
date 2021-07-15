@@ -32,12 +32,12 @@
 }
 
 .blog-categories .view-more a {
-  color: #b3428f;
+  color: #3f8dca;
 }
 
 .blog-categories .view-more a:hover {
   text-decoration: underline;
-  color: #b3428f;
+  color: #3f8dca;
 }
 
 .blog-categories .blog-card {
@@ -93,7 +93,7 @@
 }
 
 .blog-categories .blog-category p a {
-  color: #b3428f;
+  color: #3f8dca;
 }
 
 .blog-categories .blog-category p a span {
