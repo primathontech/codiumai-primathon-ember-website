@@ -7,23 +7,32 @@
   <label class='hamburger-icon' for='hamburger-btn'><span class='ham-icon'></span></label>
   <div class='nav-items'>
     <div class='links'>
+      <LinkTo @route='index' class='menu-home' {{on 'click' this.closeOpenMenu}}>
+        Home
+      </LinkTo>
       {{! <LinkTo @route="about-us" class="menu-about">
         About Us
       </LinkTo> }}
       {{! <LinkTo @route="careers" class="menu-cases">
         Case studies
       </LinkTo> }}
-      <a href='https://blog.primathon.in/' target='_blank' class='menu-blog' rel='noopener noreferrer'>
+      <a
+        href='https://blog.primathon.in/'
+        target='_blank'
+        class='menu-blog'
+        rel='noopener noreferrer'
+        {{on 'click' this.closeOpenMenu}}
+      >
         Blog
       </a>
       {{! <LinkTo @route="careers" class="menu-careers">
         Careers
       </LinkTo> }}
-      <LinkTo @route='contact' class='menu-contact'>
+      <LinkTo @route='contact' class='menu-contact' {{on 'click' this.closeOpenMenu}}>
         Contact
       </LinkTo>
     </div>
-    <LinkTo @route='contact' class='menu-primary' {{on 'click' (fn (or @onHireUs (noop)))}}>
+    <LinkTo @route='contact' class='menu-primary' {{on 'click' (fn (or this.onHireUs (noop)))}}>
       HIRE TOP TALENT
     </LinkTo>
   </div>
