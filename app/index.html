@@ -30,5 +30,23 @@
     <script src="{{rootURL}}assets/primathon-ember-web.js"></script>
 
     {{content-for "body-footer"}}
+
+    <script>
+      // to fix the scroll issue for mobile browser
+      // https://css-tricks.com/the-trick-to-viewport-units-on-mobile/
+      var vh = window.innerHeight * 0.01;
+      // then we set the value in the --vh custom property to the root of the document
+      document.documentElement.style.setProperty('--vh', `${vh}px`);
+
+      window.addEventListener('resize', () => {
+        // we execute the same script as before
+        vh = window.innerHeight * 0.01;
+        document.documentElement.style.setProperty('--vh', `${vh}px`);
+      });
+
+      // Use Case .......................
+      /* height: 100vh;
+         height: calc(var(--vh, 1vh) * 100); */
+    </script>
   </body>
 </html>
