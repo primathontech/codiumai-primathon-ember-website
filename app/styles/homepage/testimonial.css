@@ -87,7 +87,7 @@
 }
 
 .testimonials-section .slider-holder {
-  /* height: 340px; */
+  height: 340px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
