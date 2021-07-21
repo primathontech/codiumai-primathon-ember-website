@@ -1,6 +1,6 @@
 {
   "title": "More than just Developers!",
-  "description": "Unknown",
+  "description": "",
   "data": [
     {
       "title": "Engineering Mindset",
@@ -8,15 +8,14 @@
     },
     {
       "title": "Process Driven",
-      "description": "From start to end, we follow agile methodology on our projects. We execute the process for continuous improvement and discover solutions for you. We believe each step matters."
-    },
+      "description": "From start to end, we follow agile methodology on our projects. We execute the process for continuous improvement and discover solutions for you. We believe each step matters."  },
     {
       "title": "On Time Delivery",
-      "description": "You don’t have to think about dealing with any delays. The deadlines are tangible, we understand and so our expert team is confident that your product can be designed and developed and also delivered, as promised, on time for you to have a seamless experience."
+      "description": "You don’t have to think about dealing with any delays. Our expert team is confident to design, develop and deliver on time for you to have a seamless experience."    
     },
     {
       "title": "User Driven",
-      "description": "We don't just figure out what our users want; we also help them figure out what they don't realise they want. The users' problems are our problems. We recognise that the way the user interacts with the software is, in most cases, more important than the original vision we had for it. So planning for how our audience will want to make use of it, matters."
+      "description": "We understand how important it is to realise how the end user interacts with the product and it holds utmost importance in our software building process."
     }
   ]
 }
