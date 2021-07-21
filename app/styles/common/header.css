@@ -1,18 +1,17 @@
 .menu {
   height: auto;
-  background-color: #ffffff;
+  background-color: #f5f0ea;
   font-family: Poppins, sans-serif;
   position: fixed;
   width: 100%;
   z-index: 10;
-  border-bottom: 1px solid #e1e3eb;
+  border-bottom: 1px solid #f5f0ea;
 }
 
 .menu .nav-items {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  background-color: #ffffff;
   max-height: 0;
   clear: both;
   overflow: hidden;
