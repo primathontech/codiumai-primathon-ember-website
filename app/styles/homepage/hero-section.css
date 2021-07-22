@@ -3,6 +3,11 @@
   border-bottom: 1px solid #e1e3eb;
   background-color: #f5f0ea;
   padding: 0;
+  height: 80vh;
+  background-image: url('/assets/images/jessica.png');
+  background-repeat: no-repeat;
+  background-position: 90% 100%; /* 90% to shift a little bit towards center  */
+  background-size: 35%;
 }
 
 #hero-general .hero-wrap .hero-content .section-sub {
@@ -17,11 +22,7 @@
 }
 
 #hero-general .hero-wrap {
-  background-image: url('/assets/images/jessica.png');
-  background-repeat: no-repeat;
-  background-position: 90% 100%; /* 90% to shift a little bit towards center  */
-  background-size: 28%;
-  height: auto; /* fixed height to default to stop overwriting from some where else */
+  height: 100%; /* fixed height to default to stop overwriting from some where else */
   position: relative;
   padding-top: 65px; /*To counter navigation bar height  */
 }
@@ -98,6 +99,10 @@
 @media (min-width: 992px) {
   .col-md-6 {
     width: 50%;
+  }
+
+  #hero-general{
+    min-height: 558px;
   }
 }
 
@@ -200,7 +205,7 @@
 }
 
 @media only screen and (max-width: 992px) {
-  #hero-general .hero-wrap {
+  #hero-general {
     background-size: 0;
   }
 
