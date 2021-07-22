@@ -37,7 +37,7 @@
 .service-categories .talent-category {
   position: relative;
   box-shadow: 0 4px 10px rgb(26 40 77 / 8%);
-  padding: 24px;
+  padding: 20px;
   border-radius: 5px;
   height: 100%;
 }
@@ -47,7 +47,9 @@
 }
 
 .service-categories .talent-category img {
-  padding-bottom: 35px;
+  margin: auto;
+  height: 60px;
+  width: 60px;
 }
 
 .service-categories .talent-category h3 {
@@ -55,8 +57,9 @@
   font-weight: 600;
   color: #1a284d;
   line-height: 1.6;
-  margin-top: 25px;
-  margin-bottom: 10px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  text-align: center;
 }
 
 .service-categories .talent-category p {
@@ -64,6 +67,8 @@
   line-height: 28px;
   font-weight: 400;
   color: #1a284d;
+  margin-bottom: 10px;
+  text-align: center;
 }
 
 .service-categories .talent-category svg {
@@ -106,15 +111,17 @@
 }
 
 .service-card-active:after {
-  border-width: 10px;
+  border-width: 8px;
   border-top-color: #24b768;
-  top: calc(100% + 110px);
+  /* top: calc(100% + 110px); */
+  top: calc(100% + 50px);
 }
 
 .service-card-active:before {
-  border-bottom-color: #f9fafc;
+  border-bottom-color: #f4f4f4;
   border-width: 50px;
-  top: calc(100% + 30px);
+  /* top: calc(100% + 30px); */
+  top: calc(100% - 30px);
 }
 /* end */
 
@@ -122,13 +129,13 @@
 .service-details {
   padding-top: 50px;
   padding-bottom: 50px;
-  background-color: #f9fafc;
+  background-color: #f4f4f4;
   /* margin-top: 80px; */
   position: relative;
 }
 
 .service-categories-spacer {
-  height: 120px;
+  height: 16px;
 }
 /* Service Card Active */
 .service-details:after,
@@ -145,13 +152,13 @@
 }
 
 .service-details:after {
-  border-width: 10px;
+  border-width: 8px;
   border-top-color: #24b768;
   top: -20px;
 }
 
 .service-details:before {
-  border-bottom-color: #f9fafc;
+  border-bottom-color: #f4f4f4;
   border-width: 50px;
   top: -100px;
 }
@@ -159,8 +166,8 @@
 
 .service-details .service-details-card,
 .service-details .service-details-card ul {
-  font-size: 14px;
-  line-height: 24px;
+  font-size: 16px;
+  line-height: 28px;
   font-weight: 400;
   color: #1a284d;
   margin-left: auto;
@@ -172,8 +179,9 @@
   font-weight: 600;
   color: #cccccc;
   line-height: 1.6;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   text-align: center;
+  margin-bottom: 24px;
 }
 
 .service-details-card p {
@@ -191,7 +199,7 @@
   }
 
   .service-categories .talent-category {
-    padding: 32px;
+    padding: 20px;
   }
 
   /* Service Slider */
@@ -229,7 +237,8 @@
 
   .service-categories {
     padding-top: 80px;
-    padding-bottom: 100px;
+    /* padding-bottom: 100px; */
+    padding-bottom: 40px;
   }
 
   /* Show Card */
@@ -246,10 +255,11 @@
   .service-details {
     padding-top: 50px;
     padding-bottom: 50px;
-    background-color: #f9fafc;
+    background-color: #f4f4f4;
     margin-top: 30px;
     position: static;
-    height: 340px;
+    /* height: 340px; */
+    height: 250px;
   }
 
   /* Service Card Active */
