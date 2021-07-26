@@ -10,12 +10,12 @@
     <div class="holder">
       <div class="talent-map-wrap v-show">
         <img src="/assets/images/talent_map.svg" alt="map" />
-        <a href="https://primathon.in/contact">
-          <div class="talent-map-developer client-1">
-            {{! template-lint-disable no-invalid-interactive }}
-            <span class="dot"></span>
-            <div class="logo-containter">
-              <div class="logo-wrapper {{if (eq this.activeIndex 1) 'logo-wrapper-show' ''}}">
+        <div class="talent-map-developer client-1">
+          {{! template-lint-disable no-invalid-interactive }}
+          <span class="dot"></span>
+          <div class="logo-containter">
+            <div class="logo-wrapper {{if (eq this.activeIndex 1) 'logo-wrapper-show' ''}}">
+              <a href="https://www.sothebys.com/en/" target="_blank" rel="noopener noreferrer">
                 <img
                   src="/assets/clients/sothebys-logo.svg"
                   loading="lazy"
@@ -23,24 +23,16 @@
                   {{on 'mouseover' (fn this.setActiveIndex 1)}}
                   {{on 'mouseleave' this.removeActiveIndexImage}}
                 />
-                {{!-- <div
-                  class="dev-details {{if (eq this.activeIndex 1) 'show' 'hide'}}"
-                  {{on 'mouseleave' this.removeActiveIndex}}
-                >
-                  <h5>
-                    Sotheby's - USA
-                  </h5>
-                </div> --}}
-              </div>
+              </a>
             </div>
           </div>
-        </a>
-        <a href="https://primathon.in/contact">
-          <div class="talent-map-developer client-2">
-            {{! template-lint-disable no-invalid-interactive }}
-            <span class="dot"></span>
-            <div class="logo-containter">
-              <div class="logo-wrapper {{if (eq this.activeIndex 2) 'logo-wrapper-show' ''}}">
+        </div>
+        <div class="talent-map-developer client-2">
+          {{! template-lint-disable no-invalid-interactive }}
+          <span class="dot"></span>
+          <div class="logo-containter">
+            <div class="logo-wrapper {{if (eq this.activeIndex 2) 'logo-wrapper-show' ''}}">
+              <a href="https://paxful.com/" target="_blank" rel="noopener noreferrer">
                 <img
                   src="/assets/clients/paxful-logo.svg"
                   loading="lazy"
@@ -48,24 +40,16 @@
                   {{on 'mouseover' (fn this.setActiveIndex 2)}}
                   {{on 'mouseleave' this.removeActiveIndexImage}}
                 />
-                {{!-- <div
-                  class="dev-details {{if (eq this.activeIndex 2) 'show' 'hide'}}"
-                  {{on 'mouseleave' this.removeActiveIndex}}
-                >
-                  <h5>
-                    Paxful - USA
-                  </h5>
-                </div> --}}
-              </div>
+              </a>
             </div>
           </div>
-        </a>
-        <a href="https://primathon.in/contact">
-          <div class="talent-map-developer client-3">
-            {{! template-lint-disable no-invalid-interactive }}
-            <span class="dot"></span>
-            <div class="logo-containter">
-              <div class="logo-wrapper {{if (eq this.activeIndex 3) 'logo-wrapper-show' ''}}">
+        </div>
+        <div class="talent-map-developer client-3">
+          {{! template-lint-disable no-invalid-interactive }}
+          <span class="dot"></span>
+          <div class="logo-containter">
+            <div class="logo-wrapper {{if (eq this.activeIndex 3) 'logo-wrapper-show' ''}}">
+              <a href="https://staybloom.com/" target="_blank" rel="noopener noreferrer">
                 <img
                   src="/assets/clients/staybloom-logo.svg"
                   loading="lazy"
@@ -73,24 +57,16 @@
                   {{on 'mouseover' (fn this.setActiveIndex 3)}}
                   {{on 'mouseleave' this.removeActiveIndexImage}}
                 />
-                {{!-- <div
-                  class="dev-details {{if (eq this.activeIndex 3) 'show' 'hide'}}"
-                  {{on 'mouseleave' this.removeActiveIndex}}
-                >
-                  <h5>
-                    Bloom - India
-                  </h5>
-                </div> --}}
-              </div>
+              </a>
             </div>
           </div>
-        </a>
-        <a href="https://primathon.in/contact">
-          <div class="talent-map-developer client-4">
-            {{! template-lint-disable no-invalid-interactive }}
-            <span class="dot"></span>
-            <div class="logo-containter">
-              <div class="logo-wrapper {{if (eq this.activeIndex 4) 'logo-wrapper-show' ''}}">
+        </div>
+        <div class="talent-map-developer client-4">
+          {{! template-lint-disable no-invalid-interactive }}
+          <span class="dot"></span>
+          <div class="logo-containter">
+            {{!-- <div class="logo-wrapper {{if (eq this.activeIndex 4) 'logo-wrapper-show' ''}}">
+              <a href="https://www.freshworks.com/" target="_blank" rel="noopener noreferrer">
                 <img
                   src="/assets/clients/freshworks-logo.svg"
                   loading="lazy"
@@ -98,24 +74,27 @@
                   {{on 'mouseover' (fn this.setActiveIndex 4)}}
                   {{on 'mouseleave' this.removeActiveIndexImage}}
                 />
-                {{!-- <div
-                  class="dev-details {{if (eq this.activeIndex 4) 'show' 'hide'}}"
-                  {{on 'mouseleave' this.removeActiveIndex}}
-                >
-                  <h5>
-                    Freshworks - India
-                  </h5>
-                </div> --}}
-              </div>
+              </a>
+            </div> --}}
+            <div class="logo-wrapper {{if (eq this.activeIndex 4) 'logo-wrapper-show' ''}}">
+              <a href="https://www.freshworks.com/" target="_blank" rel="noopener noreferrer">
+                <img
+                  src="/assets/clients/freshworks-logo.svg"
+                  loading="lazy"
+                  alt="Primathon Client"
+                  {{on 'mouseover' (fn this.setActiveIndex 4)}}
+                  {{on 'mouseleave' this.removeActiveIndexImage}}
+                />
+              </a>
             </div>
           </div>
-        </a>
-        <a href="https://primathon.in/contact">
-          <div class="talent-map-developer client-5">
-            {{! template-lint-disable no-invalid-interactive }}
-            <span class="dot"></span>
-            <div class="logo-containter">
-              <div class="logo-wrapper {{if (eq this.activeIndex 5) 'logo-wrapper-show' ''}}">
+        </div>
+        <div class="talent-map-developer client-5">
+          {{! template-lint-disable no-invalid-interactive }}
+          <span class="dot"></span>
+          <div class="logo-containter">
+            <div class="logo-wrapper {{if (eq this.activeIndex 5) 'logo-wrapper-show' ''}}">
+              <a href="https://graphcms.com/" target="_blank" rel="noopener noreferrer">
                 <img
                   src="/assets/clients/graphcms.svg"
                   loading="lazy"
@@ -123,24 +102,16 @@
                   {{on 'mouseover' (fn this.setActiveIndex 5)}}
                   {{on 'mouseleave' this.removeActiveIndexImage}}
                 />
-                {{!-- <div
-                  class="dev-details {{if (eq this.activeIndex 5) 'show' 'hide'}}"
-                  {{on 'mouseleave' this.removeActiveIndex}}
-                >
-                  <h5>
-                    GraphCMS - Europe
-                  </h5>
-                </div> --}}
-              </div>
+              </a>
             </div>
           </div>
-        </a>
-        <a href="https://primathon.in/contact">
-          <div class="talent-map-developer client-6">
-            {{! template-lint-disable no-invalid-interactive }}
-            <span class="dot"></span>
-            <div class="logo-containter">
-              <div class="logo-wrapper {{if (eq this.activeIndex 6) 'logo-wrapper-show' ''}}">
+        </div>
+        <div class="talent-map-developer client-6">
+          {{! template-lint-disable no-invalid-interactive }}
+          <span class="dot"></span>
+          <div class="logo-containter">
+            <div class="logo-wrapper {{if (eq this.activeIndex 6) 'logo-wrapper-show' ''}}">
+              <a href="https://usercentrics.com/" target="_blank" rel="noopener noreferrer">
                 <img
                   src="/assets/clients/usercentrics-logo.svg"
                   loading="lazy"
@@ -148,24 +119,16 @@
                   {{on 'mouseover' (fn this.setActiveIndex 6)}}
                   {{on 'mouseleave' this.removeActiveIndexImage}}
                 />
-                {{!-- <div
-                  class="dev-details {{if (eq this.activeIndex 6) 'show' 'hide'}}"
-                  {{on 'mouseleave' this.removeActiveIndex}}
-                >
-                  <h5>
-                    UserCentrics - Spain
-                  </h5>
-                </div> --}}
-              </div>
+              </a>
             </div>
           </div>
-        </a>
-        <a href="https://primathon.in/contact">
-          <div class="talent-map-developer client-7">
-            {{! template-lint-disable no-invalid-interactive }}
-            <span class="dot"></span>
-            <div class="logo-containter">
-              <div class="logo-wrapper {{if (eq this.activeIndex 7) 'logo-wrapper-show' ''}}">
+        </div>
+        <div class="talent-map-developer client-7">
+          {{! template-lint-disable no-invalid-interactive }}
+          <span class="dot"></span>
+          <div class="logo-containter">
+            <div class="logo-wrapper {{if (eq this.activeIndex 7) 'logo-wrapper-show' ''}}">
+              <a href="https://www.appsmith.com/" target="_blank" rel="noopener noreferrer">
                 <img
                   src="/assets/clients/appsmith-dark-logo.png"
                   loading="lazy"
@@ -173,24 +136,16 @@
                   {{on 'mouseover' (fn this.setActiveIndex 7)}}
                   {{on 'mouseleave' this.removeActiveIndexImage}}
                 />
-                {{!-- <div
-                  class="dev-details {{if (eq this.activeIndex 7) 'show' 'hide'}}"
-                  {{on 'mouseleave' this.removeActiveIndex}}
-                >
-                  <h5>
-                    AppSmith - India
-                  </h5>
-                </div> --}}
-              </div>
+              </a>
             </div>
           </div>
-        </a>
-        <a href="https://primathon.in/contact">
-          <div class="talent-map-developer client-8">
-            {{! template-lint-disable no-invalid-interactive }}
-            <span class="dot"></span>
-            <div class="logo-containter">
-              <div class="logo-wrapper {{if (eq this.activeIndex 8) 'logo-wrapper-show' ''}}">
+        </div>
+        <div class="talent-map-developer client-8">
+          {{! template-lint-disable no-invalid-interactive }}
+          <span class="dot"></span>
+          <div class="logo-containter">
+            <div class="logo-wrapper {{if (eq this.activeIndex 8) 'logo-wrapper-show' ''}}">
+              <a href="https://www.stockal.com/" target="_blank" rel="noopener noreferrer">
                 <img
                   src="/assets/clients/stockal.svg"
                   loading="lazy"
@@ -198,25 +153,16 @@
                   {{on 'mouseover' (fn this.setActiveIndex 8)}}
                   {{on 'mouseleave' this.removeActiveIndexImage}}
                 />
-                {{!-- <div
-                  class="dev-details {{if (eq this.activeIndex 8) 'show' 'hide'}}"
-                  {{on 'mouseleave' this.removeActiveIndex}}
-                >
-                  <h5>
-                    Stockal - India
-                  </h5>
-                </div> --}}
-              </div>
+              </a>
             </div>
           </div>
-        </a>
-        {{! extra }}
-        <a href="https://primathon.in/contact">
-          <div class="talent-map-developer client-9">
-            {{! template-lint-disable no-invalid-interactive }}
-            <span class="dot"></span>
-            <div class="logo-containter">
-              <div class="logo-wrapper {{if (eq this.activeIndex 9) 'logo-wrapper-show' ''}}">
+        </div>
+        <div class="talent-map-developer client-9">
+          {{! template-lint-disable no-invalid-interactive }}
+          <span class="dot"></span>
+          <div class="logo-containter">
+            <div class="logo-wrapper {{if (eq this.activeIndex 9) 'logo-wrapper-show' ''}}">
+              <a href="https://publaunch.com/" target="_blank" rel="noopener noreferrer">
                 <img
                   src="/assets/clients/publaunch-logo.svg"
                   loading="lazy"
@@ -224,49 +170,33 @@
                   {{on 'mouseover' (fn this.setActiveIndex 9)}}
                   {{on 'mouseleave' this.removeActiveIndexImage}}
                 />
-                {{!-- <div
-                  class="dev-details {{if (eq this.activeIndex 9) 'show' 'hide'}}"
-                  {{on 'mouseleave' this.removeActiveIndex}}
-                >
-                  <h5>
-                    Publaunch - Canada
-                  </h5>
-                </div> --}}
-              </div>
+              </a>
             </div>
           </div>
-        </a>
-        <a href="https://primathon.in/contact">
-          <div class="talent-map-developer client-10">
-            {{! template-lint-disable no-invalid-interactive }}
-            <span class="dot"></span>
-            <div class="logo-containter">
-              <div class="logo-wrapper {{if (eq this.activeIndex 10) 'logo-wrapper-show' ''}}">
-                <img
-                  src="/assets/clients/cococola-logo.jpg"
-                  loading="lazy"
-                  alt="Primathon Client"
-                  {{on 'mouseover' (fn this.setActiveIndex 10)}}
-                  {{on 'mouseleave' this.removeActiveIndexImage}}
-                />
-                {{!-- <div
-                  class="dev-details {{if (eq this.activeIndex 10) 'show' 'hide'}}"
-                  {{on 'mouseleave' this.removeActiveIndex}}
-                >
-                  <h5>
-                    Coca Cola - USA
-                  </h5>
-                </div> --}}
-              </div>
+        </div>
+        <div class="talent-map-developer client-10">
+          {{! template-lint-disable no-invalid-interactive }}
+          <span class="dot"></span>
+          <div class="logo-containter">
+            <div class="logo-wrapper {{if (eq this.activeIndex 10) 'logo-wrapper-show' ''}}">
+              <a href="https://www.coca-cola.com" target="_blank" rel="noopener noreferrer"></a>
+              <img
+                src="/assets/clients/cococola-logo.jpg"
+                loading="lazy"
+                alt="Primathon Client"
+                {{on 'mouseover' (fn this.setActiveIndex 10)}}
+                {{on 'mouseleave' this.removeActiveIndexImage}}
+              />
+              <a href="https://www.coca-cola.com" target="_blank" rel="noopener noreferrer"></a>
             </div>
           </div>
-        </a>
-        <a href="https://primathon.in/contact">
-          <div class="talent-map-developer client-11">
-            {{! template-lint-disable no-invalid-interactive }}
-            <span class="dot"></span>
-            <div class="logo-containter">
-              <div class="logo-wrapper {{if (eq this.activeIndex 11) 'logo-wrapper-show' ''}}">
+        </div>
+        <div class="talent-map-developer client-11">
+          {{! template-lint-disable no-invalid-interactive }}
+          <span class="dot"></span>
+          <div class="logo-containter">
+            <div class="logo-wrapper {{if (eq this.activeIndex 11) 'logo-wrapper-show' ''}}">
+              <a href="https://crypterns.com/" target="_blank" rel="noopener noreferrer">
                 <img
                   src="/assets/clients/crypterns-logo.png"
                   loading="lazy"
@@ -274,18 +204,10 @@
                   {{on 'mouseover' (fn this.setActiveIndex 11)}}
                   {{on 'mouseleave' this.removeActiveIndexImage}}
                 />
-                {{!-- <div
-                  class="dev-details {{if (eq this.activeIndex 11) 'show' 'hide'}}"
-                  {{on 'mouseleave' this.removeActiveIndex}}
-                >
-                  <h5>
-                    Crypterns - Canada
-                  </h5>
-                </div> --}}
-              </div>
+              </a>
             </div>
           </div>
-        </a>
+        </div>
       </div>
     </div>
   </div>
