@@ -1,191 +1,210 @@
-<div class='container-fluid talent-map'>
-  <div class='container'>
-    <h2 class='center'>Meet Our Global Clients</h2>
-    <p class='section-sub center'>Been providing our Partners and Clients with what they require before they even know
-      it!</p>
-    <div class='holder'>
-      <div class='talent-map-wrap v-show'>
-        <img src='/assets/images/talent_map.svg' alt='map' />
-        <a href='https://primathon.in/contact'>
-          <div class='talent-map-developer client-1'>
+<div class="container-fluid talent-map">
+  <div class="container">
+    <h2 class="center">
+      Meet Our Global Clients
+    </h2>
+    <p class="section-sub center">
+      Been providing our Partners and Clients with what they require before they even know
+      it!
+    </p>
+    <div class="holder">
+      <div class="talent-map-wrap v-show">
+        <img src="/assets/images/talent_map.svg" alt="map" />
+        <a href="https://primathon.in/contact">
+          <div class="talent-map-developer client-1">
             {{! template-lint-disable no-invalid-interactive }}
-            <span class='dot'></span>
+            <span class="dot"></span>
             <div class="logo-containter">
               <div class="logo-wrapper {{if (eq this.activeIndex 1) 'logo-wrapper-show' ''}}">
                 <img
-                  src='/assets/images/indiez.png'
-                  loading='lazy'
-                  alt='Primathon Client'
+                  src="/assets/images/indiez.png"
+                  loading="lazy"
+                  alt="Primathon Client"
                   {{on 'mouseover' (fn this.setActiveIndex 1)}}
                   {{on 'mouseleave' this.removeActiveIndexImage}}
                 />
-              
                 <div
-                  class='dev-details {{if (eq this.activeIndex 1) 'show' 'hide'}}'
+                  class="dev-details {{if (eq this.activeIndex 1) 'show' 'hide'}}"
                   {{on 'mouseleave' this.removeActiveIndex}}
                 >
-                  <h5>Indiez</h5>
-                </div>      
+                  <h5>
+                    Indiez
+                  </h5>
+                </div>
               </div>
             </div>
           </div>
         </a>
-        <a href='https://primathon.in/contact'>
-          <div class='talent-map-developer client-2'>
+        <a href="https://primathon.in/contact">
+          <div class="talent-map-developer client-2">
             {{! template-lint-disable no-invalid-interactive }}
-            <span class='dot'></span>
+            <span class="dot"></span>
             <div class="logo-containter">
               <div class="logo-wrapper {{if (eq this.activeIndex 2) 'logo-wrapper-show' ''}}">
                 <img
-                  src='/assets/images/logo-paxful.jpeg'
-                  loading='lazy'
-                  alt='Primathon Client'
+                  src="/assets/images/logo-paxful.jpeg"
+                  loading="lazy"
+                  alt="Primathon Client"
                   {{on 'mouseover' (fn this.setActiveIndex 2)}}
                   {{on 'mouseleave' this.removeActiveIndexImage}}
                 />
                 <div
-                  class='dev-details {{if (eq this.activeIndex 2) 'show' 'hide'}}'
+                  class="dev-details {{if (eq this.activeIndex 2) 'show' 'hide'}}"
                   {{on 'mouseleave' this.removeActiveIndex}}
                 >
-                  <h5>Paxful</h5>
+                  <h5>
+                    Paxful
+                  </h5>
                 </div>
-              </div>     
+              </div>
             </div>
           </div>
         </a>
-        <a href='https://primathon.in/contact'>
-          <div class='talent-map-developer client-3'>
+        <a href="https://primathon.in/contact">
+          <div class="talent-map-developer client-3">
             {{! template-lint-disable no-invalid-interactive }}
-            <span class='dot'></span>
+            <span class="dot"></span>
             <div class="logo-containter">
               <div class="logo-wrapper {{if (eq this.activeIndex 3) 'logo-wrapper-show' ''}}">
                 <img
-                  src='/assets/images/freshdesk.png'
-                  loading='lazy'
-                  alt='Primathon Client'
+                  src="/assets/images/freshdesk.png"
+                  loading="lazy"
+                  alt="Primathon Client"
                   {{on 'mouseover' (fn this.setActiveIndex 3)}}
                   {{on 'mouseleave' this.removeActiveIndexImage}}
                 />
                 <div
-                  class='dev-details {{if (eq this.activeIndex 3) 'show' 'hide'}}'
+                  class="dev-details {{if (eq this.activeIndex 3) 'show' 'hide'}}"
                   {{on 'mouseleave' this.removeActiveIndex}}
                 >
-                  <h5>Freshworks</h5>
+                  <h5>
+                    Freshworks
+                  </h5>
                 </div>
               </div>
             </div>
           </div>
         </a>
-        <a href='https://primathon.in/contact'>
-          <div class='talent-map-developer client-4'>
+        <a href="https://primathon.in/contact">
+          <div class="talent-map-developer client-4">
             {{! template-lint-disable no-invalid-interactive }}
-            <span class='dot'></span>
+            <span class="dot"></span>
             <div class="logo-containter">
               <div class="logo-wrapper {{if (eq this.activeIndex 4) 'logo-wrapper-show' ''}}">
                 <img
-                  src='/assets/images/logo_appsmith.png'
-                  loading='lazy'
-                  alt='Primathon Client'
+                  src="/assets/images/logo_appsmith.png"
+                  loading="lazy"
+                  alt="Primathon Client"
                   {{on 'mouseover' (fn this.setActiveIndex 4)}}
                   {{on 'mouseleave' this.removeActiveIndexImage}}
                 />
                 <div
-                  class='dev-details {{if (eq this.activeIndex 4) 'show' 'hide'}}'
+                  class="dev-details {{if (eq this.activeIndex 4) 'show' 'hide'}}"
                   {{on 'mouseleave' this.removeActiveIndex}}
                 >
-                  <h5>Appsmith</h5>
+                  <h5>
+                    Appsmith
+                  </h5>
                 </div>
               </div>
             </div>
           </div>
         </a>
-        <a href='https://primathon.in/contact'>
-          <div class='talent-map-developer client-5'>
+        <a href="https://primathon.in/contact">
+          <div class="talent-map-developer client-5">
             {{! template-lint-disable no-invalid-interactive }}
-            <span class='dot'></span>
+            <span class="dot"></span>
             <div class="logo-containter">
               <div class="logo-wrapper {{if (eq this.activeIndex 5) 'logo-wrapper-show' ''}}">
                 <img
-                  src='/assets/images/logo_bis.png'
-                  loading='lazy'
-                  alt='Primathon Client'
+                  src="/assets/images/logo_bis.png"
+                  loading="lazy"
+                  alt="Primathon Client"
                   {{on 'mouseover' (fn this.setActiveIndex 5)}}
                   {{on 'mouseleave' this.removeActiveIndexImage}}
                 />
                 <div
-                  class='dev-details {{if (eq this.activeIndex 5) 'show' 'hide'}}'
+                  class="dev-details {{if (eq this.activeIndex 5) 'show' 'hide'}}"
                   {{on 'mouseleave' this.removeActiveIndex}}
                 >
-                  <h5>BIS Research</h5>
+                  <h5>
+                    BIS Research
+                  </h5>
                 </div>
               </div>
             </div>
           </div>
         </a>
-        <a href='https://primathon.in/contact'>
-          <div class='talent-map-developer client-6'>
+        <a href="https://primathon.in/contact">
+          <div class="talent-map-developer client-6">
             {{! template-lint-disable no-invalid-interactive }}
-            <span class='dot'></span>
+            <span class="dot"></span>
             <div class="logo-containter">
               <div class="logo-wrapper {{if (eq this.activeIndex 6) 'logo-wrapper-show' ''}}">
                 <img
-                  src='/assets/images/logo_edfora.png'
-                  loading='lazy'
-                  alt='Primathon Client'
+                  src="/assets/images/logo_edfora.png"
+                  loading="lazy"
+                  alt="Primathon Client"
                   {{on 'mouseover' (fn this.setActiveIndex 6)}}
                   {{on 'mouseleave' this.removeActiveIndexImage}}
                 />
                 <div
-                  class='dev-details {{if (eq this.activeIndex 6) 'show' 'hide'}}'
+                  class="dev-details {{if (eq this.activeIndex 6) 'show' 'hide'}}"
                   {{on 'mouseleave' this.removeActiveIndex}}
                 >
-                  <h5>Edfora</h5>
+                  <h5>
+                    Edfora
+                  </h5>
                 </div>
               </div>
             </div>
           </div>
         </a>
-        <a href='https://primathon.in/contact'>
-          <div class='talent-map-developer client-7'>
+        <a href="https://primathon.in/contact">
+          <div class="talent-map-developer client-7">
             {{! template-lint-disable no-invalid-interactive }}
-            <span class='dot'></span>
+            <span class="dot"></span>
             <div class="logo-containter">
               <div class="logo-wrapper {{if (eq this.activeIndex 7) 'logo-wrapper-show' ''}}">
                 <img
-                  src='/assets/images/leena.jpeg'
-                  loading='lazy'
-                  alt='Primathon Client'
+                  src="/assets/images/leena.jpeg"
+                  loading="lazy"
+                  alt="Primathon Client"
                   {{on 'mouseover' (fn this.setActiveIndex 7)}}
                   {{on 'mouseleave' this.removeActiveIndexImage}}
                 />
                 <div
-                  class='dev-details {{if (eq this.activeIndex 7) 'show' 'hide'}}'
+                  class="dev-details {{if (eq this.activeIndex 7) 'show' 'hide'}}"
                   {{on 'mouseleave' this.removeActiveIndex}}
                 >
-                  <h5>Leena</h5>
+                  <h5>
+                    Leena
+                  </h5>
                 </div>
               </div>
             </div>
           </div>
         </a>
-        <a href='https://primathon.in/contact'>
-          <div class='talent-map-developer client-8'>
+        <a href="https://primathon.in/contact">
+          <div class="talent-map-developer client-8">
             {{! template-lint-disable no-invalid-interactive }}
-            <span class='dot'></span>
+            <span class="dot"></span>
             <div class="logo-containter">
               <div class="logo-wrapper {{if (eq this.activeIndex 8) 'logo-wrapper-show' ''}}">
                 <img
-                  src='/assets/images/logo-minto.jpeg'
-                  loading='lazy'
-                  alt='Primathon Client'
+                  src="/assets/images/logo-minto.jpeg"
+                  loading="lazy"
+                  alt="Primathon Client"
                   {{on 'mouseover' (fn this.setActiveIndex 8)}}
                   {{on 'mouseleave' this.removeActiveIndexImage}}
                 />
                 <div
-                  class='dev-details {{if (eq this.activeIndex 8) 'show' 'hide'}}'
+                  class="dev-details {{if (eq this.activeIndex 8) 'show' 'hide'}}"
                   {{on 'mouseleave' this.removeActiveIndex}}
                 >
-                  <h5>Minto</h5>
+                  <h5>
+                    Minto
+                  </h5>
                 </div>
               </div>
             </div>
@@ -194,5 +213,5 @@
       </div>
     </div>
   </div>
-  <div class='red-arc'></div>
+  <div class="red-arc"></div>
 </div>

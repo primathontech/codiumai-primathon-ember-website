@@ -14,6 +14,28 @@
             GET IN TOUCH
           </LinkTo>
         </div>
+        <div class="video-wrapper">
+          <div class="video-holder">
+            <video
+              poster="/assets/videos/video-poster.png"
+              autoplay={{true}}
+              muted={{false}}
+              loop={{false}}
+              controls={{this.showControls}}
+              {{on 'ended' this.onEnded}}
+              {{timeout-callback this.playVideo 5000}}
+            >
+              {{#if this.videoSource}}
+                <source src={{this.videoSource}} type="video/mp4" />
+              {{/if}}
+            </video>
+            {{#if this.showPlayButton}}
+              <button type="button" class="play-button" {{on 'click' this.playVideo}}>
+                <img alt="Video Acton" src="assets/svgs/play.svg" />
+              </button>
+            {{/if}}
+          </div>
+        </div>
       </div>
     </div>
   </section>
