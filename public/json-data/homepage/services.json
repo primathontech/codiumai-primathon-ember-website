@@ -6,7 +6,8 @@
       "linkUrl": "/",
       "imageUrl": "/assets/svgs/right_fit.svg",
       "title": "End-to-end Products",
-      "description": "From Start to Finish- Your Project is now Ours!",
+      "subTitle": "From Start to Finish- Your Project is now Ours!",
+      "description":"From understanding your requirements to perfectly catering to them, from handling your E-commerce development to digitally transforming your business we have the most suitable technological solutions for you. ",
       "infoPoint": [
         "Dashboards and Data visualization",
         "Shopify Stores",
@@ -23,7 +24,8 @@
       "linkUrl": "/",
       "imageUrl": "/assets/svgs/exceptional_engineers.svg",
       "title": "Staff Augmentation      ",
-      "description": "We find the best Talent for you!",
+      "subTitle": "We find the best Talent for you!",
+      "description":"Count on us if you need an extra pair of experienced hands. We provide the individual or a whole team of Software Developers at one place by identifying the cream of designers and developers.",
       "infoPoint": [
         "Frontend Developers",
         "Backend developers",
@@ -37,7 +39,8 @@
       "linkUrl": "/",
       "imageUrl": "/assets/svgs/developers.svg",
       "title": "Build & Manage",
-      "description": "Not just Building, We also Manage your Products!"
+      "subTitle": "Not just Building, We also Manage your Products!",
+      "description":"We deliver as we Guarantee. We assure the best management with Value-driven technology aiming at digitally transforming your business keeping intact the latest industry trends."
     }
   ]
 }
