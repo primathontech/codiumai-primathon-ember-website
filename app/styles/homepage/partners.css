@@ -9,6 +9,10 @@
   justify-content: space-between;
 }
 
+.trusted-by-wide .hire-trusted-by .trusted-by-brands--scroll {
+  flex: 1;
+}
+
 .trusted-by-wide .hire-trusted-by .trusted-by-txt {
   max-width: 11%;
   display: flex;
@@ -27,11 +31,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100%;
 }
 
 .trusted-by-wide .hire-trusted-by .trusted-by-brands .logo-wrapper {
   display: inline-block;
-  padding: 0 15px;
+  flex: 1;
+  margin: 0 20px;
 }
 
 .trusted-by-wide .hire-trusted-by .trusted-by-brands .hover-logo {
@@ -124,5 +130,6 @@
     width: 50%;
     height: 100px;
     padding: 20px;
+    margin: 0;
   }
 }

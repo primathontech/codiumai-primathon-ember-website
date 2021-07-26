@@ -90,7 +90,7 @@
   box-shadow: 0px 0px 6px 3px rgb(0 0 0);
 }
 
-.talent-map .talent-map-wrap .talent-map-developer .expand, 
+.talent-map .talent-map-wrap .talent-map-developer .expand,
 .talent-map .talent-map-wrap .talent-map-developer .shrink {
   border-radius: 50%;
   width: 50px;
@@ -101,8 +101,6 @@
 .talent-map .talent-map-wrap .talent-map-developer .shrink {
   overflow: hidden;
 }
-
-
 
 /* v-show Class */
 .talent-map .v-show,
@@ -186,27 +184,41 @@
   left: 64%;
 }
 
+.talent-map .client-9 {
+  top: 20%;
+  left: 60%;
+}
 
-.v-show.talent-map-wrap .talent-map-developer .logo-wrapper-show{
+.talent-map .client-10 {
+  top: 20%;
+  left: 65%;
+}
+
+.talent-map .client-11 {
+  top: 20%;
+  left: 70%;
+}
+
+.v-show.talent-map-wrap .talent-map-developer .logo-wrapper-show {
   background: #ffffff;
   height: 100%;
   width: 100%;
   overflow: hidden;
 }
 
-.v-show.talent-map-wrap .talent-map-developer .logo-wrapper-show img{ 
+.v-show.talent-map-wrap .talent-map-developer .logo-wrapper-show img {
   border-radius: 0%;
 }
 
-.logo-wrapper{
+.logo-wrapper {
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  transition: height 0.5s ease, width 0.5s ease, border-radius 1s ;
+  transition: height 0.5s ease, width 0.5s ease, border-radius 1s;
   margin: auto;
 }
 
-.logo-containter{
+.logo-containter {
   width: 105px;
   height: 105px;
 }

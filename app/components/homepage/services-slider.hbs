@@ -19,7 +19,7 @@
               {{data.title}}
             </h3>
             <p id={{if (eq index 2) 'service-details'}}>
-              {{data.description}}
+              {{data.subTitle}}
             </p>
             {{! 
             <svg height="10.547" viewBox="0 0 13.047 10.547" width="13.047" xmlns="http://www.w3.org/2000/svg">
@@ -46,10 +46,9 @@
           <h3>
             {{v.title}}
           </h3>
-          {{!--
           <p>
             {{v.description}}
-          </p> --}}
+          </p>
           {{#if v.infoPoint}}
             <ul>
               {{#each v.infoPoint as |infoData|}}
