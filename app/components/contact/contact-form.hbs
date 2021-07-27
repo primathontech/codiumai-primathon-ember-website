@@ -64,6 +64,17 @@
         </label>
       {{/if}}
     </div>
+     <div class="form-field">
+      <label for="phone" class="form-label">
+        Phone number
+      </label>
+      <Input name="phone" type="number" @type="phone" @value={{this.userQuestion.phone}} class="form-input form-input-number" onfocus={{this.focus}} />
+      {{#if this.validation.phone}}
+        <label class="errMessage">
+          {{this.validation.phone}}
+        </label>
+      {{/if}}
+    </div>
     <div class="form-field">
       <label for="message" class="form-label">
         Message

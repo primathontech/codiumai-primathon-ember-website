@@ -10,6 +10,7 @@ export default class ContactContactFormComponent extends Component {
     firstName: '',
     lastName: '',
     email: '',
+    phone: '',
     message: '',
   };
 
@@ -18,6 +19,7 @@ export default class ContactContactFormComponent extends Component {
     firstName: '',
     lastName: '',
     email: '',
+    phone:'',
     message: '',
   };
 
@@ -47,6 +49,10 @@ export default class ContactContactFormComponent extends Component {
       validateObj.email = 'Please enter valid email';
       isValidated = false;
     }
+    if ((formObj.phone.length > 10 || formObj.phone.length < 10) && formObj.phone.length !== 0 ) {
+      validateObj.phone = 'Please enter valid phone number';
+      isValidated = false;
+    }
     if (formObj.message.length < 10) {
       validateObj.message = 'Please enter valid message';
       isValidated = false;
@@ -55,11 +61,18 @@ export default class ContactContactFormComponent extends Component {
     return isValidated;
   }
 
-  @action
-  sendMessage() {
+  @action sendMessage() {
     if (this.validate()) {
       console.log(this.userQuestion);
       this.submitted = true;
+      const recipient = 'yashveer@primathon.in'
+      const subject = 'New Sales Enquiry'
+      const body = `Name: ${this.userQuestion.firstName} ${this.userQuestion.lastName}
+Email: ${this.userQuestion.email} 
+${this.userQuestion.phone ? 'Phone: '+ this.userQuestion.phone : ''}
+      
+${this.userQuestion.message}`
+      window.open(`mailto:${recipient}?subject=${subject}&body=${encodeURIComponent(body)}`);
     } else {
       console.log(this.validation);
     }
