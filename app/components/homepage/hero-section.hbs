@@ -10,11 +10,14 @@
             We help hundreds of companies worldwide build and scale engineering teams with
             distributed talent.
           </h2>
-          <LinkTo @route="contact" class="btn btn-normal">
-            GET IN TOUCH
-          </LinkTo>
+          <div class="action-holder">
+            <LinkTo @route="contact" class="btn btn-normal">
+              GET IN TOUCH
+            </LinkTo>
+            <Homepage::VideoButton @onClick={{this.playVideo}} />
+          </div>
         </div>
-        <div class="video-wrapper">
+        <div class="video-wrapper {{if this.showMobileVideoView 'show-video'}}">
           <div class="video-holder">
             <video
               poster="/assets/videos/macbook.png"

@@ -7,6 +7,7 @@ export default class HomepageHeroSectionComponent extends Component {
   @tracked showControls = false;
   @tracked showPlayButton = true;
   @tracked autoplay = true;
+  @tracked showMobileVideoView = false;
   videoId = 'POSTER_VIDEO';
   _videoUrl = 'https://prima3d.s3.amazonaws.com/primathon.mp4';
   _isFullScreen = false;
@@ -41,6 +42,8 @@ export default class HomepageHeroSectionComponent extends Component {
     } else if (this._element.msRequestFullscreen) {
       this._element.msRequestFullscreen();
     }
+
+    this.showMobileVideoView = true;
   }
 
   @action
@@ -55,6 +58,7 @@ export default class HomepageHeroSectionComponent extends Component {
 
   @action
   onEnded() {
+    this.showMobileVideoView = false;
     this.showPlayButton = true;
     this.showControls = false;
     this.videoSource = '';

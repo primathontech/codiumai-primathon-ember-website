@@ -104,10 +104,16 @@
 
 .video-wrapper {
   padding: 0 15px;
+  display: none;
 }
 
 .video-holder {
   position: relative;
+  background-image: url('/assets/videos/poster-background.png');
+  background-size: 91% 65%;
+  background-repeat: no-repeat;
+  background-position-x: 22px;
+  background-position-y: 20px;
 }
 
 .video-holder video {
@@ -159,6 +165,7 @@
   }
 
   .video-wrapper {
+    display: block;
     position: absolute;
     right: 0;
     /* background-color: #f1b236;
@@ -258,7 +265,7 @@
 }
 
 #hero-general .hero-wrap .hero-content .btn.btn {
-  margin-right: 10px;
+  margin-right: 0px;
   margin-bottom: 40px;
 }
 
