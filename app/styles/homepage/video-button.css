@@ -1,0 +1,32 @@
+#hero-general .video-button {
+  padding: 1.8rem 3rem;
+  border: 1px solid #24b768;
+  margin-bottom: 40px;
+  border-radius: 3px;
+  width: 100%;
+  font-size: 14px;
+  letter-spacing: 0.35px;
+  color: #24b768;
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: 1.26;
+}
+
+#hero-general .video-button:focus {
+  outline: none;
+}
+
+#hero-general .show-video {
+  display: block;
+}
+
+@media (min-width: 993px) {
+  #hero-general .video-button {
+    margin-left: 20px;
+    width: auto;
+  }
+
+  #hero-general .action-holder {
+    display: flex;
+  }
+}

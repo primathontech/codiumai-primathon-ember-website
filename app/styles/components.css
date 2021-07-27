@@ -15,6 +15,7 @@
 @import './homepage/code-value';
 @import './homepage/testimonial';
 @import './homepage/blog';
+@import './homepage/video-button';
 
 /* Contact */
 @import './contact/hero-section';
