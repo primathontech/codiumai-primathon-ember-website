@@ -13,7 +13,7 @@
 .pre-footer-wrap {
   background-image: url('/assets/images/cta_bg.svg');
   background-position: 50%;
-  height: 250px;
+  min-height: 250px;
   background-size: cover;
   background-repeat: no-repeat;
   padding-top: 0;

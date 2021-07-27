@@ -17,8 +17,8 @@ export default class HomepageClientsSectionComponent extends Component {
 
   @action
   removeActiveIndexImage($event) {
-    if ($event.offsetY < 12) {
-      this.activeIndex = null;
-    }
+    // if ($event.offsetY < 12) {
+    this.activeIndex = null;
+    // }
   }
 }
