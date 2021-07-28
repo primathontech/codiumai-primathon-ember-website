@@ -72,6 +72,23 @@
     </div>
     <div class="form-field">
       <label for="phone" class="form-label">
+        Country Code
+      </label>
+      <Input
+        name="countryCode"
+        @type="text"
+        @value={{this.userQuestion.countryCode}}
+        class="form-input form-input-number"
+        {{on 'focus' (fn this.resetErrorMessage 'countryCode')}}
+      />
+      {{#if this.validation.countryCode}}
+        <label class="errMessage">
+          {{this.validation.countryCode}}
+        </label>
+      {{/if}}
+    </div>
+    <div class="form-field">
+      <label for="phone" class="form-label">
         Phone number
       </label>
       <Input
@@ -128,7 +145,12 @@
         </label>
       {{/if}}
     </div>
-    <button class="submit-btn" {{on 'click' this.sendMessage}}>
+    {{#if this.apiError}}
+      <span class="errMessage">
+        Some error occurred. please try again later.
+      </span>
+    {{/if}}
+    <button type="submit" class="submit-btn" disabled={{this.apiInProgress}} {{on 'click' this.sendMessage}}>
       SEND MESSAGE
     </button>
   </div>
