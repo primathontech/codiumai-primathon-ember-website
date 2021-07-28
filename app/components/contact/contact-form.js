@@ -72,7 +72,6 @@ export default class ContactContactFormComponent extends Component {
 
   @action sendMessage() {
     if (this.validate()) {
-      console.log(this.userQuestion);
       this.submitted = true;
       const recipient = 'yashveer@primathon.in';
       const subject = 'New Sales Enquiry';
