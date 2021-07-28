@@ -11,7 +11,7 @@
             distributed talent.
           </h2>
           <div class="action-holder">
-            <LinkTo @route="contact" class="btn btn-normal">
+            <LinkTo @route="contact" class="btn btn-normal" {{on 'click' this.onGetInTouch}}>
               GET IN TOUCH
             </LinkTo>
             <Homepage::VideoButton @onClick={{this.playVideo}} />

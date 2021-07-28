@@ -25,14 +25,14 @@
         target="_blank"
         class="menu-blog"
         rel="noopener noreferrer"
-        {{on 'click' this.closeOpenMenu}}
+        {{on 'click' (fn this.closeOpenMenu 'blog')}}
       >
         Blog
       </a>
       {{! <LinkTo @route="careers" class="menu-careers">
         Careers
       </LinkTo> }}
-      <LinkTo @route="contact" class="menu-contact" {{on 'click' this.closeOpenMenu}}>
+      <LinkTo @route="contact" class="menu-contact" {{on 'click' (fn this.closeOpenMenu 'contact')}}>
         Contact
       </LinkTo>
     </div>
