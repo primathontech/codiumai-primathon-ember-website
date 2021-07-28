@@ -12,6 +12,15 @@ export default class HomepageHeroSectionComponent extends Component {
   _videoUrl = 'https://prima3d.s3.amazonaws.com/primathon.mp4';
   _isFullScreen = false;
 
+  trackVideoPlayEvent() {
+    if (window.gtag) {
+      window.gtag('event', 'video_auto_play_start', {
+        event_label: 'Poster Video',
+        event_category: 'video_auto_play',
+      });
+    }
+  }
+
   @action
   playVideo() {
     if (!this._element) {
@@ -19,6 +28,8 @@ export default class HomepageHeroSectionComponent extends Component {
     }
     this.videoSource = this._videoUrl;
     this.showPlayButton = false;
+
+    this.trackVideoPlayEvent();
   }
 
   @action
