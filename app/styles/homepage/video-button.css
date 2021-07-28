@@ -1,5 +1,5 @@
 #hero-general .video-button {
-  padding: 1.8rem 3rem;
+  padding: 8px 3rem;
   border: 1px solid #24b768;
   margin-bottom: 40px;
   border-radius: 3px;
@@ -20,6 +20,14 @@
   display: block;
 }
 
+#hero-general .button-icon {
+  height: 34px;
+  width: 34px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 12px;
+}
+
 @media (min-width: 993px) {
   #hero-general .video-button {
     margin-left: 20px;
@@ -28,5 +36,13 @@
 
   #hero-general .action-holder {
     display: flex;
+  }
+
+  #hero-general .video-button {
+    padding: 8px;
+  }
+
+  #hero-general .button-icon {
+    margin-right: 6px;
   }
 }
