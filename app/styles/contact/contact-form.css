@@ -57,6 +57,16 @@
   border-style: solid;
   border-width: 1px;
 }
+
+.contact-form .submit-btn:focus {
+  outline: none;
+}
+
+.contact-form .submit-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
 .contact-form textarea.form-input {
   /* height: 70px; */
   padding: 10px 15px;
