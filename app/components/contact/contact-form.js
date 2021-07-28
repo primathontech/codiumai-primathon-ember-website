@@ -11,6 +11,7 @@ export default class ContactContactFormComponent extends Component {
     lastName: '',
     email: '',
     phone: '',
+    companyName: '',
     message: '',
   };
 
@@ -19,14 +20,18 @@ export default class ContactContactFormComponent extends Component {
     firstName: '',
     lastName: '',
     email: '',
-    phone:'',
+    phone: '',
+    companyName: '',
     message: '',
   };
 
   //to remove validation message if focus on input
-  focus = (event) => {
-    this.validation[event.target.name] = '';
-  };
+  @action
+  resetErrorMessage(name) {
+    if (this.validation[name]) {
+      this.validation = { ...this.validation, [name]: '' };
+    }
+  }
 
   @action validate() {
     let emailRegex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
@@ -49,8 +54,12 @@ export default class ContactContactFormComponent extends Component {
       validateObj.email = 'Please enter valid email';
       isValidated = false;
     }
-    if ((formObj.phone.length > 10 || formObj.phone.length < 10) && formObj.phone.length !== 0 ) {
+    if ((formObj.phone.length > 10 || formObj.phone.length < 10) && formObj.phone.length !== 0) {
       validateObj.phone = 'Please enter valid phone number';
+      isValidated = false;
+    }
+    if (formObj.companyName.length < 1) {
+      validateObj.companyName = 'Please enter valid company name';
       isValidated = false;
     }
     if (formObj.message.length < 10) {
@@ -65,16 +74,16 @@ export default class ContactContactFormComponent extends Component {
     if (this.validate()) {
       console.log(this.userQuestion);
       this.submitted = true;
-      const recipient = 'yashveer@primathon.in'
-      const subject = 'New Sales Enquiry'
+      const recipient = 'yashveer@primathon.in';
+      const subject = 'New Sales Enquiry';
       const body = `Name: ${this.userQuestion.firstName} ${this.userQuestion.lastName}
-Email: ${this.userQuestion.email} 
-${this.userQuestion.phone ? 'Phone: '+ this.userQuestion.phone : ''}
-      
-${this.userQuestion.message}`
+      Email: ${this.userQuestion.email} 
+      ${this.userQuestion.phone ? 'Phone: ' + this.userQuestion.phone : ''}
+      Company Name: ${this.userQuestion.companyName} 
+
+      ${this.userQuestion.message}`;
+
       window.open(`mailto:${recipient}?subject=${subject}&body=${encodeURIComponent(body)}`);
-    } else {
-      console.log(this.validation);
     }
   }
 }
