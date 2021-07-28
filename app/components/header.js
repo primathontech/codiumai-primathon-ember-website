@@ -43,7 +43,5 @@ export default class HeaderComponent extends Component {
         this.isHeaderfixed = true;
       }
     }
-
-    console.log(this.isHeaderfixed);
   }
 }
