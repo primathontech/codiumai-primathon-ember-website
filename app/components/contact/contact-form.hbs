@@ -22,7 +22,7 @@
         @type="text"
         @value={{this.userQuestion.firstName}}
         class="form-input"
-        onfocus={{this.focus}}
+        {{on 'focus' (fn this.resetErrorMessage 'firstName')}}
       />
       {{#if this.validation.firstName}}
         <label class="errMessage">
@@ -42,7 +42,7 @@
         @type="text"
         @value={{this.userQuestion.lastName}}
         class="form-input"
-        onfocus={{this.focus}}
+        {{on 'focus' (fn this.resetErrorMessage 'lastName')}}
       />
       {{#if this.validation.lastName}}
         <label class="errMessage">
@@ -57,10 +57,53 @@
           *
         </span>
       </label>
-      <Input name="email" @type="email" @value={{this.userQuestion.email}} class="form-input" onfocus={{this.focus}} />
+      <Input
+        name="email"
+        @type="email"
+        @value={{this.userQuestion.email}}
+        class="form-input"
+        {{on 'focus' (fn this.resetErrorMessage 'email')}}
+      />
       {{#if this.validation.email}}
         <label class="errMessage">
           {{this.validation.email}}
+        </label>
+      {{/if}}
+    </div>
+    <div class="form-field">
+      <label for="phone" class="form-label">
+        Phone number
+      </label>
+      <Input
+        name="phone"
+        @type="number"
+        @value={{this.userQuestion.phone}}
+        class="form-input form-input-number"
+        {{on 'focus' (fn this.resetErrorMessage 'phone')}}
+      />
+      {{#if this.validation.phone}}
+        <label class="errMessage">
+          {{this.validation.phone}}
+        </label>
+      {{/if}}
+    </div>
+    <div class="form-field">
+      <label for="phone" class="form-label">
+        Company Name
+        <span class="required">
+          *
+        </span>
+      </label>
+      <Input
+        name="companyName"
+        @type="text"
+        @value={{this.userQuestion.companyName}}
+        class="form-input form-input-number"
+        {{on 'focus' (fn this.resetErrorMessage 'companyName')}}
+      />
+      {{#if this.validation.companyName}}
+        <label class="errMessage">
+          {{this.validation.companyName}}
         </label>
       {{/if}}
     </div>
@@ -76,7 +119,7 @@
         @type="text"
         @value={{this.userQuestion.message}}
         class="form-input text-area"
-        onfocus={{this.focus}}
+        {{on 'focus' (fn this.resetErrorMessage 'message')}}
       />
       {{#if this.validation.message}}
         <label class="errMessage">
