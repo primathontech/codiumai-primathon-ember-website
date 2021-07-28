@@ -190,13 +190,49 @@
 }
 
 .talent-map .client-10 {
-  top: 0%;
-  left: 65%;
+  top: 73%;
+  left: 82%;
 }
 
 .talent-map .client-11 {
   top: 5%;
   left: 0%;
+}
+
+/* Add New CLients */
+.talent-map .client-12 {
+  top: 43%;
+  left: 69%;
+}
+
+.talent-map .client-13 {
+  top: 55%;
+  left: 79%;
+}
+
+.talent-map .client-14 {
+  top: 27%;
+  left: 66%;
+}
+
+.talent-map .client-15 {
+  top: 14%;
+  left: 7%;
+}
+
+.talent-map .client-16 {
+  top: 14%;
+  left: 40%;
+}
+
+.talent-map .client-17 {
+  top: 23%;
+  left: 0%;
+}
+
+.talent-map .client-18 {
+  top: 70%;
+  left: 49%;
 }
 
 .v-show.talent-map-wrap .talent-map-developer .logo-wrapper-show {
