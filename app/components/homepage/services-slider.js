@@ -2,12 +2,19 @@ import Component from '@glimmer/component';
 import { tracked } from '@glimmer/tracking';
 import { action } from '@ember/object';
 import { toLeft, toRight } from 'ember-animated/transitions/move-over';
+import { HOME_SERVICE_CARD_CLICK } from '../../constants/event-name';
 
 export default class HomepageServicesSliderComponent extends Component {
   @tracked activeIndex = 1;
 
   get activeCardData() {
     return this.args.data[this.activeIndex];
+  }
+
+  trackServiceCardClickEvent() {
+    if (window.gtag) {
+      window.gtag('event', HOME_SERVICE_CARD_CLICK);
+    }
   }
 
   @action
@@ -20,6 +27,8 @@ export default class HomepageServicesSliderComponent extends Component {
         elm.scrollIntoView({ behavior: 'smooth' });
       }
     }
+
+    this.trackServiceCardClickEvent();
   }
 
   //get old state and new state and then perform animation

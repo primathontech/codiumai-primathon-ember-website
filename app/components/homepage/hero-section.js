@@ -1,7 +1,7 @@
 import Component from '@glimmer/component';
 import { tracked } from '@glimmer/tracking';
 import { action } from '@ember/object';
-
+import { HOME_POSTER_GET_IN_TOUCH, HOME_POSTER_PLAY_VIDEO } from '../../constants/event-name';
 export default class HomepageHeroSectionComponent extends Component {
   @tracked videoSource = '';
   @tracked showControls = false;
@@ -14,10 +14,14 @@ export default class HomepageHeroSectionComponent extends Component {
 
   trackVideoPlayEvent() {
     if (window.gtag) {
-      window.gtag('event', 'video_auto_play_start', {
-        event_label: 'Poster Video',
-        event_category: 'video_auto_play',
-      });
+      window.gtag('event', HOME_POSTER_PLAY_VIDEO);
+    }
+  }
+
+  @action
+  onGetInTouch() {
+    if (window.gtag) {
+      window.gtag('event', HOME_POSTER_GET_IN_TOUCH);
     }
   }
 

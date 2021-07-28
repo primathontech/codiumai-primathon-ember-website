@@ -2,6 +2,13 @@ import Component from '@glimmer/component';
 import { tracked } from '@glimmer/tracking';
 import { action } from '@ember/object';
 import { inject as service } from '@ember/service';
+import {
+  CONTACT_SEND_MESSAGE_CLICK,
+  CONTACT_FORM_PAYLOAD_VALID,
+  CONTACT_FORM_PAYLOAD_INVALID,
+  CONTACT_API_SUCCESS,
+  CONTACT_API_ERROR,
+} from '../../constants/event-name';
 
 export default class ContactContactFormComponent extends Component {
   @service api;
@@ -93,17 +100,30 @@ export default class ContactContactFormComponent extends Component {
 
   @action
   async sendMessage() {
+    this.trackEvent(CONTACT_SEND_MESSAGE_CLICK);
     if (this.validate()) {
+      this.trackEvent(CONTACT_FORM_PAYLOAD_VALID, this.userQuestion);
+
       this.apiInProgress = true;
       const res = await this.api.sendContactMail(this.userQuestion);
 
       if (res.status === 200) {
         this.submitted = true;
         this.apiInProgress = true;
+        this.trackEvent(CONTACT_API_SUCCESS, this.userQuestion);
       } else {
         this.apiError = true;
         this.apiInProgress = true;
+        this.trackEvent(CONTACT_API_ERROR, this.userQuestion);
       }
+    } else {
+      this.trackEvent(CONTACT_FORM_PAYLOAD_INVALID, this.userQuestion);
+    }
+  }
+
+  trackEvent(name, payload) {
+    if (window.gtag) {
+      window.gtag('event', name, payload);
     }
   }
 }
