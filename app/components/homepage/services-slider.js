@@ -4,7 +4,7 @@ import { action } from '@ember/object';
 import { toLeft, toRight } from 'ember-animated/transitions/move-over';
 
 export default class HomepageServicesSliderComponent extends Component {
-  @tracked activeIndex = 0;
+  @tracked activeIndex = 1;
 
   get activeCardData() {
     return this.args.data[this.activeIndex];
