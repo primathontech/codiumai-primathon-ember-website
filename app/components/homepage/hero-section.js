@@ -61,14 +61,31 @@ export default class HomepageHeroSectionComponent extends Component {
   onFullScreenChange() {
     if (this._isFullScreen) {
       this._isFullScreen = false;
-      this.onEnded();
+      // Reset To Default
+      this.resetToDefault();
     } else {
       this._isFullScreen = true;
     }
   }
 
   @action
-  onEnded() {
+  onVideoEnded() {
+    if (document.exitFullscreen) {
+      document.exitFullscreen();
+    } else if (document.webkitExitFullscreen) {
+      document.webkitExitFullscreen();
+    } else if (document.mozCancelFullScreen) {
+      document.mozCancelFullScreen();
+    } else if (document.msExitFullscreen) {
+      document.msExitFullscreen();
+    }
+
+    // Reset To Default
+    this.resetToDefault();
+  }
+
+  @action
+  resetToDefault() {
     this.showMobileVideoView = false;
     this.showPlayButton = true;
     this.showControls = false;

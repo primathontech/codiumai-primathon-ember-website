@@ -28,7 +28,7 @@
               id={{this.videoId}}
               {{on 'play' this.addControl}}
               {{on 'loadedmetadata' this.onMetaLoad}}
-              {{on 'ended' this.onEnded}}
+              {{on 'ended' this.onVideoEnded}}
               {{on 'fullscreenchange' this.onFullScreenChange}}
             >
               {{#if this.videoSource}}
