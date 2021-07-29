@@ -5,6 +5,17 @@ export default class IndexRoute extends Route {
   _PAGE_SIZE = 4;
   _URL = `${this._HOSTNAME}/wp-json/wp/v2/posts?_embed&per_page=${this._PAGE_SIZE}`;
 
+  getImageUrl(data) {
+    if (
+      data._embedded &&
+      data._embedded['wp:featuredmedia'] &&
+      data._embedded['wp:featuredmedia'][0] &&
+      data._embedded['wp:featuredmedia'][0].source_url
+    ) {
+      return data._embedded['wp:featuredmedia']['0'].source_url;
+    }
+  }
+
   async model() {
     const serviceData = await (await fetch('/json-data/homepage/services.json')).json();
     const coreValueData = await (await fetch('/json-data/homepage/core-value.json')).json();
@@ -15,10 +26,10 @@ export default class IndexRoute extends Route {
 
     blogData['data'] = blogResponse.map((data) => {
       return {
-        title: data.title.rendered,
+        title: data.title?.rendered,
         link: data.link,
-        blogImageUrl: data._embedded['wp:featuredmedia']['0'].source_url,
-        descriptionHtml: data.excerpt.rendered,
+        blogImageUrl: this.getImageUrl(data),
+        descriptionHtml: data.excerpt?.rendered,
       };
     });
     return { serviceData, coreValueData, testimonialData, blogData };
