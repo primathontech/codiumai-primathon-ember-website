@@ -15,7 +15,12 @@
             rel="noopener noreferrer"
             {{on 'click' (fn this.onBlogCardClick data.title data.link)}}
           >
-            <img src={{data.blogImageUrl}} loading="lazy" alt={{data.title}} title={{data.title}} />
+            <img
+              src={{if data.blogImageUrl data.blogImageUrl '/assets/images/blog.png'}}
+              loading="lazy"
+              alt={{data.title}}
+              title={{data.title}}
+            />
             <div class="blog-category">
               <h3>
                 {{data.title}}
