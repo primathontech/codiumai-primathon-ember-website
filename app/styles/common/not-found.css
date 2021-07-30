@@ -1,0 +1,48 @@
+.not-found-header-border {
+  border-bottom: 1px solid #f5f0ea;
+}
+
+.not-found {
+  padding: 50px 15px;
+}
+
+.not-found img {
+  height: auto;
+  width: 60vw;
+  margin: 60px auto auto auto;
+  max-width: 400px;
+}
+
+.not-found .page-header {
+  margin-top: 0px;
+  margin-bottom: 30px;
+}
+
+.not-found .page-title {
+  font-size: 41px;
+  font-weight: 600;
+  color: #1a284d;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.not-found .page-content h4 {
+  font-weight: 600;
+  color: #1a284d;
+  line-height: 1.6;
+  font-size: 20px;
+  text-align: center;
+}
+
+.footer-holder {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+@media (min-width: 768px) {
+  .not-found img {
+    margin: 20vh auto auto auto;
+  }
+}

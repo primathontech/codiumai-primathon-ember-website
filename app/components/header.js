@@ -9,6 +9,8 @@ export default class HeaderComponent extends Component {
   get extraClass() {
     if (this.args.type === '2') {
       return this.isHeaderfixed ? 'bg-white border-grey' : 'bg-white border-white';
+    } else if (this.args.type === '3') {
+      return 'bg-white border-grey';
     }
     return this.isHeaderfixed ? 'bg-white border-grey' : 'bg-spring-wood border-spring-wood';
   }

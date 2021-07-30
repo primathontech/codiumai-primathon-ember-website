@@ -4,6 +4,7 @@
 @import './common/footer';
 @import './common/typography';
 @import './common/utils';
+@import './common/not-found';
 
 /* Homepage */
 @import './homepage/hero-section';

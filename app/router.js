@@ -11,4 +11,5 @@ Router.map(function () {
   this.route('careers');
   this.route('about-us');
   this.route('blog');
+  this.route('not-found', { path: '/*path' });
 });
