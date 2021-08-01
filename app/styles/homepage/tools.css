@@ -14,7 +14,10 @@
 
 .our-tools .tools-holder {
   display: flex;
-  overflow-x: auto;
+}
+
+.our-tools .tools-holder {
+  display: flex;
 }
 
 .our-tools .tools-card {
@@ -41,6 +44,46 @@
   margin-top: 8px;
 }
 
+/* Marque */
+
+.marquee {
+  position: relative;
+  height: 160px;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+}
+
+.marquee .tools-holder {
+  animation: marquee 50s linear infinite;
+}
+
+.marquee::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: linear-gradient(
+    to right,
+    white,
+    rgba(255, 255, 255, 0) 80px,
+    rgba(255, 255, 255, 0) calc(100% - 80px),
+    white
+  );
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
 @media (min-width: 768px) {
 }
 
@@ -55,7 +98,7 @@
   }
 
   .our-tools .tools-card .tools-logo-wrapper {
-    height: 60px;
-    width: 60px;
+    height: 48px;
+    width: 48px;
   }
 }
