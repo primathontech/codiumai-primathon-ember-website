@@ -17,6 +17,7 @@
 @import './homepage/testimonial';
 @import './homepage/blog';
 @import './homepage/video-button';
+@import './homepage/tools';
 
 /* Contact */
 @import './contact/hero-section';
