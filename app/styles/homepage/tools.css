@@ -1,0 +1,61 @@
+.our-tools {
+  border-top: 1px solid #efefef;
+}
+
+.our-tools .container h2 {
+  font-size: 30px;
+  line-height: 42px;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  color: #1a284d;
+  font-weight: 600;
+}
+
+.our-tools .tools-holder {
+  display: flex;
+  overflow-x: auto;
+}
+
+.our-tools .tools-card {
+  min-width: 112px;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 14px;
+}
+
+.our-tools .tools-card .tools-logo-wrapper {
+  height: 40px;
+  width: 40px;
+  overflow: hidden;
+  margin: auto;
+}
+
+.our-tools .tools-card .tools-logo-wrapper img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.our-tools .tools-card h3 {
+  margin-top: 8px;
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 1024px) {
+  .our-tools .container h2 {
+    margin-bottom: 20px;
+  }
+
+  .our-tools .tools-card {
+    min-width: 160px;
+    font-size: 16px;
+  }
+
+  .our-tools .tools-card .tools-logo-wrapper {
+    height: 60px;
+    width: 60px;
+  }
+}
