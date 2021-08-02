@@ -1,6 +1,21 @@
 <nav class="menu items-center text-white {{this.extraClass}}" {{on-window-scroll this.onScroll}}>
   <LinkTo @route="index" class="menu-index">
-    <img src="assets/images/primathon_icon_final.png" alt="Primathon" />
+    <div
+      class="logo-holder {{unless this.activePrimathon 'olympic'}}"
+      type="div"
+      {{timer-callback this.onLogoClick 1000}}
+    >
+      <img
+        src="assets/images/primathon_icon_final.png"
+        alt="Primathon"
+        class={{if this.activePrimathon 'visible' 'hidden'}}
+      />
+      <img
+        src="assets/images/logo-olympic.png"
+        alt="Primathon"
+        class={{unless this.activePrimathon 'visible' 'hidden'}}
+      />
+    </div>
     <h1>
       Primathon
     </h1>
