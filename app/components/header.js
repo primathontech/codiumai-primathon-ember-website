@@ -5,6 +5,7 @@ import { MENU_HIRE_US_CLICK, MENU_CONTACT_CLICK, MENU_BLOG_CLICK } from '../cons
 export default class HeaderComponent extends Component {
   @tracked openMenu = false;
   @tracked isHeaderfixed = false;
+  @tracked activePrimathon = true;
 
   get extraClass() {
     if (this.args.type === '2') {
@@ -57,5 +58,10 @@ export default class HeaderComponent extends Component {
         this.isHeaderfixed = true;
       }
     }
+  }
+
+  @action
+  onLogoClick() {
+    this.activePrimathon = !this.activePrimathon;
   }
 }
