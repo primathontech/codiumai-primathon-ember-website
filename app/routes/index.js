@@ -1,7 +1,7 @@
 import Route from '@ember/routing/route';
 
 export default class IndexRoute extends Route {
-  _HOSTNAME = 'https://blog.primathon.in';
+  _HOSTNAME = 'https://primathon.in/blog';
   _PAGE_SIZE = 4;
   _URL = `${this._HOSTNAME}/wp-json/wp/v2/posts?_embed&per_page=${this._PAGE_SIZE}`;
 
