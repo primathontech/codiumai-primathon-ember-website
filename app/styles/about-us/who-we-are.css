@@ -1,0 +1,75 @@
+.who-we-are-section {
+  background: #f4f4f4;
+  padding-top: 40px;
+  padding-bottom: 90px;
+  position: relative;
+}
+
+.who-we-are-qualities {
+  width: 100%;
+  margin-top: 120px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  row-gap: 40px;
+}
+
+.who-we-are-figure {
+  height: 126px;
+  position: relative;
+}
+.who-we-are-figure1 {
+  display: block;
+}
+
+.who-we-are-img {
+  display: block;
+  max-height: 90px;
+  width: 90px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.who-we-are-caption {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #1a284d;
+  position: absolute;
+  white-space: nowrap;
+  bottom: 0;
+  width: 100%;
+}
+
+.who-we-are-red-ring {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transform: translate(0%, 50%);
+}
+
+@media only screen and (max-width: 1400px) {
+  .who-we-are-red-ring {
+    /* height: 150px;
+    width: 75px; */
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .who-we-are-red-ring {
+    height: 75px;
+    width: 37px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .who-we-are-section {
+    margin: 0px 30px;
+  }
+
+  .who-we-are-red-ring {
+    display: none;
+  }
+}
