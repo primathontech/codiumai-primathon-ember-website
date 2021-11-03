@@ -13,6 +13,9 @@
   margin-right: auto;
   border-radius: 4px;
   overflow: hidden;
+  width: 204px;
+  -webkit-filter: grayscale(1);
+  filter: grayscale(1);
 }
 .we-believe-cards {
   display: grid;
@@ -110,11 +113,6 @@
   line-height: 28px;
   text-align: center;
   color: #48596a;
-}
-
-/* TO resize image */
-img.founders-image-we-believe {
-  width: 204px;
 }
 
 @media only screen and (max-width: 1400px) {
