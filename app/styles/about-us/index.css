@@ -1,0 +1,50 @@
+.about-us-heading {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 42px;
+  text-align: center;
+  color: #1a284d;
+  margin-bottom: 16px;
+}
+
+.about-us-para {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  color: #48596a;
+}
+
+.responsive-container {
+  max-width: 1000px;
+  margin: 0 auto 0 auto;
+}
+
+@media only screen and (max-width: 1200px) {
+  .responsive-container {
+    max-width: 700px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .responsive-container {
+    max-width: 600px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .responsive-container {
+    max-width: 500px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .responsive-container {
+    padding-left: 36px;
+    padding-right: 36px;
+  }
+}

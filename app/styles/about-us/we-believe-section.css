@@ -1,0 +1,263 @@
+.we-believe-section {
+  position: relative;
+  padding-top: 100px;
+}
+.we-believe-green-ring {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.founders-image-we-believe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 4px;
+  overflow: hidden;
+}
+.we-believe-cards {
+  display: grid;
+  grid-template-columns: 418px 73px 1fr 73px 418px;
+  grid-template-rows: 204px;
+  row-gap: 54px;
+  align-items: center;
+  margin-top: 84px;
+  margin-bottom: 76px;
+}
+.meet-our-founders {
+  padding-bottom: 0px;
+}
+.who-we-are-caption1 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  color: #1a284d;
+  width: 100%;
+  margin-top: 14px;
+}
+.who-we-are-caption2 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  color: #546285;
+  width: 100%;
+}
+.who-we-are-qualities1 {
+  width: 100%;
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  row-gap: 40px;
+  column-gap: 35px;
+  justify-items: center;
+}
+.who-we-are-figure2 {
+  grid-column: 1 / 2;
+}
+.who-we-are-figure3 {
+  grid-column: 5 / 6;
+  grid-row: 2 / 3;
+}
+.we-believe-text-block-1 {
+  grid-column: 3/6;
+  text-align: left;
+}
+.we-believe-text-block-2 {
+  grid-column: 1/4;
+  text-align: right;
+}
+.we-believe-para {
+  text-align: inherit;
+}
+.about-us-heading1 {
+  text-align: inherit;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #1a284d;
+  /* margin-top: 70px; */
+}
+.about-us-heading2 {
+  text-align: inherit;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #1a284d;
+}
+.about-us-para1 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  color: #48596a;
+}
+.about-us-para3 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  color: #48596a;
+}
+
+/* TO resize image */
+img.founders-image-we-believe {
+  width: 204px;
+}
+
+@media only screen and (max-width: 1400px) {
+  .we-believe-green-ring {
+    /* height: 150px;
+    width: 75px; */
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .we-believe-cards {
+    grid-template-columns: 300px 36px 1fr 36px 209px;
+    grid-template-rows: 102px;
+    row-gap: 48px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .we-believe-green-ring {
+    height: 75px;
+    width: 37px;
+  }
+  .we-believe-cards {
+    grid-template-columns: 1fr;
+    /* grid-template-rows: 102px 102px; */
+    /* row-gap: 48px; */
+  }
+  .who-we-are-figure2 {
+    grid-column: 1 / 2;
+    grid-row: 1/2;
+  }
+
+  .we-believe-text-block-1 {
+    grid-column: 1/ 2;
+    grid-row: 2/3;
+    text-align: center;
+  }
+
+  .who-we-are-figure3 {
+    grid-column: 1/ 2;
+    grid-row: 3/4;
+  }
+
+  .we-believe-text-block-2 {
+    grid-column: 1/ 2;
+    grid-row: 4/5;
+    text-align: center;
+  }
+  .we-believe-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .about-us-heading1 {
+    margin-top: 70px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .we-believe-green-ring {
+    display: none;
+  }
+  .we-believe-image {
+    width: 100%;
+    height: 100%;
+  }
+  .about-us-heading1 {
+    padding-top: 0px;
+    margin-top: 0px;
+  }
+
+  .we-believe-heading {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+  }
+  .about-us-para1 {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+
+    color: #48596a;
+  }
+  .about-us-heading1 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #1a284d;
+  }
+  .about-us-heading2 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #1a284d;
+  }
+  .we-believe-para {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #48596a;
+  }
+  .who-we-are-caption1 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #1a284d;
+    width: 100%;
+  }
+  .who-we-are-caption2 {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #546285;
+    width: 100%;
+  }
+  .we-believe-section {
+    position: relative;
+    padding-top: 42px;
+    padding-bottom: 0px;
+  }
+
+  .we-believe-cards {
+    row-gap: 0px;
+    /* grid-template-columns: 250px; */
+    grid-template-rows: auto;
+    width: 100%;
+    justify-content: center;
+  }
+  .we-believe-text-block-1 {
+    margin-top: 20px;
+    margin-bottom: 32px;
+  }
+  .we-believe-text-block-2 {
+    margin-top: 20px;
+    margin-bottom: 0px;
+  }
+}

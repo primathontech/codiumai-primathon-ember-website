@@ -37,9 +37,9 @@
       <LinkTo @route="index" class="menu-home" {{on 'click' this.closeOpenMenu}}>
         Home
       </LinkTo>
-      {{! <LinkTo @route="about-us" class="menu-about">
+      <LinkTo @route="about-us" class="menu-about" {{on 'click' (fn this.closeOpenMenu 'about')}}>
         About Us
-      </LinkTo> }}
+      </LinkTo>
       {{! <LinkTo @route="careers" class="menu-cases">
         Case studies
       </LinkTo> }}

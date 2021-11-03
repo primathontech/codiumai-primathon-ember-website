@@ -23,3 +23,10 @@
 @import './contact/hero-section';
 @import './contact/form-section';
 @import './contact/contact-form.css';
+
+/* About us */
+@import './about-us/index.css';
+@import './about-us/hero-section.css';
+@import './about-us/our-story-section.css';
+@import './about-us/who-we-are.css';
+@import './about-us/we-believe-section.css';
