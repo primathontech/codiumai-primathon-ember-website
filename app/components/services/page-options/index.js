@@ -43,6 +43,10 @@ export default class ServicesPageOptionsIndexComponent extends Component {
 
   @action
   onMouseLeave() {
-    this.hoverServiceRoute = this.activeRoute;
+    const route = this.activeRoute;
+    if (route === this.endToEndRoute || route === this.staffAugmentation || route === this.buildAndManage) {
+      this.hoverServiceRoute = route;
+    }
+    this.hoverServiceRoute = this.endToEndRoute;
   }
 }
