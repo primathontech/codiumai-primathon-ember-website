@@ -1,0 +1,114 @@
+.service-page-options {
+  height: 376px;
+  z-index: 15;
+  position: absolute;
+  top: 52px;
+  left: -190px;
+  display: flex;
+  align-items: flex-end;
+  border-radius: 10px;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.05);
+  /* display: none; */
+}
+
+.service-page-options .image {
+  position: absolute;
+  width: 20px;
+  top: -12px;
+  left: 225px;
+}
+
+.service-page-options .image img {
+  display: block;
+  width: 20px;
+  height: 20px;
+}
+
+.service-page-options ul {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  background: #1a284d;
+  padding: 55px 32px;
+}
+
+.service-page-options li > a.service-page-link {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  color: #ffffff;
+  white-space: nowrap;
+  padding-bottom: 10px;
+  border-bottom: 2px solid transparent;
+}
+
+.service-page-options li:hover > a.service-page-link {
+  border-color: #24b768;
+}
+
+.service-page-options li > a.active-service {
+  border-color: #24b768;
+}
+
+/* .end-to-end-tool-tip:hover .end-to-end {
+  visibility: visible;
+}
+
+.staff-augmentation-tool-tip:hover .end-to-end {
+  visibility: hidden;
+} */
+
+.service-page-options .grid {
+  padding: 36px 0px 36px 60px;
+  display: grid;
+  grid-template-columns: repeat(2, min-content);
+  grid-template-rows: repeat(6, min-content);
+  grid-auto-flow: column;
+  row-gap: 8px;
+  column-gap: 32px;
+}
+
+.service-page-options .grid p {
+  white-space: nowrap;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  color: #1a284d;
+}
+
+.service-page-options a.link {
+  margin: 0px 16px 20px 0px;
+  text-decoration: underline;
+}
+
+.service-page-options a.link:hover {
+  border: none;
+}
+
+.page-options-extra-para {
+  display: block;
+}
+
+@media only screen and (max-width: 1024px) {
+  .service-page-options {
+    position: relative;
+    left: 0px;
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .page-options-extra-para {
+    display: none;
+  }
+}

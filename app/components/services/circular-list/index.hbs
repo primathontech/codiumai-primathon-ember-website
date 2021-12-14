@@ -1,0 +1,40 @@
+<section class="app-container circular-list-section">
+  <div class="circular-list-container">
+    <h2>
+      {{@content.heading}}
+    </h2>
+    {{#if (eq @color 'orange')}}
+      <div class="orange-semi-circle"></div>
+    {{else if (eq @color 'green')}}
+      <div class="green-semi-circle"></div>
+    {{else}}
+      <div class="red-semi-circle"></div>
+    {{/if}}
+    <ul>
+      <li class="circular-list-container__list-item circular-list-container__top-left">
+        <p>
+          {{get @content.items 0}}
+        </p>
+        <div></div>
+      </li>
+      <li class="circular-list-container__list-item circular-list-container__top-right">
+        <div></div>
+        <p>
+          {{get @content.items 1}}
+        </p>
+      </li>
+      <li class="circular-list-container__list-item circular-list-container__bottom-left">
+        <p>
+          {{get @content.items 2}}
+        </p>
+        <div></div>
+      </li>
+      <li class="circular-list-container__list-item circular-list-container__bottom-right">
+        <div></div>
+        <p>
+          {{get @content.items 3}}
+        </p>
+      </li>
+    </ul>
+  </div>
+</section>

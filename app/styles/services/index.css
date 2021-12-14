@@ -1,0 +1,39 @@
+.services-responsive-container {
+  max-width: 1250px;
+  margin: 0 auto 0 auto;
+}
+
+@media only screen and (max-width: 1300px) {
+  .services-responsive-container {
+    max-width: 950px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .services-responsive-container {
+    max-width: 800px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .services-responsive-container {
+    max-width: 700px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .services-responsive-container {
+    max-width: 500px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .services-responsive-container {
+    padding-left: 36px;
+    padding-right: 36px;
+  }
+
+  .services-staff-augmentation > p {
+    display: none;
+  }
+}

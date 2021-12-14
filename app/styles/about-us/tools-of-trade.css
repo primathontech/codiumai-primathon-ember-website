@@ -1,0 +1,44 @@
+/* .tools-of-trade-section {
+  background: #f4f4f4;
+  padding-top: 25px;
+  padding-bottom: 60px;
+  position: relative;
+}
+
+.tools-of-trade-responsive-container {
+  max-width: 1280px;
+  margin: 0 auto 0 auto;
+}
+
+.tools-of-trade-figures {
+  width: 100%;
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  row-gap: 40px;
+}
+
+.tools-of-trade-figure {
+  height: 90px;
+  position: relative;
+}
+
+.tools-of-trade-img {
+  display: block;
+  max-height: 55px;
+  width: 55px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tools-of-trade-caption {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #1a284d;
+  padding-top: 10px;
+  overflow-wrap: break-word;
+} */

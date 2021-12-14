@@ -37,9 +37,24 @@
       <LinkTo @route="index" class="menu-home" {{on 'click' this.closeOpenMenu}}>
         Home
       </LinkTo>
-      <LinkTo @route="about-us" class="menu-about" {{on 'click' (fn this.closeOpenMenu 'about')}}>
+      <LinkTo
+        @route="about-us"
+        class="menu-about"
+        @activeClass="current-url"
+        {{on 'click' (fn this.closeOpenMenu 'about')}}
+      >
         About Us
       </LinkTo>
+      <div class="service-page-dialog">
+        <LinkTo
+          @route="services.end-to-end-products"
+          class="menu-service"
+          {{on 'click' (fn this.closeOpenMenu 'services')}}
+        >
+          Our Services
+        </LinkTo>
+        <Services::PageOptions class="service-page-dialog-box" />
+      </div>
       {{! <LinkTo @route="careers" class="menu-cases">
         Case studies
       </LinkTo> }}
@@ -55,7 +70,12 @@
       {{! <LinkTo @route="careers" class="menu-careers">
         Careers
       </LinkTo> }}
-      <LinkTo @route="contact" class="menu-contact" {{on 'click' (fn this.closeOpenMenu 'contact')}}>
+      <LinkTo
+        @route="contact"
+        class="menu-contact"
+        @activeClass="current-url"
+        {{on 'click' (fn this.closeOpenMenu 'contact')}}
+      >
         Contact
       </LinkTo>
     </div>

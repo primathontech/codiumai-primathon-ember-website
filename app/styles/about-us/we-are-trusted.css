@@ -1,0 +1,89 @@
+.image-container {
+  position: relative;
+  height: 200px;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+}
+
+figure.tools-of-trade-figure {
+  min-width: 220px;
+}
+
+.image-container .we-are-trusted-figures {
+  animation: logomarquee 50s linear infinite;
+}
+
+.image-container::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: linear-gradient(
+    to right,
+    white,
+    rgba(255, 255, 255, 0) 80px,
+    rgba(255, 255, 255, 0) calc(100% - 80px),
+    white
+  );
+}
+
+@keyframes logomarquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.image-container .we-are-trusted-figures {
+  margin-top: 60px;
+  display: flex;
+}
+
+.we-are-trusted-responsive-container {
+  max-width: 1700px;
+  margin: 0 auto 0 auto;
+}
+
+.we-are-trusted-caption {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #1a284d;
+  padding-top: 25px;
+  overflow-wrap: break-word;
+}
+
+.we-are-trusted-heading {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 45px;
+  text-align: center;
+  color: #1a284d;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+@media only screen and (max-width: 992px) {
+  .image-container {
+    display: none;
+  }
+
+  .our-story-section {
+    padding-top: 40px;
+  }
+
+  .about-us-para4 {
+    margin-top: 45px;
+  }
+}

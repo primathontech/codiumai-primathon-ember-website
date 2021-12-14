@@ -50,6 +50,14 @@
   transform: translate(0%, 50%);
 }
 
+.top-notch-green-ring {
+  position: absolute;
+  left: 0;
+  transform: translate(0%, 50%);
+  top: 1350px;
+  display: block;
+}
+
 @media only screen and (max-width: 1400px) {
   .who-we-are-red-ring {
     /* height: 150px;
@@ -61,6 +69,12 @@
   .who-we-are-red-ring {
     height: 75px;
     width: 37px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .top-notch-green-ring {
+    display: none;
   }
 }
 

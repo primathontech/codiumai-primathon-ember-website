@@ -1,0 +1,36 @@
+.services-hero {
+  background-image: url('/assets/images/staff-augmentation.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding-top: 68px;
+  padding-bottom: 68px;
+}
+
+.services-staff-augmentation {
+  font-family: Poppins;
+  font-style: normal;
+  text-align: center;
+  color: #ffffff;
+  padding-top: 48px;
+}
+
+.services-staff-augmentation h1 {
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 48px;
+  margin-bottom: 64px;
+}
+
+.services-staff-augmentation h2 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  margin-bottom: 38px;
+}
+
+.services-staff-augmentation p {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+}

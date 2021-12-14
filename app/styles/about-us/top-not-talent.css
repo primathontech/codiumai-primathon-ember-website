@@ -1,0 +1,275 @@
+.top-notch-talent-container {
+  background: #f4f4f4;
+  padding-top: 47px;
+  padding-bottom: 72px;
+}
+
+.top-notch-talent-btn,
+.top-notch-talent-btn:focus {
+  outline: none;
+}
+
+.top-notch-talent-next {
+  position: absolute;
+  right: 45px;
+  top: 240px;
+  display: none;
+}
+.top-notch-talent-prev {
+  position: absolute;
+  left: 45px;
+  top: 240px;
+  display: none;
+}
+
+.how-we-build-our-team > h2 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 45px;
+  text-align: center;
+  color: #1a284d;
+}
+
+.how-we-build-our-team > ul {
+  margin: 60px auto;
+  display: flex;
+}
+
+.how-we-build-our-team li {
+  flex: 1;
+}
+
+.how-we-build-our-team img {
+  height: 70px;
+  margin: 0 auto;
+}
+
+.how-we-build-our-team__middle {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin: 14px 0 18px 0;
+}
+
+.how-we-build-our-team__no-line {
+  flex: 1;
+}
+
+.how-we-build-our-team__dot {
+  width: 17px;
+  height: 17px;
+  border-radius: 100%;
+  background: #198cca;
+}
+
+.how-we-build-our-team__dotted-line {
+  border: none;
+  border-top: 1px dashed #546285;
+  color: #fff;
+  background-color: #fff;
+  height: 1px;
+  flex: 1;
+}
+
+.how-we-build-our-team p {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 0.35px;
+  color: #1a284d;
+  margin: 0 35px;
+}
+
+.top-not-talent-img {
+  display: block;
+  width: 186px;
+  height: 171px;
+}
+
+.top-notch-talent-responsive-container {
+  max-width: 1300px;
+  margin: 0 auto;
+  border: 0.4px solid #c4c4c4;
+  border-radius: 7px;
+  box-sizing: border-box;
+  box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.05);
+  background: #ffffff;
+  position: relative;
+  z-index: 1;
+}
+
+.top-notch-talent-scroll-div {
+  margin: 70px 90px;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+
+.top-notch-talent-figures {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 34px;
+}
+
+.top-notch-talent-figures figure {
+  min-width: 180px;
+}
+
+.subtext {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 28px;
+  text-align: center;
+  color: #1a284d;
+  overflow-wrap: break-word;
+}
+
+.subsubtext {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 28px;
+  text-align: center;
+  color: #1a284d;
+  overflow-wrap: break-word;
+}
+
+.top-not-talent-caption {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #1a284d;
+  margin-top: 10px;
+  overflow-wrap: break-word;
+}
+
+.top-notch-talent-heading {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 39px;
+  text-align: center;
+  color: #1a284d;
+  margin-top: 55px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .how-we-build-our-team p {
+    margin: 0 20px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .how-we-build-our-team p {
+    margin: 0 15px;
+    flex: 1;
+    margin: 0;
+    padding: 0 15px;
+  }
+
+  .top-notch-talent-next,
+  .top-notch-talent-prev {
+    display: block;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .top-notch-talent-container {
+    background: #ffffff;
+    padding-bottom: 0px;
+  }
+
+  .how-we-build-our-team > ul {
+    margin: 40px auto;
+    flex-direction: column;
+  }
+
+  .how-we-build-our-team li {
+    display: flex;
+    align-items: center;
+  }
+
+  .how-we-build-our-team li.reverse-row {
+    flex-direction: row-reverse;
+  }
+
+  .how-we-build-our-team div.image {
+    padding: 0 15px;
+    flex: 1;
+  }
+
+  .how-we-build-our-team__middle {
+    flex-direction: column;
+    width: 17px;
+    margin: 0;
+    height: 150px;
+  }
+
+  .how-we-build-our-team__dot {
+    width: 17px;
+    height: 17px;
+    border-radius: 100%;
+    background: #198cca;
+  }
+
+  .how-we-build-our-team__dotted-line {
+    border-right: 1px dashed #546285;
+    width: 1px;
+  }
+
+  .top-notch-talent-responsive-container {
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    background: #f4f4f4;
+  }
+
+  .top-notch-talent-heading {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px;
+    padding-top: 20px;
+  }
+
+  .top-notch-talent-scroll-div {
+    margin-top: 40px;
+  }
+
+  .subsubtext {
+    margin-bottom: 30px;
+  }
+}
+
+@media only screen and (max-width: 390px) {
+  .how-we-build-our-team p {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 24px;
+    padding: 0;
+  }
+
+  .how-we-build-our-team div.image {
+    padding: 0;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .how-we-build-our-team p {
+    font-size: 12px;
+  }
+
+  .how-we-build-our-team__middle {
+    height: 175px;
+  }
+}

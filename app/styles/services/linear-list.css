@@ -1,0 +1,79 @@
+.linear-list-section {
+  display: none;
+}
+
+.linear-list-container {
+  margin: 0 60px 0 60px;
+}
+
+.linear-list-container h1 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 45px;
+  text-align: center;
+  color: #1a284d;
+
+  margin-top: 32px;
+}
+
+.linear-list__list {
+  display: block;
+  margin: 40px auto 40px auto;
+  width: 100%;
+}
+
+.linear-list__item {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.linear-list__item > span {
+  display: inline-block;
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+}
+
+.linear-list__item > span.red {
+  background: linear-gradient(0deg, #f1553f, #f1553f), #24b768;
+}
+
+.linear-list__item > span.blue {
+  background: linear-gradient(0deg, #198cca, #198cca), #24b768;
+}
+
+.linear-list__item > span.yellow {
+  background: linear-gradient(0deg, #fdb436, #fdb436), #24b768;
+}
+
+.linear-list__item > span.green {
+  background: linear-gradient(0deg, #24b768, #24b768), #24b768;
+}
+
+.linear-list__item > hr {
+  border: none;
+  border-top: 1px dashed #546285;
+  color: #fff;
+  background-color: #fff;
+  height: 1px;
+  flex: 1;
+}
+
+.linear-list__item > div {
+  flex: 1;
+}
+
+@media only screen and (max-width: 768px) {
+  .linear-list-section {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .linear-list-section {
+    display: block;
+  }
+}

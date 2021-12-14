@@ -1,0 +1,113 @@
+.end-to-end-services-section {
+  padding: 80px 0;
+}
+
+.end-to-end-services-section h2 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 42px;
+  text-align: center;
+  color: #1a284d;
+}
+
+.end-to-end-services-section ul {
+  margin: 74px auto 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(570px, 1fr));
+  column-gap: 42px;
+  row-gap: 42px;
+}
+
+.end-to-end-services-section li {
+  padding: 34px 38px 24px 40px;
+  background: #ffffff;
+  border: 1px solid #f2eeee;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+}
+
+.end-to-end-services-section h3 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #1a284d;
+  word-wrap: break-word;
+}
+
+.end-to-end-services-section div.image-para {
+  display: flex;
+  margin-top: 16px;
+}
+
+.end-to-end-services-section div.image-para p {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  color: #48596a;
+}
+
+.left {
+  margin-left: 40px;
+  text-align: left;
+}
+
+.right {
+  margin-right: 40px;
+  text-align: right;
+}
+
+.end-to-end-services-section img {
+  object-fit: contain;
+}
+
+.end-to-end-services-section .link {
+  display: block;
+  width: max-content;
+  margin: 24px auto 0 auto;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  text-decoration-line: underline;
+  color: #000000;
+}
+
+@media only screen and (max-width: 768px) {
+  .end-to-end-services-section ul {
+    margin: 74px 40px 0 40px;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  }
+
+  .services-responsive-container p {
+    /* display: none; */
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .end-to-end-services-section ul {
+    margin: 40px 20px 0 20px;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+
+  .end-to-end-services-section p {
+    display: none;
+  }
+
+  .end-to-end-services-section-img {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .end-to-end-services-section {
+    padding-top: 0px;
+    padding-bottom: 35px;
+  }
+}

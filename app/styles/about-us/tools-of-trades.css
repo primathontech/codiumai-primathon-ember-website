@@ -1,0 +1,123 @@
+.tools-of-trades-container {
+  background: #f4f4f4;
+  padding-top: 25px;
+}
+
+.mb-140 {
+  margin-bottom: 140px;
+}
+
+.tools-of-trades-next-img {
+  position: absolute;
+  bottom: 255px;
+  right: 40px;
+  display: none;
+}
+.tools-of-trades-prev-img {
+  position: absolute;
+  bottom: 255px;
+  left: 40px;
+  display: none;
+}
+
+.tools-of-trades-img {
+  /* display: block;
+  width: 186px;
+  height: 171px;
+  object-fit: none; */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tools-of-trades-responsive-container {
+  max-width: 1700px;
+  margin: 0 auto 0 auto;
+  border-radius: 7px;
+  box-sizing: border-box;
+  background: #f4f4f4;
+  position: relative;
+  z-index: 1;
+}
+
+.tools-of-trades-scroll-div {
+  margin: 70px 90px 0px 90px;
+  overflow-x: scroll;
+  scrollbar-width: none;
+}
+
+.tools-of-trades-figures {
+  width: max-content;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 34px;
+}
+.tools-of-trades-figure {
+  display: block;
+  width: 110px;
+  height: 150px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+.subtext {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 28px;
+  text-align: center;
+  color: #1a284d;
+  overflow-wrap: break-word;
+}
+
+.tools-of-trades-caption {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #1a284d;
+  margin-top: 10px;
+  overflow-wrap: break-word;
+}
+
+.tools-of-trades-heading {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 45px;
+  text-align: center;
+  color: #1a284d;
+}
+@media only screen and (max-width: 1200px) {
+  .tools-of-trades-next-img {
+    display: block;
+  }
+  .tools-of-trades-prev-img {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .tools-of-trades-container {
+    background: #ffffff;
+  }
+
+  .tools-of-trades-responsive-container {
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    background: #f4f4f4;
+  }
+
+  .tools-of-trades-heading {
+    background-color: #ffffff;
+    padding-bottom: 25px;
+  }
+
+  .tools-of-trades-scroll-div {
+    margin-top: 20px;
+  }
+}

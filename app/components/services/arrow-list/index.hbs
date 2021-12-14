@@ -1,0 +1,64 @@
+<section class="app-container arrow-list-section">
+  <h2 class="arrow-list-responsive-container">
+    {{@content.heading}}
+  </h2>
+  <div class="arrow-list-container">
+    {{#if @buildAndManage}}
+      <hr class="row-line build-manage-1" /><hr class="row-line build-manage-2" /><hr class="row-line build-manage-3" />
+    {{else}}
+      <hr class="row-line" /><hr class="row-line second" />
+    {{/if}}
+    <div class="column-line"></div>
+    <ul class="arrow-list-responsive-container">
+      <li class="start">
+        <div></div>
+        <p>
+          {{get @content.items 0}}
+        </p>
+        <div class="arrow-list-container__red"></div>
+      </li>
+      <li class="between">
+        <div></div>
+        <p>
+          {{get @content.items 1}}
+        </p>
+        <div class="arrow-list-container__yellow"></div>
+      </li>
+      <li class="between">
+        <div></div>
+        <p>
+          {{get @content.items 2}}
+        </p>
+        {{#if @buildAndManage}}
+          <div class="arrow-list-container__green"></div>
+        {{else}}
+          <div class="arrow-list-container__blue"></div>
+        {{/if}}
+      </li>
+      {{#if @buildAndManage}}
+        <li class="between">
+          <div></div>
+          <p>
+            {{get @content.items 3}}
+          </p>
+          <div class="arrow-list-container__blue"></div>
+        </li>
+        <li class="end">
+          <div></div>
+          <p>
+            {{get @content.items 4}}
+          </p>
+          <div class="arrow-list-container__red"></div>
+        </li>
+      {{else}}
+        <li class="end">
+          <div></div>
+          <p>
+            {{get @content.items 3}}
+          </p>
+          <div class="arrow-list-container__green"></div>
+        </li>
+      {{/if}}
+    </ul>
+  </div>
+</section>
