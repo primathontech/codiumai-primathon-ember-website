@@ -1,0 +1,112 @@
+.font-weight-500 {
+  font-weight: 500;
+}
+
+details > summary {
+  list-style: none;
+}
+
+details > summary::marker {
+  display: none;
+}
+
+.what-are-you-looking-para {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 28px;
+  text-align: center;
+  color: #48596a;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.what-are-you-looking-responsive-container {
+  max-width: 1400px;
+  margin: 0 auto 0 auto;
+  text-align: center;
+}
+
+.what-are-you-looking-sub-heading {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  color: #1a284d;
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.what-are-you-looking-button {
+  margin-top: 10px;
+  margin-bottom: 50px;
+  background-color: #24b768;
+  padding: 20px;
+  border: 1px;
+  border-radius: 4px;
+  outline: none;
+}
+
+.what-are-you-looking-button:focus {
+  outline: none;
+}
+
+.what-are-you-looking-button-text {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  color: #ffffff;
+  margin-bottom: 0px;
+}
+
+.what-are-you-looking-figures {
+  width: 100%;
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  row-gap: 40px;
+}
+
+@media only screen and (min-width: 555px) {
+  .what-are-you-looking-figure {
+    width: 80%;
+    margin-left: 20%;
+  }
+}
+
+@media only screen and (max-width: 1500px) {
+  .what-are-you-looking-figures {
+    justify-items: center;
+  }
+}
+
+@media only screen and (max-width: 519px) {
+  .what-are-you-looking-sub-heading {
+    text-align: center;
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: underline;
+  }
+
+  .what-are-you-looking-para {
+    text-align: center;
+  }
+
+  .what-are-you-looking-figures {
+    row-gap: 24px;
+    margin-top: 40px;
+  }
+
+  .what-are-you-looking-button {
+    margin-top: 30px;
+    margin-bottom: 25px;
+  }
+
+  .what-are-you-looking-button-text {
+    font-weight: 400;
+  }
+
+  .what-are-you-looking-responsive-container {
+    text-align: center;
+  }
+}

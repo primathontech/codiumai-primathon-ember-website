@@ -5,6 +5,19 @@
   padding-bottom: 50px;
 }
 
+.service-categories .talent-box-two {
+  grid-gap: 35px;
+  grid-template-columns: 1fr 1fr;
+}
+.service-subtitle {
+  display: block;
+}
+
+.service-categories-two {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
 .service-categories h2 {
   font-size: 30px;
   line-height: 42px;
@@ -13,6 +26,15 @@
   margin-bottom: 10px;
   color: #1a284d;
   font-weight: 600;
+}
+.service-categories h3 {
+  font-size: 30px;
+  line-height: 45px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: #1a284d;
+  font-weight: 500;
 }
 
 .service-categories .section-sub {
@@ -135,6 +157,10 @@
   position: relative;
 }
 
+.service-underline {
+  text-decoration: underline;
+}
+
 .service-categories-spacer {
   height: 16px;
 }
@@ -194,6 +220,36 @@
   margin-bottom: 30px;
 }
 
+.service-details-card .service-view-detail {
+  margin-top: 42px;
+}
+
+@media (max-width: 360px) {
+  .service-categories .talent-box-two {
+    grid-gap: 10px;
+  }
+  .service-categories .talent-category-two {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+
+@media (max-width: 600px) {
+  .service-subtitle {
+    display: none;
+  }
+  .service-categories .talent-category h3 {
+    font-size: 18px;
+    font-weight: 500;
+    word-wrap: anywhere;
+  }
+  .talent-category-two {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 20px;
+    padding-right: 20px;
+  }
+}
 @media (min-width: 768px) {
   .service-categories .container {
     width: 750px;
@@ -201,6 +257,13 @@
 
   .service-categories .talent-category {
     padding: 20px;
+  }
+
+  .service-categories .talent-category-two {
+    padding-top: 48px;
+    padding-bottom: 48px;
+    /* padding-left: 145px;
+    padding-right: 145px; */
   }
 
   /* Service Slider */
@@ -212,17 +275,29 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
+  .service-categories .talent-box-two {
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 @media (min-width: 992px) {
   .service-categories .container {
     width: 970px;
   }
+  .service-categories .talent-box-two {
+    grid-gap: 25px;
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 @media (min-width: 1024px) {
   .service-details .service-details-card ul {
     grid-template-columns: 1fr 1fr 1fr;
+  }
+  .service-categories .talent-box-two {
+    grid-gap: 25px;
+    grid-template-columns: 1fr 1fr;
   }
 }
 
@@ -236,10 +311,18 @@
     grid-template-columns: 1fr 1fr 1fr;
   }
 
+  .service-categories .talent-box-two {
+    grid-gap: 35px;
+    grid-template-columns: 1fr 1fr;
+  }
   .service-categories {
     padding-top: 80px;
     /* padding-bottom: 100px; */
     padding-bottom: 40px;
+  }
+  .service-categories-two {
+    padding-top: 35px;
+    padding-bottom: 80px;
   }
 
   /* Show Card */
@@ -259,7 +342,7 @@
     background-color: #f4f4f4;
     margin-top: 30px;
     position: static;
-    height: 335px;
+    height: 400px;
   }
 
   /* Service Card Active */

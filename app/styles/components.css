@@ -30,3 +30,16 @@
 @import './about-us/our-story-section.css';
 @import './about-us/who-we-are.css';
 @import './about-us/we-believe-section.css';
+
+/* Services */
+@import './services/index.css';
+@import './services/hero-section.css';
+@import './services/circular-list.css';
+@import './services/linear-list.css';
+@import './services/arrow-list.css';
+@import './about-us/tools-of-trades.css';
+@import './about-us/we-are-trusted.css';
+@import './about-us/top-not-talent.css';
+@import './about-us/what-are-you-looking.css';
+@import './services/end-to-end-services.css';
+@import './services/page-options.css';

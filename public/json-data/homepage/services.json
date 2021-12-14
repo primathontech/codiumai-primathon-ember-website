@@ -3,7 +3,7 @@
   "description": "Where can we take your business? Well, everywhere! This is how we do it.",
   "data": [
     {
-      "linkUrl": "/",
+      "linkUrl": "services.end-to-end-products",
       "imageUrl": "/assets/svgs/right_fit.svg",
       "title": "End-to-end Products",
       "subTitle": "From Start to Finish- Your Project is now Ours!",
@@ -21,9 +21,9 @@
       ]
     },
     {
-      "linkUrl": "/",
+      "linkUrl": "services.staff-augmentation",
       "imageUrl": "/assets/svgs/exceptional_engineers.svg",
-      "title": "Staff Augmentation      ",
+      "title": "Staff Augmentation",
       "subTitle": "We find the best Talent for you!",
       "description":"Count on us if you need an extra pair of experienced hands. We provide the individual or a whole team of Software Developers at one place by identifying the cream of designers and developers.",
       "infoPoint": [
@@ -36,7 +36,7 @@
       ]
     },
     {
-      "linkUrl": "/",
+      "linkUrl": "services.build-and-manage",
       "imageUrl": "/assets/svgs/developers.svg",
       "title": "Build & Manage",
       "subTitle": "Not just Building, We also Manage your Products!",

@@ -1,0 +1,33 @@
+<section class="app-container linear-list-section">
+  <div class="linear-list-container">
+    <h1>
+      {{@content.heading}}
+    </h1>
+    <ul class="linear-list__list">
+      <li class="linear-list__item">
+        <span class="red"></span>
+        <hr />
+        {{get @content.items 0}}
+        <div></div>
+      </li>
+      <li class="linear-list__item">
+        <div></div>
+        {{get @content.items 1}}
+        <hr />
+        <span class="blue"></span>
+      </li>
+      <li class="linear-list__item">
+        <span class="yellow"></span>
+        <hr />
+        {{get @content.items 2}}
+        <div></div>
+      </li>
+      <li class="linear-list__item">
+        <div></div>
+        {{get @content.items 3}}
+        <hr />
+        <span class="green"></span>
+      </li>
+    </ul>
+  </div>
+</section>

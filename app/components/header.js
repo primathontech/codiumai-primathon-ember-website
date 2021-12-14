@@ -1,7 +1,13 @@
 import Component from '@glimmer/component';
 import { tracked } from '@glimmer/tracking';
 import { action } from '@ember/object';
-import { MENU_HIRE_US_CLICK, MENU_CONTACT_CLICK, MENU_BLOG_CLICK, MENU_ABOUT_CLICK } from '../constants/event-name';
+import {
+  MENU_HIRE_US_CLICK,
+  MENU_CONTACT_CLICK,
+  MENU_BLOG_CLICK,
+  MENU_ABOUT_CLICK,
+  MENU_SERVICES_CLICK,
+} from '../constants/event-name';
 export default class HeaderComponent extends Component {
   @tracked openMenu = false;
   @tracked isHeaderfixed = false;
@@ -32,6 +38,8 @@ export default class HeaderComponent extends Component {
         window.gtag('event', MENU_CONTACT_CLICK);
       } else if (title === 'about') {
         window.gtag('event', MENU_ABOUT_CLICK);
+      } else if (title === 'services') {
+        window.gtag('event', MENU_SERVICES_CLICK);
       }
     }
   }

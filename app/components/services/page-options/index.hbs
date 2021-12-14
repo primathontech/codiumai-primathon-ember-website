@@ -1,0 +1,104 @@
+<div class="service-page-options" ...attributes {{on 'mouseleave' this.onMouseLeave}}>
+  <div class="image">
+    <img src="/assets/images/arrow-up.svg" alt="arrow-up" />
+  </div>
+  <ul>
+    {{! template-lint-disable no-invalid-interactive }}
+    <li class="end-to-end-tool-tip" {{on 'mouseover' (fn this.changeContent this.endToEndRoute)}}>
+      <LinkTo
+        class="service-page-link {{if (eq this.activeRoute this.endToEndRoute) 'active-service'}}"
+        @route={{this.endToEndRoute}}
+      >
+        End-to-End Products
+      </LinkTo>
+    </li>
+    {{! template-lint-disable no-invalid-interactive }}
+    <li class="staff-augmentation-tool-tip" {{on 'mouseover' (fn this.changeContent this.staffAugmentation)}}>
+      <LinkTo
+        class="service-page-link {{if (eq this.activeRoute this.staffAugmentation) 'active-service'}}"
+        @route={{this.staffAugmentation}}
+      >
+        Staff Augmentation
+      </LinkTo>
+    </li>
+    {{! template-lint-disable no-invalid-interactive }}
+    <li {{on 'mouseover' (fn this.changeContent this.buildAndManage)}}>
+      <LinkTo
+        class="service-page-link {{if (eq this.activeRoute this.buildAndManage) 'active-service'}}"
+        @route={{this.buildAndManage}}
+      >
+        Build and Manage
+      </LinkTo>
+    </li>
+  </ul>
+  <div class="grid end-to-end">
+    {{#if (eq this.hoverRoute this.endToEndRoute)}}
+      <p>
+        Booking Platforms
+      </p>
+      <p>
+        Shopify Stores
+      </p>
+      <p>
+        Dashboard and Data Visualization
+      </p>
+      <p>
+        Admin Panels and CMS
+      </p>
+      <p>
+        Web and Mobile App Development
+      </p>
+      <p>
+        AI/ML based Recommendation Engines
+      </p>
+      <p class="page-options-extra-para">
+        ERC20 Token
+      </p>
+      <p class="page-options-extra-para">
+        Smart Contract
+      </p>
+    {{else if (eq this.hoverRoute this.staffAugmentation)}}
+      <p>
+        Frontend Developers
+      </p>
+      <p>
+        Product managers
+      </p>
+      <p>
+        Backend developers
+      </p>
+      <p>
+        Quality Analysts
+      </p>
+      <p>
+        Full-stack developers
+      </p>
+      <p>
+        Product Designers
+      </p>
+    {{else if (eq this.hoverRoute this.buildAndManage)}}
+      <p>
+        Get the best
+        <b>
+          management
+        </b>
+        and
+        <b>
+          value
+        </b>
+      </p>
+      <p>
+        <b>
+          driven technology
+        </b>
+        aiming at digitally
+      </p>
+      <p class="mb-140">
+        transforming your business!
+      </p>
+    {{/if}}
+  </div>
+  <LinkTo class="link" @route={{this.hoverRoute}}>
+    Explore
+  </LinkTo>
+</div>

@@ -5,6 +5,7 @@
   width: 100%;
   z-index: 10;
   border-bottom: 1px solid #f5f0ea;
+  overflow: visible;
 }
 
 .menu .nav-items {
@@ -172,10 +173,22 @@
   font-weight: normal;
 }
 
-@media (min-width: 1024px) {
+.service-page-dialog {
+  position: relative;
+}
+
+.service-page-dialog-box {
+  visibility: hidden;
+}
+
+.service-page-dialog:hover .service-page-dialog-box {
+  visibility: visible;
+}
+
+@media (min-width: 1025px) {
   .menu {
     display: flex;
-    overflow: hidden;
+    /* overflow: hidden; */
   }
 
   .menu .nav-items {
@@ -216,6 +229,14 @@
   .links a:hover {
     border-bottom: 2px solid #198cca;
     background-color: transparent;
+  }
+
+  .links .service-page-dialog a:hover {
+    border-bottom: 2px solid transparent;
+  }
+
+  .links .current-url.current-url {
+    border-bottom: 2px solid #198cca;
   }
 }
 
