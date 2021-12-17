@@ -74,17 +74,16 @@ export default class ContactContactFormComponent extends Component {
       validateObj.email = 'Please enter valid email';
       isValidated = false;
     }
-    if (formObj.phone) {
-      if (!this.countryCodeValidator(formObj.countryCode)) {
-        validateObj.countryCode = 'Please enter valid country code';
-        isValidated = false;
-      }
+
+    if (!this.countryCodeValidator(formObj.countryCode)) {
+      validateObj.countryCode = 'Please enter valid country code';
+      isValidated = false;
     }
 
-    // if ((formObj.phone.length > 10 || formObj.phone.length < 10) && formObj.phone.length !== 0) {
-    //   validateObj.phone = 'Please enter valid phone number';
-    //   isValidated = false;
-    // }
+    if (!formObj.phone || formObj.phone.length !== 10) {
+      validateObj.phone = 'Please enter valid phone number';
+      isValidated = false;
+    }
 
     if (formObj.companyName.length < 1) {
       validateObj.companyName = 'Please enter valid company name';
