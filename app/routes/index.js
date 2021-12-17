@@ -37,4 +37,8 @@ export default class IndexRoute extends Route {
     }
     return { serviceData, coreValueData, testimonialData, blogData };
   }
+
+  afterModel() {
+    window.scrollTo(0, 0);
+  }
 }
