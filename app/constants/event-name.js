@@ -4,6 +4,7 @@ export const MENU_CONTACT_CLICK = 'menu_blog_click';
 export const MENU_HIRE_US_CLICK = 'menu_hire_us_click';
 export const MENU_ABOUT_CLICK = 'menu_about_click';
 export const MENU_SERVICES_CLICK = 'menu_services_click';
+export const MENU_CASE_STUDIES_CLICK = 'menu_case_studies_click';
 
 // Homepage Event
 export const HOME_VISITED = 'home_visited';

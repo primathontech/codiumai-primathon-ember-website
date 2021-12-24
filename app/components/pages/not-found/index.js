@@ -1,7 +1,7 @@
 import Component from '@glimmer/component';
 import { action } from '@ember/object';
 
-export default class PagesNotFoundComponent extends Component {
+export default class PagesNotFoundIndexComponent extends Component {
   @action
   onHireUs() {
     const elm = document.getElementById('contact-hero');

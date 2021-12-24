@@ -10,11 +10,11 @@ Router.map(function () {
   this.route('contact');
   this.route('careers');
   this.route('about-us');
-  this.route('blog');
-  this.route('not-found', { path: '/*path' });
   this.route('services', function () {
     this.route('staff-augmentation');
     this.route('end-to-end-products');
     this.route('build-and-manage');
   });
+  this.route('case-studies');
+  this.route('not-found', { path: '/*path' });
 });
