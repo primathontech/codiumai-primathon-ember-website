@@ -72,9 +72,14 @@
       >
         Blog
       </a>
-      {{! <LinkTo @route="careers" class="menu-careers">
+      <LinkTo
+        @route="careers"
+        class="menu-careers"
+        @activeClass="current-url"
+        {{on 'click' (fn this.closeOpenMenu 'careers')}}
+      >
         Careers
-      </LinkTo> }}
+      </LinkTo>
       <LinkTo
         @route="contact"
         class="menu-contact"

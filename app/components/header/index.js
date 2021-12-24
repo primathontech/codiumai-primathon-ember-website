@@ -8,8 +8,10 @@ import {
   MENU_ABOUT_CLICK,
   MENU_SERVICES_CLICK,
   MENU_CASE_STUDIES_CLICK,
-} from '../constants/event-name';
-export default class HeaderComponent extends Component {
+  MENU_CAREERS_CLICK,
+} from '../../constants/event-name';
+
+export default class HeaderIndexComponent extends Component {
   @tracked openMenu = false;
   @tracked isHeaderfixed = false;
   @tracked activePrimathon = true;
@@ -43,6 +45,8 @@ export default class HeaderComponent extends Component {
         window.gtag('event', MENU_SERVICES_CLICK);
       } else if (title === 'case-studies') {
         window.gtag('event', MENU_CASE_STUDIES_CLICK);
+      } else if (title === 'careers') {
+        window.gtag('event', MENU_CAREERS_CLICK);
       }
     }
   }

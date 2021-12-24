@@ -1,0 +1,104 @@
+.career-poster {
+  padding-top: 84px;
+  padding-bottom: 36px;
+  background-color: #f5f0ea;
+}
+
+.career-poster h2 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 35px;
+  text-align: center;
+  color: #1a284d;
+  margin-bottom: 15px;
+  margin-top: 65px;
+}
+
+.career-poster h3 {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 45px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.career-poster h3 .red {
+  color: #f1553f;
+}
+
+.career-poster h3 .green {
+  color: #24b768;
+}
+
+.career-poster h3 .yellow {
+  color: #f1b244;
+}
+
+.career-poster p {
+  font-size: 20px;
+  line-height: 35px;
+  text-align: center;
+  color: #1a284d;
+}
+
+.career-poster-ring {
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 25%;
+}
+
+@media (min-width: 1024px) {
+  .career-poster {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+
+  .career-poster h2 {
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 35px;
+  }
+
+  .career-poster h3 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 58px;
+  }
+
+  .career-poster-ring {
+    display: block;
+  }
+
+  .career-poster-ring img {
+    width: 50%;
+    margin-left: auto;
+  }
+}
+
+@media (min-width: 1200px) {
+  .career-poster-ring {
+    top: 30%;
+  }
+
+  .career-poster-ring img {
+    width: 65%;
+  }
+}
+
+@media (min-width: 1440px) {
+  .career-poster-ring {
+    top: 20%;
+  }
+
+  .career-poster-ring img {
+    width: 85%;
+  }
+}
+
+@media (min-width: 1480px) {
+  .career-poster-ring img {
+    width: 100%;
+  }
+}
