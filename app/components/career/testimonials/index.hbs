@@ -1,0 +1,40 @@
+<div class='container'>
+  <h2 class='title'>
+    <span>
+      Hear it from
+    </span>
+    <span class='green'>PrimaRockstars</span>
+  </h2>
+  <div class='testimonial-item-cards'>
+    {{#each @data as |data index|}}
+      <div class='{{if (eq this.activeIndex index) 'isActive' 'isNotActive'}}'>
+        <div class='person-img'>
+          <img src={{if data.image.guid data.image.guid '/assets/images/user.png'}} loading='lazy' alt={{data.name}} />
+        </div>
+        <div class='testimonial-item'>
+          <blockquote>
+            {{data.comment}}
+          </blockquote>
+          <div class='name'>
+            <span>
+              {{data.employee_name}}
+            </span>
+            <span>&#44;</span>
+            <span>
+              {{data.designation}}
+            </span>
+          </div>
+        </div>
+      </div>{{/each}}
+    <div>
+      <div class='slider-container'>
+        {{#each @data as |data index|}}
+          <span
+            class='dot {{if (eq this.activeIndex index) 'active'}}'
+            {{on 'click' (fn this.showContent index)}}
+          ></span>
+        {{/each}}
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,19 +1,23 @@
-<Container class='career-poster' style='background-color: white;'>
+<Container>
   <div class='join-us'>
-    <img src='/assets/images/joinUs.png' alt='join-us' />
-    <div>
+    <div class='joinUsImg'>
+      <img src='/assets/images/joinUs.png' alt='join-us' />
+    </div>
+
+    <div class='describe'>
       <span>
-        We are building our team and our team is building
+        We are building our team and our team is building the
       </span>
-      <span>
-        the technology of tomorrow.
+      <span class='green'>
+        technology of tomorrow.
       </span>
-      <button>
-        Find open Opening
-      </button>
-      <LinkTo @route='open-position' class='menu-home'>
-        Find Open Positions
-      </LinkTo>
+      <div class='open-job-button'>
+        <LinkTo @route='open-position' class='menu-home'>
+          <button>
+            Find open Positions
+          </button>
+        </LinkTo>
+      </div>
     </div>
   </div>
 </Container>

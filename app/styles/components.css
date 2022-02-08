@@ -53,6 +53,7 @@
 @import './career/culture.css';
 @import './career/reason.css';
 @import './career/joinus.css';
+@import './career/testimonials.css';
 
 /* Job Description */
 @import './job-desc/poster.css';

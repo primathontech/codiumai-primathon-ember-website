@@ -1,31 +1,31 @@
-.reason {
-  padding-top: 70px;
-  padding-bottom: 70px;
-  background: #F4F4F4;
+.career-feature .reason {
+  margin: 70px 0px;
+  background: #f4f4f4;
+  position: relative;
 }
 
-.career-reason h2{
+.reason h2 {
   font-family: Poppins;
   font-style: normal;
   font-weight: 500;
   font-size: 30px;
   line-height: 45px;
   text-align: center;
-  margin:auto 30px;
-  color: #1A284D;
-  
+  margin: auto 30px;
+  color: #1a284d;
+  padding: 38px 0px;
 }
 
-.heading{
+.heading {
   font-family: Poppins;
   font-style: normal;
   font-weight: 500;
   font-size: 22px;
   line-height: 33px;
   text-align: center;
-  color: #1A284D;
+  color: #1a284d;
   text-transform: capitalize;
-  margin-top:50px;
+  margin-top: 50px;
   margin-bottom: 10px;
 }
 
@@ -51,5 +51,9 @@
 @media only screen and (max-width: 600px) {
   .feature {
     flex-direction: column;
+  }
+  .reason {
+    margin-left: 5%;
+    padding: 15px;
   }
 }

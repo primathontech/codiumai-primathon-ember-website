@@ -48,4 +48,7 @@ export default class IndexController extends Controller {
   get blogData() {
     return this.model.blogData.data;
   }
+  get employeeTestimonialData() {
+    return this.model.employeeTestimonialData.data;
+  }
 }

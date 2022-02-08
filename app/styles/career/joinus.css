@@ -1,28 +1,105 @@
-.join-us{
+.join-us {
   display: flex;
   justify-content: space-between;
+  padding-top: 64px;
+  gap: 10%;
+  margin-left: -12%;
 }
 
-.join-us span:last-child {
+.join-us span {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 40px;
+  color: #1a284d;
+}
+
+.join-us .green {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 40px;
   color: #24b768;
 }
+.join-us .open-job-button {
+  display: flex;
+  justify-content: center;
+}
 
-.join-us button{
-  background: #24B768;
-  border: 1px solid #24B768;
+.join-us .open-job-button {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.join-us button {
+  background: #24b768;
+  border: 1px solid #24b768;
   box-sizing: border-box;
   border-radius: 3px;
-  color:white;
-  height: 58px;
-  margin-left: auto;
-  margin-right: auto;
+  color: white;
+  padding: 20px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.35px;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin: 20px 0;
 }
-@media only screen and (max-width: 600px) {
+
+.join-us .joinUsImg {
+  flex: 1;
+}
+
+.join-us .joinUsImg img {
+  width: 100%;
+  height: 100%;
+  object-position: 35% 50%;
+  object-fit: cover;
+}
+
+.join-us .describe {
+  flex: 1;
+}
+.join-us .green {
+  text-align: left;
+}
+@media only screen and (max-width: 800px) {
   .join-us {
     flex-direction: column;
+    gap: 30px;
   }
 
-  .join-us:first-child{
-    order: 2;
+  .join-us .open-job-button {
+    justify-content: center;
+  }
+
+  .join-us button {
+    margin: 40px 0;
   }
 }
+
+@media screen and (max-width: 1200px) {
+  .join-us {
+    margin: 0;
+  }
+}
+/* @media (min-width: 1024px) {
+  .join-us .container {
+    margin-left: 5%;
+    padding: 15px;
+  }
+  .join-us .open-job-button {
+    display: flex;
+    justify-content: flex-start;
+  } */
+/* .join-us .describe {
+    margin-left: 76px;
+  } */
+/* } */
