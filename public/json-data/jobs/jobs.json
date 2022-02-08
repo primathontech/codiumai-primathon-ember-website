@@ -1,0 +1,37 @@
+[
+  {
+    "title": "iOS Developer",
+    "department": "Engineering",
+    "experience": "Fresher",
+    "location": "Remote",
+    "jobType": "Full Time"
+  },
+  {
+    "title": "iOS Developer",
+    "department": "Engineering",
+    "experience": "Fresher",
+    "location": "Remote",
+    "jobType": "Full Time"
+  },
+   {
+    "title": "Frontend Developer",
+    "department": "Engineering",
+    "experience": "2-5 years",
+    "location": "Remote",
+    "jobType": "Internship"
+  },
+  {
+    "title": "Digital Marketing Associate",
+    "department": "Marketing",
+    "experience": "Fresher",
+    "location": "Remote",
+    "jobType": "Internship"
+  },
+   {
+    "title": "Quality Assurance Engineer",
+    "department": "Engineering",
+    "experience": "5+",
+    "location": "Remote",
+    "jobType": "Full Time"
+  }
+]

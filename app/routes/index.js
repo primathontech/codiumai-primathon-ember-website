@@ -32,7 +32,7 @@ export default class IndexRoute extends Route {
         };
       });
     } catch (error) {
-      console.error('error', error);
+      //console.error('error', error);
       blogData['data'] = [];
     }
     return { serviceData, coreValueData, testimonialData, blogData };

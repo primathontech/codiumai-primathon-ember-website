@@ -1,0 +1,36 @@
+<div class='jobRow'>
+  <span>
+    {{@title}}
+  </span>
+  <span>
+    {{@department}}
+  </span>
+  <span>
+    {{@experience}}
+  </span>
+  <span>
+    {{@location}}
+  </span>
+  <span>
+    {{@jobType}}
+  </span>
+  <LinkTo @route='open-position' class='menu-home'>
+    View More
+  </LinkTo>
+</div>
+
+<div class='jobCard'>
+  <h5>{{@title}}</h5>
+  <label>
+    {{@department}}
+    |
+    {{@experience}}
+    years of experience |
+    {{@location}}
+    |
+    {{@jobType}}
+  </label>
+  <LinkTo @route='open-position' class='menu-home'>
+    View More
+  </LinkTo>
+</div>

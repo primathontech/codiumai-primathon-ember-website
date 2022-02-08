@@ -58,3 +58,6 @@
 @import './job-desc/poster.css';
 @import './job-desc/post.css';
 @import './job-desc/details-form.css';
+/*Open Positions*/
+@import './openPosition/jobRow.css';
+@import './openPosition/jobData.css';
