@@ -3,6 +3,10 @@
   padding-bottom: 36px;
   background-color: #f5f0ea;
 }
+.case-studies-poster .container {
+  margin-left: auto;
+  margin-right: auto;
+}
 
 .case-studies-poster h2 {
   font-weight: 600;
@@ -33,7 +37,7 @@
   position: absolute;
   right: 0;
   transform: rotate(180deg);
-  top: 40%;
+  top: 25%;
   /* top: 20%; */
 }
 
@@ -41,6 +45,11 @@
   .case-studies-poster {
     padding-top: 154px;
     padding-bottom: 82px;
+    padding-left: 0px;
+  }
+  .case-studies-poster .container {
+    margin-left: 5%;
+    padding: 15px;
   }
 
   .case-studies-poster h2 {

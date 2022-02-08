@@ -1,0 +1,55 @@
+.reason {
+  padding-top: 70px;
+  padding-bottom: 70px;
+  background: #F4F4F4;
+}
+
+.career-reason h2{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 45px;
+  text-align: center;
+  margin:auto 30px;
+  color: #1A284D;
+  
+}
+
+.heading{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 33px;
+  text-align: center;
+  color: #1A284D;
+  text-transform: capitalize;
+  margin-top:50px;
+  margin-bottom: 10px;
+}
+
+.feature {
+  display: flex;
+  flex-direction: row;
+}
+
+.feature img {
+  margin: auto;
+}
+
+.feature p:last-child {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+@media only screen and (max-width: 600px) {
+  .feature {
+    flex-direction: column;
+  }
+}

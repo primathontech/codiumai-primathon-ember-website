@@ -1,0 +1,28 @@
+.join-us{
+  display: flex;
+  justify-content: space-between;
+}
+
+.join-us span:last-child {
+  color: #24b768;
+}
+
+.join-us button{
+  background: #24B768;
+  border: 1px solid #24B768;
+  box-sizing: border-box;
+  border-radius: 3px;
+  color:white;
+  height: 58px;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media only screen and (max-width: 600px) {
+  .join-us {
+    flex-direction: column;
+  }
+
+  .join-us:first-child{
+    order: 2;
+  }
+}
