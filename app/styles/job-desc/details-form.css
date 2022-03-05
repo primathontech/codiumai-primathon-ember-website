@@ -1,0 +1,105 @@
+.form-container {
+  margin-top: 40px;
+}
+
+.form-container h1 {
+  font-family: Poppins;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 33px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.details-form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.form .form-label {
+  display: block;
+
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.form .form-input {
+  margin-top: 15px;
+}
+
+.form .form-input-file {
+  display: block;
+  margin: 15px 0 0 0;
+  padding: 0;
+
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  text-decoration-line: underline;
+  color: #198cca;
+  cursor: pointer;
+}
+
+.form button {
+  background: #24b768;
+  margin: 0 auto;
+  border-radius: 3px;
+  padding: 20px 51px;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  color: #ffffff;
+}
+
+.quote {
+  flex-basis: 40%;
+}
+
+.quote p {
+  font-family: Poppins;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px;
+  text-align: left;
+}
+
+.quote span {
+  color: #6ab969;
+}
+
+@media only screen and (max-width: 700px) {
+  .details-form {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .quote {
+    max-width: 300px;
+    order: -1;
+  }
+
+  .quote p {
+    text-align: center;
+  }
+
+  .form-container h1 {
+    margin-top: 90px;
+  }
+}

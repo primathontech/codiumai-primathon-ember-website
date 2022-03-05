@@ -1,0 +1,73 @@
+.job-desc-wrapper {
+  padding-top: 72px;
+  padding-bottom: 80px;
+}
+
+.about-position {
+  padding-bottom: 30px;
+}
+
+.about-position h3 {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 33px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  padding-bottom: 10px;
+}
+
+.about-position li,
+.about-position p {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.bullet-container {
+  margin-bottom: 20px;
+}
+
+.bullet-container ul {
+  list-style: disc;
+  margin-left: 22px;
+}
+
+.bullet-container p {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+@media only screen and (max-width: 1000px) {
+  .job-desc-wrapper {
+    padding: 72px 57px 68px;
+  }
+
+  .about-position h3 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 38px;
+    text-align: left;
+  }
+
+  .about-position p,
+  .bullet-container li,
+  .bullet-container p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: left;
+  }
+
+  .bullet-container p {
+    font-weight: 400;
+  }
+}

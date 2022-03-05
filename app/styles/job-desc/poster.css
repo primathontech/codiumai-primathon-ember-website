@@ -1,0 +1,74 @@
+.job-desc-poster {
+  background-color: #f5f0ea;
+  padding-top: 154px;
+  padding-bottom: 100px;
+}
+
+.job-desc-poster h3 {
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 35px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.job-desc-poster h2 {
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 58px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #1a284d;
+}
+
+.job-desc-poster p {
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #1a284d;
+}
+
+.ellipse-img {
+  position: absolute;
+  right: 0;
+  bottom: 0px;
+  transform: scale(0.8);
+}
+
+@media only screen and (max-width: 1200px) {
+  .ellipse-img {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .job-desc-poster {
+    padding-top: 136px;
+    padding-bottom: 36px;
+  }
+
+  .job-desc-poster h3 {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 35px;
+    text-align: center;
+
+    margin-bottom: 16px;
+  }
+
+  .job-desc-poster h2 {
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 45px;
+    text-align: center;
+
+    margin-bottom: 24px;
+  }
+}

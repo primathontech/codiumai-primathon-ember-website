@@ -16,5 +16,6 @@ Router.map(function () {
     this.route('build-and-manage');
   });
   this.route('case-studies');
+  this.route('job-desc');
   this.route('not-found', { path: '/*path' });
 });

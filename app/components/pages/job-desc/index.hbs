@@ -1,0 +1,11 @@
+<Header />
+<div class='app-container' {{did-insert (fn this.dataHandler @id)}}>
+  <JobDesc::Poster @jobData={{this.data}} />
+  <JobDesc::Post
+    @jobData={{this.data.description}}
+    @formData={{this.formData}}
+    @formHandler={{this.formHandler}}
+    @formSubmitHandler={{this.formSubmitHandler}}
+  />
+</div>
+<Homepage::Footer />

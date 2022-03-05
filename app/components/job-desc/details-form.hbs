@@ -1,0 +1,66 @@
+<div class='form-container'>
+  <div class='details-form'>
+    <div>
+      <form class='form' action='mailto:yashveer@primathon.in' method='”POST”'>
+        <h1>Apply for this role</h1>
+        <label class='form-label'>
+          <span class='form-label'>
+            Name
+          </span>
+          <Input
+            name='name'
+            @type='text'
+            class='form-input'
+            placeholder='Enter you name'
+            @value={{@formData.name}}
+            {{on 'change' @formHandler}}
+          />
+        </label>
+        <label class='form-label'>
+          <span class='form-label'>
+            Email Address
+          </span>
+          <Input
+            name='email'
+            @type='text'
+            class='form-input'
+            placeholder='Enter you e-mail'
+            @value={{@formData.email}}
+            {{on 'change' @formHandler}}
+          />
+        </label>
+
+        <label class='form-label'>
+          <span class='form-label'>
+            Upload CV
+          </span>
+          <label class='form-input-file' for='cv'>Attach (.pdf,.doc)</label>
+          <Input id='cv' name='cv' @type='file' @value={{@formData.cv}} hidden {{on 'change' @formHandler}} />
+        </label>
+
+        <label class='form-label'>
+          <span style='font-size:15px;' class='form-label'>
+            Portfolio/Personal Website/Projects
+            <span style='font-size: 10px;'>(Optional)</span>
+          </span>
+          <Input
+            name='portfolio'
+            @type='text'
+            class='form-input'
+            placeholder='Paste Link'
+            @value={{@formData.portfolio}}
+            {{on 'change' @formHandler}}
+          />
+        </label>
+        <Input type='submit' value='submit' />
+        {{! <button type='submit'>APPLY</button> }}
+      </form>
+    </div>
+    <div class='quote'>
+      <p>
+        We are building our team and our team is building the
+        <span>technology of tomorrow</span>.
+      </p>
+    </div>
+  </div>
+</div>
