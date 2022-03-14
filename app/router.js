@@ -18,3 +18,12 @@ Router.map(function () {
     this.route('build-and-manage');
   });
 });
+
+Router.reopen({
+  // eslint-disable-next-line ember/no-function-prototype-extensions
+  doSomethingOnUrlChange: function () {
+    window?.gtag?.('config', 'G-JE8T1MS4RZ', {
+      page_path: this.get('url'),
+    });
+  }.on('didTransition'),
+});
