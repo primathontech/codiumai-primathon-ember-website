@@ -1,9 +1,7 @@
 .join-us {
   display: flex;
-  justify-content: space-between;
   padding-top: 64px;
-  gap: 10%;
-  margin-left: -12%;
+  gap: 5%;
 }
 
 .join-us span {
@@ -66,6 +64,8 @@
 
 .join-us .describe {
   flex: 1;
+  padding-top: 28px;
+  padding-right: 2rem;
 }
 .join-us .green {
   text-align: left;

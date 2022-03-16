@@ -25,17 +25,27 @@
   text-align: center;
   color: #1a284d;
   text-transform: capitalize;
-  margin-top: 50px;
-  margin-bottom: 10px;
+  margin-top: 40px;
+  margin-bottom: 20px;
 }
 
 .feature {
   display: flex;
   flex-direction: row;
+  padding: 0px 2rem;
+}
+.feature .desc {
+  display: grid;
+  grid-template-rows: 1.2fr 1fr 1fr;
+  margin-left: 4rem;
+  margin-right: 4rem;
 }
 
 .feature img {
   margin: auto;
+}
+.feature-image {
+  height: 33%;
 }
 
 .feature p:last-child {
@@ -55,5 +65,12 @@
   .reason {
     margin-left: 5%;
     padding: 15px;
+  }
+  .feature .desc{
+    grid-template-rows: 1fr 1.3fr;
+  }
+
+  .feature p:last-child {
+    display: none;
   }
 }

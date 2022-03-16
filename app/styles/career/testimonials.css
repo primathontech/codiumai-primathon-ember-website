@@ -1,3 +1,12 @@
+.yellow-ring {
+  position: relative;
+  z-index: 1;
+  bottom: 10rem;
+}
+.yellow-ring img {
+  position: absolute;
+  z-index: 1;
+}
 .container .title {
   font-family: Poppins;
   font-style: normal;
@@ -30,7 +39,7 @@
   text-align: center;
   flex-wrap: wrap;
 }
-.testimonial-item-cards .person-img {
+.testimonial-item-cards .person-img-desktop {
   flex: 1;
   width: 100%;
   height: 100%;
@@ -39,7 +48,7 @@
   justify-self: stretch;
 }
 
-.testimonial-item-cards .person-img .img {
+.testimonial-item-cards .person-img-desktop .img {
   height: 100%;
   width: 100%;
   object-fit: cover;
@@ -49,6 +58,9 @@
   box-sizing: border-box;
   box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.05);
   padding: 10px;
+  position: relative;
+  z-index: 5;
+  background-color: white;
 }
 
 .testimonial-item {
@@ -80,6 +92,7 @@
   line-height: 33px;
   text-align: center;
   color: #1a284d;
+  padding-top: 1rem;
 }
 
 .container .active,
@@ -100,27 +113,40 @@
   text-align: center;
   margin-top: 5%;
 }
+.testimonial-item-cards .person-img-mobile {
+  display: none;
+}
 
 @media only screen and (max-width: 1024px) {
   .testimonial-item {
     flex: 2;
   }
-  .testimonial-item-cards .person-img {
+  .testimonial-item-cards .person-img-mobile {
     margin: 0 0 0 24px;
   }
 }
 
 @media only screen and (max-width: 900px) {
+  .yellow-ring {
+    display: none;
+  }
+  .testimonial-item {
+    background-position: 175px 15px;
+  }
+  .testimonial-item-cards .person-img-desktop {
+    display: none;
+  }
   .isActive {
     flex-flow: column;
   }
   .container .testimonial-by {
     order: 3;
   }
-  .testimonial-item-cards .person-img {
+  .testimonial-item-cards .person-img-mobile {
     justify-self: center;
     width: fit-content;
     order: 2;
+    display: block;
   }
 }
 @keyframes mymove {

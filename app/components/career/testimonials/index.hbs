@@ -1,3 +1,6 @@
+<div class='yellow-ring'>
+  <img src='/assets/images/yellow_ring.png' alt='yellow ellipse' />
+</div>
 <div class='container'>
   <h2 class='title'>
     <span>
@@ -8,13 +11,20 @@
   <div class='testimonial-item-cards'>
     {{#each @data as |data index|}}
       <div class='{{if (eq this.activeIndex index) 'isActive' 'isNotActive'}}'>
-        <div class='person-img'>
+        <div class='person-img-desktop'>
           <img src={{if data.image.guid data.image.guid '/assets/images/user.png'}} loading='lazy' alt={{data.name}} />
         </div>
         <div class='testimonial-item'>
           <blockquote>
             {{data.comment}}
           </blockquote>
+          <div class='person-img-mobile'>
+            <img
+              src={{if data.image.guid data.image.guid '/assets/images/user.png'}}
+              loading='lazy'
+              alt={{data.name}}
+            />
+          </div>
           <div class='name'>
             <span>
               {{data.employee_name}}
