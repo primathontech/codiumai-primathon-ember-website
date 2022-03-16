@@ -2,6 +2,7 @@
   padding-top: 84px;
   padding-bottom: 36px;
   background-color: #f5f0ea;
+  margin: auto;
 }
 .case-studies-poster .container {
   margin-left: auto;
@@ -48,7 +49,6 @@
     padding-left: 0px;
   }
   .case-studies-poster .container {
-    margin-left: 5%;
     padding: 15px;
   }
 

@@ -14,7 +14,7 @@
   <span>
     {{@jobType}}
   </span>
-  <LinkTo @route='open-position' class='menu-home'>
+  <LinkTo @route='job-desc' @query={{hash id=@id}} class='menu-home'>
     View More
   </LinkTo>
 </div>
@@ -30,7 +30,7 @@
     |
     {{@jobType}}
   </label>
-  <LinkTo @route='open-position' class='menu-home'>
+  <LinkTo @route='job-desc' @query={{hash id=@id}} class='menu-home'>
     View More
   </LinkTo>
 </div>
