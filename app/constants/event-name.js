@@ -24,3 +24,10 @@ export const CONTACT_FORM_PAYLOAD_VALID = 'contact_form_payload_valid';
 export const CONTACT_FORM_PAYLOAD_INVALID = 'contact_form_payload_invalid';
 export const CONTACT_API_SUCCESS = 'contact_api_success';
 export const CONTACT_API_ERROR = 'contact_api_error';
+
+// Career Page
+export const CAREER_SEND_MESSAGE_CLICK = 'CAREER_send_message_click';
+export const CAREER_FORM_PAYLOAD_VALID = 'CAREER_form_payload_valid';
+export const CAREER_FORM_PAYLOAD_INVALID = 'CAREER_form_payload_invalid';
+export const CAREER_API_SUCCESS = 'CAREER_api_success';
+export const CAREER_API_ERROR = 'CAREER_api_error';
