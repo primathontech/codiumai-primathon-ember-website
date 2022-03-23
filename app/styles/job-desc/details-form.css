@@ -1,7 +1,3 @@
-.form-container {
-  margin-top: 40px;
-}
-
 .form-container h1 {
   font-family: Poppins;
   font-size: 22px;
@@ -82,6 +78,13 @@
 
 .quote span {
   color: #6ab969;
+}
+
+.errMessage {
+  color: #f2545b;
+  font-family: Poppins;
+  font-size: 14px;
+  line-height: 18px;
 }
 
 @media only screen and (max-width: 700px) {

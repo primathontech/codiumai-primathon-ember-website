@@ -1,7 +1,7 @@
-<div class='form-container'>
+<div class='form-container container'>
   <div class='details-form'>
     <div>
-      <form class='form' action='mailto:yashveer@primathon.in' method='”POST”'>
+      <form class='form' onsubmit={{@formSubmitHandler}} method='”POST”'>
         <h1>Apply for this role</h1>
         <label class='form-label'>
           <span class='form-label'>
@@ -15,7 +15,14 @@
             @value={{@formData.name}}
             {{on 'change' @formHandler}}
           />
+          <br />
+          {{#if @validation.name}}
+            <span class='errMessage'>
+              {{@validation.name}}
+            </span>
+          {{/if}}
         </label>
+
         <label class='form-label'>
           <span class='form-label'>
             Email Address
@@ -28,6 +35,12 @@
             @value={{@formData.email}}
             {{on 'change' @formHandler}}
           />
+          <br />
+          {{#if @validation.email}}
+            <span class='errMessage'>
+              {{@validation.email}}
+            </span>
+          {{/if}}
         </label>
 
         <label class='form-label'>
@@ -35,7 +48,21 @@
             Upload CV
           </span>
           <label class='form-input-file' for='cv'>Attach (.pdf,.doc)</label>
-          <Input id='cv' name='cv' @type='file' @value={{@formData.cv}} hidden {{on 'change' @formHandler}} />
+          <Input
+            id='cv'
+            name='cv'
+            @type='file'
+            accept='application/pdf,application/vnd.ms-doc'
+            @value={{@formData.cv}}
+            hidden
+            {{on 'change' @formHandler}}
+          />
+          <br />
+          {{#if @validation.cv}}
+            <span class='errMessage'>
+              {{@validation.cv}}
+            </span>
+          {{/if}}
         </label>
 
         <label class='form-label'>
@@ -51,9 +78,15 @@
             @value={{@formData.portfolio}}
             {{on 'change' @formHandler}}
           />
+          <br />
+          {{#if @validation.portfolio}}
+            <span class='errMessage'>
+              {{@validation.portfolio}}
+            </span>
+          {{/if}}
         </label>
-        <Input type='submit' value='submit' />
-        {{! <button type='submit'>APPLY</button> }}
+
+        <button type='submit'>APPLY</button>
       </form>
     </div>
     <div class='quote'>

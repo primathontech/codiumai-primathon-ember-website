@@ -27,4 +27,8 @@ export default class ApiService extends Service {
   async sendContactMail(payload) {
     return await this.request(`/contact`, this.requestOptionDefaults(payload));
   }
+
+  async sendCareerMail(payload) {
+    return await this.request(`/career`, this.requestOptionDefaults(payload));
+  }
 }
