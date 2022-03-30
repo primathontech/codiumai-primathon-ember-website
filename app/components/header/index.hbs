@@ -1,7 +1,7 @@
-<nav class="menu items-center text-white {{this.extraClass}}" {{on-window-scroll this.onScroll}}>
-  <LinkTo @route="index" class="menu-index">
-    <div class="logo-holder" type="div">
-      <img src="assets/images/primathon_icon_final.png" alt="Primathon" />
+<nav class='menu items-center text-white {{this.extraClass}}' {{on-window-scroll this.onScroll}}>
+  <LinkTo @route='index' class='menu-index'>
+    <div class='logo-holder' type='div'>
+      <img src='/assets/images/primathon_icon_final.png' alt='Primathon' />
     </div>
     {{!-- <div
       class="logo-holder {{unless this.activePrimathon 'olympic'}}"
@@ -23,73 +23,73 @@
       <h1>
         Primathon
       </h1>
-      <p class="inspired">
+      <p class='inspired'>
         Above & Beyond
       </p>
     </div>
   </LinkTo>
-  <input class="hamburger-btn" type="checkbox" id="hamburger-btn" />
-  <label class="hamburger-icon" for="hamburger-btn">
-    <span class="ham-icon"></span>
+  <input class='hamburger-btn' type='checkbox' id='hamburger-btn' />
+  <label class='hamburger-icon' for='hamburger-btn'>
+    <span class='ham-icon'></span>
   </label>
-  <div class="nav-items">
-    <div class="links">
-      <LinkTo @route="index" class="menu-home" {{on 'click' this.closeOpenMenu}}>
+  <div class='nav-items'>
+    <div class='links'>
+      <LinkTo @route='index' class='menu-home' {{on 'click' this.closeOpenMenu}}>
         Home
       </LinkTo>
       <LinkTo
-        @route="about-us"
-        class="menu-about"
-        @activeClass="current-url"
+        @route='about-us'
+        class='menu-about'
+        @activeClass='current-url'
         {{on 'click' (fn this.closeOpenMenu 'about')}}
       >
         About Us
       </LinkTo>
-      <div class="service-page-dialog">
+      <div class='service-page-dialog'>
         <LinkTo
-          @route="services.end-to-end-products"
-          class="menu-service"
+          @route='services.end-to-end-products'
+          class='menu-service'
           {{on 'click' (fn this.closeOpenMenu 'services')}}
         >
           Our Services
         </LinkTo>
-        <Services::PageOptions class="service-page-dialog-box" />
+        <Services::PageOptions class='service-page-dialog-box' />
       </div>
-      <LinkTo
-        @route="case-studies"
-        class="menu-case-studies"
-        @activeClass="current-url"
+      {{!-- <LinkTo
+        @route='case-studies'
+        class='menu-case-studies'
+        @activeClass='current-url'
         {{on 'click' (fn this.closeOpenMenu 'case-studies')}}
       >
         Case studies
-      </LinkTo>
+      </LinkTo> --}}
       <a
-        href="/blog"
-        target="_blank"
-        class="menu-blog"
-        rel="noopener noreferrer"
+        href='/blog'
+        target='_blank'
+        class='menu-blog'
+        rel='noopener noreferrer'
         {{on 'click' (fn this.closeOpenMenu 'blog')}}
       >
         Blog
       </a>
       <LinkTo
-        @route="careers"
-        class="menu-careers"
-        @activeClass="current-url"
+        @route='careers'
+        class='menu-careers'
+        @activeClass='current-url'
         {{on 'click' (fn this.closeOpenMenu 'careers')}}
       >
         Careers
       </LinkTo>
       <LinkTo
-        @route="contact"
-        class="menu-contact"
-        @activeClass="current-url"
+        @route='contact'
+        class='menu-contact'
+        @activeClass='current-url'
         {{on 'click' (fn this.closeOpenMenu 'contact')}}
       >
         Contact
       </LinkTo>
     </div>
-    <LinkTo @route="contact" class="menu-primary" {{on 'click' (fn (or this.onHireUs (noop)))}}>
+    <LinkTo @route='contact' class='menu-primary' {{on 'click' (fn (or this.onHireUs (noop)))}}>
       GET IN TOUCH
     </LinkTo>
   </div>

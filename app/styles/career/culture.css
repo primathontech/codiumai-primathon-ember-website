@@ -49,18 +49,19 @@
 .cluture .cluture-image-container .cluture-figures {
   animation: logomarquee 80s linear infinite;
 }
-.cluture .cluture-image-container:hover  .cluture-figures {
+.cluture .cluture-image-container:hover .cluture-figures {
   cursor: pointer;
   animation-play-state: paused;
-  -webkit-animation-play-state:paused;
-  -moz-animation-play-state:paused;
-  -o-animation-play-state:paused;
-  animation-play-state:paused;
+  -webkit-animation-play-state: paused;
+  -moz-animation-play-state: paused;
+  -o-animation-play-state: paused;
+  animation-play-state: paused;
 }
 
 .cluture .cluture-image-container .cluture-figures {
   margin-top: 25px;
   display: flex;
+  align-items: center;
 }
 
 .cluture .cluture-responsive-container {
