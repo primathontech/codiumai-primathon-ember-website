@@ -96,8 +96,8 @@ export default class JobDescComponent extends Component {
 
   @action
   async formSubmitHandler(e) {
-    this.trackEvent(CAREER_SEND_MESSAGE_CLICK);
     e.preventDefault();
+    this.trackEvent(CAREER_SEND_MESSAGE_CLICK);
 
     if (this.validate()) {
       this.trackEvent(CAREER_FORM_PAYLOAD_VALID, this.userQuestion);
@@ -151,5 +151,11 @@ export default class JobDescComponent extends Component {
 
     this.validation = validateObj;
     return isValidated;
+  }
+
+  trackEvent(name, payload) {
+    if (window.gtag) {
+      window.gtag('event', name, payload);
+    }
   }
 }

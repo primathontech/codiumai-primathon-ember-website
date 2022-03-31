@@ -1,9 +1,13 @@
 .join-us {
   display: flex;
   padding-top: 64px;
+  margin-left: calc(5% + 77px);
   gap: 5%;
 }
 
+.join-us .mobile {
+  display: none;
+}
 .join-us span {
   font-family: Poppins;
   font-style: normal;
@@ -36,6 +40,7 @@
   border: 1px solid #24b768;
   box-sizing: border-box;
   border-radius: 3px;
+  outline: none;
   color: white;
   padding: 20px;
   font-family: Poppins;
@@ -60,36 +65,55 @@
   height: 100%;
   object-position: 35% 50%;
   object-fit: cover;
+  border-radius: 10px;
 }
 
 .join-us .describe {
   flex: 1;
   padding-top: 28px;
-  padding-right: 2rem;
+  padding-right: 15vw;
 }
 .join-us .green {
   text-align: left;
+}
+
+@media only screen and (max-width: 1065px) {
+  .join-us {
+    margin: 0px 77px 0 77px;
+  }
+
+  .join-us .describe {
+    padding-right: 0;
+  }
 }
 @media only screen and (max-width: 800px) {
   .join-us {
     flex-direction: column;
     gap: 30px;
+    margin: 1%;
   }
 
+  .join-us .mobile {
+    display: block;
+  }
+
+  .join-us .desktop {
+    display: none;
+  }
   .join-us .open-job-button {
     justify-content: center;
   }
 
+  .join-us .describe {
+    text-align: center;
+    padding-top: 0px;
+  }
+
   .join-us button {
-    margin: 40px 0;
+    margin: 0px 0;
   }
 }
 
-@media screen and (max-width: 1200px) {
-  .join-us {
-    margin: 0;
-  }
-}
 /* @media (min-width: 1024px) {
   .join-us .container {
     margin-left: 5%;

@@ -1,3 +1,7 @@
+.form-container {
+  margin-left: calc(5% + 77px);
+  margin-right: 225px;
+}
 .form-container h1 {
   font-family: Poppins;
   font-size: 22px;
@@ -10,8 +14,8 @@
 
 .details-form {
   display: flex;
+  gap: 20%;
   align-items: center;
-  justify-content: space-between;
 }
 
 .form {
@@ -22,7 +26,7 @@
 
 .form .form-label {
   display: block;
-
+  color: #1a284d;
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
@@ -33,6 +37,7 @@
 
 .form .form-input {
   margin-top: 15px;
+  width: 100%;
 }
 
 .form .form-input-file {
@@ -55,7 +60,7 @@
   margin: 0 auto;
   border-radius: 3px;
   padding: 20px 51px;
-
+  outline: none;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -68,6 +73,7 @@
 }
 
 .quote p {
+  color: #1a284d;
   font-family: Poppins;
   font-size: 28px;
   font-style: normal;
@@ -87,7 +93,13 @@
   line-height: 18px;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 1200px) {
+  .form-container {
+    margin: 0 77px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
   .details-form {
     flex-direction: column;
     align-items: center;
@@ -102,6 +114,9 @@
     text-align: center;
   }
 
+  .form {
+    align-self: flex-start;
+  }
   .form-container h1 {
     margin-top: 90px;
   }

@@ -131,7 +131,8 @@
     display: none;
   }
   .testimonial-item {
-    background-position: 175px 15px;
+    background-position: top center;
+    padding-top: 30px;
   }
   .testimonial-item-cards .person-img-desktop {
     display: none;
@@ -143,10 +144,15 @@
     order: 3;
   }
   .testimonial-item-cards .person-img-mobile {
-    justify-self: center;
-    width: fit-content;
+    margin: 0 auto;
+    width: 240px;
     order: 2;
     display: block;
+  }
+  .testimonial-item blockquote {
+    margin-top: 12px;
+    font-size: 16px;
+    line-height: 24px;
   }
 }
 @keyframes mymove {

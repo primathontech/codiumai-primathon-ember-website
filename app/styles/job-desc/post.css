@@ -1,9 +1,11 @@
 .job-desc-wrapper {
+  margin: 0 calc(5% + 77px);
   padding-top: 72px;
   padding-bottom: 80px;
 }
 
 .about-position {
+  color: #1a284d;
   padding-bottom: 30px;
 }
 
@@ -46,11 +48,14 @@
   text-align: left;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1200px) {
   .job-desc-wrapper {
-    padding: 72px 57px 68px;
+    margin: 0 77px;
+    padding: 72px 0 68px;
   }
+}
 
+@media only screen and (max-width: 1000px) {
   .about-position h3 {
     font-size: 20px;
     font-weight: 500;

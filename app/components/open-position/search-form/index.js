@@ -18,11 +18,11 @@ export default class OpenPositionSearchFormIndexComponent extends Component {
 
   @action
   setDepartment(evt) {
-    this.form.department = evt.target.value;
+    this.form = { ...this.form, department: evt.target.value };
   }
 
   @action
   setJobType(evt) {
-    this.form.jobType = evt.target.value;
+    this.form = { ...this.form, jobType: evt.target.value };
   }
 }

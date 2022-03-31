@@ -1,7 +1,7 @@
 .career-poster {
   padding-top: 84px;
   padding-bottom: 36px;
-  padding-left:6%;
+  padding-left: 6%;
   padding-right: 6%;
   background-color: #f5f0ea;
 }
@@ -50,7 +50,7 @@
   top: 25%;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1065px) {
   .career-poster {
     padding-top: 70px;
     padding-bottom: 70px;
@@ -71,36 +71,11 @@
 
   .career-poster-ring {
     display: block;
+    width: 15%;
   }
 
   .career-poster-ring img {
-    width: 50%;
-    margin-left: auto;
-  }
-}
-
-@media (min-width: 1200px) {
-  .career-poster-ring {
-    top: 30%;
-  }
-
-  .career-poster-ring img {
-    width: 65%;
-  }
-}
-
-@media (min-width: 1440px) {
-  .career-poster-ring {
-    top: 20%;
-  }
-
-  .career-poster-ring img {
-    width: 85%;
-  }
-}
-
-@media (min-width: 1480px) {
-  .career-poster-ring img {
+    object-fit: contain;
     width: 100%;
   }
 }

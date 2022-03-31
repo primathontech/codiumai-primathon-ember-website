@@ -1,94 +1,92 @@
-<div class='form-container container'>
+<div class='form-container'>
   <div class='details-form'>
-    <div>
-      <form class='form' onsubmit={{@formSubmitHandler}} method='”POST”'>
-        <h1>Apply for this role</h1>
-        <label class='form-label'>
-          <span class='form-label'>
-            Name
+    <form class='form' onsubmit={{@formSubmitHandler}} method='”POST”'>
+      <h1>Apply for this role</h1>
+      <label class='form-label'>
+        <span class='form-label'>
+          Name
+        </span>
+        <Input
+          name='name'
+          @type='text'
+          class='form-input'
+          placeholder='Enter you name'
+          @value={{@formData.name}}
+          {{on 'change' @formHandler}}
+        />
+        <br />
+        {{#if @validation.name}}
+          <span class='errMessage'>
+            {{@validation.name}}
           </span>
-          <Input
-            name='name'
-            @type='text'
-            class='form-input'
-            placeholder='Enter you name'
-            @value={{@formData.name}}
-            {{on 'change' @formHandler}}
-          />
-          <br />
-          {{#if @validation.name}}
-            <span class='errMessage'>
-              {{@validation.name}}
-            </span>
-          {{/if}}
-        </label>
+        {{/if}}
+      </label>
 
-        <label class='form-label'>
-          <span class='form-label'>
-            Email Address
+      <label class='form-label'>
+        <span class='form-label'>
+          Email Address
+        </span>
+        <Input
+          name='email'
+          @type='text'
+          class='form-input'
+          placeholder='Enter you e-mail'
+          @value={{@formData.email}}
+          {{on 'change' @formHandler}}
+        />
+        <br />
+        {{#if @validation.email}}
+          <span class='errMessage'>
+            {{@validation.email}}
           </span>
-          <Input
-            name='email'
-            @type='text'
-            class='form-input'
-            placeholder='Enter you e-mail'
-            @value={{@formData.email}}
-            {{on 'change' @formHandler}}
-          />
-          <br />
-          {{#if @validation.email}}
-            <span class='errMessage'>
-              {{@validation.email}}
-            </span>
-          {{/if}}
-        </label>
+        {{/if}}
+      </label>
 
-        <label class='form-label'>
-          <span class='form-label'>
-            Upload CV
+      <label class='form-label'>
+        <span class='form-label'>
+          Upload CV
+        </span>
+        <label class='form-input-file' for='cv'>Attach (.pdf,.doc)</label>
+        <Input
+          id='cv'
+          name='cv'
+          @type='file'
+          accept='application/pdf,application/vnd.ms-doc'
+          @value={{@formData.cv}}
+          hidden
+          {{on 'change' @formHandler}}
+        />
+        {{#if @validation.cv}}
+          <br />
+          <span class='errMessage'>
+            {{@validation.cv}}
           </span>
-          <label class='form-input-file' for='cv'>Attach (.pdf,.doc)</label>
-          <Input
-            id='cv'
-            name='cv'
-            @type='file'
-            accept='application/pdf,application/vnd.ms-doc'
-            @value={{@formData.cv}}
-            hidden
-            {{on 'change' @formHandler}}
-          />
-          <br />
-          {{#if @validation.cv}}
-            <span class='errMessage'>
-              {{@validation.cv}}
-            </span>
-          {{/if}}
-        </label>
+        {{/if}}
+      </label>
 
-        <label class='form-label'>
-          <span style='font-size:15px;' class='form-label'>
-            Portfolio/Personal Website/Projects
-            <span style='font-size: 10px;'>(Optional)</span>
+      <label class='form-label'>
+        <span class='form-label'>
+          Portfolio/Personal Website/Projects
+          <span style='font-size: 10px;'>(Optional)</span>
+        </span>
+        <Input
+          name='portfolio'
+          @type='text'
+          class='form-input'
+          placeholder='Paste Link'
+          @value={{@formData.portfolio}}
+          {{on 'change' @formHandler}}
+        />
+        <br />
+        {{#if @validation.portfolio}}
+          <span class='errMessage'>
+            {{@validation.portfolio}}
           </span>
-          <Input
-            name='portfolio'
-            @type='text'
-            class='form-input'
-            placeholder='Paste Link'
-            @value={{@formData.portfolio}}
-            {{on 'change' @formHandler}}
-          />
-          <br />
-          {{#if @validation.portfolio}}
-            <span class='errMessage'>
-              {{@validation.portfolio}}
-            </span>
-          {{/if}}
-        </label>
+        {{/if}}
+      </label>
 
-        <button type='submit'>APPLY</button>
-      </form>
-    </div>
+      <button type='submit'>APPLY</button>
+    </form>
     <div class='quote'>
       <p>
         We are building our team and our team is building the

@@ -2,14 +2,14 @@
   display: grid;
   grid-template-columns: repeat(6, minmax(0, 1fr));
   padding: 8px 0;
-  margin: 20px 20px;
+  margin: 15px;
   justify-items: center;
   border: 0.1px solid #c4c4c4;
   font-weight: 300;
   font-family: 'Poppins';
   font-size: 20px;
   line-height: 38px;
-  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.05);
+  box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.05);
 }
 
 .jobRow.head {
@@ -24,7 +24,6 @@
   font-weight: 600;
   line-height: 36px;
   color: #24b768;
-  margin-top: 5px;
 }
 
 .jobRow span {
@@ -32,12 +31,17 @@
 }
 
 .jobData {
-  padding: 0 7%;
+  padding: 0 5%;
 }
 .jobCard {
   display: none;
 }
 
+@media screen and (max-width: 1200px) {
+  .jobData {
+    padding: 0;
+  }
+}
 @media screen and (max-width: 1024px) {
   .jobRow {
     display: none;
