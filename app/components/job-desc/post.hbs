@@ -1,0 +1,8 @@
+<div style='position: relative;'>
+  <div class='job-desc-wrapper'>
+    {{#each @jobData as |item|}}
+      <JobDesc::ListContainer @data={{item}} />
+    {{/each}}
+    <hr />
+  </div>
+</div>

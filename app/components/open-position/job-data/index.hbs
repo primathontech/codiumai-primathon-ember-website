@@ -1,0 +1,33 @@
+<div class='jobData'>
+  <div class='jobRow head'>
+    <span>
+      Job Title
+    </span>
+    <span>
+      Department
+    </span>
+    <span>
+      Experience
+    </span>
+    <span>
+      Location
+    </span>
+    <span>
+      Job Type
+      {{@query.department}}
+    </span>
+  </div>
+
+  <OpenPosition::Filter @data={{@data}} @query={{@query}} as |results|>
+    {{#each results as |job|}}
+      <OpenPosition::Job-Row
+        @title={{job.jobtitle}}
+        @department={{job.department}}
+        @experience={{job.experience}}
+        @location={{job.location}}
+        @jobType={{job.job_type}}
+        @id={{job.uid}}
+      />
+    {{/each}}
+  </OpenPosition::Filter>
+</div>

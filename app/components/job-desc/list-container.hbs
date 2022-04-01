@@ -1,0 +1,19 @@
+<div class='about-position'>
+  <h3>{{@data.title}}</h3>
+  {{#if @data.description}}
+    <p>
+      {{@data.description}}
+    </p>
+  {{/if}}
+
+  {{#each @data.list as |lst|}}
+    <div class='bullet-container'>
+      <p>{{lst.title}}</p>
+      <ul>
+        {{#each lst.items as |l|}}
+          <li>{{l}}</li>
+        {{/each}}
+      </ul>
+    </div>
+  {{/each}}
+</div>

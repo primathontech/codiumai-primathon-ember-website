@@ -1,0 +1,13 @@
+<Header />
+<div class='app-container relative mb-36' {{did-insert (fn this.dataHandler @id)}}>
+  <JobDesc::Poster @jobData={{this.data}} />
+  <JobDesc::Post @jobData={{this.data.description}} />
+  <JobDesc::DetailsForm
+    @formData={{this.formData}}
+    @formHandler={{this.formHandler}}
+    @formSubmitHandler={{this.formSubmitHandler}}
+    @validation={{this.validation}}
+  />
+  <img class='ellipse-img' src='/assets/images/red-ellipse-2.svg' alt='red-ellipse' />
+</div>
+<Homepage::Footer />

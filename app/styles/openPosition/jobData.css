@@ -1,0 +1,85 @@
+.jobRow {
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  padding: 8px 0;
+  margin: 15px;
+  justify-items: center;
+  border: 0.1px solid #c4c4c4;
+  font-weight: 300;
+  font-family: 'Poppins';
+  font-size: 20px;
+  line-height: 38px;
+  box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.05);
+}
+
+.jobRow.head {
+  font-weight: 500;
+  box-shadow: none;
+  border: none;
+}
+
+.jobRow a {
+  font-family: 'Poppins';
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  color: #24b768;
+}
+
+.jobRow span {
+  text-align: center;
+}
+
+.jobData {
+  padding: 0 5%;
+}
+.jobCard {
+  display: none;
+}
+
+@media screen and (max-width: 1200px) {
+  .jobData {
+    padding: 0;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .jobRow {
+    display: none;
+  }
+  .jobRow.head {
+    display: none;
+  }
+  .jobCard {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.05);
+    border: 0.1px solid #c4c4c4;
+    padding: 20px 10px;
+    margin: 20px 20px;
+  }
+
+  .jobCard h5 {
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 38px;
+  }
+
+  .jobCard label {
+    text-align: center;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+  }
+
+  .jobCard a {
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #24b768;
+    margin-top: 5px;
+  }
+}

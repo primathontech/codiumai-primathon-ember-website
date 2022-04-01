@@ -1,0 +1,76 @@
+.cluture {
+  padding-bottom: 60px;
+}
+
+.cluture .cluture-heading {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 45px;
+  text-align: center;
+  color: #1a284d;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.cluture .cluture-image-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cluture .cluture-image-container::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: linear-gradient(
+    to right,
+    white,
+    rgba(255, 255, 255, 0) 80px,
+    rgba(255, 255, 255, 0) calc(100% - 80px),
+    white
+  );
+
+  display: none;
+}
+
+.cluture .cluture-figure {
+  min-width: 380px;
+  margin: 0 15px;
+}
+
+.cluture .cluture-image-container .cluture-figures {
+  animation: logomarquee 80s linear infinite;
+}
+.cluture .cluture-image-container:hover .cluture-figures {
+  cursor: pointer;
+  animation-play-state: paused;
+  -webkit-animation-play-state: paused;
+  -moz-animation-play-state: paused;
+  -o-animation-play-state: paused;
+  animation-play-state: paused;
+}
+
+.cluture .cluture-image-container .cluture-figures {
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+}
+
+.cluture .cluture-responsive-container {
+  max-width: 1700px;
+  margin: 0 auto 0 auto;
+}
+
+@media (min-width: 580px) {
+  .cluture .cluture-image-container::after {
+    display: block;
+  }
+}

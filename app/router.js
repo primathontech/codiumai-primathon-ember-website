@@ -9,14 +9,16 @@ export default class Router extends EmberRouter {
 Router.map(function () {
   this.route('contact');
   this.route('careers');
+  this.route('open-position');
   this.route('about-us');
-  this.route('blog');
-  this.route('not-found', { path: '/*path' });
   this.route('services', function () {
     this.route('staff-augmentation');
     this.route('end-to-end-products');
     this.route('build-and-manage');
   });
+  this.route('case-studies');
+  this.route('job-desc');
+  this.route('not-found', { path: '/*path' });
 });
 
 Router.reopen({

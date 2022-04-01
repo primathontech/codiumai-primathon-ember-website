@@ -21,6 +21,7 @@ export default class IndexRoute extends Route {
     const coreValueData = await (await fetch('/json-data/homepage/core-value.json')).json();
     const testimonialData = await (await fetch('/json-data/homepage/testimonial.json')).json();
     const blogData = await (await fetch('/json-data/homepage/blog.json')).json();
+    const employeeTestimonialData = await (await fetch('/json-data/careers/testimonial.json')).json();
     try {
       const blogResponse = (await (await fetch(this._URL)).json()).slice(0, 6);
       blogData['data'] = blogResponse.map((data) => {
@@ -32,10 +33,10 @@ export default class IndexRoute extends Route {
         };
       });
     } catch (error) {
-      console.error('error', error);
+      //console.error('error', error);
       blogData['data'] = [];
     }
-    return { serviceData, coreValueData, testimonialData, blogData };
+    return { serviceData, coreValueData, testimonialData, blogData, employeeTestimonialData };
   }
 
   afterModel() {

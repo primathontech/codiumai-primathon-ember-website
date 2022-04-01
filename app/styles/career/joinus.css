@@ -1,0 +1,129 @@
+.join-us {
+  display: flex;
+  padding-top: 64px;
+  margin-left: calc(5% + 77px);
+  gap: 5%;
+}
+
+.join-us .mobile {
+  display: none;
+}
+.join-us span {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 40px;
+  color: #1a284d;
+}
+
+.join-us .green {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 40px;
+  color: #24b768;
+}
+.join-us .open-job-button {
+  display: flex;
+  justify-content: center;
+}
+
+.join-us .open-job-button {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.join-us button {
+  background: #24b768;
+  border: 1px solid #24b768;
+  box-sizing: border-box;
+  border-radius: 3px;
+  outline: none;
+  color: white;
+  padding: 20px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.35px;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin: 20px 0;
+}
+
+.join-us .joinUsImg {
+  flex: 1;
+}
+
+.join-us .joinUsImg img {
+  width: 100%;
+  height: 100%;
+  object-position: 35% 50%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.join-us .describe {
+  flex: 1;
+  padding-top: 28px;
+  padding-right: 15vw;
+}
+.join-us .green {
+  text-align: left;
+}
+
+@media only screen and (max-width: 1065px) {
+  .join-us {
+    margin: 0px 77px 0 77px;
+  }
+
+  .join-us .describe {
+    padding-right: 0;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .join-us {
+    flex-direction: column;
+    gap: 30px;
+    margin: 1%;
+  }
+
+  .join-us .mobile {
+    display: block;
+  }
+
+  .join-us .desktop {
+    display: none;
+  }
+  .join-us .open-job-button {
+    justify-content: center;
+  }
+
+  .join-us .describe {
+    text-align: center;
+    padding-top: 0px;
+  }
+
+  .join-us button {
+    margin: 0px 0;
+  }
+}
+
+/* @media (min-width: 1024px) {
+  .join-us .container {
+    margin-left: 5%;
+    padding: 15px;
+  }
+  .join-us .open-job-button {
+    display: flex;
+    justify-content: flex-start;
+  } */
+/* .join-us .describe {
+    margin-left: 76px;
+  } */
+/* } */

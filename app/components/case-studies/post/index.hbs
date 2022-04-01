@@ -1,0 +1,16 @@
+<Container class="case-studies-post">
+  <div>
+    {{#each this.tags as |tag|}}
+      <CaseStudies::Post::Tags
+        @text={{tag}}
+        class={{if (array-contains this.selectedTag tag) 'selected'}}
+        {{on 'click' (fn this.onSelect tag)}}
+      />
+    {{/each}}
+  </div>
+  <div class="card-holder">
+    {{#each this.postData as |data|}}
+      <CaseStudies::Post::Card @data={{data}} />
+    {{/each}}
+  </div>
+</Container>

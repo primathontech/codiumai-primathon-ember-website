@@ -1,0 +1,42 @@
+<div class='jobPoster'>
+  <Container>
+    <h2>
+      Careers at Primathon
+    </h2>
+    <h3>
+      <span>
+        Open Positions
+      </span>
+    </h3>
+  </Container>
+  <form class='searchForm'>
+    <label>
+      <Input name='firstName' @type='text' class='input' @value={{this.form.keyword}} placeholder='Search Keywords' />
+      <div class='iconContainer'>
+        <img src='/assets/images/lens.svg' />
+      </div>
+
+    </label>
+    <label>
+      <select class='blue {{if this.form.department 'black'}}' onchange={{this.setDepartment}}>
+        <option value=''>Filter by Department</option>
+        <option value='Engineering'>Engineering</option>
+        <option value='Human Resource'>Human Resource</option>
+        <option value='Marketing'>Marketing</option>
+      </select>
+    </label>
+    <label>
+      <select class='yellow {{if this.form.jobType 'black'}}' onchange={{this.setJobType}}>
+        <option value=''>Filter by Role Type</option>
+        <option value='Full Time'>Full Time</option>
+        <option value='Part-time'>Part-time</option>
+        <option value='Internship'>Internship</option>
+        <option value='Contract'>Contract</option>
+      </select>
+    </label>
+
+    <button {{on 'click' this.onSubmit}}>
+      Search
+    </button>
+  </form>
+</div>

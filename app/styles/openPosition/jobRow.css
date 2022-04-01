@@ -1,0 +1,145 @@
+.jobPoster {
+  background-color: #f5f0ea;
+  padding-top: 70px;
+}
+.jobPoster h2 {
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 35px;
+  text-align: center;
+  color: #1a284d;
+  margin-bottom: 15px;
+  margin-top: 65px;
+}
+
+.jobPoster h3 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 58px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.write {
+  margin-top: -150px;
+  z-index: 1;
+}
+
+.yellowEllipse {
+  float: right;
+  margin-right: 40px;
+  transform: translate(0, 50%);
+  z-index: -1;
+}
+.searchForm {
+  background-color: #f5f0ea;
+  width: fit-content;
+  margin: 0 auto;
+  padding: 20px 0 50px;
+}
+
+.searchForm label {
+  display: inline-block;
+  text-align: center;
+  border: 1px solid #c4c4c4;
+  position: relative;
+  padding-right: 10px;
+  background-color: #ffffff;
+  margin-right: 20px;
+}
+
+.searchForm label select {
+  -moz-appearance: none; /* Firefox */
+  -webkit-appearance: none; /* Safari and Chrome */
+  appearance: none;
+  color: #707070;
+  padding: 10px 30px 10px 10px;
+  background-color: #ffffff;
+  background-repeat: no-repeat;
+  background-position: calc(100% - 3px) center;
+  background-size: 10px;
+  width: 100%;
+}
+
+.searchForm select:active {
+  color: black;
+}
+.searchForm .black {
+  color: black;
+}
+.searchForm label select.blue {
+  background-image: url('/assets/images/blue_dropdown.svg');
+}
+
+.searchForm label select.yellow {
+  background-image: url('/assets/images/yellow_dropdown.svg');
+}
+.searchForm label .input {
+  width: 100%;
+  border: none;
+  padding: 10px 10px 10px 10px;
+  margin: 2px 0;
+  background-color: #ffffff;
+}
+
+.searchForm .iconContainer {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 20px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 12px 20px;
+  z-index: 2;
+}
+
+.searchForm button {
+  color: #ffffff;
+  background: #24b768;
+  padding: 10px 40px;
+  border: 1px solid #24b768;
+  border-radius: 3px;
+  outline: none;
+}
+@media screen and (max-width: 1024px) {
+  .searchForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    padding: 0 20px 30px;
+    gap: 20px;
+  }
+
+  .searchForm label {
+    position: relative;
+    width: 100%;
+  }
+
+  .searchForm label .input {
+    width: 100%;
+    z-index: 1;
+  }
+
+  .searchForm .iconContainer {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px 20px;
+    z-index: 2;
+  }
+  .write {
+    margin: 0;
+  }
+  .yellowEllipse {
+    display: none;
+  }
+}

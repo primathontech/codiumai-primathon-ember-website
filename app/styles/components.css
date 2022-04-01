@@ -43,3 +43,22 @@
 @import './about-us/what-are-you-looking.css';
 @import './services/end-to-end-services.css';
 @import './services/page-options.css';
+
+/* Case Studies */
+@import './case-studies/poster.css';
+@import './case-studies/post.css';
+
+/* Career */
+@import './career/poster.css';
+@import './career/culture.css';
+@import './career/reason.css';
+@import './career/joinus.css';
+@import './career/testimonials.css';
+
+/* Job Description */
+@import './job-desc/poster.css';
+@import './job-desc/post.css';
+@import './job-desc/details-form.css';
+/*Open Positions*/
+@import './openPosition/jobRow.css';
+@import './openPosition/jobData.css';
