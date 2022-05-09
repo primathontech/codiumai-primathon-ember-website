@@ -1,0 +1,45 @@
+.faq-list-section {
+  padding: 80px 0;
+  font-family: Poppins;
+}
+
+.faq-list-section h2 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 42px;
+  text-align: center;
+  color: #1a284d;
+  padding-bottom: 35px;
+}
+
+.faq-list-section details {
+  border-top: 2px solid #f4f4f4;
+  padding: 10px 0;
+}
+
+.faq-list-section details[open] .up-down-icon {
+  content: url('/assets/svgs/up.svg');
+}
+
+.faq-list-section summary {
+  font-weight: 500;
+  font-size: 18px;
+  margin-bottom: 10px;
+  line-height: 28px;
+  color: #1a284d;
+  outline: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 992px) {
+  .faq-list-section details {
+    padding: 10px 10px;
+  }
+
+  .faq-list-section img {
+    margin-left: 10px;
+  }
+}

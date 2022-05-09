@@ -1,4 +1,9 @@
 import Route from '@ember/routing/route';
+import { SERVICE_DATA } from '../constants/homepage/services';
+import { CORE_VALUE_DATA } from '../constants/homepage/core-value';
+import { BLOG_DATA } from '../constants/homepage/blog';
+import { TESTIMONIAL_DATA } from '../constants/homepage/testimonial';
+import { EMPLOYEE_TESTIMONIAL_DATA } from '../constants/careers/testimonial';
 
 export default class IndexRoute extends Route {
   _HOSTNAME = '/blog';
@@ -17,11 +22,11 @@ export default class IndexRoute extends Route {
   }
 
   async model() {
-    const serviceData = await (await fetch('/json-data/homepage/services.json')).json();
-    const coreValueData = await (await fetch('/json-data/homepage/core-value.json')).json();
-    const testimonialData = await (await fetch('/json-data/homepage/testimonial.json')).json();
-    const blogData = await (await fetch('/json-data/homepage/blog.json')).json();
-    const employeeTestimonialData = await (await fetch('/json-data/careers/testimonial.json')).json();
+    const serviceData = SERVICE_DATA;
+    const coreValueData = CORE_VALUE_DATA;
+    const testimonialData = TESTIMONIAL_DATA;
+    const blogData = BLOG_DATA;
+    const employeeTestimonialData = EMPLOYEE_TESTIMONIAL_DATA;
     try {
       const blogResponse = (await (await fetch(this._URL)).json()).slice(0, 6);
       blogData['data'] = blogResponse.map((data) => {
@@ -40,6 +45,7 @@ export default class IndexRoute extends Route {
   }
 
   afterModel() {
-    window.scrollTo(0, 0);
+    // Raising Typeerror on window.scroll on installing fastboot
+    // window?.scrollTo(0, 0);
   }
 }

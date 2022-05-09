@@ -7,6 +7,7 @@ export default class OpenPositionRoute extends Route {
     return jobData;
   }
   afterModel() {
-    window.scrollTo(0, 0);
+    // Raising Typeerror on window.scroll on installing fastboot
+    // window?.scrollTo(0, 0);
   }
 }

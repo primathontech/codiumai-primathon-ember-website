@@ -43,6 +43,8 @@
 @import './about-us/what-are-you-looking.css';
 @import './services/end-to-end-services.css';
 @import './services/page-options.css';
+@import './services/faq-list.css';
+@import './services/developer-services.css';
 
 /* Case Studies */
 @import './case-studies/poster.css';
