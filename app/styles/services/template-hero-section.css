@@ -1,0 +1,53 @@
+.template-hero-section {
+    font-family: Poppins;
+    font-style: normal;
+    text-align: center;
+    color: #ffffff;
+}
+
+.template-hero-section h1 {
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 48px;
+    margin-bottom: 32px;
+}
+
+.specification-wrapper {
+    margin: 14px 0px;
+}
+
+.specification {
+    font-size: 12px;
+    font-weight: 600;
+    padding: 4px 16px;
+    border-right: 1px solid #fff;
+}
+
+.specification:last-child {
+    border-right: none;
+}
+
+.color-text {
+    color: #e4c827;
+}
+
+.template-hero-section .btn, .chat-btn {
+    background-color: #e4c827;
+    color: #000;
+}
+
+.template-hero-section .btn {
+    border-radius: 50px;
+}
+
+.chat-btn {
+  padding: 8px;
+  font-weight: 600;
+  width: 200px;
+  text-align: left;
+  position: absolute;
+  bottom: -12px;
+  right: 3px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
