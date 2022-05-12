@@ -95,6 +95,10 @@
   border: none;
 }
 
+.service-page-options .services-link {
+  padding: 0px !important;
+}
+
 .page-options-extra-para {
   display: block;
 }
