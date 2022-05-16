@@ -13,7 +13,7 @@ Router.map(function () {
   this.route('about-us');
   this.route('services', function () {
     this.route('staff-augmentation');
-      this.route('end-to-end-products', function () {
+    this.route('end-to-end-products', function () {
       this.route('booking-platforms');
     });
     this.route('build-and-manage');

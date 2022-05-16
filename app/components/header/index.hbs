@@ -55,6 +55,30 @@
         </LinkTo>
         <Services::PageOptions class='service-page-dialog-box' />
       </div>
+      <LinkTo
+        @route='services.end-to-end-products'
+        class='mobile-menu'
+        @activeClass='current-url'
+        {{on 'click' (fn this.closeOpenMenu 'about')}}
+      >
+        End-to-End Products
+      </LinkTo>
+      <LinkTo
+        @route='services.staff-augmentation'
+        class='mobile-menu'
+        @activeClass='current-url'
+        {{on 'click' (fn this.closeOpenMenu 'about')}}
+      >
+        Staff Augmentation
+      </LinkTo>
+      <LinkTo
+        @route='services.build-and-manage'
+        class='mobile-menu'
+        @activeClass='current-url'
+        {{on 'click' (fn this.closeOpenMenu 'about')}}
+      >
+        Build and Manage
+      </LinkTo>
       {{!-- <LinkTo
         @route='case-studies'
         class='menu-case-studies'
