@@ -33,7 +33,7 @@
   </ul>
   <div class="grid end-to-end">
     {{#if (eq this.hoverRoute this.endToEndRoute)}}
-      <p  class="sub-service-page-link">
+      <p>
         <LinkTo
           class='services-link'
           @route='services.end-to-end-products.booking-platforms'
@@ -43,12 +43,14 @@
       </p>
       <p>
         <LinkTo
+        class='services-link'
         @route='services.end-to-end-products.shopify-stores'
         >Shopify Stores
         </LinkTo>
       </p>
       <p>
         <LinkTo
+        class='services-link'
         @route='services.end-to-end-products.dashboard-and-data-visualization'
         >
         Dashboard and Data Visualization
@@ -56,6 +58,7 @@
       </p>
       <p>
         <LinkTo
+        class='services-link'
         @route='services.end-to-end-products.admin-panels-and-cms'
         >
         Admin Panels and CMS
@@ -63,6 +66,7 @@
       </p>
       <p>
         <LinkTo
+        class='services-link'
         @route='services.end-to-end-products.web-and-mobile-app-development'
         >
         Web and Mobile App Development
@@ -70,6 +74,7 @@
       </p>
       <p>
         <LinkTo
+        class='services-link'
         @route='services.end-to-end-products.ai-ml-based-recommendation-engines'
         >
         AI/ML based Recommendation Engines
@@ -77,13 +82,15 @@
       </p>
       <p class="page-options-extra-para">
         <LinkTo
+        class='services-link'
         @route='services.end-to-end-products.erc20-token'
         >
         ERC20 Token
         </LinkTo>
       </p>
       <p class="page-options-extra-para">
-        <LinkTo 
+        <LinkTo
+        class='services-link'
         @route='services.end-to-end-products.smart-contract'
         >
         Smart Contract
@@ -92,6 +99,7 @@
     {{else if (eq this.hoverRoute this.staffAugmentation)}}
       <p>
         <LinkTo
+        class='services-link'
          @route='services.staff-augmentation.frontend-developers'
          >
         Frontend Developers
@@ -99,13 +107,15 @@
       </p>
       <p>
         <LinkTo
+        class='services-link'
         @route="services.staff-augmentation.product-managers"
         >
         Product managers
         </LinkTo>
       </p>
       <p>
-        <LinkTo 
+        <LinkTo
+        class='services-link'
         @route="services.staff-augmentation.backend-developers"
         >
         Backend developers
@@ -113,6 +123,7 @@
       </p>
       <p>
         <LinkTo
+        class='services-link'
         @route="services.staff-augmentation.quality-analysts" 
         >
         Quality Analysts
@@ -120,6 +131,7 @@
       </p>
       <p>
         <LinkTo
+        class='services-link'
         @route="services.staff-augmentation.full-stack-developers"
         >
          Full-stack developers
@@ -127,6 +139,7 @@
       </p>
       <p>
         <LinkTo
+        class='services-link'
         @route="services.staff-augmentation.product-designers"
         >
         Product Designers
