@@ -10,10 +10,10 @@ export default class ServicesEndToEndProductsBookingPlatformsController extends 
   }
 
   get bookingPlatformsHeading() {
-    return this.model.modelbookingPlatformsData.heading;
+    return this.model.bookingPlatformsData.heading;
   }
 
   get bookingPlatformsSubHeading() {
-    return this.model.modelbookingPlatformsData.subHeading;
+    return this.model.bookingPlatformsData.subHeading;
   }
 }
