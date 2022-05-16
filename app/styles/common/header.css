@@ -186,7 +186,7 @@
 }
 
 .mobile-menu{
-  display: block;
+  margin:16px 30px !important;
 }
 
 @media (min-width: 1025px) {
