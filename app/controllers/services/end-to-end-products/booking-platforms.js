@@ -8,4 +8,12 @@ export default class ServicesEndToEndProductsBookingPlatformsController extends 
   get faqData() {
     return this.model.faqData.data;
   }
+
+  get bookingPlatformsHeading() {
+    return this.model.modelbookingPlatformsData.heading;
+  }
+
+  get bookingPlatformsSubHeading() {
+    return this.model.modelbookingPlatformsData.subHeading;
+  }
 }

@@ -1,10 +1,12 @@
 import Route from '@ember/routing/route';
+import { BOOKING_PLATFORMS } from '../../../constants/services/end-to-end-products';
 import { FAQ_DATA } from '../../../constants/services/faq';
 
 export default class ServicesEndToEndProductsBookingPlatformsRoute extends Route {
   async model() {
     const faqData = FAQ_DATA;
-    return { faqData };
+    const bookingPlatformsData = BOOKING_PLATFORMS;
+    return { faqData, bookingPlatformsData };
   }
 
   afterModel() {
