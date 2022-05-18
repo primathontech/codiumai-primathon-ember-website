@@ -185,6 +185,10 @@
   visibility: visible;
 }
 
+.mobile-menu{
+  margin:16px 30px !important;
+}
+
 @media (min-width: 1025px) {
   .menu {
     display: flex;
@@ -237,6 +241,10 @@
 
   .links .current-url.current-url {
     border-bottom: 2px solid #198cca;
+  }
+  
+  .mobile-menu{
+    display: none !important;
   }
 }
 
