@@ -3,12 +3,6 @@
   padding-top: 64px;
   margin-left: calc(5% + 77px);
   gap: 5%;
-}
-
-.join-us .mobile {
-  display: none;
-}
-.join-us span {
   font-family: Poppins;
   font-style: normal;
   font-weight: normal;
@@ -17,12 +11,11 @@
   color: #1a284d;
 }
 
+.join-us .mobile {
+  display: none;
+}
+
 .join-us .green {
-  font-family: Poppins;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 28px;
-  line-height: 40px;
   color: #24b768;
 }
 .join-us .open-job-button {
@@ -91,6 +84,8 @@
     flex-direction: column;
     gap: 30px;
     margin: 1%;
+    font-size: 22px;
+    line-height: 28px;
   }
 
   .join-us .mobile {
