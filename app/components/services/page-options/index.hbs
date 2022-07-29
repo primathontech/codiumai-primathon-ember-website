@@ -132,17 +132,25 @@
       <p>
         <LinkTo
         class='services-link'
-        @route="services.staff-augmentation.full-stack-developers"
+        @route="services.staff-augmentation.android-developers"
         >
-         Full-stack developers
+         Android developers
         </LinkTo>
       </p>
       <p>
         <LinkTo
         class='services-link'
-        @route="services.staff-augmentation.product-designers"
+        @route="services.staff-augmentation.uiux-designers"
         >
-        Product Designers
+        UI/UX Designers
+        </LinkTo>
+      </p>
+       <p>
+        <LinkTo
+        class='services-link'
+        @route="services.staff-augmentation.platform"
+        >
+        Platform
         </LinkTo>
       </p>
     {{else if (eq this.hoverRoute this.buildAndManage)}}

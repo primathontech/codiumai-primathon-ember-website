@@ -9,11 +9,35 @@ export default class ServicesEndToEndProductsShopifyStoresController extends Con
     return this.model.faqData.data;
   }
 
-  get shopifyStoresHeading() {
-    return this.model.shopifyStoresData.heading;
+  get shopifyStoresAbout() {
+    return this.model.shopifyStoresData.about;
   }
 
-  get shopifyStoresSubHeading() {
-    return this.model.shopifyStoresData.subHeading;
+  get shopifyStoresTitle() {
+    return this.model.shopifyStoresData.title;
+  }
+
+  get shopifyStoresDescription() {
+    return this.model.shopifyStoresData.description;
+  }
+
+  get shopifyStoresImg() {
+    return this.model.shopifyStoresData.imgUrl;
+  }
+
+  get shopifyStoresBg() {
+    return this.model.shopifyStoresData.bg;
+  }
+
+  get shopifyStoresCircularList() {
+    return this.model.shopifyStoresData.circular_list;
+  }
+
+  get shopifyStoresArrowList() {
+    return this.model.shopifyStoresData.arrow_list;
+  }
+
+  get shopifyStoresLinearList() {
+    return this.model.shopifyStoresData.linear_list;
   }
 }

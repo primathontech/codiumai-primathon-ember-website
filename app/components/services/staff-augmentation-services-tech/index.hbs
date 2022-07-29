@@ -1,0 +1,22 @@
+<section class="staff-augmentation-services-tech">
+  {{#if @data}}
+  <h2>{{@heading}}</h2>
+  <div class="tech-logo-wrapper">
+    {{#each @data as |data|}}
+    <div class="tech-logo">
+      <div class="logo-img-wrapper">
+        <img src={{data.imgUrl}} alt={{data.title}}>
+      </div>
+      <figcaption class="tech-logo-caption">{{data.title}}</figcaption>
+    </div>
+    {{/each}}
+  </div>
+  {{/if}}
+  <LinkTo @route="contact">
+    <button type="button" class="what-are-you-looking-button">
+      <p class="what-are-you-looking-button-text">
+        SHARE YOUR REQUIREMENTS
+      </p>
+    </button>
+  </LinkTo>
+</section>

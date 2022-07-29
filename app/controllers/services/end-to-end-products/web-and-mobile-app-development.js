@@ -9,11 +9,35 @@ export default class ServicesEndToEndProductsWebAndAppDevelopmentController exte
     return this.model.faqData.data;
   }
 
-  get webAndAppDevelopmentHeading() {
-    return this.model.appDevelopmentData.heading;
+  get webAndAppDevelopmentAbout() {
+    return this.model.appDevelopmentData.about;
   }
 
-  get webAndAppDevelopmentSubHeading() {
-    return this.model.appDevelopmentData.subHeading;
+  get webAndAppDevelopmentTitle() {
+    return this.model.appDevelopmentData.title;
+  }
+
+  get webAndAppDevelopmentDescription() {
+    return this.model.appDevelopmentData.description;
+  }
+
+  get webAndAppDevelopmentImg() {
+    return this.model.appDevelopmentData.imgUrl;
+  }
+
+  get webAndAppDevelopmentBg() {
+    return this.model.appDevelopmentData.bg;
+  }
+
+  get webAndAppDevelopmentCircularList() {
+    return this.model.appDevelopmentData.circular_list;
+  }
+
+  get webAndAppDevelopmentArrowList() {
+    return this.model.appDevelopmentData.arrow_list;
+  }
+
+  get webAndAppDevelopmentLinearList() {
+    return this.model.appDevelopmentData.linear_list;
   }
 }

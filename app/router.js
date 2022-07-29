@@ -16,9 +16,10 @@ Router.map(function () {
       this.route('frontend-developers');
       this.route('product-managers');
       this.route('backend-developers');
-      this.route('product-designers');
-      this.route('full-stack-developers');
+      this.route('uiux-designers');
+      this.route('android-developers');
       this.route('quality-analysts');
+      this.route('platform');
     });
     this.route('end-to-end-products', function () {
       this.route('booking-platforms');

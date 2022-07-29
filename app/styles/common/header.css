@@ -189,6 +189,27 @@
   margin:16px 30px !important;
 }
 
+.mobile-menu-link {
+  display: block !important;
+  font-size: 14px;
+  font-weight: 600;
+  color: #1a284d;
+  letter-spacing: 0;
+  padding: 16px 10px 16px 0;
+  margin: 16px 0 16px 10px;
+  border-bottom: 1.86px solid #31B76A;
+  width: 124.4px;
+}
+
+.mobile-menu-link img {
+  display: inline;
+  margin-left: 12px;
+}
+
+.desktop-menu-link {
+  display: none !important;
+}
+
 @media (min-width: 1025px) {
   .menu {
     display: flex;
@@ -246,6 +267,14 @@
   .mobile-menu{
     display: none !important;
   }
+
+  .mobile-menu-link {
+    display: none !important;
+  }
+
+  .desktop-menu-link {
+    display: block !important;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -256,4 +285,12 @@
   .menu .nav-items {
     margin-right: 5%;
   }
+}
+
+.services-menu {
+  display: none;
+}
+
+.services-menu-open {
+  display: block;
 }

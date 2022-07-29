@@ -9,11 +9,34 @@ export default class ServicesEndToEndProductsERC20TokenController extends Contro
     return this.model.faqData.data;
   }
 
-  get erc20TokenHeading() {
-    return this.model.ercToken.heading;
+  get erc20TokenAbout() {
+    return this.model.ercToken.about;
   }
 
-  get erc20TokenSubHeading() {
-    return this.model.ercToken.subHeading;
+  get erc20TokenTitle() {
+    return this.model.ercToken.title;
+  }
+
+  get erc20TokenDescription() {
+    return this.model.ercToken.description;
+  }
+
+  get erc20TokenImg() {
+    return this.model.ercToken.imgUrl;
+  }
+
+  get erc20TokenBg() {
+    return this.model.ercToken.bg;
+  }
+
+  get erc20TokenCircularList() {
+    return this.model.ercToken.circular_list;
+  }
+
+  get erc20TokenArrowList() {
+    return this.model.ercToken.arrow_list;
+  }
+  get erc20TokenLinearList() {
+    return this.model.ercToken.linear_list;
   }
 }

@@ -8,6 +8,66 @@
   overflow: hidden;
 }
 
+.bg-booking {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/assets/end-to-end-services/booking-platform.png');
+}
+
+.bg-shopify {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/assets/end-to-end-services/shopify.png');
+}
+
+.bg-dashboard {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/assets/end-to-end-services/dashboard.png');
+}
+
+.bg-admin {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/assets/end-to-end-services/admin-pannel.png');
+}
+
+.bg-appdevelopment {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/assets/end-to-end-services/web-mobile-application.png');
+}
+
+.bg-aiml {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/assets/end-to-end-services/aiml.png');
+}
+
+.bg-contract {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/assets/end-to-end-services/smart-contract.png');
+}
+
+.bg-erc {
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/assets/end-to-end-services/erc-20.png');
+}
+
+.bg-frontend {
+  background-image: url('/assets/staff-augmentation-bg/frontend.png');
+}
+
+.bg-backend {
+  background-image: url('/assets/staff-augmentation-bg/backend.png');
+}
+
+.bg-qa {
+  background-image: url('/assets/staff-augmentation-bg/qa.png');
+}
+
+.bg-android {
+  background-image: url('/assets/staff-augmentation-bg/android.png');
+}
+
+.bg-platform {
+  background-image: url('/assets/staff-augmentation-bg/platform.png');
+}
+
+.bg-product {
+  background-image: url('/assets/staff-augmentation-bg/product.png');
+}
+
+.bg-uiux {
+  background-image: url('/assets/staff-augmentation-bg/uiux.png');
+}
+
 .services-staff-augmentation {
   font-family: Poppins;
   font-style: normal;

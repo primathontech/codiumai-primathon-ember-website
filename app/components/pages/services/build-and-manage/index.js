@@ -70,10 +70,11 @@ export default class PagesServicesBuildAndManageIndexComponent extends Component
         infoPoint: [
           'Frontend Developers',
           'Backend developers',
-          'Full-stack developers',
+          'Android developers',
           'Product managers',
           'Quality Analysts',
-          'Product Designers',
+          'UI/Ux Designers',
+          'Platform',
         ],
       },
     ];
