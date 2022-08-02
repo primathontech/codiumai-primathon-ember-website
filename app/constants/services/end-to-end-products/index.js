@@ -88,7 +88,7 @@ export const DASHBOARDANDDATA = {
       'Business goal centric approach',
       'Built for scalability',
       'Accurate and clear insights into your KPIs',
-      'Highly experienced team of developers, data analysts and business analysts',
+      'Highly qualified and experienced team',
     ],
   },
   arrow_list: {
@@ -201,8 +201,8 @@ export const AIML = {
     items: [
       'Business Centric Approach',
       'Scalable and future ready',
-      'Easy integration with back-office and CRM systems',
-      'Team of expert to help you maximize value of your data',
+      'Integration with CRM systems',
+      'Team of experts to maximize value of your data',
     ],
   },
   arrow_list: {
@@ -274,7 +274,7 @@ export const CONTRACT = {
   circular_list: {
     heading: 'Why choose us for your project?',
     items: [
-      'Customized products suited to your target audience',
+      'Customized for your target audience',
       'Business centric approach',
       'Attention to technical architecture',
       'Team of expert to help you get a tangible impact',

@@ -16,4 +16,8 @@ export default class ServicesStaffAugmentationAndroidDevelopersController extend
   get androidDeveloperBg() {
     return this.model.androidDevelopersData.bg;
   };
+  get androidDeveloperCircularList() {
+    return this.model.androidDevelopersData.circular_list;
+  };
+  
 };

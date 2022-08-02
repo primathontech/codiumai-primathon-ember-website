@@ -17,6 +17,10 @@ export default class ServicesStaffAugmentationFrontendDeveloperController extend
     return this.model.frontendData.bg
   }
 
+  get frontendDeveloperCircularList() {
+    return this.model.frontendData.circular_list
+  }
+
   get faqTitle() {
     return this.model.faqData.title;
   };

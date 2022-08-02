@@ -16,4 +16,8 @@ export default class ServicesStaffAugmentationPlatformController extends Control
   get platformsBg() {
     return this.model.platformData.bg;
   }
+
+  get platformsCircularList() {
+    return this.model.platformData.circular_list;
+  }
 }

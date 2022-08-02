@@ -29,6 +29,15 @@ export const FRONTEND = {
     },
   ],
   bg: 'frontend',
+  circular_list: {
+    heading: 'Why your business needs Staff Augmentation from us?',
+    items: [
+      'Detail Oriented developers',
+      'Problem-solving and Analytical Skills',
+      'Extensive knowledge in front-end technologies',
+      'Collaborative and communicative approach',
+    ],
+  },
 };
 
 export const BACKEND = {
@@ -50,6 +59,15 @@ export const BACKEND = {
     },
   ],
   bg: 'backend',
+  circular_list: {
+    heading: 'Why your business needs Staff Augmentation from us?',
+    items: [
+      'Detail Oriented developers',
+      'Problem-solving and Analytical Skills',
+      'Extensive knowledge in back-end technologies',
+      'Collaborative and communicative approach',
+    ],
+  },
 };
 
 export const QUALITY = {
@@ -75,6 +93,15 @@ export const QUALITY = {
     },
   ],
   bg: 'qa',
+  circular_list: {
+    heading: 'Why your business needs Staff Augmentation from us?',
+    items: [
+      'Detail Oriented Quality Analysts',
+      'Problem-solving and Analytical Skills',
+      'Extensive knowledge in Quality Control',
+      'Collaborative and communicative approach',
+    ],
+  },
 };
 
 export const ANDROID_DEVELOPER = {
@@ -108,6 +135,15 @@ export const ANDROID_DEVELOPER = {
     },
   ],
   bg: 'android',
+  circular_list: {
+    heading: 'Why your business needs Staff Augmentation from us?',
+    items: [
+      'Detail Oriented Quality Analysts',
+      'Problem-solving and Analytical Skills',
+      'Extensive knowledge in android development technologies',
+      'Collaborative and communicative approach',
+    ],
+  },
 };
 
 export const PLATFORM = {
@@ -125,6 +161,15 @@ export const PLATFORM = {
     },
   ],
   bg: 'platform',
+  circular_list: {
+    heading: 'Why your business needs Staff Augmentation from us?',
+    items: [
+      'Detail Oriented developers',
+      'Problem-solving and Analytical Skills',
+      'Extensive knowledge in building platforms',
+      'Collaborative and communicative approach',
+    ],
+  },
 };
 
 export const PRODUCT_MANAGER = {
@@ -132,6 +177,15 @@ export const PRODUCT_MANAGER = {
   about:
     "Product managers are responsible for defining a product's functional specifications, managing feature releases, and owning the overall product strategy. They must be able to recognize the needs of the consumer and the overarching company goals that a product or feature will serve, describe what success looks like for a product, and mobilize a team to make that vision a reality. They focus on the strategic planning, research, and analysis necessary for the building and improving a product.",
   bg: 'product',
+  circular_list: {
+    heading: 'Why your business needs Staff Augmentation from us?',
+    items: [
+      'Data Centric Approach',
+      'Problem-solving and Analytical Skills',
+      'Extensive knowledge in building and managing products',
+      'Collaborative and communicative approach',
+    ],
+  },
 };
 
 export const UI_UX = {
@@ -139,4 +193,13 @@ export const UI_UX = {
   about:
     'UI and UX designers work on how the product looks, feels and works. It is the responsibility of the UI/UX designer to make a product or service usable, enjoyable, and accessible.They decide what the application is going to look like and how the users will interact with it. They have to choose color schemes and button shapes — the width of lines and the fonts used for text. UI designers create the look and feel of an application’s user interface. ',
   bg: 'uiux',
+  circular_list: {
+    heading: 'Why your business needs Staff Augmentation from us?',
+    items: [
+      'User-centric approach',
+      'Problem-solving and Analytical Skills',
+      'Extensive knowledge and experience in designing for all paltforms',
+      'Collaborative and communicative approach',
+    ],
+  },
 };

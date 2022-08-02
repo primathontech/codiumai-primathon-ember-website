@@ -17,6 +17,10 @@ export default class ServicesStaffAugmentationQualityAnalystsController extends 
     return this.model.qualityAnalystsData.bg;
   };
 
+  get qualityAnalystsCircularList() {
+    return this.model.qualityAnalystsData.circular_list;
+  };
+
   get faqTitle() {
     return this.model.faqData.title;
   };

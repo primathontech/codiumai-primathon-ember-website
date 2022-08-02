@@ -14,6 +14,10 @@ export default class ServicesStaffAugmentationUiuxDesignersController extends Co
     return this.model.uiuxDesignersData.bg;
   };
 
+  get uiUxDesignerCircularList() {
+    return this.model.uiuxDesignersData.circular_list;
+  };
+
   get faqTitle() {
     return this.model.faqData.title;
   };

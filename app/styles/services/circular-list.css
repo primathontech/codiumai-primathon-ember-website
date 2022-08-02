@@ -35,7 +35,7 @@
   font-size: 22px;
   color: #000000;
   margin-bottom: 0px;
-  max-width: 250px;
+  max-width: 300px;
 }
 
 .circular-list-container__top-left {
@@ -136,6 +136,13 @@
   background-image: url('/assets/images/circular-green.png');
   position: absolute;
   top: 0;
+}
+
+@media only screen and (max-width: 1460px) {
+  .circular-list-container {
+    transform: scale(0.9);
+    transform-origin: top center;
+  }
 }
 
 @media only screen and (max-width: 1300px) {

@@ -18,6 +18,10 @@ export default class ServicesStaffAugmentationBackendDevelopersController extend
     return this.model.backendData.bg
   }
 
+  get backendDeveloperCircularList() {
+    return this.model.backendData.circular_list
+  }
+
   get faqTitle() {
     return this.model.faqData.title;
   };

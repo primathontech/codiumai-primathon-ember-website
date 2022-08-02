@@ -17,6 +17,10 @@ export default class ServicesStaffAugmentationProductManagersController extends 
     return this.model.productManagersData.bg;
   };
 
+  get productManagersCircularList() {
+    return this.model.productManagersData.circular_list;
+  };
+
   get faqTitle() {
     return this.model.faqData.title;
   };
