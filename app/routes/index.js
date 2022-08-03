@@ -1,4 +1,5 @@
 import Route from '@ember/routing/route';
+import fetch from 'fetch';
 
 export default class IndexRoute extends Route {
   _HOSTNAME = '/blog';
@@ -40,6 +41,6 @@ export default class IndexRoute extends Route {
   }
 
   afterModel() {
-    window.scrollTo(0, 0);
+    // window.scrollTo(0, 0);
   }
 }

@@ -1,4 +1,5 @@
 import Service from '@ember/service';
+import fetch from 'fetch';
 
 export default class ApiService extends Service {
   _API_HOST = 'https://prima-api.primathon.in';

@@ -1,4 +1,5 @@
 import Route from '@ember/routing/route';
+import fetch from 'fetch';
 
 export default class CareersRoute extends Route {
   async model() {
@@ -6,6 +7,6 @@ export default class CareersRoute extends Route {
     return employeeTestimonialData;
   }
   afterModel() {
-    window.scrollTo(0, 0);
+    // window.scrollTo(0, 0);
   }
 }

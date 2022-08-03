@@ -6,6 +6,6 @@ export default class JobDesc extends Route {
   }
 
   afterModel() {
-    window.scrollTo(0, 0);
+    // window.scrollTo(0, 0);
   }
 }
