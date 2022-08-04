@@ -48,10 +48,11 @@ export default class PagesServicesEndToEndProductServicesIndexComponent extends 
         infoPoint: [
           'Frontend Developers',
           'Backend developers',
-          'Full-stack developers',
+          'Android developers',
           'Product managers',
           'Quality Analysts',
-          'Product Designers',
+          'UI/UX Designers',
+          'Platform',
         ],
       },
 

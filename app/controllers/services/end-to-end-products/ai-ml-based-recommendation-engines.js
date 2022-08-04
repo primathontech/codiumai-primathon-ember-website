@@ -9,11 +9,35 @@ export default class ServicesEndToEndProductsAiMlBasedRecommendationEnginesContr
     return this.model.faqData.data;
   }
 
-  get aiMlBasedRecommendationEnginesHeading() {
-    return this.model.aiMl.heading;
+  get aiMlBasedRecommendationEnginesAbout() {
+    return this.model.aiMl.about;
   }
 
-  get aiMlBasedRecommendationEnginesSubHeading() {
-    return this.model.aiMl.subHeading;
+  get aiMlBasedRecommendationEnginesTitle() {
+    return this.model.aiMl.title;
+  }
+
+  get aiMlBasedRecommendationEnginesDescription() {
+    return this.model.aiMl.description;
+  }
+
+  get aiMlBasedRecommendationEnginesImg() {
+    return this.model.aiMl.imgUrl;
+  }
+
+  get aiMlBasedRecommendationEnginesBg() {
+    return this.model.aiMl.bg
+  }
+
+  get aiMlBasedRecommendationEnginesCircularList() {
+    return this.model.aiMl.circular_list
+  }
+
+  get aiMlBasedRecommendationEnginesArrowList() {
+    return this.model.aiMl.arrow_list
+  }
+
+  get aiMlBasedRecommendationEnginesLinearList() {
+    return this.model.aiMl.linear_list
   }
 }

@@ -1,12 +1,24 @@
 import Controller from '@ember/controller';
 
 export default class ServicesStaffAugmentationProductManagersController extends Controller {
-  get productManagersHeading() {
-    return this.model.productManagersData.heading;
+  get productManagersTitle() {
+    return this.model.productManagersData.title;
   };
 
-  get productManagersSubHeading() {
-    return this.model.productManagersData.subHeading;
+  get productManagersData() {
+    return this.model.productManagersData.data;
+  };
+
+  get productManagersAbout() {
+    return this.model.productManagersData.about;
+  };
+
+  get productManagersBg() {
+    return this.model.productManagersData.bg;
+  };
+
+  get productManagersCircularList() {
+    return this.model.productManagersData.circular_list;
   };
 
   get faqTitle() {
