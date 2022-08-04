@@ -34,47 +34,124 @@
   <div class="grid end-to-end">
     {{#if (eq this.hoverRoute this.endToEndRoute)}}
       <p>
+        <LinkTo
+          class='services-link'
+          @route='services.end-to-end-products.booking-platforms'
+        >
         Booking Platforms
+      </LinkTo>
       </p>
       <p>
-        Shopify Stores
+        <LinkTo
+        class='services-link'
+        @route='services.end-to-end-products.shopify-stores'
+        >Shopify Stores
+        </LinkTo>
       </p>
       <p>
+        <LinkTo
+        class='services-link'
+        @route='services.end-to-end-products.dashboard-and-data-visualization'
+        >
         Dashboard and Data Visualization
+        </LinkTo>
       </p>
       <p>
+        <LinkTo
+        class='services-link'
+        @route='services.end-to-end-products.admin-panels-and-cms'
+        >
         Admin Panels and CMS
+        </LinkTo>       
       </p>
       <p>
+        <LinkTo
+        class='services-link'
+        @route='services.end-to-end-products.web-and-mobile-app-development'
+        >
         Web and Mobile App Development
+        </LinkTo>       
       </p>
       <p>
+        <LinkTo
+        class='services-link'
+        @route='services.end-to-end-products.ai-ml-based-recommendation-engines'
+        >
         AI/ML based Recommendation Engines
+        </LinkTo>
       </p>
       <p class="page-options-extra-para">
+        <LinkTo
+        class='services-link'
+        @route='services.end-to-end-products.erc20-token'
+        >
         ERC20 Token
+        </LinkTo>
       </p>
       <p class="page-options-extra-para">
+        <LinkTo
+        class='services-link'
+        @route='services.end-to-end-products.smart-contract'
+        >
         Smart Contract
+        </LinkTo>        
       </p>
     {{else if (eq this.hoverRoute this.staffAugmentation)}}
       <p>
+        <LinkTo
+        class='services-link'
+         @route='services.staff-augmentation.frontend-developers'
+         >
         Frontend Developers
+        </LinkTo>
       </p>
       <p>
+        <LinkTo
+        class='services-link'
+        @route="services.staff-augmentation.product-managers"
+        >
         Product managers
+        </LinkTo>
       </p>
       <p>
+        <LinkTo
+        class='services-link'
+        @route="services.staff-augmentation.backend-developers"
+        >
         Backend developers
+        </LinkTo>
       </p>
       <p>
+        <LinkTo
+        class='services-link'
+        @route="services.staff-augmentation.quality-analysts" 
+        >
         Quality Analysts
+        </LinkTo>
       </p>
       <p>
-        Full-stack developers
+        <LinkTo
+        class='services-link'
+        @route="services.staff-augmentation.android-developers"
+        >
+         Android developers
+        </LinkTo>
       </p>
       <p>
-        Product Designers
+        <LinkTo
+        class='services-link'
+        @route="services.staff-augmentation.uiux-designers"
+        >
+        UI/UX Designers
+        </LinkTo>
+      </p>
+       <p>
+        <LinkTo
+        class='services-link'
+        @route="services.staff-augmentation.platform"
+        >
+        Platform
+        </LinkTo>
       </p>
     {{else if (eq this.hoverRoute this.buildAndManage)}}
       <p>

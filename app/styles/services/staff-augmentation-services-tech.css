@@ -1,0 +1,57 @@
+.staff-augmentation-services-tech {
+    text-align: center;
+    margin-top: 54px;
+}
+
+.staff-augmentation-services-tech h2 {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+    color: #1A284D;
+    text-align: center;
+}
+
+.staff-augmentation-services-tech .tech-logo-wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 98px 0 129px;
+    overflow-x: scroll;
+    -ms-overflow-style: none; 
+    scrollbar-width: none;
+}
+
+.staff-augmentation-services-tech .tech-logo-wrapper::-webkit-scrollbar {
+    display: none;
+  }
+
+.staff-augmentation-services-tech .tech-logo-wrapper .tech-logo {
+    margin: 0 72.5px;
+}
+
+.tech-logo .logo-img-wrapper {
+    width: 92.16px;
+    height: 90.42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.staff-augmentation-services-tech .tech-logo-caption {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #1A284D;
+    margin-top: 32px;
+}
+
+@media only screen and (max-width: 768px) {
+    .staff-augmentation-services-tech .tech-logo-wrapper {
+        margin: 50px 0;
+        justify-content: flex-start;
+    }
+
+    .staff-augmentation-services-tech .tech-logo-wrapper .tech-logo {
+        margin: 0 24px;
+    }
+}

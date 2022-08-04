@@ -249,6 +249,10 @@
     padding-top: 20px;
     padding-right: 20px;
   }
+
+  .service-categories .talent-box-two {
+    grid-template-columns: 1fr;
+  }
 }
 @media (min-width: 768px) {
   .service-categories .container {

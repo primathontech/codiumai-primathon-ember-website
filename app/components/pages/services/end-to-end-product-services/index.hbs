@@ -1,0 +1,26 @@
+<Header />
+<div class="app-container">
+  <Services::TemplateHeroSectionServices @heading={{@about}} @title={{@title}} @bg={{@bg}} />
+  <Services::CircularList @content={{@circular_list}} @color={{'orange'}} />
+  <Services::LinearList @content={{this.linear_list_content}} />
+  <Services::ArrowList @content={{@arrow_list}} />
+  <Services::EndToEndServicesDetails
+    @title={{@title}}
+    @heading={{@about}}
+    @description={{@description}}
+    @imgUrl={{@imgUrl}}
+  />
+  <Services::ToolsOfTrades />
+  <Services::WeAreTrusted />
+  <Homepage::HireUs />
+  <Services::BrowseThroughServices
+    @title={{this.serviceTitle}}
+    @description={{this.serviceDescription}}
+    @data={{this.serviceData}}
+    @talent-box-two={{true}}
+    @explore={{true}}
+    @talent-category-two={{true}}
+    @notShowFluidDetails={{true}}
+  />
+  <Homepage::Footer />
+</div>

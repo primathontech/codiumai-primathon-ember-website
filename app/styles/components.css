@@ -43,6 +43,11 @@
 @import './about-us/what-are-you-looking.css';
 @import './services/end-to-end-services.css';
 @import './services/page-options.css';
+@import './services/faq-list.css';
+@import './services/developer-services.css';
+@import './services/template-hero-section.css';
+@import './services/end-to-end-services-details.css';
+@import './services/staff-augmentation-services-tech.css';
 
 /* Case Studies */
 @import './case-studies/poster.css';

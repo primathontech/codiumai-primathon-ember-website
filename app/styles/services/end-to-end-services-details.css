@@ -1,0 +1,55 @@
+.end-to-end-services-details-section {
+    padding: 98px 0;
+    text-align: center;
+}
+
+.end-to-end-services-details-section h2 {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 42px;
+    color: #1A284D;
+    margin-bottom: 61px;
+}
+
+.end-to-end-services-details-section img {
+    max-width: 1255px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 54px;
+}
+
+.end-to-end-services-details-section p {
+    max-width: 1122px;
+    margin: 0 auto;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 42px;
+}
+
+.end-to-end-services-details-section .sub-heading {
+    margin-bottom: 47px;
+}
+
+@media only screen and (max-width: 768px) {
+    .end-to-end-services-details-section {
+        padding: 44px 0;
+    }
+
+    .end-to-end-services-details-section h2 {
+        margin-bottom: 40px;
+    }
+
+    .end-to-end-services-details-section img {
+        margin-bottom: 30px;
+    }
+
+    .end-to-end-services-details-section p {
+        font-size: 18px;
+        line-height: 28px;
+        padding: 0 35px;
+    }
+
+    .end-to-end-services-details-section .sub-heading {
+        margin-bottom: 24px;
+    }
+  }

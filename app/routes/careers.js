@@ -7,6 +7,7 @@ export default class CareersRoute extends Route {
     return employeeTestimonialData;
   }
   afterModel() {
-    // window.scrollTo(0, 0);
+    // Raising Typeerror on window.scroll on installing fastboot
+    // window?.scrollTo(0, 0);
   }
 }

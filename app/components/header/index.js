@@ -81,4 +81,9 @@ export default class HeaderIndexComponent extends Component {
   onLogoClick() {
     this.activePrimathon = !this.activePrimathon;
   }
+
+  @action
+  onMenuOpen() {
+    this.openMenu = !this.openMenu;
+  }
 }
