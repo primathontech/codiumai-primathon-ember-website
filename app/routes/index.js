@@ -4,6 +4,7 @@ import { CORE_VALUE_DATA } from '../constants/homepage/core-value';
 import { BLOG_DATA } from '../constants/homepage/blog';
 import { TESTIMONIAL_DATA } from '../constants/homepage/testimonial';
 import { EMPLOYEE_TESTIMONIAL_DATA } from '../constants/careers/testimonial';
+import fetch from 'fetch';
 
 export default class IndexRoute extends Route {
   _HOSTNAME = '/blog';

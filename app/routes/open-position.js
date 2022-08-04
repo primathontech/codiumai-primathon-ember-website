@@ -1,4 +1,5 @@
 import Route from '@ember/routing/route';
+import fetch from 'fetch';
 
 export default class OpenPositionRoute extends Route {
   async model() {
@@ -7,7 +8,6 @@ export default class OpenPositionRoute extends Route {
     return jobData;
   }
   afterModel() {
-    // Raising Typeerror on window.scroll on installing fastboot
-    // window?.scrollTo(0, 0);
+    // window.scrollTo(0, 0);
   }
 }
