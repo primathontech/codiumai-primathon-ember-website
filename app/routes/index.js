@@ -5,8 +5,11 @@ import { BLOG_DATA } from '../constants/homepage/blog';
 import { TESTIMONIAL_DATA } from '../constants/homepage/testimonial';
 import { EMPLOYEE_TESTIMONIAL_DATA } from '../constants/careers/testimonial';
 import fetch from 'fetch';
+import { inject as service } from '@ember/service';
 
 export default class IndexRoute extends Route {
+  @service headData;
+
   _HOSTNAME = '/blog';
   _PAGE_SIZE = 4;
   _URL = `${this._HOSTNAME}/wp-json/wp/v2/posts?_embed&per_page=${this._PAGE_SIZE}`;
@@ -45,8 +48,13 @@ export default class IndexRoute extends Route {
     return { serviceData, coreValueData, testimonialData, blogData, employeeTestimonialData };
   }
 
-  afterModel() {
-    // Raising Typeerror on window.scroll on installing fastboot
-    // window?.scrollTo(0, 0);
+  beforeModel() {
+    const title = 'Best Custom Software Development Company India| Primathon';
+    const description =
+      ' If you are looking for the best custom software service India then you have come to the right place. Primathon is the top web application development company Delhi.';
+    const keywords =
+      'best custom software development company india custom software application development services web application development services india top web application development company delhi best companies for software engineers gurgaon software application development company noida ';
+
+    this.headData.setData({ title, description, keywords });
   }
 }
