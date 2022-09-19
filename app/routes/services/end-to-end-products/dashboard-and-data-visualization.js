@@ -11,9 +11,11 @@ export default class ServicesEndToEndProductsDashboardAndDataVisualizationRoute 
     return { faqData, dashboardData };
   }
 
-  afterModel() {
+  beforeModel() {
     this.headData.title = 'Affordable Data Visualization Service Provider India | Primathon';
-    this.headData.description = 'Primathon is an affordable data visualization service provider India. If you are looking to hire the best data visualization company India, then choose us.';
-    this.headData.keywords = 'data analytics and visualization services data visualization services provider delhi hire the best data visualization company best data visualization company india affordable data visualization service provider ';
+    this.headData.description =
+      'Primathon is an affordable data visualization service provider India. If you are looking to hire the best data visualization company India, then choose us.';
+    this.headData.keywords =
+      'data analytics and visualization services data visualization services provider delhi hire the best data visualization company best data visualization company india affordable data visualization service provider ';
   }
 }

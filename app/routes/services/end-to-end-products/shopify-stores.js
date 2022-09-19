@@ -11,7 +11,7 @@ export default class ServicesEndToEndProductsShopifyStoresRoute extends Route {
     return { faqData, shopifyStoresData };
   }
 
-  afterModel() {
+  beforeModel() {
     this.headData.title = 'Hire Professional Shopify Developer Noida | Primathon';
     this.headData.description =
       'Primathon Technology Ventures Pvt Ltd provides the best web developer for Shopify Noida. To hire professional Shopify developer Noida contacts us today.';

@@ -4,7 +4,7 @@ import { inject as service } from '@ember/service';
 export default class ServicesStaffAugmentationIndexRoute extends Route {
   @service headData;
 
-  afterModel() {
+  beforeModel() {
     this.headData.title = 'Best Custom Software Development Company India| Primathon';
     this.headData.description =
       ' If you are looking for the best custom software service India then you have come to the right place. Primathon is the top web application development company Delhi.';

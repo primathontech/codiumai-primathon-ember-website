@@ -10,7 +10,7 @@ export default class ServicesStaffAugmentationPlatformRoute extends Route {
     return { platformData };
   }
 
-  afterModel() {
+  beforeModel() {
     this.headData.title = 'Best Custom Software Development Company India| Primathon';
     this.headData.description =
       ' If you are looking for the best custom software service India then you have come to the right place. Primathon is the top web application development company Delhi.';

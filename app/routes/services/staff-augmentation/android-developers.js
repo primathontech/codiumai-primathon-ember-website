@@ -9,10 +9,11 @@ export default class ServicesStaffAugmentationAndroidDevelopersRoute extends Rou
     return { androidDevelopersData };
   }
 
-  afterModel() {
+  beforeModel() {
     this.headData.title = ' Best Quality Android Development Services India | Primathon';
     this.headData.description =
       'Primathon provides the best quality android development services India. We are the top android development service provider company India, For more info visit our website.';
-    this.headData.keywords = 'hire professional android developers gurgaon android development service provider company best android development solutions india top android developers service companies gurgaon best quality android development services ';
+    this.headData.keywords =
+      'hire professional android developers gurgaon android development service provider company best android development solutions india top android developers service companies gurgaon best quality android development services ';
   }
 }

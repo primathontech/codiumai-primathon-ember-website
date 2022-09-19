@@ -11,9 +11,11 @@ export default class ServicesEndToEndProductsAdminPanelsAndCmsRoute extends Rout
     return { faqData, adminPanelAndCms };
   }
 
-  afterModel() {
+  beforeModel() {
     this.headData.title = 'Affordable CMS Development Service Company India | Primathon';
-    this.headData.description = ' Looking for an affordable cms development service company India? Primathon will be the best option for you. We provide the best admin panel development services Gurgaon';
-    this.headData.keywords = 'admin panel development services gurgaon admin panel development service provider top admin panel development company cms development services provider delhi affordable cms development service company';
+    this.headData.description =
+      ' Looking for an affordable cms development service company India? Primathon will be the best option for you. We provide the best admin panel development services Gurgaon';
+    this.headData.keywords =
+      'admin panel development services gurgaon admin panel development service provider top admin panel development company cms development services provider delhi affordable cms development service company';
   }
 }

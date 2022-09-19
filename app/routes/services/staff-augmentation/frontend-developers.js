@@ -11,9 +11,11 @@ export default class ServicesStaffAugmentationFrontendDevelopersRoute extends Ro
     return { frontendData, faqData };
   }
 
-  afterModel() {
+  beforeModel() {
     this.headData.title = 'Top Quality Front End Developers Solutions India | Primathon';
-    this.headData.description = 'Primathon provides the top quality front end developers solutions India. Our company is the top front end development company Delhi and Gurgaon cities.';
-    this.headData.keywords = 'hire the best front end developer noida best front end development services gurgaon top front end development company delhi affordable front end development services top quality front end developers solutions india ';
+    this.headData.description =
+      'Primathon provides the top quality front end developers solutions India. Our company is the top front end development company Delhi and Gurgaon cities.';
+    this.headData.keywords =
+      'hire the best front end developer noida best front end development services gurgaon top front end development company delhi affordable front end development services top quality front end developers solutions india ';
   }
 }

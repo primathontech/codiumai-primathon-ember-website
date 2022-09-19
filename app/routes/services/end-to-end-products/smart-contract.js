@@ -11,9 +11,11 @@ export default class ServicesEndToEndProductsSmartContractRoute extends Route {
     return { faqData, smartContract };
   }
 
-  afterModel() {
-    this.headData.title='Professional Smart Contract Developer India | Primathon'
-    this.headData.description = 'If you are looking for a professional smart contract developer India then you have come to right place. Primathon is the top smart contract blockchain development company.';
-    this.headData.keywords = 'professional smart contract developer india smart contract development service provider best smart contract developers company gurgaon top smart contract blockchain development company ';
+  beforeModel() {
+    this.headData.title = 'Professional Smart Contract Developer India | Primathon';
+    this.headData.description =
+      'If you are looking for a professional smart contract developer India then you have come to right place. Primathon is the top smart contract blockchain development company.';
+    this.headData.keywords =
+      'professional smart contract developer india smart contract development service provider best smart contract developers company gurgaon top smart contract blockchain development company ';
   }
 }
