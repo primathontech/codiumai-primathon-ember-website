@@ -12,10 +12,12 @@ export default class ServicesEndToEndProductsAIMLBasedRecommendationRoute extend
   }
 
   beforeModel() {
-    this.headData.title = 'Artificial Intelligence Services And Solutions | Primathon';
-    this.headData.description =
+    const title = 'Artificial Intelligence Services And Solutions | Primathon';
+    const description =
       ' Are you looking for the top artificial intelligence services for business? Primathon is the best artificial intelligence services and solutions provider India.';
-    this.headData.keywords =
+    const keywords =
       'artificial intelligence services and solutions artificial intelligence service offerings noida artificial intelligence service provider delhi artificial intelligence services for business artificial intelligence solutions provider india ';
+
+    this.headData.setData({ title, description, keywords });
   }
 }

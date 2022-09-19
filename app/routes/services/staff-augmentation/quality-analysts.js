@@ -12,10 +12,12 @@ export default class ServicesStaffAugmentationQualityAnalystsRoute extends Route
   }
 
   beforeModel() {
-    this.headData.title = ' Hire Senior Quality Assurance Analyst Gurgaon | Primathon';
-    this.headData.description =
+    const title = ' Hire Senior Quality Assurance Analyst Gurgaon | Primathon';
+    const description =
       'Looking to hire senior quality assurance analyst Gurgaon? Then you have come to the right place. Primathon provides the certified software quality analyst service India.';
-    this.headData.keywords =
+    const keywords =
       'hire quality assurance analyst gurgaon certified software quality analyst service india hire senior quality assurance analyst gurgaon quality assurance data analyst solutions delhi ';
+
+    this.headData.setData({ title, description, keywords });
   }
 }

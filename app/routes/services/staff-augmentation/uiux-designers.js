@@ -10,10 +10,12 @@ export default class ServicesStaffAugmentationUiuxDesignersRoute extends Route {
   }
 
   beforeModel() {
-    this.headData.title = ' Best UI UX Designer Service Provider Noida | Primathon';
-    this.headData.description =
+    const title = ' Best UI UX Designer Service Provider Noida | Primathon';
+    const description =
       'If you are looking to hire professional UI designer Gurgaon then you happy to know that Primathon provides the professional UX designer service company India.';
-    this.headData.keywords =
+    const keywords =
       'hire professional ui designer gurgaon best ux designer service provider company best ui ux designer service provider noida professional ux designer service company affordable ui ux designing service delhi';
+
+    this.headData.setData({ title, description, keywords });
   }
 }

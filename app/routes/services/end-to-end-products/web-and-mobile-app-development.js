@@ -12,10 +12,12 @@ export default class ServicesEndToEndProductsWebAndAppDevelopmentRoute extends R
   }
 
   beforeModel() {
-    this.headData.title = 'Top Web And Mobile App Development Company | Primathon';
-    this.headData.description =
+    const title = 'Top Web And Mobile App Development Company | Primathon';
+    const description =
       ' Primathon is the top web and mobile app development company in India. We provide custom web application development Gurgaon and web application development services Noida.';
-    this.headData.keywords =
+    const keywords =
       'hire mobile app development delhi best mobile app developers for hire application development for mobile delhi web application development services noida custom web application development gurgaon web and mobile app development company ';
+
+    this.headData.setData({ title, description, keywords });
   }
 }

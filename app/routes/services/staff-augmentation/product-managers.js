@@ -12,10 +12,12 @@ export default class ServicesStaffAugmentationProductManagersRoute extends Route
   }
 
   beforeModel() {
-    this.headData.title = 'Specialist Product Management Services Noida | Primathon';
-    this.headData.description =
+    const title = 'Specialist Product Management Services Noida | Primathon';
+    const description =
       'Primathon Technology Ventures Pvt Ltd provides specialist product management services Noida. Choose Primatho for affordable product management solutions Delhi.';
-    this.headData.keywords =
+    const keywords =
       'product management services in india best product management service gurgaon affordable product management solutions delhi specialist product management services noida ';
+
+    this.headData.setData({ title, description, keywords });
   }
 }

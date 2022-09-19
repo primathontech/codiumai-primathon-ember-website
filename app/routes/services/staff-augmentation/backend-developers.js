@@ -12,10 +12,12 @@ export default class ServicesStaffAugmentationBackendDevelopersRoute extends Rou
   }
 
   beforeModel() {
-    this.headData.title = 'Hire Top Quality Backend Developers India | Primathon';
-    this.headData.description =
+    const title = 'Hire Top Quality Backend Developers India | Primathon';
+    const description =
       ': If you are looking to hire top quality backend developers India, Primathon will be the option for you. We are the best development service provider company India.';
-    this.headData.keywords =
+    const keywords =
       'hire top quality backend developers india best backend development service provider company affordable backend development solutions top backend development company gurgaon best backend development service provider companies ';
+
+    this.headData.setData({ title, description, keywords });
   }
 }

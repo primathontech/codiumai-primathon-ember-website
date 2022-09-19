@@ -12,10 +12,12 @@ export default class ServicesEndToEndProductsShopifyStoresRoute extends Route {
   }
 
   beforeModel() {
-    this.headData.title = 'Hire Professional Shopify Developer Noida | Primathon';
-    this.headData.description =
+    const title = 'Hire Professional Shopify Developer Noida | Primathon';
+    const description =
       'Primathon Technology Ventures Pvt Ltd provides the best web developer for Shopify Noida. To hire professional Shopify developer Noida contacts us today.';
-    this.headData.keywords =
+    const keywords =
       'best shopify page builder delhi best web developer for shopify noida hire professional shopify developer noida hire shopify ecommerce developers gurgaon expert shopify developers india best shopify page builder gurgaon';
+
+    this.headData.setData({ title, description, keywords });
   }
 }
