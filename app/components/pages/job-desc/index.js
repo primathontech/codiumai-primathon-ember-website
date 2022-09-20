@@ -44,7 +44,7 @@ export default class JobDescComponent extends Component {
 
   @action
   async dataHandler({ id }) {
-    const data = await (await fetch(`https://primathon.in/blog/wp-json/wp/v2/job_description/${id}`)).json();
+    const data = await (await fetch(`http://blog.primathon.in//wp-json/wp/v2/job_description/${id}`)).json();
     const jd = data;
     const span = document.createElement('span');
     const jdDescription = [];
