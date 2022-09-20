@@ -1,30 +1,35 @@
-export const EMPLOYEE_TESTIMONIAL_DATA = [
+export const EMPLOYEE_TESTIMONIAL_DATA  = [
   {
-    profilePicUrl: '/assets/client-head/Udit-Sawhney.jpeg',
-    name: 'Akhil Bist',
-    title: 'SDE-1 Front-End',
+    id: 976,
+    img: {
+      ID: '973',
+      guid: 'http://blog.primathon.in/wp-content/uploads/2022/03/team-5-2.jpg',
+    },
+    designation: 'Team Lead',
+    employee_name: 'Mahaveer Chouhan',
     comment:
-      'One of the primary reasons we chose Primathon was their vast knowledge and expertise in understanding and easily resolving technological challenges in our business. ',
+      'Feel very proud to be employee of Primathon. My career has skied with the growth of the company. The extraordinary Knowledge Transfer across the different streams of the project has benefited lot of employee. I am really grateful to work in',
   },
   {
-    profilePicUrl: '/assets/client-head/Tom-Welbury.jpeg',
-    name: 'Amit Kumar',
-    title: 'SDE-1 Front-End',
+    id: 974,
+    img: {
+      ID: '993',
+      guid: 'http://blog.primathon.in/wp-content/uploads/2022/03/akhil-1-1.jpg',
+    },
+    designation: 'SDE-II',
+    employee_name: 'Akhil Bisht',
     comment:
-      "In the last four months, we've seen our concept come to life. Primathon has a strong work ethic. You delivered what you promised.",
+      "I enjoy the opportunity to work on high profile projects and clients. More importantly, I get to work with some of the best and brightest individuals in our industry every single day, and that's pretty exciting!",
   },
   {
-    profilePicUrl: '/assets/client-head/Francis-Domnic.jpeg',
-    name: 'Ankit mittal ',
-    title: 'SDE-1 Front-End',
+    id: 972,
+    img: {
+      ID: '990',
+      guid: 'http://blog.primathon.in/wp-content/uploads/2022/03/WhatsApp-Image-2022-03-28-at-18.57.59-1.jpeg',
+    },
+    designation: 'SDE-1',
+    employee_name: 'Ishi Gupta',
     comment:
-      "It was a pleasure to work with such a dependable team. We made the right decision in confiding in you. You clearly understand our client's needs, and your work speaks volumes about this.",
+      "Primathon had given me a lot of new challenging opportunities, which helped me not only with my technical abilities but also with soft skills and more importantly, learn to accept others' points of view and building products together as a team",
   },
-  {
-    profilePicUrl: '/assets/client-head/Tom-Welbury.jpeg',
-    name: 'Mahaveer',
-    title: 'SDE-1 Backend-End',
-    comment:
-      "In the last four months, we've seen our concept come to life. Primathon has a strong work ethic. You delivered what you promised.",
-  },
-];
+]

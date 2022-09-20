@@ -6,7 +6,7 @@ export default class OpenPositionRoute extends Route {
   @service headData;
 
   async model() {
-    const jobData = await (await fetch('https://primathon.in/blog/wp-json/wp/v2/jobs_posting')).json();
+    const jobData = await (await fetch('http://blog.primathon.in//wp-json/wp/v2/jobs_posting')).json();
     console.log(jobData);
     return jobData;
   }

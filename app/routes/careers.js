@@ -1,14 +1,16 @@
 import Route from '@ember/routing/route';
 import fetch from 'fetch';
 import { inject as service } from '@ember/service';
+import { EMPLOYEE_TESTIMONIAL_DATA } from '../constants/careers/testimonial';
 
 export default class CareersRoute extends Route {
   @service headData;
 
   async model() {
-    const employeeTestimonialData = await (await fetch('https://primathon.in/wp-json/wp/v2/testimonial')).json();
+    const employeeTestimonialData = EMPLOYEE_TESTIMONIAL_DATA
     return employeeTestimonialData;
   }
+
   beforeModel() {
     const title = 'Best Custom Software Development Company India| Primathon';
     const description =

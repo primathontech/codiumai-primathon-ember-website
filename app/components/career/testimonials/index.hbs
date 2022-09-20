@@ -12,7 +12,7 @@
     {{#each @data as |data index|}}
       <div class='{{if (eq this.activeIndex index) 'isActive' 'isNotActive'}}'>
         <div class='person-img-desktop'>
-          <img src={{if data.image.guid data.image.guid '/assets/images/user.png'}} loading='lazy' alt={{data.name}} />
+          <img src={{data.img.guid}} loading='lazy' alt={{data.name}} />
         </div>
         <div class='testimonial-item'>
           <blockquote>
@@ -20,7 +20,7 @@
           </blockquote>
           <div class='person-img-mobile'>
             <img
-              src={{if data.image.guid data.image.guid '/assets/images/user.png'}}
+              src={{data.img.guid}}
               loading='lazy'
               alt={{data.name}}
             />
