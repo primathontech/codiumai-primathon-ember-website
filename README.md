@@ -1,7 +1,48 @@
-# primathon-ember-web
+# Primathon Ember Site!
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+The app has 2 parts
+1.  Blog (Wordpress app)
+2.  Site (Ember app)
+
+## Blog
+The blog is deployed using docker image.
+```
+# ssh to server
+cd projects/blog/
+
+# to start / restart
+docker-compose up -d
+
+# to stop
+docker-compose down
+
+# to read logs
+docker-compose logs -f
+```
+
+The blog files location is inside wordpress folder.
+you can edit the blog wordpress config using
+```
+cd /home/ubuntu/projects/blog/wordpress
+vi wp-config.php 
+```
+
+## Site
+Site in ember app on location `/home/ubuntu/projects/primathon-ember-web`
+
+Below pm2 commands are used to deploy the app
+```
+pm2 start /home/ubuntu/projects/primathon-ember-web/start.sh --name  prima-web
+
+# to stop 
+
+pm2 stop  prima-web
+```
+
+## Nginx Conf
+1. assets path are redirected once we replace the /blog/wp-* part of request_uri and redirect to blog app at 8180
+2. the /blog pages are served using 8180 directly
+3. the site page with / path are sent to ember app.
 
 ## Prerequisites
 
