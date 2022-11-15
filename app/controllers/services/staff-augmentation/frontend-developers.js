@@ -5,6 +5,10 @@ export default class ServicesStaffAugmentationFrontendDeveloperController extend
     return this.model.frontendData.title;
   };
 
+  get frontendDeveloperSubHeading() {
+    return this.model.frontendData.sub_heading;  
+  }
+
   get frontendDeveloperAbout() {
     return this.model.frontendData.about
   }

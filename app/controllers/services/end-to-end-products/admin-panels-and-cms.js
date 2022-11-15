@@ -13,6 +13,10 @@ export default class ServicesEndToEndProductsAdminPanelsAndCmsController extends
     return this.model.adminPanelAndCms.title;
   }
 
+  get adminPanelAndCmsSubHeading() {
+    return this.model.adminPanelAndCms.sub_heading;
+  }
+
   get adminPanelsAndCmsAbout() {
     return this.model.adminPanelAndCms.about;
   }

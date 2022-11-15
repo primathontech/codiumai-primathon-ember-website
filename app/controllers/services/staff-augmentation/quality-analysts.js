@@ -5,6 +5,10 @@ export default class ServicesStaffAugmentationQualityAnalystsController extends 
     return this.model.qualityAnalystsData.title;
   };
 
+  get qualityAnalystsSubHeading() {
+    return this.model.qualityAnalystsData.sub_heading;
+  }
+
   get qualityAnalystsData() {
     return this.model.qualityAnalystsData.data;
   };

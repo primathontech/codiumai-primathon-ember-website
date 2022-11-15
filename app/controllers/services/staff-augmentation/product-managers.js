@@ -5,6 +5,10 @@ export default class ServicesStaffAugmentationProductManagersController extends 
     return this.model.productManagersData.title;
   };
 
+  get productManagersSubHeading() {
+    return this.model.productManagersData.sub_heading;
+  }
+
   get productManagersData() {
     return this.model.productManagersData.data;
   };

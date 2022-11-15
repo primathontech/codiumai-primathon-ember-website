@@ -5,6 +5,10 @@ export default class ServicesStaffAugmentationAndroidDevelopersController extend
     return this.model.androidDevelopersData.title;
   }
 
+  get androidDeveloperSubHeading() {
+    return this.model.androidDevelopersData.sub_heading;
+   }
+  
   get androidDevelopersData() {
     return this.model.androidDevelopersData.data;
   }
@@ -16,6 +20,7 @@ export default class ServicesStaffAugmentationAndroidDevelopersController extend
   get androidDeveloperBg() {
     return this.model.androidDevelopersData.bg;
   };
+
   get androidDeveloperCircularList() {
     return this.model.androidDevelopersData.circular_list;
   };
