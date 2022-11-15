@@ -1,6 +1,12 @@
 <Header />
-<div class="app-container">
-  <Services::TemplateHeroSectionServices @heading={{@about}} @title={{@title}} @bg={{@bg}} />
+<div class='app-container'>
+  <Services::TemplateHeroSectionServices
+    @heading={{@about}}
+    @title={{@title}}
+    @bg={{@bg}}
+    @subHeading={{@subHeading}}
+  />
+ 
   <Services::CircularList @content={{@circular_list}} />
   <Services::LinearList @content={{this.linear_list_content}} />
   <Services::TopNotchTalent />

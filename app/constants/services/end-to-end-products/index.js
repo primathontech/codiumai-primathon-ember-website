@@ -1,9 +1,9 @@
 export const BOOKING_PLATFORMS = {
-  title: 'Booking Platform',
+  title: 'Best Booking System Software Provider Gurgaon',
   about:
-    'An online booking system is a software solution that allows potential guests to self-book and pay through your website and other channels.',
+    ' An online booking system is a software solution that allows potential guests to self-book and pay through your website and other channels.  At Primathon, we are the <b> best booking system software provider Gurgaon.</b>',
   description:
-    'By automatically updating procedures like payment scheduling, inventory management, and booking tracking, it makes the booking process easier for both you and your clients. The consumers can view all the offered options and reserve the ones they require without jumping between web pages or visiting other websites, it keeps clients on your website!',
+    'By automatically updating procedures like payment scheduling, inventory management, and booking tracking, it makes the booking process easier for both you and your clients. Primathon is the <b>best online scheduling software company India</b> . The consumers can view all the offered options and reserve the ones they require without jumping between web pages or visiting other websites, it keeps clients on your website!',
   imgUrl: '/assets/end-to-end-services/booking-platform.png',
   bg: 'booking',
   circular_list: {
@@ -37,11 +37,11 @@ export const BOOKING_PLATFORMS = {
 };
 
 export const SHOPIFY_STORES = {
-  title: 'Shopify Stores',
+  title: ' Expert Shopify Developers India',
   about:
-    'Shopify is an e-commerce platform that allows you to create online shopping websites and start selling your products without any hassle.',
+    'Shopify is an e-commerce platform that allows you to create online shopping websites and start selling your products without any hassle. <b>Hire Shopify Ecommerce Developers Gurgaon</b>',
   description:
-    'Shopify is now being used by 11% eCommerce businesses worldwide. It is secure, fast and reliable!It is excellent for online companies that offer products or services and only need a platform to market and sell it. Depending on your business needs, you may use an advanced Shopify homepage section to sell a single item or a number of items. This ultimately raises your ROI and raises the revenue from your online store.',
+    'Shopify is now being used by 11% eCommerce businesses worldwide. It is secure, fast and reliable!It is excellent for online companies that offer products or services and only need a platform to market and sell it. <b>Hire Professional Shopify Developer Noida</b>. Depending on your business needs, you may use an advanced Shopify homepage section to sell a single item or a number of items. This ultimately raises your ROI and raises the revenue from your online store. You can hire <b>best shopify page builder Delhi</b>. ',
   imgUrl: '/assets/end-to-end-services/shopify.png',
   bg: 'shopify',
   circular_list: {
@@ -75,11 +75,11 @@ export const SHOPIFY_STORES = {
 };
 
 export const DASHBOARDANDDATA = {
-  title: 'Dashboard and Data visualization',
+  title: 'Data Visualization Services Provider Delhi',
   about:
-    'Dashboard and data visualization is a tool that monitors, analyses, and displays key performance indicators (KPIs), metrics, and key data points.',
+    'Dashboard and data visualization is a tool that monitors, analyses, and displays key performance indicators (KPIs), metrics, and key data points. We provide the best <b>Data Analytics and Visualization Services</b>',
   description:
-    ' It helps both technical and non-technical users understand and use business intelligence and data to make more informed decisions . By gathering data, showing trends or occurrences, and discovering an objective perspective of performance indicators that can be understood right away, users actively participate in the analytics process.  Any organization, no matter the size or the industry, can benefit from tracking their metrics using a dashboard.  ',
+    'It helps both technical and non-technical users understand and use business&nbsp;intelligence and data to make more informed decisions . By gathering data, showing trends or occurrences, and discovering an objective perspective of performance indicators that can be understood right away, users actively participate in the analytics process.  Any organization, no matter the size or the industry, can benefit from tracking their metrics using a dashboard.  We are the most <b>affordable data visualization service provider.</b>',
   imgUrl: '/assets/end-to-end-services/dashboard.png',
   bg: 'dashboard',
   circular_list: {
@@ -113,7 +113,9 @@ export const DASHBOARDANDDATA = {
 };
 
 export const ADMINPALENANDCMS = {
-  title: 'Admin Panels and CMS',
+  title: 'Admin Panel Development Services Gurgaon',
+  sub_heading:
+    'We are there, every step of the way from your idea and your product launch! <b> Top admin panel development company </b>',
   about:
     "It's a tool that gives you access to common administrative operations, server information, project updates. It gives you the access to monitor and update your website.",
   description:
@@ -151,9 +153,9 @@ export const ADMINPALENANDCMS = {
 };
 
 export const APPDEVELOPEMENT = {
-  title: 'Web and Mobile Applications',
+  title: 'Web And Mobile App Development Company',
   about:
-    'It is the method through which programmers build apps for smartphones, tablets, and other platforms- IOS Apps, Android Apps, and Web Apps.',
+    ' It is the method through which programmers build apps for smartphones, tablets, and other platforms-&nbsp;IOS Apps, Android Apps, and Web Apps. We provide <b>web application development services Noida</b>.',
   description:
     'With the increased use of technology around us, all kinds of organization and businesses are leveraging technology and improving their existing workflow with technology. Applications built for different device need in depth knowledge of ideal practices for building applications for the platforms, what technologies to use, how to use the application to solve not just the primary, but also additional business requirements! ',
   imgUrl: '/assets/end-to-end-services/web-mobile-application.png',
@@ -189,11 +191,11 @@ export const APPDEVELOPEMENT = {
 };
 
 export const AIML = {
-  title: 'AI/ML based Recommendation Engines',
+  title: 'Artificial Intelligence Services And Solutions',
   about:
-    "With the help of AI, your recommendation engines can make quick and to-the-point recommendations tailored to each customer's needs and preferences.",
+    "With the help of AI, your recommendation engines can make quick and to-the-point recommendations tailored to each customer's needs and preferences. To get the <b>artificial intelligence services for business</b>, Contact us.",
   description:
-    "Recommendations AI uses this expertise in machine learning to give tailored recommendations across all of your touchpoints including your website, mobile experience, email, contact center, and more that are tailored to each customer's tastes and preferences. By demonstrating your understanding of your customers, you may win their trust and loyalty.",
+    "Recommendations AI uses this expertise in machine learning to give tailored recommendations across all of your touchpoints including your website, mobile experience, email, contact center, and more that are tailored to each customer's tastes and preferences. By demonstrating your understanding of your customers, you may win their trust and loyalty and Primathon provides the best <b>artificial intelligence service offerings Noida</b>.",
   imgUrl: '/assets/end-to-end-services/aiml.png',
   bg: 'aiml',
   circular_list: {

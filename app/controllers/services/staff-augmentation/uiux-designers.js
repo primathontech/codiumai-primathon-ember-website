@@ -5,6 +5,9 @@ export default class ServicesStaffAugmentationUiuxDesignersController extends Co
     return this.model.uiuxDesignersData.title;
   };
 
+  get uiUxDesignersSubHeading() {
+    return this.model.uiuxDesignersData.sub_heading;
+  }
 
   get uiUxDesignersAbout() {
     return this.model.uiuxDesignersData.about;

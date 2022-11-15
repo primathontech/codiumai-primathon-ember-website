@@ -5,6 +5,10 @@ export default class ServicesStaffAugmentationPlatformController extends Control
     return this.model.platformData.title;
   }
 
+  get platformsSubHeading() {
+    return this.model.platformData.sub_heading;
+  }
+
   get platformsData() {
     return this.model.platformData.data;
   }

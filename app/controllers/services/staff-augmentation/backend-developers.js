@@ -5,6 +5,10 @@ export default class ServicesStaffAugmentationBackendDevelopersController extend
     return this.model.backendData.title;
   };
 
+  get backendDeveloperSubHeading() {
+    return this.model.backendData.sub_heading;
+  }
+
   get backendDevelopersData() {
     return this.model.backendData.data
   }

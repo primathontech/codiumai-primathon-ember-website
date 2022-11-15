@@ -1,7 +1,9 @@
 export const FRONTEND = {
-  title: 'Frontend Developers',
+  title: 'Affordable Front End Development Services',
+  sub_heading:
+    ' We are there, every step of the way from your idea and your product launch! <b> Hire the best front end developer Noida </b>',
   about:
-    'A developer who creates the interfaces and visual components of websites, programs, and apps is known as a front-end developer, or UI Developer. They are in charge of developing the elements and functionality that the user can see and utilize directly.Front-end engineers need to be knowledgeable about frameworks like Foundation Backbone, Bootstrap, AngularJS, and EmberJS in addition to having a solid grasp of core coding principles.',
+    'A developer who creates the interfaces and visual components of websites, programs, and apps is known as a front-end developer, or UI Developer. They are in charge of developing the elements and functionality that the user can see and utilize directly. Primathon provides the <b>top quality front end developers solutions India</b>. Front-end engineers need to be knowledgeable about frameworks like Foundation Backbone, Bootstrap, AngularJS, and EmberJS in addition to having a solid grasp of core coding principles.',
   data: [
     {
       imgUrl: '/assets/frontend/jquery-icon.png',
@@ -41,9 +43,11 @@ export const FRONTEND = {
 };
 
 export const BACKEND = {
-  title: 'Back End Developers',
+  title: 'Best Backend Development Service Provider Company',
+  sub_heading:
+    'We are there, every step of the way from your idea and your product launch! <b> hire top quality backend developers India  </b>',
   about:
-    "A programmer that implements essential features of websites, software programs, and applications is known as a back-end developer. They also take care of the application's or website's security, data structures, content management, and data storage. Backend developers can create technologies for businesses with the aid of a solid understanding of development frameworks, advanced database design abilities, and database technologies like MySQL.",
+    "A programmer that implements essential features of websites, software programs, and applications is known as a back-end developer. They also take care of the application's or website's security, data structures, content management, and data storage. Primathon is providing the <b>affordable backend development solutions</b>.  Backend developers can create technologies for businesses with the aid of a solid understanding of development frameworks, advanced database design abilities, and database technologies like MySQL.",
   data: [
     {
       imgUrl: '/assets/backend/python.png',
@@ -71,9 +75,11 @@ export const BACKEND = {
 };
 
 export const QUALITY = {
-  title: 'Quality Analyst',
+  title: 'Certified Software Quality Analyst Service India',
+  sub_heading:
+    'We are there, every step of the way from your idea and your <b> quality assurance data analyst solutions Delhi </b>',
   about:
-    "The components and overall functionality of a product are tested by a quality analyst. Quality analysts frequently examine the services their organization provides and identify any flaws that jeopardize the expectations that customers have of the service. They remain involved in all phases of a product's development, from the beginning to the end. They monitor quality assurance in regard to things like software usability and the broader SDLC, as well as validating test cases (software development life cycle).",
+    "The components and overall functionality of a product are tested by a quality analyst. <b>Hire senior quality assurance analyst Gurgaon</b>, they frequently examine the services their organization provides and identify any flaws that jeopardize the expectations that customers have of the service. They remain involved in all phases of a product's development, from the beginning to the end. They monitor quality assurance in regard to things like software usability and the broader SDLC, as well as validating test cases (software development life cycle).",
   data: [
     {
       imgUrl: '/assets/qa/functional.png',
@@ -105,9 +111,11 @@ export const QUALITY = {
 };
 
 export const ANDROID_DEVELOPER = {
-  title: 'Android Developers',
+  title: 'Best Android Development Solutions India',
+  sub_heading:
+    'We are there, every step of the way from your idea and your product launch! <b> Hire Professional Android Developers Gurgaon </b>',
   about:
-    "For devices using the Android operating system, an Android developer is in charge of creating applications. An Android developer must pay close attention to the application's compatibility with various Android versions and device kinds due to the fragmentation of this ecosystem. Android programmers must stay current on new tools and technology. They design apps that best meet the needs of the business by using their existing knowledge and learning new things as needed.",
+    "For devices using the Android operating system, an Android developer is in charge of creating applications. An Android developer must pay close attention to the application's compatibility with various Android versions and device kinds due to the fragmentation of this ecosystem. Primathon is well known name for an <b>android development service provider company</b>. Android programmers must stay current on new tools and technology. They design apps that best meet the needs of the business by using their existing knowledge and learning new things as needed.",
   data: [
     {
       imgUrl: '/assets/frontend/jquery-icon.png',
@@ -148,6 +156,7 @@ export const ANDROID_DEVELOPER = {
 
 export const PLATFORM = {
   title: 'Platforms',
+  sub_heading: 'We are there, every step of the way from your idea and your <b> product launch! </b>',
   about:
     'Platform developers/engineers are generally responsible for designing and building commercial applications and developing, configuring, and deploying web and mobile applications for specific platforms.They need to have in depth knowledge of the platform and technical requirements of the platform they are building on. A platform developer ensures that they build the most feasible solution as per the business requirements.',
   data: [
@@ -173,9 +182,11 @@ export const PLATFORM = {
 };
 
 export const PRODUCT_MANAGER = {
-  title: 'Product Managers',
+  title: 'Affordable Product Management Solutions Delhi',
+  sub_heading:
+    'We are there, every step of the way from your idea and your product launch! <b> Specialist Product Management Services Noida </b>',
   about:
-    "Product managers are responsible for defining a product's functional specifications, managing feature releases, and owning the overall product strategy. They must be able to recognize the needs of the consumer and the overarching company goals that a product or feature will serve, describe what success looks like for a product, and mobilize a team to make that vision a reality. They focus on the strategic planning, research, and analysis necessary for the building and improving a product.",
+    "Searching for the High quality <b>product management services in India?</b> Product managers are responsible for defining a product's functional specifications, managing feature releases, and owning the overall product strategy. They must be able to recognize the needs of the consumer and the overarching company goals that a product or feature will serve, describe what success looks like for a product, and mobilize a team to make that vision a reality. They focus on the strategic planning, research, and analysis necessary for the building and improving a product.",
   bg: 'product',
   circular_list: {
     heading: 'Why your business needs Staff Augmentation from us?',
@@ -189,9 +200,11 @@ export const PRODUCT_MANAGER = {
 };
 
 export const UI_UX = {
-  title: 'UI/UX Designers',
+  title: 'Best UI UX Designer Service Provider Noida',
+  sub_heading:
+    ' We are there, every step of the way from your idea and your <b> Affordable UI UX Designing Service Delhi! </b>',
   about:
-    'UI and UX designers work on how the product looks, feels and works. It is the responsibility of the UI/UX designer to make a product or service usable, enjoyable, and accessible.They decide what the application is going to look like and how the users will interact with it. They have to choose color schemes and button shapes — the width of lines and the fonts used for text. UI designers create the look and feel of an application’s user interface. ',
+    'Best UI and UX designers work on how the product looks, feels and works. It is the responsibility of the UI/UX designer to make a product or service usable, enjoyable, and accessible. They decide what the application is going to look like and how the users will interact with it. They have to choose color schemes and button shapes — the width of lines and the fonts used for text. At Primathon, we are the <b>best ux designer service provider company</b> Noida, India.UI designers create the look and feel of an application’s user interface.',
   bg: 'uiux',
   circular_list: {
     heading: 'Why your business needs Staff Augmentation from us?',
