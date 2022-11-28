@@ -139,10 +139,17 @@
   }
 
   .hire-features .orange-bar {
+    height: 300px;
+    width: 300px;
+    left: -230px;
+  }
+
+}
+
+@media (min-width: 1325px) {
+  .hire-features .orange-bar {
     height: 350px;
     width: 350px;
     left: -260px;
   }
-
-  /* Mobile */
 }

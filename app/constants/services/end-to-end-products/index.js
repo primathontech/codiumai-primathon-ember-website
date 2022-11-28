@@ -79,7 +79,7 @@ export const DASHBOARDANDDATA = {
   about:
     'Dashboard and data visualization is a tool that monitors, analyses, and displays key performance indicators (KPIs), metrics, and key data points. We provide the best <b>Data Analytics and Visualization Services</b>',
   description:
-    'It helps both technical and non-technical users understand and use business&nbsp;intelligence and data to make more informed decisions . By gathering data, showing trends or occurrences, and discovering an objective perspective of performance indicators that can be understood right away, users actively participate in the analytics process.  Any organization, no matter the size or the industry, can benefit from tracking their metrics using a dashboard.  We are the most <b>affordable data visualization service provider.</b>',
+    'It helps both technical and non-technical users understand and use business&nbsp;intelligence and data to make more informed decisions . By gathering data, showing trends or occurrences, and discovering an objective perspective of performance indicators that can be understood right away, users actively participate in the analytics process.  Any organization, no matter the size or the industry, can benefit from tracking their metrics using a dashboard.Contact us if you are looking for a <b>data visualisation service provider in India;</b> we are the most <b>affordable data visualisation service provider.</b>',
   imgUrl: '/assets/end-to-end-services/dashboard.png',
   bg: 'dashboard',
   circular_list: {
@@ -302,3 +302,4 @@ export const CONTRACT = {
     ],
   },
 };
+
