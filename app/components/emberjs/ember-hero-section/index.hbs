@@ -1,0 +1,55 @@
+<div class='emberJsPoster'>
+  <div class='emberImg'>
+    <img src='/assets/emberjs/ember.svg' loading='lazy' />
+  </div>
+  <h2 class='posterHeading'>EMBER JS DEVELOPMENT</h2>
+  <h5 class='posterSubHeading'>For creating ambitious applications</h5>
+</div>
+<div class='emberJsHeroSection'>
+  <div>
+    <h3 class='emberHeading'>
+      {{@hero.heading}}
+    </h3>
+    <p class='description'>
+      {{@hero.paragraph}}
+    </p>
+    <ul class='points'>
+      {{#each @hero.points as |points|}}
+        <li>
+          {{points.value}}
+        </li>
+      {{/each}}
+    </ul>
+  </div>
+  <div class='right'>
+    <div class='formTop'>
+      <div class='formTopLeft'>
+        <h2>Submit your Inquiry</h2>
+        <p>100% secure & confedential</p>
+      </div>
+      <div class='formTopRight'>
+        <img src='/assets/emberjs/emberBlur.svg' />
+      </div>
+    </div>
+    <form class='emberForm'>
+      <div class='inputContainer'>
+        <img src='/assets/emberjs/user.svg' />
+        <Input placeholder='Your Name *' @type='text' @value={{this.userQuestion.name}} />
+      </div>
+      <div class='inputContainer'>
+        <img src='/assets/emberjs/email.svg' />
+        <Input placeholder='Your Email *' @type='email' @value={{this.userQuestion.email}} />
+      </div>
+      <div class='inputContainer'>
+        <img src='/assets/emberjs/PhoneIcon.svg' />
+        <Input placeholder='Your Phone *' @type='number' @value={{this.userQuestion.phone}} />
+      </div>
+      <div class='inputContainer'>
+        <img src='/assets/emberjs/budget.svg' />
+        <Input placeholder='Your Budget' @type='number' @value={{this.userQuestion.budget}} />
+      </div>
+      <Textarea placeholder='Project Description' @value={{this.userQuestion.message}}/>
+      <button class='emberFormBtn' disabled={{this.apiInProgress}} {{on 'click' this.sendMessage}}>Submit</button>
+    </form>
+  </div>
+</div>

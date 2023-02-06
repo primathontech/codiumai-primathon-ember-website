@@ -36,6 +36,7 @@ Router.map(function () {
   this.route('case-studies');
   this.route('job-desc');
   this.route('not-found', { path: '/*path' });
+  this.route('emberjs');
 });
 
 Router.reopen({

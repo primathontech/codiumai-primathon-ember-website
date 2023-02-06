@@ -1,0 +1,18 @@
+<div class='emberWorkContainer'>
+  <div class='top'>
+    <p>{{@work.description}}</p>
+    <div class='global-comm-wrap buttons'>
+      <LinkTo @route='contact' class='btn btn-normal btn-hire'>
+        Lets Talk
+      </LinkTo>
+    </div>
+  </div>
+  <div class='list'>
+    {{#each @work.works as |work|}}
+      <div class="listItem">
+        <div class="numDiv">{{work.id}}</div>
+        <div class="description">{{work.value}}</div>
+      </div>
+    {{/each}}
+  </div>
+</div>
