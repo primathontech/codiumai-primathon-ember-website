@@ -1,0 +1,143 @@
+.emberJsPoster {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 37px 0;
+  margin: 69px 0 87px;
+  color: #ffffff;
+  background: url('/assets/emberjs/poster.png');
+}
+
+.emberJsPoster .posterHeading {
+  font-family: 'Poppins';
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 64px;
+  margin-bottom: 2px;
+}
+
+.emberJsPoster .posterSubHeading {
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.emberJsHeroSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 132px;
+  padding: 0 105px;
+  margin: 0 auto 92px;
+}
+
+.emberJsHeroSection .emberHeading {
+  font-family: 'Poppins';
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 64px;
+  margin-bottom: 38px;
+}
+
+.emberJsHeroSection .description {
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 33px;
+  margin-bottom: 40px;
+}
+
+.emberJsHeroSection .points {
+  list-style-image: url('/assets/emberjs/listStyle.svg');
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 29px;
+  margin-left: 28px;
+}
+
+.emberJsHeroSection .right {
+  border-radius: 4px;
+  box-shadow: 5px 4px rgba(0, 0, 0, 0.05);
+}
+
+.emberJsHeroSection .right .formTop {
+  padding: 19px 38px;
+  color: #ffffff;
+  background: #248ec8;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.emberJsHeroSection .right .formTopLeft {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+}
+
+.emberJsHeroSection .right .formTopLeft h2 {
+  font-family: 'Poppins';
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 39px;
+}
+
+.emberJsHeroSection .right .formTopLeft p {
+  font-family: 'Poppins';
+  font-style: light;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.emberForm {
+  padding: 0 33px 32px;
+}
+
+.emberForm .inputContainer {
+  padding: 18px;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  border-radius: 4px;
+  background-color: #f0f0f0;
+  margin-bottom: 17px;
+  width: 422px;
+}
+
+.emberForm .inputContainer img {
+  height: 19px;
+}
+
+.emberForm .inputContainer input {
+  outline: none;
+  border: none;
+  background-color: #f0f0f0;
+  font-family: 'Poppins';
+  font-size: 16px;
+  line-height: 21px;
+}
+
+.emberForm textarea {
+  outline: none;
+  border: none;
+  background-color: #f0f0f0;
+  font-family: 'Poppins';
+  font-size: 16px;
+  line-height: 21px;
+  height: 108px;
+  margin-bottom: 17px;
+  width: 100%;
+  padding: 15px 18px;
+}
+
+.emberForm .emberFormBtn {
+  background-color: #248ec8;
+  padding: 22px 0;
+  width: 100%;
+  color: #ffffff;
+}

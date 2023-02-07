@@ -1,0 +1,58 @@
+.emberWorkContainer {
+  padding: 58px 119px;
+  background-image: url('/assets/images/cta_bg.svg');
+  background-color: #1a284d;
+  color: #ffffff;
+}
+
+.emberWorkContainer .top {
+  display: flex;
+  gap: 160px;
+  align-items: center;
+  justify-content: space-between;
+  color: #ffffff;
+  margin-bottom: 70px;
+}
+
+.emberWorkContainer .top p {
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.emberWorkContainer .list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 137px;
+  row-gap: 45px;
+  color: #000000;
+}
+
+.emberWorkContainer .list .listItem {
+  display: flex;
+  gap: 57px;
+  background-color: #ffffff;
+  padding: 42px 38px;
+  align-items: center;
+  border: 1px solid #F2EEEE;
+  border-radius: 5px;
+}
+
+.emberWorkContainer .list .listItem .numDiv {
+  padding: 29px 36px;
+  border: 3px dashed #198cca;
+  border-radius: 3px;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 28px;
+}
+
+.emberWorkContainer .list .listItem .description {
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #48596a;
+}
