@@ -1,7 +1,7 @@
-<section class="container-fluid pre-footer-wrap dark-blue-bg">
-  <div class="row">
-    <div class="container">
-      <div class="global-comm-wrap">
+<section class='container-fluid pre-footer-wrap dark-blue-bg'>
+  <div class='row'>
+    <div class='container'>
+      <div class='global-comm-wrap'>
         <h2>
           Ready to transform your business?
         </h2>
@@ -9,10 +9,17 @@
           Get in touch to schedule a call.
         </p>
       </div>
-      <div class="global-comm-wrap buttons">
-        <LinkTo @route="contact" class="btn btn-normal btn-hire" {{on 'click' (fn (or @onHireUs (noop)))}}>
-          GET IN TOUCH
-        </LinkTo>
+      <div class='global-comm-wrap buttons'>
+        {{#if @sameLink}}
+          <a href='#emberForm' class='btn btn-normal btn-hire' {{on 'click' (fn (or @onHireUs (noop)))}}>
+            GET IN TOUCH
+          </a>
+        {{else}}
+          <LinkTo @route='contact' class='btn btn-normal btn-hire' {{on 'click' (fn (or @onHireUs (noop)))}}>
+            GET IN TOUCH
+          </LinkTo>
+        {{/if}}
+
       </div>
     </div>
   </div>

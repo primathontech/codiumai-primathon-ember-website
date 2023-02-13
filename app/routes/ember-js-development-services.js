@@ -4,7 +4,7 @@ import { EMBER_HERO_SECTION } from '../constants/emberjs/emberHeroSection';
 import { EMBER_WORK } from '../constants/emberjs/emberWork';
 import { EMBER_OFFER } from '../constants/emberjs/offer';
 
-export default class EmberjsRoute extends Route {
+export default class EmberJsDevelopmentServicesRoute extends Route {
   @service headData;
 
   async model() {
@@ -16,9 +16,9 @@ export default class EmberjsRoute extends Route {
   }
 
   beforeModel() {
-    const title = 'Best Custom Software Development Company India| Primathon';
+    const title = 'Best ember js development company | Hire ember js developers';
     const description =
-      ' If you are looking for the best custom software service India then you have come to the right place. Primathon is the top web application development company Delhi.';
+      'Are you looking for professional ember js development company in UK, US, India? Hire professional ember js developers and programmers in Primathon.';
     const keywords =
       'best custom software development company india custom software application development services web application development services india top web application development company delhi best companies for software engineers gurgaon software application development company noida ';
 
