@@ -12,14 +12,16 @@ import {
 
 export default class EmberHeroSectionComponent extends Component {
   @service api;
-  @tracked submitted = false; //check if form is submitted
+  @tracked isSubmitted = false; //check if form is submitted
   @tracked apiInProgress = false;
   @tracked apiError = false;
+  _COUNTRY_CODE_REGEX = /^(\+?\d{1,3}|\d{1,4})$/;
 
   //user questions
   @tracked userQuestion = {
     name: '',
     email: '',
+    countryCode: '+91',
     phone: '',
     budget: '',
     message: '',
@@ -29,6 +31,7 @@ export default class EmberHeroSectionComponent extends Component {
   @tracked validation = {
     name: '',
     email: '',
+    countryCode: '',
     phone: '',
     budget: '',
     message: '',
@@ -54,14 +57,19 @@ export default class EmberHeroSectionComponent extends Component {
     for (let key in this.userQuestion) {
       formObj[key] = this.userQuestion[key].trim();
     }
-      
+
     if (formObj.name.length < 1) {
       validateObj.name = 'Please enter valid Name';
       isValidated = false;
     }
-      
+
     if (!emailRegex.test(formObj.email)) {
       validateObj.email = 'Please enter valid email';
+      isValidated = false;
+    }
+
+    if (!this.countryCodeValidator(formObj.countryCode)) {
+      validateObj.countryCode = 'Please enter valid country code';
       isValidated = false;
     }
 
@@ -70,22 +78,22 @@ export default class EmberHeroSectionComponent extends Component {
       isValidated = false;
     }
 
-    if (formObj.budget === '') {
-      validateObj.companyName = 'Please enter valid company name';
-      isValidated = false;
-    }
-      
     if (formObj.message.length < 10) {
       validateObj.message = 'Please enter valid message';
       isValidated = false;
     }
-      
+
     this.validation = validateObj;
     return isValidated;
   }
 
+  countryCodeValidator(code) {
+    return this._COUNTRY_CODE_REGEX.test(code);
+  }
+
   @action
-  async sendMessage() {
+  async sendMessage(evt) {
+    evt.preventDefault();
     this.trackEvent(CONTACT_SEND_MESSAGE_CLICK);
     if (this.validate()) {
       this.trackEvent(CONTACT_FORM_PAYLOAD_VALID, this.userQuestion);
@@ -94,7 +102,7 @@ export default class EmberHeroSectionComponent extends Component {
       const res = await this.api.sendContactMail(this.userQuestion);
 
       if (res.status === 200) {
-        this.submitted = true;
+        this.isSubmitted = true;
         this.apiInProgress = true;
         this.trackEvent(CONTACT_API_SUCCESS, this.userQuestion);
       } else {
