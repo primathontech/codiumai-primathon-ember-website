@@ -35,7 +35,7 @@
   background-color: #ffffff;
   padding: 42px 38px;
   align-items: center;
-  border: 1px solid #F2EEEE;
+  border: 1px solid #f2eeee;
   border-radius: 5px;
 }
 
@@ -55,4 +55,50 @@
   font-size: 20px;
   line-height: 28px;
   color: #48596a;
+}
+
+@media (max-width: 1024px) {
+  
+  .emberWorkContainer {
+    padding: 53px 34px 40px;
+  }
+
+  .emberWorkContainer .top {
+    flex-direction: column;
+    gap: 38px;
+    margin-bottom: 75px;
+  }
+
+  .emberWorkContainer .top p {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 46px;
+  }
+
+  .emberWorkContainer .list {
+    display: block;
+    color: #000000;
+  }
+
+  .emberWorkContainer .list .listItem {
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+    background-color: #ffffff;
+    padding: 31px 35px;
+    margin-bottom: 32px;
+  }
+
+  .emberWorkContainer .list .listItem .numDiv {
+    padding: 15px 18px;
+    border: 2px dashed #198cca;
+    border-radius: 3px;
+    font-size: 20px;
+    line-height: 14px;
+  }
+
+  .emberWorkContainer .list .listItem .description {
+    font-size: 18px;
+    text-align: center;
+  }
 }

@@ -1,55 +1,115 @@
-<div class='emberJsPoster'>
-  <div class='emberImg'>
-    <img src='/assets/emberjs/ember.svg' loading='lazy' />
-  </div>
-  <h2 class='posterHeading'>EMBER JS DEVELOPMENT</h2>
-  <h5 class='posterSubHeading'>For creating ambitious applications</h5>
-</div>
-<div class='emberJsHeroSection'>
-  <div>
-    <h3 class='emberHeading'>
-      {{@hero.heading}}
-    </h3>
-    <p class='description'>
-      {{@hero.paragraph}}
-    </p>
-    <ul class='points'>
-      {{#each @hero.points as |points|}}
-        <li>
-          {{points.value}}
-        </li>
-      {{/each}}
-    </ul>
-  </div>
-  <div class='right' id="emberForm">
-    <div class='formTop'>
-      <div class='formTopLeft'>
-        <h2>Submit your Inquiry</h2>
-        <p>100% secure & confedential</p>
-      </div>
-      <div class='formTopRight'>
-        <img src='/assets/emberjs/emberBlur.svg' />
-      </div>
+<div class='emberFirstSection'>
+  <div class='emberJsPoster'>
+    <div class='emberImg'>
+      <img src='/assets/emberjs/ember.svg' loading='lazy' />
     </div>
-    <form class='emberForm'>
-      <div class='inputContainer'>
-        <img src='/assets/emberjs/user.svg' />
-        <Input placeholder='Your Name *' @type='text' @value={{this.userQuestion.name}} />
+    <h2 class='posterHeading'>EMBER JS DEVELOPMENT</h2>
+    <h5 class='posterSubHeading'>For creating ambitious applications</h5>
+  </div>
+  <div class='emberJsHeroSection'>
+    <div>
+      <h3 class='emberHeading'>
+        {{@hero.heading}}
+      </h3>
+      <p class='description'>
+        {{@hero.paragraph}}
+      </p>
+      <ul class='points'>
+        {{#each @hero.points as |points|}}
+          <li class='point'>
+            {{points.value}}
+          </li>
+        {{/each}}
+      </ul>
+    </div>
+    {{#if this.isSubmitted}}
+      <div class='form-response'>
+        <h2>
+          Thanks for reaching out!
+        </h2>
+        <p>
+          Usually our representatives reply within 48 hours. For immediate assistance, please call our sales line or
+          email our customer support.
+        </p>
       </div>
-      <div class='inputContainer'>
-        <img src='/assets/emberjs/email.svg' />
-        <Input placeholder='Your Email *' @type='email' @value={{this.userQuestion.email}} />
+    {{else}}
+      <div class='formRight' id='emberForm'>
+        <div class='formTop'>
+          <div class='formTopLeft'>
+            <h2>Submit your Inquiry</h2>
+            <p>100% secure & confedential</p>
+          </div>
+          <div class='formTopRight'>
+            <img src='/assets/emberjs/emberBlur.svg' />
+          </div>
+        </div>
+        <form class='emberForm'>
+          <div class='inputField'>
+            <div class='inputContainer'>
+              <img src='/assets/emberjs/user.svg' />
+              <Input placeholder='Your Name *' @type='text' @value={{this.userQuestion.name}} />
+            </div>
+            {{#if this.validation.name}}
+              <span class='errMessage'>
+                {{this.validation.name}}
+              </span>
+            {{/if}}
+          </div>
+
+          <div class='inputField'>
+            <div class='inputContainer'>
+              <img src='/assets/emberjs/email.svg' />
+              <Input placeholder='Your Email *' @type='email' @value={{this.userQuestion.email}} />
+            </div>
+            {{#if this.validation.email}}
+              <span class='errMessage'>
+                {{this.validation.email}}
+              </span>
+            {{/if}}
+          </div>
+
+          <div class='inputField'>
+            <div class='inputContainer'>
+              <img src='/assets/emberjs/PhoneIcon.svg' />
+              <Input placeholder='Country Code *' @type='text' @value={{this.userQuestion.countryCode}} />
+            </div>
+            {{#if this.validation.countryCode}}
+              <span class='errMessage'>
+                {{this.validation.countryCode}}
+              </span>
+            {{/if}}
+          </div>
+
+          <div class='inputField'>
+            <div class='inputContainer'>
+              <img src='/assets/emberjs/PhoneIcon.svg' />
+              <Input placeholder='Your Phone *' @type='tel' @value={{this.userQuestion.phone}} />
+            </div>
+            {{#if this.validation.phone}}
+              <span class='errMessage'>
+                {{this.validation.phone}}
+              </span>
+            {{/if}}
+          </div>
+
+          <div class='inputField'>
+            <div class='inputContainer'>
+              <img src='/assets/emberjs/budget.svg' />
+              <Input placeholder='Your Budget' @type='number' @value={{this.userQuestion.budget}} />
+            </div>
+          </div>
+
+          <div class='inputField'>
+            <Textarea placeholder='Project Description' @value={{this.userQuestion.message}} />
+            {{#if this.validation.message}}
+              <span class='errMessage'>
+                {{this.validation.message}}
+              </span>
+            {{/if}}
+          </div>
+          <button class='emberFormBtn' disabled={{this.apiInProgress}} {{on 'click' this.sendMessage}}>Submit</button>
+        </form>
       </div>
-      <div class='inputContainer'>
-        <img src='/assets/emberjs/PhoneIcon.svg' />
-        <Input placeholder='Your Phone *' @type='number' @value={{this.userQuestion.phone}} />
-      </div>
-      <div class='inputContainer'>
-        <img src='/assets/emberjs/budget.svg' />
-        <Input placeholder='Your Budget' @type='number' @value={{this.userQuestion.budget}} />
-      </div>
-      <Textarea placeholder='Project Description' @value={{this.userQuestion.message}}/>
-      <button class='emberFormBtn' disabled={{this.apiInProgress}} {{on 'click' this.sendMessage}}>Submit</button>
-    </form>
+    {{/if}}
   </div>
 </div>

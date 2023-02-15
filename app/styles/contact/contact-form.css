@@ -80,8 +80,10 @@
 }
 
 .form-response {
+  min-width: 300px;
   padding: 0 15px;
 }
+
 .form-response h2 {
   font-size: 30px;
   line-height: 42px;

@@ -22,7 +22,7 @@ module.exports = function (environment) {
       // when it is created
     },
     fastboot: {
-      hostWhitelist: ['primathon.in', /^localhost:\d+$/],
+      hostWhitelist: ['primathon.in', 'amazonaws.com', /^localhost:\d+$/],
     },
   };
 

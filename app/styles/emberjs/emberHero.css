@@ -1,3 +1,7 @@
+.emberFirstSection{
+  background-color: #FDFDFD;
+}
+
 .emberJsPoster {
   display: flex;
   flex-direction: column;
@@ -51,61 +55,82 @@
 }
 
 .emberJsHeroSection .points {
-  list-style-image: url('/assets/emberjs/listStyle.svg');
+  list-style: none;
   font-family: 'Poppins';
   font-weight: 400;
   font-size: 22px;
   line-height: 29px;
-  margin-left: 28px;
 }
 
-.emberJsHeroSection .right {
+.emberJsHeroSection .points .point {
+  margin-bottom: 20px;
+  background: url('/assets/emberjs/listStyle.svg') 0 5px no-repeat;
+  padding-left: 32px;
+}
+
+.emberJsHeroSection .formRight {
   border-radius: 4px;
-  box-shadow: 5px 4px rgba(0, 0, 0, 0.05);
+  box-shadow: 5px 4px 12px rgba(0, 0, 0,0.05);
+  height: fit-content;
 }
 
-.emberJsHeroSection .right .formTop {
+.emberJsHeroSection .formRight .formTop {
   padding: 19px 38px;
   color: #ffffff;
   background: #248ec8;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin-bottom: 20px;
 }
 
-.emberJsHeroSection .right .formTopLeft {
+.emberJsHeroSection .formRight .formTopLeft {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   gap: 5px;
 }
 
-.emberJsHeroSection .right .formTopLeft h2 {
+.emberJsHeroSection .formRight .formTopLeft h2 {
   font-family: 'Poppins';
   font-weight: bold;
   font-size: 26px;
   line-height: 39px;
 }
 
-.emberJsHeroSection .right .formTopLeft p {
+.emberJsHeroSection .formRight .formTopLeft p {
   font-family: 'Poppins';
   font-style: light;
   font-size: 14px;
   line-height: 22px;
+  margin: 0;
+}
+
+.emberJsHeroSection .formRight .formTopRight {
+  height: 93px;
+}
+
+.emberJsHeroSection .formRight .formTopRight img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
 .emberForm {
   padding: 0 33px 32px;
 }
 
+.emberForm .inputField {
+  margin-bottom: 17px;
+}
+
 .emberForm .inputContainer {
-  padding: 18px;
+  padding: 0 18px;
   display: flex;
   gap: 12px;
   align-items: center;
   border-radius: 4px;
   background-color: #f0f0f0;
-  margin-bottom: 17px;
   width: 422px;
 }
 
@@ -120,6 +145,8 @@
   font-family: 'Poppins';
   font-size: 16px;
   line-height: 21px;
+  padding: 20px 0;
+  height: fit-content;
 }
 
 .emberForm textarea {
@@ -130,9 +157,9 @@
   font-size: 16px;
   line-height: 21px;
   height: 108px;
-  margin-bottom: 17px;
   width: 100%;
   padding: 15px 18px;
+  margin-bottom: -8px;
 }
 
 .emberForm .emberFormBtn {
@@ -140,4 +167,136 @@
   padding: 22px 0;
   width: 100%;
   color: #ffffff;
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+@media (max-width: 1024px) {
+  .emberJsPoster {
+    margin: 84px 0;
+  }
+
+  .emberJsPoster .posterHeading {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px;
+    margin-bottom: 35px;
+    text-align: center;
+  }
+
+  .emberJsPoster .posterSubHeading {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 35px;
+    text-align: center;
+  }
+
+  .emberJsHeroSection {
+    flex-direction: column;
+    gap: 11px;
+    margin: 0 0 83px;
+    padding: 0 32px;
+  }
+
+  .emberJsHeroSection .emberHeading {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px;
+    margin-bottom: 15px;
+  }
+
+  .emberJsHeroSection .description {
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 31px;
+  }
+
+  .emberJsHeroSection .points {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .emberJsHeroSection .points .point {
+    margin-bottom: 20px;
+    background: url('/assets/emberjs/listStyle.svg') 0 2px no-repeat;
+    padding-left: 32px;
+  }
+
+  .emberJsHeroSection .formRight {
+    border-radius: 4px;
+    box-shadow: 5px 4px rgba(0, 0, 0, 0.05);
+  }
+
+  .emberJsHeroSection .formRight .formTop {
+    padding: 19px 38px;
+    margin-bottom: 20px;
+  }
+
+  .emberJsHeroSection .formRight .formTopLeft {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+  }
+
+  .emberJsHeroSection .formRight .formTopLeft h2 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .emberJsHeroSection .formRight .formTopLeft p {
+    font-style: light;
+    font-weight: 300;
+    font-size: 10px;
+    line-height: 16px;
+  }
+
+  .emberJsHeroSection .formRight .formTopRight {
+    height: 53px;
+  }
+
+  .emberForm {
+    padding: 0 24px 23px;
+  }
+
+  .emberForm .inputField {
+    margin-bottom: 12px;
+  }
+
+  .emberForm .inputContainer {
+    padding: 0 12px;
+    display: flex;
+    gap: 9px;
+    align-items: center;
+    border-radius: 3px;
+    width: 100%;
+  }
+
+  .emberForm .inputContainer img {
+    height: 14px;
+  }
+
+  .emberForm .inputContainer input {
+    font-size: 12px;
+    line-height: 15px;
+    width: 100%;
+    padding: 12px 0;
+  }
+
+  .emberForm textarea {
+    font-size: 12px;
+    line-height: 15px;
+    height: 77px;
+    width: 100%;
+    padding: 11px 12px;
+  }
+
+  .emberForm .emberFormBtn {
+    padding: 15px 0;
+    font-size: 17px;
+    line-height: 25px;
+  }
 }
