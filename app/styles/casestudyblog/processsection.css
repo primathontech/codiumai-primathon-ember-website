@@ -1,0 +1,39 @@
+.process-section {
+  padding-top: 64px;
+  padding-bottom: 135px;
+  padding-left: 155px;
+  padding-right: 155px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #f4f4f4;
+  background-image: url(/assets/caseStudy/processbackground.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.process-heading {
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 45px;
+  color: #000000;
+}
+
+.about-process {
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #000000;
+}
+
+@media only screen and (max-width: 1350px) {
+  .process-section{
+    padding: 20px 60px 48px 54px;
+    background-image: url(/assets/caseStudy/processback-mobile.png);
+    background-size: cover;
+    background-position: center;
+  }
+}

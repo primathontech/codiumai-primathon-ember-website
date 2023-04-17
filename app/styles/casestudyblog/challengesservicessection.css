@@ -1,0 +1,379 @@
+.challenge-services-container {
+  display: flex;
+  flex-direction: column-reverse;
+  row-gap: 26px;
+  padding: 45px 48px;
+  max-width: 1536px;
+  margin: 0 auto;
+}
+
+.challenge-portion p.challenge-heading {
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.challenge-portion p.challenge-description {
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  min-width: 311px;
+}
+
+.brief-portion p.brief-heading {
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #000000;
+}
+.brief-portion ul.brief-points {
+  padding-left: 27px;
+  list-style-type: disc;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #000000;
+}
+
+.time-location {
+  display: flex;
+  flex-direction: column;
+}
+
+.time-location p {
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.time-content {
+  display: flex;
+  column-gap: 48px;
+}
+
+.months-section,
+.country-section {
+  display: flex;
+  column-gap: 14px;
+}
+
+.time-content section span {
+  align-self: center;
+}
+
+.services-provided-desktop {
+  display: none;
+}
+
+.technology-used {
+  margin-top: 26px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+}
+
+.technologies-heading {
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #000000;
+}
+
+.all-technologies-logos {
+  display: flex;
+  column-gap: 30px;
+}
+
+.all-technologies-logos div {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+  align-items: flex-end;
+}
+
+@media only screen and (max-width: 529px) {
+  
+  .services-provided-mobile {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+  }
+
+  .all-services-mobile {
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+  }
+
+  .services-heading-mobile {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+  }
+
+  .mobile-second-third {
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+  }
+
+  .service-mobile {
+    display: flex;
+    column-gap: 16px;
+    padding: 4px 12px;
+    border: 0.597744px solid #e1e1e1;
+    border-radius: 3px;
+    width: fit-content;
+  }
+
+  .all-technologies-logos {
+    display: flex;
+    column-gap: 50px;
+    flex-wrap: wrap;
+    row-gap: 20px;
+  }
+
+  .technology-name{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    align-self: center;
+  }
+}
+
+@media (min-width: 530px) {
+  .services-provided-mobile {
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+  }
+
+  .services-heading-mobile {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #000000;
+  }
+
+  .all-services-mobile {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+  }
+
+  .mobile-one {
+    width: fit-content;
+  }
+
+  .mobile-second-third {
+    display: flex;
+    column-gap: 15px;
+  }
+
+  .service-mobile {
+    display: flex;
+    column-gap: 16px;
+    padding: 4px 12px;
+    border: 0.597744px solid #e1e1e1;
+    border-radius: 3px;
+  }
+
+  .service-mobile span {
+    color: #888686;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 42px;
+    text-align: center;
+  }
+
+  .brief-portion p.brief-heading {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #000000;
+  }
+  .brief-portion ul.brief-points {
+    padding-left: 27px;
+    list-style-type: disc;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #000000;
+  }
+  
+}
+
+@media (min-width: 1400px) {
+  .challenge-services-container {
+    padding: 78px 120px 102px 120px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 120px;
+    max-width: 1536px;
+    margin: 0 auto;
+  }
+
+  .challenge-services-container section.left-part {
+    width: 550px;
+  }
+
+
+  .challenge-portion p.challenge-heading {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+  }
+
+  .challenge-portion p.challenge-description {
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+  }
+
+
+  .brief-portion p.brief-heading {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: #000000;
+  }
+  .brief-portion ul.brief-points {
+    padding-left: 27px;
+    list-style-type: disc;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+  }
+
+  .brief-points li {
+    margin-bottom: 29px;
+  }
+
+  .challenge-services-container section.right-part {
+    flex: 1;
+  }
+
+  .time-location {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .time-location p {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  .time-content {
+    display: flex;
+    column-gap: 57px;
+  }
+
+  .months-section,
+  .country-section {
+    display: flex;
+    column-gap: 17px;
+  }
+
+  .months-section span {
+    align-self: center;
+  }
+
+  .country-section span {
+    align-self: center;
+  }
+
+  .services-provided-desktop {
+    margin-top: 47px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 26px;
+  }
+
+  .services-heading {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  .all-services {
+    display: grid;
+    grid-template-columns: 356px 258px;
+    column-gap: 51px;
+    row-gap: 30px;
+  }
+
+  .all-services div {
+    display: flex;
+    column-gap: 28px;
+    padding: 8px 20px;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+  }
+
+  .service span {
+    color: #888686;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 42px;
+    text-align: center;
+  }
+
+  .services-provided-mobile {
+    display: none;
+  }
+
+  .technology-used {
+    margin-top: 65px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+  }
+
+  .technologies-heading {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  .all-technologies-logos {
+    display: flex;
+    column-gap: 50px;
+  }
+
+  .all-technologies-logos div {
+    display: flex;
+    flex-direction: column;
+    row-gap: 9px;
+    align-items: flex-end;
+  }
+}

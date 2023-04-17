@@ -1,15 +1,17 @@
-<div class="post-card">
-  <img src={{@data.poster}} loading="lazy" alt={{@data.title}} title={{@data.title}} />
-  <div class="detail">
+<div class='post-card'>
+  <img src={{@data.poster}} loading='lazy' alt={{@data.title}} title={{@data.title}} />
+  <div class='detail'>
     <h3>
       {{@data.title}}
     </h3>
     <p>
       {{@data.description}}
     </p>
-    <div>
+    <div class="tags-container">
       {{#each @data.tags as |tag|}}
-        <CaseStudies::Post::Tags @text={{tag}} class="post-tag" />
+        <div class='post-tag'>
+          {{tag}}
+        </div>
       {{/each}}
     </div>
   </div>

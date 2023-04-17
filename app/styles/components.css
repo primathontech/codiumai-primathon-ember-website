@@ -53,6 +53,12 @@
 @import './case-studies/poster.css';
 @import './case-studies/post.css';
 
+/* Case Studies Blog*/
+@import './casestudyblog/herosection.css';
+@import './casestudyblog/processsection.css';
+@import '/casestudyblog/resultsection.css';
+@import '/casestudyblog/challengesservicessection.css';
+
 /* Career */
 @import './career/poster.css';
 @import './career/culture.css';

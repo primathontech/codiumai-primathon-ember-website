@@ -1,0 +1,19 @@
+.hero-section-csblog {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 69px;
+  padding-top: 80px;
+  padding-bottom: 74px;
+  background-image: url(/assets/caseStudy/HeroImage.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.companyDescription {
+  margin-top: 26px;
+  color: #ffffff;
+  text-align: center;
+}
