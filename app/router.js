@@ -33,7 +33,10 @@ Router.map(function () {
     });
     this.route('build-and-manage');
   });
-  this.route('case-studies');
+  this.route('case-studies', function () {
+    this.route('case-study', { path: '/:post_id' });
+    // this.route('index', { path: '/' });
+  });
   this.route('job-desc');
   this.route('not-found', { path: '/*path' });
   this.route('ember-js-development-services');

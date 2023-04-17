@@ -1,4 +1,4 @@
-export const EMPLOYEE_TESTIMONIAL_DATA  = [
+export const EMPLOYEE_TESTIMONIAL_DATA = [
   {
     id: 976,
     img: {
@@ -32,4 +32,4 @@ export const EMPLOYEE_TESTIMONIAL_DATA  = [
     comment:
       "Primathon had given me a lot of new challenging opportunities, which helped me not only with my technical abilities but also with soft skills and more importantly, learn to accept others' points of view and building products together as a team",
   },
-]
+];

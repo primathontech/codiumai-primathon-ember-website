@@ -87,14 +87,6 @@
         Build and Manage
       </LinkTo>
      </div>
-      {{!-- <LinkTo
-        @route='case-studies'
-        class='menu-case-studies'
-        @activeClass='current-url'
-        {{on 'click' (fn this.closeOpenMenu 'case-studies')}}
-      >
-        Case studies
-      </LinkTo> --}}
       <a
         href='/blog'
         target='_blank'
@@ -111,6 +103,14 @@
         {{on 'click' (fn this.closeOpenMenu 'careers')}}
       >
         Careers
+      </LinkTo>
+      <LinkTo
+        @route='case-studies'
+        class='menu-case-studies'
+        @activeClass='current-url'
+        {{on 'click' (fn this.closeOpenMenu 'case-studies')}}
+      >
+        Case studies
       </LinkTo>
       <LinkTo
         @route='contact'
