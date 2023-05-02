@@ -1,0 +1,66 @@
+.chatgpt-devlopement-integration-sectionContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+  padding: 93.5px 231px;
+  align-items: center;
+  background: #f4f4f4;
+  position: relative;
+}
+
+.chatgpt-devlopement-integration-sectionContainer h1 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 42px;
+  color: #1a284d;
+}
+
+.chatgpt-devlopement-integration-sectionContainer h1 span {
+  color: #24b768;
+}
+
+.chatgpt-devlopement-integration-sectionContainer p {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+}
+
+.chatgpt-devlopement-integration-sectionContainer .chatgpt-redCircle {
+  width: 201px;
+  height: 402px;
+  position: absolute;
+  bottom: 198px;
+  right: 0px;
+}
+
+.chatgpt-devlopement-integration-sectionContainer .chatgpt-yellowCircle {
+  position: absolute;
+  width: 230.7px;
+  height: 461.55px;
+  top: 268.2px;
+  left: 0px;
+}
+
+@media only screen and (max-width: 1350px) {
+  .chatgpt-devlopement-integration-sectionContainer .chatgpt-yellowCircle {
+    left: -30px;
+  }
+}
+
+@media only screen and (max-width: 1290px) {
+  .chatgpt-devlopement-integration-sectionContainer .chatgpt-redCircle,
+  .chatgpt-devlopement-integration-sectionContainer .chatgpt-yellowCircle {
+    display: none;
+  }
+}
+
+@media (max-width: 1024px) {
+  .chatgpt-devlopement-integration-sectionContainer {
+    padding: 53px 50px 40px;
+  }
+}

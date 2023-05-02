@@ -1,0 +1,37 @@
+<div class='chatgpt-thirdpartyContainer'>
+  <div class='headingContainer'>
+    <h1>Third-party integrations and extensions </h1>
+  </div>
+  <div class='chatgptCarousalContainer'>
+    <div class='cardsContainer' style='transform:translateX({{this.scrollValue}});'>
+      {{#each @thirdPartyIntegration.cardData as |item|}}
+        <div class='thirdPartyIntegrationCard' style='width: calc({{this.width}} - 32px);'>
+          <img src={{item.imgSrc}} />
+          <div class='cardContent'>
+            <h3>{{item.cardTitle}}</h3>
+            <p>
+              {{item.content}}
+            </p>
+          </div>
+        </div>
+      {{/each}}
+    </div>
+    {{!-- <button type='button' {{on 'click' this.showNext}} class='industrySpecificNextButton'>
+      <img src='/assets/images/next.png' alt='customer obsession' />
+    </button>
+    <button type='button' {{on 'click' this.showPrevious}} class='industrySpecificPreviousButton'>
+      <img src='/assets/images/prev.png' alt='customer obsession' />
+    </button> --}}
+  </div>
+
+  <div class='carousal-bottom-btn-container'>
+    {{#each @thirdPartyIntegration.cardData as |item index|}}
+      <div
+        class='carousal-bottom-btn {{if (eq this.active index) "selected"}}'
+        {{on 'click' (fn this.clickIndex index)}}
+      >
+      </div>
+    {{/each}}
+  </div>
+
+</div>

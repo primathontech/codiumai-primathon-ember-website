@@ -52,6 +52,7 @@
 .case-studies-post .post-card h3 {
   margin-top: 34px;
   font-family: 'Poppins';
+  color: #000000;
   font-style: normal;
   font-weight: 500;
   font-size: 19.3457px;
@@ -71,12 +72,14 @@
 .case-studies-post .post-card .tags-container {
    margin-top: 24px;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   gap: 16px;
 }
 
 .case-studies-post .post-card .tags-container .post-tag {
   background: #f7f7f7;
+  color: #888686;
   border-radius: 2.5px;
   padding: 0px 16px;
   font-family: 'Poppins';

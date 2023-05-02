@@ -1,0 +1,139 @@
+.industrySpecificServices {
+  background: #1a284d;
+  padding: 70px 0 90px;
+}
+
+.specificServiceList {
+  display: inline-flex;
+  overflow: scroll;
+}
+
+.specificServiceList::-webkit-scrollbar {
+  display: none;
+}
+
+.industrySpecificServicesContainer {
+  position: relative;
+}
+
+.specificServiceListItem {
+  width: 500px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.industrySpecificServices .heading {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 42px;
+  /* identical to box height, or 140% */
+
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.industrySpecificServices .description {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 0.35px;
+  color: #ffffff;
+  margin-bottom: 15px;
+  margin-bottom: 70px;
+}
+
+.industrySpecificServices .lineHeading {
+  text-align: center;
+  color: #ffffff;
+}
+
+.specificServiceList :nth-child(1) .industrySpecificServices-previous-dotted-line,
+.specificServiceList :last-child .industrySpecificServices-dotted-line {
+  height: 0;
+  border-top: none;
+}
+
+.industrySpecificServices-previous-dotted-line {
+  margin-left: -2px;
+}
+
+.industrySpecificServices-dotted-line,
+.industrySpecificServices-previous-dotted-line {
+  border: none;
+  border-top: 1px dashed #546285;
+  color: #fff;
+  background-color: #fff;
+  height: 1px;
+  flex: 1;
+}
+
+.industrySpecificServices .lineDescription {
+  color: #ffffff;
+  text-align: center;
+  /* width: 500px; */
+  padding: 0 75px;
+}
+
+.industrySpecificPreviousButton {
+  position: absolute;
+  bottom: 50%;
+  left: 30px;
+  z-index: 3;
+}
+
+.industrySpecificNextButton {
+  position: absolute;
+  bottom: 50%;
+  right: -10px;
+  z-index: 3;
+}
+
+.industrySpecificServices-dot {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: #f4e9e8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.industrySpecificServices-inner-dot {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #f1553f;
+}
+
+.industrySpecificLine {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin: 14px 0 18px 0;
+}
+
+.specificServiceListCarousal {
+  position: relative;
+}
+
+@media (max-width: 1024px) {
+  .industrySpecificServices {
+    padding: 53px 50px 40px 0;
+  }
+
+  .industrySpecificServices .heading {
+    padding: 0 0 0 50px;
+  }
+
+  .industrySpecificServices .description {
+    padding: 0 0 0 50px;
+  }
+}

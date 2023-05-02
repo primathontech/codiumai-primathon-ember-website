@@ -1,0 +1,99 @@
+.chatgpt-thirdpartyContainer {
+  padding: 70px 0 90px;
+}
+
+.chatgpt-thirdpartyContainer .sectionContainer {
+  display: flex;
+  flex-direction: column;
+  padding-top: 70px;
+  padding-bottom: 92px;
+}
+
+.chatgpt-thirdpartyContainer .headingContainer h1 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 42px;
+  text-align: center;
+  color: #1a284d;
+}
+
+.chatgpt-thirdpartyContainer .cardsContainer {
+  margin-top: 67px;
+  margin-left: 124px;
+  display: inline-flex;
+  gap: 62px;
+  overflow: scroll;
+  padding: 0 15px 15px 0;
+}
+.chatgpt-thirdpartyContainer .cardsContainer::-webkit-scrollbar {
+  display: none;
+}
+
+.chatgpt-thirdpartyContainer .thirdPartyIntegrationCard {
+  box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.05);
+  flex-shrink: 0;
+}
+
+.chatgpt-thirdpartyContainer .thirdPartyIntegrationCard img {
+  height: 210px;
+}
+
+.chatgpt-thirdpartyContainer .cardContent h3 {
+  font-family: 'Poppins';
+  text-align: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  margin-top: 36.5px;
+}
+
+.chatgpt-thirdpartyContainer .cardContent p {
+  margin-left: 36px;
+  margin-right: 36px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #48596a;
+}
+
+.chatgptCarousalContainer {
+  position: relative;
+}
+
+.carousal-bottom-btn-container {
+  margin-top: 63px;
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousal-bottom-btn {
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  background: #c4c4c4;
+}
+
+.carousal-bottom-btn.selected {
+  background-color: #198cca;
+}
+
+@media (max-width: 1024px) {
+  .chatgpt-thirdpartyContainer  {
+    padding: 53px 50px 40px 0;
+  }
+  .chatgpt-thirdpartyContainer .cardsContainer {
+    gap: 32px;
+  }
+
+  .chatgpt-thirdpartyContainer .cardsContainer {
+    margin-left: 27px;
+  }
+}

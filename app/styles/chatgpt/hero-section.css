@@ -1,0 +1,46 @@
+.chatgpt-heroSectionContainer {
+    background-image: url("/assets/chatgpt/heroSectionBackground.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 69px;
+  }
+  
+  .chatgpt-heroSectionContainer h1 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 120px;
+  }
+  
+  .chatgpt-heroSectionContainer h3 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 42px;
+    margin-bottom: 120px;
+  }
+  
+  @media only screen and (max-width: 1290px) and (min-width: 360px) {
+    .chatgpt-heroSectionContainer h1 {
+      margin-left: 39px;
+      margin-right: 39px;
+    }
+  
+    .chatgpt-heroSectionContainer h3 {
+      margin-left: 68px;
+      margin-right: 68px;
+    }
+  }
+  

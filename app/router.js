@@ -30,6 +30,7 @@ Router.map(function () {
       this.route('ai-ml-based-recommendation-engines');
       this.route('erc20-token');
       this.route('smart-contract');
+      this.route('chatgpt');
     });
     this.route('build-and-manage');
   });
