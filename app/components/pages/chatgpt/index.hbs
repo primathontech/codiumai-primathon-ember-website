@@ -1,0 +1,24 @@
+<Header />
+<div class='app-container'>
+  <Chatgpt::Hero-section @hero-section={{@data.chatgptData.heroSection}}/>
+  <Chatgpt::Introduction />
+  <Chatgpt::Benefits @benefits={{@data.chatgptData.benefits}} />
+  <Chatgpt::Services @services={{@data.chatgptData.services}} />
+  <Services::ArrowList @content={{@data.chatgptData.howToBuildAISoftware}} @style='chatGpt-arrowList' />
+  <Services::CircularList @content={{@data.chatgptData.whyPartnerWithUs}} />
+  <Services::LinearList @content={{@data.chatgptData.whyPartnerWithUs}} />
+  <Chatgpt::Chatgptuse @useCases={{@data.chatgptData.useCases}} />
+  <Chatgpt::Devlopment-integration />
+  <Chatgpt::Customchatgpt @benefitsOfCustomChatGpt={{@data.chatgptData.benefitsOfCustomChatGpt}}/>
+  <Chatgpt::Getting-started @gettingStarted={{@data.chatgptData.gettingStarted}} />
+  <Chatgpt::IndustrySpecificServices @specificServices={{@data.chatgptData.specificServices}}/>
+  <Chatgpt::Thirdparty-integration @thirdPartyIntegration={{@data.chatgptData.thirdPartyIntegration}} />
+  <Services::ToolsOfTrades />
+  <Services::WeAreTrusted />
+  <Homepage::HireUs />
+
+  <Services::BrowseThroughServices @title={{this.serviceTitle}} @description={{this.serviceDescription}}
+    @data={{this.serviceData}} @talent-box-two={{true}} @explore={{true}} @talent-category-two={{true}}
+    @notShowFluidDetails={{true}} />
+  <Homepage::Footer />
+</div>

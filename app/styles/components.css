@@ -78,3 +78,16 @@
 @import './emberjs/emberHero.css';
 @import './emberjs/emberOffer.css';
 @import './emberjs/emberWork.css';
+
+/*ChatGpt*/
+@import './chatgpt/hero-section.css';
+@import './chatgpt/introduction.css';
+@import './chatgpt/services.css';
+@import './chatgpt/benefits.css';
+@import './chatgpt/getting-started.css';
+@import './chatgpt/chatgptUse.css';
+@import './chatgpt/common.css';
+@import './chatgpt/thirdparty-integration.css';
+@import './chatgpt/customchatgpt.css';
+@import './chatgpt/devlopment-integration.css';
+@import './chatgpt/industrySpecificServices.css';

@@ -1,0 +1,95 @@
+.chatgpt-getStartedContainer {
+  position: relative;
+  background: #f4f4f4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 58px 119px;
+}
+
+.chatgpt-getStartedHeadingContainer h1 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 42px;
+  text-align: center;
+  color: #1a284d;
+}
+
+.chatgpt-getStartedCardContainer {
+  margin: 83px 70px 0;
+  display: flex;
+  gap: 54px;
+  flex-wrap: wrap;
+}
+
+.chatgpt-getStartedCard {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 25px 25px 40px;
+  gap: 17px;
+  width: 390px;
+  background: #ffffff;
+  border: 0.4px solid #c4c4c4;
+  box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.05);
+}
+
+.chatgpt-getStartedCard h1 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 33px;
+  text-transform: capitalize;
+
+  color: #198cca;
+}
+
+.chatgpt-getStartedCard p {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 21px;
+  text-transform: capitalize;
+  color: #1a284d;
+  margin-bottom: 0;
+}
+
+.chatgpt-getStartedContainer .chatgpt-redCircle {
+  width: 201px;
+  height: 402px;
+  position: absolute;
+  bottom: 750px;
+  right: 0px;
+}
+
+@media only screen and (max-width: 1519px) {
+  .chatgpt-getStartedCard {
+    width: 350px;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  .chatgpt-getStartedCard {
+    width: 310px;
+  }
+}
+
+@media only screen and (max-width: 1290px) {
+  .chatgpt-getStartedCardContainer {
+    justify-content: center;
+  }
+
+  .chatgpt-getStartedContainer .chatgpt-redCircle {
+    display: none;
+  }
+}
+
+@media (max-width: 1024px) {
+  .chatgpt-getStartedContainer {
+    padding: 53px 50px 40px;
+  }
+}

@@ -1,0 +1,113 @@
+.chatgpt-chatgptUseSection {
+  padding: 58px 119px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.chatgpt-chatgptUseSection .headingContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.chatgpt-chatgptUseSection .headingContainer .heading {
+  font-size: 32px;
+  font-family: 'Poppins', sans-serif;
+  color: #48596a;
+}
+
+.chatgpt-chatgptUseSection .headingContainer span {
+  font-family: 'Poppins', sans-serif;
+  color: #198cca;
+  font-weight: 700;
+}
+
+.chatgpt-chatgptUseSection .cardContainer {
+  margin: 40px;
+}
+
+.chatgpt-chatgptUseSection .cardContainer .cards {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 30px;
+}
+
+.chatgpt-chatgptUseSection .cardContainer .card {
+  display: flex;
+  padding: 30px 20px;
+  width: 358px;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 35px;
+}
+
+.chatgpt-chatgptUseSection .cardContainer .card .icon img {
+  height: 63px;
+}
+
+.chatgpt-chatgptUseSection .cardContainer .card .cardHeadingContainer .cardHeading {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 34px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.chatgpt-chatgptUseSection .cardContainer .card .cardContent .cardPara {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150.5%;
+  margin-bottom: 0px;
+}
+@media only screen and (max-width: 1465px) {
+  .chatgpt-chatgptUseSection .cardContainer .cards {
+    margin-left: 0px;
+  }
+}
+
+@media only screen and (max-width: 1435px) {
+  .chatgpt-chatgptUseSection .cardContainer .cards {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 1024px) {
+  .chatgpt-chatgptUseSection {
+    padding: 53px 50px 40px;
+  }
+}
+
+@media only screen and (max-width: 932px) {
+  .chatgpt-chatgptUseSection .cardContainer .card {
+    align-items: center;
+    margin: 20px;
+  }
+
+  .chatgpt-chatgptUseSection .cardContainer .card .cardContent .cardPara {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .chatgpt-chatgptUseSection .cardContainer {
+    width: 90vw;
+  }
+}
+
+@media only screen and (max-width: 370px) {
+  .chatgpt-chatgptUseSection .cardContainer .card {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  .chatgpt-chatgptUseSection .cardContainer .card .cardHeadingContainer .cardHeading {
+    text-align: center;
+  }
+}

@@ -1,0 +1,26 @@
+<div class='chatgpt-chatgptUseSection'>
+  <div class='chatgptUseContainer'>
+    <div class='headingContainer'>
+      <h1 class='heading'>Use cases for <span>ChatGPT</span></h1>
+    </div>
+  </div>
+  <div class='cardContainer'>
+    <div class='cards'>
+      {{#each @useCases.cardData as |case|}}
+        <div class='cards'>
+          <div class='card'>
+            <div class='icon'>
+              <img src={{case.imageSrc}} />
+            </div>
+            <div class='cardHeadingContainer'>
+              <h3 class='cardHeading'>{{case.cardTitle}}</h3>
+            </div>
+            <div class='cardContent'>
+              <p class='cardPara'>{{case.content}}</p>
+            </div>
+          </div>
+        </div>
+      {{/each}}
+    </div>
+  </div>
+</div>

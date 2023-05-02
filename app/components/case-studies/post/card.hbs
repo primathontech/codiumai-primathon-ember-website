@@ -1,4 +1,4 @@
-<div class='post-card'>
+<LinkTo class='post-card' @route='case-studies.case-study' @model={{@data.url}}>
   <img src={{@data.poster}} loading='lazy' alt={{@data.title}} title={{@data.title}} />
   <div class='detail'>
     <h3>
@@ -15,4 +15,4 @@
       {{/each}}
     </div>
   </div>
-</div>
+</LinkTo>

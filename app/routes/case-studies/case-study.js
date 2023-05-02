@@ -1,4 +1,5 @@
 import Route from '@ember/routing/route';
+import fetch from 'fetch';
 import { inject as service } from '@ember/service';
 
 export default class CaseStudiesCaseStudyRoute extends Route {
@@ -13,5 +14,11 @@ export default class CaseStudiesCaseStudyRoute extends Route {
 
     this.headData.setData({ title, description, keywords });
   }
-  model() {}
+
+  async model(obj) {
+    const post = obj.post_id;
+    const json = await fetch(`/json-data/casestudies/${post}Page.json`);
+    const data = await json.json();
+    return data;
+  }
 }

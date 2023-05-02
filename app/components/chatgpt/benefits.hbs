@@ -1,0 +1,26 @@
+<div class='chatgpt-benefitsSection'>
+  <div class='beneitsContainer'>
+    <div class='headingContainer'>
+      <h1 class='heading'>Benefits of <span>ChatGPT</span></h1>
+    </div>
+  </div>
+  <div class='cardContainer'>
+    <div class='cards'>
+
+      {{#each @benefits.cardData as |card|}}
+        <div class='card'>
+          <div class='icon'>
+            <img src={{card.imageSrc}} />
+          </div>
+          <div class='cardHeading'>
+            <h3>{{card.cardTitle}}</h3>
+          </div>
+          <div class='cardContent'>
+            <p>{{card.cardData}}</p>
+          </div>
+        </div>
+      {{/each}}
+
+    </div>
+  </div>
+</div>

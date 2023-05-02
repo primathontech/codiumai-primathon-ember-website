@@ -30,11 +30,19 @@
   margin-top: 30px;
 }
 
-.linear-list__item > span {
+.linear-list__item > .circle {
   display: inline-block;
   height: 15px;
   width: 15px;
   border-radius: 50%;
+}
+
+.linear-list__item > .text {
+  width: 175px;
+}
+
+.text:nth-of-type(2n+1){
+  text-align: right;
 }
 
 .linear-list__item > span.red {
