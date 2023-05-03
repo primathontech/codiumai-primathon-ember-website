@@ -1,14 +1,13 @@
 import Route from '@ember/routing/route';
-import { FAQ_DATA } from '../../../constants/services/faq';
+import { AI_DATA } from '../../../constants/ai-development/ai-development';
 import { AIML } from '../../../constants/services/end-to-end-products';
 import { inject as service } from '@ember/service';
 
 export default class ServicesEndToEndProductsAIMLBasedRecommendationRoute extends Route {
   @service headData;
   async model() {
-    const faqData = FAQ_DATA;
-    const aiMl = AIML;
-    return { faqData, aiMl };
+    const data = AI_DATA;
+    return { data };
   }
 
   beforeModel() {
