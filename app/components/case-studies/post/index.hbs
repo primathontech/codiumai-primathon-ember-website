@@ -1,6 +1,6 @@
 <Container class="case-studies-post">
   <h2 class="heading">Our people build extraordinary products</h2>
-  <div>
+  {{!-- <div>
     {{#each this.tags as |tag|}}
       <CaseStudies::Post::Tags
         @text={{tag}}
@@ -8,7 +8,7 @@
         {{on 'click' (fn this.onSelect tag)}}
       />
     {{/each}}
-  </div>
+  </div> --}}
   <div class="card-holder">
     {{#each this.postData as |data|}}
       <CaseStudies::Post::Card @data={{data}} />
