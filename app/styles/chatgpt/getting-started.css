@@ -17,6 +17,11 @@
   color: #1a284d;
 }
 
+.chatgpt-getStartedHeadingContainer span{
+  color: #24b768;
+}
+
+
 .chatgpt-getStartedCardContainer {
   margin: 83px 70px 0;
   display: flex;
@@ -90,6 +95,6 @@
 
 @media (max-width: 1024px) {
   .chatgpt-getStartedContainer {
-    padding: 53px 50px 40px;
+    padding: 53px 50px 80px;
   }
 }

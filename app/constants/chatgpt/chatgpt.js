@@ -9,7 +9,9 @@ export const CHATGPT_DATA = {
     contactUsLink: '/',
   },
   benefits: {
-    title: 'Benefits of ChatGPT',
+    title: 'Benefits of',
+    subtitle:'ChatGPT',
+    description:'',
     cardData: [
       {
         id: 1,
@@ -93,7 +95,8 @@ export const CHATGPT_DATA = {
   },
 
   useCases: {
-    title: 'Use cases for ChatGPT',
+    title: 'Use cases for',
+    subTitle:'ChatGPT',
     cardData: [
       {
         id: 1,
@@ -168,6 +171,7 @@ export const CHATGPT_DATA = {
   },
   gettingStarted: {
     title: 'Getting Started with Custom ChatGPT Development and Integration',
+    subTitle:'',
     cardData: [
       {
         id: 1,

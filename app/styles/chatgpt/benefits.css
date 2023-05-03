@@ -1,16 +1,31 @@
 .chatgpt-benefitsSection {
   background: #1a284d;
-  padding: 58px 119px;
+  padding: 58px 0px;
+  padding-bottom: 70px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  gap: 20px;
 }
 
 .chatgpt-benefitsSection .headingContainer {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+}
+
+.chatgpt-benefitsSection .description{
+  width: 50vw;
+  text-align: center;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #E0E0E0;
+  
 }
 
 .chatgpt-benefitsSection .headingContainer .heading {
@@ -27,7 +42,7 @@
 }
 
 .chatgpt-benefitsSection .cardContainer {
-  margin: 40px;
+  margin: 5px 40px;
 }
 
 .chatgpt-benefitsSection .cardContainer .cards {
@@ -73,7 +88,7 @@
 
 @media (max-width: 1024px) {
   .chatgpt-benefitsSection {
-    padding: 53px 50px 40px;
+    padding: 53px 25px 80px;
   }
 }
 
@@ -89,10 +104,18 @@
   }
 }
 
+@media only screen and (max-width: 800px) {
+  .chatgpt-benefitsSection .description{
+    width: 90vw;
+  }
+}
+
+
 @media only screen and (max-width: 450px) {
   .chatgpt-benefitsSection .cardContainer {
     width: 90vw;
   }
+  
 }
 
 @media only screen and (max-width: 370px) {

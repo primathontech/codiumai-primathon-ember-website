@@ -1,5 +1,5 @@
 .chatgpt-chatgptUseSection {
-  padding: 58px 119px;
+  padding: 58px 0px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -73,7 +73,7 @@
   }
 }
 
-@media only screen and (max-width: 1435px) {
+@media only screen and (max-width: 1363px) {
   .chatgpt-chatgptUseSection .cardContainer .cards {
     justify-content: center;
   }
@@ -81,7 +81,7 @@
 
 @media (max-width: 1024px) {
   .chatgpt-chatgptUseSection {
-    padding: 53px 50px 40px;
+    padding: 53px 50px 80px;
   }
 }
 
