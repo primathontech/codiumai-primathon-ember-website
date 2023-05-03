@@ -6,8 +6,8 @@ import { inject as service } from '@ember/service';
 export default class ServicesEndToEndProductsAIMLBasedRecommendationRoute extends Route {
   @service headData;
   async model() {
-    const data = AI_DATA;
-    return { data };
+    const aiData = AI_DATA;
+    return { aiData };
   }
 
   beforeModel() {

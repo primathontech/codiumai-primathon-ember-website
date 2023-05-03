@@ -37,6 +37,10 @@
   color: #ffffff;
 }
 
+.industrySpecificServices .heading span {
+  color: #f1553f;
+}
+
 .industrySpecificServices .description {
   font-family: 'Poppins';
   font-style: normal;

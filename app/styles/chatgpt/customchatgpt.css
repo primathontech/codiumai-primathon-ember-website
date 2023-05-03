@@ -19,6 +19,10 @@
   color: #1a284d;
 }
 
+.chatgpt-mainConatiner .headingConatiner .heading span{
+  color:#24B768;
+}
+
 .accordion:hover {
   cursor: pointer;
 }
