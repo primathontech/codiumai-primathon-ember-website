@@ -134,30 +134,35 @@ export const CHATGPT_DATA = {
   },
   benefitsOfCustomChatGpt: {
     title: 'Benefits of Custom ChatGPT Development and Integration',
+    subTitle: '',
     cardData: [
       {
         id: 1,
         title: 'Personalization',
         imgSrc: '/assets/chatgpt/personalisation.png',
-        description: 'Custom ChatGPT development and integration allows businesses to create chatbots that are tailored to their specific needs and customer base. This can result in more personalized responses and a better overall user experience.',
+        discription:
+          'Custom ChatGPT development and integration allows businesses to create chatbots that are tailored to their specific needs and customer base. This can result in more personalized responses and a better overall user experience.',
       },
       {
         id: 2,
         title: 'Flexibility',
         imgSrc: '/assets/chatgpt/flexibility.png',
-        description: 'Custom ChatGPT development and integration allows businesses to integrate their chatbot solution with other systems and applications, such as CRM software or e-commerce platforms, providing a more seamless user experience.',
+        discription:
+          'Custom ChatGPT development and integration allows businesses to integrate their chatbot solution with other systems and applications, such as CRM software or e-commerce platforms, providing a more seamless user experience.',
       },
       {
         id: 3,
         title: 'Competitive Advantage',
         imgSrc: '/assets/chatgpt/competitiveAdvantage.png',
-        description: 'Custom ChatGPT development and integration can give businesses a competitive advantage by providing a unique and innovative customer support solution that sets them apart from their competitors.',
+        discription:
+          'Custom ChatGPT development and integration can give businesses a competitive advantage by providing a unique and innovative customer support solution that sets them apart from their competitors.',
       },
       {
         id: 4,
         title: 'Improved Accuracy',
         imgSrc: '/assets/chatgpt/accuracy.png',
-        description: 'Off-the-shelf chatbot solutions often struggle with understanding complex user queries. Custom ChatGPT development and integration can provide businesses with a chatbot that is trained on their specific data and can provide more accurate responses.',
+        discription:
+          'Off-the-shelf chatbot solutions often struggle with understanding complex user queries. Custom ChatGPT development and integration can provide businesses with a chatbot that is trained on their specific data and can provide more accurate responses.',
       },
     ],
   },
@@ -199,7 +204,8 @@ export const CHATGPT_DATA = {
 
   specificServices: {
     title: 'Industry specific services',
-    subTitle: 'Here are some of the top industries in which ChatGPT can be used',
+    subTitle:"",
+    description: 'Here are some of the top industries in which ChatGPT can be used',
     items: [
       {
         heading: 'E-commerce',

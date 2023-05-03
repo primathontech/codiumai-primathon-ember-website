@@ -1,27 +1,28 @@
 <div class='industrySpecificServices'>
   <div class='industrySpecificServicesContainer'>
     <h2 class='heading'>
-      Industry Specific Services
+      {{@specificServices.title}}
+      <span>{{@specificServices.subTitle}}</span>
     </h2>
     <p class='description'>
-      Here are some of the top industries in which ChatGPT can be used
+      {{@specificServices.description}}
     </p>
     <div class="specificServiceListCarousal">
       <ul class='specificServiceList' style='transform:translateX({{this.scrollValue}}) ;'>
         {{#each @specificServices.items as |item|}}
-          <li class='specificServiceListItem' style='width:{{this.width}}'>
-            <h6 class='lineHeading'>{{item.heading}}</h6>
-            <div class='industrySpecificLine'>
-              <div class='industrySpecificServices-previous-dotted-line'></div>
-              <div class='industrySpecificServices-dot'>
-                <div class='industrySpecificServices-inner-dot'></div>
-              </div>
-              <div class='industrySpecificServices-dotted-line'></div>
+        <li class='specificServiceListItem' style='width:{{this.width}}'>
+          <h6 class='lineHeading'>{{item.heading}}</h6>
+          <div class='industrySpecificLine'>
+            <div class='industrySpecificServices-previous-dotted-line'></div>
+            <div class='industrySpecificServices-dot'>
+              <div class='industrySpecificServices-inner-dot'></div>
             </div>
-            <p class='lineDescription'>
-              {{item.content}}
-            </p>
-          </li>
+            <div class='industrySpecificServices-dotted-line'></div>
+          </div>
+          <p class='lineDescription'>
+            {{item.content}}
+          </p>
+        </li>
         {{/each}}
       </ul>
       <button type='button' {{on 'click' this.showNext}} class='industrySpecificNextButton'>

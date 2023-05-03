@@ -1,0 +1,10 @@
+<Header />
+<div class="app-container">
+    <Ai-development::Hero-section @heroSection={{@data.aiData.heroSection}} />
+    <Services::ArrowList @content={{@data.aiData.primathonHelpAI}} @style='chatGpt-arrowList' />
+    <Services::CircularList @content={{@data.aiData.whyChoose}} @color="orange" />
+    <Ai-development::Introduction/>
+    <Chatgpt::Customchatgpt @benefitsOfCustomChatGpt={{@data.aiData.emergingTechnology}} />
+    <Chatgpt::IndustrySpecificServices @specificServices={{@data.aiData.roadmapData}} />
+    <Chatgpt::Thirdparty-integration @thirdPartyIntegration={{@data.aiData.factorCost}} />
+</div>

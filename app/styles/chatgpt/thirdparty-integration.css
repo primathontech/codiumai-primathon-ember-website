@@ -79,6 +79,7 @@
   height: 13px;
   border-radius: 50%;
   background: #c4c4c4;
+  cursor: pointer;
 }
 
 .carousal-bottom-btn.selected {
