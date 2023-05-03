@@ -1,3 +1,5 @@
+<<<<<<< app/components/pages/ai-development/index.hbs
+{{!-- <Header /> --}}
 <Header />
 <div class="app-container">
     <Ai-development::Hero-section @heroSection={{@data.aiData.heroSection}} />
@@ -7,4 +9,15 @@
     <Chatgpt::Customchatgpt @benefitsOfCustomChatGpt={{@data.aiData.emergingTechnology}} />
     <Chatgpt::IndustrySpecificServices @specificServices={{@data.aiData.roadmapData}} />
     <Chatgpt::Thirdparty-integration @thirdPartyIntegration={{@data.aiData.factorCost}} />
+    <Chatgpt::Benefits @benefits={{@data.aiData.aiServices}} />
+  <Chatgpt::Chatgptuse @useCases={{@data.aiData.aiUses}} />
+  <Chatgpt::Getting-started @gettingStarted={{@data.aiData.benefitsOfAi}} />
+  <Services::ToolsOfTrades />
+  <Services::WeAreTrusted />
+  <Homepage::HireUs />
+  <Services::BrowseThroughServices @title={{this.serviceTitle}} @description={{this.serviceDescription}}
+    @data={{this.serviceData}} @talent-box-two={{true}} @explore={{true}} @talent-category-two={{true}}
+    @notShowFluidDetails={{true}} />
+  <Homepage::Footer />
+>>>>>>> app/components/pages/ai-development/index.hbs
 </div>
