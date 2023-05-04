@@ -1,12 +1,14 @@
 <div class='industrySpecificServices'>
   <div class='industrySpecificServicesContainer'>
-    <h2 class='heading'>
-      {{@specificServices.title}}
-      <span>{{@specificServices.subTitle}}</span>
-    </h2>
-    <p class='description'>
-      {{@specificServices.description}}
-    </p>
+    <div class="industrySpecificHeadingContainer">
+      <h2 class='heading'>
+        {{@specificServices.title}}
+        <span>{{@specificServices.subTitle}}</span>
+      </h2>
+      <p class='description'>
+        {{@specificServices.description}}
+      </p>
+    </div>
     <div class="specificServiceListCarousal">
       <ul class='specificServiceList' style='transform:translateX({{this.scrollValue}}) ;'>
         {{#each @specificServices.items as |item|}}

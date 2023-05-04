@@ -17,10 +17,9 @@
   color: #1a284d;
 }
 
-.chatgpt-getStartedHeadingContainer span{
+.chatgpt-getStartedHeadingContainer span {
   color: #24b768;
 }
-
 
 .chatgpt-getStartedCardContainer {
     margin: 35px auto;
@@ -80,10 +79,6 @@
 @media only screen and (max-width: 1290px) {
   .chatgpt-getStartedCardContainer {
     justify-content: center;
-  }
-
-  .chatgpt-getStartedContainer .chatgpt-redCircle {
-    display: none;
   }
 }
 

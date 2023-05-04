@@ -93,6 +93,7 @@
 @import './chatgpt/industrySpecificServices.css';
 
 /* Ai development */
+@import './ai-development/common.css';
 @import './ai-development/hero-section.css';
 @import './ai-development/introduction.css';
 @import './ai-development/service-provided.css';

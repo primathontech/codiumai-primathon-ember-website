@@ -1,16 +1,24 @@
 <Header />
 <div class="app-container">
-    <Ai-development::Hero-section @heroSection={{@data.aiData.heroSection}} />
-    <Ai-development::Service-provided @services={{@data.aiData.services}}/>
-    <Services::ArrowList @content={{@data.aiData.primathonHelpAI}} @style='chatGpt-arrowList' />
-    <Services::CircularList @content={{@data.aiData.whyChoose}} @color="orange"/>
-    <Ai-development::Introduction/>
+  <Ai-development::Hero-section @heroSection={{@data.aiData.heroSection}} />
+  <Ai-development::Service-provided @services={{@data.aiData.services}}/>
+  <Services::ArrowList @content={{@data.aiData.primathonHelpAI}} @style='chatGpt-arrowList' />
+  <Services::CircularList @content={{@data.aiData.whyChoose}} @color="orange" />
+  <Services::LinearList @content={{@data.aiData.whyChoose}} />
+  <Ai-development::Introduction @intro={{@data.aiData.whatisAI}} />
+  <Chatgpt::Benefits @benefits={{@data.aiData.aiServices}} />
+  <div class="aiDevelopment-aiUses">
+    <Chatgpt::Chatgptuse @useCases={{@data.aiData.aiUses}} />
+    <img class="aiDevelopment-greenCircle" src="/assets/ai-development/greenCircle.png">
+  </div>
+  <div class="aiDevelopment-emergingTech">
     <Chatgpt::Customchatgpt @benefitsOfCustomChatGpt={{@data.aiData.emergingTechnology}} />
-    <Chatgpt::IndustrySpecificServices @specificServices={{@data.aiData.roadmapData}} />
-    <Chatgpt::Thirdparty-integration @thirdPartyIntegration={{@data.aiData.factorCost}} />
-    <Chatgpt::Benefits @benefits={{@data.aiData.aiServices}} />
-  <Chatgpt::Chatgptuse @useCases={{@data.aiData.aiUses}} />
+    <img class="aiDevelopment-yellowCircle" src="/assets/chatgpt/yellowCircle.png">
+    <img class="aiDevelopment-redCircle" src="/assets/chatgpt/redCircle.png">
+  </div>
+  <Chatgpt::IndustrySpecificServices @specificServices={{@data.aiData.roadmapData}} />
   <Chatgpt::Getting-started @gettingStarted={{@data.aiData.benefitsOfAi}} />
+  <Chatgpt::Thirdparty-integration @thirdPartyIntegration={{@data.aiData.factorCost}} />
   <Services::ToolsOfTrades />
   <Services::WeAreTrusted />
   <Homepage::HireUs />

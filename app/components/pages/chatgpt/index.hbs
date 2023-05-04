@@ -1,16 +1,23 @@
 <Header />
 <div class='app-container'>
   <Chatgpt::Hero-section @hero-section={{@data.chatgptData.heroSection}} />
-  <Chatgpt::Introduction />
+  <Chatgpt::Introduction @intro={{@data.chatgptData.introduction}} />
   <Chatgpt::Benefits @benefits={{@data.chatgptData.benefits}} />
   <Chatgpt::Services @services={{@data.chatgptData.services}} />
   <Services::ArrowList @content={{@data.chatgptData.howToBuildAISoftware}} @style='chatGpt-arrowList' />
   <Services::CircularList @content={{@data.chatgptData.whyPartnerWithUs}} />
   <Services::LinearList @content={{@data.chatgptData.whyPartnerWithUs}} />
   <Chatgpt::Chatgptuse @useCases={{@data.chatgptData.useCases}} />
-  <Chatgpt::Devlopment-integration />
+  <div class="chatgpt-developmentIntegration">
+    <Chatgpt::Devlopment-integration @content={{@data.chatgptData.devlopmentIntegration}} />
+    <img class="chatgpt-redCircle" src="/assets/chatgpt/redCircle.png">
+    <img class="chatgpt-yellowCircle" src="/assets/chatgpt/yellowCircle.png">
+  </div>
   <Chatgpt::Customchatgpt @benefitsOfCustomChatGpt={{@data.chatgptData.benefitsOfCustomChatGpt}} />
-  <Chatgpt::Getting-started @gettingStarted={{@data.chatgptData.gettingStarted}} />
+  <div class="chatgpt-gettingStarted">
+    <Chatgpt::Getting-started @gettingStarted={{@data.chatgptData.gettingStarted}} />
+    <img class="chatgpt-redCircle" src="/assets/chatgpt/redCircle.png">
+  </div>
   <Chatgpt::IndustrySpecificServices @specificServices={{@data.chatgptData.specificServices}} />
   <Chatgpt::Thirdparty-integration @thirdPartyIntegration={{@data.chatgptData.thirdPartyIntegration}} />
   <Services::ToolsOfTrades />

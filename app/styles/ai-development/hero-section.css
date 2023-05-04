@@ -52,7 +52,7 @@
 }
 
 @media only screen and (max-width: 1290px) and (min-width: 360px) {
-    .aiDevelopment-sectionContainer {
+    .aiDevelopment-heroSectionContainer {
         padding-left: 40px;
         padding-right: 40px;
         padding-bottom: 80px;
