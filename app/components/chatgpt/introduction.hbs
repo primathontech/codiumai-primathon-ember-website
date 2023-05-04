@@ -1,18 +1,13 @@
 <div class="chatgpt-introductionContainer">
     <div class="chatgpt-introductionTextContainer">
         <p>
-            <span>ChatGPT</span> is an AI-based natural language processing (NLP)
-            model that is capable of generating human-like responses to user
-            queries. Developed by OpenAI, ChatGPT is based on the GPT (Generative
-            Pre-trained Transformer) architecture and has been trained on massive
-            amounts of text data to generate high-quality responses.
-            <br>
-            ChatGPT is
-            one of the most advanced language models available today and has many
-            potential use cases. Some of the most common use cases include
-            customer support, virtual assistants, and chatbots.
+            <span>{{@intro.heading}}</span>
+            {{#each @intro.content as |item|}}
+            {{item}}
+            <br><br>
+            {{/each}}
         </p>
-        <button href="/">Contact Us</button>
+        <a href={{@intro.buttonLink}}><button>{{@intro.buttonText}}</button></a>
     </div>
     <div class="chatgpt-introductionImageContainer">
         <img src="/assets/chatgpt/introductionLaptop.png" height="100%" width="100%" />

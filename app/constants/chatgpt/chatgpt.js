@@ -4,14 +4,18 @@ export const CHATGPT_DATA = {
     subTitle: 'CHATGPT DEVELOPMENT SERVICES',
   },
   introduction: {
-    content:
-      'ChatGPT is an AI-based natural language processing (NLP) model that is capable of generating human-like responses to user queries. Developed by OpenAI, ChatGPT is based on the GPT (Generative Pre-trained Transformer) architecture and has been trained on massive amounts of text data to generate high-quality responses. ChatGPT is one of the most advanced language models available today and has many potential use cases. Some of the most common use cases include customer support, virtual assistants, and chatbots.',
-    contactUsLink: '/',
+    heading: 'ChatGPT',
+    content: [
+      ' is an AI-based natural language processing (NLP) model that is capable of generating human-like responses to user queries. Developed by OpenAI, ChatGPT is based on the GPT (Generative Pre-trained Transformer) architecture and has been trained on massive amounts of text data to generate high-quality responses.',
+      'ChatGPT is one of the most advanced language models available today and has many potential use cases. Some of the most common use cases include customer support, virtual assistants, and chatbots.',
+    ],
+    buttonText: 'Contact Us',
+    buttonLink: '/contact',
   },
   benefits: {
     title: 'Benefits of',
-    subTitle:'ChatGPT',
-    description:'',
+    subTitle: 'ChatGPT',
+    description: '',
     cardData: [
       {
         id: 1,
@@ -96,7 +100,7 @@ export const CHATGPT_DATA = {
 
   useCases: {
     title: 'Use cases for',
-    subTitle:'ChatGPT',
+    subTitle: 'ChatGPT',
     cardData: [
       {
         id: 1,
@@ -135,6 +139,10 @@ export const CHATGPT_DATA = {
       },
     ],
   },
+  devlopmentIntegration: {
+    content:
+      'Chatbots have become increasingly popular in recent years as a way for businesses to provide automated customer support and improve customer engagement. However, off-the-shelf chatbot solutions often lack the ability to understand complex user queries or provide personalized responses. Custom ChatGPT development and integration offers a way to address these limitations and provide businesses with a powerful, customizable chatbot solution.',
+  },
   benefitsOfCustomChatGpt: {
     title: 'Benefits of Custom ChatGPT Development and Integration',
     subTitle: '',
@@ -171,7 +179,7 @@ export const CHATGPT_DATA = {
   },
   gettingStarted: {
     title: 'Getting Started with Custom ChatGPT Development and Integration',
-    subTitle:'',
+    subTitle: '',
     cardData: [
       {
         id: 1,
@@ -208,7 +216,7 @@ export const CHATGPT_DATA = {
 
   specificServices: {
     title: 'Industry specific services',
-    subTitle:"",
+    subTitle: '',
     description: 'Here are some of the top industries in which ChatGPT can be used',
     items: [
       {

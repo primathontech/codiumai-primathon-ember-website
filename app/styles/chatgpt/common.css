@@ -1,8 +1,54 @@
-.chatGpt-arrowList{
-    background: #1A284D !important;
-    overflow-x: hidden;
+.chatGpt-arrowList {
+  background: #1a284d !important;
+  overflow-x: hidden;
 }
 
-.chatGpt-arrowList h2{
-    color: #ffffff;
+.chatGpt-arrowList h2 {
+  color: #ffffff;
+}
+
+.chatgpt-gettingStarted {
+  position: relative;
+}
+
+.chatgpt-gettingStarted .chatgpt-redCircle {
+  width: 201px;
+  height: 402px;
+  position: absolute;
+  bottom: 890px;
+  right: 0px;
+}
+
+.chatgpt-developmentIntegration {
+  position: relative;
+}
+
+.chatgpt-developmentIntegration .chatgpt-redCircle {
+  width: 201px;
+  height: 402px;
+  position: absolute;
+  bottom: 198px;
+  right: 0px;
+}
+
+.chatgpt-developmentIntegration .chatgpt-yellowCircle {
+  position: absolute;
+  width: 230.7px;
+  height: 461.55px;
+  top: 268.2px;
+  left: 0px;
+}
+
+@media only screen and (max-width: 1350px) {
+  .chatgpt-developmentIntegration .chatgpt-yellowCircle {
+    left: -30px;
+  }
+}
+
+@media only screen and (max-width: 1290px) {
+  .chatgpt-gettingStarted .chatgpt-redCircle,
+  .chatgpt-developmentIntegration .chatgpt-redCircle,
+  .chatgpt-developmentIntegration .chatgpt-yellowCircle {
+    display: none;
+  }
 }

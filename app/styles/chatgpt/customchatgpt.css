@@ -19,8 +19,8 @@
   color: #1a284d;
 }
 
-.chatgpt-mainConatiner .headingConatiner .heading span{
-  color:#24B768;
+.chatgpt-mainConatiner .headingConatiner .heading span {
+  color: #24b768;
 }
 
 .accordion:hover {
@@ -28,7 +28,7 @@
 }
 
 .accordianMinus {
-      width: 40px;
+  width: 40px;
   height: 40px;
   border-radius: 50%;
   display: flex;
@@ -41,7 +41,6 @@
   font-size: 22px;
   line-height: 33px;
   text-align: center;
-
   color: #ffffff;
 }
 
@@ -52,7 +51,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #24B768;
+  background: #24b768;
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 700;
@@ -74,7 +73,7 @@
   background: #ffffff;
   border: 0.4px solid #dfdcdc;
   box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.05);
-  padding: 40px;
+  padding: 20px 40px 5px;
   width: 64vw;
   margin-bottom: 25px;
 }

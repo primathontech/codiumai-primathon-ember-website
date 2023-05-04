@@ -4,7 +4,7 @@ export const AI_DATA = {
     subTitle:
       'The Future Is Here! Help Your Business Reach the Sky With Custom Artificial Intelligence Software Development',
     buttonData: 'Get an AI Developer',
-    redirect: '/'
+    redirect: '/',
   },
 
   whyChoose: {
@@ -20,9 +20,13 @@ export const AI_DATA = {
 
   whatisAI: {
     heading: 'What is AI software development?',
-    desciption:
-      'Artificial intelligence (AI) software development involves creating computer programs and algorithms that can perform tasks that typically require human intelligence, such as learning, problem-solving, decision-making, and language processing. AI software developers use programming languages such as Python, Java, and C++ to create intelligent systems that can understand and analyze data, learn from patterns and past experiences, and make predictions and recommendations based on that data. These systems can be trained using various techniques, such as supervised learning, unsupervised learning, and reinforcement learning. AI software development also involves working with various libraries, frameworks, and tools that enable the creation of intelligent systems. Some commonly used tools and frameworks in AI development include TensorFlow, PyTorch, Keras, and Scikit-learn. It is used in various industries and applications, such as finance, healthcare, manufacturing, and autonomous vehicles. It is a rapidly evolving field, with new technologies and techniques being developed regularly, making it an exciting area for developers to work in.',
-    buttonData: 'Contact Us',
+    description: [
+      'Artificial intelligence (AI) software development involves creating computer programs and algorithms that can perform tasks that typically require human intelligence, such as learning, problem-solving, decision-making, and language processing.',
+      'AI software developers use programming languages such as Python, Java, and C++ to create intelligent systems that can understand and analyze data, learn from patterns and past experiences, and make predictions and recommendations based on that data. These systems can be trained using various techniques, such as supervised learning, unsupervised learning, and reinforcement learning.',
+      'AI software development also involves working with various libraries, frameworks, and tools that enable the creation of intelligent systems. Some commonly used tools and frameworks in AI development include TensorFlow, PyTorch, Keras, and Scikit-learn. It is used in various industries and applications, such as finance, healthcare, manufacturing, and autonomous vehicles. It is a rapidly evolving field, with new technologies and techniques being developed regularly, making it an exciting area for developers to work in.',
+    ],
+    buttonText: 'Contact Us',
+    buttonLink: '/contact',
     imageSrc: '/assets/ai-development/whatisAI.png',
   },
 
@@ -85,9 +89,9 @@ export const AI_DATA = {
 
   aiServices: {
     title: 'Most commonly used',
-    subTitle:
-      'AI services',
-      description:"There are various artificial intelligence services that businesses and organizations can leverage to improve their operations and services. Here are some of the most commonly used AI services",
+    subTitle: 'AI services',
+    description:
+      'There are various artificial intelligence services that businesses and organizations can leverage to improve their operations and services. Here are some of the most commonly used AI services',
     cardData: [
       {
         id: 1,
@@ -134,42 +138,47 @@ export const AI_DATA = {
     ],
   },
 
-    aiUses:{
-        title:'Industries that uses',
-        subTitle:'artificial intelligence',
-        cardData:[
-            {
-                id: 1,
-                imageSrc: '/assets/ai-development/healthcare.png',
-                cardTitle: 'Healthcare',
-                content:'AI is being used in healthcare to improve patient outcomes, automate administrative tasks, and reduce costs. Some examples of AI solutions in healthcare include automated diagnosis systems, predictive analytics for disease management, and virtual nurse assistants.',
-            },
-            {
-                id: 2,
-                imageSrc: '/assets/ai-development/money.png',
-                cardTitle: 'Finance',
-                content:'AI is being used in finance to improve fraud detection, automate risk assessment, and enhance customer experience. Some examples of AI solutions in finance include chatbots for customer service, robo-advisors for wealth management, and predictive analytics for credit scoring.',
-            },
-            {
-                id: 3,
-                imageSrc: '/assets/ai-development/shopping-cart.png',
-                cardTitle: 'Retail',
-                content:'AI is being used in retail to improve supply chain management, optimize pricing strategies, and personalize customer experiences. Some examples of AI solutions in retail include chatbots for customer support, recommendation engines for personalized product suggestions, and image recognition for inventory management.',
-            },
-            {
-                id: 4,
-                imageSrc: '/assets/ai-development/settings.png',
-                cardTitle: 'Manufacturing',
-                content:'AI is being used in manufacturing to optimize production processes, improve quality control, and reduce downtime. Some examples of AI solutions in manufacturing include predictive maintenance systems, automated quality control systems, and robotics for assembly line tasks.',
-            },
-            {
-                id: 5,
-                imageSrc: '/assets/ai-development/online-learning.png',
-                cardTitle: 'Education',
-                content:'AI is being used in education to personalize learning experiences, automate administrative tasks, and improve student outcomes. Some examples of AI solutions in education include intelligent tutoring systems, personalized learning platforms, and chatbots for student support.',
-            }
-        ]
-    },
+  aiUses: {
+    title: 'Industries that uses',
+    subTitle: 'artificial intelligence',
+    cardData: [
+      {
+        id: 1,
+        imageSrc: '/assets/ai-development/healthcare.png',
+        cardTitle: 'Healthcare',
+        content:
+          'AI is being used in healthcare to improve patient outcomes, automate administrative tasks, and reduce costs. Some examples of AI solutions in healthcare include automated diagnosis systems, predictive analytics for disease management, and virtual nurse assistants.',
+      },
+      {
+        id: 2,
+        imageSrc: '/assets/ai-development/money.png',
+        cardTitle: 'Finance',
+        content:
+          'AI is being used in finance to improve fraud detection, automate risk assessment, and enhance customer experience. Some examples of AI solutions in finance include chatbots for customer service, robo-advisors for wealth management, and predictive analytics for credit scoring.',
+      },
+      {
+        id: 3,
+        imageSrc: '/assets/ai-development/shopping-cart.png',
+        cardTitle: 'Retail',
+        content:
+          'AI is being used in retail to improve supply chain management, optimize pricing strategies, and personalize customer experiences. Some examples of AI solutions in retail include chatbots for customer support, recommendation engines for personalized product suggestions, and image recognition for inventory management.',
+      },
+      {
+        id: 4,
+        imageSrc: '/assets/ai-development/settings.png',
+        cardTitle: 'Manufacturing',
+        content:
+          'AI is being used in manufacturing to optimize production processes, improve quality control, and reduce downtime. Some examples of AI solutions in manufacturing include predictive maintenance systems, automated quality control systems, and robotics for assembly line tasks.',
+      },
+      {
+        id: 5,
+        imageSrc: '/assets/ai-development/online-learning.png',
+        cardTitle: 'Education',
+        content:
+          'AI is being used in education to personalize learning experiences, automate administrative tasks, and improve student outcomes. Some examples of AI solutions in education include intelligent tutoring systems, personalized learning platforms, and chatbots for student support.',
+      },
+    ],
+  },
 
   emergingTechnology: {
     title: 'Emerging',
@@ -205,11 +214,10 @@ export const AI_DATA = {
       },
     ],
   },
-  
 
   roadmapData: {
     title: 'AI software development',
-    subTitle:"roadmap",
+    subTitle: 'roadmap',
     description:
       'Developing software with AI capabilities can be a complex process, but the following roadmap can help guide you through the key steps involved:',
     items: [
@@ -258,42 +266,48 @@ export const AI_DATA = {
     ],
   },
 
-    benefitsOfAi:{
-        title:'Benefits of',
-        subTitle:'AI software development',
-        cardData:[
-            {
-                id:'1',
-                cardTitle:'Increased efficiency and productivity',
-                content:'AI software can automate many routine tasks, such as data entry and analysis, freeing up employees to focus on more complex tasks that require human judgment and creativity. This can lead to significant increases in efficiency and productivity, allowing businesses to accomplish more in less time.'
-            },
-            {
-                id:'2',
-                cardTitle:'Improved accuracy and quality',
-                content:'AI software can analyze large amounts of data with greater accuracy and consistency than humans, reducing errors and improving the quality of data analysis. This can lead to better decision-making and more accurate predictions, improving overall business performance.'
-            },
-            {
-                id:'3',
-                cardTitle:'Personalization',
-                content:'AI software can be used to analyze customer data and provide personalized recommendations and experiences based on individual preferences and behavior. This can help businesses to better understand their customers and tailor their products and services to meet their specific needs.'
-            },
-            {
-                id:'4',
-                cardTitle:'Cost savings',
-                content:'AI software can help businesses reduce costs by automating routine tasks, eliminating the need for manual data entry and analysis. This can lead to significant cost savings over time, as well as improved efficiency and productivity.'
-            },
-            {
-                id:'5',
-                cardTitle:'Competitive advantage',
-                content:'By leveraging AI software, businesses can gain a competitive advantage by improving their operations, making better decisions, and delivering more personalized experiences to customers. This can help them to differentiate themselves from competitors and win more business.'
-            },
-            {
-                id:'6',
-                cardTitle:'Innovation',
-                content:'AI software development is a rapidly evolving field, with new technologies and techniques emerging all the time. By investing in AI software development, businesses can stay ahead of the curve and continue to innovate, driving growth and success over the long term.'
-            }
-        ]
-    },
+  benefitsOfAi: {
+    title: 'Benefits of',
+    subTitle: 'AI software development',
+    cardData: [
+      {
+        id: '1',
+        cardTitle: 'Increased efficiency and productivity',
+        content:
+          'AI software can automate many routine tasks, such as data entry and analysis, freeing up employees to focus on more complex tasks that require human judgment and creativity. This can lead to significant increases in efficiency and productivity, allowing businesses to accomplish more in less time.',
+      },
+      {
+        id: '2',
+        cardTitle: 'Improved accuracy and quality',
+        content:
+          'AI software can analyze large amounts of data with greater accuracy and consistency than humans, reducing errors and improving the quality of data analysis. This can lead to better decision-making and more accurate predictions, improving overall business performance.',
+      },
+      {
+        id: '3',
+        cardTitle: 'Personalization',
+        content:
+          'AI software can be used to analyze customer data and provide personalized recommendations and experiences based on individual preferences and behavior. This can help businesses to better understand their customers and tailor their products and services to meet their specific needs.',
+      },
+      {
+        id: '4',
+        cardTitle: 'Cost savings',
+        content:
+          'AI software can help businesses reduce costs by automating routine tasks, eliminating the need for manual data entry and analysis. This can lead to significant cost savings over time, as well as improved efficiency and productivity.',
+      },
+      {
+        id: '5',
+        cardTitle: 'Competitive advantage',
+        content:
+          'By leveraging AI software, businesses can gain a competitive advantage by improving their operations, making better decisions, and delivering more personalized experiences to customers. This can help them to differentiate themselves from competitors and win more business.',
+      },
+      {
+        id: '6',
+        cardTitle: 'Innovation',
+        content:
+          'AI software development is a rapidly evolving field, with new technologies and techniques emerging all the time. By investing in AI software development, businesses can stay ahead of the curve and continue to innovate, driving growth and success over the long term.',
+      },
+    ],
+  },
 
   factorCost: {
     title: 'Factors related to cost',

@@ -24,7 +24,7 @@
   align-items: center;
 }
 
-.industrySpecificServices .heading {
+.industrySpecificServices .industrySpecificHeadingContainer .heading {
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 500;
@@ -37,11 +37,16 @@
   color: #ffffff;
 }
 
-.industrySpecificServices .heading span {
+.industrySpecificServices .industrySpecificHeadingContainer .heading span {
   color: #f1553f;
 }
 
-.industrySpecificServices .description {
+.industrySpecificServices .industrySpecificHeadingContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.industrySpecificServices .industrySpecificHeadingContainer .description {
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
@@ -52,6 +57,7 @@
   color: #ffffff;
   margin-bottom: 15px;
   margin-bottom: 70px;
+  max-width: 852.47px;
 }
 
 .industrySpecificServices .lineHeading {
