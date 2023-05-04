@@ -1,10 +1,9 @@
-<<<<<<< app/components/pages/ai-development/index.hbs
-{{!-- <Header /> --}}
 <Header />
 <div class="app-container">
     <Ai-development::Hero-section @heroSection={{@data.aiData.heroSection}} />
+    <Ai-development::Service-provided @services={{@data.aiData.services}}/>
     <Services::ArrowList @content={{@data.aiData.primathonHelpAI}} @style='chatGpt-arrowList' />
-    <Services::CircularList @content={{@data.aiData.whyChoose}} @color="orange" />
+    <Services::CircularList @content={{@data.aiData.whyChoose}} @color="orange"/>
     <Ai-development::Introduction/>
     <Chatgpt::Customchatgpt @benefitsOfCustomChatGpt={{@data.aiData.emergingTechnology}} />
     <Chatgpt::IndustrySpecificServices @specificServices={{@data.aiData.roadmapData}} />
@@ -19,5 +18,4 @@
     @data={{this.serviceData}} @talent-box-two={{true}} @explore={{true}} @talent-category-two={{true}}
     @notShowFluidDetails={{true}} />
   <Homepage::Footer />
->>>>>>> app/components/pages/ai-development/index.hbs
 </div>

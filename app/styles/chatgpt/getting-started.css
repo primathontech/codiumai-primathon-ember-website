@@ -23,10 +23,11 @@
 
 
 .chatgpt-getStartedCardContainer {
-  margin: 83px 70px 0;
-  display: flex;
-  gap: 54px;
-  flex-wrap: wrap;
+    margin: 35px auto;
+    display: flex;
+    gap: 54px;
+    flex-wrap: wrap;
+    max-width: 1400px;
 }
 
 .chatgpt-getStartedCard {
@@ -63,13 +64,6 @@
   margin-bottom: 0;
 }
 
-.chatgpt-getStartedContainer .chatgpt-redCircle {
-  width: 201px;
-  height: 402px;
-  position: absolute;
-  bottom: 750px;
-  right: 0px;
-}
 
 @media only screen and (max-width: 1519px) {
   .chatgpt-getStartedCard {
@@ -96,5 +90,11 @@
 @media (max-width: 1024px) {
   .chatgpt-getStartedContainer {
     padding: 53px 50px 80px;
+  }
+}
+
+@media only screen and (max-width: 1290px) {
+  .chatgpt-getStartedCardContainer {
+    margin: 25px 10px;
   }
 }
