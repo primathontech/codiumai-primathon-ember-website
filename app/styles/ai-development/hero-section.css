@@ -1,7 +1,6 @@
 .aiDevelopment-heroSectionContainer {
   margin-top: 69px;
-  padding-top: 108px;
-  padding-bottom: 125px;
+  padding: 110px 20px;
   background-image: url('/assets/ai-development/heroSection-bgimg.png');
   background-size: cover;
   background-repeat: no-repeat;

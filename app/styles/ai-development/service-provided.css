@@ -1,0 +1,117 @@
+.ai-services-section-Container {
+    padding: 50px 80px;
+}
+
+.ai-services-section-Container .headingContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.ai-services-section-Container .headingContainer .heading {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 110%;
+    text-align: center;
+    color: #2F2F2F;
+}
+
+.ai-services-section-Container .cardContainer {
+    /* margin: 5px; */
+    max-width: 1300px;
+    margin: 0px auto;
+}
+
+
+.ai-services-section-Container .cardContainer .cards {
+    display: flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap: 50px;
+}
+
+.ai-services-section-Container .card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 610px;
+    background: #FFFFFF;
+    border: 1px solid #C4C4C4;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 5px;
+}
+
+.ai-services-section-Container .cardContainer .backgroundimgContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 110px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.ai-services-section-Container .cardContainer .backgroundimgContainer .backgroundHeading {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 150.5%;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.66);
+}
+
+.ai-services-section-Container .cardContainer .contentContainer .ulContainer {
+    margin-top: 20px;
+    margin-left: 56px;
+    margin-right: 15px;
+    margin-bottom: 50px;
+    list-style:disc;
+}
+
+.ai-services-section-Container .contentContainer h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 150.5%;
+    margin-left: 17px;
+    color: #000000;
+    margin: 20px 42px;
+}
+
+.ai-services-section-Container .contentContainer li {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150.5%;
+    margin-bottom: 5px;
+    color: #000000;
+}
+
+@media only screen and (max-width: 600px){
+    .ai-services-section-Container .headingContainer{
+        margin-bottom: 0px;
+    }
+    .ai-services-section-Container {
+        padding: 50px 25px;
+    }
+    
+}
+
+@media only screen and (max-width: 450px){
+    .ai-services-section-Container .contentContainer li{
+        font-size: 14px;
+    }
+    .ai-services-section-Container .cardContainer .backgroundimgContainer .backgroundHeading{
+        font-size: 17.3px;
+    }
+    .ai-services-section-Container .contentContainer h2 {
+        font-size: 18px;
+    }
+}

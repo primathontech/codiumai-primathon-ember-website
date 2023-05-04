@@ -42,7 +42,8 @@
 }
 
 .chatgpt-benefitsSection .cardContainer {
-  margin: 5px 40px;
+  margin: 10px auto;
+  max-width: 1400px;
 }
 
 .chatgpt-benefitsSection .cardContainer .cards {
@@ -98,7 +99,7 @@
   }
 }
 
-@media only screen and (max-width: 1435px) {
+@media only screen and (max-width: 1350px) {
   .chatgpt-benefitsSection .cardContainer .cards {
     justify-content: center;
   }

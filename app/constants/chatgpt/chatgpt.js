@@ -10,7 +10,7 @@ export const CHATGPT_DATA = {
   },
   benefits: {
     title: 'Benefits of',
-    subtitle:'ChatGPT',
+    subTitle:'ChatGPT',
     description:'',
     cardData: [
       {

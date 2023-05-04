@@ -45,9 +45,15 @@ export const AI_DATA = {
         heading: 'Stable diffusion',
         subHeading: 'Stable diffusion',
         listItem: [
-          'Ecommerce professional photography with ChatGPT',
-          'Image and Video Processing - Denoising, Inpainting, and Super-resolution',
-          'Speech to text to image - Generating quality images with speech using ChatGPT prompts',
+          {
+            data:'Ecommerce professional photography with ChatGPT'
+          },
+          {
+            data:'Image and Video Processing - Denoising, Inpainting, and Super-resolution'
+          },
+          {
+            data:'Speech to text to image - Generating quality images with speech using ChatGPT prompts'
+          }
         ],
       },
 
@@ -57,20 +63,31 @@ export const AI_DATA = {
         heading: 'Large Language Models',
         subHeading: 'Build LLMs (Large Language Models) based Applications:',
         listItem: [
-          'Impressive dashboard',
-          'Personalized sales campaign ',
-          'Training and onboarding with the support of AI',
-          'Language and translation assistance',
-          'Customer support services through voice commands ',
+          {
+            data:'Impressive dashboard'
+          },
+          {
+            data:'Personalized sales campaign'
+          },
+          {
+            data:'Training and onboarding with the support of AI'
+          },
+          {
+            data:'Language and translation assistance'
+          },
+          {
+            data:'Customer support services through voice commands'
+          }
         ],
       },
     ],
   },
 
   aiServices: {
-    title: 'Benefits of ChatGPT',
+    title: 'Most commonly used',
     subTitle:
-      'There are various artificial intelligence services that businesses and organizations can leverage to improve their operations and services. Here are some of the most commonly used AI services',
+      'AI services',
+      description:"There are various artificial intelligence services that businesses and organizations can leverage to improve their operations and services. Here are some of the most commonly used AI services",
     cardData: [
       {
         id: 1,
