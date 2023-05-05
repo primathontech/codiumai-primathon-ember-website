@@ -5,32 +5,35 @@
   <div class='cardContainer'>
     <div class='cards'>
       {{#each this.obj as |item index|}}
-      <div class='card'>
-        <div class='cardHeading'>
-          <div class='image accordion'>
-            <img src={{item.imgSrc}} alt='' />
-            <button {{on 'click' (fn this.btnClick index)}}>
+        <div class='card'>
+          <div class='cardHeading'>
+            <div class='image accordion'>
+              <img src={{item.imgSrc}} alt='' />
+              <button {{on 'click' (fn this.btnClick index)}}>
 
-              {{#if item.active}}
-              <div class="accordianMinus"><span>-</span></div>
-              {{else}}
-              <div class="accordianPlus"><span>+</span></div>
-              {{/if}}
-            </button>
+                {{#if item.active}}
+                  <div class='accordianMinus'><span>-</span></div>
+                {{else}}
+                  <div class='accordianPlus'><span>+</span></div>
+                {{/if}}
+              </button>
+            </div>
+            <div class='imgheading'>
+              <p>{{item.title}}</p>
+            </div>
           </div>
-          <div class='imgheading'>
-            <p>{{item.title}}</p>
+          <div class='cardContent'>
+
+            {{#if item.active}}
+              <p class='cardContent'>
+                  {{#each item.discription as |line|}}
+                  {{line}}
+                  <br /><br />
+                {{/each}}
+              </p>
+            {{/if}}
           </div>
         </div>
-        <div class='cardContent'>
-
-          {{#if item.active}}
-          <p class='cardContent'>
-            {{item.discription}}
-          </p>
-          {{/if}}
-        </div>
-      </div>
       {{/each}}
     </div>
   </div>
