@@ -25,7 +25,7 @@
   </div>
 
   <div class='carousal-bottom-btn-container'>
-    {{#each @thirdPartyIntegration.cardData as |item index|}}
+    {{#each this.length as |item index|}}
       <div
         class='carousal-bottom-btn {{if (eq this.active index) "selected"}}'
         {{on 'click' (fn this.clickIndex index)}}

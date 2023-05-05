@@ -1,17 +1,9 @@
-<div class="app-container">
+<div class='app-container'>
   <CaseStudies::Poster />
   <CaseStudies::Post />
   <Services::ToolsOfTrades />
   <Services::WeAreTrusted />
   <Homepage::HireUs />
-  <Services::BrowseThroughServices
-    @title={{this.serviceTitle}}
-    @description={{this.serviceDescription}}
-    @data={{this.serviceData}}
-    @talent-box-two={{true}}
-    @explore={{true}}
-    @talent-category-two={{true}}
-    @notShowFluidDetails={{true}}
-  />
+  <Services::BrowseThroughServices @activeService={{0}} />
   <Homepage::Footer />
 </div>

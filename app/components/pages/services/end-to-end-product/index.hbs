@@ -1,5 +1,5 @@
 <Header />
-<div class="app-container">
+<div class='app-container'>
   <Services::HeroEndToEnd />
   <Services::CircularList @content={{this.circular_list_content}} @color={{'orange'}} />
   <Services::LinearList @content={{this.linear_list_content}} />
@@ -8,14 +8,6 @@
   <Services::ToolsOfTrades />
   <Services::WeAreTrusted />
   <Homepage::HireUs />
-  <Services::BrowseThroughServices
-    @title={{this.serviceTitle}}
-    @description={{this.serviceDescription}}
-    @data={{this.serviceData}}
-    @talent-box-two={{true}}
-    @explore={{true}}
-    @talent-category-two={{true}}
-    @notShowFluidDetails={{true}}
-  />
+  <Services::BrowseThroughServices @activeService={{0}} />
   <Homepage::Footer />
 </div>

@@ -38,6 +38,7 @@
 
 .chatgpt-thirdpartyContainer .thirdPartyIntegrationCard img {
   height: 210px;
+  width: 100%;
 }
 
 .chatgpt-thirdpartyContainer .cardContent h3 {
@@ -87,9 +88,14 @@
 }
 
 @media (max-width: 1024px) {
-  .chatgpt-thirdpartyContainer  {
-    padding: 53px 50px 40px 0;
+  .chatgpt-thirdpartyContainer .headingContainer h1 {
+    padding: 53px 30px 0;
   }
+
+  .chatgpt-thirdpartyContainer {
+    padding: 0 0 40px 0;
+  }
+
   .chatgpt-thirdpartyContainer .cardsContainer {
     gap: 32px;
   }

@@ -1,17 +1,9 @@
 <div class='app-container'>
-  <CaseStudyBlog::HeroSectionCompany  @heroData={{@data.heroSection}}/>
-  <CaseStudyBlog::ChallengesServicesSection  @challenges={{@data.challenges_Services_Section}}/>
-  <CaseStudyBlog::ProcessSection  @process={{@data.processSection}}/>
+  <CaseStudyBlog::HeroSectionCompany @heroData={{@data.heroSection}} />
+  <CaseStudyBlog::ChallengesServicesSection @challenges={{@data.challenges_Services_Section}} />
+  <CaseStudyBlog::ProcessSection @process={{@data.processSection}} />
   <CaseStudyBlog::ResultSection @result={{@data.resultSection}} />
   <Homepage::HireUs />
-  <Services::BrowseThroughServices
-    @title={{this.serviceTitle}}
-    @description={{this.serviceDescription}}
-    @data={{this.serviceData}}
-    @talent-box-two={{true}}
-    @explore={{true}}
-    @talent-category-two={{true}}
-    @notShowFluidDetails={{true}}
-  />
+  <Services::BrowseThroughServices @activeService={{0}} />
   <Homepage::Footer />
 </div>

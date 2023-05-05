@@ -8,24 +8,21 @@
   <Services::CircularList @content={{@data.chatgptData.whyPartnerWithUs}} />
   <Services::LinearList @content={{@data.chatgptData.whyPartnerWithUs}} />
   <Chatgpt::Chatgptuse @useCases={{@data.chatgptData.useCases}} />
-  <div class="chatgpt-developmentIntegration">
+  <div class='chatgpt-developmentIntegration'>
     <Chatgpt::Devlopment-integration @content={{@data.chatgptData.devlopmentIntegration}} />
-    <img class="chatgpt-redCircle" src="/assets/chatgpt/redCircle.png">
-    <img class="chatgpt-yellowCircle" src="/assets/chatgpt/yellowCircle.png">
+    <img class='chatgpt-redCircle' src='/assets/chatgpt/redCircle.png' />
+    <img class='chatgpt-yellowCircle' src='/assets/chatgpt/yellowCircle.png' />
   </div>
   <Chatgpt::Customchatgpt @benefitsOfCustomChatGpt={{@data.chatgptData.benefitsOfCustomChatGpt}} />
-  <div class="chatgpt-gettingStarted">
+  <div class='chatgpt-gettingStarted'>
     <Chatgpt::Getting-started @gettingStarted={{@data.chatgptData.gettingStarted}} />
-    <img class="chatgpt-redCircle" src="/assets/chatgpt/redCircle.png">
+    <img class='chatgpt-redCircle' src='/assets/chatgpt/redCircle.png' />
   </div>
   <Chatgpt::IndustrySpecificServices @specificServices={{@data.chatgptData.specificServices}} />
   <Chatgpt::Thirdparty-integration @thirdPartyIntegration={{@data.chatgptData.thirdPartyIntegration}} />
   <Services::ToolsOfTrades />
   <Services::WeAreTrusted />
   <Homepage::HireUs />
-
-  <Services::BrowseThroughServices @title={{this.serviceTitle}} @description={{this.serviceDescription}}
-    @data={{this.serviceData}} @talent-box-two={{true}} @explore={{true}} @talent-category-two={{true}}
-    @notShowFluidDetails={{true}} />
+  <Services::BrowseThroughServices @activeService={{0}} />
   <Homepage::Footer />
 </div>

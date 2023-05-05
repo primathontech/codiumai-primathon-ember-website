@@ -6,11 +6,17 @@ export default class ChatgptIndustrySpecificServicesComponent extends Component 
   @tracked active = 0;
   @tracked scrollValue = 0;
   width = window.innerWidth < 500 ? `${window.innerWidth}px` : '500px';
+  @tracked length =
+    window.innerWidth < 768
+      ? this.args.specificServices.items.length - 1
+      : window.innerWidth > 1440
+      ? this.args.specificServices.items.length - 3
+      : this.args.specificServices.items.length - 2;
 
   @action
   showNext() {
-    if (this.active + 1 > 9) {
-      this.active = 9;
+    if (this.active + 1 > this.length) {
+      this.active = this.length;
     } else {
       this.active = this.active + 1;
     }

@@ -6,7 +6,7 @@
     @bg={{@bg}}
     @subHeading={{@subHeading}}
   />
- 
+
   <Services::CircularList @content={{@circular_list}} />
   <Services::LinearList @content={{this.linear_list_content}} />
   <Services::TopNotchTalent />
@@ -15,14 +15,6 @@
   <Services::ToolsOfTrades />
   <Services::WeAreTrusted />
   <Homepage::HireUs />
-  <Services::BrowseThroughServices
-    @title={{this.serviceTitle}}
-    @description={{this.serviceDescription}}
-    @data={{this.serviceData}}
-    @talent-box-two={{true}}
-    @explore={{true}}
-    @talent-category-two={{true}}
-    @notShowFluidDetails={{true}}
-  />
+  <Services::BrowseThroughServices @activeService={{1}} />
   <Homepage::Footer />
 </div>

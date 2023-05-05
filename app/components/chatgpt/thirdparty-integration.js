@@ -5,9 +5,10 @@ import { action } from '@ember/object';
 export default class ChatgptThirdpartyIntegrationComponent extends Component {
   @tracked active = 0;
   @tracked arr = this.args.thirdPartyIntegration.cardData;
-//   @tracked length = this.arr.slice(2);
+  @tracked length =
+    window.innerWidth < 768 ? this.arr : window.innerWidth > 1440 ? this.arr.slice(1) : this.arr;
   @tracked scrollValue = 0;
-  width = window.innerWidth<572?`${window.innerWidth}px`:'572px';
+  width = window.innerWidth < 572 ? `(${window.innerWidth}px - 20px)` : '572px';
 
   @action
   clickIndex(index) {

@@ -1,6 +1,6 @@
 <div class='industrySpecificServices'>
   <div class='industrySpecificServicesContainer'>
-    <div class="industrySpecificHeadingContainer">
+    <div class='industrySpecificHeadingContainer'>
       <h2 class='heading'>
         {{@specificServices.title}}
         <span>{{@specificServices.subTitle}}</span>
@@ -9,30 +9,35 @@
         {{@specificServices.description}}
       </p>
     </div>
-    <div class="specificServiceListCarousal">
+    <div class='specificServiceListCarousal'>
       <ul class='specificServiceList' style='transform:translateX({{this.scrollValue}}) ;'>
         {{#each @specificServices.items as |item|}}
-        <li class='specificServiceListItem' style='width:{{this.width}}'>
-          <h6 class='lineHeading'>{{item.heading}}</h6>
-          <div class='industrySpecificLine'>
-            <div class='industrySpecificServices-previous-dotted-line'></div>
-            <div class='industrySpecificServices-dot'>
-              <div class='industrySpecificServices-inner-dot'></div>
+          <li class='specificServiceListItem' style='width:{{this.width}}'>
+            <h6 class='lineHeading'>{{item.heading}}</h6>
+            <div class='industrySpecificLine'>
+              <div class='industrySpecificServices-previous-dotted-line'></div>
+              <div class='industrySpecificServices-dot'>
+                <div class='industrySpecificServices-inner-dot'></div>
+              </div>
+              <div class='industrySpecificServices-dotted-line'></div>
             </div>
-            <div class='industrySpecificServices-dotted-line'></div>
-          </div>
-          <p class='lineDescription'>
-            {{item.content}}
-          </p>
-        </li>
+            <p class='lineDescription'>
+              {{item.content}}
+            </p>
+          </li>
         {{/each}}
       </ul>
-      <button type='button' {{on 'click' this.showNext}} class='industrySpecificNextButton'>
-        <img src='/assets/chatgpt/next-white.svg' alt='customer obsession' />
-      </button>
-      <button type='button' {{on 'click' this.showPrevious}} class='industrySpecificPreviousButton'>
-        <img src='/assets/chatgpt/previous-white.svg' alt='customer obsession' />
-      </button>
+
+      {{#unless (eq this.active this.length)}}
+        <button type='button' {{on 'click' this.showNext}} class='industrySpecificNextButton'>
+          <img src='/assets/chatgpt/next-white.svg' alt='customer obsession' />
+        </button>
+      {{/unless}}
+      {{#unless (eq this.active 0)}}
+        <button type='button' {{on 'click' this.showPrevious}} class='industrySpecificPreviousButton'>
+          <img src='/assets/chatgpt/previous-white.svg' alt='customer obsession' />
+        </button>
+      {{/unless}}
     </div>
 
   </div>
