@@ -4,7 +4,7 @@ export const AI_DATA = {
     subTitle:
       'The Future Is Here! Help Your Business Reach the Sky With Custom Artificial Intelligence Software Development',
     buttonData: 'Get an AI Developer',
-    redirect: '/',
+    redirect: '/contact',
   },
 
   whyChoose: {
