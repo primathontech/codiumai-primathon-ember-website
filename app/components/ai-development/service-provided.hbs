@@ -7,7 +7,7 @@
             <div class="cards">
                 {{#each @services.cardData as |item|}}
                 <div class="card">
-                    <div class="backgroundimgContainer" style="background-image:url('/assets/ai-development/service-provided-bgimg2.png')" >
+                    <div class="backgroundimgContainer" style="background-image:url({{item.bgImg}})" >
                         <h3 class="backgroundHeading">{{item.heading}}</h3>
                     </div>
                     <div class="contentContainer">

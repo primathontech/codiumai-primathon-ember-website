@@ -45,7 +45,7 @@ export const AI_DATA = {
     cardData: [
       {
         id: '1',
-        bgImg: '/assets/ai-development/serviceCardimg1.png',
+        bgImg: '/assets/ai-development/service-provided-bgimg2.png',
         heading: 'Stable diffusion',
         subHeading: 'Stable diffusion',
         listItem: [
@@ -63,7 +63,7 @@ export const AI_DATA = {
 
       {
         id: '2',
-        bgImg: '/assets/ai-development/serviceCardimg2.png',
+        bgImg: '/assets/ai-development/service-provided-bgimg1.png',
         heading: 'Large Language Models',
         subHeading: 'Build LLMs (Large Language Models) based Applications:',
         listItem: [
@@ -189,7 +189,7 @@ export const AI_DATA = {
         imgSrc: '/assets/ai-development/brain2.png',
         title: 'Machine learning',
         discription:
-          'Sure, I can provide an overview of machine learning and some key concepts in the field. Machine learning is a subfield of artificial intelligence (AI) that involves teaching computers to learn from data, without being explicitly programmed. It is based on the idea that computers can learn patterns in data and make predictions or decisions based on those patterns. There are three main types of machine learning: supervised learning, unsupervised learning, and reinforcement learning. Supervised learning involves training a model on labeled data, where the correct output is known for each input. The goal is to learn a function that can predict the output for new, unseen inputs. This type of learning is commonly used for tasks like image classification, speech recognition, and natural language processing. Unsupervised learning involves training a model on unlabeled data, where the goal is to find patterns or structure in the data. This type of learning is commonly used for tasks like clustering, dimensionality reduction, and anomaly detection. Reinforcement learning involves training a model to make decisions based on feedback from its environment. The model receives rewards or penalties based on its actions, and its goal is to learn a policy that maximizes its reward over time. This type of learning is commonly used for tasks like game playing and robotics.',
+          "Sure, I can provide an overview of machine learning and some key concepts in the field.    Machine learning is a subfield of artificial intelligence (AI) that involves teaching computers to learn from data, without being explicitly programmed. It is based on the idea that computers can learn patterns in data and make predictions or decisions based on those patterns. There are three main types of machine learning: supervised learning, unsupervised learning, and reinforcement learning. Supervised learning involves training a model on labeled data, where the correct output is known for each input. The goal is to learn a function that can predict the output for new, unseen inputs. This type of learning is commonly used for tasks like image classification, speech recognition, and natural language processing. Unsupervised learning involves training a model on unlabeled data, where the goal is to find patterns or structure in the data. This type of learning is commonly used for tasks like clustering, dimensionality reduction, and anomaly detection. Reinforcement learning involves training a model to make decisions based on feedback from its environment. The model receives rewards or penalties based on its actions, and its goal is to learn a policy that maximizes its reward over time. This type of learning is commonly used for tasks like game playing and robotics."
       },
       {
         id: '2',
