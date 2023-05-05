@@ -94,14 +94,14 @@
 
 .industrySpecificPreviousButton {
   position: absolute;
-  bottom: 50%;
+  bottom: 71%;
   left: 30px;
   z-index: 3;
 }
 
 .industrySpecificNextButton {
   position: absolute;
-  bottom: 50%;
+  bottom: 71%;
   right: 30px;
   z-index: 3;
 }
