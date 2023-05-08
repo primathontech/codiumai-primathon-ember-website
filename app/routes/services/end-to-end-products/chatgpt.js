@@ -13,7 +13,7 @@ export default class ServicesEndToEndProductsChatgptRoute extends Route {
   beforeModel() {
     const title = 'Custom ChatGPT Development Services India | Primathon';
     const description =
-      'ChatGPT offers top-notch chatbot development services for businesses, utilizing cutting-edge AI technology to create engaging and personalized chat experiences.1';
+      'ChatGPT offers top-notch chatbot development services for businesses, utilizing cutting-edge AI technology to create engaging and personalized chat experiences.';
     const keywords =
       'best booking system software provider gurgaon top appointment scheduling software noida best online scheduling software company india online booking system software company noida ';
     this.headData.setData({ title, description, keywords });
