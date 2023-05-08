@@ -1,28 +1,25 @@
-<div class="ai-services-section-Container">
-        <div class="headingContainer">
-            <h1 class="heading">{{@services.title}}
-            </h1>
+<div class='ai-services-section-Container'>
+  <div class='headingContainer'>
+    <h2 class='heading'>{{@services.title}}</h2>
+  </div>
+  
+  <div class='cardContainer'>
+    <div class='cards'>
+      {{#each @services.cardData as |item|}}
+        <div class='card'>
+          <div class='backgroundimgContainer' style='background-image:url({{item.bgImg}})'>
+            <h3 class='backgroundHeading'>{{item.heading}}</h3>
+          </div>
+          <div class='contentContainer'>
+            <h2>{{item.subHeading}}</h2>
+            <ul class='ulContainer'>
+              {{#each item.listItem as |liData|}}
+                <li>{{liData.data}}</li>
+              {{/each}}
+            </ul>
+          </div>
         </div>
-        <div class="cardContainer">
-            <div class="cards">
-                {{#each @services.cardData as |item|}}
-                <div class="card">
-                    <div class="backgroundimgContainer" style="background-image:url({{item.bgImg}})" >
-                        <h3 class="backgroundHeading">{{item.heading}}</h3>
-                    </div>
-                    <div class="contentContainer">
-                        <h2>{{item.subHeading}}</h2>
-                        <ul class="ulContainer">
-                            {{#each item.listItem as |liData|}}
-                            <li>{{liData.data}}</li>
-                            {{/each}}
-                            {{!-- <li>Ecommerce professional photography with ChatGPT</li>
-                            <li>Image and Video Processing - Denoising, Inpainting, and Super-resolution</li>
-                            <li>Speech to text to image - Generating quality images with speech using ChatGPT prompts</li> --}}
-                        </ul>
-                    </div>
-                </div>
-                 {{/each}}
-            </div>
-        </div>
+      {{/each}}
     </div>
+  </div>
+</div>
