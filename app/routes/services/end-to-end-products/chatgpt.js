@@ -11,9 +11,9 @@ export default class ServicesEndToEndProductsChatgptRoute extends Route {
   }
 
   beforeModel() {
-    const title = 'Best Booking System Software Provider Gurgaon | Primathon';
+    const title = 'Custom ChatGPT Development Services India | Primathon';
     const description =
-      'Primathon is the best booking system software provider Gurgaon.  We are the best online scheduling software company India and online booking system software company Noida';
+      'ChatGPT offers top-notch chatbot development services for businesses, utilizing cutting-edge AI technology to create engaging and personalized chat experiences.1';
     const keywords =
       'best booking system software provider gurgaon top appointment scheduling software noida best online scheduling software company india online booking system software company noida ';
     this.headData.setData({ title, description, keywords });
