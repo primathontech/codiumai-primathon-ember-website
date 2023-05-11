@@ -4,7 +4,7 @@ export const AI_DATA = {
     subTitle:
       'The Future Is Here! Help Your Business Reach the Sky With Custom Artificial Intelligence Software Development',
     buttonData: 'Get an AI Developer',
-    redirect: '/',
+    redirect: '/contact',
   },
 
   whyChoose: {
@@ -45,43 +45,43 @@ export const AI_DATA = {
     cardData: [
       {
         id: '1',
-        bgImg: '/assets/ai-development/serviceCardimg1.png',
+        bgImg: '/assets/ai-development/service-provided-bgimg2.png',
         heading: 'Stable diffusion',
         subHeading: 'Stable diffusion',
         listItem: [
           {
-            data:'Ecommerce professional photography with ChatGPT'
+            data: 'Ecommerce professional photography with ChatGPT',
           },
           {
-            data:'Image and Video Processing - Denoising, Inpainting, and Super-resolution'
+            data: 'Image and Video Processing - Denoising, Inpainting, and Super-resolution',
           },
           {
-            data:'Speech to text to image - Generating quality images with speech using ChatGPT prompts'
-          }
+            data: 'Speech to text to image - Generating quality images with speech using ChatGPT prompts',
+          },
         ],
       },
 
       {
         id: '2',
-        bgImg: '/assets/ai-development/serviceCardimg2.png',
+        bgImg: '/assets/ai-development/service-provided-bgimg1.png',
         heading: 'Large Language Models',
         subHeading: 'Build LLMs (Large Language Models) based Applications:',
         listItem: [
           {
-            data:'Impressive dashboard'
+            data: 'Impressive dashboard',
           },
           {
-            data:'Personalized sales campaign'
+            data: 'Personalized sales campaign',
           },
           {
-            data:'Training and onboarding with the support of AI'
+            data: 'Training and onboarding with the support of AI',
           },
           {
-            data:'Language and translation assistance'
+            data: 'Language and translation assistance',
           },
           {
-            data:'Customer support services through voice commands'
-          }
+            data: 'Customer support services through voice commands',
+          },
         ],
       },
     ],
@@ -188,29 +188,57 @@ export const AI_DATA = {
         id: '1',
         imgSrc: '/assets/ai-development/brain2.png',
         title: 'Machine learning',
-        discription:
-          'Sure, I can provide an overview of machine learning and some key concepts in the field. Machine learning is a subfield of artificial intelligence (AI) that involves teaching computers to learn from data, without being explicitly programmed. It is based on the idea that computers can learn patterns in data and make predictions or decisions based on those patterns. There are three main types of machine learning: supervised learning, unsupervised learning, and reinforcement learning. Supervised learning involves training a model on labeled data, where the correct output is known for each input. The goal is to learn a function that can predict the output for new, unseen inputs. This type of learning is commonly used for tasks like image classification, speech recognition, and natural language processing. Unsupervised learning involves training a model on unlabeled data, where the goal is to find patterns or structure in the data. This type of learning is commonly used for tasks like clustering, dimensionality reduction, and anomaly detection. Reinforcement learning involves training a model to make decisions based on feedback from its environment. The model receives rewards or penalties based on its actions, and its goal is to learn a policy that maximizes its reward over time. This type of learning is commonly used for tasks like game playing and robotics.',
+        discription: [
+          'Sure, I can provide an overview of machine learning and some key concepts in the field.',
+          'Machine learning is a subfield of artificial intelligence (AI) that involves teaching computers to learn from data, without being explicitly programmed. It is based on the idea that computers can learn patterns in data and make predictions or decisions based on those patterns.',
+          'There are three main types of machine learning: supervised learning, unsupervised learning, and reinforcement learning. Supervised learning involves training a model on labeled data, where the correct output is known for each input. The goal is to learn a function that can predict the output for new, unseen inputs. This type of learning is commonly used for tasks like image classification, speech recognition, and natural language processing.',
+          'Unsupervised learning involves training a model on unlabeled data, where the goal is to find patterns or structure in the data. This type of learning is commonly used for tasks like clustering, dimensionality reduction, and anomaly detection.',
+          'Reinforcement learning involves training a model to make decisions based on feedback from its environment. The model receives rewards or penalties based on its actions, and its goal is to learn a policy that maximizes its reward over time. This type of learning is commonly used for tasks like game playing and robotics.',
+        ],
       },
       {
         id: '2',
         imgSrc: '/assets/ai-development/configuration.png',
         title: 'Predictive analysis',
-        discription:
-          'Predictive analysis is a subset of data analytics that uses data, statistical algorithms, and machine learning techniques to identify the likelihood of future outcomes based on historical data. Predictive analysis involves using data to create a model that can make predictions about future events, trends, and behavior. Predictive analysis is used in a wide range of industries and applications, from finance and marketing to healthcare and sports. Some examples of predictive analysis include: Predicting customer churn: By analyzing customer behavior and characteristics, companies can create models that identify customers who are at risk of leaving, and take proactive steps to retain them. Forecasting demand: By analyzing historical sales data and external factors like weather and economic trends, companies can create models that forecast future demand for their products or services. Fraud detection: By analyzing patterns in data, companies can create models that identify transactions or behaviors that are likely to be fraudulent, and take action to prevent fraud. To perform predictive analysis, data scientists use a variety of techniques, including regression analysis, decision trees, neural networks, and support vector machines. These techniques allow data scientists to identify patterns in data, create models, and make predictions.',
+        discription: [
+          'Predictive analysis is a subset of data analytics that uses data, statistical algorithms, and machine learning techniques to identify the likelihood of future outcomes based on historical data. Predictive analysis involves using data to create a model that can make predictions about future events, trends, and behavior.',
+          'Predictive analysis is used in a wide range of industries and applications, from finance and marketing to healthcare and sports. Some examples of predictive analysis include:',
+          'Predicting customer churn: By analyzing customer behavior and characteristics, companies can create models that identify customers who are at risk of leaving, and take proactive steps to retain them.',
+          'Forecasting demand: By analyzing historical sales data and external factors like weather and economic trends, companies can create models that forecast future demand for their products or services.',
+          'Fraud detection: By analyzing patterns in data, companies can create models that identify transactions or behaviors that are likely to be fraudulent, and take action to prevent fraud.',
+          'To perform predictive analysis, data scientists use a variety of techniques, including regression analysis, decision trees, neural networks, and support vector machines. These techniques allow data scientists to identify patterns in data, create models, and make predictions.',
+        ],
       },
       {
         id: '3',
         imgSrc: '/assets/ai-development/predictive-chart2.png',
         title: 'Business intelligence',
-        discription:
-          'Business intelligence (BI) is a technology-driven process of analyzing data and presenting actionable insights to help businesses make better decisions. The goal of BI is to provide a comprehensive view of business operations and performance, by consolidating data from multiple sources and presenting it in a way that is easy to understand. BI tools and platforms typically include features such as data visualization, dashboards, and reports that allow business users to analyze data and identify trends and patterns. Some of the key benefits of BI include: Improved decision-making: By providing timely and accurate insights, BI can help businesses make more informed decisions. Increased efficiency: By automating data collection and analysis, BI can help businesses streamline their operations and reduce manual effort. Enhanced collaboration: By providing a centralized view of business data, BI can facilitate collaboration and communication among different departments and teams. There are many different types of BI tools and platforms available, ranging from simple reporting tools to complex analytics platforms. Some common features of BI tools include: Data integration: The ability to combine data from multiple sources into a single view. Data visualization: The ability to present data in a visual format, such as charts, graphs, and maps. Dashboards: A customizable interface that provides an at-a-glance view of key performance indicators (KPIs). Ad-hoc reporting: The ability to create custom reports on-the-fly, based on specific criteria. Predictive analytics: The ability to use statistical algorithms and machine learning techniques to identify patterns in data and make predictions about future trends. In order to implement a successful BI strategy, businesses need to ensure that they have the right people, processes, and technology in place. This includes having a clear understanding of business objectives, identifying relevant data sources, selecting appropriate BI tools and platforms, and ensuring that users are trained and empowered to use these tools effectively.',
+        discription: [
+          'Business intelligence (BI) is a technology-driven process of analyzing data and presenting actionable insights to help businesses make better decisions. The goal of BI is to provide a comprehensive view of business operations and performance, by consolidating data from multiple sources and presenting it in a way that is easy to understand.',
+          'BI tools and platforms typically include features such as data visualization, dashboards, and reports that allow business users to analyze data and identify trends and patterns. Some of the key benefits of BI include:',
+          'Improved decision-making: By providing timely and accurate insights, BI can help businesses make more informed decisions.',
+          'Increased efficiency: By automating data collection and analysis, BI can help businesses streamline their operations and reduce manual effort.',
+          'Enhanced collaboration: By providing a centralized view of business data, BI can facilitate collaboration and communication among different departments and teams.',
+          'There are many different types of BI tools and platforms available, ranging from simple reporting tools to complex analytics platforms. Some common features of BI tools include:',
+          'Data integration: The ability to combine data from multiple sources into a single view. Data visualization: The ability to present data in a visual format, such as charts, graphs, and maps.',
+          ' Dashboards: A customizable interface that provides an at-a-glance view of key performance indicators (KPIs).',
+          'Ad-hoc reporting: The ability to create custom reports on-the-fly, based on specific criteria.',
+          'Predictive analytics: The ability to use statistical algorithms and machine learning techniques to identify patterns in data and make predictions about future trends.',
+          'In order to implement a successful BI strategy, businesses need to ensure that they have the right people, processes, and technology in place. This includes having a clear understanding of business objectives, identifying relevant data sources, selecting appropriate BI tools and platforms, and ensuring that users are trained and empowered to use these tools effectively.',
+        ],
       },
       {
         id: '4',
         imgSrc: '/assets/ai-development/data-capture.png',
         title: 'Data capture',
-        discription:
-          'Data capture is the process of collecting and recording data from a variety of sources, including paper documents, electronic forms, web pages, and mobile devices. The goal of data capture is to capture accurate and complete data, while minimizing errors and ensuring that data is recorded in a consistent format. There are several different methods of data capture, including manual data entry, optical character recognition (OCR), and barcode scanning. Some of the key considerations when selecting a data capture method include: Accuracy: The ability to capture data accurately, with a minimum of errors. Speed: The ability to capture data quickly and efficiently, without introducing delays or bottlenecks in the data capture process. Cost: The cost of implementing and maintaining the data capture method, including hardware, software, and personnel costs. Flexibility: The ability to capture data from a variety of sources, including paper documents, electronic forms, and mobile devices.',
+        discription: [
+          'Data capture is the process of collecting and recording data from a variety of sources, including paper documents, electronic forms, web pages, and mobile devices. The goal of data capture is to capture accurate and complete data, while minimizing errors and ensuring that data is recorded in a consistent format.',
+          'There are several different methods of data capture, including manual data entry, optical character recognition (OCR), and barcode scanning. Some of the key considerations when selecting a data capture method include:',
+          'Accuracy: The ability to capture data accurately, with a minimum of errors.',
+          'Speed: The ability to capture data quickly and efficiently, without introducing delays or bottlenecks in the data capture process.',
+          'Cost: The cost of implementing and maintaining the data capture method, including hardware, software, and personnel costs.',
+          'Flexibility: The ability to capture data from a variety of sources, including paper documents, electronic forms, and mobile devices.',
+        ],
       },
     ],
   },

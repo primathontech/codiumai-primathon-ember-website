@@ -34,7 +34,8 @@
   margin-top: 60px;
   margin-bottom: 10px;
   display: flex;
-  justify-content: space-between;
+  gap: 20px;
+  justify-content: center;
   align-items: center;
 }
 
@@ -64,7 +65,7 @@
 }
 
 .arrow-list-container li.end p {
-  margin: 0 auto;
+  margin-left: 50px;
 }
 
 .arrow-list-container__yellow {
@@ -187,6 +188,10 @@
 
   .arrow-list-section {
     padding-top: 50px;
+  }
+
+  .arrow-list-container li.end p {
+    margin:0;
   }
 }
 

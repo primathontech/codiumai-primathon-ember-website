@@ -6,9 +6,9 @@ export default class CaseStudiesCaseStudyRoute extends Route {
   @service headData;
 
   beforeModel() {
-    const title = 'Best Custom Software Development Company India| Primathon';
+    const title = 'Top Custom Software Development Services India | Primathon';
     const description =
-      ' If you are looking for the best custom software service India then you have come to the right place. Primathon is the top web application development company Delhi.';
+      'Looking for the best custom software service in India? Look no further than Primathon - the premier web application development company in Delhi.';
     const keywords =
       'best custom software development company india custom software application development services web application development services india top web application development company delhi best companies for software engineers gurgaon software application development company noida ';
 
