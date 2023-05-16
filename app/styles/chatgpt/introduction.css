@@ -17,8 +17,8 @@
   min-height: 329.78px;
   font-family: 'Poppins';
   font-style: normal;
-  font-weight: 500;
-  font-size: 20.4514px;
+  font-weight: 400;
+  font-size: 20.45px;
   line-height: 150.5%;
   color: #48596a;
   margin-bottom: 0;
@@ -30,7 +30,7 @@
 }
 
 .chatgpt-introductionTextContainer button {
-  padding: 25px 52px 26px;
+  padding: 18px 32px;
   margin-top: 52px;
   gap: 10px;
   font-family: 'Poppins';

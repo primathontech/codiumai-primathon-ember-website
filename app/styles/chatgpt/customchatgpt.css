@@ -69,11 +69,16 @@
   align-items: center;
 }
 
+.chatgpt-mainConatiner .cards .cardHeading {
+  display: flex;
+  justify-content: space-between;
+}
+
 .chatgpt-mainConatiner .card {
   background: #ffffff;
   border: 0.4px solid #dfdcdc;
   box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.05);
-  padding: 20px 40px 5px;
+  padding: 12.5px 40px 12.5px;
   width: 64vw;
   margin-bottom: 25px;
 }
@@ -84,12 +89,15 @@
   font-size: 24px;
   line-height: 36px;
   color: #1a284d;
-  margin: 20px 0px;
+}
+.chatgpt-mainConatiner .card .cardHeading .imgheading >p{
+  margin-bottom: 0;
 }
 
 .chatgpt-mainConatiner .card .cardHeading .image {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .chatgpt-mainConatiner .card .cardContent {
@@ -104,5 +112,6 @@
 @media only screen and (max-width: 450px) {
   .chatgpt-mainConatiner .card {
     width: 90vw;
+    padding: 12.5px 25px;
   }
 }

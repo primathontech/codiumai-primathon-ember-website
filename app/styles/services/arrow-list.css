@@ -17,6 +17,10 @@
   color: #1a284d;
   position: relative;
   z-index: 1;
+  max-width: 538.65px;
+}
+.arrow-list-responsive-container > span {
+  color: #24b768;
 }
 
 .arrow-list-container hr {
@@ -191,7 +195,7 @@
   }
 
   .arrow-list-container li.end p {
-    margin:0;
+    margin: 0;
   }
 }
 

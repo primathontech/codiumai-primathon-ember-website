@@ -47,9 +47,10 @@
 }
 
 .chatgpt-serviceCard p {
-  margin-top: 15.94px;
-  margin-left: 30.24px;
-  margin-right: 30.24px;
+      margin-top: 22.94px;
+    margin-left: 18px;
+    margin-right: 18px;
+  margin-bottom: 0px;
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 500;
