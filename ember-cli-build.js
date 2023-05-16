@@ -9,6 +9,9 @@ module.exports = function (defaults) {
     'ember-cli-babel': {
       includePolyfill: true,
     },
+    fingerprint: {
+      exclude: ['assets/*/*'],
+    },
     babel: {
       plugins: [require.resolve('ember-auto-import/babel-plugin')],
     },
