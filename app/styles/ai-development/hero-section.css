@@ -38,10 +38,8 @@
   font-weight: 400;
   font-size: 14px;
   line-height: 145.5%;
-  padding: 18.5px 55px 19.5px;
-
+  padding: 19px 55.5px 20px;
   text-align: center;
-
   color: #ffffff;
   border: 2px solid #24b768;
   border-radius: 3px;
@@ -52,9 +50,16 @@
 }
 
 @media only screen and (max-width: 1290px) and (min-width: 360px) {
-    .aiDevelopment-heroSectionContainer {
-        padding-left: 40px;
-        padding-right: 40px;
-        padding-bottom: 80px;
-    }   
+  .aiDevelopment-heroSectionContainer {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 80px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .aiDevelopment-heroSectionContainer button {
+    padding: 16px 48px;
+    font-size: 12.0824px;
+  }
 }

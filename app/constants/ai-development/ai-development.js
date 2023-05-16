@@ -31,7 +31,8 @@ export const AI_DATA = {
   },
 
   primathonHelpAI: {
-    heading: 'How does Primathon help you to build credible AI software?',
+    heading: 'How does Primathon help you to build credible ',
+    subHeading:'AI software?',
     items: [
       'We understand your requirements',
       'We find solutions at all levels',

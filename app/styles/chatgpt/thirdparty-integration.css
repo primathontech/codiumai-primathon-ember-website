@@ -56,15 +56,15 @@
 }
 
 .chatgpt-thirdpartyContainer .cardContent p {
-  margin-left: 36px;
-  margin-right: 36px;
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  text-align: center;
+  text-align: justify;
   color: #48596a;
+  padding: 36px;
+  margin-bottom:0px;
 }
 
 .chatgptCarousalContainer {

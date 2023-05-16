@@ -9,7 +9,11 @@
           <div class='cardHeading'>
             <div class='image accordion'>
               <img src={{item.imgSrc}} alt='' />
-              <button {{on 'click' (fn this.btnClick index)}}>
+              <div class='imgheading'>
+              <p>{{item.title}}</p>
+            </div>
+            </div>
+            <button {{on 'click' (fn this.btnClick index)}}>
 
                 {{#if item.active}}
                   <div class='accordianMinus'><span>-</span></div>
@@ -17,10 +21,7 @@
                   <div class='accordianPlus'><span>+</span></div>
                 {{/if}}
               </button>
-            </div>
-            <div class='imgheading'>
-              <p>{{item.title}}</p>
-            </div>
+            
           </div>
           <div class='cardContent'>
 

@@ -47,7 +47,8 @@
 }
 
 .chatgpt-chatgptUseSection .cardContainer .card .icon img {
-  height: 63px;
+  height: 50px;
+  width:50px;
 }
 
 .chatgpt-chatgptUseSection .cardContainer .card .cardHeadingContainer .cardHeading {
@@ -97,6 +98,10 @@
     width: 90vw;
     margin: 25px 10px;
   }
+  .chatgpt-chatgptUseSection .cardContainer .card .icon img {
+  height: 40px;
+  width: 40px;
+}
 }
 
 @media only screen and (max-width: 370px) {
