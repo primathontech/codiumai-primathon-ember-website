@@ -8,9 +8,14 @@
   "challenges_Services_Section": {
     "CHALLENGES_DATA": {
       "ChallengeTitle": "The Challenge",
-      "ChallengeDescription": "The Client approached us with an exciting challenge: we needed to implement solutions that would appeal to a modern customer, while keeping in mind business objectives regarding scalability. This meant that any product created for the client would have to be as self-sufficient as possible, with minimal maintenance down the line. ",
-      "BriefTitle": "",
-      "BriefPoints": [],
+      "ChallengeDescription": "Cryptocurrency is the current pulse of the fintech market and many developers would love to work on creating a ‘buy, sell, trade and invest bitcoins platform’ simply because the chance to work on innovative technology is always thrilling. Paxful asked for just that.",
+      "BriefTitle": "Our brief was to:",
+      "BriefPoints": [
+      "Create the best international crypto exchange from scratch.",
+      "Integrate a multitude of payment methods to make it easy.",
+      "Build a simple, clean, and beautiful UI that appeals to international audiences",
+      "Ensure the best security methods possible"
+      ],
       "months": "5",
       "countryName": "India"
     },
@@ -55,7 +60,8 @@
     "description": "Despite a tight timeline, we were armed with a strong knowledge base and an ever-relentless can-do attitude, which is what enabled us to deliver a world-class PWA for Bloom. The PWA was built after monitoring the behavioral patterns of the client’s target audience, in order to ensure easy onboarding, great functionality, and appealing aesthetics."
   },
   "resultSection": {
-    "description": "Despite a tight timeline, we were armed with a strong knowledge base and an ever-relentless can-do attitude, which is what enabled us to deliver a world-class PWA for Bloom. The PWA was built after monitoring the behavioral patterns of the client’s target audience, in order to ensure easy onboarding, great functionality, and appealing aesthetics.",
+    "title":"Our team delivered the following results:",
+    "description": "We successfully implemented a flawless orderbook displaying trade history and pending orders. Our Abstract Component System ensured scalability, similar to Bootstrap. We developed a complete cryptocurrency exchange platform with a beautiful and comprehensive UI. The client expressed satisfaction and is eager to collaborate with us again in the future.",
     "image": "/assets/caseStudy/paxfulBitcoin.png"
   },
   "otherServicesSection": {

@@ -27,6 +27,7 @@
   font-size: 18px;
   line-height: 27px;
   color: #000000;
+  text-align: center;
 }
 
 @media only screen and (max-width: 1350px) {

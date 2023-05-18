@@ -96,9 +96,12 @@
   row-gap: 5px;
   align-items: flex-end;
 }
+.all-technologies-logos .logo img {
+  max-width: 52px;
+  max-height: 52px;
+}
 
 @media only screen and (max-width: 529px) {
-  
   .services-provided-mobile {
     margin-top: 20px;
     display: flex;
@@ -136,12 +139,12 @@
 
   .all-technologies-logos {
     display: flex;
-    column-gap: 50px;
+    column-gap: 30px;
     flex-wrap: wrap;
     row-gap: 20px;
   }
 
-  .technology-name{
+  .technology-name {
     font-family: 'Poppins';
     font-weight: 400;
     font-size: 11px;
@@ -217,7 +220,6 @@
     line-height: 18px;
     color: #000000;
   }
-  
 }
 
 @media (min-width: 1400px) {
@@ -234,7 +236,6 @@
     width: 550px;
   }
 
-
   .challenge-portion p.challenge-heading {
     font-family: 'Poppins';
     font-weight: 500;
@@ -248,7 +249,6 @@
     font-size: 18px;
     line-height: 27px;
   }
-
 
   .brief-portion p.brief-heading {
     font-family: 'Poppins';
@@ -321,9 +321,10 @@
   }
 
   .all-services {
-    display: grid;
-    grid-template-columns: 356px 258px;
-    column-gap: 51px;
+    display: flex;
+    flex-wrap: wrap;
+    grid-template-columns: auto auto;
+    column-gap: 17px;
     row-gap: 30px;
   }
 
@@ -374,6 +375,6 @@
     display: flex;
     flex-direction: column;
     row-gap: 9px;
-    align-items: flex-end;
+    align-items: center;
   }
 }

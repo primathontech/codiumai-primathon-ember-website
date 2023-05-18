@@ -1,16 +1,21 @@
 {
   "heroSection": {
     "companyLogo": "/assets/caseStudy/stockalLogo.png",
-    "description": "Jar is a automated investment app that lets you save and invest money into digital gold. It invests spare change from your online transactions into digital gold, automatically. Jar is the first Made in India app to come up with an innovative solution to save money daily and invest in digital gold.",
+    "description": "Empowering global investors with intelligent tools, diverse options, and real-time insights. Make informed decisions confidently in a user-friendly platform.",
     "backgroundStyle": "background: #162542;color: #ffffff;"
   },
   "challenges_Services_Section": {
     "CHALLENGES_DATA": {
       "challengeLogo": "/assets/svgs/stockalchallengeLogo.png",
       "ChallengeTitle": "The Challenge",
-      "ChallengeDescription": "The Client approached us with an exciting challenge: we needed to implement solutions that would appeal to a modern customer, while keeping in mind business objectives regarding scalability. This meant that any product created for the client would have to be as self-sufficient as possible, with minimal maintenance down the line. ",
-      "BriefTitle": "",
-      "BriefPoints": [],
+      "ChallengeDescription": "Stockal approached us with a challenge that got the whole team excited - we were to be a part of this revolutionary platform’s journey by being a continuous development partner, which meant that we were not just building a one-time deliverable, but also going to work on upgrades and new features in the future.",
+      "BriefTitle": "Our brief was to:",
+      "BriefPoints": [
+      "Create a reliable platform that got potential investors excited",
+      "Ensure payment gateways and other third-party integrations were seamless",
+      "Create a platform with ample scope for scalability and change",
+      "Continue to work on updates and upgrades"
+      ],
       "months": "5",
       "countryName": "India"
     },
@@ -60,10 +65,11 @@
     }
   },
   "processSection": {
-    "description": "The Process: We started off the project by scheduling a series of workshops with the client to better understand the value they are contributing to the hospitality industry, as well as the unique offerings for the customers. As a result of this, we not only simplified our own planning process but also had a clearer picture of the MVP and ultimate product. This enabled us to create the best hotel management software. With a clear roadmap, we began work on Bloom’s deliverables. We leveraged a variety of tools and technology, such as Angular, Node, SQL, Redis and AWS S3 to develop the deliverables. As a team, we implemented an Agile workflow and ensured that the client could be a part of every stage of development. With this, we were able to implement feedback, redirect efforts, and brainstorm on the go without losing any time."
+    "description": "We started off the project by scheduling a series of workshops with the client to better understand the value they are contributing to the hospitality industry, as well as the unique offerings for the customers. As a result of this, we not only simplified our own planning process but also had a clearer picture of the MVP and ultimate product. This enabled us to create the best hotel management software. With a clear roadmap, we began work on Bloom’s deliverables. We leveraged a variety of tools and technology, such as Angular, Node, SQL, Redis and AWS S3 to develop the deliverables. As a team, we implemented an Agile workflow and ensured that the client could be a part of every stage of development. With this, we were able to implement feedback, redirect efforts, and brainstorm on the go without losing any time."
   },
   "resultSection": {
-    "description": "Despite a tight timeline, we were armed with a strong knowledge base and an ever-relentless can-do attitude, which is what enabled us to deliver a world-class PWA for Bloom. The PWA was built after monitoring the behavioral patterns of the client’s target audience, in order to ensure easy onboarding, great functionality, and appealing aesthetics.",
+    "title":"The Result",
+    "description": "Primathon's team embraced the challenge with enthusiasm and a strong belief in the market need for the product. We leveraged technologies like React, Node, AWS, PostgreSQL, Spark, and AWS SQS to build a robust platform for our client. Our contributions included seamless data migration, a powerful CMS backend, new API development, transitioning to JavaScript, and streamlining monitoring processes. The client was highly satisfied, and we continue to support them with maintenance, updates, and upgrades.",
     "image": "/assets/caseStudy/stockalResult.png"
   },
   "otherServicesSection": {
