@@ -1,6 +1,6 @@
 .chatgpt-benefitsSection {
   background: #1a284d;
-  padding: 58px 0px;
+  padding: 100px 0px;
   padding-bottom: 70px;
   display: flex;
   flex-direction: column;
@@ -16,7 +16,7 @@
   flex-direction: column;
 }
 
-.chatgpt-benefitsSection .description{
+.chatgpt-benefitsSection .description {
   width: 50vw;
   text-align: center;
   font-family: 'Inter';
@@ -24,8 +24,7 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 22px;
-  color: #E0E0E0;
-  
+  color: #e0e0e0;
 }
 
 .chatgpt-benefitsSection .headingContainer .heading {
@@ -111,28 +110,26 @@
 }
 
 @media only screen and (max-width: 800px) {
-  .chatgpt-benefitsSection .description{
+  .chatgpt-benefitsSection .description {
     width: 90vw;
   }
 }
-
 
 @media only screen and (max-width: 450px) {
   .chatgpt-benefitsSection .cardContainer {
     width: 90vw;
   }
   .chatgpt-benefitsSection .cardContainer {
-    margin:  0;
+    margin: 0;
   }
   .chatgpt-benefitsSection .cardContainer .card .icon img {
-    height: 70px;
-    width: 70px;
+    height: 55px;
+    width: 55px;
   }
-  .chatgpt-benefitsSection .cardContainer .card .cardHeading h3{
+  .chatgpt-benefitsSection .cardContainer .card .cardHeading h3 {
     margin-top: 22px;
     margin-bottom: 22px;
   }
-
 }
 
 @media only screen and (max-width: 370px) {

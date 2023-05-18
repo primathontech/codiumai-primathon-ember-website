@@ -1,7 +1,7 @@
 {
   "heroSection": {
     "companyLogo": "/assets/caseStudy/epifiLogo.png",
-    "description": "FI is a new-age money management app designed for working professionals who want to grow their wealth, without worrying about hassles like fund management commissions, savings accounts with minimum balance requirements, and incompatibility with various banks. With features like easy planning, robust customer support, and international security protocols, FI offers modern and smart digital banking solutions.",
+    "description": "Hassle-free Money Management. No commissions, no minimum balance. Easy planning, reliable support, top-notch security. Smart digital banking.",
     "backgroundStyle": "background: #00B899; color: #ffffff;"
   },
   "challenges_Services_Section": {
@@ -63,6 +63,7 @@
     "description": "After a series of brainstorming sessions and ideation calls with the client, our team was ready to begin the SDLC. With our Agile workflow, we ensured that the website and app would be developed in time, with plenty of room for feedback and improvements along the way. We used cutting-edge technologies such as MySQL, Redis, S3, Angular 8, and Node to create the perfect custom software for the client."
   },
   "resultSection": {
+    "title":"The Result",
     "description": "One of the highlights of the development process for FI was the client’s involvement at every stage. Due to this, we were able to leverage the creativity that comes with a collaborative effort. As a team, we developed a highly robust website and app for FI that not only showcased all their services, but also made it very easy for their customers to start investing and saving money. \n Our onboarding and waitlist system ensured that no customer felt invisibile at any stage. As a team, we are a part of FIs growth story. Our maintenance team is always available to update and upgrade the app as per the evolving needs of the customers and FI itself. Our platform is easy to customise as per the growth requirements, and is emerging as one of the best digital financial services in india.",
     "image": "/assets/caseStudy/visacard.png"
   },

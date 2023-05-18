@@ -76,9 +76,9 @@
 
 .chatgpt-mainConatiner .card {
   background: #ffffff;
-  border: 0.4px solid #dfdcdc;
+  outline: 0.4px solid #dcdcdc;
   box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.05);
-  padding: 12.5px 40px 12.5px;
+  padding: 15px 40px 15px;
   width: 64vw;
   margin-bottom: 25px;
 }
@@ -90,7 +90,7 @@
   line-height: 36px;
   color: #1a284d;
 }
-.chatgpt-mainConatiner .card .cardHeading .imgheading >p{
+.chatgpt-mainConatiner .card .cardHeading .imgheading > p {
   margin-bottom: 0;
 }
 
@@ -98,6 +98,7 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  row-gap: 10px;
 }
 
 .chatgpt-mainConatiner .card .cardContent {
@@ -107,6 +108,7 @@
   font-size: 16px;
   line-height: 24px;
   color: #48596a;
+  margin-top: 15px;
 }
 
 @media only screen and (max-width: 450px) {
