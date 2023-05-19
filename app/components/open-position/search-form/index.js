@@ -12,7 +12,6 @@ export default class OpenPositionSearchFormIndexComponent extends Component {
   @action
   onSubmit(evt) {
     evt.preventDefault();
-    console.log(this.form);
     this.args.setQuery(this.form);
   }
 

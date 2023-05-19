@@ -5,7 +5,8 @@ import { action } from '@ember/object';
 export default class ChatgptThirdpartyIntegrationComponent extends Component {
   @tracked active = 0;
   @tracked arr = this.args.thirdPartyIntegration.cardData;
-  @tracked length = window.innerWidth < 768 ? this.arr : window.innerWidth > 1440 ? this.arr.slice(1) : this.arr;
+  @tracked pointsLength = window.innerWidth < 768 ? 0 : window.innerWidth > 1440 ? 2 : 0;
+  @tracked length = this.arr.slice(this.pointsLength);
   @tracked scrollValue = 0;
   width = window.innerWidth < 572 ? `${window.innerWidth - 60}px` : '510px';
   @tracked incrementor = 1;
@@ -13,9 +14,11 @@ export default class ChatgptThirdpartyIntegrationComponent extends Component {
   @action
   changeIndex() {
     this.interval = setInterval(() => {
-      if (this.active + 2 > this.arr.length) this.active=1;
-      if (this.active === 0) this.incrementor = 1;
-      this.active = this.active + this.incrementor;
+      if (this.active + 1 >= this.length.length) {
+        this.active = 0;
+      } else {
+        this.active = this.active + this.incrementor;
+      }
 
       this.changeScroll();
     }, 3000);
@@ -28,7 +31,6 @@ export default class ChatgptThirdpartyIntegrationComponent extends Component {
 
   @action
   onMouseOut() {
-    console.log(this.changeIndex);
     this.changeIndex();
   }
 

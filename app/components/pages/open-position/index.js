@@ -6,7 +6,6 @@ export default class PagesOpenPositionIndexComponent extends Component {
 
   @action
   setQuery(query) {
-    console.log(query);
     this.query = query;
   }
 }
