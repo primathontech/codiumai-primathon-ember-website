@@ -5,13 +5,14 @@ import { action } from '@ember/object';
 export default class ChatgptIndustrySpecificServicesComponent extends Component {
   @tracked active = 0;
   @tracked scrollValue = 0;
-  width = window.innerWidth < 500 ? `${window.innerWidth}px` : '500px';
+  width = window.innerWidth < 500 ? window.innerWidth : 500;
+  maskWidth = (window.innerWidth % this.width);
   @tracked length =
     window.innerWidth < 768
       ? this.args.specificServices.items.length - 1
       : window.innerWidth > 1440
       ? this.args.specificServices.items.length - 3
-      : this.args.specificServices.items.length - 2;
+      : this.args.specificServices.items.length - 1;
 
   @action
   showNext() {
@@ -37,6 +38,6 @@ export default class ChatgptIndustrySpecificServicesComponent extends Component 
 
   @action
   changeScroll() {
-    this.scrollValue = `calc(${this.width} * ${-this.active})`;
+    this.scrollValue = `calc(${this.width}px * ${-this.active})`;
   }
 }

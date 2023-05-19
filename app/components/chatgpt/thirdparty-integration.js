@@ -8,6 +8,29 @@ export default class ChatgptThirdpartyIntegrationComponent extends Component {
   @tracked length = window.innerWidth < 768 ? this.arr : window.innerWidth > 1440 ? this.arr.slice(1) : this.arr;
   @tracked scrollValue = 0;
   width = window.innerWidth < 572 ? `${window.innerWidth - 60}px` : '510px';
+  @tracked incrementor = 1;
+
+  @action
+  changeIndex() {
+    this.interval = setInterval(() => {
+      if (this.active + 2 > this.arr.length) this.active=1;
+      if (this.active === 0) this.incrementor = 1;
+      this.active = this.active + this.incrementor;
+
+      this.changeScroll();
+    }, 3000);
+  }
+
+  @action
+  onMouseOver() {
+    clearInterval(this.interval);
+  }
+
+  @action
+  onMouseOut() {
+    console.log(this.changeIndex);
+    this.changeIndex();
+  }
 
   @action
   clickIndex(index) {

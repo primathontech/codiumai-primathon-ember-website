@@ -12,7 +12,7 @@
     <div class='specificServiceListCarousal'>
       <ul class='specificServiceList' style='transform:translateX({{this.scrollValue}}) ;'>
         {{#each @specificServices.items as |item|}}
-          <li class='specificServiceListItem' style='width:{{this.width}}'>
+          <li class='specificServiceListItem' style='width:{{this.width}}px'>
             <h6 class='lineHeading'>{{item.heading}}</h6>
             <div class='industrySpecificLine'>
               <div class='industrySpecificServices-previous-dotted-line'></div>
@@ -27,6 +27,7 @@
           </li>
         {{/each}}
       </ul>
+       <div class="mask" style="width:{{this.maskWidth}}px"></div>
 
       {{#unless (eq this.active this.length)}}
         <button type='button' {{on 'click' this.showNext}} class='industrySpecificNextButton'>

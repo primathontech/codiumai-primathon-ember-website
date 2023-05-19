@@ -30,7 +30,9 @@
   gap: 62px;
   overflow: scroll;
   padding: 0 15px 15px 0;
+  transition: transform 1000ms linear;
 }
+
 .chatgpt-thirdpartyContainer .cardsContainer::-webkit-scrollbar {
   display: none;
 }
@@ -64,7 +66,7 @@
   text-align: justify;
   color: #48596a;
   padding: 36px;
-  margin-bottom:0px;
+  margin-bottom: 0px;
 }
 
 .chatgptCarousalContainer {
@@ -108,7 +110,6 @@
     margin-left: 27px;
   }
 }
-
 
 @media (max-width: 425px) {
   .chatgpt-thirdpartyContainer .cardContent p {

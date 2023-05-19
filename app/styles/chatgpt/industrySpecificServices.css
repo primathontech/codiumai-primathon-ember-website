@@ -6,6 +6,7 @@
 .specificServiceList {
   display: inline-flex;
   overflow: scroll;
+  transition: transform 100ms linear;
 }
 
 .specificServiceList::-webkit-scrollbar {
@@ -75,6 +76,16 @@
   margin-left: -2px;
 }
 
+.mask {
+  position: absolute;
+  height: 100%;
+  right: 0;
+  top: 0;
+  z-index: 3;
+  background-color: #1a284d;
+  opacity: 0.5;
+}
+
 .industrySpecificServices-dotted-line,
 .industrySpecificServices-previous-dotted-line {
   border: none;
@@ -103,7 +114,7 @@
   position: absolute;
   bottom: 71%;
   right: 30px;
-  z-index: 3;
+  z-index: 4;
 }
 
 .industrySpecificServices-dot {
@@ -141,5 +152,11 @@
 
   .industrySpecificServices {
     padding: 0 0 40px 0;
+  }
+}
+
+@media (max-width: 500px) {
+  .mask {
+    display: none;
   }
 }

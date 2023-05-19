@@ -2,7 +2,7 @@
   <div class='headingContainer'>
     <h1>{{@thirdPartyIntegration.title}} </h1>
   </div>
-  <div class='chatgptCarousalContainer'>
+  <div class='chatgptCarousalContainer' onmouseenter={{this.onMouseOver}} onmouseleave={{this.onMouseOut}} {{did-insert this.changeIndex}}>
     <div class='cardsContainer' style='transform:translateX({{this.scrollValue}});'>
       {{#each @thirdPartyIntegration.cardData as |item|}}
         <div class='thirdPartyIntegrationCard' style='width: calc({{this.width}} - 32px);'>
