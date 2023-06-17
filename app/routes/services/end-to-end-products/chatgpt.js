@@ -11,9 +11,9 @@ export default class ServicesEndToEndProductsChatgptRoute extends Route {
   }
 
   beforeModel() {
-    const title = 'Custom ChatGPT Development Services India | Primathon';
+    const title = 'Custom ChatGPT API Integration and Development Services | Primathon';
     const description =
-      'ChatGPT offers top-notch chatbot development services for businesses, utilizing cutting-edge AI technology to create engaging and personalized chat experiences.';
+      'Primathon ChatGPT software developers offer a variety of custom ChatGPT API integration and development services to enhance your business processes for growth and scalability.';
     const keywords =
       'best booking system software provider gurgaon top appointment scheduling software noida best online scheduling software company india online booking system software company noida ';
     this.headData.setData({ title, description, keywords });
