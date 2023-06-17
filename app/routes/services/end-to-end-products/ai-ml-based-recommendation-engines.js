@@ -11,9 +11,9 @@ export default class ServicesEndToEndProductsAIMLBasedRecommendationRoute extend
   }
 
   beforeModel() {
-    const title = 'AI Based Custom Software Development Services | Primathon';
+    const title = 'Custom Artificial Intelligence Development Services | Primathon';
     const description =
-      'Are you looking for the top artificial intelligence services for business? Primathon is the best artificial intelligence services and solutions provider India.';
+      'Best Artificial intelligence service consulting company specialize in AI software development provides AI development services to companies in various industries, from healthcare and education to cybersecurity and remote sensing.';
     const keywords =
       'artificial intelligence services and solutions artificial intelligence service offerings noida artificial intelligence service provider delhi artificial intelligence services for business artificial intelligence solutions provider india ';
 
