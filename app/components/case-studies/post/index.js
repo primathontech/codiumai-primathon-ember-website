@@ -27,7 +27,8 @@ export default class CaseStudiesPostIndexComponent extends Component {
       {
         url: 'bloom',
         poster: '/assets/caseStudy/bloom.png',
-        title: 'Bloom Hotel: optimizing a booking system for the Japanese railway network',
+        title:
+          'Bloom Hotel: Building a high performance complete booking engine for one of the biggest hotel chains in India',
         description:
           'Bloom Hotels is a renowned chain of hotels in India that offers affordability, comfort, and simplicity to a new generation of travelers who value collecting experiences.',
         tags: ['A/B Testing', ' Fully Dynamic CMS', 'Sentry for Analytics'],
@@ -63,7 +64,7 @@ export default class CaseStudiesPostIndexComponent extends Component {
       {
         url: 'paxful',
         poster: '/assets/caseStudy/paxful.png',
-        title: 'Paxful: optimizing a booking system for the Japanese railway network',
+        title: 'Paxful: Building a heavy transaction cryptocurrency exchange platform',
         description:
           'Paxful is a global peer-to-peer platform building a financial system for the 100% — one #Bitcoin at a time. ',
         tags: ['Orderbook Implementation', 'Crypto Exchange', 'Comprehensive User interface'],
