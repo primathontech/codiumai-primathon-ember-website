@@ -55,7 +55,8 @@ export default class CaseStudiesPostIndexComponent extends Component {
       {
         url: 'freshworks',
         poster: '/assets/caseStudy/freshworks.png',
-        title: 'Paxful: Building the Best Crypto Exchange Platform (Case Study)',
+        title:
+          'Freshworks: Build scalable solutions and applications for one of the biggest SAAS solution provider Freshworks',
         description:
           'Freshworks builds tech that works for everyone, making it easy for IT, customer service, sales, marketers and HR to do their job and delight their customers.',
         tags: ['15 custom apps', 'Integrated agileCRM', 'Integrated Frontapp'],
