@@ -78,14 +78,14 @@ You will need the following things properly installed on your computer.
 - Step-1 - `cd /home/ubuntu/projects/primathon-ember-web/`
 - Step-2 - `git checkout master`
 - Step-3 - `git pull origin master`
-- Step-4 - `.bash deploy-to-s3-prod.sh`
+- Step-4 - `bash deploy-to-s3-prod.sh`
 
 ## Production Deployment (From Local)
 
 - Access primathon site server
 - Step-1 - `git checkout master`
 - Step-2 - `git pull origin master`
-- Step-2 - `bash redeploy-prima-site.sh`
+- Step-3 - `bash redeploy-prima-site.sh`
 
 ### Code Generators
 
