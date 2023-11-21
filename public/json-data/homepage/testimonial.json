@@ -25,6 +25,34 @@
       "name": "Ashita Aggarwal",
       "title": "CEO- Stockal",
       "comment": "The work you deliver is commendable. Primathon has wowed the entire team!"
+    },
+    {
+      "profilePicUrl": "/assets/client-head/Vikas-Kapoor.png",
+      "name": "Vikas Kapoor",
+      "title": "Chairman & CEO at Mezocliq",
+      "comment":
+        "Primathon's extensive knowledge swiftly tackles our tech challenges, making them the go-to for seamless solutions in our business."
+    },
+    {
+      "profilePicUrl": "/assets/client-head/Michael-Dotsikas.png",
+      "name": "Michael Dotsikas",
+      "title": "Co-founder - Crypterns",
+      "comment":
+        "Choosing Primathon was a game-changer; their profound tech insights and expert solutions effortlessly resolve challenges, elevating our business efficiency"
+    },
+    {
+      "profilePicUrl": "/assets/client-head/Ray-Youssef.png",
+      "name": "Ray Youssef",
+      "title": "CEO- Paxful",
+      "comment":
+        "Our decision to partner with Primathon stems from their exceptional proficiency in deciphering and resolving intricate technological challenges, enhancing our operational resilience."
+    },
+    {
+      "profilePicUrl": "/assets/client-head/Simon-Munch-Andersen.png",
+      "name": "Simon Munch-Andersen",
+      "title": "CTO- Ultimate AI",
+      "comment":
+        "Primathon's unmatched expertise effortlessly overcomes our business tech hurdles, showcasing their invaluable understanding and effective solutions for sustained success"
     }
   ]
 }
