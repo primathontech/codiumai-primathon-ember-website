@@ -1,7 +1,7 @@
 export const EMBER_HERO_SECTION = {
   heading: 'EMBER JS DEVELOPMENT',
-  paragraph: `Your gateway to remarkable web applications 
-Paragraph: As it’s commonly said, modern problems require modern solutions and EmberJS is a living and breathing example of it. The digital world today is in need of a framework that can manage the complexities of building an efficient web application or website. Ember, an MVC-style JavaScript framework, is the best solution when it comes to delivering a stunning web application. 
+  paragraph: `Your gateway to remarkable web applications.
+As it’s commonly said, modern problems require modern solutions and EmberJS is a living and breathing example of it. The digital world today is in need of a framework that can manage the complexities of building an efficient web application or website. Ember, an MVC-style JavaScript framework, is the best solution when it comes to delivering a stunning web application. 
 `,
   points: [
     { id: 1, value: 'Hire developers who know EmberJS from the inside out ' },

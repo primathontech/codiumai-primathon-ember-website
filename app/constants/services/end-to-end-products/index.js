@@ -1,9 +1,9 @@
 export const BOOKING_PLATFORMS = {
-  title: 'Best Booking System Software Provider Gurgaon',
+  title: 'Best Booking System Software Provider',
   about:
-    ' An online booking system is a software solution that allows potential guests to self-book and pay through your website and other channels.  At Primathon, we are the <b> best booking system software provider Gurgaon.</b>',
+    'An online booking system is a software solution that allows potential guests to self-book and pay through your website and other channels. At Primathon, we provide the best booking system software services and make sure we stay one step ahead at all times.',
   description:
-    'By automatically updating procedures like payment scheduling, inventory management, and booking tracking, it makes the booking process easier for both you and your clients. Primathon is the <b>best online scheduling software company India</b> . The consumers can view all the offered options and reserve the ones they require without jumping between web pages or visiting other websites, it keeps clients on your website!',
+    'By automatically updating procedures like payment scheduling, inventory management, and booking tracking, it makes the booking process easier for both you and your clients. Primathon is the best online scheduling software company. The consumers can view all the offered options and reserve the ones they require without jumping between web pages or visiting other websites, it keeps clients on your website!',
   imgUrl: '/assets/end-to-end-services/booking-platform.png',
   bg: 'booking',
   circular_list: {
@@ -37,11 +37,11 @@ export const BOOKING_PLATFORMS = {
 };
 
 export const SHOPIFY_STORES = {
-  title: ' Expert Shopify Developers India',
+  title: ' Expert Shopify Developers',
   about:
-    'Shopify is an e-commerce platform that allows you to create online shopping websites and start selling your products without any hassle. <b>Hire Shopify Ecommerce Developers Gurgaon</b>',
+    'Shopify is an e-commerce platform that allows you to create online shopping websites and start selling your products without any hassle. Hire the best shopify ecommerce developers today, choose Primathon!',
   description:
-    'Shopify is now being used by 11% eCommerce businesses worldwide. It is secure, fast and reliable!It is excellent for online companies that offer products or services and only need a platform to market and sell it. <b>Hire Professional Shopify Developer Noida</b>. Depending on your business needs, you may use an advanced Shopify homepage section to sell a single item or a number of items. This ultimately raises your ROI and raises the revenue from your online store. You can hire <b>best shopify page builder Delhi</b>. ',
+    'Shopify is now being used by 11% eCommerce businesses worldwide. It is secure, fast and reliable! It is excellent for online companies that offer products or services and only need a platform to market and sell it. Depending on your business needs, you may use an advanced Shopify homepage section to sell a single item or a number of items. This ultimately raises your ROI and raises the revenue from your online store.',
   imgUrl: '/assets/end-to-end-services/shopify.png',
   bg: 'shopify',
   circular_list: {
@@ -75,11 +75,11 @@ export const SHOPIFY_STORES = {
 };
 
 export const DASHBOARDANDDATA = {
-  title: 'Data Visualization Services Provider Delhi',
+  title: 'Data Visualization Services Provider ',
   about:
-    'Dashboard and data visualization is a tool that monitors, analyses, and displays key performance indicators (KPIs), metrics, and key data points. We provide the best <b>Data Analytics and Visualization Services</b>',
+    'Dashboard and data visualization is a tool that monitors, analyses, and displays key performance indicators (KPIs), metrics, and key data points. We provide the best Data Analytics and Visualization Services that you can seek. ',
   description:
-    'It helps both technical and non-technical users understand and use business&nbsp;intelligence and data to make more informed decisions . By gathering data, showing trends or occurrences, and discovering an objective perspective of performance indicators that can be understood right away, users actively participate in the analytics process.  Any organization, no matter the size or the industry, can benefit from tracking their metrics using a dashboard.Contact us if you are looking for a <b>data visualisation service provider in India;</b> we are the most <b>affordable data visualisation service provider.</b>',
+    'It helps both technical and non-technical users understand and use business intelligence and data to make more informed decisions. By gathering data, showing trends or occurrences, and discovering an objective perspective of performance indicators that can be understood right away, users actively participate in the analytics process. Any organization, no matter the size or the industry, can benefit from tracking their metrics using a dashboard. Contact us if you are looking for a data visualisation service provider. We keep quality over everything and ensure that are services stay unmatched in the market.',
   imgUrl: '/assets/end-to-end-services/dashboard.png',
   bg: 'dashboard',
   circular_list: {
@@ -113,11 +113,11 @@ export const DASHBOARDANDDATA = {
 };
 
 export const ADMINPALENANDCMS = {
-  title: 'Admin Panel Development Services Gurgaon',
+  title: 'Admin Panel Development Services',
   sub_heading:
-    'We are there, every step of the way from your idea and your product launch! <b> Top admin panel development company </b>',
+    'We are there every step of the way, from your idea to your product launch! We’re the admin panel development company that you’ve been looking for.',
   about:
-    "It's a tool that gives you access to common administrative operations, server information, project updates. It gives you the access to monitor and update your website.",
+    "It's a tool that gives you access to common administrative operations, server information, and project updates. It gives you the access to monitor and update your website.",
   description:
     "It gives administrators the tools they need to manage business operations effectively, keep tabs on their performance, and make the necessary adjustments. It can help with user-related tasks including managing user profiles and observing user behavior. It can also keep an eye out for violations of the site's rules, terms and conditions, and all transactions.",
   imgUrl: '/assets/end-to-end-services/admin-pannel.png',
@@ -155,9 +155,9 @@ export const ADMINPALENANDCMS = {
 export const APPDEVELOPEMENT = {
   title: 'Web And Mobile App Development Company',
   about:
-    ' It is the method through which programmers build apps for smartphones, tablets, and other platforms-&nbsp;IOS Apps, Android Apps, and Web Apps. We provide <b>web application development services Noida</b>.',
+    'It is the method through which programmers build apps for smartphones, tablets, and other platforms- IOS Apps, Android Apps, and Web Apps. We provide top-notch web application development services worldwide.',
   description:
-    'With the increased use of technology around us, all kinds of organization and businesses are leveraging technology and improving their existing workflow with technology. Applications built for different device need in depth knowledge of ideal practices for building applications for the platforms, what technologies to use, how to use the application to solve not just the primary, but also additional business requirements! ',
+    'With the increased use of technology around us, all kinds of organization and businesses are leveraging technology and improving their existing workflow with technology. Applications built for different device need in depth knowledge of ideal practices for building applications for the platforms, what technologies to use, how to use the application to solve not just the primary, but also additional business requirements!',
   imgUrl: '/assets/end-to-end-services/web-mobile-application.png',
   bg: 'appdevelopment',
   circular_list: {
@@ -302,4 +302,3 @@ export const CONTRACT = {
     ],
   },
 };
-
