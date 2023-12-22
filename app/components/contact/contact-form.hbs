@@ -10,56 +10,33 @@
   </div>
 {{else}}
   <div class="contact-form">
-    <div class="form-name">
-      <label for="firstName" class="form-label">
+    <div class="form-field">
+      <label for="Name" class="form-label">
         <span class="form-label">
-          First name
+          Name
           <span class="required">
             *
           </span>
         </span>
         <Input
-          name="firstName"
+          name="name"
           @type="text"
-          @value={{this.userQuestion.firstName}}
+          @value={{this.userQuestion.name}}
           class="form-input"
-          placeholder="First name"
-          {{on 'focus' (fn this.resetErrorMessage 'firstName')}}
+          placeholder="Name"
+          {{on 'focus' (fn this.resetErrorMessage 'name')}}
         />
       </label>
-      {{#if this.validation.firstName}}
+      {{#if this.validation.name}}
         <span class="errMessage">
-          {{this.validation.firstName}}
-        </span>
-      {{/if}}
-    </div>
-    <div class="form-name">
-      <label for="lastName" class="form-label">
-        <span class="form-label">
-          Last name
-          <span class="required">
-            *
-          </span>
-        </span>
-        <Input
-          name="lastName"
-          @type="text"
-          @value={{this.userQuestion.lastName}}
-          class="form-input"
-          placeholder="Last name"
-          {{on 'focus' (fn this.resetErrorMessage 'lastName')}}
-        />
-      </label>
-      {{#if this.validation.lastName}}
-        <span class="errMessage">
-          {{this.validation.lastName}}
+          {{this.validation.name}}
         </span>
       {{/if}}
     </div>
     <div class="form-field">
       <label for="email" class="form-label">
         <span class="form-label">
-          Email
+          Email Id
           <span class="required">
             *
           </span>
@@ -69,7 +46,7 @@
           @type="email"
           @value={{this.userQuestion.email}}
           class="form-input"
-          placeholder="Email"
+          placeholder="Email Id"
           {{on 'focus' (fn this.resetErrorMessage 'email')}}
         />
       </label>
@@ -82,42 +59,22 @@
     <div class="form-field">
       <label for="phone" class="form-label">
         <span class="form-label">
-          Country code
-          <span class="required">
-            *
-          </span>
-        </span>
-        <Input
-          name="countryCode"
-          @type="text"
-          @value={{this.userQuestion.countryCode}}
-          class="form-input form-input-number"
-          placeholder="Country Code"
-          {{on 'focus' (fn this.resetErrorMessage 'countryCode')}}
-        />
-      </label>
-      {{#if this.validation.countryCode}}
-        <span class="errMessage">
-          {{this.validation.countryCode}}
-        </span>
-      {{/if}}
-    </div>
-    <div class="form-field">
-      <label for="phone" class="form-label">
-        <span class="form-label">
           Phone number
           <span class="required">
             *
           </span>
         </span>
-        <Input
-          name="phone"
-          @type="number"
-          @value={{this.userQuestion.phone}}
-          class="form-input form-input-number"
-          placeholder="Phone number"
-          {{on 'focus' (fn this.resetErrorMessage 'phone')}}
-        />
+        <div class="form-input-number-container">
+          <span  class="form-field-input-number form-input-number form-input-country-code">+91</span>
+          <Input
+            name="phone"
+            @type="number"
+            @value={{this.userQuestion.phone}}
+            class="form-input-number form-field-input-number form-input-number form-input-phone-number"
+            placeholder="Phone number"
+            {{on 'focus' (fn this.resetErrorMessage 'phone')}}
+          />
+        </div>
       </label>
       {{#if this.validation.phone}}
         <span class="errMessage">
@@ -148,36 +105,13 @@
         </span>
       {{/if}}
     </div>
-    <div class="form-field">
-      <label for="message" class="form-label">
-        <span class="form-label">
-          Message
-          <span class="required">
-            *
-          </span>
-        </span>
-        <Textarea
-          name="message"
-          @value={{this.userQuestion.message}}
-          rows={{5}}
-          class="form-input text-area"
-          placeholder="Type your message"
-          {{on 'focus' (fn this.resetErrorMessage 'message')}}
-        />
-      </label>
-      {{#if this.validation.message}}
-        <span class="errMessage">
-          {{this.validation.message}}
-        </span>
-      {{/if}}
-    </div>
     {{#if this.apiError}}
       <span class="errMessage">
         Some error occurred. please try again later.
       </span>
     {{/if}}
     <button type="submit" class="submit-btn" disabled={{this.apiInProgress}} {{on 'click' this.sendMessage}}>
-      SEND MESSAGE
+      REQUEST A CALL BACK
     </button>
   </div>
 {{/if}}

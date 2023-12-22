@@ -19,23 +19,18 @@ export default class ContactContactFormComponent extends Component {
 
   //user questions
   @tracked userQuestion = {
-    firstName: '',
-    lastName: '',
+    name: '',
     email: '',
-    countryCode: '+91',
     phone: '',
     companyName: '',
-    message: '',
   };
 
   //for validation message
   @tracked validation = {
-    firstName: '',
-    lastName: '',
+    name: '',
     email: '',
     phone: '',
     companyName: '',
-    message: '',
   };
 
   //to remove validation message if focus on input
@@ -49,10 +44,6 @@ export default class ContactContactFormComponent extends Component {
     }
   }
 
-  countryCodeValidator(code) {
-    return this._COUNTRY_CODE_REGEX.test(code);
-  }
-
   @action validate() {
     let emailRegex = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
     let validateObj = { ...this.validation };
@@ -62,21 +53,12 @@ export default class ContactContactFormComponent extends Component {
     for (let key in this.userQuestion) {
       formObj[key] = this.userQuestion[key].trim();
     }
-    if (formObj.firstName.length < 1) {
-      validateObj.firstName = 'Please enter valid First name';
-      isValidated = false;
-    }
-    if (formObj.lastName.length < 1) {
-      validateObj.lastName = 'Please enter valid Last name';
+    if (formObj.name.length < 1) {
+      validateObj.name = 'Please enter valid Name';
       isValidated = false;
     }
     if (!emailRegex.test(formObj.email)) {
       validateObj.email = 'Please enter valid email';
-      isValidated = false;
-    }
-
-    if (!this.countryCodeValidator(formObj.countryCode)) {
-      validateObj.countryCode = 'Please enter valid country code';
       isValidated = false;
     }
 
@@ -87,10 +69,6 @@ export default class ContactContactFormComponent extends Component {
 
     if (formObj.companyName.length < 1) {
       validateObj.companyName = 'Please enter valid company name';
-      isValidated = false;
-    }
-    if (formObj.message.length < 10) {
-      validateObj.message = 'Please enter valid message';
       isValidated = false;
     }
     this.validation = validateObj;

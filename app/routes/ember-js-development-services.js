@@ -20,7 +20,7 @@ export default class EmberJsDevelopmentServicesRoute extends Route {
     const description =
       'Are you looking for professional ember js development company in UK, US, India? Hire professional ember js developers and programmers in Primathon.';
     const keywords =
-      'best custom software development company india custom software application development services web application development services india top web application development company delhi best companies for software engineers gurgaon software application development company noida ';
+      'top software development services india custom software application development services web application development services india top web application development company delhi best companies for software engineers gurgaon software application development company noida ';
 
     this.headData.setData({ title, description, keywords });
   }

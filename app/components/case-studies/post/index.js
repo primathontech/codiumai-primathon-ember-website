@@ -70,14 +70,6 @@ export default class CaseStudiesPostIndexComponent extends Component {
           'Paxful is a global peer-to-peer platform building a financial system for the 100% — one #Bitcoin at a time. ',
         tags: ['Orderbook Implementation', 'Crypto Exchange', 'Comprehensive User interface'],
       },
-      {
-        url: 'stockal',
-        poster: '/assets/caseStudy/stockal.png',
-        title: "Stockal's Partnership with Primathon: Revolutionizing Global Investment Management",
-        description:
-          'Stockal powers some of the largest brokerage firms, wealth management companies, robo-advisors, and fintech platforms in India and the Middle East.',
-        tags: ['Data Migration', 'New APIs Creation', 'Backend for CMS'],
-      },
     ];
   }
 

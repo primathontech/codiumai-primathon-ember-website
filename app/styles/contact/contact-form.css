@@ -6,6 +6,32 @@
   clear: both;
 }
 
+.contact-form .form-input-number-container{
+  display: flex;
+}
+
+.contact-form .form-field-input-number {
+  display: inline-block;
+  color: #33475b;
+  border: 1px solid #cbd6e2;
+  border-radius: 3px;
+  padding: 0 15px;
+  min-height: 27px;
+  background-color: #f5f8fa;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.contact-form .form-input-country-code{
+  padding: 8px 8px;
+  width: 10%;
+}
+
+.contact-form .form-input-phone-number{
+  width: 90%; 
+  max-width: 90%;
+}
+
 .contact-form .form-input {
   display: inline-block;
   width: 100%;
