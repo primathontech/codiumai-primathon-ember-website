@@ -28,6 +28,16 @@
     <!-- Google Site Verification -->
     <meta name="google-site-verification" content="I27JvRGQkw8N4GRK7OUNtZ6VuZwxxQkWOE-lAgjQRDE" />
 
+    <!-- Google Tag Manager -->
+    <script>
+      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-TRCR27CH');
+    </script>
+    <!-- End Google Tag Manager -->
+
     <!-- Microsoft Clarity -->
     <script type=“text/javascript”>
         (function(c,l,a,r,i,t,y){
@@ -140,16 +150,16 @@
       rel="stylesheet"
     />
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-JE8T1MS4RZ"></script>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-EEXF1B3HZD"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
+      function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-      gtag('config', 'G-JE8T1MS4RZ');
+
+      gtag('config', 'G-EEXF1B3HZD');
     </script>
+
     <script type="text/javascript">
       window.smartlook ||
         (function (d) {
@@ -168,30 +178,6 @@
       smartlook('init', 'd560f857ea4a58c4c0f0239a5927ea83ea2553be', { region: 'eu' });
     </script>
 
-    <!-- Old -->
-    <!-- Global site tag (gtag.js) - Google Analytics
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-EEXF1B3HZD"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag('js', new Date());
-      gtag('config', 'G-EEXF1B3HZD');
-    </script> -->
-
-    <!-- New -->
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-T2XGJL8TJ2"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag('js', new Date());
-      gtag('config', 'G-T2XGJL8TJ2');
-    </script> -->
-
     {{content-for "head"}}
 
     <link integrity="" rel="stylesheet" href="{{rootURL}}assets/vendor.css" />
@@ -200,6 +186,12 @@
     {{content-for "head-footer"}}
   </head>
   <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TRCR27CH" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
     {{content-for "body"}}
 
     <script src="{{rootURL}}assets/vendor.js"></script>
