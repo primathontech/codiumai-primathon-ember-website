@@ -8,13 +8,32 @@ export const AI_DATA = {
   },
 
   whyChoose: {
-    heading: 'Why choose us for your project?',
-    items: [
-      'Agile Methadology',
-      'User Centric Approach',
-      'On time delivery',
-      'Highly Qualified and',
-      'Experienced Team',
+    title: 'Why choose us for your project?',
+    cardData: [
+      {
+        id: 1,
+        cardTitle: 'On-Time Delivery',
+        cardData:
+          "We prioritize punctuality. With efficient workflows and robust project management, we ensure on-time delivery, meeting deadlines without compromising quality in today's fast-paced business environment.",
+      },
+      {
+        id: 2,
+        cardTitle: 'Highly Qualified and Experienced Team',
+        cardData:
+          'Our highly qualified team brings unmatched expertise and experience to your projects. Carefully selected for proficiency and commitment, we ensure your project receives the attention and skill it deserves.',
+      },
+      {
+        id: 3,
+        cardTitle: 'User-Centric Approach',
+        cardData:
+          'We prioritize users, crafting intuitive solutions through meticulous analysis of their needs. Our user-centric approach ensures engaging, functional solutions that resonate with your audience, meeting project objectives effectively.',
+      },
+      {
+        id: 4,
+        cardTitle: 'Agile Methodology',
+        cardData:
+          "We fully embrace Agile methodologies for flexibility and responsiveness. Through iterative cycles and continuous feedback, we adapt swiftly to evolving requirements, ensuring optimal outcomes throughout your project's lifecycle.",
+      },
     ],
   },
 
@@ -32,7 +51,7 @@ export const AI_DATA = {
 
   primathonHelpAI: {
     heading: 'How does Primathon help you to build credible ',
-    subHeading:'AI software?',
+    subHeading: 'AI software?',
     items: [
       'We understand your requirements',
       'We find solutions at all levels',
