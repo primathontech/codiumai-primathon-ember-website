@@ -13,9 +13,11 @@
 
       {{#each @benefits.cardData as |card|}}
         <div class='card'>
-          <div class='icon'>
-            <img src={{card.imageSrc}} />
-          </div>
+          {{#if card.imageSrc}}
+            <div class='icon'>
+              <img src={{card.imageSrc}} />
+            </div>
+          {{/if}}
           <div class='cardHeading'>
             <h3>{{card.cardTitle}}</h3>
           </div>
