@@ -13,6 +13,7 @@ import {
 
 export default class HeaderIndexComponent extends Component {
   @tracked openMenu = false;
+  @tracked openTechnologiesMenu = false;
   @tracked isHeaderfixed = false;
   @tracked activePrimathon = true;
 
@@ -47,6 +48,8 @@ export default class HeaderIndexComponent extends Component {
         window.gtag('event', MENU_CASE_STUDIES_CLICK);
       } else if (title === 'careers') {
         window.gtag('event', MENU_CAREERS_CLICK);
+      } else if (title === 'technologies') {
+        window.gtag('event', TECHNOLOGIES);
       }
     }
   }
@@ -83,7 +86,11 @@ export default class HeaderIndexComponent extends Component {
   }
 
   @action
-  onMenuOpen() {
-    this.openMenu = !this.openMenu;
+  onMenuOpen(title) {
+    if (title === 'technologies') {
+      this.openTechnologiesMenu = !this.openTechnologiesMenu;
+    } else {
+      this.openMenu = !this.openMenu;
+    }
   }
 }

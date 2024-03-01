@@ -1,0 +1,12 @@
+.react-native-heroSectionContainer {
+  margin-top: 69px;
+  padding: 110px 20px;
+  background-image: url('/assets/react-native/heroSection-bgimg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}

@@ -34,6 +34,11 @@ Router.map(function () {
     });
     this.route('build-and-manage');
   });
+  this.route('technologies', function () {
+    this.route('node-js');
+    //this.route('react-js');
+    this.route('react-native');
+  });
   this.route('case-studies', function () {
     this.route('case-study', { path: '/:post_id' });
     // this.route('index', { path: '/' });
