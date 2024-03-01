@@ -97,3 +97,12 @@
 @import './ai-development/hero-section.css';
 @import './ai-development/introduction.css';
 @import './ai-development/service-provided.css';
+
+/* Technologies */
+@import './technologies/page-options.css';
+
+/* Node Js */
+@import './node-js/hero-section.css';
+
+/* React Native */
+@import './react-native/hero-section.css';
