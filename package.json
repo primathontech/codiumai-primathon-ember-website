@@ -39,6 +39,7 @@
     "ember-cli-app-version": "^5.0.0",
     "ember-cli-babel": "^7.26.3",
     "ember-cli-dependency-checker": "^3.2.0",
+    "ember-cli-deploy-gzip": "^3.0.0",
     "ember-cli-fastboot": "^3.3.2",
     "ember-cli-head": "^2.0.0",
     "ember-cli-htmlbars": "^5.7.1",
@@ -66,14 +67,14 @@
     "eslint-plugin-ember": "^10.3.0",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-prettier": "^3.3.1",
+    "express": "^4.18.2",
     "loader.js": "^4.7.0",
     "npm-run-all": "^4.1.5",
     "postcss-import": "^14.0.2",
     "prettier": "^2.2.1",
     "qunit": "^2.14.1",
     "qunit-dom": "^1.6.0",
-    "tailwindcss": "^2.1.4",
-    "express": "^4.18.2"
+    "tailwindcss": "^2.1.4"
   },
   "engines": {
     "node": "10.* || >= 12"
