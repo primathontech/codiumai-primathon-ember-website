@@ -17,6 +17,15 @@ module.exports = function (environment) {
       },
     },
 
+    // Add deployment pipeline configuration here
+    pipeline: {
+      gzip: {
+        filePattern: '**/*.{hbs,js,css,json,ico,map,xml,txt,svg,eot,ttf,woff,woff2}',
+        ignorePattern: '**/*.gz'
+      },
+      // other plugins in the pipeline...
+    },
+
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created
