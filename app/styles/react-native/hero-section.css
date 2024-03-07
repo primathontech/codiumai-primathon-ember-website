@@ -10,3 +10,9 @@
   align-items: center;
   gap: 16px;
 }
+
+@media only screen and (max-width: 450px) {
+  .react-native-heroSectionContainer {
+    background-image: image-set(url('/assets/react-native/heroSection-bgimg-mobile-1x.png') 1x, url('/assets/react-native/heroSection-bgimg-mobile.webp') 2x, url('/assets/react-native/heroSection-bgimg-mobile.png') 2x);
+  }
+}
