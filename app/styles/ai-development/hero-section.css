@@ -1,7 +1,7 @@
 .aiDevelopment-heroSectionContainer {
   margin-top: 69px;
   padding: 110px 20px;
-  background-image: url('/assets/ai-development/heroSection-bgimg.png');
+  background-image: image-set(url('/assets/ai-development/heroSection-bgimg.webp') 2x, url('/assets/ai-development/heroSection-bgimg-1x.png') 1x, url('/assets/ai-development/heroSection-bgimg.png') 2x);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -53,11 +53,35 @@
   .aiDevelopment-heroSectionContainer {
     padding-left: 40px;
     padding-right: 40px;
-    padding-bottom: 80px;
+    padding-bottom: 100px;
+  }
+
+  .aiDevelopment-heroSectionContainer h1 {
+    font-size: 28px;
+    line-height: 32px;
+  }
+  
+  .aiDevelopment-heroSectionContainer p {
+    font-size: 18px;
+    line-height: 24px;
   }
 }
 
 @media only screen and (max-width: 450px) {
+  .aiDevelopment-heroSectionContainer {
+    background-image: image-set(url('/assets/ai-development/heroSection-bgimg-mobile-1x.png') 1x, url('/assets/ai-development/heroSection-bgimg-mobile.webp') 2x, url('/assets/ai-development/heroSection-bgimg-mobile.png') 2x);
+  }
+
+  .aiDevelopment-heroSectionContainer h1 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  
+  .aiDevelopment-heroSectionContainer p {
+    font-size: 16px;
+    line-height: 21px;
+  }
+
   .aiDevelopment-heroSectionContainer button {
     padding: 16px 48px;
     font-size: 12.0824px;

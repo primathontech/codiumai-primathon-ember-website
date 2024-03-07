@@ -93,3 +93,10 @@
     margin: 25px 10px;
   }
 }
+
+@media only screen and (max-width: 450px) {
+  .chatgpt-getStartedHeadingContainer h1 {
+    font-size: 22px;
+    line-height: 36px;
+  }
+}
