@@ -1,15 +1,15 @@
 <div class='chatgpt-getStartedContainer'>
   <div class='chatgpt-getStartedHeadingContainer'>
-    <h1>
+    <h2>
       {{@gettingStarted.title}}
       <span>{{@gettingStarted.subTitle}}</span>
-    </h1>
+    </h2>
   </div>
 
   <div class='chatgpt-getStartedCardContainer'>
     {{#each @gettingStarted.cardData as |card|}}
     <div class='chatgpt-getStartedCard'>
-      <h1>{{card.cardTitle}}</h1>
+      <h2>{{card.cardTitle}}</h2>
       <p>
         {{card.content}}
       </p>
