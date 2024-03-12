@@ -7,7 +7,7 @@
   padding: 58px 119px;
 }
 
-.chatgpt-getStartedHeadingContainer h1 {
+.chatgpt-getStartedHeadingContainer h2 {
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 500;
@@ -41,7 +41,7 @@
   box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.05);
 }
 
-.chatgpt-getStartedCard h1 {
+.chatgpt-getStartedCard h2 {
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 500;

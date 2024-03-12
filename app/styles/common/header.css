@@ -136,10 +136,7 @@
 
 /* Logo Transition */
 .menu .logo-holder {
-  height: 48px;
   position: relative;
-  max-width: 106px;
-  width: 48px;
   margin-right: 15px;
 }
 
@@ -152,10 +149,8 @@
 }
 
 .menu .logo-holder img {
-  position: absolute;
-  left: 0;
-  top: 0;
-  bottom: 0;
+  width: 197px;
+  height: 48px;
 }
 
 .menu .logo-holder img.visible {

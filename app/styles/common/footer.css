@@ -196,3 +196,35 @@
 .icon-github {
   background: url(/assets/images/icon-github.svg) no-repeat;
 }
+
+.new-icon-twitter {
+  background: url(/assets/svgs/twitterIcon.svg) no-repeat;
+}
+
+.new-icon-youtube {
+  background: url(/assets/svgs/youtubeIcon.svg) no-repeat;
+}
+
+.new-icon-linkedin {
+  background: url(/assets/svgs/linkedinIcon.svg) no-repeat;
+}
+
+.new-icon-instagram {
+  background: url(/assets/svgs/instagramIcon.svg) no-repeat;
+}
+
+.new-icon-facebook {
+  background: url(/assets/svgs/facebookIcon.svg) no-repeat;
+}
+
+.icon-email {
+  background: url(/assets/svgs/emailIcon.svg) no-repeat;
+}
+
+.icon-phone {
+  background: url(/assets/svgs/phoneIcon.svg) no-repeat;
+}
+
+.icon-location {
+  background: url(/assets/svgs/locationIcon.svg) no-repeat;
+}
