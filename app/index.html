@@ -142,13 +142,6 @@
       ]
     </script>
 
-    <!-- Font Family -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap"
-      rel="stylesheet"
-    />
 
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-EEXF1B3HZD"></script>
@@ -194,8 +187,8 @@
 
     {{content-for "body"}}
 
-    <script defer src="{{rootURL}}assets/vendor.js"></script>
-    <script defer src="{{rootURL}}assets/primathon-ember-web.js"></script>
+    <script async src="{{rootURL}}assets/vendor.js"></script>
+    <script async src="{{rootURL}}assets/primathon-ember-web.js"></script>
 
     {{content-for "body-footer"}}
 

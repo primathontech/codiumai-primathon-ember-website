@@ -226,7 +226,7 @@
 
 #hero-general .hero-wrap .hero-content .btn {
   /* font-size: 1.8rem; */
-  padding: 1.8rem 3.25rem;
+  padding: 12px 19px;
   font-weight: 600;
 }
 
@@ -338,5 +338,6 @@
 
   #hero-general .hero-wrap .btn.btn-normal {
     font-size: 1.2rem;
+    padding: 12px 19px;
   }
 }
