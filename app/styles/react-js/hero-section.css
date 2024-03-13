@@ -1,0 +1,24 @@
+.react-js-heroSectionContainer {
+  margin-top: 69px;
+  padding: 110px 20px;
+  background-image: image-set(
+    url('/assets/react-js/heroSection-bgimg.webp'),
+    url('/assets/react-js/heroSection-bgimg.png')
+  );
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+@media only screen and (max-width: 450px) {
+  .react-js-heroSectionContainer {
+    background-image: image-set(
+      url('/assets/react-js/heroSection-bgimg-mobile.webp'),
+      url('/assets/react-js/heroSection-bgimg-mobile.png')
+    );
+  }
+}

@@ -36,7 +36,7 @@ Router.map(function () {
   });
   this.route('technologies', function () {
     this.route('node-js');
-    //this.route('react-js');
+    this.route('react-js');
     this.route('react-native');
   });
   this.route('case-studies', function () {

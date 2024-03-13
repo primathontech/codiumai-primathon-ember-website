@@ -1,0 +1,18 @@
+<Header />
+<div class='app-container'>
+  <Ai-development::Hero-section class='frontend-heroSectionContainer' @heroSection={{@data.frontendData.heroSection}} />
+  <Ai-development::Introduction @intro={{@data.frontendData.serviceByPrimathon}} @imgStyle='w-[500px] h-[310px]' />
+  <Chatgpt::Getting-started @gettingStarted={{@data.frontendData.customizedFrontendDevelopment}} />
+  <Chatgpt::Benefits @benefits={{@data.frontendData.whyChoose}} />
+  <Ai-development::Introduction @intro={{@data.frontendData.primathonApproach}} @imgStyle='w-[420px] h-[300px]' />
+  <Technologies::CtaSection @ctaSection={{@data.frontendData.nextLevelWebDevelopment}} />
+  <Homepage::Testimonial
+    @title={{@data.testinomialData.title}}
+    @description={{@data.testinomialData.description}}
+    @data={{@data.testinomialData.data}}
+  />
+  <Chatgpt::Getting-started @gettingStarted={{@data.frontendData.advantagesOfFrontendDevelopment}} />
+  <Technologies::CtaSection @ctaSection={{@data.frontendData.commenceYourJourneyOfFrontendDevelopment}} />
+  <Ai-development::Introduction @intro={{@data.frontendData.driveInnovation}} @imgStyle='w-[350px] h-[265px]' />
+  <Footer />
+</div>
