@@ -198,8 +198,14 @@
 @media (min-width: 1201px) {
   .video-wrapper {
     width: 500px;
-    height: 500px;
+    height: 400px;
     bottom: -40px;
+  }
+}
+
+@media (min-width: 1430px) {
+  .video-wrapper {
+    height: 500px;
   }
 }
 
@@ -215,6 +221,7 @@
   letter-spacing: 0.35px;
   padding: 19px;
   border-radius: 3px;
+  line-height: 26px;
 }
 
 .btn,
