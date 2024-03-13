@@ -1,44 +1,161 @@
 export const FRONTEND = {
-  title: 'Affordable Front End Development Services',
-  sub_heading:
-    ' We are there, every step of the way from your idea and your product launch! <b> Hire the best front end developer Noida </b>',
-  about:
-    'A developer who creates the interfaces and visual components of websites, programs, and apps is known as a front-end developer, or UI Developer. They are in charge of developing the elements and functionality that the user can see and utilize directly. Primathon provides the <b>top quality front end developers solutions India</b>. Front-end engineers need to be knowledgeable about frameworks like Foundation Backbone, Bootstrap, AngularJS, and EmberJS in addition to having a solid grasp of core coding principles.',
-  data: [
-    {
-      imgUrl: '/assets/frontend/jquery-icon.png',
-      title: 'Jquery',
-    },
-    {
-      imgUrl: '/assets/frontend/vue.png',
-      title: 'Vue JS',
-    },
-    {
-      imgUrl: '/assets/frontend/js.png',
-      title: 'JavaScript',
-    },
-    {
-      imgUrl: '/assets/frontend/react-icon.png',
-      title: 'React JS ',
-    },
-    {
-      imgUrl: '/assets/frontend/angular.png',
-      title: 'Angular JS',
-    },
-    {
-      imgUrl: '/assets/frontend/ember.png',
-      title: 'Ember JS',
-    },
-  ],
-  bg: 'frontend',
-  circular_list: {
-    heading: 'Why your business needs Staff Augmentation from us?',
-    items: [
-      'Detail Oriented developers',
-      'Problem-solving and Analytical Skills',
-      'Extensive knowledge in front-end technologies',
-      'Collaborative and communicative approach',
+  heroSection: {
+    title: 'Affordable Front End Development Services',
+    subTitle: "Transform Your Web Development Experience with Primathon's Front End Services",
+  },
+
+  serviceByPrimathon: {
+    heading: 'Top-Notch Front-End Development Services by Primathon',
+    description: [
+      "Elevate your digital presence with Primathon's top-notch front-end development services. Our  team of professionals comprehends your business objectives and crafts top-tier solutions, leveraging cutting-edge front-end technologies and best practices.",
+      'From web applications to seamless mobile experiences, we excel in delivering robust user engagement across various platforms. Primathon has empowered countless businesses to scale operations and gain a competitive edge.',
     ],
+    buttonText: 'Contact Us',
+    buttonLink: '/contact',
+    imageSrc: '/assets/frontend/serviceByPrimathon.png',
+  },
+
+  customizedFrontendDevelopment: {
+    title: 'Our Offerings: Customized Front End Development Solutions to Achieve Your Business Goals',
+    cardData: [
+      {
+        id: '1',
+        cardTitle: 'Customised Front-End Design and Architecture',
+        content:
+          'We use the latest technologies for captivating and responsive user experiences. Being an experienced front end development company, we merge your vision with expert development capabilities to achieve your goals.',
+      },
+      {
+        id: '2',
+        cardTitle: 'UI/UX Design and Development',
+        content:
+          'From concept to execution, our designers ensure a captivating user experience tailored to your product.',
+      },
+      {
+        id: '3',
+        cardTitle: 'HTML5/CSS Development',
+        content:
+          'With our expertise, we aim to future-proof your digital platform by leveraging HTML5 and CSS components for resilient and targeted business solutions.',
+      },
+      {
+        id: '4',
+        cardTitle: 'Web App Interface Development',
+        content: 'Enhance web app potential with appealing interfaces that convert leads and fuel growth.',
+      },
+      {
+        id: '5',
+        cardTitle: 'Single Page App Development',
+        content:
+          'Because we are a proficient front end development company, we utilize cutting-edge technologies to craft dynamic single-page applications with modern features.',
+      },
+      {
+        id: '6',
+        cardTitle: 'PWA App Development Services',
+        content:
+          'Our specialists create secure and scalable Progressive Web Applications for seamless cross-platform experiences.',
+      },
+    ],
+  },
+
+  whyChoose: {
+    title: 'Why Choose Primathon for Your Front-end Development Needs?',
+    cardData: [
+      {
+        id: 1,
+        cardTitle: 'Cutting-edge Solutions',
+        cardData:
+          'Our experienced developers leverage the latest front-end technologies for unparalleled service quality, ensuring error-free development aligned with industry best practices.',
+      },
+      {
+        id: 2,
+        cardTitle: 'Proven Expertise',
+        cardData:
+          'Benefit from the experience of our highly competent front-end development consultancy, equipped to tackle any TechBiz challenge.',
+      },
+      {
+        id: 3,
+        cardTitle: 'Cost and Time Efficiency',
+        cardData:
+          'Achieve optimal cost and time efficiency by outsourcing front-end services, eliminating the need for lengthy and resource-intensive in-house hiring processes.',
+      },
+      {
+        id: 4,
+        cardTitle: 'Guaranteed Project Delivery',
+        cardData:
+          'Rest assured with our commitment to guaranteed project delivery, ensuring timely completion of milestones.',
+      },
+      {
+        id: 5,
+        cardTitle: 'Uncompromising Quality',
+        cardData:
+          'Rely on our use of native technologies to deliver the best quality solutions tailored to your business needs.',
+      },
+    ],
+  },
+
+  nextLevelWebDevelopment: {
+    title: 'We Offer Next-Level Web Development for Next-Gen Businesses',
+    description: 'Partner with Primathon to experience excellence in Front-end development. Let’s get in touch today.',
+    ctaText: 'Contact Us',
+    ctaRoute: 'contact',
+  },
+
+  primathonApproach: {
+    heading: 'Primathon’s Approach to Front-End Development',
+    description: [
+      'At Primathon, our approach to Front-end development encompasses careful planning, robust development, rigorous testing, and seamless deployment phases. We prioritize scalability, maintainability, and security to deliver web solutions that perfectly align with your business objectives.',
+    ],
+    buttonText: 'Contact Us',
+    buttonLink: '/contact',
+    imageSrc: '/assets/frontend/primathonApproach.png',
+  },
+
+  advantagesOfFrontendDevelopment: {
+    title: 'Advantages of Front End Development Integrated into Our Offerings',
+    cardData: [
+      {
+        id: '1',
+        cardTitle: 'Quality Assurance',
+        content:
+          'Our rigorous testing ensures bug-free applications that meet the highest performance and security standards.',
+      },
+      {
+        id: '2',
+        cardTitle: 'Agile & Adaptive Approach',
+        content: 'We adopt a flexible and adaptive approach to meet evolving project requirements.',
+      },
+      {
+        id: '3',
+        cardTitle: 'Rapid Development',
+        content: 'We prioritize rapid development to deliver results quickly and efficiently.',
+      },
+      {
+        id: '4',
+        cardTitle: 'Flexible Engagement',
+        content: 'Choose from co-development, fixed price, or time and materials models to suit your business needs.',
+      },
+      {
+        id: '5',
+        cardTitle: 'Continuous Support',
+        content: 'Our ongoing maintenance ensures optimal performance and user satisfaction post-launch.',
+      },
+    ],
+  },
+
+  commenceYourJourneyOfFrontendDevelopment: {
+    title: 'Commence Your Journey of Front-End Development Now',
+    description: "Contact us today to discover how our services can elevate your web application's performance.",
+    ctaText: 'Contact Us',
+    ctaRoute: 'contact',
+  },
+
+  driveInnovation: {
+    heading: "Fuel Innovation with Primathon's Front-End Development Services",
+    description: [
+      "Our transparent process ensures adjustments and progress checks, while tailored solutions meet unique business objectives. Foster Innovation with Primathon's Front-End Development Services.",
+    ],
+    buttonText: 'Contact Us',
+    buttonLink: '/contact',
+    imageSrc: '/assets/frontend/driveInnovation.png',
   },
 };
 

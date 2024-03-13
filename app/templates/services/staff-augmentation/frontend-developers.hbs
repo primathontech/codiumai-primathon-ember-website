@@ -1,8 +1,2 @@
-<Pages::Services::StaffAugmentationServices 
-    @title={{this.frontendDeveloperTitle}}
-    @subHeading={{this.frontendDeveloperSubHeading}}
-    @about={{this.frontendDeveloperAbout}}
-    @imgData={{this.frontendDeveloperData}} 
-    @bg={{this.frontendDeveloperBg}}
-    @circular_list={{this.frontendDeveloperCircularList}}
-/>
+{{log @model 'model'}}
+<Pages::Services::StaffAugmentationNewServices @data={{@model}} />

@@ -31,6 +31,12 @@
 @import './about-us/who-we-are.css';
 @import './about-us/we-believe-section.css';
 
+/* Ai development */
+@import './ai-development/common.css';
+@import './ai-development/hero-section.css';
+@import './ai-development/introduction.css';
+@import './ai-development/service-provided.css';
+
 /* Services */
 @import './services/index.css';
 @import './services/hero-section.css';
@@ -92,12 +98,6 @@
 @import './chatgpt/devlopment-integration.css';
 @import './chatgpt/industrySpecificServices.css';
 
-/* Ai development */
-@import './ai-development/common.css';
-@import './ai-development/hero-section.css';
-@import './ai-development/introduction.css';
-@import './ai-development/service-provided.css';
-
 /* Technologies */
 @import './technologies/page-options.css';
 
@@ -106,3 +106,6 @@
 
 /* React Native */
 @import './react-native/hero-section.css';
+
+/* Node Js */
+@import './react-js/hero-section.css';

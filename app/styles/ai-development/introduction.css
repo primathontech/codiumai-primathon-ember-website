@@ -13,7 +13,7 @@
 }
 
 .aiDevelopment-introductionContainer .contentContainer {
-  /* max-width: 670px; */
+  max-width: 765px;
   gap: 31px;
   display: flex;
   flex-direction: column;
@@ -27,7 +27,7 @@
   font-size: 30px;
   line-height: 110%;
   color: #2f2f2f;
-  max-width: 475px;
+  max-width: 540px;
 }
 
 .aiDevelopment-introductionContainer .contentContainer p {
@@ -65,7 +65,7 @@
   }
 
   .aiDevelopment-introductionContainer .contentContainer p,
-  .aiDevelopment-introductionContainer .contentContainer h1 {
+  .aiDevelopment-introductionContainer .contentContainer h2 {
     text-align: center;
   }
 }
