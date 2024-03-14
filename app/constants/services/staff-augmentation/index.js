@@ -2,6 +2,8 @@ export const FRONTEND = {
   heroSection: {
     title: 'Affordable Front End Development Services',
     subTitle: "Transform Your Web Development Experience with Primathon's Front End Services",
+    buttonData: 'Get a Frontend Developer',
+    redirect: '/contact',
   },
 
   serviceByPrimathon: {
