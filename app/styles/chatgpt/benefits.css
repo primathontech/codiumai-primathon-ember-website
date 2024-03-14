@@ -121,6 +121,11 @@
   .chatgpt-benefitsSection .cardContainer {
     margin: 0;
   }
+
+  .chatgpt-benefitsSection .headingContainer .heading {
+    font-size: 24px;
+  }
+
   .chatgpt-benefitsSection .cardContainer .card .icon img {
     height: 55px;
     width: 55px;

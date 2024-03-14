@@ -2,7 +2,9 @@
   <div class='beneitsContainer'>
     <div class='headingContainer'>
       <h2 class='heading'>{{@benefits.title}} <span>{{@benefits.subTitle}}</span></h2>
+      {{#if @benefits.description}}
           <p class="description">{{@benefits.description}}</p>
+      {{/if}}
     </div>
   </div>
   <div class='cardContainer {{if @maxWidthStyle @maxWidthStyle 'max-w-[1400px]'}}'>

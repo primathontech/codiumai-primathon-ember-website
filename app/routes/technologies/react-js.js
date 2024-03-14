@@ -12,9 +12,10 @@ export default class NodeJsRoute extends Route {
   }
 
   beforeModel() {
-    const title = " Enhance Your Experience with Primathon's React.js Development Services";
-    const description = 'Get Best React.js Development Services | Contact Primathon Today';
-    const keywords = 'Get Best React.js Development Services | Contact Primathon Today';
+    const title = 'Get Best React.js Development Services | Hire From Primathon Technology';
+    const description =
+      'With Primathon’s React.js development services, you can now experience seamless UI, integration, and scalability to bring your digital vision into reality.';
+    const keywords = '';
 
     this.headData.setData({ title, description, keywords });
   }

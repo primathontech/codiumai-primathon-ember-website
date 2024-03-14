@@ -22,11 +22,11 @@
 }
 
 .chatgpt-getStartedCardContainer {
-    margin: 35px auto;
-    display: flex;
-    gap: 54px;
-    flex-wrap: wrap;
-    max-width: 1400px;
+  margin: 35px auto;
+  display: flex;
+  gap: 54px;
+  flex-wrap: wrap;
+  max-width: 1400px;
 }
 
 .chatgpt-getStartedCard {
@@ -63,7 +63,6 @@
   margin-bottom: 0;
 }
 
-
 @media only screen and (max-width: 1519px) {
   .chatgpt-getStartedCard {
     width: 350px;
@@ -95,8 +94,8 @@
 }
 
 @media only screen and (max-width: 450px) {
-  .chatgpt-getStartedHeadingContainer h1 {
-    font-size: 22px;
+  .chatgpt-getStartedHeadingContainer h2 {
+    font-size: 24px;
     line-height: 36px;
   }
 }

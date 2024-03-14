@@ -15,8 +15,7 @@ export default class ServicesStaffAugmentationFrontendDevelopersRoute extends Ro
     const title = "Transform Your Web Development Experience with Primathon's Front End Services";
     const description =
       "Seeking outstanding web development services? Primathon's Front-end offerings are designed for businesses, ensuring quality performance on all platforms.";
-    const keywords =
-      'hire the best front end developer noida best front end development services gurgaon top front end development company delhi affordable front end development services top quality front end developers solutions india';
+    const keywords = '';
 
     this.headData.setData({ title, description, keywords });
   }
