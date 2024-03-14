@@ -38,6 +38,7 @@ Router.map(function () {
     this.route('node-js');
     this.route('react-js');
     this.route('react-native');
+    this.route('angular-js');
   });
   this.route('case-studies', function () {
     this.route('case-study', { path: '/:post_id' });

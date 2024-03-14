@@ -1,0 +1,17 @@
+
+/* angular herosection*/
+.angular-heroSectionContainer-bgImg {
+    background-image: image-set(
+      url('/assets/angular-js/heroSection-bgimg.webp'),
+      url('/assets/angular-js/heroSection-bgimg.png')
+    );
+  }
+  
+@media only screen and (max-width: 450px) {
+    .angular-heroSectionContainer-bgImg {
+        background-image: image-set(
+        url('/assets/angular-js/heroSection-bgimg-mobile.webp'),
+        url('/assets/angular-js/heroSection-bgimg-mobile.png')
+        );
+    }
+}
