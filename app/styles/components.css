@@ -100,6 +100,7 @@
 
 /* Technologies */
 @import './technologies/page-options.css';
+@import './technologies/hero-section.css';
 
 /* Node Js */
 @import './node-js/hero-section.css';

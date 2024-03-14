@@ -135,6 +135,14 @@
         >
           React Native
         </LinkTo>
+        <LinkTo
+          @route='technologies.angular-js'
+          class='mobile-menu'
+          @activeClass='current-url'
+          {{on 'click' (fn this.closeOpenMenu 'technologies')}}
+        >
+          Angular Js
+        </LinkTo>
       </div>
       <LinkTo
         @route='case-studies'

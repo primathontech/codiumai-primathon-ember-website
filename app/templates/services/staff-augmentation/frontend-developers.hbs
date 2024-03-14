@@ -1,2 +1,13 @@
-{{log @model 'model'}}
-<Pages::Services::StaffAugmentationNewServices @data={{@model}} />
+<Pages::Services::StaffAugmentationNewServices
+  @data={{@model}}
+  @bgImg={{'frontend-heroSectionContainer-bgImg'}}
+  @heroSection={{@model.frontendData.heroSection}}
+  @serviceByPrimathon={{@model.frontendData.serviceByPrimathon}}
+  @customizedDevelopment={{@model.frontendData.customizedFrontendDevelopment}}
+  @whyChoose={{@model.frontendData.whyChoose}}
+  @primathonApproach={{@model.frontendData.primathonApproach}}
+  @nextLevelDevelopment={{@model.frontendData.nextLevelWebDevelopment}}
+  @advantagesOfDevelopment={{@model.frontendData.advantagesOfFrontendDevelopment}}
+  @commenceYourJourney={{@model.frontendData.commenceYourJourneyOfFrontendDevelopment}}
+  @driveInnovation={{@model.frontendData.driveInnovation}}
+/>
