@@ -9,6 +9,7 @@ import {
   MENU_SERVICES_CLICK,
   MENU_CASE_STUDIES_CLICK,
   MENU_CAREERS_CLICK,
+  TECHNOLOGIES,
 } from '../../constants/event-name';
 
 export default class HeaderIndexComponent extends Component {
