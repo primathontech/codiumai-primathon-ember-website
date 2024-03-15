@@ -1,7 +1,7 @@
 <nav class='menu items-center text-white {{this.extraClass}}' {{on-window-scroll this.onScroll}}>
   <LinkTo @route='index' class='menu-index'>
     <div class='logo-holder' type='div'>
-      <img src='/assets/images/primathon-logo.png' alt='Primathon' />
+      <img src='/assets/images/primathon-logo.png' alt='Primathon' title="Primathon" />
     </div>
     {{!-- <div
       class="logo-holder {{unless this.activePrimathon 'olympic'}}"
@@ -54,9 +54,9 @@
       <p class='menu-service mobile-menu-link' id='our-services' {{on 'click' (fn this.onMenuOpen 'services')}}>
         <span>Our Services</span>
         {{#if this.openMenu}}
-          <img class='up-down-icon' src='/assets/images/arrow-up.svg' height='10px' width='10px' alt='button icon' />
+          <img class='up-down-icon' src='/assets/images/arrow-up.svg' height='10px' width='10px' alt='button icon' title="button icon" />
         {{else}}
-          <img class='up-down-icon' src='/assets/images/arrow-down.svg' height='10px' width='10px' alt='button icon' />
+          <img class='up-down-icon' src='/assets/images/arrow-down.svg' height='10px' width='10px' alt='button icon' title="button icon" />
         {{/if}}
       </p>
       <div class='services-menu {{if this.openMenu "services-menu-open"}} '>
@@ -105,9 +105,9 @@
       <p class='menu-service mobile-menu-link' id='our-services' {{on 'click' (fn this.onMenuOpen 'technologies')}}>
         <span>Technologies</span>
         {{#if this.openTechnologiesMenu}}
-          <img class='up-down-icon' src='/assets/images/arrow-up.svg' height='10px' width='10px' alt='button icon' />
+          <img class='up-down-icon' src='/assets/images/arrow-up.svg' height='10px' width='10px' alt='button icon' title="button icon" />
         {{else}}
-          <img class='up-down-icon' src='/assets/images/arrow-down.svg' height='10px' width='10px' alt='button icon' />
+          <img class='up-down-icon' src='/assets/images/arrow-down.svg' height='10px' width='10px' alt='button icon' title="button icon" />
         {{/if}}
       </p>
       <div class='services-menu {{if this.openTechnologiesMenu "services-menu-open"}} '>
@@ -119,14 +119,14 @@
         >
           Node Js
         </LinkTo>
-        {{!-- <LinkTo
+        <LinkTo
           @route='technologies.react-js'
           class='mobile-menu'
           @activeClass='current-url'
           {{on 'click' (fn this.closeOpenMenu 'technologies')}}
         >
           React Js
-        </LinkTo> --}}
+        </LinkTo>
         <LinkTo
           @route='technologies.react-native'
           class='mobile-menu'
@@ -134,6 +134,14 @@
           {{on 'click' (fn this.closeOpenMenu 'technologies')}}
         >
           React Native
+        </LinkTo>
+        <LinkTo
+          @route='technologies.angular-js'
+          class='mobile-menu'
+          @activeClass='current-url'
+          {{on 'click' (fn this.closeOpenMenu 'technologies')}}
+        >
+          Angular Js
         </LinkTo>
       </div>
       <LinkTo

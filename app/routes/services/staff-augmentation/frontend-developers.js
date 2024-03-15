@@ -1,22 +1,21 @@
 import Route from '@ember/routing/route';
-import { FAQ_DATA } from '../../../constants/services/faq';
 import { FRONTEND } from '../../../constants/services/staff-augmentation';
+import { TESTIMONIAL_DATA } from '../../../constants/homepage/testimonial';
 import { inject as service } from '@ember/service';
 
 export default class ServicesStaffAugmentationFrontendDevelopersRoute extends Route {
   @service headData;
   async model() {
     const frontendData = FRONTEND;
-    const faqData = FAQ_DATA;
-    return { frontendData, faqData };
+    const testinomialData = TESTIMONIAL_DATA;
+    return { frontendData, testinomialData };
   }
 
   beforeModel() {
-    const title = 'Top Quality Front End Developers Solutions India | Primathon';
+    const title = "Transform Your Web Development Experience with Primathon's Front End Services";
     const description =
-      'Primathon provides the top quality front end developers solutions India. Our company is the top front end development company Delhi and Gurgaon cities.';
-    const keywords =
-      'hire the best front end developer noida best front end development services gurgaon top front end development company delhi affordable front end development services top quality front end developers solutions india ';
+      "Seeking outstanding web development services? Primathon's Front-end offerings are designed for businesses, ensuring quality performance on all platforms.";
+    const keywords = '';
 
     this.headData.setData({ title, description, keywords });
   }

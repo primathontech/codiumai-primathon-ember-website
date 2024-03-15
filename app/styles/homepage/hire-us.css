@@ -42,8 +42,8 @@
 
 .pre-footer-wrap h2 {
   color: #fff;
-  font-size: 30px;
-  line-height: 46px;
+  font-size: 26px;
+  line-height: 42px;
   margin-top: 10px;
   margin-bottom: 10px;
   font-weight: bold;
@@ -53,9 +53,9 @@
 .pre-footer-wrap p {
   color: #fff;
   /* font-size: 30px; */
-  font-size: 24px;
+  font-size: 20px;
   letter-spacing: 0;
-  line-height: 42px;
+  line-height: 38px;
   font-family: Poppins, sans-serif;
   margin-bottom: 0;
 }
@@ -91,6 +91,18 @@
 @media (min-width: 1200px) {
   .pre-footer-wrap .container {
     width: 1130px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .pre-footer-wrap h2 {
+    font-size: 22px;
+    line-height: 32px;
+  }
+  
+  .pre-footer-wrap p {
+    font-size: 18px;
+    line-height: 28px;
   }
 }
 

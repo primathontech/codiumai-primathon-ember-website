@@ -9,35 +9,43 @@
 }
 
 .bg-booking {
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/assets/end-to-end-services/booking-platform.png');
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url('/assets/end-to-end-services/booking-platform.png');
 }
 
 .bg-shopify {
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/assets/end-to-end-services/shopify.png');
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url('/assets/end-to-end-services/shopify.png');
 }
 
 .bg-dashboard {
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/assets/end-to-end-services/dashboard.png');
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url('/assets/end-to-end-services/dashboard.png');
 }
 
 .bg-admin {
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/assets/end-to-end-services/admin-pannel.png');
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url('/assets/end-to-end-services/admin-pannel.png');
 }
 
 .bg-appdevelopment {
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/assets/end-to-end-services/web-mobile-application.png');
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url('/assets/end-to-end-services/web-mobile-application.png');
 }
 
 .bg-aiml {
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/assets/end-to-end-services/aiml.png');
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url('/assets/end-to-end-services/aiml.png');
 }
 
 .bg-contract {
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/assets/end-to-end-services/smart-contract.png');
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url('/assets/end-to-end-services/smart-contract.png');
 }
 
 .bg-erc {
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('/assets/end-to-end-services/erc-20.png');
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url('/assets/end-to-end-services/erc-20.png');
 }
 
 .bg-frontend {
@@ -94,4 +102,50 @@
   font-weight: normal;
   font-size: 18px;
   line-height: 28px;
+}
+
+.service-heroSectionContainer {
+  margin-top: 69px;
+  padding: 110px 20px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+/* frontend herosection*/
+.frontend-heroSectionContainer-bgImg {
+  background-image: image-set(
+    url('/assets/frontend/heroSection-bgimg.webp'),
+    url('/assets/frontend/heroSection-bgimg.png')
+  );
+}
+
+@media only screen and (max-width: 450px) {
+  .frontend-heroSectionContainer-bgImg {
+    background-image: image-set(
+      url('/assets/frontend/heroSection-bgimg-mobile.webp'),
+      url('/assets/frontend/heroSection-bgimg-mobile.png')
+    );
+  }
+}
+
+/* backend herosection*/
+.backend-heroSectionContainer-bgImg {
+  background-image: image-set(
+    url('/assets/backend/heroSection-bgimg.webp'),
+    url('/assets/backend/heroSection-bgimg.png')
+  );
+}
+
+@media only screen and (max-width: 450px) {
+  .backend-heroSectionContainer-bgImg {
+    background-image: image-set(
+      url('/assets/backend/heroSection-bgimg-mobile.webp'),
+      url('/assets/backend/heroSection-bgimg-mobile.png')
+    );
+  }
 }
