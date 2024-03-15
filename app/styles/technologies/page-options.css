@@ -1,5 +1,5 @@
 .technology-page-options {
-  height: 230px;
+  height: 420px;
   z-index: 15;
   position: absolute;
   top: 50px;
@@ -32,7 +32,8 @@
   text-align: center;
   color: #ffffff;
   white-space: nowrap;
-  padding-bottom: 6px;
+  padding-bottom: 0px;
+  padding-top: 0;
   border-bottom: 2px solid transparent;
 }
 

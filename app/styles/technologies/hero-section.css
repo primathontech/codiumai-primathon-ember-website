@@ -1,17 +1,91 @@
-
 /* angular herosection*/
 .angular-heroSectionContainer-bgImg {
+  background-image: image-set(
+    url('/assets/angular-js/heroSection-bgimg.webp'),
+    url('/assets/angular-js/heroSection-bgimg.png')
+  );
+}
+
+.python-heroSectionContainer-bgImg {
+  background-image: image-set(
+    url('/assets/python/heroSection-bgimg.webp'),
+    url('/assets/python/heroSection-bgimg.png')
+  );
+}
+
+.javascript-heroSectionContainer-bgImg {
+  background-image: image-set(
+    url('/assets/javascript/heroSection-bgimg.webp'),
+    url('/assets/javascript/heroSection-bgimg.png')
+  );
+}
+
+.ios-heroSectionContainer-bgImg {
+  background-image: image-set(url('/assets/ios/heroSection-bgimg.webp'), url('/assets/ios/heroSection-bgimg.png'));
+}
+
+.android-heroSectionContainer-bgImg {
+  background-image: image-set(
+    url('/assets/android/heroSection-bgimg.webp'),
+    url('/assets/android/heroSection-bgimg.png')
+  );
+}
+
+.vue-heroSectionContainer-bgImg {
+  background-image: image-set(url('/assets/vue/heroSection-bgimg.webp'), url('/assets/vue/heroSection-bgimg.png'));
+}
+
+.swift-heroSectionContainer-bgImg {
+  background-image: image-set(url('/assets/swift/heroSection-bgimg.webp'), url('/assets/swift/heroSection-bgimg.png'));
+}
+
+@media only screen and (max-width: 450px) {
+  .angular-heroSectionContainer-bgImg {
     background-image: image-set(
-      url('/assets/angular-js/heroSection-bgimg.webp'),
-      url('/assets/angular-js/heroSection-bgimg.png')
+      url('/assets/angular-js/heroSection-bgimg-mobile.webp'),
+      url('/assets/angular-js/heroSection-bgimg-mobile.png')
     );
   }
-  
-@media only screen and (max-width: 450px) {
-    .angular-heroSectionContainer-bgImg {
-        background-image: image-set(
-        url('/assets/angular-js/heroSection-bgimg-mobile.webp'),
-        url('/assets/angular-js/heroSection-bgimg-mobile.png')
-        );
-    }
+
+  .python-heroSectionContainer-bgImg {
+    background-image: image-set(
+      url('/assets/python/heroSection-bgimg-mobile.webp'),
+      url('/assets/python/heroSection-bgimg-mobile.png')
+    );
+  }
+
+  .javascript-heroSectionContainer-bgImg {
+    background-image: image-set(
+      url('/assets/javascript/heroSection-bgimg-mobile.webp'),
+      url('/assets/javascript/heroSection-bgimg-mobile.png')
+    );
+  }
+
+  .ios-heroSectionContainer-bgImg {
+    background-image: image-set(
+      url('/assets/ios/heroSection-bgimg-mobile.webp'),
+      url('/assets/ios/heroSection-bgimg-mobile.png')
+    );
+  }
+
+  .android-heroSectionContainer-bgImg {
+    background-image: image-set(
+      url('/assets/android/heroSection-bgimg-mobile.webp'),
+      url('/assets/android/heroSection-bgimg-mobile.png')
+    );
+  }
+
+  .vue-heroSectionContainer-bgImg {
+    background-image: image-set(
+      url('/assets/vue/heroSection-bgimg-mobile.webp'),
+      url('/assets/vue/heroSection-bgimg-mobile.png')
+    );
+  }
+
+  .swift-heroSectionContainer-bgImg {
+    background-image: image-set(
+      url('/assets/swift/heroSection-bgimg-mobile.webp'),
+      url('/assets/swift/heroSection-bgimg-mobile.png')
+    );
+  }
 }
