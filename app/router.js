@@ -39,6 +39,12 @@ Router.map(function () {
     this.route('react-js');
     this.route('react-native');
     this.route('angular-js');
+    this.route('javascript');
+    this.route('android');
+    this.route('python');
+    this.route('ios');
+    this.route('vue');
+    this.route('swift');
   });
   this.route('case-studies', function () {
     this.route('case-study', { path: '/:post_id' });
