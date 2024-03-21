@@ -37,14 +37,7 @@
       <LinkTo @route='index' class='menu-home' {{on 'click' this.closeOpenMenu}}>
         Home
       </LinkTo>
-      <LinkTo
-        @route='about-us'
-        class='menu-about'
-        @activeClass='current-url'
-        {{on 'click' (fn this.closeOpenMenu 'about')}}
-      >
-        About Us
-      </LinkTo>
+      
       <div class='service-page-dialog'>
         <LinkTo @route='services.end-to-end-products' class='menu-service desktop-menu-link'>
           Our Services
@@ -99,17 +92,6 @@
           Build and Manage
         </LinkTo>
       </div>
-      <a href='/blog' class='menu-blog' {{on 'click' (fn this.closeOpenMenu 'blog')}}>
-        Blog
-      </a>
-      <LinkTo
-        @route='careers'
-        class='menu-careers'
-        @activeClass='current-url'
-        {{on 'click' (fn this.closeOpenMenu 'careers')}}
-      >
-        Careers
-      </LinkTo>
       <div class='service-page-dialog'>
         <LinkTo @route='technologies.node-js' class='menu-service desktop-menu-link'>
           Technologies
@@ -227,6 +209,25 @@
         {{on 'click' (fn this.closeOpenMenu 'case-studies')}}
       >
         Case studies
+      </LinkTo>
+      <a href='/blog' class='menu-blog' {{on 'click' (fn this.closeOpenMenu 'blog')}}>
+        Blog
+      </a>
+      <LinkTo
+        @route='about-us'
+        class='menu-about'
+        @activeClass='current-url'
+        {{on 'click' (fn this.closeOpenMenu 'about')}}
+      >
+        About Us
+      </LinkTo>
+      <LinkTo
+        @route='careers'
+        class='menu-careers'
+        @activeClass='current-url'
+        {{on 'click' (fn this.closeOpenMenu 'careers')}}
+      >
+        Careers
       </LinkTo>
       <LinkTo
         @route='contact'
