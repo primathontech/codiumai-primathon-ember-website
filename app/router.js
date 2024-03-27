@@ -59,7 +59,7 @@ Router.map(function () {
 Router.reopen({
   // eslint-disable-next-line ember/no-function-prototype-extensions
   doSomethingOnUrlChange: function () {
-    window.scrollTo(0, 0); // for scroll to top of the page on change route
+    window?.scrollTo(0, 0); // for scroll to top of the page on change route
     window?.gtag?.('config', 'G-JE8T1MS4RZ', {
       page_path: this.url,
     });
