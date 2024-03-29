@@ -2,8 +2,24 @@
 <div class='app-container'>
   <Emberjs::EmberHeroSection @hero={{@data.heroSection}} />
   <Emberjs::EmberOffer @offer={{@data.emberOffer}} />
-  <Emberjs::EmberWork @work={{@data.emberWork}} />
+  <Services::ArrowList @content={{@data.emberRemaingSection.emberJsJourney}} @style='chatGpt-arrowList' />
+  <Chatgpt::Chatgptuse @useCases={{@data.emberRemaingSection.emberJsDevelopment}} />
+  <Chatgpt::Getting-started @gettingStarted={{@data.emberRemaingSection.customizedEmberJsSolution}} />
   <Services::WeAreTrusted />
-  <Homepage::HireUs @sameLink={{true}} />
+  <Chatgpt::Benefits @benefits={{@data.emberRemaingSection.whyChoose}} />
+  <Ai-development::Introduction
+    @intro={{@data.emberRemaingSection.primathonApproach}}
+    @imgStyle='w-[300px] h-[200px]'
+  />
+  <Technologies::CtaSection @ctaSection={{@data.emberRemaingSection.lookingToEmberJsDevelopment}} />
+  <Homepage::Testimonial
+    @title={{@data.testinomialData.title}}
+    @description={{@data.testinomialData.description}}
+    @data={{@data.testinomialData.data}}
+  />
+  <Chatgpt::Getting-started @gettingStarted={{@data.emberRemaingSection.keyBenefitsOfEmberJSDevelopment}} />
+  <Technologies::CtaSection @ctaSection={{@data.emberRemaingSection.unlockInnovationWithEmberJsDevelopment}} />
+  {{!-- <Emberjs::EmberWork @work={{@data.emberWork}} />
+  <Homepage::HireUs @sameLink={{true}} /> --}}
   <Footer />
 </div>

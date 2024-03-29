@@ -1,9 +1,8 @@
 .chatgpt-chatgptUseSection {
-  padding: 58px 0px;
+  padding: 58px 0px 0;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
 }
 
 .chatgpt-chatgptUseSection .headingContainer {
@@ -37,18 +36,18 @@
 
 .chatgpt-chatgptUseSection .cardContainer .card {
   display: flex;
-  padding: 30px 20px;
+  padding: 20px;
   width: 358px;
   border: 1px solid #ffffff;
   border-radius: 5px;
   flex-direction: column;
   align-items: flex-start;
-  margin: 35px;
+  margin: 20px 35px;
 }
 
 .chatgpt-chatgptUseSection .cardContainer .card .icon img {
   height: 50px;
-  width:50px;
+  width: 50px;
 }
 
 .chatgpt-chatgptUseSection .cardContainer .card .cardHeadingContainer .cardHeading {
@@ -99,9 +98,9 @@
     margin: 25px 10px;
   }
   .chatgpt-chatgptUseSection .cardContainer .card .icon img {
-  height: 40px;
-  width: 40px;
-}
+    height: 40px;
+    width: 40px;
+  }
 }
 
 @media only screen and (max-width: 370px) {
