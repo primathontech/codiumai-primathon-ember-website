@@ -20,6 +20,7 @@ Router.map(function () {
       this.route('android-developers');
       this.route('quality-analysts');
       this.route('platform');
+      this.route('ai-chatbot');
     });
     this.route('end-to-end-products', function () {
       this.route('booking-platforms');
