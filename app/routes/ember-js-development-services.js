@@ -1,8 +1,10 @@
 import Route from '@ember/routing/route';
 import { inject as service } from '@ember/service';
+import { EMBER } from '../constants/emberjs/emberjs';
 import { EMBER_HERO_SECTION } from '../constants/emberjs/emberHeroSection';
 import { EMBER_WORK } from '../constants/emberjs/emberWork';
 import { EMBER_OFFER } from '../constants/emberjs/offer';
+import { TESTIMONIAL_DATA } from '../constants/homepage/testimonial';
 
 export default class EmberJsDevelopmentServicesRoute extends Route {
   @service headData;
@@ -11,8 +13,10 @@ export default class EmberJsDevelopmentServicesRoute extends Route {
     const heroSection = EMBER_HERO_SECTION;
     const emberOffer = EMBER_OFFER;
     const emberWork = EMBER_WORK;
+    const emberRemaingSection = EMBER;
+    const testinomialData = TESTIMONIAL_DATA;
 
-    return { heroSection, emberOffer, emberWork };
+    return { heroSection, emberOffer, emberWork, emberRemaingSection, testinomialData };
   }
 
   beforeModel() {
