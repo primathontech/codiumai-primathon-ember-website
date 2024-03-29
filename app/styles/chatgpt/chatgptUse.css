@@ -103,7 +103,7 @@
   }
 }
 
-@media only screen and (max-width: 370px) {
+@media only screen and (max-width: 450px) {
   .chatgpt-chatgptUseSection .cardContainer .card {
     margin-left: 30px;
     margin-right: 30px;
