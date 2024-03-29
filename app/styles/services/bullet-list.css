@@ -1,0 +1,6 @@
+.bullet-list-ul {
+    padding-left: 36px;
+    display: flex;
+    flex-direction: column;
+    list-style-image: url(/assets/svgs/checkmark-icon.svg);
+}

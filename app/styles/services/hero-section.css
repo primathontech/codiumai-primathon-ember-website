@@ -124,15 +124,6 @@
   );
 }
 
-@media only screen and (max-width: 450px) {
-  .frontend-heroSectionContainer-bgImg {
-    background-image: image-set(
-      url('/assets/frontend/heroSection-bgimg-mobile.webp'),
-      url('/assets/frontend/heroSection-bgimg-mobile.png')
-    );
-  }
-}
-
 /* backend herosection*/
 .backend-heroSectionContainer-bgImg {
   background-image: image-set(
@@ -141,11 +132,37 @@
   );
 }
 
+/* ai-chatbot herosection*/
+.ai-chatbot-heroSectionContainer-bgImg {
+  background-image: image-set(
+    url('/assets/ai-chatbot/heroSection-bgimg.webp'),
+    url('/assets/ai-chatbot/heroSection-bgimg.png')
+  );
+}
+
 @media only screen and (max-width: 450px) {
+  /* frontend herosection*/
+  .frontend-heroSectionContainer-bgImg {
+    background-image: image-set(
+      url('/assets/frontend/heroSection-bgimg-mobile.webp'),
+      url('/assets/frontend/heroSection-bgimg-mobile.png')
+    );
+  }
+
+  /* backend herosection*/
   .backend-heroSectionContainer-bgImg {
     background-image: image-set(
       url('/assets/backend/heroSection-bgimg-mobile.webp'),
       url('/assets/backend/heroSection-bgimg-mobile.png')
     );
   }
+
+  /* ai-chatbot herosection*/
+  .ai-chatbot-heroSectionContainer-bgImg {
+    background-image: image-set(
+      url('/assets/ai-chatbot/heroSection-bgimg-mobile.webp'),
+      url('/assets/ai-chatbot/heroSection-bgimg-mobile.png')
+    );
+  }
 }
+
