@@ -112,6 +112,14 @@
         ChatGPT Services
         </LinkTo>        
       </p>
+      <p>
+        <LinkTo
+        class='services-link'
+        @route='services.end-to-end-products.ai-chatbot'
+        >
+        AI Conversational Chatbot
+        </LinkTo>
+      </p>
     {{else if (eq this.hoverRoute this.staffAugmentation)}}
       <p>
         <LinkTo
@@ -167,14 +175,6 @@
         @route="services.staff-augmentation.platform"
         >
         Platform
-        </LinkTo>
-      </p>
-      <p>
-        <LinkTo
-        class='services-link'
-        @route="services.staff-augmentation.ai-chatbot"
-        >
-        AI Conversational Chatbot
         </LinkTo>
       </p>
     {{else if (eq this.hoverRoute this.buildAndManage)}}

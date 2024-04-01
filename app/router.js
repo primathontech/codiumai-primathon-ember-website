@@ -20,7 +20,6 @@ Router.map(function () {
       this.route('android-developers');
       this.route('quality-analysts');
       this.route('platform');
-      this.route('ai-chatbot');
     });
     this.route('end-to-end-products', function () {
       this.route('booking-platforms');
@@ -32,6 +31,7 @@ Router.map(function () {
       this.route('erc20-token');
       this.route('smart-contract');
       this.route('chatgpt');
+      this.route('ai-chatbot');
     });
     this.route('build-and-manage');
   });
