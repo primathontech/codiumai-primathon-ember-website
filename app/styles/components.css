@@ -54,6 +54,7 @@
 @import './services/template-hero-section.css';
 @import './services/end-to-end-services-details.css';
 @import './services/staff-augmentation-services-tech.css';
+@import './services/bullet-list.css';
 
 /* Case Studies */
 @import './case-studies/poster.css';

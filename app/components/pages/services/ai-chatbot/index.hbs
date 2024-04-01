@@ -1,0 +1,16 @@
+<Header />
+<div class='app-container'>
+  <Ai-development::Hero-section class='{{@bgImg}}' @heroSection={{@heroSection}} />
+  <Chatgpt::Getting-started @gettingStarted={{@customizedDevelopment}} />
+  <Services::BulletsList @data={{@bulletList}} />
+  <Chatgpt::Benefits @benefits={{@whyChoose}} />
+  <Chatgpt::Chatgptuse @useCases={{@useCases}} />
+  <Homepage::Testimonial
+    @title={{@data.testinomialData.title}}
+    @description={{@data.testinomialData.description}}
+    @data={{@data.testinomialData.data}}
+  />
+  <Services::FaqList @title={{@faqs.title}} @data={{@faqs.cardData}} />
+  <Technologies::CtaSection @ctaSection={{@areYouReady}} />
+  <Footer />
+</div>

@@ -31,6 +31,7 @@ Router.map(function () {
       this.route('erc20-token');
       this.route('smart-contract');
       this.route('chatgpt');
+      this.route('ai-chatbot');
     });
     this.route('build-and-manage');
   });
