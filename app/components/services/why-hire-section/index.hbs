@@ -1,0 +1,33 @@
+<section class='bg-[#1A284D] px-6 py-10 sm:py-24 sm:px-16 xl:p-24'>
+  <div class='flex flex-col lg:flex-row justify-center items-center sm:items-start gap-16'>
+    <div class='max-w-[630px]'>
+      <h2 class='text-3xl text-white'>{{@data.title}}</h2>
+      <p class='text-base text-gray-300 my-5'>{{@data.description}}</p>
+      <ul class='yellow-list-ul'>
+        {{#each @data.listItems as |item|}}
+          <li key={{item.id}} class='text-base text-gray-300'>
+            {{item.text}}
+          </li>
+        {{/each}}
+      </ul>
+    </div>
+    <div class='flex justify-center flex-wrap gap-4 lg:max-w-[436px]'>
+      <div class='bg-[#E6B800] why-hire-box'>
+        <p class='text-2xl text-white mb-1'>{{@data.service1.number}}</p>
+        <p class='text-sm text-gray-200 text-center mb-0'>{{@data.service1.text}}</p>
+      </div>
+      <div class='bg-[#009933] why-hire-box'>
+        <p class='text-2xl text-white mb-1'>{{@data.service2.number}}</p>
+        <p class='text-sm text-gray-200 text-center mb-0'>{{@data.service2.text}}</p>
+      </div>
+      <div class='bg-[#3366CC] why-hire-box'>
+        <p class='text-2xl text-white mb-1'>{{@data.service3.number}}</p>
+        <p class='text-sm text-gray-200 text-center mb-0'>{{@data.service3.text}}</p>
+      </div>
+      <div class='bg-[#FF3300] why-hire-box'>
+        <p class='text-2xl text-white mb-1'>{{@data.service4.number}}</p>
+        <p class='text-sm text-gray-200 text-center mb-0'>{{@data.service4.text}}</p>
+      </div>
+    </div>
+  </div>
+</section>

@@ -5,11 +5,12 @@ module.exports = {
       sm: '600px',
       md: '950px',
       lg: '1200px',
+      xl: '1550px',
     },
     extend: {
       flex: {
-        '0.75': '0.75 0.75 0%'
-      }
+        0.75: '0.75 0.75 0%',
+      },
     },
   },
   plugins: [],

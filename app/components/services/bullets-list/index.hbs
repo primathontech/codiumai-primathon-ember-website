@@ -1,8 +1,14 @@
 <section class='max-w-[1400px] px-4 py-10 sm:p-10 md:p-20 mx-auto flex items-center justify-between gap-x-6'>
-  <div>
-    <h2 class='mb-6 text-2xl font-medium max-w-[750px] text-center md:text-left'>{{@data.title}}</h2>
+  <div class='max-w-[750px]'>
+    <h2 class='text-2xl font-medium max-w-[750px] text-center md:text-left'>{{@data.title}}</h2>
+    {{#if @data.subtitle}}
+      <p class='text-lg font-medium text-[#198cca] mt-2'>{{@data.subtitle}}</p>
+    {{/if}}
+    {{#if @data.description}}
+      <p class='text-gray-500 mt-2'>{{@data.description}}</p>
+    {{/if}}
     <div>
-      <ul class='bullet-list-ul'>
+      <ul class='bullet-list-ul mt-6'>
         {{#each @data.listItems as |item|}}
           <li key={{item.id}}>
             <p> {{item.text}}</p>
@@ -12,6 +18,11 @@
     </div>
   </div>
   <div class='hidden md:block'>
-    <img src={{@data.imageSrc}} class='w-[350px] h-[350px]' alt={{@data.alt}} title={{@data.alt}} />
+    <img
+      src={{@data.imageSrc}}
+      class='{{if @imgStyle @imgStyle "w-[350px] h-[350px]"}}'
+      alt={{@data.alt}}
+      title={{@data.alt}}
+    />
   </div>
 </section>

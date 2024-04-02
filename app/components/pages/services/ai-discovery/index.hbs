@@ -1,0 +1,20 @@
+<Header />
+<div class='app-container'>
+  <Services::HeroSectionNew @data={{@heroSection}} @imgStyle='w-[500px] h-[500px]' class='bg-[#198CCA]' />
+  <Chatgpt::Benefits @benefits={{@offeringTailoredAIStrategies}} />
+  <Homepage::PartnersSection />
+  <Chatgpt::Getting-started @gettingStarted={{@featuresOfPrimathonAIDiscovery}} />
+  <Services::BulletsList @data={{@seeingAiInAction}} @imgStyle='w-[350px] h-[320px]' />
+  <Services::ArrowList @content={{@aiDiscoveryJourney}} @style='chatGpt-arrowList' />
+  <Services::CircularList @content={{@circularList}} />
+  <Services::LinearList @content={{@linearList}} />
+  <Services::CtaSection @data={{@ctaSection}} />
+  <Services::BulletsList @data={{@potentialWithAIDiscovery}} @imgStyle='w-[330px] h-[300px]' />
+  <Services::WhyHireSection @data={{@whyChoose}} />
+  <Homepage::Testimonial
+    @title={{@data.testinomialData.title}}
+    @description={{@data.testinomialData.description}}
+    @data={{@data.testinomialData.data}}
+  />
+  <Footer />
+</div>
