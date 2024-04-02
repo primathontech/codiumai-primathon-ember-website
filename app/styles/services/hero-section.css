@@ -8,6 +8,21 @@
   overflow: hidden;
 }
 
+.white-bullet-list-ul {
+  padding-left: 25px;
+  display: flex;
+  flex-direction: column;
+  list-style-image: url(/assets/svgs/white-checklist-icon.svg);
+}
+
+.yellow-list-ul {
+  padding-left: 25px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+  list-style-image: url(/assets/svgs/yellow-checklist-icon.svg);
+}
+
 .bg-booking {
   background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url('/assets/end-to-end-services/booking-platform.png');
@@ -165,4 +180,3 @@
     );
   }
 }
-

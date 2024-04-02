@@ -32,6 +32,7 @@ Router.map(function () {
       this.route('smart-contract');
       this.route('chatgpt');
       this.route('ai-chatbot');
+      this.route('ai-discovery');
     });
     this.route('build-and-manage');
   });
