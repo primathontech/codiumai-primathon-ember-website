@@ -17,6 +17,10 @@
 }
 
 @media only screen and (max-width: 365px) {
+  .bullet-list-ul {
+    padding-left: 22px;
+  }
+
   .why-hire-box {
     width: 120px;
     height: 120px;
@@ -24,6 +28,10 @@
 }
 
 @media only screen and (min-width: 365px) and (max-width: 450px) {
+  .bullet-list-ul {
+    padding-left: 22px;
+  }
+
   .why-hire-box {
     width: 150px;
     height: 150px;

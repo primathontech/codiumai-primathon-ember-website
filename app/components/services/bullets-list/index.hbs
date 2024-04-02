@@ -1,11 +1,11 @@
-<section class='max-w-[1400px] px-4 py-10 sm:p-10 md:p-20 mx-auto flex items-center justify-between gap-x-6'>
+<section class='max-w-[1400px] px-6 py-10 sm:p-10 md:p-20 mx-auto flex items-center justify-between gap-x-6'>
   <div class='max-w-[750px]'>
     <h2 class='text-2xl font-medium max-w-[750px] text-center md:text-left'>{{@data.title}}</h2>
     {{#if @data.subtitle}}
-      <p class='text-lg font-medium text-[#198cca] mt-2'>{{@data.subtitle}}</p>
+      <p class='text-lg font-medium text-[#198cca] mt-2 text-center md:text-left'>{{@data.subtitle}}</p>
     {{/if}}
     {{#if @data.description}}
-      <p class='text-gray-500 mt-2'>{{@data.description}}</p>
+      <p class='text-gray-500 mt-2 text-justify'>{{@data.description}}</p>
     {{/if}}
     <div>
       <ul class='bullet-list-ul mt-6'>

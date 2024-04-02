@@ -41,7 +41,7 @@
   width: 175px;
 }
 
-.text:nth-of-type(2n+1){
+.text:nth-of-type(2n + 1) {
   text-align: right;
 }
 
@@ -81,6 +81,11 @@
 }
 
 @media only screen and (max-width: 600px) {
+  .linear-list-container h2 {
+    font-size: 22px;
+    line-height: 36px;
+  }
+
   .linear-list-section {
     display: block;
   }
