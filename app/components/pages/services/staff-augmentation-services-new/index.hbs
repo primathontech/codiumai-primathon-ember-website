@@ -5,17 +5,19 @@
   <Services::ElevateYourProject @data={{@elevateYourProject}} @imgStyle={{@elevateYourProjectImgStyle}} />
   <Services::CtaSection @data={{@ctaSection}} />
   <Chatgpt::Chatgptuse @useCases={{@useCases}} />
+  <Services::CallUs @data={{@data.data.ctaSection1}} />
   <Services::WhyHireSection @data={{@whyChoose}} />
+  <Services::CallUs @data={{@data.data.ctaSection2}} />
   <Services::DevelopmentStrategy @data={{@developmentStrategy}} @imgStyle={{@developmentStrategyImgStyle}} />
   <Services::ArrowList @content={{@journey}} @style='chatGpt-arrowList' />
-
   <Homepage::Testimonial
     @title={{@data.testinomialData.title}}
     @description={{@data.testinomialData.description}}
     @data={{@data.testinomialData.data}}
   />
-  <Technologies::CtaSection @ctaSection={{@hireCta}} />
+  <CaseStudies::Post @data={{@caseStudies}} />
   <Services::Benefits @data={{@benefits}} />
   <Services::ComparisonTable @data={{@table}} />
+  <Services::FaqList @title={{@faqs.title}} @data={{@faqs.cardData}} />
   <Footer />
 </div>
