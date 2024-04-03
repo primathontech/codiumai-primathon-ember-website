@@ -866,3 +866,398 @@ export const PYTHON_DEVELOPER = {
     ],
   },
 };
+
+export const ANGULAR_DEVELOPER = {
+  heroSection: {
+    title1: 'Hire',
+    gradientTitle: 'AngularJS ',
+    title2: 'Developers',
+    subtitle: 'Reasonable, Dedicated Experts for Your Business',
+    description:
+      "Get ready to hire our skilled AngularJS developers to enhance your business’s digital presence! Our committed python developers breathe life into innovation, guaranteeing robust, scalable, and efficient solutions delivered within your project's timeframe.",
+    listItems: [
+      {
+        id: 1,
+        text: '100% Skilled and Certified Developers',
+      },
+      {
+        id: 2,
+        text: 'Possesses an Average of 5+ Years of Experience',
+      },
+      {
+        id: 3,
+        text: 'Swift Onboarding Process',
+      },
+      {
+        id: 4,
+        text: 'Competitive Pricing Models',
+      },
+      {
+        id: 5,
+        text: 'Transparent and Smooth Communication',
+      },
+    ],
+    ctaText1: 'Book a Call',
+    ctaText2: 'Get Free Consultation',
+    imageSrc: '/assets/angular-js/hire-angularJs-herosection-img.png',
+    imageAlt: 'Hire AngularJs Developer',
+  },
+
+  elevateYourProject: {
+    title: 'Elevate Your Project by Hiring Top AngularJS Developers in India',
+    description:
+      "Unlock the full potential of AngularJS for your projects by partnering with our seasoned team of experts. With years of experience and a dedication to innovation, we specialize in delivering bespoke solutions customized to your unique requirements. Contact us today to maximize the power of AngularJS for your projects.",
+    ctaText: 'GET IN TOUCH',
+    redirect: '/contact',
+    imageSrc: '/assets/python/elevate-your-project.png',
+    imageAlt: 'Elevate Your Project',
+  },
+
+  ctaSection: {
+    title: 'Experience Excellence with Our AngularJS Support Services',
+    description:
+      'With years of expertise and a commitment to innovation, we deliver bespoke solutions tailored to your unique requirements. Partner with us and experience the difference',
+    ctaText1: 'Let’s Transform Your Projects!',
+    redirect1: '/contact',
+    ctaText2: 'CONTACT US NOW',
+    redirect2: '#',
+  },
+
+  angularJsDevelopmentServices: {
+    title: 'Explore Our Range of Expert AngularJS Development Services Tailored to Your Needs',
+    cardData: [
+      {
+        id: 1,
+        imageSrc: '/assets/python/python-web-development.png',
+        cardTitle: 'Custom AngularJS Solutions',
+        content:
+          'Unlock the full potential of AngularJS with our custom development solutions. From customized modules to easy applications, we design and deliver AngularJS solutions that meet your specific needs and objectives.',
+      },
+      {
+        id: 2,
+        imageSrc: '/assets/python/machine-learning.png',
+        cardTitle: 'AngularJS Consulting',
+        content:
+          ' Collaborate with our expert AngularJS consultants to verify the scope of your project and create a detailed roadmap for its development.',
+      },
+      {
+        id: 3,
+        imageSrc: '/assets/python/data-analysis.png',
+        cardTitle: 'AngularJS Integration',
+        content:
+          "Seamlessly incorporate AngularJS into your existing systems and platforms with our expert integration services. Enhance your applications with the power and flexibility of AngularJS without disrupting your current workflow.         ",
+      },
+      {
+        id: 4,
+        imageSrc: '/assets/python/ai-development.png',
+        cardTitle: 'AngularJS Migration',
+        content:
+          " Ensure a smooth transition to the latest version of AngularJS with our hassle-free migration services. Seamlessly migrate your project from any platform to the AngularJS framework.",
+      },
+      {
+        id: 5,
+        imageSrc: '/assets/python/backend-development.png',
+        cardTitle: 'AngularJS Support',
+        content:
+          ' Ensure the smooth operation and optimal performance of your AngularJS applications with our comprehensive support services. Our dedicated team resolves issues promptly and provides ongoing assistance to keep your applications running smoothly.',
+      },
+    ],
+  },
+
+  hireDedicatedAngularJsDeveloper: {
+    title: 'Hire Dedicated AngularJS Developers team based on your requirements.',
+    description: 'We provide various hiring engagement models tailored to meet the specific needs of your business.',
+    ctaText: 'Get in touch',
+    ctaRoute: 'contact',
+  },
+
+  whyChoose: {
+    title: 'Why Hire AngularJS Developers from Primathon?',
+    description:
+      'At Primathon, our AngularJS developers stand out for their expertise and dedication. With over 7 years of experience, they have honed their skills in crafting scalable and high-performing AngularJS applications.Our developers stay updated with the latest AngularJS advancements and tools, ensuring your project is built using the most innovative solutions.Security is paramount in our development process. We implement robust measures to shield your AngularJS applications against threats and vulnerabilities.We fine-tune your AngularJS applications for speed and efficiency, delivering exceptional user experiences within your project timeline and budget constraints.',
+    listItems: [
+      { id: 1, text: 'Experience 1.5X Faster Delivery' },
+      { id: 2, text: 'Work at Your Time Zone' },
+      { id: 3, text: 'Hassle-free communication' },
+      { id: 4, text: '24/7 Support' },
+    ],
+    service1: { number: '6+', text: 'Years of business' },
+    service2: { number: '100+', text: 'Softawre Developers' },
+    service3: { number: '150+', text: 'Project Delivered' },
+    service4: { number: '100+', text: 'Happy Client' },
+  },
+
+  elevateYourJourney: {
+    title: 'Want to Create a User-friendly Web Application?',
+    description:
+      "Hire our AngularJS developer to improve your product's usability, satisfaction, and overall user experience.",
+    ctaText: 'Hire AngularJS Developers Remotely ',
+    ctaRoute: '/contact',
+  },
+
+  angularJourney: {
+    heading: 'Let us take your project on a journey!',
+    items: [
+      'You share your idea with us',
+      'We create a strategy for your project',
+      'Our Python Developer starts building it',
+      'We deliver on time ',
+    ],
+  },
+
+  angularJsDevelopmentStrategy: {
+    title: "An Overview of Our AngularJS Development Approach",
+    imageSrc: '/assets/python/development-strategy.png',
+    imageAlt: 'Development Strategy',
+    cardData: [
+      {
+        id: 1,
+        text: 'Requirement Analysis',
+        description:
+          'Our process begins with a thorough analysis of your project requirements, ensuring a clear understanding of your objectives and goals.',
+      },
+      {
+        id: 2,
+        text: 'Planning and Design',
+        description:
+          'We create a comprehensive plan and design layout for your Python project, focusing on usability, scalability, and performance.',
+      },
+      {
+        id: 3,
+        text: 'Development and Testing',
+        description:
+          'Our expert AngularJS developers begin the development phase, implementing robust code and conducting rigorous testing to ensure functionality and reliability.',
+      },
+      {
+        id: 4,
+        text: 'Deployment and Launch',
+        description:
+          'Once development is complete, we deploy your AngularJS solution to the desired environment and ensure a smooth launch, minimizing downtime and disruptions.',
+      },
+      {
+        id: 5,
+        text: 'Monitoring and Support',
+        description:
+          'We provide ongoing monitoring and support services to ensure your AngularJS solution operates smoothly, addressing any issues promptly and efficiently.',
+      },
+    ],
+  },
+
+  benefitsOfHiringAngulaDeveloper: {
+    title1: 'Benefits of Hiring  AngularJS Developers from us',
+    colouredTitle: 'AngularJS Developers',
+    title2: 'from us',
+
+    description:
+      'From free manager service to punctual delivery and precise timesheets, we offer multiple benefits to a client when they hire AngularJS developers from Primathon.',
+    cardData: [
+      {
+        id: 1,
+        title: 'Get a Dedicated Project Manager',
+        description:
+          "No matter what, you'll get a complimentary project manager from us. They'll handle all the nitty-gritty stuff like planning, setting timelines, and making sure everyone's on track. Their job? To guarantee you're getting top-notch results every step of the way with Primathon.",
+        listItems: [
+          'Analyze the Progress of the Project',
+          'Ensure Client Satisfaction',
+          'Keeps you updated throughout the Project',
+        ],
+        imageSrc: '/assets/angular-js/dedicated-project-manager.png',
+        imageAlt: 'Dedicated Project Manager',
+      },
+      {
+        id: 2,
+        title: 'Stay in the Loop with Daily and Monthly Task Records',
+        description:
+          "We provide daily updates and summaries of tasks finished, challenges encountered, and milestones reached. Hire AngularJS Developer from us and at the end of each month, you'll receive a comprehensive timesheet detailing team activities and hours allocated to each task. This will help you to review payments based on completed work.",
+        listItems: ['Keep Tabs on Progress', 'Quality Results', 'Optimize Time Management'],
+        imageSrc: '/assets/angular-js/task-records.png',
+        imageAlt: 'Daily and Monthly Task Records',
+      },
+      {
+        id: 3,
+        title: 'Diverse Talent Pool',
+        description:
+          'When you hire a Python Developer from Primathon, you gain access to a wealth of knowledge spanning various Python frameworks and libraries, ensuring that your project receives the specialized skills it requires.',
+        listItems: ['Decrease the Chances of Project Disruption', 'Simplify Task'],
+        imageSrc: '/assets/python/talent-pool.png',
+        imageAlt: 'Diverse Talent Pool',
+      },
+    ],
+  },
+
+  table: {
+    title: ' Hire Angular JS Developers From Primathon Vs Other Company',
+    tableHeading: ['', 'Primathon', 'Other Company', 'Freelancers'],
+    tableRows: [
+      {
+        id: 1,
+        tableData: [
+          { id: 1, text: 'Failure Rate', bgColor: '#ffffff' },
+          { id: 2, text: 'X', bgColor: '#FFDCDC' },
+          { id: 3, text: 'Low', bgColor: '#ffffff' },
+          { id: 4, text: 'Very Low', bgColor: '#ffffff' },
+        ],
+      },
+
+      {
+        id: 2,
+        tableData: [
+          { id: 1, text: 'Pre-assessed Developers', bgColor: '#ffffff' },
+          { id: 2, text: '✓', bgColor: '#24B768' },
+          { id: 3, text: 'X', bgColor: '#FFDCDC' },
+          { id: 4, text: 'X', bgColor: '#FFDCDC' },
+        ],
+      },
+
+      {
+        id: 3,
+        tableData: [
+          { id: 1, text: 'Results', bgColor: '#ffffff' },
+          { id: 2, text: '100% Premium Quality', bgColor: '#ffffff' },
+          { id: 3, text: 'Good', bgColor: '#ffffff' },
+          { id: 4, text: 'Unsure', bgColor: '#ffffff' },
+        ],
+      },
+
+      {
+        id: 4,
+        tableData: [
+          { id: 1, text: 'Documentation and Security', bgColor: '#ffffff' },
+          { id: 2, text: '✓', bgColor: '#24B768' },
+          { id: 3, text: 'X', bgColor: '#FFDCDC' },
+          { id: 4, text: 'X', bgColor: '#FFDCDC' },
+        ],
+      },
+
+      {
+        id: 5,
+        tableData: [
+          { id: 1, text: 'Rates', bgColor: '#ffffff' },
+          { id: 2, text: 'Reasonable', bgColor: '#ffffff' },
+          { id: 3, text: 'High Cost', bgColor: '#ffffff' },
+          { id: 4, text: 'High Cost', bgColor: '#ffffff' },
+        ],
+      },
+      {
+        id: 6,
+        tableData: [
+          { id: 1, text: 'Quality Guarantee', bgColor: '#ffffff' },
+          { id: 2, text: '✓', bgColor: '#ffffff' },
+          { id: 3, text: 'x', bgColor: '#ffffff' },
+          { id: 4, text: 'x', bgColor: '#ffffff' },
+        ],
+      }
+    ],
+
+    mobileTableData: [
+      {
+        id: 1,
+        title: 'Failure Rate',
+        tableHeading: ['Primathon', 'Other Company', 'Freelancers'],
+        tableData: [
+          { id: 1, text: 'X', bgColor: '#FFDCDC' },
+          { id: 2, text: 'Low', bgColor: '#ffffff' },
+          { id: 3, text: 'Very Low', bgColor: '#ffffff' },
+        ],
+      },
+      {
+        id: 2,
+        title: 'Pre-assessed Developers',
+        tableHeading: ['Primathon', 'Other Company', 'Freelancers'],
+        tableData: [
+          { id: 1, text: '✓', bgColor: '#24B768' },
+          { id: 2, text: 'X', bgColor: '#FFDCDC' },
+          { id: 3, text: 'X', bgColor: '#FFDCDC' },
+        ],
+      },
+      {
+        id: 3,
+        title: 'Results',
+        tableHeading: ['Primathon', 'Other Company', 'Freelancers'],
+        tableData: [
+          { id: 1, text: '100% Premium Quality', bgColor: '#ffffff' },
+          { id: 2, text: 'Good', bgColor: '#ffffff' },
+          { id: 3, text: 'Unsure', bgColor: '#ffffff' },
+        ],
+      },
+      {
+        id: 4,
+        title: 'Documentation and Security',
+        tableHeading: ['Primathon', 'Other Company', 'Freelancers'],
+        tableData: [
+          { id: 1, text: '✓', bgColor: '#24B768' },
+          { id: 2, text: 'X', bgColor: '#FFDCDC' },
+          { id: 3, text: 'X', bgColor: '#FFDCDC' },
+        ],
+      },
+      {
+        id: 5,
+        title: 'Rates',
+        tableHeading: ['Primathon', 'Other Company', 'Freelancers'],
+        tableData: [
+          { id: 1, text: 'Reasonable', bgColor: '#ffffff' },
+          { id: 2, text: 'High Cost', bgColor: '#ffffff' },
+          { id: 3, text: 'High Cost', bgColor: '#ffffff' },
+        ],
+      },
+      {
+        id: 6,
+        title: 'Quality Guarantee',
+        tableHeading: ['Primathon', 'Other Company', 'Freelancers'],
+        tableData: [
+          { id: 1, text: 'Reasonable', bgColor: '#ffffff' },
+          { id: 2, text: 'High Cost', bgColor: '#ffffff' },
+          { id: 3, text: 'High Cost', bgColor: '#ffffff' },
+        ],
+      },
+    ],
+  },
+
+  faqs: {
+    title: 'FAQs',
+    cardData: [
+      {
+        id: 1,
+        question: 'What qualifications and experience do your AngularJS developers have?',
+        answer: [
+          'Our AngularJS developers boast a minimum of 7 years of experience in AngularJS development, showcasing proficiency in a multitude of frameworks and libraries including AngularJS, Angular 2+, and RxJS. They hold degrees in computer science or related disciplines and have an extensive track record of delivering successful projects within the AngularJS ecosystem',
+        ],
+      },
+      {
+        id: 2,
+        question: 'Why hire dedicated AngularJS developers?',
+        answer: [
+          'By bringing in dedicated AngularJS developers, companies can leverage their expertise in utilizing AngularJS to its fullest potential, ensuring efficient development, smooth user experiences, and maintainable codebases.',
+        ],
+      },
+      {
+        id: 3,
+        question: 'What can our AngularJS developers do for you',
+        answer: [
+          'Absolutely! Our AI conversational bot is highly customizable, allowing you to tailor its responses, design, and functionality according to your unique business requirements.',
+          'Personalized AngularJS Consultation',
+           'Web App Development',
+           'Plugin Development',
+           'Version Migration',
+            'Single Page Applications',
+             'Maintenance and Support'
+        ],
+      },
+      {
+        id: 4,
+        question: 'Can I hire an Angular developer for hourly or project-based tasks?',
+        answer: [
+          'Yes! At Primathon, we offer flexible hiring models, like hourly hiring, monthly hiring, and yearly hiring. You can hire an Angular developer on an hourly or project/task basis and flexibly change the hire model type later on',
+        ],
+      },
+      {
+        id: 5,
+        question: 'Will I get post app development support?',
+        answer: [
+          'Yes, we provide post-app development support! With our flexible bucket model, you can hire an AngularJS programmer for a while and avail dedicated app support and maintenance services whenever required, eliminating the need for a full-time programmer onboard',
+        ],
+      },
+    ],
+  },
+};
+
