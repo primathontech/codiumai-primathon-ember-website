@@ -577,11 +577,15 @@ export const PYTHON_DEVELOPER = {
     ],
   },
 
-  hireDedicatedPythonDeveloper: {
-    title: 'Hire Dedicated python Developer team based on your requirements.',
-    description: 'We provide various services tailored to meet the specific needs of your business.',
-    ctaText: 'Get in touch',
-    ctaRoute: 'contact',
+  ctaSection1: {
+    onlyDesc: true,
+    descp1: 'Hire Dedicated',
+    colouredDescp: 'Python Developers',
+    descp2:
+      'team based on your requirements. We provide various hiring engagement models tailored to meet the specific needs of your business.',
+    ctaText: 'GET IN TOUCH',
+    redirect: '/contact',
+    bgColor: '#F4F4F4',
   },
 
   whyChoose: {
@@ -616,6 +620,15 @@ export const PYTHON_DEVELOPER = {
       'Our Python Developer starts building it',
       'We deliver on time ',
     ],
+  },
+
+  ctaSection2: {
+    title: 'Want to Create a User-friendly Web Application?',
+    description:
+      "Hire our Python developer to improve your product's usability, satisfaction, and overall user experience.",
+    ctaText: 'HIRE US',
+    redirect: '/contact',
+    bgColor: '#21315B',
   },
 
   pythonDevelopmentStrategy: {
@@ -802,6 +815,52 @@ export const PYTHON_DEVELOPER = {
           { id: 1, text: 'Reasonable', bgColor: '#ffffff' },
           { id: 2, text: 'High Cost', bgColor: '#ffffff' },
           { id: 3, text: 'High Cost', bgColor: '#ffffff' },
+        ],
+      },
+    ],
+  },
+
+  caseStudies: {
+    title: 'Our Case Studies',
+    subtitle: 'Explore Our Portfolio of Python Development Projects',
+  },
+
+  faqs: {
+    title: 'FAQs',
+    cardData: [
+      {
+        id: 1,
+        question: 'What qualifications and experience do your Python developers have?',
+        answer: [
+          'Our Python developers possess a minimum of 7 years of experience in Python development, with expertise in various frameworks and libraries such as Django, Flask, and NumPy. They hold relevant degrees in computer science or related fields and have completed numerous successful projects.',
+        ],
+      },
+      {
+        id: 2,
+        question: 'How do you ensure the quality and expertise of your Python developers?',
+        answer: [
+          'We employ a rigorous screening process to select only the top-tier Python developers. This includes technical assessments, code reviews, and interviews to evaluate their skills, problem-solving abilities, and communication. Additionally, we regularly assess their performance and provide ongoing training to keep them updated with the latest trends and technologies in Python development.',
+        ],
+      },
+      {
+        id: 3,
+        question: 'What is the typical process for hiring a Python developer from Primathon?',
+        answer: [
+          "The process begins with a consultation to understand your project requirements and goals. We then handpick Python developers from our talent pool whose skills and experience align with your needs. You'll have the opportunity to interview and assess the candidates before making a selection. Once chosen, we facilitate the onboarding process to ensure a smooth integration into your team.",
+        ],
+      },
+      {
+        id: 4,
+        question: 'Can I review portfolios or past projects of your Python developers?',
+        answer: [
+          'Absolutely. We encourage transparency and provide access to portfolios and past projects of our Python developers upon request. This allows you to evaluate their capabilities, coding style, and previous accomplishments to make an informed decision.',
+        ],
+      },
+      {
+        id: 5,
+        question: 'Are there any specific Python frameworks or technologies your developers specialize in?',
+        answer: [
+          'Our Python developers are proficient in a wide range of frameworks and technologies, including but not limited to Django, Flask, Pandas, TensorFlow, and SQLAlchemy. Whether you require web development, data analysis, machine learning, or other Python-related tasks, we have developers with the expertise to fulfill your needs.',
         ],
       },
     ],

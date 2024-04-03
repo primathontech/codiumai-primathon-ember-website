@@ -1,18 +1,20 @@
-<LinkTo class='post-card' @route='case-studies.case-study' @model={{@data.url}}>
-  <img src={{@data.poster}} loading='lazy' alt={{@data.title}} title={{@data.title}} />
-  <div class='detail'>
-    <h3>
-      {{@data.title}}
-    </h3>
-    <p>
-      {{@data.description}}
-    </p>
-    <div class="tags-container">
-      {{#each @data.tags as |tag|}}
-        <div class='post-tag'>
-          {{tag}}
-        </div>
-      {{/each}}
+<LinkTo @route='case-studies.case-study' @model={{@data.url}}>
+  <div class='flex flex-col gap-y-10 items-center max-w-[370px]'>
+    <img src={{@data.poster}} loading='lazy' alt={{@data.title}} title={{@data.title}} />
+    <div class=''>
+      <h3 class='text-2xl text-white'>
+        {{@data.title}}
+      </h3>
+      <p class='text-sm text-white my-5'>
+        {{@data.description}}
+      </p>
+      <div class='flex flex-wrap gap-4'>
+        {{#each @data.tags as |tag|}}
+          <div class='py-1 px-2 border border-solid rounded border-[#31426F] bg-[#31426F] text-white text-xs'>
+            {{tag}}
+          </div>
+        {{/each}}
+      </div>
     </div>
   </div>
 </LinkTo>
