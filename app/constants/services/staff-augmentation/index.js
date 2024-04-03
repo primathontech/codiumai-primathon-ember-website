@@ -807,3 +807,399 @@ export const PYTHON_DEVELOPER = {
     ],
   },
 };
+
+export const JAVASCRIPT = {
+  heroSection: {
+    title1: 'Hire',
+    gradientTitle: 'JavaScript',
+    title2: 'Developers',
+    subtitle: 'Reasonable, Dedicated Experts for Your Business',
+    description:
+      "Discover the proficiency of our premier JavaScript developers to elevate your online footprint. Whether it's tailored solutions or smooth transitions, our seasoned experts guarantee excellence in your endeavors.",
+    listItems: [
+      {
+        id: 1,
+        text: '100% Skilled and Certified Developers',
+      },
+      {
+        id: 2,
+        text: 'Possesses an Average of 5+ Years of Experience',
+      },
+      {
+        id: 3,
+        text: 'Swift Onboarding Process',
+      },
+      {
+        id: 4,
+        text: 'Competitive Pricing Models',
+      },
+      {
+        id: 5,
+        text: 'Transparent and Smooth Communication',
+      },
+    ],
+    ctaText1: 'Book a Call',
+    ctaText2: 'Get Free Consultation',
+    imageSrc: '/assets/javascript/hire-javascript-herosection-img.png',
+    imageAlt: 'Hire JavaScript',
+  },
+
+  elevateYourProject: {
+    title: 'Elevate Your Project with Premier JavaScript Developers in India',
+    description:
+      'Maximize the capabilities of JavaScript for your projects by collaborating with our seasoned team of professionals. With extensive experience and a commitment to creativity, we specialize in delivering tailored solutions tailored to your specific needs. Reach out to us today to harness the full potential of JavaScript for your projects.',
+    ctaText: 'GET IN TOUCH',
+    redirect: '/contact',
+    imageSrc: '/assets/python/elevate-your-project.png',
+    imageAlt: 'Elevate Your Project',
+  },
+
+  ctaSection: {
+    title: ' Enhance Your Project with Our Experienced JavaScript Professionals',
+    description:
+      'With years of expertise and a commitment to innovation, we deliver bespoke solutions tailored to your unique requirements. Partner with us and experience the difference.',
+    ctaText1: 'Ready to Transform Your Project?',
+    redirect1: '/contact',
+    ctaText2: 'Contact us now!',
+    redirect2: '#',
+  },
+
+  javascriptDevelopmentServices: {
+    title: ' Explore Our Range of Expert JavaScript Development Services',
+    cardData: [
+      {
+        id: 1,
+        imageSrc: '/assets/python/python-web-development.png',
+        cardTitle: 'JavaScript Development',
+        content:
+          'Dive into the digital world with our JavaScript development services, crafting innovative and efficient applications with clean, maintainable code.',
+      },
+      {
+        id: 2,
+        imageSrc: '/assets/python/machine-learning.png',
+        cardTitle: 'JavaScript Application Optimization',
+        content:
+          'Enhance your app’s performance with our optimization services, focusing on reducing load times and improving responsiveness for a seamless user experience.',
+      },
+      {
+        id: 3,
+        imageSrc: '/assets/python/data-analysis.png',
+        cardTitle: 'JavaScript Consulting',
+        content:
+          'Gain insights and strategic guidance from our JavaScript experts. We provide consulting services to help you navigate the complexities of JavaScript development and make informed decisions for your projects.',
+      },
+      {
+        id: 4,
+        imageSrc: '/assets/python/ai-development.png',
+        cardTitle: 'JavaScript Web Applications',
+        content:
+          'Build robust and feature-rich web applications with our JavaScript expertise. We create visually appealing and functionally rich applications that provide users with a comprehensive online experience.',
+      },
+      {
+        id: 5,
+        imageSrc: '/assets/python/backend-development.png',
+        cardTitle: 'JavaScript Maintenance',
+        content:
+          'Keep your JavaScript applications up-to-date and running smoothly with our maintenance services. We offer ongoing support to address any issues and implement updates, ensuring your applications remain competitive and secure.',
+      },
+      {
+        id: 6,
+        imageSrc: '/assets/python/scripting-and-automation.png',
+        cardTitle: 'JavaScript UI/UX Design',
+        content:
+          'Create engaging and intuitive user interfaces with our JavaScript UI/UX design services. We focus on enhancing user experience and satisfaction, driving engagement and retention.',
+      },
+    ],
+  },
+
+  hireDedicatedJavaScriptDeveloper: {
+    title: 'Hire Dedicated JavaScript Developer team based on your requirements.',
+    description: 'We provide various hiring engagement models tailored to meet the specific needs of your business.',
+    ctaText: 'Get in touch',
+    ctaRoute: 'contact',
+  },
+
+  whyChoose: {
+    title: 'Why Hire JavaScript Developers from Primathon?',
+    description:
+      'At Primathon, our JavaScript developers excel in both expertise and dedication, boasting over 7 years of industry experience. Leverage the proficiency of our dedicated JavaScript engineers to craft premium websites and applications customized to maximize benefits through event-driven solutions. Benefit from the support of our committed JavaScript developers, ensuring seamless development and the creation of scalable and high-performing applications with flawless implementation. With our adept JavaScript engineers, we are dedicated to simplifying complex development challenges, positioning our team uniquely to deliver exceptional JavaScript development solutions.',
+    listItems: [
+      { id: 1, text: 'Experience 1.5X Faster Delivery' },
+      { id: 2, text: 'Work at Your Time Zone' },
+      { id: 3, text: 'Hassle-free communication' },
+      { id: 4, text: '24/7 Support' },
+    ],
+    service1: { number: '6+', text: 'Years of business' },
+    service2: { number: '100+', text: 'Softawre Developers' },
+    service3: { number: '150+', text: 'Project Delivered' },
+    service4: { number: '100+', text: 'Happy Client' },
+  },
+
+  elevateYourJourney: {
+    title: 'Want to Create a User-friendly Web Application?',
+    description:
+      "Hire our JavaScript  developer to improve your product's usability, satisfaction, and overall user experience.",
+    ctaText: 'Hire JavaScript Developers Remotely',
+    ctaRoute: '/contact',
+  },
+
+  javascriptJourney: {
+    heading: 'Let us take your project on a journey!',
+    items: [
+      'You share your idea with us',
+      'We create a strategy for your project',
+      'Our Python Developer starts building it',
+      'We deliver on time',
+    ],
+  },
+
+  javascriptDevelopmentStrategy: {
+    title: 'An Overview of Our JavaScript Development Approach',
+    imageSrc: '/assets/python/development-strategy.png',
+    imageAlt: 'Development Strategy',
+    cardData: [
+      {
+        id: 1,
+        text: 'Requirement Analysis',
+        description:
+          'We begin by conducting a thorough analysis of your project requirements, ensuring a clear understanding of your objectives and goals.',
+      },
+      {
+        id: 2,
+        text: 'Planning and Design',
+        description:
+          'Next, we create a comprehensive plan and design layout for your JavaScript project, focusing on usability, scalability, and user experience.',
+      },
+      {
+        id: 3,
+        text: 'Development and Testing',
+        description:
+          'Our experienced JavaScript developers commence the development phase, implementing clean and maintainable code. Rigorous testing is conducted to ensure functionality and reliability.',
+      },
+      {
+        id: 4,
+        text: 'Implementation and Optimization',
+        description:
+          'We implement the developed features into your project and optimize performance for enhanced user experience. Load times are minimized, and responsiveness is maximized.',
+      },
+      {
+        id: 5,
+        text: 'Deployment and Support',
+        description:
+          'Once development is complete, we deploy your JavaScript solution to the desired environment. Ongoing support is provided to address any issues and implement updates as needed.',
+      },
+    ],
+  },
+
+  benefitsOfHiringJavascript: {
+    title1: 'Benefits of Hiring ',
+    colouredTitle: 'JavaScript Developers',
+    title2: 'from us',
+
+    description:
+      'From free manager service to punctual delivery and precise timesheets, we offer multiple benefits to a client when they hire JavaScript developers from Primathon.',
+    cardData: [
+      {
+        id: 1,
+        title: 'Get a Dedicated Project Manager',
+        description:
+          "No matter what, you'll get a complimentary project manager from us. They'll handle all the nitty-gritty stuff like planning, setting timelines, and making sure everyone's on track. Their job? To guarantee you're getting top-notch results every step of the way with Primathon.",
+        listItems: [
+          'Analyze the Progress of the Project',
+          'Ensure Client Satisfaction',
+          'Keeps you updated throughout the Project',
+        ],
+        imageSrc: '/assets/javascript/project-manager-discussing-project.png',
+        imageAlt: 'Dedicated Project Manager discussing project',
+      },
+      {
+        id: 2,
+        title: 'Stay in the Loop with Daily and Monthly Task Records',
+        description:
+          "We provide daily updates and summaries of tasks finished, challenges encountered, and milestones reached. Hire Python Developer from us and at the end of each month, you'll receive a comprehensive timesheet detailing team activities and hours allocated to each task. This will help you to review payments based on completed work.",
+        listItems: ['Keep Tabs on Progress', 'Quality Results', 'Optimize Time Management'],
+        imageSrc: '/assets/javascript/task-records.png',
+        imageAlt: 'Daily and Monthly Task Records',
+      },
+      {
+        id: 3,
+        title: 'Diverse Talent Pool',
+        description:
+          'When you hire a Python Developer from Primathon, you gain access to a wealth of knowledge spanning various Python frameworks and libraries, ensuring that your project receives the specialized skills it requires.',
+        listItems: ['Decrease the Chances of Project Disruption', 'Simplify Task'],
+        imageSrc: '/assets/python/talent-pool.png',
+        imageAlt: 'Diverse Talent Pool',
+      },
+    ],
+  },
+
+  table: {
+    title: 'Hire JavaScript Developers From Primathon Vs Other Company',
+    tableHeading: ['', 'Primathon', 'Other Company', 'Freelancers'],
+    tableRows: [
+      {
+        id: 1,
+        tableData: [
+          { id: 1, text: 'Failure Rate', bgColor: '#ffffff' },
+          { id: 2, text: 'X', bgColor: '#FFDCDC' },
+          { id: 3, text: 'Low', bgColor: '#ffffff' },
+          { id: 4, text: 'Very Low', bgColor: '#ffffff' },
+        ],
+      },
+
+      {
+        id: 2,
+        tableData: [
+          { id: 1, text: 'Pre-assessed Developers', bgColor: '#ffffff' },
+          { id: 2, text: '✓', bgColor: '#24B768' },
+          { id: 3, text: 'X', bgColor: '#FFDCDC' },
+          { id: 4, text: 'X', bgColor: '#FFDCDC' },
+        ],
+      },
+
+      {
+        id: 3,
+        tableData: [
+          { id: 1, text: 'Results', bgColor: '#ffffff' },
+          { id: 2, text: '100% Premium Quality', bgColor: '#ffffff' },
+          { id: 3, text: 'Good', bgColor: '#ffffff' },
+          { id: 4, text: 'Unsure', bgColor: '#ffffff' },
+        ],
+      },
+
+      {
+        id: 4,
+        tableData: [
+          { id: 1, text: 'Documentation and Security', bgColor: '#ffffff' },
+          { id: 2, text: '✓', bgColor: '#24B768' },
+          { id: 3, text: 'X', bgColor: '#FFDCDC' },
+          { id: 4, text: 'X', bgColor: '#FFDCDC' },
+        ],
+      },
+
+      {
+        id: 5,
+        tableData: [
+          { id: 1, text: 'Rates', bgColor: '#ffffff' },
+          { id: 2, text: 'Reasonable', bgColor: '#ffffff' },
+          { id: 3, text: 'High Cost', bgColor: '#ffffff' },
+          { id: 4, text: 'High Cost', bgColor: '#ffffff' },
+        ],
+      },
+
+      {
+        id: 6,
+        tableData: [
+          { id: 1, text: 'Quality Guarantee', bgColor: '#ffffff' },
+          { id: 2, text: '✓', bgColor: '#ffffff' },
+          { id: 3, text: 'X', bgColor: '#ffffff' },
+          { id: 4, text: 'Unsure', bgColor: '#ffffff' },
+        ],
+      },
+    ],
+
+    mobileTableData: [
+      {
+        id: 1,
+        title: 'Failure Rate',
+        tableHeading: ['Primathon', 'Other Company', 'Freelancers'],
+        tableData: [
+          { id: 1, text: 'X', bgColor: '#FFDCDC' },
+          { id: 2, text: 'Low', bgColor: '#ffffff' },
+          { id: 3, text: 'Very Low', bgColor: '#ffffff' },
+        ],
+      },
+      {
+        id: 2,
+        title: 'Pre-assessed Developers',
+        tableHeading: ['Primathon', 'Other Company', 'Freelancers'],
+        tableData: [
+          { id: 1, text: '✓', bgColor: '#24B768' },
+          { id: 2, text: 'X', bgColor: '#FFDCDC' },
+          { id: 3, text: 'X', bgColor: '#FFDCDC' },
+        ],
+      },
+      {
+        id: 3,
+        title: 'Results',
+        tableHeading: ['Primathon', 'Other Company', 'Freelancers'],
+        tableData: [
+          { id: 1, text: '100% Premium Quality', bgColor: '#ffffff' },
+          { id: 2, text: 'Good', bgColor: '#ffffff' },
+          { id: 3, text: 'Unsure', bgColor: '#ffffff' },
+        ],
+      },
+      {
+        id: 4,
+        title: 'Documentation and Security',
+        tableHeading: ['Primathon', 'Other Company', 'Freelancers'],
+        tableData: [
+          { id: 1, text: '✓', bgColor: '#24B768' },
+          { id: 2, text: 'X', bgColor: '#FFDCDC' },
+          { id: 3, text: 'X', bgColor: '#FFDCDC' },
+        ],
+      },
+      {
+        id: 5,
+        title: 'Rates',
+        tableHeading: ['Primathon', 'Other Company', 'Freelancers'],
+        tableData: [
+          { id: 1, text: 'Reasonable', bgColor: '#ffffff' },
+          { id: 2, text: 'High Cost', bgColor: '#ffffff' },
+          { id: 3, text: 'High Cost', bgColor: '#ffffff' },
+        ],
+      },
+      {
+        id: 5,
+        title: 'Quality Guarantee',
+        tableHeading: ['Primathon', 'Other Company', 'Freelancers'],
+        tableData: [
+          { id: 1, text: '✓', bgColor: '#ffffff' },
+          { id: 2, text: 'X', bgColor: '#ffffff' },
+          { id: 3, text: 'Unsure', bgColor: '#ffffff' },
+        ],
+      },
+    ],
+  },
+
+  faqs: {
+    title: 'FAQs',
+    cardData: [
+      {
+        id: 1,
+        question: 'What qualifications and experience do your JavaScript developers have?',
+        answer: [
+          'Our JavaScript developers boast a minimum of 7 years of experience in JavaScript development, demonstrating proficiency in various frameworks and libraries such as JavaScript, JavaScript 2+, and RxJS. They hold degrees in computer science or related disciplines and have a proven track record of delivering successful projects within the JavaScript ecosystem.',
+        ],
+      },
+      {
+        id: 2,
+        question: ' Is there demand for JavaScript Developers?',
+        answer: [
+          'Absolutely! There is a significant demand for JavaScript developers in the market. According to Devskiller, 72% of companies are actively seeking to hire JavaScript developers. For top-notch JavaScript developers who can work in your timezone at competitive rates, consider partnering with https://primathon.in/',
+        ],
+      },
+      {
+        id: 3,
+        question: 'How do I hire JavaScript developers?',
+        answer: [
+          'Hiring skilled JavaScript developers can be challenging, but with Turing, an AI-powered talent platform, you can source the best candidates for your company from talent pools worldwide in just a few days and at reasonable prices.',
+        ],
+      },
+      {
+        id: 4,
+        question: 'Will I get post-app development support?',
+        answer: [
+          'Yes, we offer comprehensive post-app development support! Through our flexible bucket model, you can hire a JavaScript programmer for a specified duration and access dedicated app support and maintenance services whenever necessary, eliminating the need for a full-time programmer on your team.',
+        ],
+      },
+      {
+        id: 5,
+        question: 'Can I hire a JavaScript developer for hourly or project-based tasks?',
+        answer: [
+          ' Certainly! At Primathon, we provide flexible hiring models including hourly, monthly, and yearly hiring options. You can hire a JavaScript developer on an hourly or project/task basis and easily adjust the hiring model as per your project requirements.',
+        ],
+      },
+    ],
+  },
+};
