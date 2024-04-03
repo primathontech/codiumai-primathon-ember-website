@@ -1,0 +1,17 @@
+.table-wrapper {
+  justify-content: center;
+  width: 100%;
+}
+
+.table-wrapper table,
+th,
+td {
+  border: 1px solid #d9d9d9;
+}
+
+.table-wrapper .tabledata-wraper td:first-child {
+  color: #2878c8;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+}

@@ -1,0 +1,29 @@
+<section class='px-6 py-10 sm:px-10 sm:py-24 lg:px-16 xl:p-24'>
+  <div class='max-w-[1250px] mx-auto'>
+    <h2 class='text-2xl sm:text-3xl font-semibold text-center'>{{@data.title1}}
+      <span class='text-[#31B76A]'>{{@data.colouredTitle}}</span>
+      {{@data.title2}}</h2>
+    <p class='text-[#3F3F3F] text-center max-w-[830px] mx-auto mt-6 mb-16'>{{@data.description}}</p>
+    <div class='flex flex-col gap-x-10 gap-y-16'>
+      {{#each @data.cardData as |item index|}}
+        <div
+          class='flex items-center justify-between gap-10 flex-col-reverse
+            {{if (is-odd index) "md:flex-row" "md:flex-row-reverse"}}'
+        >
+          <div class='max-w-[608px]'>
+            <p class='text-xl font-semibold text-center'>{{item.title}}</p>
+            <p class='text-gray-400 text-justify'>{{item.description}}</p>
+            <div class='flex flex-wrap gap-5'>
+              {{#each item.listItems as |list|}}
+                <div class='border-[#5fb65d33] border-solid rounded-lg border-2'>
+                  <p class='text-[#878787] text-sm px-3.5 py-2 mb-0'>{{list}}</p>
+                </div>
+              {{/each}}
+            </div>
+          </div>
+          <img src={{item.imageSrc}} alt={{item.imageAlt}} title={{item.imageAlt}} class='w-auto md:w-1/2 lg:w-auto' />
+        </div>
+      {{/each}}
+    </div>
+  </div>
+</section>

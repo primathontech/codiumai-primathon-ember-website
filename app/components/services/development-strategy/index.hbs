@@ -1,0 +1,23 @@
+<section class='px-6 py-10 sm:px-10 sm:py-24 lg:px-16 xl:p-24'>
+  <h2 class='text-2xl sm:text-3xl text-[#05164D] font-semibold text-center mb-10 sm:mb-20'>{{@data.title}}</h2>
+  <div class='flex justify-center items-center gap-x-12'>
+    <img src={{@data.imageSrc}} class='{{@imgStyle}} hidden lg:block' alt={{@data.imageAlt}} title={{@data.imageAlt}} />
+    <div class='flex flex-col gap-y-8'>
+      {{#each @data.cardData as |item|}}
+        <div key={{item.id}} class='flex items-center gap-x-8'>
+          <div
+            class='w-[60px] h-[60px] xl:w-[80px] xl:h-[80px] rounded-full bg-[#198CCA] flex items-center hidden sm:flex'
+            style='flex-shrink: 0'
+          >
+            <p class='text-2xl text-white m-auto'>{{item.id}}</p>
+          </div>
+          <div class='bg-[#EEEEEE] p-4 sm:p-6 rounded-2xl max-w-[550px] xl:max-w-[650px]'>
+            <p class='text-lg text-[#05164D] font-semibold mb-0'>{{item.text}}</p>
+            <p class='text-sm text-[#05164D] mb-0'>{{item.description}}</p>
+          </div>
+        </div>
+      {{/each}}
+
+    </div>
+  </div>
+</section>

@@ -1,0 +1,16 @@
+<section class='py-16 px-6 sm:px-16 xl:p-24'>
+  <div class='flex flex-col lg:flex-row justify-center items-center gap-10'>
+    <img src={{@data.imageSrc}} class='{{@imgStyle}} block' alt={{@data.imageAlt}} title={{@data.imageAlt}} />
+    <div class='max-w-[550px]'>
+      <h2 class='text-2xl sm:text-3xl font-semibold mb-12'>
+        {{@data.title}}
+      </h2>
+      <p class='mt-8 mb-10 sm:mt-12 sm:mb-16'>
+        {{@data.description}}
+      </p>
+      <a href={{@data.redirect}}><button
+          class='rounded border-2 border-[#24B768] border-solid font-medium text-white py-4 px-8 bg-[#24B768]'
+        >{{@data.ctaText}}</button></a>
+    </div>
+  </div>
+</section>
