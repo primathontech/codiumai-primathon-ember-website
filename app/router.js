@@ -18,6 +18,7 @@ Router.map(function () {
       this.route('backend-developers');
       this.route('uiux-designers');
       this.route('android-developers');
+      this.route('python-developers');
       this.route('quality-analysts');
       this.route('platform');
     });

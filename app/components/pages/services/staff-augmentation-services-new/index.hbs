@@ -1,0 +1,21 @@
+<Header />
+<div class='app-container'>
+  <Services::HeroSectionNew @data={{@heroSection}} @imgStyle={{@heroSectionImgStyle}} class={{@heroSectionClass}} />
+  <Homepage::PartnersSection />
+  <Services::ElevateYourProject @data={{@elevateYourProject}} @imgStyle={{@elevateYourProjectImgStyle}} />
+  <Services::CtaSection @data={{@ctaSection}} />
+  <Chatgpt::Chatgptuse @useCases={{@useCases}} />
+  <Services::WhyHireSection @data={{@whyChoose}} />
+  <Services::DevelopmentStrategy @data={{@developmentStrategy}} @imgStyle={{@developmentStrategyImgStyle}} />
+  <Services::ArrowList @content={{@journey}} @style='chatGpt-arrowList' />
+
+  <Homepage::Testimonial
+    @title={{@data.testinomialData.title}}
+    @description={{@data.testinomialData.description}}
+    @data={{@data.testinomialData.data}}
+  />
+  <Technologies::CtaSection @ctaSection={{@hireCta}} />
+  <Services::Benefits @data={{@benefits}} />
+  <Services::ComparisonTable @data={{@table}} />
+  <Footer />
+</div>

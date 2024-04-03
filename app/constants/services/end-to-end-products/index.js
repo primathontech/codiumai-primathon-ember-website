@@ -650,9 +650,8 @@ export const AI_DISCOVERY = {
   },
 
   elevateYourJourney: {
-    title: 'Let us take your project on a journey!',
-    description:
-      'Ready to elevate your software projects? Hire our expert developers and experience unparalleled innovation and efficiency.',
+    title: 'Ready to Elevate Your Software Development Projects?',
+    description: 'Hire Our Expert Developers and Experience Unparalleled Innovation and Efficiency.',
     ctaText: 'Contact Us',
     ctaRoute: 'contact',
   },
