@@ -526,7 +526,7 @@ export const PYTHON_DEVELOPER = {
     ctaText1: 'Get Free Consultation',
     redirect1: '/contact',
     ctaText2: 'View Case Studies',
-    redirect2: '#',
+    redirect2: '#case-studies',
   },
 
   pythonDevelopmentServices: {
@@ -874,7 +874,7 @@ export const ANGULAR_DEVELOPER = {
     title2: 'Developers',
     subtitle: 'Reasonable, Dedicated Experts for Your Business',
     description:
-      "Get ready to hire our skilled AngularJS developers to enhance your business’s digital presence! Our committed python developers breathe life into innovation, guaranteeing robust, scalable, and efficient solutions delivered within your project's timeframe.",
+      'Experience the expertise of our top AngularJS coders to enhance your digital presence. Whether you need custom solutions or seamless migrations, our seasoned professionals ensure your projects shine.',
     listItems: [
       {
         id: 1,
@@ -899,7 +899,7 @@ export const ANGULAR_DEVELOPER = {
     ],
     ctaText1: 'Book a Call',
     ctaText2: 'Get Free Consultation',
-    imageSrc: '/assets/angular-js/hire-angularJs-herosection-img.png',
+    imageSrc: '/assets/angular-js/hire-angularJs-herosection.png',
     imageAlt: 'Hire AngularJs Developer',
   },
 
@@ -917,10 +917,8 @@ export const ANGULAR_DEVELOPER = {
     title: 'Experience Excellence with Our AngularJS Support Services',
     description:
       'With years of expertise and a commitment to innovation, we deliver bespoke solutions tailored to your unique requirements. Partner with us and experience the difference',
-    ctaText1: 'Let’s Transform Your Projects!',
+    ctaText1: 'CONTACT US',
     redirect1: '/contact',
-    ctaText2: 'CONTACT US NOW',
-    redirect2: '#',
   },
 
   angularJsDevelopmentServices: {
@@ -928,35 +926,35 @@ export const ANGULAR_DEVELOPER = {
     cardData: [
       {
         id: 1,
-        imageSrc: '/assets/python/python-web-development.png',
+        imageSrc: '/assets/angular-js/custom-angular-solutions.svg',
         cardTitle: 'Custom AngularJS Solutions',
         content:
           'Unlock the full potential of AngularJS with our custom development solutions. From customized modules to easy applications, we design and deliver AngularJS solutions that meet your specific needs and objectives.',
       },
       {
         id: 2,
-        imageSrc: '/assets/python/machine-learning.png',
+        imageSrc: '/assets/angular-js/angular-consulting.svg',
         cardTitle: 'AngularJS Consulting',
         content:
           ' Collaborate with our expert AngularJS consultants to verify the scope of your project and create a detailed roadmap for its development.',
       },
       {
         id: 3,
-        imageSrc: '/assets/python/data-analysis.png',
+        imageSrc: '/assets/angular-js/angular-integration.svg',
         cardTitle: 'AngularJS Integration',
         content:
           'Seamlessly incorporate AngularJS into your existing systems and platforms with our expert integration services. Enhance your applications with the power and flexibility of AngularJS without disrupting your current workflow.         ',
       },
       {
         id: 4,
-        imageSrc: '/assets/python/ai-development.png',
+        imageSrc: '/assets/angular-js/angular-migration.svg',
         cardTitle: 'AngularJS Migration',
         content:
           ' Ensure a smooth transition to the latest version of AngularJS with our hassle-free migration services. Seamlessly migrate your project from any platform to the AngularJS framework.',
       },
       {
         id: 5,
-        imageSrc: '/assets/python/backend-development.png',
+        imageSrc: '/assets/angular-js/angular-support.svg',
         cardTitle: 'AngularJS Support',
         content:
           ' Ensure the smooth operation and optimal performance of your AngularJS applications with our comprehensive support services. Our dedicated team resolves issues promptly and provides ongoing assistance to keep your applications running smoothly.',
@@ -964,11 +962,15 @@ export const ANGULAR_DEVELOPER = {
     ],
   },
 
-  hireDedicatedAngularJsDeveloper: {
-    title: 'Hire Dedicated AngularJS Developers team based on your requirements.',
-    description: 'We provide various hiring engagement models tailored to meet the specific needs of your business.',
-    ctaText: 'Get in touch',
-    ctaRoute: 'contact',
+  ctaSection1: {
+    onlyDesc: true,
+    descp1: 'Hire Dedicated',
+    colouredDescp: 'AngularJS Developers',
+    descp2:
+      'team based on your requirements. We provide various hiring engagement models tailored to meet the specific needs of your business.',
+    ctaText: 'GET IN TOUCH',
+    redirect: '/contact',
+    bgColor: '#F4F4F4',
   },
 
   whyChoose: {
@@ -987,27 +989,28 @@ export const ANGULAR_DEVELOPER = {
     service4: { number: '100+', text: 'Happy Client' },
   },
 
-  elevateYourJourney: {
+  ctaSection2: {
     title: 'Want to Create a User-friendly Web Application?',
     description:
       "Hire our AngularJS developer to improve your product's usability, satisfaction, and overall user experience.",
-    ctaText: 'Hire AngularJS Developers Remotely ',
-    ctaRoute: '/contact',
+    ctaText: 'HIRE US',
+    redirect: '/contact',
+    bgColor: '#21315B',
   },
 
-  angularJourney: {
+  angularJsJourney: {
     heading: 'Let us take your project on a journey!',
     items: [
       'You share your idea with us',
       'We create a strategy for your project',
-      'Our Python Developer starts building it',
+      'Our AngularJS Developer starts building it',
       'We deliver on time ',
     ],
   },
 
   angularJsDevelopmentStrategy: {
     title: 'An Overview of Our AngularJS Development Approach',
-    imageSrc: '/assets/python/development-strategy.png',
+    imageSrc: '/assets/angular-js/development-strategy.png',
     imageAlt: 'Development Strategy',
     cardData: [
       {
@@ -1142,9 +1145,9 @@ export const ANGULAR_DEVELOPER = {
         id: 6,
         tableData: [
           { id: 1, text: 'Quality Guarantee', bgColor: '#ffffff' },
-          { id: 2, text: '✓', bgColor: '#ffffff' },
-          { id: 3, text: 'x', bgColor: '#ffffff' },
-          { id: 4, text: 'x', bgColor: '#ffffff' },
+          { id: 2, text: '✓', bgColor: '#24B768' },
+          { id: 3, text: 'x', bgColor: '#FFDCDC' },
+          { id: 4, text: 'Unsure', bgColor: '#fffff' },
         ],
       },
     ],
@@ -1205,12 +1208,17 @@ export const ANGULAR_DEVELOPER = {
         title: 'Quality Guarantee',
         tableHeading: ['Primathon', 'Other Company', 'Freelancers'],
         tableData: [
-          { id: 1, text: 'Reasonable', bgColor: '#ffffff' },
-          { id: 2, text: 'High Cost', bgColor: '#ffffff' },
-          { id: 3, text: 'High Cost', bgColor: '#ffffff' },
+          { id: 1, text: '✓', bgColor: '#24B768' },
+          { id: 2, text: 'X', bgColor: '#FFDCDC' },
+          { id: 3, text: 'Unsure', bgColor: '#FFDCDC' },
         ],
       },
     ],
+  },
+
+  caseStudies: {
+    title: 'Our Case Studies',
+    subtitle: 'Explore Our Portfolio of Angular.js Development Projects',
   },
 
   faqs: {
@@ -1311,10 +1319,8 @@ export const JAVASCRIPT = {
     title: ' Enhance Your Project with Our Experienced JavaScript Professionals',
     description:
       'With years of expertise and a commitment to innovation, we deliver bespoke solutions tailored to your unique requirements. Partner with us and experience the difference.',
-    ctaText1: 'Ready to Transform Your Project?',
+    ctaText1: 'CONTACT US',
     redirect1: '/contact',
-    ctaText2: 'Contact us now!',
-    redirect2: '#',
   },
 
   javascriptDevelopmentServices: {
@@ -1322,42 +1328,42 @@ export const JAVASCRIPT = {
     cardData: [
       {
         id: 1,
-        imageSrc: '/assets/python/python-web-development.png',
+        imageSrc: '/assets/angular-js/custom-angular-solutions.svg',
         cardTitle: 'JavaScript Development',
         content:
           'Dive into the digital world with our JavaScript development services, crafting innovative and efficient applications with clean, maintainable code.',
       },
       {
         id: 2,
-        imageSrc: '/assets/python/machine-learning.png',
+        imageSrc: '/assets/python/data-analysis.png',
         cardTitle: 'JavaScript Application Optimization',
         content:
           'Enhance your app’s performance with our optimization services, focusing on reducing load times and improving responsiveness for a seamless user experience.',
       },
       {
         id: 3,
-        imageSrc: '/assets/python/data-analysis.png',
+        imageSrc: '/assets/angular-js/angular-consulting.svg',
         cardTitle: 'JavaScript Consulting',
         content:
           'Gain insights and strategic guidance from our JavaScript experts. We provide consulting services to help you navigate the complexities of JavaScript development and make informed decisions for your projects.',
       },
       {
         id: 4,
-        imageSrc: '/assets/python/ai-development.png',
+        imageSrc: '/assets/python/python-web-development.png',
         cardTitle: 'JavaScript Web Applications',
         content:
           'Build robust and feature-rich web applications with our JavaScript expertise. We create visually appealing and functionally rich applications that provide users with a comprehensive online experience.',
       },
       {
         id: 5,
-        imageSrc: '/assets/python/backend-development.png',
+        imageSrc: '/assets/javascript/javaScript-maintenance.svg',
         cardTitle: 'JavaScript Maintenance',
         content:
           'Keep your JavaScript applications up-to-date and running smoothly with our maintenance services. We offer ongoing support to address any issues and implement updates, ensuring your applications remain competitive and secure.',
       },
       {
         id: 6,
-        imageSrc: '/assets/python/scripting-and-automation.png',
+        imageSrc: '/assets/javascript/javaScript-design.svg',
         cardTitle: 'JavaScript UI/UX Design',
         content:
           'Create engaging and intuitive user interfaces with our JavaScript UI/UX design services. We focus on enhancing user experience and satisfaction, driving engagement and retention.',
@@ -1365,11 +1371,15 @@ export const JAVASCRIPT = {
     ],
   },
 
-  hireDedicatedJavaScriptDeveloper: {
-    title: 'Hire Dedicated JavaScript Developer team based on your requirements.',
-    description: 'We provide various hiring engagement models tailored to meet the specific needs of your business.',
-    ctaText: 'Get in touch',
-    ctaRoute: 'contact',
+  ctaSection1: {
+    onlyDesc: true,
+    descp1: 'Hire Dedicated',
+    colouredDescp: 'JavaScript Developers',
+    descp2:
+      'team based on your requirements. We provide various hiring engagement models tailored to meet the specific needs of your business.',
+    ctaText: 'GET IN TOUCH',
+    redirect: '/contact',
+    bgColor: '#F4F4F4',
   },
 
   whyChoose: {
@@ -1388,14 +1398,6 @@ export const JAVASCRIPT = {
     service4: { number: '100+', text: 'Happy Client' },
   },
 
-  elevateYourJourney: {
-    title: 'Want to Create a User-friendly Web Application?',
-    description:
-      "Hire our JavaScript  developer to improve your product's usability, satisfaction, and overall user experience.",
-    ctaText: 'Hire JavaScript Developers Remotely',
-    ctaRoute: '/contact',
-  },
-
   javascriptJourney: {
     heading: 'Let us take your project on a journey!',
     items: [
@@ -1406,9 +1408,18 @@ export const JAVASCRIPT = {
     ],
   },
 
+  ctaSection2: {
+    title: 'Want to Create a User-friendly Web Application?',
+    description:
+      "Hire our JavaScript  developer to improve your product's usability, satisfaction, and overall user experience.",
+    ctaText: 'HIRE US',
+    redirect: '/contact',
+    bgColor: '#21315B',
+  },
+
   javascriptDevelopmentStrategy: {
     title: 'An Overview of Our JavaScript Development Approach',
-    imageSrc: '/assets/python/development-strategy.png',
+    imageSrc: '/assets/javascript/development-strategy.png',
     imageAlt: 'Development Strategy',
     cardData: [
       {
@@ -1544,9 +1555,9 @@ export const JAVASCRIPT = {
         id: 6,
         tableData: [
           { id: 1, text: 'Quality Guarantee', bgColor: '#ffffff' },
-          { id: 2, text: '✓', bgColor: '#ffffff' },
-          { id: 3, text: 'X', bgColor: '#ffffff' },
-          { id: 4, text: 'Unsure', bgColor: '#ffffff' },
+          { id: 2, text: '✓', bgColor: '#24B768' },
+          { id: 3, text: 'X', bgColor: '#FFDCDC' },
+          { id: 4, text: 'Unsure', bgColor: '#FFDCDC' },
         ],
       },
     ],
@@ -1607,12 +1618,17 @@ export const JAVASCRIPT = {
         title: 'Quality Guarantee',
         tableHeading: ['Primathon', 'Other Company', 'Freelancers'],
         tableData: [
-          { id: 1, text: '✓', bgColor: '#ffffff' },
-          { id: 2, text: 'X', bgColor: '#ffffff' },
-          { id: 3, text: 'Unsure', bgColor: '#ffffff' },
+          { id: 1, text: '✓', bgColor: '#24B768' },
+          { id: 2, text: 'X', bgColor: '#FFDCDC' },
+          { id: 3, text: 'Unsure', bgColor: '#FFDCDC' },
         ],
       },
     ],
+  },
+
+  caseStudies: {
+    title: 'Our Case Studies',
+    subtitle: 'Explore Our Portfolio of JavaScript Development Projects',
   },
 
   faqs: {
