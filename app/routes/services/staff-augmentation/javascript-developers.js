@@ -12,9 +12,9 @@ export default class ServicesStaffAugmentationPythonDevelopersRoute extends Rout
   }
 
   beforeModel() {
-    const title = 'Hire AngularJS  Developers | Contact Primathon';
+    const title = 'Hire JavaScript Developers | Dedicated & Certified JavaScript Programmers | Primathon';
     const description =
-      ' Hire AngularJS Developers at Primathon for solutions tailored to your needs. Trust our professionals and expert team for seamless integration. Get started today!';
+      'Hire JavaScript Developers from Primathon for tailored solutions. From bespoke to seamless integration, trust our certified experts. Get started now!';
 
     this.headData.setData({ title, description });
   }
