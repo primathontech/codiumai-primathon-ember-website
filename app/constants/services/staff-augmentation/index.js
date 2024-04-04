@@ -2415,3 +2415,415 @@ export const IOS_DEVELOPER = {
     ],
   },
 };
+
+export const SWIFT_DEVELOPER = {
+  heroSection: {
+    title1: 'Hire',
+    gradientTitle: 'Swift',
+    title2: 'Developers',
+    subtitle: 'Reasonable, Dedicated Experts for Your Business',
+    description:
+      "Ready to elevate your business's digital presence? Our dedicated Swift developers are here to bring innovation to life, ensuring robust, scalable, and efficient solutions delivered on time. With 100% skilled and certified developers, averaging over 7 years of experience, our swift onboarding process, competitive pricing models, and transparent communication guarantee a smooth journey towards your project's success.",
+    listItems: [
+      {
+        id: 1,
+        text: '100% Skilled and Certified Developers',
+      },
+      {
+        id: 2,
+        text: 'Possesses an Average of 5+ Years of Experience',
+      },
+      {
+        id: 3,
+        text: 'Swift Onboarding Process',
+      },
+      {
+        id: 4,
+        text: 'Competitive Pricing Models',
+      },
+      {
+        id: 5,
+        text: 'Transparent and Smooth Communication',
+      },
+    ],
+    ctaText1: 'Book a Call',
+    ctaText2: 'Get Free Consultation',
+    imageSrc: '/assets/swift/hire-swift-herosection-img.png',
+    imageAlt: 'Hire Swift Developer',
+  },
+
+  elevateYourProject: {
+    title: "Unlock Your Project's Potential with Leading Swift Developers in India",
+    description:
+      "With years of expertise and a dedication to innovation, we specialise in delivering customised solutions that meet your specific needs. Reach out to us to harness the full potential of Swift for your projects. Whether you're seeking skilled Swift developers, a reliable Swift Development Company, or cost-effective Swift Development solutions, we've got you covered.",
+    ctaText: 'GET IN TOUCH',
+    redirect: '/contact',
+    imageSrc: '/assets/python/elevate-your-project.png',
+    imageAlt: 'Elevate Your Project',
+  },
+
+  ctaSection: {
+    title: 'Are you Confused About the Right Development Path?',
+    description:
+      'Allow our team of Swift development experts to lead you through every stage of your project, ensuring you make confident and informed decisions along the way.',
+    ctaText1: 'Get Free Consultation',
+    redirect1: '/contact',
+    ctaText2: 'View Case Studies',
+    redirect2: '#case-studies',
+  },
+
+  swiftDevelopmentServices: {
+    title: "Swift App Development Services Offered by Primathon's Expert Coders",
+    cardData: [
+      {
+        id: 1,
+        imageSrc: '/assets/swift/app-development.svg',
+        cardTitle: 'Swift App Development',
+        content:
+          'Being a trusted Swift app development company, We craft engaging iOS apps using Swift and cutting-edge technology stacks that resonate with users and help in driving your business forward.Our team adheres to industry best practices to ensure your app aligns perfectly with your business goals.',
+      },
+      {
+        id: 2,
+        imageSrc: '/assets/swift/app-testing.svg',
+        cardTitle: 'Swift Application Testing',
+        content:
+          'Thorough Swift app testing is integral to our quality assurance process. We meticulously test your app to ensure flawless performance across all devices and use cases.',
+      },
+      {
+        id: 3,
+        imageSrc: '/assets/swift/app-store-optimization.svg',
+        cardTitle: 'Swift App Store Optimization',
+        content:
+          "Enhance your app's visibility and discoverability in the App Store with our Swift app store optimization services. Drive downloads and user engagement with optimised app listings.",
+      },
+      {
+        id: 4,
+        imageSrc: '/assets/swift/custom-solution.svg',
+        cardTitle: 'Swift Custom Solutions',
+        content:
+          "We offer you customised Swift-based solutions according to your business's specific needs, providing bespoke features and functionalities aligned with your objectives.",
+      },
+      {
+        id: 5,
+        imageSrc: '/assets/swift/maintenance-services.svg',
+        cardTitle: 'Swift App Maintenance Services',
+        content:
+          'Ensure your app remains updated, secure, and functioning smoothly over time with our comprehensive Swift app maintenance services.',
+      },
+      {
+        id: 6,
+        imageSrc: '/assets/swift/app-integration.svg',
+        cardTitle: 'Swift App Integration',
+        content:
+          "Our team helps in seamless transition of your apps to Swift, whether you're moving from an older Swift version, Objective-C, or another platform.",
+      },
+      {
+        id: 7,
+        imageSrc: '/assets/swift/design-services.svg',
+        cardTitle: 'Swift UI/UX Design Services',
+        content:
+          "Create consistent and user-friendly interfaces across devices with Swift and Apple's design principles. Our UX/UI designers prioritize accessibility and responsiveness to deliver intuitive experiences for your users.",
+      },
+      {
+        id: 8,
+        imageSrc: '/assets/swift/testing.svg',
+        cardTitle: 'Swift Application Testing',
+        content:
+          'We thoroughly test your Swift applications to identify and resolve any issues before launch. Our QA team guarantees high-quality standards and optimal performance for your app.',
+      },
+    ],
+  },
+
+  ctaSection1: {
+    onlyDesc: true,
+    descp1: 'Hire Dedicated',
+    colouredDescp: 'Swift Developers',
+    descp2:
+      'team based on your requirements. We provide various hiring engagement models tailored to meet the specific needs of your business.',
+    ctaText: 'GET IN TOUCH',
+    redirect: '/contact',
+    bgColor: '#F4F4F4',
+  },
+
+  whyChoose: {
+    title: 'Why Hire Swift Developers from Primathon?',
+    description:
+      'Our Swift developers excel in their field, with over 7 years of experience in crafting scalable and high-performing Swift applications. We stay updated on the latest Swift advancements and tools, ensuring that your project is built using cutting-edge technology. Security is a top priority in our development process, ensuring that your Swift applications are protected against threats and vulnerabilities. We optimise your Swift applications for speed and efficiency, delivering outstanding user experiences within the project timeline and budget constraints.',
+    listItems: [
+      { id: 1, text: 'Experience 1.5X Faster Delivery' },
+      { id: 2, text: 'Work at Your Time Zone' },
+      { id: 3, text: 'Hassle-free communication' },
+      { id: 4, text: '24/7 Support' },
+    ],
+    service1: { number: '6+', text: 'Years of business' },
+    service2: { number: '80+', text: 'Software Developers' },
+    service3: { number: '150+', text: 'Project Delivered' },
+    service4: { number: '100+', text: 'Happy Client' },
+  },
+
+  swiftJourney: {
+    heading: 'Let us take your project on a journey!',
+    items: [
+      'You share your idea with us',
+      'We create a strategy for your project',
+      'Our Swift Developer starts building it',
+      'We deliver on time',
+    ],
+  },
+
+  ctaSection2: {
+    title: 'Want to Create a User-friendly Web Application?',
+    description:
+      "Hire our Swift developer to improve your product's usability, satisfaction, and overall user experience.",
+    ctaText: 'HIRE US',
+    redirect: '/contact',
+    bgColor: '#21315B',
+  },
+
+  SwiftDevelopmentStrategy: {
+    title: 'An Overview of Our Swift Development Approach',
+    imageSrc: '/assets/swift/development-strategy.png',
+    imageAlt: 'Development Strategy',
+    cardData: [
+      {
+        id: 1,
+        text: 'Requirement Analysis',
+        description:
+          "Our process begins with a thorough analysis of your project requirements, objectives, and target audience.We gather detailed insights to ensure a clear understanding of your app's functionality and features.",
+      },
+      {
+        id: 2,
+        text: 'Design Prototyping',
+        description:
+          "we create wireframes and design prototypes that outline the user interface (UI) and user experience (UX) of your Swift app.Our design experts collaborate with you to refine the visual elements and enhance the app's usability.",
+      },
+      {
+        id: 3,
+        text: 'Development Phase',
+        description:
+          'Once the design is approved, our experienced Swift developers begin the development phase.Using the latest technologies and coding standards, we build the backend infrastructure and frontend components of your Swift app.',
+      },
+      {
+        id: 4,
+        text: 'Testing and Quality Assurance',
+        description:
+          'Rigorous testing is conducted to ensure the functionality, performance, and security of your Swift app.We conduct thorough testing across various devices and screen sizes to ensure compatibility and responsiveness.',
+      },
+      {
+        id: 5,
+        text: 'Deployment and Launch',
+        description:
+          "After successful testing, we prepare your Swift app for deployment to the App Store.Our team handles the submission process and ensures compliance with Apple's guidelines for a seamless launch.",
+      },
+      {
+        id: 6,
+        text: 'Post-Launch Support',
+        description:
+          "Our support doesn't end with the app launch. We provide ongoing maintenance and support services to address any issues and implement updates as needed.We monitor app performance and user feedback to continuously improve the app's functionality and user experience.",
+      },
+    ],
+  },
+
+  benefitsOfHiringSwiftDevelopers: {
+    title1: 'Benefits of Hiring ',
+    colouredTitle: 'Swift Developers',
+    title2: 'from us',
+
+    description:
+      'From free manager service to punctual delivery and precise timesheets, we offer multiple benefits to a client when they hire Swift developers from Primathon.',
+    cardData: [
+      {
+        id: 1,
+        title: 'Get a Dedicated Project Manager',
+        description:
+          "No matter what, you'll get a complimentary project manager from us. They'll handle all the nitty-gritty stuff like planning, setting timelines, and making sure everyone's on track. Their job? To guarantee you're getting top-notch results every step of the way with Primathon.",
+        listItems: [
+          'Analyze the Progress of the Project',
+          'Ensure Client Satisfaction',
+          'Keeps you updated throughout the Project',
+        ],
+        imageSrc: '/assets/angular-js/dedicated-project-manager.png',
+        imageAlt: 'Dedicated Project Manager discussing project',
+      },
+      {
+        id: 2,
+        title: 'Stay in the Loop with Daily and Monthly Task Records',
+        description:
+          "We provide daily updates and summaries of tasks finished, challenges encountered, and milestones reached. Hire Python Developer from us and at the end of each month, you'll receive a comprehensive timesheet detailing team activities and hours allocated to each task. This will help you to review payments based on completed work.",
+        listItems: ['Keep Tabs on Progress', 'Quality Results', 'Optimize Time Management'],
+        imageSrc: '/assets/angular-js/task-records.png',
+        imageAlt: 'Daily and Monthly Task Records',
+      },
+      {
+        id: 3,
+        title: 'Diverse Talent Pool',
+        description:
+          'When you hire a Python Developer from Primathon, you gain access to a wealth of knowledge spanning various Python frameworks and libraries, ensuring that your project receives the specialized skills it requires.',
+        listItems: ['Decrease the Chances of Project Disruption', 'Simplify Task'],
+        imageSrc: '/assets/python/talent-pool.png',
+        imageAlt: 'Diverse Talent Pool',
+      },
+    ],
+  },
+
+  table: {
+    title: 'Hire Swift Developers From Primathon Vs Other Company',
+    tableHeading: ['', 'Primathon', 'Other Company', 'Freelancers'],
+    tableRows: [
+      {
+        id: 1,
+        tableData: [
+          { id: 1, text: 'Failure Rate', bgColor: '#ffffff' },
+          { id: 2, text: 'X', bgColor: '#FFDCDC' },
+          { id: 3, text: 'Low', bgColor: '#ffffff' },
+          { id: 4, text: 'Very Low', bgColor: '#ffffff' },
+        ],
+      },
+
+      {
+        id: 2,
+        tableData: [
+          { id: 1, text: 'Pre-assessed Developers', bgColor: '#ffffff' },
+          { id: 2, text: '✓', bgColor: '#24B768' },
+          { id: 3, text: 'X', bgColor: '#FFDCDC' },
+          { id: 4, text: 'X', bgColor: '#FFDCDC' },
+        ],
+      },
+
+      {
+        id: 3,
+        tableData: [
+          { id: 1, text: 'Results', bgColor: '#ffffff' },
+          { id: 2, text: '100% Premium Quality', bgColor: '#ffffff' },
+          { id: 3, text: 'Good', bgColor: '#ffffff' },
+          { id: 4, text: 'Unsure', bgColor: '#ffffff' },
+        ],
+      },
+
+      {
+        id: 4,
+        tableData: [
+          { id: 1, text: 'Documentation and Security', bgColor: '#ffffff' },
+          { id: 2, text: '✓', bgColor: '#24B768' },
+          { id: 3, text: 'X', bgColor: '#FFDCDC' },
+          { id: 4, text: 'X', bgColor: '#FFDCDC' },
+        ],
+      },
+
+      {
+        id: 5,
+        tableData: [
+          { id: 1, text: 'Rates', bgColor: '#ffffff' },
+          { id: 2, text: 'Reasonable', bgColor: '#ffffff' },
+          { id: 3, text: 'High Cost', bgColor: '#ffffff' },
+          { id: 4, text: 'High Cost', bgColor: '#ffffff' },
+        ],
+      },
+
+      {
+        id: 6,
+        tableData: [
+          { id: 1, text: 'Quality Guarantee', bgColor: '#ffffff' },
+          { id: 2, text: '✓', bgColor: '#24B768' },
+          { id: 3, text: 'X', bgColor: '#FFDCDC' },
+          { id: 4, text: 'Unsure', bgColor: '#FFDCDC' },
+        ],
+      },
+    ],
+
+    mobileTableData: [
+      {
+        id: 1,
+        title: 'Failure Rate',
+        tableHeading: ['Primathon', 'Other Company', 'Freelancers'],
+        tableData: [
+          { id: 1, text: 'X', bgColor: '#FFDCDC' },
+          { id: 2, text: 'Low', bgColor: '#ffffff' },
+          { id: 3, text: 'Very Low', bgColor: '#ffffff' },
+        ],
+      },
+      {
+        id: 2,
+        title: 'Pre-assessed Developers',
+        tableHeading: ['Primathon', 'Other Company', 'Freelancers'],
+        tableData: [
+          { id: 1, text: '✓', bgColor: '#24B768' },
+          { id: 2, text: 'X', bgColor: '#FFDCDC' },
+          { id: 3, text: 'X', bgColor: '#FFDCDC' },
+        ],
+      },
+      {
+        id: 3,
+        title: 'Results',
+        tableHeading: ['Primathon', 'Other Company', 'Freelancers'],
+        tableData: [
+          { id: 1, text: '100% Premium Quality', bgColor: '#ffffff' },
+          { id: 2, text: 'Good', bgColor: '#ffffff' },
+          { id: 3, text: 'Unsure', bgColor: '#ffffff' },
+        ],
+      },
+      {
+        id: 4,
+        title: 'Documentation and Security',
+        tableHeading: ['Primathon', 'Other Company', 'Freelancers'],
+        tableData: [
+          { id: 1, text: '✓', bgColor: '#24B768' },
+          { id: 2, text: 'X', bgColor: '#FFDCDC' },
+          { id: 3, text: 'X', bgColor: '#FFDCDC' },
+        ],
+      },
+      {
+        id: 5,
+        title: 'Rates',
+        tableHeading: ['Primathon', 'Other Company', 'Freelancers'],
+        tableData: [
+          { id: 1, text: 'Reasonable', bgColor: '#ffffff' },
+          { id: 2, text: 'High Cost', bgColor: '#ffffff' },
+          { id: 3, text: 'High Cost', bgColor: '#ffffff' },
+        ],
+      },
+      {
+        id: 5,
+        title: 'Quality Guarantee',
+        tableHeading: ['Primathon', 'Other Company', 'Freelancers'],
+        tableData: [
+          { id: 1, text: '✓', bgColor: '#24B768' },
+          { id: 2, text: 'X', bgColor: '#FFDCDC' },
+          { id: 3, text: 'Unsure', bgColor: '#ffffff' },
+        ],
+      },
+    ],
+  },
+
+  caseStudies: {
+    title: 'Our Case Studies',
+    subtitle: 'Explore Our Portfolio of Swift Development Projects',
+  },
+
+  faqs: {
+    title: 'FAQs',
+    cardData: [
+      {
+        id: 1,
+        question: 'How do you ensure the expertise of your Swift developers at Primathon?',
+        answer: [
+          'At Primathon, we have a rigorous screening process for Swift developers, including technical assessments and interviews. We ensure that our developers have strong expertise in Swift development through their education, certifications, and previous project experience.',
+        ],
+      },
+      {
+        id: 2,
+        question: 'Can I hire Swift developers from Primathon on a full-time or part-time basis?',
+        answer: [
+          'Yes, you can hire Swift developers from Primathon on both full-time and part-time basis, depending on your project requirements. We offer flexible engagement models to suit your needs and ensure dedicated resources for your project.',
+        ],
+      },
+      {
+        id: 3,
+        question: 'How do you ensure communication and collaboration between your Swift developers and clients?',
+        answer: [
+          'We prioritise transparent communication and collaboration with our clients. Our Swift developers are proficient in English and are available for regular updates, feedback sessions, and meetings through various communication channels like email, chat, and video calls.',
+        ],
+      },
+    ],
+  },
+};
