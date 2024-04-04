@@ -21,6 +21,7 @@ Router.map(function () {
       this.route('python-developers');
       this.route('angular-developers');
       this.route('javascript-developers');
+      this.route('react-developers');
       this.route('quality-analysts');
       this.route('platform');
     });

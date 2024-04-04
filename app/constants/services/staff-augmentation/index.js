@@ -1672,3 +1672,413 @@ export const JAVASCRIPT = {
     ],
   },
 };
+
+export const REACT_DEVELOPER = {
+  heroSection: {
+    title1: 'Hire',
+    gradientTitle: 'React.js',
+    title2: 'Developers',
+    subtitle: 'Reasonable, Dedicated Experts for Your Business',
+    description:
+      'Discover the proficiency of our premier React.js developers to elevate your online footprint. Whether it\'s tailored solutions or smooth transitions, our seasoned experts guarantee excellence in your endeavors',
+    listItems: [
+      {
+        id: 1,
+        text: '100% Skilled and Certified Developers',
+      },
+      {
+        id: 2,
+        text: 'Possesses an Average of 5+ Years of Experience',
+      },
+      {
+        id: 3,
+        text: 'Swift Onboarding Process',
+      },
+      {
+        id: 4,
+        text: 'Competitive Pricing Models',
+      },
+      {
+        id: 5,
+        text: 'Transparent and Smooth Communication',
+      },
+    ],
+    ctaText1: 'Book a Call',
+    ctaText2: 'Get Free Consultation',
+    imageSrc: '/assets/react-js/hire-react-js-herosection.png',
+    imageAlt: 'Hire React.js',
+  },
+
+  elevateYourProject: {
+    title: 'Elevate Your Project with Premier React.js Developers in India',
+    description:
+      "Maximize the capabilities of React.js for your projects by collaborating with our seasoned team of professionals. With extensive experience and a commitment to creativity, we specialize in delivering tailored solutions tailored to your specific needs. Reach out to us today to harness the full potential of React.js for your projects.",
+    ctaText: 'GET IN TOUCH',
+    redirect: '/contact',
+    imageSrc: '/assets/python/elevate-your-project.png',
+    imageAlt: 'Elevate Your Project',
+  },
+
+  ctaSection: {
+    title: 'Enhance Your Project with Our Experienced React.js Professionals',
+    description:
+      'With years of expertise and a commitment to innovation, we deliver bespoke solutions tailored to your unique requirements. Partner with us and experience the difference.',
+    ctaText1: 'CONTACT US',
+    redirect1: '/contact',
+  },
+
+  reactDevelopmentServices: {
+    title: 'Explore Our Range of Expert React.js Development Services',
+    cardData: [
+      {
+        id: 1,
+        imageSrc: '/assets/swift/app-development.svg',
+        cardTitle: 'Custom React JS App Development',
+        content:
+          'We get what your business needs and our years of expertise will help you to provide a special solution. We craft personalized solutions for your business that will enhance your speed, flexibility, and performance.',
+      },
+      {
+        id: 2,
+        imageSrc: '/assets/swift/design-services.svg',
+        cardTitle: 'React UI/UX Development',
+        content:
+          'We design visually appealing websites and mobile apps with optimized performance, accessibility, and usability to boost audience engagement.',
+      },
+      {
+        id: 3,
+        imageSrc: '/assets/react-js/react-web-development.svg',
+        cardTitle: 'React Web Development:',
+        content:
+          'We are a pro at crafting dynamic and interactive web applications that are specifically tailored to your business needs. Our experts ensure great speed, super flexible web app performance, and usability.',
+      },
+      {
+        id: 4,
+        imageSrc: '/assets/swift/app-testing.svg',
+        cardTitle: 'React.js Mobile App Development:',
+        content:
+          'Our team creates feature-rich mobile applications for enhanced user experience across various devices, leveraging React Native and Redux. Whether it\'s coding, design, or project management, our experts are here to support you every step of the way.',
+      },
+      {
+        id: 5,
+        imageSrc: '/assets/react-js/react-migration.svg',
+        cardTitle: 'React JS Enterprise App Development:',
+        content:
+          'Being a trusted react company, we can provide you with the expert advice and insights on the most effective methods to develop your app.  Moreover, our years of technical expertise aid in building scalable and secure apps that are integrated with cloud storage and analytics platforms.',
+      },
+      {
+        id: 6,
+        imageSrc: '/assets/react-js/react-migration.svg',
+        cardTitle: 'React Migration and Porting Services:',
+        content:
+          'With our proficiency as a ReactJs company, we ensure hassle-free migration of existing apps to ReactJS for enhanced security, responsiveness, and cost-effectiveness.',
+      },
+      {
+        id: 7,
+        imageSrc: '/assets/swift/custom-solution.svg',
+        cardTitle: 'ReactJS Consulting Services:',
+        content:
+          'Tackle technical and various challenges in ReactJS development at any point in your app\'s development life cycle. Our specialists will help you overcome technical challenges and enhance functionality throughout the app development lifecycle.',
+      },
+    ],
+  },
+
+  ctaSection1: {
+    onlyDesc: true,
+    descp1: 'Hire Dedicated',
+    colouredDescp: 'React.js Developers ',
+    descp2:
+      'team based on your requirements. We provide various hiring engagement models tailored to meet the specific needs of your business.',
+    ctaText: 'GET IN TOUCH',
+    redirect: '/contact',
+    bgColor: '#F4F4F4',
+  },
+
+  whyChoose: {
+    title: 'Why Hire React.js Developers from Primathon?',
+    description:
+      'At Primathon, our React.js developers excel in both expertise and dedication, boasting over 7 years of industry experience. Leverage the proficiency of our dedicated React.js engineers to craft premium websites and applications customized to maximize benefits through event-driven solutions. Benefit from the support of our committed React.js developers, ensuring seamless development and the creation of scalable and high-performing applications with flawless implementation. With our adept React.js engineers, we are dedicated to simplifying complex development challenges, positioning our team uniquely to deliver exceptional React.js development solutions.',
+    listItems: [
+      { id: 1, text: 'Experience 1.5X Faster Delivery' },
+      { id: 2, text: 'Work at Your Time Zone' },
+      { id: 3, text: 'Hassle-free communication' },
+      { id: 4, text: '24/7 Support' },
+    ],
+    service1: { number: '6+', text: 'Years of business' },
+    service2: { number: '80+', text: 'Software Developers' },
+    service3: { number: '150+', text: 'Project Delivered' },
+    service4: { number: '100+', text: 'Happy Client' },
+  },
+
+  elevateYourJourney: {
+    title: 'Want to Create a User-friendly Web Application?',
+    description:
+      "Hire our React.js  developer to improve your product's usability, satisfaction, and overall user experience.",
+    ctaText: 'Hire React.js Developers Remotely',
+    ctaRoute: '/contact',
+  },
+
+  reactJourney: {
+    heading: 'Let us take your project on a journey!',
+    items: [
+      'You share your idea with us',
+      'We create a strategy for your project',
+      'Our React.js Developer starts building it',
+      'We deliver on time',
+    ],
+  },
+
+  ctaSection2: {
+    title: 'Want to Create a User-friendly Web Application?',
+    description:
+      "Hire our React.js  developer to improve your product's usability, satisfaction, and overall user experience.",
+    ctaText: 'HIRE US',
+    redirect: '/contact',
+    bgColor: '#21315B',
+  },
+
+  reactDevelopmentStrategy: {
+    title: "An Overview of Our React.js Development Approach",
+    imageSrc: '/assets/python/development-strategy.png',
+    imageAlt: 'Development Strategy',
+    cardData: [
+      {
+        id: 1,
+        text: 'Requirement Analysis',
+        description:
+          'We begin by conducting a thorough analysis of your project requirements, ensuring a clear understanding of your objectives and goals.',
+      },
+      {
+        id: 2,
+        text: 'Planning and Design',
+        description:
+          'Next, we create a comprehensive plan and design layout for your React.js project, focusing on usability, scalability, and user experience.',
+      },
+      {
+        id: 3,
+        text: 'Development and Testing',
+        description:
+          'Our experienced React.js developers commence the development phase, implementing clean and maintainable code. Rigorous testing is conducted to ensure functionality and reliability.',
+      },
+      {
+        id: 4,
+        text: 'Implementation and Optimization',
+        description:
+          'We implement the developed features into your project and optimize performance for enhanced user experience. Load times are minimized, and responsiveness is maximized..',
+      },
+      {
+        id: 5,
+        text: 'Deployment and Support:',
+        description:
+          'Once development is complete, we deploy your React.js solution to the desired environment. Ongoing support is provided to address any issues and implement updates as needed.',
+      },
+    ],
+  },
+
+  benefitsOfHiringReact: {
+    title1: 'Benefits of Hiring',
+    colouredTitle: 'React.js Developers',
+    title2: 'from us',
+
+    description:
+      'From free manager service to punctual delivery and precise timesheets, we offer multiple benefits to a client when they hire React.js developers from Primathon.',
+    cardData: [
+      {
+        id: 1,
+        title: 'Get a Dedicated Project Manager',
+        description:
+          "No matter what, you'll get a complimentary project manager from us. They'll handle all the nitty-gritty stuff like planning, setting timelines, and making sure everyone's on track. Their job? To guarantee you're getting top-notch results every step of the way with Primathon.",
+        listItems: [
+          'Analyze the Progress of the Project',
+          'Ensure Client Satisfaction',
+          'Keeps you updated throughout the Project',
+        ],
+        imageSrc: '/assets/python/dedicated-project-manager.png',
+        imageAlt: 'Dedicated Project Manager',
+      },
+      {
+        id: 2,
+        title: 'Stay in the Loop with Daily and Monthly Task Records',
+        description:
+          "We provide daily updates and summaries of tasks finished, challenges encountered, and milestones reached. Hire React.js Developers from us and at the end of each month, you'll receive a comprehensive timesheet detailing team activities and hours allocated to each task. This will help you to review payments based on completed work.",
+        listItems: ['Keep Tabs on Progress', 'Quality Results', 'Optimize Time Management'],
+        imageSrc: '/assets/python/task-records.png',
+        imageAlt: 'Daily and Monthly Task Records',
+      },
+      {
+        id: 3,
+        title: 'Diverse Talent Pool',
+        description:
+          'When you hire a React.js Developer from Primathon, you gain access to a wealth of knowledge spanning various React.js frameworks and libraries, ensuring that your project receives the specialized skills it requires.',
+        listItems: ['Decrease the Chances of Project Disruption', 'Simplify Task'],
+        imageSrc: '/assets/python/talent-pool.png',
+        imageAlt: 'Diverse Talent Pool',
+      },
+    ],
+  },
+
+  table: {
+    title: 'Hire Python Developers From Primathon Vs Other Company',
+    tableHeading: ['', 'Primathon', 'Other Company', 'Freelancers'],
+    tableRows: [
+      {
+        id: 1,
+        tableData: [
+          { id: 1, text: 'Failure Rate', bgColor: '#ffffff' },
+          { id: 2, text: 'X', bgColor: '#FFDCDC' },
+          { id: 3, text: 'Low', bgColor: '#ffffff' },
+          { id: 4, text: 'Very Low', bgColor: '#ffffff' },
+        ],
+      },
+
+      {
+        id: 2,
+        tableData: [
+          { id: 1, text: 'Pre-assessed Developers', bgColor: '#ffffff' },
+          { id: 2, text: '✓', bgColor: '#24B768' },
+          { id: 3, text: 'X', bgColor: '#FFDCDC' },
+          { id: 4, text: 'X', bgColor: '#FFDCDC' },
+        ],
+      },
+
+      {
+        id: 3,
+        tableData: [
+          { id: 1, text: 'Results', bgColor: '#ffffff' },
+          { id: 2, text: '100% Premium Quality', bgColor: '#ffffff' },
+          { id: 3, text: 'Good', bgColor: '#ffffff' },
+          { id: 4, text: 'Unsure', bgColor: '#ffffff' },
+        ],
+      },
+
+      {
+        id: 4,
+        tableData: [
+          { id: 1, text: 'Documentation and Security', bgColor: '#ffffff' },
+          { id: 2, text: '✓', bgColor: '#24B768' },
+          { id: 3, text: 'X', bgColor: '#FFDCDC' },
+          { id: 4, text: 'X', bgColor: '#FFDCDC' },
+        ],
+      },
+
+      {
+        id: 5,
+        tableData: [
+          { id: 1, text: 'Rates', bgColor: '#ffffff' },
+          { id: 2, text: 'Reasonable', bgColor: '#ffffff' },
+          { id: 3, text: 'High Cost', bgColor: '#ffffff' },
+          { id: 4, text: 'High Cost', bgColor: '#ffffff' },
+        ],
+      },
+      {
+        id: 6,
+        tableData: [
+          { id: 1, text: 'Quality Guarantee', bgColor: '#ffffff' },
+          { id: 2, text: '✓', bgColor: '#24B768' },
+          { id: 3, text: 'x', bgColor: '#FFDCDC' },
+          { id: 4, text: 'Unsure', bgColor: '#fffff' },
+        ],
+      },
+    ],
+
+    mobileTableData: [
+      {
+        id: 1,
+        title: 'Failure Rate',
+        tableHeading: ['Primathon', 'Other Company', 'Freelancers'],
+        tableData: [
+          { id: 1, text: 'X', bgColor: '#FFDCDC' },
+          { id: 2, text: 'Low', bgColor: '#ffffff' },
+          { id: 3, text: 'Very Low', bgColor: '#ffffff' },
+        ],
+      },
+      {
+        id: 2,
+        title: 'Pre-assessed Developers',
+        tableHeading: ['Primathon', 'Other Company', 'Freelancers'],
+        tableData: [
+          { id: 1, text: '✓', bgColor: '#24B768' },
+          { id: 2, text: 'X', bgColor: '#FFDCDC' },
+          { id: 3, text: 'X', bgColor: '#FFDCDC' },
+        ],
+      },
+      {
+        id: 3,
+        title: 'Results',
+        tableHeading: ['Primathon', 'Other Company', 'Freelancers'],
+        tableData: [
+          { id: 1, text: '100% Premium Quality', bgColor: '#ffffff' },
+          { id: 2, text: 'Good', bgColor: '#ffffff' },
+          { id: 3, text: 'Unsure', bgColor: '#ffffff' },
+        ],
+      },
+      {
+        id: 4,
+        title: 'Documentation and Security',
+        tableHeading: ['Primathon', 'Other Company', 'Freelancers'],
+        tableData: [
+          { id: 1, text: '✓', bgColor: '#24B768' },
+          { id: 2, text: 'X', bgColor: '#FFDCDC' },
+          { id: 3, text: 'X', bgColor: '#FFDCDC' },
+        ],
+      },
+      {
+        id: 5,
+        title: 'Rates',
+        tableHeading: ['Primathon', 'Other Company', 'Freelancers'],
+        tableData: [
+          { id: 1, text: 'Reasonable', bgColor: '#ffffff' },
+          { id: 2, text: 'High Cost', bgColor: '#ffffff' },
+          { id: 3, text: 'High Cost', bgColor: '#ffffff' },
+        ],
+      },
+      {
+        id: 6,
+        tableData: [
+          { id: 1, text: 'Quality Guarantee', bgColor: '#ffffff' },
+          { id: 2, text: '✓', bgColor: '#24B768' },
+          { id: 3, text: 'x', bgColor: '#FFDCDC' },
+          { id: 4, text: 'Unsure', bgColor: '#fffff' },
+        ],
+      },
+    ],
+  },
+
+  caseStudies: {
+    title: 'Our Case Studies',
+    subtitle: 'Explore Our Portfolio of React.js Development Projects',
+  },
+
+  faqs: {
+    title: 'FAQs',
+    cardData: [
+      {
+        id: 1,
+        question: 'What qualifications and experience do your React.js developers have?',
+        answer: [
+          ' Our React.js developers boast a minimum of 7 years of experience in React.js development, demonstrating proficiency in various frameworks and libraries such as React.js, React.js 2+, and RxJS. They hold degrees in computer science or related disciplines and have a proven track record of delivering successful projects within the React.js ecosystem.',
+        ],
+      },
+      {
+        id: 2,
+        question: 'How do I hire React.js developers?',
+        answer: [
+          'Hiring skilled React.js developers can be challenging, but with Turing, an AI-powered talent platform, you can source the best candidates for your company from talent pools worldwide in just a few days and at reasonable prices.',
+        ],
+      },
+      {
+        id: 3,
+        question: 'Will I get post-app development support?',
+        answer: [
+          "Yes, we offer comprehensive post-app development support! Through our flexible bucket model, you can hire a React.js programmer for a specified duration and access dedicated app support and maintenance services whenever necessary, eliminating the need for a full-time programmer on your team.",
+        ],
+      },
+      {
+        id: 4,
+        question: 'Can I hire a React.js developer for hourly or project-based tasks?',
+        answer: [
+          'Certainly! At Primathon, we provide flexible hiring models including hourly, monthly, and yearly hiring options. You can hire a React.js developer as per your project requirements.',
+        ],
+      },
+    ],
+  },
+};
