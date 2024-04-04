@@ -1349,7 +1349,7 @@ export const JAVASCRIPT = {
       { id: 4, text: '24/7 Support' },
     ],
     service1: { number: '6+', text: 'Years of business' },
-    service2: { number: '100+', text: 'Softawre Developers' },
+    service2: { number: '100+', text: 'Software Developers' },
     service3: { number: '150+', text: 'Project Delivered' },
     service4: { number: '100+', text: 'Happy Client' },
   },
@@ -1359,7 +1359,7 @@ export const JAVASCRIPT = {
     items: [
       'You share your idea with us',
       'We create a strategy for your project',
-      'Our Python Developer starts building it',
+      'Our Javascript Developer starts building it',
       'We deliver on time',
     ],
   },
@@ -1429,23 +1429,23 @@ export const JAVASCRIPT = {
           'Ensure Client Satisfaction',
           'Keeps you updated throughout the Project',
         ],
-        imageSrc: '/assets/javascript/project-manager-discussing-project.png',
+        imageSrc: '/assets/angular-js/dedicated-project-manager.png',
         imageAlt: 'Dedicated Project Manager discussing project',
       },
       {
         id: 2,
         title: 'Stay in the Loop with Daily and Monthly Task Records',
         description:
-          "We provide daily updates and summaries of tasks finished, challenges encountered, and milestones reached. Hire Python Developer from us and at the end of each month, you'll receive a comprehensive timesheet detailing team activities and hours allocated to each task. This will help you to review payments based on completed work.",
+          "We provide daily updates and summaries of tasks finished, challenges encountered, and milestones reached. Hire JavaScript Developer from us and at the end of each month, you'll receive a comprehensive timesheet detailing team activities and hours allocated to each task. This will help you to review payments based on completed work.",
         listItems: ['Keep Tabs on Progress', 'Quality Results', 'Optimize Time Management'],
-        imageSrc: '/assets/javascript/task-records.png',
+        imageSrc: '/assets/angular-js/task-records.png',
         imageAlt: 'Daily and Monthly Task Records',
       },
       {
         id: 3,
         title: 'Diverse Talent Pool',
         description:
-          'When you hire a Python Developer from Primathon, you gain access to a wealth of knowledge spanning various Python frameworks and libraries, ensuring that your project receives the specialized skills it requires.',
+          'When you hire a JavaScript Developer from Primathon, you gain access to a wealth of knowledge spanning various JavaScript frameworks and libraries, ensuring that your project receives the specialized skills it requires.',
         listItems: ['Decrease the Chances of Project Disruption', 'Simplify Task'],
         imageSrc: '/assets/python/talent-pool.png',
         imageAlt: 'Diverse Talent Pool',
@@ -2023,6 +2023,393 @@ export const ANDROID_DEVELOPER = {
         question: 'How does Primathon handle project timelines and deadlines?',
         answer: [
           'At Primathon, we understand the importance of delivering projects on time. Our Android developers adhere to strict timelines and follow agile methodologies to ensure efficient project management and timely delivery of milestones. ',
+        ],
+      },
+    ],
+  },
+};
+
+export const IOS_DEVELOPER = {
+  heroSection: {
+    title1: 'Hire',
+    gradientTitle: 'iOS',
+    title2: 'Developers',
+    subtitle: 'Reasonable, Dedicated Experts for Your Business',
+    description:
+      "Ready to elevate your business's digital presence? Our dedicated iOS developers are here to bring innovation to life, ensuring robust, scalable, and efficient solutions delivered on time. With 100% skilled and certified developers, averaging over 7 years of experience, our swift onboarding process, competitive pricing models, and transparent communication guarantee a smooth journey towards your project's success.",
+    listItems: [
+      {
+        id: 1,
+        text: '100% Skilled and Certified Developers',
+      },
+      {
+        id: 2,
+        text: 'Possesses an Average of 5+ Years of Experience',
+      },
+      {
+        id: 3,
+        text: 'Swift Onboarding Process',
+      },
+      {
+        id: 4,
+        text: 'Competitive Pricing Models',
+      },
+      {
+        id: 5,
+        text: 'Transparent and Smooth Communication',
+      },
+    ],
+    ctaText1: 'Book a Call',
+    ctaText2: 'Get Free Consultation',
+    imageSrc: '/assets/ios/hire-ios-herosection-img.png',
+    imageAlt: 'Hire iOS Developer',
+  },
+
+  elevateYourProject: {
+    title: `Unlock Your Project's Potential with Leading iOS Developers in India`,
+    description: `With years of expertise and a dedication to innovation, we specialise in delivering customised solutions that meet your specific needs. Reach out to us to harness the full potential of iOS for your projects. Whether you're seeking skilled iOS developers, a reliable iOS Development Company, or cost-effective iOS Development solutions, we've got you covered.`,
+    ctaText: 'GET IN TOUCH',
+    redirect: '/contact',
+    imageSrc: '/assets/python/elevate-your-project.png',
+    imageAlt: 'Elevate Your Project',
+  },
+
+  ctaSection: {
+    title: 'Are you Confused About the Right Development Path?',
+    description:
+      'Allow our team of iOS development experts to lead you through every stage of your project, ensuring you make confident and informed decisions along the way.',
+    ctaText1: 'Get Free Consultation',
+    redirect1: '/contact',
+    ctaText2: 'View Case Studies',
+    redirect2: '#case-studies',
+  },
+
+  iosDevelopmentServices: {
+    title: `iOS App Development Services Offered by Primathon's Expert Coders`,
+    cardData: [
+      {
+        id: 1,
+        imageSrc: '/assets/ios/app-development.png',
+        cardTitle: 'iOS App Development',
+        content:
+          'Being a trusted iOS app development company, we craft custom iOS applications that are visually appealing, feature-rich, responsive, and user-centric. Our development services ensure your app meets the highest standards of quality and functionality.',
+      },
+      {
+        id: 2,
+        imageSrc: '/assets/ios/application-testing.png',
+        cardTitle: 'iOS Application Testing',
+        content:
+          'Thorough iOS app testing is integral to our quality assurance process. We meticulously test your app to ensure flawless performance across all devices and use cases.',
+      },
+      {
+        id: 3,
+        imageSrc: '/assets/ios/app-store-optimization.png',
+        cardTitle: 'iOS App Store Optimization',
+        content: `Enhance your app's visibility and discoverability in the App Store with our iOS app store optimization services. Drive downloads and user engagement with optimised app listings.`,
+      },
+      {
+        id: 4,
+        imageSrc: '/assets/ios/ui-ux-design.png',
+        cardTitle: 'iOS UI/UX Design Services',
+        content:
+          'Specialize in iOS UI/UX design services, we craft interfaces that are intuitive, engaging, and aligned with the latest design trends for enhanced user experiences.',
+      },
+      {
+        id: 5,
+        imageSrc: '/assets/ios/app-maintenance.png',
+        cardTitle: 'iOS App Maintenance Services',
+        content:
+          'Ensure your app remains updated, secure, and functioning smoothly over time with our comprehensive iOS app maintenance services.',
+      },
+      {
+        id: 6,
+        imageSrc: '/assets/ios/app-integration.png',
+        cardTitle: 'iOS App Integration',
+        content:
+          'Seamless integration of your iOS app is crucial for a cohesive ecosystem. We ensure flawless integration with existing systems and third-party services.',
+      },
+    ],
+  },
+
+  ctaSection1: {
+    onlyDesc: true,
+    descp1: 'Hire Dedicated',
+    colouredDescp: 'iOS Developer',
+    descp2:
+      'team based on your requirements. We provide various hiring engagement models tailored to meet the specific needs of your business.',
+    ctaText: 'GET IN TOUCH',
+    redirect: '/contact',
+    bgColor: '#F4F4F4',
+  },
+
+  whyChoose: {
+    title: 'Why Hire iOS Developers from Primathon? ',
+    description:
+      'Our iOS developers excel in their field, with over 7 years of experience in crafting scalable and high-performing iOS applications. We stay updated on the latest iOS advancements and tools, ensuring that your project is built using cutting-edge technology. Security is a top priority in our development process, ensuring that your iOS applications are protected against threats and vulnerabilities. We optimise your iOS applications for speed and efficiency, delivering outstanding user experiences within the project timeline and budget constraints.',
+    listItems: [
+      { id: 1, text: 'Experience 1.5X Faster Delivery' },
+      { id: 2, text: 'Work at Your Time Zone' },
+      { id: 3, text: 'Hassle-free communication' },
+      { id: 4, text: '24/7 Support' },
+    ],
+    service1: { number: '6+', text: 'Years of business' },
+    service2: { number: '80+', text: 'Software Developers' },
+    service3: { number: '150+', text: 'Project Delivered' },
+    service4: { number: '100+', text: 'Happy Client' },
+  },
+
+  ctaSection2: {
+    title: 'Want to Create a User-friendly Web Application?',
+    description:
+      "Hire our iOS developer to improve your product's usability, satisfaction, and overall user experience.",
+    ctaText: 'HIRE US',
+    redirect: '/contact',
+    bgColor: '#21315B',
+  },
+
+  iosJourney: {
+    heading: 'Let us take your project on a journey!',
+    items: [
+      'You share your idea with us',
+      'We create a strategy for your project',
+      'Our iOS Developer starts building it',
+      'We deliver on time',
+    ],
+  },
+
+  iosDevelopmentStrategy: {
+    title: 'An Overview of Our iOS Development Approach',
+    imageSrc: '/assets/ios/development-strategy.png',
+    imageAlt: 'Development Strategy',
+    cardData: [
+      {
+        id: 1,
+        text: 'Requirement Analysis',
+        description: `Our process begins with a thorough analysis of your project requirements, objectives, and target audience.We gather detailed insights to ensure a clear understanding of your app's functionality and features.`,
+      },
+      {
+        id: 2,
+        text: 'Design Prototyping',
+        description: `we create wireframes and design prototypes that outline the user interface (UI) and user experience (UX) of your iOS app.Our design experts collaborate with you to refine the visual elements and enhance the app's usability.`,
+      },
+      {
+        id: 3,
+        text: 'Development Phase',
+        description:
+          'Once the design is approved, our experienced iOS developers begin the development phase.Using the latest technologies and coding standards, we build the backend infrastructure and frontend components of your iOS app.',
+      },
+      {
+        id: 4,
+        text: 'Testing and Quality Assurance',
+        description:
+          'Rigorous testing is conducted to ensure the functionality, performance, and security of your iOS app.We conduct thorough testing across various devices and screen sizes to ensure compatibility and responsiveness.',
+      },
+      {
+        id: 5,
+        text: 'Deployment and Launch',
+        description: `After successful testing, we prepare your iOS app for deployment to the App Store.Our team handles the submission process and ensures compliance with Apple's guidelines for a seamless launch.`,
+      },
+      {
+        id: 6,
+        text: 'Post-Launch Support',
+        description: `Our support doesn't end with the app launch. We provide ongoing maintenance and support services to address any issues and implement updates as needed.We monitor app performance and user feedback to continuously improve the app's functionality and user experience.`,
+      },
+    ],
+  },
+
+  benefitsOfHiringIos: {
+    title1: 'Benefits of Hiring',
+    colouredTitle: 'iOS Developers',
+    title2: 'from Us',
+
+    description:
+      'From free manager service to punctual delivery and precise timesheets, we offer multiple benefits to a client when they hire iOS developers from Primathon.',
+    cardData: [
+      {
+        id: 1,
+        title: 'Get a Dedicated Project Manager',
+        description:
+          "No matter what, you'll get a complimentary project manager from us. They'll handle all the nitty-gritty stuff like planning, setting timelines, and making sure everyone's on track. Their job? To guarantee you're getting top-notch results every step of the way with Primathon.",
+        listItems: [
+          'Analyze the Progress of the Project',
+          'Ensure Client Satisfaction',
+          'Keeps you updated throughout the Project',
+        ],
+        imageSrc: '/assets/angular-js/dedicated-project-manager.png',
+        imageAlt: 'Dedicated Project Manager discussing project',
+      },
+      {
+        id: 2,
+        title: 'Stay in the Loop with Daily and Monthly Task Records',
+        description:
+          "We provide daily updates and summaries of tasks finished, challenges encountered, and milestones reached. Hire iOS Developer from us and at the end of each month, you'll receive a comprehensive timesheet detailing team activities and hours allocated to each task. This will help you to review payments based on completed work.",
+        listItems: ['Keep Tabs on Progress', 'Quality Results', 'Optimize Time Management'],
+        imageSrc: '/assets/angular-js/task-records.png',
+        imageAlt: 'Daily and Monthly Task Records',
+      },
+      {
+        id: 3,
+        title: 'Diverse Talent Pool',
+        description:
+          'When you hire an iOS Developer from Primathon, you gain access to a wealth of knowledge spanning various iOS frameworks and libraries, ensuring that your project receives the specialized skills it requires.',
+        listItems: ['Decrease the Chances of Project Disruption', 'Simplify Task'],
+        imageSrc: '/assets/python/talent-pool.png',
+        imageAlt: 'Diverse Talent Pool',
+      },
+    ],
+  },
+
+  table: {
+    title: 'Hire iOS Developers From Primathon Vs Other Company',
+    tableHeading: ['', 'Primathon', 'Other Company', 'Freelancers'],
+    tableRows: [
+      {
+        id: 1,
+        tableData: [
+          { id: 1, text: 'Failure Rate', bgColor: '#ffffff' },
+          { id: 2, text: 'X', bgColor: '#FFDCDC' },
+          { id: 3, text: 'Low', bgColor: '#ffffff' },
+          { id: 4, text: 'Very Low', bgColor: '#ffffff' },
+        ],
+      },
+
+      {
+        id: 2,
+        tableData: [
+          { id: 1, text: 'Pre-assessed Developers', bgColor: '#ffffff' },
+          { id: 2, text: '✓', bgColor: '#24B768' },
+          { id: 3, text: 'X', bgColor: '#FFDCDC' },
+          { id: 4, text: 'X', bgColor: '#FFDCDC' },
+        ],
+      },
+
+      {
+        id: 3,
+        tableData: [
+          { id: 1, text: 'Results', bgColor: '#ffffff' },
+          { id: 2, text: '100% Premium Quality', bgColor: '#ffffff' },
+          { id: 3, text: 'Good', bgColor: '#ffffff' },
+          { id: 4, text: 'Unsure', bgColor: '#ffffff' },
+        ],
+      },
+
+      {
+        id: 4,
+        tableData: [
+          { id: 1, text: 'Documentation and Security', bgColor: '#ffffff' },
+          { id: 2, text: '✓', bgColor: '#24B768' },
+          { id: 3, text: 'X', bgColor: '#FFDCDC' },
+          { id: 4, text: 'X', bgColor: '#FFDCDC' },
+        ],
+      },
+
+      {
+        id: 5,
+        tableData: [
+          { id: 1, text: 'Rates', bgColor: '#ffffff' },
+          { id: 2, text: 'Reasonable', bgColor: '#ffffff' },
+          { id: 3, text: 'High Cost', bgColor: '#ffffff' },
+          { id: 4, text: 'High Cost', bgColor: '#ffffff' },
+        ],
+      },
+
+      {
+        id: 6,
+        tableData: [
+          { id: 1, text: 'Quality Guarantee', bgColor: '#ffffff' },
+          { id: 2, text: '✓', bgColor: '#24B768' },
+          { id: 3, text: 'X', bgColor: '#FFDCDC' },
+          { id: 4, text: 'Unsure', bgColor: '#ffffff' },
+        ],
+      },
+    ],
+
+    mobileTableData: [
+      {
+        id: 1,
+        title: 'Failure Rate',
+        tableHeading: ['Primathon', 'Other Company', 'Freelancers'],
+        tableData: [
+          { id: 1, text: 'X', bgColor: '#FFDCDC' },
+          { id: 2, text: 'Low', bgColor: '#ffffff' },
+          { id: 3, text: 'Very Low', bgColor: '#ffffff' },
+        ],
+      },
+      {
+        id: 2,
+        title: 'Pre-assessed Developers',
+        tableHeading: ['Primathon', 'Other Company', 'Freelancers'],
+        tableData: [
+          { id: 1, text: '✓', bgColor: '#24B768' },
+          { id: 2, text: 'X', bgColor: '#FFDCDC' },
+          { id: 3, text: 'X', bgColor: '#FFDCDC' },
+        ],
+      },
+      {
+        id: 3,
+        title: 'Results',
+        tableHeading: ['Primathon', 'Other Company', 'Freelancers'],
+        tableData: [
+          { id: 1, text: '100% Premium Quality', bgColor: '#ffffff' },
+          { id: 2, text: 'Good', bgColor: '#ffffff' },
+          { id: 3, text: 'Unsure', bgColor: '#ffffff' },
+        ],
+      },
+      {
+        id: 4,
+        title: 'Documentation and Security',
+        tableHeading: ['Primathon', 'Other Company', 'Freelancers'],
+        tableData: [
+          { id: 1, text: '✓', bgColor: '#24B768' },
+          { id: 2, text: 'X', bgColor: '#FFDCDC' },
+          { id: 3, text: 'X', bgColor: '#FFDCDC' },
+        ],
+      },
+      {
+        id: 5,
+        title: 'Rates',
+        tableHeading: ['Primathon', 'Other Company', 'Freelancers'],
+        tableData: [
+          { id: 1, text: 'Reasonable', bgColor: '#ffffff' },
+          { id: 2, text: 'High Cost', bgColor: '#ffffff' },
+          { id: 3, text: 'High Cost', bgColor: '#ffffff' },
+        ],
+      },
+      {
+        id: 5,
+        title: 'Quality Guarantee',
+        tableHeading: ['Primathon', 'Other Company', 'Freelancers'],
+        tableData: [
+          { id: 1, text: '✓', bgColor: '#24B768' },
+          { id: 2, text: 'X', bgColor: '#FFDCDC' },
+          { id: 3, text: 'Unsure', bgColor: '#ffffff' },
+        ],
+      },
+    ],
+  },
+
+  faqs: {
+    title: 'FAQs',
+    cardData: [
+      {
+        id: 1,
+        question: 'How do you ensure the expertise of your iOS developers at Primathon?',
+        answer: [
+          'At Primathon, we have a rigorous screening process for iOS developers, including technical assessments and interviews. We ensure that our developers have strong expertise in iOS development through their education, certifications, and previous project experience.',
+        ],
+      },
+      {
+        id: 2,
+        question: 'Can I hire iOS developers from Primathon on a full-time or part-time basis?',
+        answer: [
+          'Yes, you can hire iOS developers from Primathon on both full-time and part-time basis, depending on your project requirements. We offer flexible engagement models to suit your needs and ensure dedicated resources for your project.',
+        ],
+      },
+      {
+        id: 3,
+        question: 'How do you ensure communication and collaboration between your iOS developers and clients?',
+        answer: [
+          'We prioritize transparent communication and collaboration with our clients. Our iOS developers are proficient in English and are available for regular updates, feedback sessions, and meetings through various communication channels like email, chat, and video calls.',
         ],
       },
     ],
