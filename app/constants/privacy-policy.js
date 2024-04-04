@@ -9,7 +9,7 @@ export const PRIVACY_POLICY = {
   },
 
   sectionA: {
-    title: 'A. Collection of Your Personal Information',
+    title: 'Collection of Your Personal Information',
     data: [
       {
         title: '1. COLLECTION OF PERSONAL INFORMATION',
@@ -41,7 +41,7 @@ export const PRIVACY_POLICY = {
   },
 
   sectionB: {
-    title: 'B. How Primathon Technology Utilizes the Information We Collect',
+    title: 'How Primathon Technology Utilizes the Information We Collect',
     data: {
       title: '1. UTILIZATION OF PERSONAL INFORMATION',
       description1:
@@ -68,7 +68,7 @@ export const PRIVACY_POLICY = {
   },
 
   sectionC: {
-    title: 'C. Electronic Newsletters, Invitations, Polls, and Surveys',
+    title: 'Electronic Newsletters, Invitations, Polls, and Surveys',
     overView:
       'Primathon Technology may, at its discretion, offer complimentary services on the Website for users to choose to use or receive as desired. Some of these services may necessitate the provision of additional personal information, outlined below:',
     data: [
@@ -95,20 +95,20 @@ export const PRIVACY_POLICY = {
   },
 
   sectionD: {
-    title: 'D. Security',
+    title: 'Security',
     overView:
       "We implement procedural and technological security measures to reasonably safeguard your personal information from unauthorized access or disclosure. Measures such as encryption, passwords, and physical security protocols are employed for this purpose. However, it's important to note that no security measures are entirely foolproof. Hence, we cannot guarantee absolute protection against unauthorized access or use of your personal information. It's advisable to take precautions such as using strong, unique passwords, signing out after using shared computers, and keeping login credentials confidential. Primathon Technology bears no responsibility for unauthorized use of your information or any unauthorized activity on your Account resulting from compromised passwords.",
   },
 
   sectionE: {
-    title: 'E. Disclosure',
+    title: 'Disclosure',
     overView:
       'We may disclose the information we collect about you, including your personal information, in the following circumstances:',
     data: [
       {
         title: '1. INFORMATION DISCLOSED TO PROTECT US AND OTHERS',
         description: [
-          'Your information, including Personal Information, may be disclosed if: <b>(i)</b> Primathon Technology reasonably believes that disclosure is necessary to comply with legal processes, such as court orders or search warrants, or other legal requirements of governmental authorities; <b>(ii)</b> disclosure could potentially mitigate our liability in actual or potential lawsuits; <b>(iii)</b> it is reasonably necessary to enforce this Privacy Policy, our terms and conditions, etc.; <b>(iv)</b> disclosure is intended to aid in the investigation or prevention of unauthorized transactions or other illegal activities; or <b>(v)</b> it is necessary or appropriate to protect our rights, property, or the rights or property of any person or entity.',
+          '<p>Your information, including Personal Information, may be disclosed if:</p> <p><b>(i)</b> Primathon Technology reasonably believes that disclosure is necessary to comply with legal processes, such as court orders or search warrants, or other legal requirements of governmental authorities.</p> <p><b>(ii)</b> Disclosure could potentially mitigate our liability in actual or potential lawsuits.<br /> <p><b>(iii)</b> It is reasonably necessary to enforce this Privacy Policy, our terms and conditions, etc..</p> <p><b>(iv)</b> Disclosure is intended to aid in the investigation or prevention of unauthorized transactions or other illegal activities.</p> <p><b>(v)</b> It is necessary or appropriate to protect our rights, property, or the rights or property of any person or entity.',
         ],
       },
       {
@@ -146,7 +146,7 @@ export const PRIVACY_POLICY = {
   },
 
   sectionF: {
-    title: 'F. Links to External Websites',
+    title: 'Links to External Websites',
     overView:
       'The Website may include links to external websites or resources beyond the control of Primathon Technology. These links do not imply endorsement by Primathon Technology of those external websites. You acknowledge that these links are provided solely for your convenience, and you agree that Primathon Technology bears no responsibility for the content of such external websites. We are not liable for the protection and privacy of any information you provide while visiting these external websites, as they are not governed by this Policy. Your use of such external websites is subject to their respective terms of use and privacy policies.',
   },
@@ -161,7 +161,7 @@ export const PRIVACY_POLICY = {
   },
 
   sectionH: {
-    title: 'H. What Choices Do I Have Regarding Use of My Personal Information?',
+    title: 'What Choices Do I Have Regarding Use of My Personal Information?',
     overView:
       'We may occasionally send you promotional or informational emails. You have the option to unsubscribe from such communications by following the instructions provided in the email. Please be aware that it may take up to 10 business days for us to process your opt-out request. If you choose to opt-out of receiving emails regarding recommendations or other potentially interesting information, please note that you may still receive emails concerning your account or any Services you have requested or received from us.',
     data: {
@@ -172,7 +172,7 @@ export const PRIVACY_POLICY = {
   },
 
   sectionI: {
-    title: 'I. Use of Primathon Technology Information',
+    title: 'Use of Primathon Technology Information',
     description: [
       'The Website enables you to share personal information with Primathon Technology for the purpose of negotiating, providing, and utilizing the Services. Should you agree to engage in a service contract, you may be required to disclose your name, email, phone number, or personal address to Primathon Technology to facilitate the service provision.',
       "<b>Your password serves as the gateway to your account.</b> When creating your password, it's important to use a combination of unique numbers, letters, special characters, and variations thereof. Additionally, it's crucial not to disclose your password to anyone. Should you share your password or personal information with others, you bear sole responsibility for any actions carried out through your account. If your password is compromised for any reason, it's imperative to promptly notify Primathon Technology to initiate a password change. Failure to do so may result in a loss of substantial control over your personal information and may subject you to legally binding actions conducted on your behalf. Therefore, immediate action is necessary in the event of password compromise.",
@@ -180,13 +180,13 @@ export const PRIVACY_POLICY = {
   },
 
   sectionJ: {
-    title: 'J. User Generated Content',
+    title: 'User Generated Content',
     overView:
       'We encourage you to upload content to our website, such as images, comments, and any other information you would like to see available. All information you put on our website will be accessible to everyone who visits it if you upload content. Your posting may become public if you post content on our website or through our services, and Primathon Technology is not able to stop such information from being used in ways that could go against this policy, the law, or your right to privacy.',
   },
 
   sectionK: {
-    title: 'K. Privacy Policy Updates',
+    title: 'Privacy Policy Updates',
     overView:
       '<b>As of the previously specified effective date, this policy is in effect.</b> Primathon Technology may, in its sole and absolute discretion, change this policy from time to time by updating this document. Primathon Technology will post its <b>updated policy</b> on the website on this page. Primathon Technology encourages you to review this policy regularly for any changes. The conditions of the then-current policy will apply to your ongoing use of this website and/or continued submission of personal data to us.',
   },

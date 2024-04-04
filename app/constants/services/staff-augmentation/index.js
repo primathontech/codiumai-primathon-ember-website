@@ -672,7 +672,7 @@ export const PYTHON_DEVELOPER = {
   benefitsOfHiringPython: {
     title1: 'Benefits of Hiring ',
     colouredTitle: 'Python Developers',
-    title2: 'from us',
+    title2: 'from Us',
 
     description:
       'From free manager service to punctual delivery and precise timesheets, we offer multiple benefits to a client when they hire Python developers from Primathon.',
