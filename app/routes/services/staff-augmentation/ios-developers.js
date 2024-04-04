@@ -3,7 +3,7 @@ import { inject as service } from '@ember/service';
 import { IOS_DEVELOPER } from '../../../constants/services/staff-augmentation';
 import { TESTIMONIAL_DATA } from '../../../constants/homepage/testimonial';
 
-export default class ServicesStaffAugmentationAndroidDevelopersRoute extends Route {
+export default class ServicesStaffAugmentationIOSDevelopersRoute extends Route {
   @service headData;
   async model() {
     const data = IOS_DEVELOPER;

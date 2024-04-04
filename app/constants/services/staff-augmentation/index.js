@@ -2624,7 +2624,7 @@ export const SWIFT_DEVELOPER = {
     ],
   },
 
-  benefitsOfHiringJavascript: {
+  benefitsOfHiringSwiftDevelopers: {
     title1: 'Benefits of Hiring ',
     colouredTitle: 'Swift Developers',
     title2: 'from us',
