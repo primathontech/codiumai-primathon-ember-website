@@ -366,50 +366,6 @@ export const QUALITY = {
   },
 };
 
-export const ANDROID_DEVELOPER = {
-  title: 'Best Android Development Solutions India',
-  sub_heading:
-    'We are there, every step of the way from your idea and your product launch! <b> Hire Professional Android Developers Gurgaon </b>',
-  about:
-    "For devices using the Android operating system, an Android developer is in charge of creating applications. An Android developer must pay close attention to the application's compatibility with various Android versions and device kinds due to the fragmentation of this ecosystem. Primathon is well known name for an <b>android development service provider company</b>. Android programmers must stay current on new tools and technology. They design apps that best meet the needs of the business by using their existing knowledge and learning new things as needed.",
-  data: [
-    {
-      imgUrl: '/assets/frontend/jquery-icon.png',
-      title: 'Jquery',
-    },
-    {
-      imgUrl: '/assets/frontend/flutter.png',
-      title: 'Flutter',
-    },
-    {
-      imgUrl: '/assets/frontend/js.png',
-      title: 'JavaScript',
-    },
-    {
-      imgUrl: '/assets/frontend/react-icon.png',
-      title: 'React React Native',
-    },
-    {
-      imgUrl: '/assets/frontend/android.png',
-      title: 'Android Developers',
-    },
-    {
-      imgUrl: '/assets/frontend/ios.png',
-      title: 'iOS Developers',
-    },
-  ],
-  bg: 'android',
-  circular_list: {
-    heading: 'Why your business needs Staff Augmentation from us?',
-    items: [
-      'Detail Oriented Quality Analysts',
-      'Problem-solving and Analytical Skills',
-      'Extensive knowledge in android development technologies',
-      'Collaborative and communicative approach',
-    ],
-  },
-};
-
 export const PLATFORM = {
   title: 'Platforms',
   sub_heading: 'We are there, every step of the way from your idea and your <b> product launch! </b>',
@@ -1673,7 +1629,7 @@ export const JAVASCRIPT = {
   },
 };
 
-export const ANDROID_DEVELOPER_NEW = {
+export const ANDROID_DEVELOPER = {
   heroSection: {
     title1: 'Hire',
     gradientTitle: 'Android ',
@@ -1715,7 +1671,7 @@ export const ANDROID_DEVELOPER_NEW = {
       'Unlock the potential of core Android technology with scalable and fully functional Android applications developed by our expert team. Our full-stack Android app developers are experienced in design standards, user interface, code optimization, and delivering exceptional user experiences. Trust us to steer your project towards success.',
     ctaText: 'GET IN TOUCH',
     redirect: '/contact',
-    imageSrc: '/assets/python/elevate-your-project.png', 
+    imageSrc: '/assets/python/elevate-your-project.png',
     imageAlt: 'Elevate Your Project',
   },
 
@@ -1726,7 +1682,7 @@ export const ANDROID_DEVELOPER_NEW = {
     ctaText1: 'Get Free Consultation',
     redirect1: '/contact',
     ctaText2: 'View Case Studies ',
-    redirect2: '#',
+    redirect2: '#case-studies',
   },
 
   androidDevelopmentServices: {
@@ -1777,11 +1733,15 @@ export const ANDROID_DEVELOPER_NEW = {
     ],
   },
 
-  hireDedicatedAndroidDeveloper: {
-    title: 'Hire Dedicated Android Developer team based on your requirements',
-    description: 'We provide various services tailored to meet the specific needs of your business.',
-    ctaText: 'Get in touch',
-    ctaRoute: 'contact',
+  ctaSection1: {
+    onlyDesc: true,
+    descp1: 'Hire Dedicated',
+    colouredDescp: 'Android Developer',
+    descp2:
+      'team based on your requirements. We provide various hiring engagement models tailored to meet the specific needs of your business.',
+    ctaText: 'GET IN TOUCH',
+    redirect: '/contact',
+    bgColor: '#F4F4F4',
   },
 
   whyChoose: {
@@ -1800,12 +1760,13 @@ export const ANDROID_DEVELOPER_NEW = {
     service4: { number: '100+', text: 'Happy Client' },
   },
 
-  elevateYourJourney: {
+  ctaSection2: {
     title: 'Want to Create a User-friendly Web Application?',
     description:
       "Hire our Android developer to improve your product's usability, satisfaction, and overall user experience.",
-    ctaText: 'Hire Android Developers Remotely',
+    ctaText: 'HIRE US',
     ctaRoute: '/contact',
+    bgColor: '#21315B',
   },
 
   androidJourney: {
@@ -1833,7 +1794,7 @@ export const ANDROID_DEVELOPER_NEW = {
         id: 2,
         text: 'Design and Prototyping',
         description:
-          'Our team creates wireframes and prototypes to visualize the app\'s structure and layout, ensuring alignment with your vision and user experience goals.',
+          "Our team creates wireframes and prototypes to visualize the app's structure and layout, ensuring alignment with your vision and user experience goals.",
       },
       {
         id: 3,
@@ -1858,7 +1819,7 @@ export const ANDROID_DEVELOPER_NEW = {
         text: 'Maintenance and Support',
         description:
           'We provide ongoing maintenance and support services, addressing any post-launch issues and implementing updates to keep your app up-to-date and competitive.',
-      }
+      },
     ],
   },
 
@@ -1874,7 +1835,7 @@ export const ANDROID_DEVELOPER_NEW = {
         id: 1,
         title: 'Get a Dedicated Project Manager',
         description:
-          'No matter what, you\'ll get a complimentary project manager from us. They\'ll handle all the nitty-gritty stuff like planning, setting timelines, and making sure everyone\'s on track. Their job? To guarantee you\'re getting top-notch results every step of the way with Primathon.',
+          "No matter what, you'll get a complimentary project manager from us. They'll handle all the nitty-gritty stuff like planning, setting timelines, and making sure everyone's on track. Their job? To guarantee you're getting top-notch results every step of the way with Primathon.",
         listItems: [
           'Analyze the Progress of the Project',
           'Ensure Client Satisfaction',
@@ -1887,7 +1848,7 @@ export const ANDROID_DEVELOPER_NEW = {
         id: 2,
         title: 'Stay in the Loop with Daily and Monthly Task Records',
         description:
-          'We provide daily updates and summaries of tasks finished, challenges encountered, and milestones reached. Hire Android Developer from us and at the end of each month, you\'ll receive a comprehensive timesheet detailing team activities and hours allocated to each task. This will help you to review payments based on completed work.',
+          "We provide daily updates and summaries of tasks finished, challenges encountered, and milestones reached. Hire Android Developer from us and at the end of each month, you'll receive a comprehensive timesheet detailing team activities and hours allocated to each task. This will help you to review payments based on completed work.",
         listItems: ['Keep Tabs on Progress', 'Quality Results', 'Optimize Time Management'],
         imageSrc: '/assets/angular-js/task-records.png',
         imageAlt: 'Daily and Monthly Task Records',
