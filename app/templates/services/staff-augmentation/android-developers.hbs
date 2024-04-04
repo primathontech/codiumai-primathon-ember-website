@@ -1,8 +1,18 @@
-<Pages::Services::StaffAugmentationServices
-  @title={{this.androidDevelopersTitle}}
-  @subHeading={{this.androidDeveloperSubHeading}}
-  @about={{this.androidDeveloperAbout}}
-  @imgData={{this.androidDevelopersData}}
-  @bg={{this.androidDeveloperBg}}
-  @circular_list={{this.androidDeveloperCircularList}}
+<Pages::Services::StaffAugmentationServicesNew
+  @data={{@model}}
+  @heroSection={{@model.data.heroSection}}
+  @heroSectionImgStyle='w-[525px] h-[480px] xl:w-[610px] xl:h-[550px]'
+  @heroSectionClass='bg-[#1A284D] lg:pr-0'
+  @elevateYourProject={{@model.data.elevateYourProject}}
+  @elevateYourProjectImgStyle='w-[360px] h-[300px] sm:w-[525px] sm:h-[500px] xl:w-[698px] xl:h-[600px]'
+  @ctaSection={{@model.data.ctaSection}}
+  @useCases={{@model.data.androidDevelopmentServices}}
+  @whyChoose={{@model.data.whyChoose}}
+  @journey={{@model.data.androidJourney}}
+  @developmentStrategy={{@model.data.androidDevelopmentStrategy}}
+  @developmentStrategyImgStyle={{'w-[400px] h-[400px] xl:w-[500px] xl:h-[460px]'}}
+  @benefits={{@model.data.benefitsOfHiringAndroid}}
+  @table={{@model.data.table}}
+  @caseStudies={{@model.data.caseStudies}}
+  @faqs={{@model.data.faqs}}
 />

@@ -1705,7 +1705,7 @@ export const ANDROID_DEVELOPER_NEW = {
     ],
     ctaText1: 'Book a Call',
     ctaText2: 'Get Free Consultation',
-    imageSrc: '/assets/android/android-herosection-img.png',
+    imageSrc: '/assets/android/hire-android-herosection-img.png',
     imageAlt: 'Hire Android Developer',
   },
 
