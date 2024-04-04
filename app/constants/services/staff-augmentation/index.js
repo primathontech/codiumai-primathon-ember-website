@@ -1673,7 +1673,7 @@ export const JAVASCRIPT = {
   },
 };
 
-export const IOS = {
+export const IOS_DEVELOPER = {
   heroSection: {
     title1: 'Hire',
     gradientTitle: 'iOS',
@@ -1705,7 +1705,7 @@ export const IOS = {
     ],
     ctaText1: 'Book a Call',
     ctaText2: 'Get Free Consultation',
-    imageSrc: '/assets/javascript/hire-javascript-herosection-img.png',
+    imageSrc: '/assets/ios/hire-ios-herosection-img.png',
     imageAlt: 'Hire iOS Developer',
   },
 
