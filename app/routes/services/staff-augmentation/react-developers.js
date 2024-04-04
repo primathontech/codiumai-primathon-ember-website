@@ -3,7 +3,7 @@ import { REACT_DEVELOPER } from '../../../constants/services/staff-augmentation'
 import { inject as service } from '@ember/service';
 import { TESTIMONIAL_DATA } from '../../../constants/homepage/testimonial';
 
-export default class ServicesStaffAugmentationAndroidDevelopersRoute extends Route {
+export default class ServicesStaffAugmentationReactDevelopersRoute extends Route {
   @service headData;
   async model() {
     const data = REACT_DEVELOPER;

@@ -461,6 +461,7 @@ export const PYTHON_DEVELOPER = {
     ],
     ctaText1: 'Book a Call',
     ctaText2: 'Get Free Consultation',
+    redirect: '/contact',
     imageSrc: '/assets/python/hire-python-herosection-img.png',
     imageAlt: 'Hire Python',
   },
@@ -855,6 +856,7 @@ export const ANGULAR_DEVELOPER = {
     ],
     ctaText1: 'Book a Call',
     ctaText2: 'Get Free Consultation',
+    redirect: '/contact',
     imageSrc: '/assets/angular-js/hire-angularJs-herosection.png',
     imageAlt: 'Hire AngularJs Developer',
   },
@@ -1257,6 +1259,7 @@ export const JAVASCRIPT = {
     ],
     ctaText1: 'Book a Call',
     ctaText2: 'Get Free Consultation',
+    redirect: '/contact',
     imageSrc: '/assets/javascript/hire-javascript-herosection-img.png',
     imageAlt: 'Hire JavaScript',
   },
@@ -1661,6 +1664,7 @@ export const ANDROID_DEVELOPER = {
     ],
     ctaText1: 'Book a Call',
     ctaText2: 'Get Free Consultation',
+    redirect: '/contact',
     imageSrc: '/assets/android/hire-android-herosection-img.png',
     imageAlt: 'Hire Android Developer',
   },
@@ -2060,6 +2064,7 @@ export const IOS_DEVELOPER = {
     ],
     ctaText1: 'Book a Call',
     ctaText2: 'Get Free Consultation',
+    redirect: '/contact',
     imageSrc: '/assets/ios/hire-ios-herosection-img.png',
     imageAlt: 'Hire iOS Developer',
   },
@@ -2447,6 +2452,7 @@ export const SWIFT_DEVELOPER = {
     ],
     ctaText1: 'Book a Call',
     ctaText2: 'Get Free Consultation',
+    redirect: '/contact',
     imageSrc: '/assets/swift/hire-swift-herosection-img.png',
     imageAlt: 'Hire Swift Developer',
   },
@@ -2859,6 +2865,7 @@ export const REACT_DEVELOPER = {
     ],
     ctaText1: 'Book a Call',
     ctaText2: 'Get Free Consultation',
+    redirect: '/contact',
     imageSrc: '/assets/react-js/hire-react-js-herosection.png',
     imageAlt: 'Hire React.js',
   },
@@ -2887,7 +2894,7 @@ export const REACT_DEVELOPER = {
       {
         id: 1,
         imageSrc: '/assets/swift/app-development.svg',
-        cardTitle: 'Custom React JS App Development',
+        cardTitle: 'Custom React.jS App Development',
         content:
           'We get what your business needs and our years of expertise will help you to provide a special solution. We craft personalized solutions for your business that will enhance your speed, flexibility, and performance.',
       },
@@ -2901,7 +2908,7 @@ export const REACT_DEVELOPER = {
       {
         id: 3,
         imageSrc: '/assets/react-js/react-web-development.svg',
-        cardTitle: 'React Web Development:',
+        cardTitle: 'React Web Development',
         content:
           'We are a pro at crafting dynamic and interactive web applications that are specifically tailored to your business needs. Our experts ensure great speed, super flexible web app performance, and usability.',
       },
@@ -2915,19 +2922,12 @@ export const REACT_DEVELOPER = {
       {
         id: 5,
         imageSrc: '/assets/angular-js/angular-consulting.svg',
-        cardTitle: 'React JS Enterprise App Development:',
+        cardTitle: 'React.jS Enterprise App Development:',
         content:
           'Being a trusted react company, we can provide you with the expert advice and insights on the most effective methods to develop your app.  Moreover, our years of technical expertise aid in building scalable and secure apps that are integrated with cloud storage and analytics platforms.',
       },
       {
         id: 6,
-        imageSrc: '/assets/react-js/react-migration.svg',
-        cardTitle: 'React Migration and Porting Services:',
-        content:
-          'With our proficiency as a ReactJs company, we ensure hassle-free migration of existing apps to ReactJS for enhanced security, responsiveness, and cost-effectiveness.',
-      },
-      {
-        id: 7,
         imageSrc: '/assets/swift/custom-solution.svg',
         cardTitle: 'ReactJS Consulting Services:',
         content:
@@ -3031,7 +3031,7 @@ export const REACT_DEVELOPER = {
   benefitsOfHiringReact: {
     title1: 'Benefits of Hiring',
     colouredTitle: 'React.js Developers',
-    title2: 'from us',
+    title2: 'from Us',
 
     description:
       'From free manager service to punctual delivery and precise timesheets, we offer multiple benefits to a client when they hire React.js developers from Primathon.',
