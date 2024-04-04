@@ -366,50 +366,6 @@ export const QUALITY = {
   },
 };
 
-export const ANDROID_DEVELOPER = {
-  title: 'Best Android Development Solutions India',
-  sub_heading:
-    'We are there, every step of the way from your idea and your product launch! <b> Hire Professional Android Developers Gurgaon </b>',
-  about:
-    "For devices using the Android operating system, an Android developer is in charge of creating applications. An Android developer must pay close attention to the application's compatibility with various Android versions and device kinds due to the fragmentation of this ecosystem. Primathon is well known name for an <b>android development service provider company</b>. Android programmers must stay current on new tools and technology. They design apps that best meet the needs of the business by using their existing knowledge and learning new things as needed.",
-  data: [
-    {
-      imgUrl: '/assets/frontend/jquery-icon.png',
-      title: 'Jquery',
-    },
-    {
-      imgUrl: '/assets/frontend/flutter.png',
-      title: 'Flutter',
-    },
-    {
-      imgUrl: '/assets/frontend/js.png',
-      title: 'JavaScript',
-    },
-    {
-      imgUrl: '/assets/frontend/react-icon.png',
-      title: 'React React Native',
-    },
-    {
-      imgUrl: '/assets/frontend/android.png',
-      title: 'Android Developers',
-    },
-    {
-      imgUrl: '/assets/frontend/ios.png',
-      title: 'iOS Developers',
-    },
-  ],
-  bg: 'android',
-  circular_list: {
-    heading: 'Why your business needs Staff Augmentation from us?',
-    items: [
-      'Detail Oriented Quality Analysts',
-      'Problem-solving and Analytical Skills',
-      'Extensive knowledge in android development technologies',
-      'Collaborative and communicative approach',
-    ],
-  },
-};
-
 export const PLATFORM = {
   title: 'Platforms',
   sub_heading: 'We are there, every step of the way from your idea and your <b> product launch! </b>',
@@ -672,7 +628,7 @@ export const PYTHON_DEVELOPER = {
   benefitsOfHiringPython: {
     title1: 'Benefits of Hiring ',
     colouredTitle: 'Python Developers',
-    title2: 'from us',
+    title2: 'from Us',
 
     description:
       'From free manager service to punctual delivery and precise timesheets, we offer multiple benefits to a client when they hire Python developers from Primathon.',
@@ -984,7 +940,7 @@ export const ANGULAR_DEVELOPER = {
       { id: 4, text: '24/7 Support' },
     ],
     service1: { number: '6+', text: 'Years of business' },
-    service2: { number: '100+', text: 'Softawre Developers' },
+    service2: { number: '100+', text: 'Software Developers' },
     service3: { number: '150+', text: 'Project Delivered' },
     service4: { number: '100+', text: 'Happy Client' },
   },
@@ -1004,7 +960,7 @@ export const ANGULAR_DEVELOPER = {
       'You share your idea with us',
       'We create a strategy for your project',
       'Our AngularJS Developer starts building it',
-      'We deliver on time ',
+      'We deliver on time',
     ],
   },
 
@@ -1023,7 +979,7 @@ export const ANGULAR_DEVELOPER = {
         id: 2,
         text: 'Planning and Design',
         description:
-          'We create a comprehensive plan and design layout for your Python project, focusing on usability, scalability, and performance.',
+          'We create a comprehensive plan and design layout for your angular project, focusing on usability, scalability, and performance.',
       },
       {
         id: 3,
@@ -1080,7 +1036,7 @@ export const ANGULAR_DEVELOPER = {
         id: 3,
         title: 'Diverse Talent Pool',
         description:
-          'When you hire a Python Developer from Primathon, you gain access to a wealth of knowledge spanning various Python frameworks and libraries, ensuring that your project receives the specialized skills it requires.',
+          'When you hire a AngularJS Developer from Primathon, you gain access to a wealth of knowledge spanning various AngularJS frameworks and libraries, ensuring that your project receives the specialized skills it requires.',
         listItems: ['Decrease the Chances of Project Disruption', 'Simplify Task'],
         imageSrc: '/assets/python/talent-pool.png',
         imageAlt: 'Diverse Talent Pool',
@@ -1673,6 +1629,406 @@ export const JAVASCRIPT = {
   },
 };
 
+export const ANDROID_DEVELOPER = {
+  heroSection: {
+    title1: 'Hire',
+    gradientTitle: 'Android ',
+    title2: 'Developers',
+    subtitle: 'Reasonable, Dedicated Experts for Your Business',
+    description:
+      "Unlock the power of Android with our seasoned team. From custom solutions to seamless integrations, our experts ensure your projects stand out. Prepare to onboard our adept Android developers to elevate your business's online footprint! Our dedicated Android developers bring   innovation into your project, ensuring robust, scalable, and timely solutions.",
+    listItems: [
+      {
+        id: 1,
+        text: '100% Skilled and Certified Developers',
+      },
+      {
+        id: 2,
+        text: 'Average Experience of 5+ Years',
+      },
+      {
+        id: 3,
+        text: 'Swift Onboarding Process',
+      },
+      {
+        id: 4,
+        text: 'Competitive Pricing Models',
+      },
+      {
+        id: 5,
+        text: 'Transparent and Seamless Communication',
+      },
+    ],
+    ctaText1: 'Book a Call',
+    ctaText2: 'Get Free Consultation',
+    imageSrc: '/assets/android/hire-android-herosection-img.png',
+    imageAlt: 'Hire Android Developer',
+  },
+
+  elevateYourProject: {
+    title: 'Experience Excellence in Android Development with Top Android App Development Company',
+    description:
+      'Unlock the potential of core Android technology with scalable and fully functional Android applications developed by our expert team. Our full-stack Android app developers are experienced in design standards, user interface, code optimization, and delivering exceptional user experiences. Trust us to steer your project towards success.',
+    ctaText: 'GET IN TOUCH',
+    redirect: '/contact',
+    imageSrc: '/assets/python/elevate-your-project.png',
+    imageAlt: 'Elevate Your Project',
+  },
+
+  ctaSection: {
+    title: 'Are you Confused About the Right Development Path?',
+    description:
+      'Let our team of Android development professionals guide you through each phase of your project, empowering you to make informed decisions with confidence',
+    ctaText1: 'Get Free Consultation',
+    redirect1: '/contact',
+    ctaText2: 'View Case Studies ',
+    redirect2: '#case-studies',
+  },
+
+  androidDevelopmentServices: {
+    title: 'Elevate Your Projects with Our Seasoned Android App Developers',
+    cardData: [
+      {
+        id: 1,
+        imageSrc: '/assets/android/integration-service.png',
+        cardTitle: 'Android Integration Services',
+        content:
+          'Seamlessly integrate your Android apps with existing systems and platforms to enhance functionality and user experience.',
+      },
+      {
+        id: 2,
+        imageSrc: '/assets/android/ui-ux-design.png',
+        cardTitle: 'Android UX/UI Design',
+        content:
+          'Collaborate with top-level designers to transform your ideas into visually stunning layouts, tested for audience interaction and engagement.',
+      },
+      {
+        id: 3,
+        imageSrc: '/assets/android/app-development.png',
+        cardTitle: 'Android App Development',
+        content:
+          'Build custom apps for smartphones, tablets, TVs, and wearables, addressing specific challenges and catering to diverse device types and ecosystems',
+      },
+      {
+        id: 4,
+        imageSrc: '/assets/android/app-maintenance-and-support.png',
+        cardTitle: 'Android App Maintenance and Support',
+        content:
+          'Keep your app up-to-date with feature enhancements, functionality upgrades, and basic maintenance to remain competitive and trend-aligned.',
+      },
+      {
+        id: 5,
+        imageSrc: '/assets/android/customization.png',
+        cardTitle: 'Android Customization',
+        content:
+          'Tailor your Android apps to meet your unique business requirements and branding needs with our comprehensive customization services.',
+      },
+      {
+        id: 6,
+        imageSrc: '/assets/android/app-testing.png',
+        cardTitle: 'Android App Testing',
+        content:
+          'Access a skilled team of QA specialists to ensure your app meets desired standards through thorough evaluation and user acceptance testing.',
+      },
+    ],
+  },
+
+  ctaSection1: {
+    onlyDesc: true,
+    descp1: 'Hire Dedicated',
+    colouredDescp: 'Android Developer',
+    descp2:
+      'team based on your requirements. We provide various hiring engagement models tailored to meet the specific needs of your business.',
+    ctaText: 'GET IN TOUCH',
+    redirect: '/contact',
+    bgColor: '#F4F4F4',
+  },
+
+  whyChoose: {
+    title: 'Why Hire Android Developers from Primathon?',
+    description:
+      'Our Android UX/UI designers excel in their domain, boasting over 7 years of experience in crafting scalable and high-performing Android applications. We remain abreast of the latest Android advancements and tools, guaranteeing that your project is constructed using cutting-edge technology. Security is paramount in our development process, ensuring that your Android applications are shielded against threats and vulnerabilities. We fine-tune your Android applications for speed and efficiency, delivering exceptional user experiences within the project timeline and budget constraints.',
+    listItems: [
+      { id: 1, text: 'Experience 1.5X Faster Delivery' },
+      { id: 2, text: 'Work at Your Time Zone' },
+      { id: 3, text: 'Hassle-free communication' },
+      { id: 4, text: '24/7 Support' },
+    ],
+    service1: { number: '6+', text: 'Years of business' },
+    service2: { number: '80+', text: 'Software Developers' },
+    service3: { number: '150+', text: 'Project Delivered' },
+    service4: { number: '100+', text: 'Happy Client' },
+  },
+
+  ctaSection2: {
+    title: 'Want to Create a User-friendly Web Application?',
+    description:
+      "Hire our Android developer to improve your product's usability, satisfaction, and overall user experience.",
+    ctaText: 'HIRE US',
+    ctaRoute: '/contact',
+    bgColor: '#21315B',
+  },
+
+  androidJourney: {
+    heading: 'Let us take your project on a journey!',
+    items: [
+      'You share your idea with us',
+      'We create a strategy for your project',
+      'Our Android Developer starts building it',
+      'We deliver on time',
+    ],
+  },
+
+  androidDevelopmentStrategy: {
+    title: 'An Overview of Our Android App Development Approach',
+    imageSrc: '/assets/android/development-strategy.png',
+    imageAlt: 'Development Strategy',
+    cardData: [
+      {
+        id: 1,
+        text: 'Requirement Analysis',
+        description:
+          'We begin by conducting a thorough analysis of your project requirements, ensuring a clear understanding of your objectives and goals.',
+      },
+      {
+        id: 2,
+        text: 'Design and Prototyping',
+        description:
+          "Our team creates wireframes and prototypes to visualize the app's structure and layout, ensuring alignment with your vision and user experience goals.",
+      },
+      {
+        id: 3,
+        text: ' Development',
+        description:
+          'Our skilled developers commence coding, implementing features and functionalities according to the project specifications and design guidelines.',
+      },
+      {
+        id: 4,
+        text: 'Testing and Quality Assurance',
+        description:
+          'Rigorous testing is conducted to identify and resolve any bugs or issues, ensuring the app functions seamlessly across various devices and scenarios.',
+      },
+      {
+        id: 5,
+        text: 'Deployment',
+        description:
+          'Once testing is complete, we deploy the app to the desired app stores or platforms, ensuring a smooth and efficient launch process.',
+      },
+      {
+        id: 6,
+        text: 'Maintenance and Support',
+        description:
+          'We provide ongoing maintenance and support services, addressing any post-launch issues and implementing updates to keep your app up-to-date and competitive.',
+      },
+    ],
+  },
+
+  benefitsOfHiringAndroid: {
+    title1: 'Benefits of Hiring',
+    colouredTitle: 'Android Developers',
+    title2: 'from us',
+
+    description:
+      'From free manager service to punctual delivery and precise timesheets, we offer multiple benefits to a client when they hire Android developers from Primathon.',
+    cardData: [
+      {
+        id: 1,
+        title: 'Get a Dedicated Project Manager',
+        description:
+          "No matter what, you'll get a complimentary project manager from us. They'll handle all the nitty-gritty stuff like planning, setting timelines, and making sure everyone's on track. Their job? To guarantee you're getting top-notch results every step of the way with Primathon.",
+        listItems: [
+          'Analyze the Progress of the Project',
+          'Ensure Client Satisfaction',
+          'Keeps you updated throughout the Project',
+        ],
+        imageSrc: '/assets/angular-js/dedicated-project-manager.png',
+        imageAlt: 'Dedicated Project Manager discussing project',
+      },
+      {
+        id: 2,
+        title: 'Stay in the Loop with Daily and Monthly Task Records',
+        description:
+          "We provide daily updates and summaries of tasks finished, challenges encountered, and milestones reached. Hire Android Developer from us and at the end of each month, you'll receive a comprehensive timesheet detailing team activities and hours allocated to each task. This will help you to review payments based on completed work.",
+        listItems: ['Keep Tabs on Progress', 'Quality Results', 'Optimize Time Management'],
+        imageSrc: '/assets/angular-js/task-records.png',
+        imageAlt: 'Daily and Monthly Task Records',
+      },
+      {
+        id: 3,
+        title: 'Diverse Talent Pool',
+        description:
+          'When you hire an Android Developer from Primathon, you gain access to a wealth of knowledge spanning various Android frameworks and libraries, ensuring that your project receives the specialized skills it requires.',
+        listItems: ['Decrease the Chances of Project Disruption', 'Simplify Task'],
+        imageSrc: '/assets/python/talent-pool.png',
+        imageAlt: 'Diverse Talent Pool',
+      },
+    ],
+  },
+
+  table: {
+    title: 'Hire Android Developers From Primathon Vs Other Company',
+    tableHeading: ['', 'Primathon', 'Other Company', 'Freelancers'],
+    tableRows: [
+      {
+        id: 1,
+        tableData: [
+          { id: 1, text: 'Failure Rate', bgColor: '#ffffff' },
+          { id: 2, text: 'X', bgColor: '#FFDCDC' },
+          { id: 3, text: 'Low', bgColor: '#ffffff' },
+          { id: 4, text: 'Very Low', bgColor: '#ffffff' },
+        ],
+      },
+
+      {
+        id: 2,
+        tableData: [
+          { id: 1, text: 'Pre-assessed Developers', bgColor: '#ffffff' },
+          { id: 2, text: '✓', bgColor: '#24B768' },
+          { id: 3, text: 'X', bgColor: '#FFDCDC' },
+          { id: 4, text: 'X', bgColor: '#FFDCDC' },
+        ],
+      },
+
+      {
+        id: 3,
+        tableData: [
+          { id: 1, text: 'Results', bgColor: '#ffffff' },
+          { id: 2, text: '100% Premium Quality', bgColor: '#ffffff' },
+          { id: 3, text: 'Good', bgColor: '#ffffff' },
+          { id: 4, text: 'Unsure', bgColor: '#ffffff' },
+        ],
+      },
+
+      {
+        id: 4,
+        tableData: [
+          { id: 1, text: 'Documentation and Security', bgColor: '#ffffff' },
+          { id: 2, text: '✓', bgColor: '#24B768' },
+          { id: 3, text: 'X', bgColor: '#FFDCDC' },
+          { id: 4, text: 'X', bgColor: '#FFDCDC' },
+        ],
+      },
+
+      {
+        id: 5,
+        tableData: [
+          { id: 1, text: 'Rates', bgColor: '#ffffff' },
+          { id: 2, text: 'Reasonable', bgColor: '#ffffff' },
+          { id: 3, text: 'High Cost', bgColor: '#ffffff' },
+          { id: 4, text: 'High Cost', bgColor: '#ffffff' },
+        ],
+      },
+
+      {
+        id: 6,
+        tableData: [
+          { id: 1, text: 'Quality Guarantee', bgColor: '#ffffff' },
+          { id: 2, text: '✓', bgColor: '#24B768' },
+          { id: 3, text: 'X', bgColor: '#FFDCDC' },
+          { id: 4, text: 'Unsure', bgColor: '#ffffff' },
+        ],
+      },
+    ],
+
+    mobileTableData: [
+      {
+        id: 1,
+        title: 'Failure Rate',
+        tableHeading: ['Primathon', 'Other Company', 'Freelancers'],
+        tableData: [
+          { id: 1, text: 'X', bgColor: '#FFDCDC' },
+          { id: 2, text: 'Low', bgColor: '#ffffff' },
+          { id: 3, text: 'Very Low', bgColor: '#ffffff' },
+        ],
+      },
+      {
+        id: 2,
+        title: 'Pre-assessed Developers',
+        tableHeading: ['Primathon', 'Other Company', 'Freelancers'],
+        tableData: [
+          { id: 1, text: '✓', bgColor: '#24B768' },
+          { id: 2, text: 'X', bgColor: '#FFDCDC' },
+          { id: 3, text: 'X', bgColor: '#FFDCDC' },
+        ],
+      },
+      {
+        id: 3,
+        title: 'Results',
+        tableHeading: ['Primathon', 'Other Company', 'Freelancers'],
+        tableData: [
+          { id: 1, text: '100% Premium Quality', bgColor: '#ffffff' },
+          { id: 2, text: 'Good', bgColor: '#ffffff' },
+          { id: 3, text: 'Unsure', bgColor: '#ffffff' },
+        ],
+      },
+      {
+        id: 4,
+        title: 'Documentation and Security',
+        tableHeading: ['Primathon', 'Other Company', 'Freelancers'],
+        tableData: [
+          { id: 1, text: '✓', bgColor: '#24B768' },
+          { id: 2, text: 'X', bgColor: '#FFDCDC' },
+          { id: 3, text: 'X', bgColor: '#FFDCDC' },
+        ],
+      },
+      {
+        id: 5,
+        title: 'Rates',
+        tableHeading: ['Primathon', 'Other Company', 'Freelancers'],
+        tableData: [
+          { id: 1, text: 'Reasonable', bgColor: '#ffffff' },
+          { id: 2, text: 'High Cost', bgColor: '#ffffff' },
+          { id: 3, text: 'High Cost', bgColor: '#ffffff' },
+        ],
+      },
+      {
+        id: 5,
+        title: 'Quality Guarantee',
+        tableHeading: ['Primathon', 'Other Company', 'Freelancers'],
+        tableData: [
+          { id: 1, text: '✓', bgColor: '#24B768' },
+          { id: 2, text: 'X', bgColor: '#FFDCDC' },
+          { id: 3, text: 'Unsure', bgColor: '#ffffff' },
+        ],
+      },
+    ],
+  },
+
+  faqs: {
+    title: 'FAQs',
+    cardData: [
+      {
+        id: 1,
+        question: 'What qualifications do Android developers from Primathon possess?',
+        answer: [
+          'Android developers at Primathon are highly qualified professionals with extensive experience in Android app development. They typically hold relevant degrees in computer science or related fields and undergo rigorous screening processes to ensure their skills and expertise align with industry standards.',
+        ],
+      },
+      {
+        id: 2,
+        question: 'How does Primathon ensure the quality of Android developers it provides?',
+        answer: [
+          'Primathon follows a meticulous selection process to onboard only the top-tier Android developers. This process involves technical assessments, code reviews, and interviews to evaluate candidates proficiency, problem-solving abilities, and communication skills.',
+        ],
+      },
+      {
+        id: 3,
+        question: 'Can I communicate directly with the Android developers during the project?',
+        answer: [
+          'Yes, Primathon encourages direct communication between clients and developers to foster collaboration and transparency. This ensures seamless interaction, timely updates, and effective resolution of any queries or concerns.',
+        ],
+      },
+      {
+        id: 4,
+        question: 'How does Primathon handle project timelines and deadlines?',
+        answer: [
+          'At Primathon, we understand the importance of delivering projects on time. Our Android developers adhere to strict timelines and follow agile methodologies to ensure efficient project management and timely delivery of milestones. ',
+        ],
+      },
+    ],
+  },
+};
+
 export const IOS_DEVELOPER = {
   heroSection: {
     title1: 'Hire',
@@ -2050,7 +2406,7 @@ export const IOS_DEVELOPER = {
         answer: [
           'We prioritize transparent communication and collaboration with our clients. Our iOS developers are proficient in English and are available for regular updates, feedback sessions, and meetings through various communication channels like email, chat, and video calls.',
         ],
-      }
+      },
     ],
   },
 };

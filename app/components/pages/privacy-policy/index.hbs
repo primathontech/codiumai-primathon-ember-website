@@ -1,0 +1,119 @@
+<Header />
+<section class='px-8 pb-16 sm:px-16 lg:px-20 xl:p-24 pt-24'>
+  <h1 class='text-3xl font-bold text-center text-[#1A284D] mb-12'>Privacy Policy</h1>
+  <div>
+    <h2 class='text-2xl font-semibold text-[#24B768] mb-3'>{{@overviewSection.title}}</h2>
+    <div>
+      {{#each @overviewSection.description as |item|}}
+        <p>{{html-safe item}}</p>
+      {{/each}}
+    </div>
+  </div>
+  {{! section A }}
+  <div>
+    <h2 class='text-2xl font-semibold text-[#198CCA] mb-4 mt-10'>{{@sectionA.title}}</h2>
+    {{#each @sectionA.data as |item|}}
+      <div class='ml-5'>
+        <h4 class='text-xl font-medium text-[#FFAD00] mb-2 mt-6'>{{item.title}}</h4>
+        {{#each item.description as |text|}}
+          <p>{{html-safe text}}</p>
+        {{/each}}
+      </div>
+    {{/each}}
+  </div>
+  {{! section B }}
+  <div>
+    <h2 class='text-2xl font-semibold text-[#198CCA] mb-4 mt-10'>{{@data.sectionB.title}}</h2>
+    <div class='ml-5'>
+      <h4 class='text-xl font-medium text-[#FFAD00] mb-2 mt-6'>{{@data.sectionB.data.title}}</h4>
+      <p>{{@data.sectionB.data.description1}}</p>
+      <ul class='list-disc ml-10 mb-4'>
+        {{#each @data.sectionB.data.listItems as |list|}}
+          <li>
+            {{list}}
+          </li>
+        {{/each}}
+      </ul>
+
+      {{#each @data.sectionB.data.description2 as |text|}}
+        <p>{{html-safe text}}</p>
+      {{/each}}
+    </div>
+  </div>
+  {{! section C }}
+  <div>
+    <h2 class='text-2xl font-semibold text-[#198CCA] mb-4 mt-10'>{{@data.sectionC.title}}</h2>
+    <p>{{@data.sectionC.overView}}</p>
+    {{#each @data.sectionC.data as |item|}}
+      <div class='ml-5'>
+        <h4 class='text-xl font-medium text-[#FFAD00] mb-2 mt-6'>{{item.title}}</h4>
+        <p>{{item.description}}</p>
+      </div>
+    {{/each}}
+
+  </div>
+
+  {{! section D }}
+  <div>
+    <h2 class='text-2xl font-semibold text-[#198CCA] mb-4 mt-10'>{{@data.sectionD.title}}</h2>
+    <p>{{@data.sectionD.overView}}</p>
+  </div>
+
+  {{! section E }}
+  <div>
+    <h2 class='text-2xl font-semibold text-[#198CCA] mb-4 mt-10'>{{@data.sectionE.title}}</h2>
+    <p>{{@data.sectionE.overView}}</p>
+
+    {{#each @data.sectionE.data as |item|}}
+      <div class='ml-5'>
+        <h4 class='text-xl font-medium text-[#FFAD00] mb-2 mt-6'>{{item.title}}</h4>
+        <p>{{html-safe item.description}}</p>
+      </div>
+    {{/each}}
+
+  </div>
+
+  {{! section F }}
+  <div>
+    <h2 class='text-2xl font-semibold text-[#198CCA] mb-4 mt-10'>{{@data.sectionF.title}}</h2>
+    <p>{{@data.sectionF.overView}}</p>
+  </div>
+
+  {{! section G }}
+  <div>
+    <h2 class='text-2xl font-semibold text-[#198CCA] mb-4 mt-10'>{{@data.sectionG.title}}</h2>
+    {{#each @data.sectionG.description as |item|}}
+      <p>{{html-safe item}}</p>
+    {{/each}}
+  </div>
+
+  {{! section H }}
+  <div>
+    <h2 class='text-2xl font-semibold text-[#198CCA] mb-4 mt-10'>{{@data.sectionH.title}}</h2>
+    <p>{{@data.sectionH.overView}}</p>
+    <h4 class='text-xl font-medium text-[#FFAD00] mb-2 mt-6 ml-5'>{{@data.sectionH.data.title}}</h4>
+    <p class='ml-5'>{{@data.sectionH.data.description}}</p>
+  </div>
+
+  {{! section I }}
+  <div>
+    <h2 class='text-2xl font-semibold text-[#198CCA] mb-4 mt-10'>{{@data.sectionI.title}}</h2>
+    {{#each @data.sectionI.description as |item|}}
+      <p>{{item}}</p>
+    {{/each}}
+  </div>
+
+  {{! section J }}
+  <div>
+    <h2 class='text-2xl font-semibold text-[#198CCA] mb-4 mt-10'>{{@data.sectionJ.title}}</h2>
+    <p>{{@data.sectionJ.overView}}</p>
+  </div>
+
+  {{! section K }}
+  <div>
+    <h2 class='text-2xl font-semibold text-[#198CCA] mb-4 mt-10'>{{@data.sectionK.title}}</h2>
+    <p>{{html-safe @data.sectionK.overView}}</p>
+  </div>
+
+</section>
+<Footer />
