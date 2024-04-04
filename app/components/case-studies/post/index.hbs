@@ -1,6 +1,14 @@
-<Container class="case-studies-post">
-  <h2 class="heading">Our people build extraordinary products</h2>
-  {{!-- <div>
+<section class='bg-[#1A284D] px-6 py-10 sm:px-10 sm:py-24 lg:px-16 xl:p-24' id="case-studies">
+  <div class='max-w-[1210px] mx-auto'>
+    <h2 class='text-[#F9FAFB] text-2xl sm:text-3xl text-center'>{{if
+        @data.title
+        @data.title
+        'Our people build extraordinary products'
+      }}</h2>
+    {{#if @data.subtitle}}
+      <p class='text-[#E3E7EE] text-center mb-0 mt-4'>{{@data.subtitle}}</p>
+    {{/if}}
+    {{!-- <div>
     {{#each this.tags as |tag|}}
       <CaseStudies::Post::Tags
         @text={{tag}}
@@ -9,9 +17,10 @@
       />
     {{/each}}
   </div> --}}
-  <div class="card-holder">
-    {{#each this.postData as |data|}}
-      <CaseStudies::Post::Card @data={{data}} />
-    {{/each}}
+    <div class='mt-16 flex flex-wrap justify-center md:justify-start gap-12'>
+      {{#each this.postData as |data|}}
+        <CaseStudies::Post::Card @data={{data}} />
+      {{/each}}
+    </div>
   </div>
-</Container>
+</section>

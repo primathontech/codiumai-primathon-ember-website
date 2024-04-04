@@ -1,15 +1,6 @@
 import Component from '@glimmer/component';
 import { tracked } from '@glimmer/tracking';
 import { action } from '@ember/object';
-import {
-  MENU_HIRE_US_CLICK,
-  MENU_CONTACT_CLICK,
-  MENU_BLOG_CLICK,
-  MENU_ABOUT_CLICK,
-  MENU_SERVICES_CLICK,
-  MENU_CASE_STUDIES_CLICK,
-  MENU_CAREERS_CLICK,
-} from '../../constants/event-name';
 
 export default class FooterIndexComponent extends Component {
   @tracked openCompanyMenu = false;

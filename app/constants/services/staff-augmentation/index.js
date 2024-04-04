@@ -472,3 +472,1203 @@ export const UI_UX = {
     ],
   },
 };
+
+export const PYTHON_DEVELOPER = {
+  heroSection: {
+    title1: 'Hire',
+    gradientTitle: 'Python',
+    title2: 'Developers',
+    subtitle: 'Reasonable, Dedicated Experts for Your Business',
+    description:
+      "Get ready to hire our skilled python developers to enhance your business’s digital presence! Our committed python developers breathe life into innovation, guaranteeing robust, scalable, and efficient solutions delivered within your project's timeframe.",
+    listItems: [
+      {
+        id: 1,
+        text: '100% Skilled and Certified Developers',
+      },
+      {
+        id: 2,
+        text: 'Possesses an Average of 5+ Years of Experience',
+      },
+      {
+        id: 3,
+        text: 'Swift Onboarding Process',
+      },
+      {
+        id: 4,
+        text: 'Competitive Pricing Models',
+      },
+      {
+        id: 5,
+        text: 'Transparent and Smooth Communication',
+      },
+    ],
+    ctaText1: 'Book a Call',
+    ctaText2: 'Get Free Consultation',
+    imageSrc: '/assets/python/hire-python-herosection-img.png',
+    imageAlt: 'Hire Python',
+  },
+
+  elevateYourProject: {
+    title: 'Elevate Your Project by Hiring Top Python Developers in India',
+    description:
+      "With years of expertise and a commitment to innovation, we deliver bespoke solutions tailored to your unique requirements. Contact us to maximize Python's potential for your projects. Engage skilled python developers, partner with a trusted Python Development Company, or choose cost-effective Python Development solutions.",
+    ctaText: 'GET IN TOUCH',
+    redirect: '/contact',
+    imageSrc: '/assets/python/elevate-your-project.png',
+    imageAlt: 'Elevate Your Project',
+  },
+
+  ctaSection: {
+    title: 'Are you Confused About the Right AI Development Path?',
+    description:
+      'Allow our team of AI discovery experts to lead your project, ensuring you make confident and informed decisions along the way.',
+    ctaText1: 'Get Free Consultation',
+    redirect1: '/contact',
+    ctaText2: 'View Case Studies',
+    redirect2: '#case-studies',
+  },
+
+  pythonDevelopmentServices: {
+    title: 'Python Development Services Offered by Primathon’s Expert Coders',
+    cardData: [
+      {
+        id: 1,
+        imageSrc: '/assets/python/python-web-development.png',
+        cardTitle: 'Python Web Development',
+        content:
+          'We craft visually appealing, user-friendly websites that are fast, secure, and scalable. Our Python web solutions drive customer engagement, conversions, and online growth.',
+      },
+      {
+        id: 2,
+        imageSrc: '/assets/python/machine-learning.png',
+        cardTitle: 'Python Machine Learning Solutions',
+        content:
+          'Our skilled programmers address diverse technical challenges, automate processes, optimize performance, and extract valuable insights for your business.',
+      },
+      {
+        id: 3,
+        imageSrc: '/assets/python/data-analysis.png',
+        cardTitle: 'Python Data Analysis Services',
+        content:
+          "We harness Python's data analysis capabilities to interpret your data and transform it into actionable insights. Hire Python Developer as our solutions uncover patterns, trends, and opportunities to enhance business efficiency and growth.",
+      },
+      {
+        id: 4,
+        imageSrc: '/assets/python/ai-development.png',
+        cardTitle: 'Python AI Development',
+        content:
+          "Our team utilizes Python's AI frameworks to interact with natural language, images, and speech, enhancing customer experience, streamlining workflows, and fostering product innovation.",
+      },
+      {
+        id: 5,
+        imageSrc: '/assets/python/backend-development.png',
+        cardTitle: 'Python Backend Development Services',
+        content:
+          'We develop robust and secure backend systems using Python frameworks and cloud services. Our solutions handle high traffic, intricate logic, and multiple integrations, ensuring top performance for your web projects.',
+      },
+      {
+        id: 6,
+        imageSrc: '/assets/python/scripting-and-automation.png',
+        cardTitle: 'Python Scripting and Automation',
+        content:
+          'As a reputable Python development company, we leverage Python scripting for task automation, enhancing efficiency, conserving resources, and boosting productivity.',
+      },
+    ],
+  },
+
+  ctaSection1: {
+    onlyDesc: true,
+    descp1: 'Hire Dedicated',
+    colouredDescp: 'Python Developers',
+    descp2:
+      'team based on your requirements. We provide various hiring engagement models tailored to meet the specific needs of your business.',
+    ctaText: 'GET IN TOUCH',
+    redirect: '/contact',
+    bgColor: '#F4F4F4',
+  },
+
+  whyChoose: {
+    title: 'Why Hire Python Developers from Primathon?',
+    description:
+      'Our python developers excel in their domain, boasting over 7 years of experience in crafting scalable and high-performing python applications. We remain abreast of the latest python advancements and tools, guaranteeing that your project is constructed using cutting-edge technology. Security is paramount in our development process, ensuring that your python applications are shielded against threats and vulnerabilities. We fine-tune your python applications for speed and efficiency, delivering exceptional user experiences within the project timeline and budget constraints.',
+    listItems: [
+      { id: 1, text: 'Experience 1.5X Faster Delivery' },
+      { id: 2, text: 'Work at Your Time Zone' },
+      { id: 3, text: 'Hassle-free communication' },
+      { id: 4, text: '24/7 Support' },
+    ],
+    service1: { number: '6+', text: 'Years of business' },
+    service2: { number: '100+', text: 'Softawre Developers' },
+    service3: { number: '150+', text: 'Project Delivered' },
+    service4: { number: '100+', text: 'Happy Client' },
+  },
+
+  elevateYourJourney: {
+    title: 'Want to Create a User-friendly Web Application?',
+    description:
+      "Hire our Python developer to improve your product's usability, satisfaction, and overall user experience.",
+    ctaText: 'Hire Python Developers',
+    ctaRoute: '/contact',
+  },
+
+  pythonJourney: {
+    heading: 'Let us take your project on a journey!',
+    items: [
+      'You share your idea with us',
+      'We create a strategy for your project',
+      'Our Python Developer starts building it',
+      'We deliver on time ',
+    ],
+  },
+
+  ctaSection2: {
+    title: 'Want to Create a User-friendly Web Application?',
+    description:
+      "Hire our Python developer to improve your product's usability, satisfaction, and overall user experience.",
+    ctaText: 'HIRE US',
+    redirect: '/contact',
+    bgColor: '#21315B',
+  },
+
+  pythonDevelopmentStrategy: {
+    title: "Primathon's Python Development Strategy",
+    imageSrc: '/assets/python/development-strategy.png',
+    imageAlt: 'Development Strategy',
+    cardData: [
+      {
+        id: 1,
+        text: 'Requirement Analysis',
+        description:
+          'Our process begins with a thorough analysis of your project requirements, ensuring a clear understanding of your objectives and goals.',
+      },
+      {
+        id: 2,
+        text: 'Planning and Design',
+        description:
+          'We create a comprehensive plan and design layout for your Python project, focusing on usability, scalability, and performance.',
+      },
+      {
+        id: 3,
+        text: 'Development and Testing',
+        description:
+          'Our expert Python developers begin the development phase, implementing robust code and conducting rigorous testing to ensure functionality and reliability',
+      },
+      {
+        id: 4,
+        text: 'Deployment and Launch',
+        description:
+          'After completing development, we deploy your Python solution to the designated environment, ensuring a seamless launch with minimal downtime and disruptions.',
+      },
+      {
+        id: 5,
+        text: 'Monitoring and Support',
+        description:
+          'We provide ongoing monitoring and support services to ensure your Python solution operates smoothly, addressing any issues promptly and efficiently.',
+      },
+    ],
+  },
+
+  benefitsOfHiringPython: {
+    title1: 'Benefits of Hiring ',
+    colouredTitle: 'Python Developers',
+    title2: 'from Us',
+
+    description:
+      'From free manager service to punctual delivery and precise timesheets, we offer multiple benefits to a client when they hire Python developers from Primathon.',
+    cardData: [
+      {
+        id: 1,
+        title: 'Get a Dedicated Project Manager',
+        description:
+          "No matter what, you'll get a complimentary project manager from us. They'll handle all the nitty-gritty stuff like planning, setting timelines, and making sure everyone's on track. Their job? To guarantee you're getting top-notch results every step of the way with Primathon.",
+        listItems: [
+          'Analyze the Progress of the Project',
+          'Ensure Client Satisfaction',
+          'Keeps you updated throughout the Project',
+        ],
+        imageSrc: '/assets/python/dedicated-project-manager.png',
+        imageAlt: 'Dedicated Project Manager',
+      },
+      {
+        id: 2,
+        title: 'Stay in the Loop with Daily and Monthly Task Records',
+        description:
+          "We provide daily updates and summaries of tasks finished, challenges encountered, and milestones reached. Hire Python Developer from us and at the end of each month, you'll receive a comprehensive timesheet detailing team activities and hours allocated to each task. This will help you to review payments based on completed work.",
+        listItems: ['Keep Tabs on Progress', 'Quality Results', 'Optimize Time Management'],
+        imageSrc: '/assets/python/task-records.png',
+        imageAlt: 'Daily and Monthly Task Records',
+      },
+      {
+        id: 3,
+        title: 'Diverse Talent Pool',
+        description:
+          'When you hire a Python Developer from Primathon, you gain access to a wealth of knowledge spanning various Python frameworks and libraries, ensuring that your project receives the specialized skills it requires.',
+        listItems: ['Decrease the Chances of Project Disruption', 'Simplify Task'],
+        imageSrc: '/assets/python/talent-pool.png',
+        imageAlt: 'Diverse Talent Pool',
+      },
+    ],
+  },
+
+  table: {
+    title: 'Hire Python Developers From Primathon Vs Other Company',
+    tableHeading: ['', 'Primathon', 'Other Company', 'Freelancers'],
+    tableRows: [
+      {
+        id: 1,
+        tableData: [
+          { id: 1, text: 'Failure Rate', bgColor: '#ffffff' },
+          { id: 2, text: 'X', bgColor: '#FFDCDC' },
+          { id: 3, text: 'Low', bgColor: '#ffffff' },
+          { id: 4, text: 'Very Low', bgColor: '#ffffff' },
+        ],
+      },
+
+      {
+        id: 2,
+        tableData: [
+          { id: 1, text: 'Pre-assessed Developers', bgColor: '#ffffff' },
+          { id: 2, text: '✓', bgColor: '#24B768' },
+          { id: 3, text: 'X', bgColor: '#FFDCDC' },
+          { id: 4, text: 'X', bgColor: '#FFDCDC' },
+        ],
+      },
+
+      {
+        id: 3,
+        tableData: [
+          { id: 1, text: 'Results', bgColor: '#ffffff' },
+          { id: 2, text: '100% Premium Quality', bgColor: '#ffffff' },
+          { id: 3, text: 'Good', bgColor: '#ffffff' },
+          { id: 4, text: 'Unsure', bgColor: '#ffffff' },
+        ],
+      },
+
+      {
+        id: 4,
+        tableData: [
+          { id: 1, text: 'Documentation and Security', bgColor: '#ffffff' },
+          { id: 2, text: '✓', bgColor: '#24B768' },
+          { id: 3, text: 'X', bgColor: '#FFDCDC' },
+          { id: 4, text: 'X', bgColor: '#FFDCDC' },
+        ],
+      },
+
+      {
+        id: 5,
+        tableData: [
+          { id: 1, text: 'Rates', bgColor: '#ffffff' },
+          { id: 2, text: 'Reasonable', bgColor: '#ffffff' },
+          { id: 3, text: 'High Cost', bgColor: '#ffffff' },
+          { id: 4, text: 'High Cost', bgColor: '#ffffff' },
+        ],
+      },
+    ],
+
+    mobileTableData: [
+      {
+        id: 1,
+        title: 'Failure Rate',
+        tableHeading: ['Primathon', 'Other Company', 'Freelancers'],
+        tableData: [
+          { id: 1, text: 'X', bgColor: '#FFDCDC' },
+          { id: 2, text: 'Low', bgColor: '#ffffff' },
+          { id: 3, text: 'Very Low', bgColor: '#ffffff' },
+        ],
+      },
+      {
+        id: 2,
+        title: 'Pre-assessed Developers',
+        tableHeading: ['Primathon', 'Other Company', 'Freelancers'],
+        tableData: [
+          { id: 1, text: '✓', bgColor: '#24B768' },
+          { id: 2, text: 'X', bgColor: '#FFDCDC' },
+          { id: 3, text: 'X', bgColor: '#FFDCDC' },
+        ],
+      },
+      {
+        id: 3,
+        title: 'Results',
+        tableHeading: ['Primathon', 'Other Company', 'Freelancers'],
+        tableData: [
+          { id: 1, text: '100% Premium Quality', bgColor: '#ffffff' },
+          { id: 2, text: 'Good', bgColor: '#ffffff' },
+          { id: 3, text: 'Unsure', bgColor: '#ffffff' },
+        ],
+      },
+      {
+        id: 4,
+        title: 'Documentation and Security',
+        tableHeading: ['Primathon', 'Other Company', 'Freelancers'],
+        tableData: [
+          { id: 1, text: '✓', bgColor: '#24B768' },
+          { id: 2, text: 'X', bgColor: '#FFDCDC' },
+          { id: 3, text: 'X', bgColor: '#FFDCDC' },
+        ],
+      },
+      {
+        id: 5,
+        title: 'Rates',
+        tableHeading: ['Primathon', 'Other Company', 'Freelancers'],
+        tableData: [
+          { id: 1, text: 'Reasonable', bgColor: '#ffffff' },
+          { id: 2, text: 'High Cost', bgColor: '#ffffff' },
+          { id: 3, text: 'High Cost', bgColor: '#ffffff' },
+        ],
+      },
+    ],
+  },
+
+  caseStudies: {
+    title: 'Our Case Studies',
+    subtitle: 'Explore Our Portfolio of Python Development Projects',
+  },
+
+  faqs: {
+    title: 'FAQs',
+    cardData: [
+      {
+        id: 1,
+        question: 'What qualifications and experience do your Python developers have?',
+        answer: [
+          'Our Python developers possess a minimum of 7 years of experience in Python development, with expertise in various frameworks and libraries such as Django, Flask, and NumPy. They hold relevant degrees in computer science or related fields and have completed numerous successful projects.',
+        ],
+      },
+      {
+        id: 2,
+        question: 'How do you ensure the quality and expertise of your Python developers?',
+        answer: [
+          'We employ a rigorous screening process to select only the top-tier Python developers. This includes technical assessments, code reviews, and interviews to evaluate their skills, problem-solving abilities, and communication. Additionally, we regularly assess their performance and provide ongoing training to keep them updated with the latest trends and technologies in Python development.',
+        ],
+      },
+      {
+        id: 3,
+        question: 'What is the typical process for hiring a Python developer from Primathon?',
+        answer: [
+          "The process begins with a consultation to understand your project requirements and goals. We then handpick Python developers from our talent pool whose skills and experience align with your needs. You'll have the opportunity to interview and assess the candidates before making a selection. Once chosen, we facilitate the onboarding process to ensure a smooth integration into your team.",
+        ],
+      },
+      {
+        id: 4,
+        question: 'Can I review portfolios or past projects of your Python developers?',
+        answer: [
+          'Absolutely. We encourage transparency and provide access to portfolios and past projects of our Python developers upon request. This allows you to evaluate their capabilities, coding style, and previous accomplishments to make an informed decision.',
+        ],
+      },
+      {
+        id: 5,
+        question: 'Are there any specific Python frameworks or technologies your developers specialize in?',
+        answer: [
+          'Our Python developers are proficient in a wide range of frameworks and technologies, including but not limited to Django, Flask, Pandas, TensorFlow, and SQLAlchemy. Whether you require web development, data analysis, machine learning, or other Python-related tasks, we have developers with the expertise to fulfill your needs.',
+        ],
+      },
+    ],
+  },
+};
+
+export const ANGULAR_DEVELOPER = {
+  heroSection: {
+    title1: 'Hire',
+    gradientTitle: 'AngularJS ',
+    title2: 'Developers',
+    subtitle: 'Reasonable, Dedicated Experts for Your Business',
+    description:
+      'Experience the expertise of our top AngularJS coders to enhance your digital presence. Whether you need custom solutions or seamless migrations, our seasoned professionals ensure your projects shine.',
+    listItems: [
+      {
+        id: 1,
+        text: '100% Skilled and Certified Developers',
+      },
+      {
+        id: 2,
+        text: 'Possesses an Average of 5+ Years of Experience',
+      },
+      {
+        id: 3,
+        text: 'Swift Onboarding Process',
+      },
+      {
+        id: 4,
+        text: 'Competitive Pricing Models',
+      },
+      {
+        id: 5,
+        text: 'Transparent and Smooth Communication',
+      },
+    ],
+    ctaText1: 'Book a Call',
+    ctaText2: 'Get Free Consultation',
+    imageSrc: '/assets/angular-js/hire-angularJs-herosection.png',
+    imageAlt: 'Hire AngularJs Developer',
+  },
+
+  elevateYourProject: {
+    title: 'Elevate Your Project by Hiring Top AngularJS Developers in India',
+    description:
+      'Unlock the full potential of AngularJS for your projects by partnering with our seasoned team of experts. With years of experience and a dedication to innovation, we specialize in delivering bespoke solutions customized to your unique requirements. Contact us today to maximize the power of AngularJS for your projects.',
+    ctaText: 'GET IN TOUCH',
+    redirect: '/contact',
+    imageSrc: '/assets/python/elevate-your-project.png',
+    imageAlt: 'Elevate Your Project',
+  },
+
+  ctaSection: {
+    title: 'Experience Excellence with Our AngularJS Support Services',
+    description:
+      'With years of expertise and a commitment to innovation, we deliver bespoke solutions tailored to your unique requirements. Partner with us and experience the difference',
+    ctaText1: 'CONTACT US',
+    redirect1: '/contact',
+  },
+
+  angularJsDevelopmentServices: {
+    title: 'Explore Our Range of Expert AngularJS Development Services Tailored to Your Needs',
+    cardData: [
+      {
+        id: 1,
+        imageSrc: '/assets/angular-js/custom-angular-solutions.svg',
+        cardTitle: 'Custom AngularJS Solutions',
+        content:
+          'Unlock the full potential of AngularJS with our custom development solutions. From customized modules to easy applications, we design and deliver AngularJS solutions that meet your specific needs and objectives.',
+      },
+      {
+        id: 2,
+        imageSrc: '/assets/angular-js/angular-consulting.svg',
+        cardTitle: 'AngularJS Consulting',
+        content:
+          ' Collaborate with our expert AngularJS consultants to verify the scope of your project and create a detailed roadmap for its development.',
+      },
+      {
+        id: 3,
+        imageSrc: '/assets/angular-js/angular-integration.svg',
+        cardTitle: 'AngularJS Integration',
+        content:
+          'Seamlessly incorporate AngularJS into your existing systems and platforms with our expert integration services. Enhance your applications with the power and flexibility of AngularJS without disrupting your current workflow.         ',
+      },
+      {
+        id: 4,
+        imageSrc: '/assets/angular-js/angular-migration.svg',
+        cardTitle: 'AngularJS Migration',
+        content:
+          ' Ensure a smooth transition to the latest version of AngularJS with our hassle-free migration services. Seamlessly migrate your project from any platform to the AngularJS framework.',
+      },
+      {
+        id: 5,
+        imageSrc: '/assets/angular-js/angular-support.svg',
+        cardTitle: 'AngularJS Support',
+        content:
+          ' Ensure the smooth operation and optimal performance of your AngularJS applications with our comprehensive support services. Our dedicated team resolves issues promptly and provides ongoing assistance to keep your applications running smoothly.',
+      },
+    ],
+  },
+
+  ctaSection1: {
+    onlyDesc: true,
+    descp1: 'Hire Dedicated',
+    colouredDescp: 'AngularJS Developers',
+    descp2:
+      'team based on your requirements. We provide various hiring engagement models tailored to meet the specific needs of your business.',
+    ctaText: 'GET IN TOUCH',
+    redirect: '/contact',
+    bgColor: '#F4F4F4',
+  },
+
+  whyChoose: {
+    title: 'Why Hire AngularJS Developers from Primathon?',
+    description:
+      'At Primathon, our AngularJS developers stand out for their expertise and dedication. With over 7 years of experience, they have honed their skills in crafting scalable and high-performing AngularJS applications.Our developers stay updated with the latest AngularJS advancements and tools, ensuring your project is built using the most innovative solutions.Security is paramount in our development process. We implement robust measures to shield your AngularJS applications against threats and vulnerabilities.We fine-tune your AngularJS applications for speed and efficiency, delivering exceptional user experiences within your project timeline and budget constraints.',
+    listItems: [
+      { id: 1, text: 'Experience 1.5X Faster Delivery' },
+      { id: 2, text: 'Work at Your Time Zone' },
+      { id: 3, text: 'Hassle-free communication' },
+      { id: 4, text: '24/7 Support' },
+    ],
+    service1: { number: '6+', text: 'Years of business' },
+    service2: { number: '100+', text: 'Softawre Developers' },
+    service3: { number: '150+', text: 'Project Delivered' },
+    service4: { number: '100+', text: 'Happy Client' },
+  },
+
+  ctaSection2: {
+    title: 'Want to Create a User-friendly Web Application?',
+    description:
+      "Hire our AngularJS developer to improve your product's usability, satisfaction, and overall user experience.",
+    ctaText: 'HIRE US',
+    redirect: '/contact',
+    bgColor: '#21315B',
+  },
+
+  angularJsJourney: {
+    heading: 'Let us take your project on a journey!',
+    items: [
+      'You share your idea with us',
+      'We create a strategy for your project',
+      'Our AngularJS Developer starts building it',
+      'We deliver on time ',
+    ],
+  },
+
+  angularJsDevelopmentStrategy: {
+    title: 'An Overview of Our AngularJS Development Approach',
+    imageSrc: '/assets/angular-js/development-strategy.png',
+    imageAlt: 'Development Strategy',
+    cardData: [
+      {
+        id: 1,
+        text: 'Requirement Analysis',
+        description:
+          'Our process begins with a thorough analysis of your project requirements, ensuring a clear understanding of your objectives and goals.',
+      },
+      {
+        id: 2,
+        text: 'Planning and Design',
+        description:
+          'We create a comprehensive plan and design layout for your Python project, focusing on usability, scalability, and performance.',
+      },
+      {
+        id: 3,
+        text: 'Development and Testing',
+        description:
+          'Our expert AngularJS developers begin the development phase, implementing robust code and conducting rigorous testing to ensure functionality and reliability.',
+      },
+      {
+        id: 4,
+        text: 'Deployment and Launch',
+        description:
+          'Once development is complete, we deploy your AngularJS solution to the desired environment and ensure a smooth launch, minimizing downtime and disruptions.',
+      },
+      {
+        id: 5,
+        text: 'Monitoring and Support',
+        description:
+          'We provide ongoing monitoring and support services to ensure your AngularJS solution operates smoothly, addressing any issues promptly and efficiently.',
+      },
+    ],
+  },
+
+  benefitsOfHiringAngulaDeveloper: {
+    title1: 'Benefits of Hiring  AngularJS Developers from us',
+    colouredTitle: 'AngularJS Developers',
+    title2: 'from us',
+
+    description:
+      'From free manager service to punctual delivery and precise timesheets, we offer multiple benefits to a client when they hire AngularJS developers from Primathon.',
+    cardData: [
+      {
+        id: 1,
+        title: 'Get a Dedicated Project Manager',
+        description:
+          "No matter what, you'll get a complimentary project manager from us. They'll handle all the nitty-gritty stuff like planning, setting timelines, and making sure everyone's on track. Their job? To guarantee you're getting top-notch results every step of the way with Primathon.",
+        listItems: [
+          'Analyze the Progress of the Project',
+          'Ensure Client Satisfaction',
+          'Keeps you updated throughout the Project',
+        ],
+        imageSrc: '/assets/angular-js/dedicated-project-manager.png',
+        imageAlt: 'Dedicated Project Manager',
+      },
+      {
+        id: 2,
+        title: 'Stay in the Loop with Daily and Monthly Task Records',
+        description:
+          "We provide daily updates and summaries of tasks finished, challenges encountered, and milestones reached. Hire AngularJS Developer from us and at the end of each month, you'll receive a comprehensive timesheet detailing team activities and hours allocated to each task. This will help you to review payments based on completed work.",
+        listItems: ['Keep Tabs on Progress', 'Quality Results', 'Optimize Time Management'],
+        imageSrc: '/assets/angular-js/task-records.png',
+        imageAlt: 'Daily and Monthly Task Records',
+      },
+      {
+        id: 3,
+        title: 'Diverse Talent Pool',
+        description:
+          'When you hire a Python Developer from Primathon, you gain access to a wealth of knowledge spanning various Python frameworks and libraries, ensuring that your project receives the specialized skills it requires.',
+        listItems: ['Decrease the Chances of Project Disruption', 'Simplify Task'],
+        imageSrc: '/assets/python/talent-pool.png',
+        imageAlt: 'Diverse Talent Pool',
+      },
+    ],
+  },
+
+  table: {
+    title: ' Hire Angular JS Developers From Primathon Vs Other Company',
+    tableHeading: ['', 'Primathon', 'Other Company', 'Freelancers'],
+    tableRows: [
+      {
+        id: 1,
+        tableData: [
+          { id: 1, text: 'Failure Rate', bgColor: '#ffffff' },
+          { id: 2, text: 'X', bgColor: '#FFDCDC' },
+          { id: 3, text: 'Low', bgColor: '#ffffff' },
+          { id: 4, text: 'Very Low', bgColor: '#ffffff' },
+        ],
+      },
+
+      {
+        id: 2,
+        tableData: [
+          { id: 1, text: 'Pre-assessed Developers', bgColor: '#ffffff' },
+          { id: 2, text: '✓', bgColor: '#24B768' },
+          { id: 3, text: 'X', bgColor: '#FFDCDC' },
+          { id: 4, text: 'X', bgColor: '#FFDCDC' },
+        ],
+      },
+
+      {
+        id: 3,
+        tableData: [
+          { id: 1, text: 'Results', bgColor: '#ffffff' },
+          { id: 2, text: '100% Premium Quality', bgColor: '#ffffff' },
+          { id: 3, text: 'Good', bgColor: '#ffffff' },
+          { id: 4, text: 'Unsure', bgColor: '#ffffff' },
+        ],
+      },
+
+      {
+        id: 4,
+        tableData: [
+          { id: 1, text: 'Documentation and Security', bgColor: '#ffffff' },
+          { id: 2, text: '✓', bgColor: '#24B768' },
+          { id: 3, text: 'X', bgColor: '#FFDCDC' },
+          { id: 4, text: 'X', bgColor: '#FFDCDC' },
+        ],
+      },
+
+      {
+        id: 5,
+        tableData: [
+          { id: 1, text: 'Rates', bgColor: '#ffffff' },
+          { id: 2, text: 'Reasonable', bgColor: '#ffffff' },
+          { id: 3, text: 'High Cost', bgColor: '#ffffff' },
+          { id: 4, text: 'High Cost', bgColor: '#ffffff' },
+        ],
+      },
+      {
+        id: 6,
+        tableData: [
+          { id: 1, text: 'Quality Guarantee', bgColor: '#ffffff' },
+          { id: 2, text: '✓', bgColor: '#24B768' },
+          { id: 3, text: 'x', bgColor: '#FFDCDC' },
+          { id: 4, text: 'Unsure', bgColor: '#fffff' },
+        ],
+      },
+    ],
+
+    mobileTableData: [
+      {
+        id: 1,
+        title: 'Failure Rate',
+        tableHeading: ['Primathon', 'Other Company', 'Freelancers'],
+        tableData: [
+          { id: 1, text: 'X', bgColor: '#FFDCDC' },
+          { id: 2, text: 'Low', bgColor: '#ffffff' },
+          { id: 3, text: 'Very Low', bgColor: '#ffffff' },
+        ],
+      },
+      {
+        id: 2,
+        title: 'Pre-assessed Developers',
+        tableHeading: ['Primathon', 'Other Company', 'Freelancers'],
+        tableData: [
+          { id: 1, text: '✓', bgColor: '#24B768' },
+          { id: 2, text: 'X', bgColor: '#FFDCDC' },
+          { id: 3, text: 'X', bgColor: '#FFDCDC' },
+        ],
+      },
+      {
+        id: 3,
+        title: 'Results',
+        tableHeading: ['Primathon', 'Other Company', 'Freelancers'],
+        tableData: [
+          { id: 1, text: '100% Premium Quality', bgColor: '#ffffff' },
+          { id: 2, text: 'Good', bgColor: '#ffffff' },
+          { id: 3, text: 'Unsure', bgColor: '#ffffff' },
+        ],
+      },
+      {
+        id: 4,
+        title: 'Documentation and Security',
+        tableHeading: ['Primathon', 'Other Company', 'Freelancers'],
+        tableData: [
+          { id: 1, text: '✓', bgColor: '#24B768' },
+          { id: 2, text: 'X', bgColor: '#FFDCDC' },
+          { id: 3, text: 'X', bgColor: '#FFDCDC' },
+        ],
+      },
+      {
+        id: 5,
+        title: 'Rates',
+        tableHeading: ['Primathon', 'Other Company', 'Freelancers'],
+        tableData: [
+          { id: 1, text: 'Reasonable', bgColor: '#ffffff' },
+          { id: 2, text: 'High Cost', bgColor: '#ffffff' },
+          { id: 3, text: 'High Cost', bgColor: '#ffffff' },
+        ],
+      },
+      {
+        id: 6,
+        title: 'Quality Guarantee',
+        tableHeading: ['Primathon', 'Other Company', 'Freelancers'],
+        tableData: [
+          { id: 1, text: '✓', bgColor: '#24B768' },
+          { id: 2, text: 'X', bgColor: '#FFDCDC' },
+          { id: 3, text: 'Unsure', bgColor: '#FFDCDC' },
+        ],
+      },
+    ],
+  },
+
+  caseStudies: {
+    title: 'Our Case Studies',
+    subtitle: 'Explore Our Portfolio of Angular.js Development Projects',
+  },
+
+  faqs: {
+    title: 'FAQs',
+    cardData: [
+      {
+        id: 1,
+        question: 'What qualifications and experience do your AngularJS developers have?',
+        answer: [
+          'Our AngularJS developers boast a minimum of 7 years of experience in AngularJS development, showcasing proficiency in a multitude of frameworks and libraries including AngularJS, Angular 2+, and RxJS. They hold degrees in computer science or related disciplines and have an extensive track record of delivering successful projects within the AngularJS ecosystem',
+        ],
+      },
+      {
+        id: 2,
+        question: 'Why hire dedicated AngularJS developers?',
+        answer: [
+          'By bringing in dedicated AngularJS developers, companies can leverage their expertise in utilizing AngularJS to its fullest potential, ensuring efficient development, smooth user experiences, and maintainable codebases.',
+        ],
+      },
+      {
+        id: 3,
+        question: 'What can our AngularJS developers do for you',
+        answer: [
+          'Absolutely! Our AI conversational bot is highly customizable, allowing you to tailor its responses, design, and functionality according to your unique business requirements.',
+          'Personalized AngularJS Consultation',
+          'Web App Development',
+          'Plugin Development',
+          'Version Migration',
+          'Single Page Applications',
+          'Maintenance and Support',
+        ],
+      },
+      {
+        id: 4,
+        question: 'Can I hire an Angular developer for hourly or project-based tasks?',
+        answer: [
+          'Yes! At Primathon, we offer flexible hiring models, like hourly hiring, monthly hiring, and yearly hiring. You can hire an Angular developer on an hourly or project/task basis and flexibly change the hire model type later on',
+        ],
+      },
+      {
+        id: 5,
+        question: 'Will I get post app development support?',
+        answer: [
+          'Yes, we provide post-app development support! With our flexible bucket model, you can hire an AngularJS programmer for a while and avail dedicated app support and maintenance services whenever required, eliminating the need for a full-time programmer onboard',
+        ],
+      },
+    ],
+  },
+};
+
+export const JAVASCRIPT = {
+  heroSection: {
+    title1: 'Hire',
+    gradientTitle: 'JavaScript',
+    title2: 'Developers',
+    subtitle: 'Reasonable, Dedicated Experts for Your Business',
+    description:
+      "Discover the proficiency of our premier JavaScript developers to elevate your online footprint. Whether it's tailored solutions or smooth transitions, our seasoned experts guarantee excellence in your endeavors.",
+    listItems: [
+      {
+        id: 1,
+        text: '100% Skilled and Certified Developers',
+      },
+      {
+        id: 2,
+        text: 'Possesses an Average of 5+ Years of Experience',
+      },
+      {
+        id: 3,
+        text: 'Swift Onboarding Process',
+      },
+      {
+        id: 4,
+        text: 'Competitive Pricing Models',
+      },
+      {
+        id: 5,
+        text: 'Transparent and Smooth Communication',
+      },
+    ],
+    ctaText1: 'Book a Call',
+    ctaText2: 'Get Free Consultation',
+    imageSrc: '/assets/javascript/hire-javascript-herosection-img.png',
+    imageAlt: 'Hire JavaScript',
+  },
+
+  elevateYourProject: {
+    title: 'Elevate Your Project with Premier JavaScript Developers in India',
+    description:
+      'Maximize the capabilities of JavaScript for your projects by collaborating with our seasoned team of professionals. With extensive experience and a commitment to creativity, we specialize in delivering tailored solutions tailored to your specific needs. Reach out to us today to harness the full potential of JavaScript for your projects.',
+    ctaText: 'GET IN TOUCH',
+    redirect: '/contact',
+    imageSrc: '/assets/python/elevate-your-project.png',
+    imageAlt: 'Elevate Your Project',
+  },
+
+  ctaSection: {
+    title: ' Enhance Your Project with Our Experienced JavaScript Professionals',
+    description:
+      'With years of expertise and a commitment to innovation, we deliver bespoke solutions tailored to your unique requirements. Partner with us and experience the difference.',
+    ctaText1: 'CONTACT US',
+    redirect1: '/contact',
+  },
+
+  javascriptDevelopmentServices: {
+    title: ' Explore Our Range of Expert JavaScript Development Services',
+    cardData: [
+      {
+        id: 1,
+        imageSrc: '/assets/angular-js/custom-angular-solutions.svg',
+        cardTitle: 'JavaScript Development',
+        content:
+          'Dive into the digital world with our JavaScript development services, crafting innovative and efficient applications with clean, maintainable code.',
+      },
+      {
+        id: 2,
+        imageSrc: '/assets/python/data-analysis.png',
+        cardTitle: 'JavaScript Application Optimization',
+        content:
+          'Enhance your app’s performance with our optimization services, focusing on reducing load times and improving responsiveness for a seamless user experience.',
+      },
+      {
+        id: 3,
+        imageSrc: '/assets/angular-js/angular-consulting.svg',
+        cardTitle: 'JavaScript Consulting',
+        content:
+          'Gain insights and strategic guidance from our JavaScript experts. We provide consulting services to help you navigate the complexities of JavaScript development and make informed decisions for your projects.',
+      },
+      {
+        id: 4,
+        imageSrc: '/assets/python/python-web-development.png',
+        cardTitle: 'JavaScript Web Applications',
+        content:
+          'Build robust and feature-rich web applications with our JavaScript expertise. We create visually appealing and functionally rich applications that provide users with a comprehensive online experience.',
+      },
+      {
+        id: 5,
+        imageSrc: '/assets/javascript/javaScript-maintenance.svg',
+        cardTitle: 'JavaScript Maintenance',
+        content:
+          'Keep your JavaScript applications up-to-date and running smoothly with our maintenance services. We offer ongoing support to address any issues and implement updates, ensuring your applications remain competitive and secure.',
+      },
+      {
+        id: 6,
+        imageSrc: '/assets/javascript/javaScript-design.svg',
+        cardTitle: 'JavaScript UI/UX Design',
+        content:
+          'Create engaging and intuitive user interfaces with our JavaScript UI/UX design services. We focus on enhancing user experience and satisfaction, driving engagement and retention.',
+      },
+    ],
+  },
+
+  ctaSection1: {
+    onlyDesc: true,
+    descp1: 'Hire Dedicated',
+    colouredDescp: 'JavaScript Developers',
+    descp2:
+      'team based on your requirements. We provide various hiring engagement models tailored to meet the specific needs of your business.',
+    ctaText: 'GET IN TOUCH',
+    redirect: '/contact',
+    bgColor: '#F4F4F4',
+  },
+
+  whyChoose: {
+    title: 'Why Hire JavaScript Developers from Primathon?',
+    description:
+      'At Primathon, our JavaScript developers excel in both expertise and dedication, boasting over 7 years of industry experience. Leverage the proficiency of our dedicated JavaScript engineers to craft premium websites and applications customized to maximize benefits through event-driven solutions. Benefit from the support of our committed JavaScript developers, ensuring seamless development and the creation of scalable and high-performing applications with flawless implementation. With our adept JavaScript engineers, we are dedicated to simplifying complex development challenges, positioning our team uniquely to deliver exceptional JavaScript development solutions.',
+    listItems: [
+      { id: 1, text: 'Experience 1.5X Faster Delivery' },
+      { id: 2, text: 'Work at Your Time Zone' },
+      { id: 3, text: 'Hassle-free communication' },
+      { id: 4, text: '24/7 Support' },
+    ],
+    service1: { number: '6+', text: 'Years of business' },
+    service2: { number: '100+', text: 'Softawre Developers' },
+    service3: { number: '150+', text: 'Project Delivered' },
+    service4: { number: '100+', text: 'Happy Client' },
+  },
+
+  javascriptJourney: {
+    heading: 'Let us take your project on a journey!',
+    items: [
+      'You share your idea with us',
+      'We create a strategy for your project',
+      'Our Python Developer starts building it',
+      'We deliver on time',
+    ],
+  },
+
+  ctaSection2: {
+    title: 'Want to Create a User-friendly Web Application?',
+    description:
+      "Hire our JavaScript  developer to improve your product's usability, satisfaction, and overall user experience.",
+    ctaText: 'HIRE US',
+    redirect: '/contact',
+    bgColor: '#21315B',
+  },
+
+  javascriptDevelopmentStrategy: {
+    title: 'An Overview of Our JavaScript Development Approach',
+    imageSrc: '/assets/javascript/development-strategy.png',
+    imageAlt: 'Development Strategy',
+    cardData: [
+      {
+        id: 1,
+        text: 'Requirement Analysis',
+        description:
+          'We begin by conducting a thorough analysis of your project requirements, ensuring a clear understanding of your objectives and goals.',
+      },
+      {
+        id: 2,
+        text: 'Planning and Design',
+        description:
+          'Next, we create a comprehensive plan and design layout for your JavaScript project, focusing on usability, scalability, and user experience.',
+      },
+      {
+        id: 3,
+        text: 'Development and Testing',
+        description:
+          'Our experienced JavaScript developers commence the development phase, implementing clean and maintainable code. Rigorous testing is conducted to ensure functionality and reliability.',
+      },
+      {
+        id: 4,
+        text: 'Implementation and Optimization',
+        description:
+          'We implement the developed features into your project and optimize performance for enhanced user experience. Load times are minimized, and responsiveness is maximized.',
+      },
+      {
+        id: 5,
+        text: 'Deployment and Support',
+        description:
+          'Once development is complete, we deploy your JavaScript solution to the desired environment. Ongoing support is provided to address any issues and implement updates as needed.',
+      },
+    ],
+  },
+
+  benefitsOfHiringJavascript: {
+    title1: 'Benefits of Hiring ',
+    colouredTitle: 'JavaScript Developers',
+    title2: 'from us',
+
+    description:
+      'From free manager service to punctual delivery and precise timesheets, we offer multiple benefits to a client when they hire JavaScript developers from Primathon.',
+    cardData: [
+      {
+        id: 1,
+        title: 'Get a Dedicated Project Manager',
+        description:
+          "No matter what, you'll get a complimentary project manager from us. They'll handle all the nitty-gritty stuff like planning, setting timelines, and making sure everyone's on track. Their job? To guarantee you're getting top-notch results every step of the way with Primathon.",
+        listItems: [
+          'Analyze the Progress of the Project',
+          'Ensure Client Satisfaction',
+          'Keeps you updated throughout the Project',
+        ],
+        imageSrc: '/assets/javascript/project-manager-discussing-project.png',
+        imageAlt: 'Dedicated Project Manager discussing project',
+      },
+      {
+        id: 2,
+        title: 'Stay in the Loop with Daily and Monthly Task Records',
+        description:
+          "We provide daily updates and summaries of tasks finished, challenges encountered, and milestones reached. Hire Python Developer from us and at the end of each month, you'll receive a comprehensive timesheet detailing team activities and hours allocated to each task. This will help you to review payments based on completed work.",
+        listItems: ['Keep Tabs on Progress', 'Quality Results', 'Optimize Time Management'],
+        imageSrc: '/assets/javascript/task-records.png',
+        imageAlt: 'Daily and Monthly Task Records',
+      },
+      {
+        id: 3,
+        title: 'Diverse Talent Pool',
+        description:
+          'When you hire a Python Developer from Primathon, you gain access to a wealth of knowledge spanning various Python frameworks and libraries, ensuring that your project receives the specialized skills it requires.',
+        listItems: ['Decrease the Chances of Project Disruption', 'Simplify Task'],
+        imageSrc: '/assets/python/talent-pool.png',
+        imageAlt: 'Diverse Talent Pool',
+      },
+    ],
+  },
+
+  table: {
+    title: 'Hire JavaScript Developers From Primathon Vs Other Company',
+    tableHeading: ['', 'Primathon', 'Other Company', 'Freelancers'],
+    tableRows: [
+      {
+        id: 1,
+        tableData: [
+          { id: 1, text: 'Failure Rate', bgColor: '#ffffff' },
+          { id: 2, text: 'X', bgColor: '#FFDCDC' },
+          { id: 3, text: 'Low', bgColor: '#ffffff' },
+          { id: 4, text: 'Very Low', bgColor: '#ffffff' },
+        ],
+      },
+
+      {
+        id: 2,
+        tableData: [
+          { id: 1, text: 'Pre-assessed Developers', bgColor: '#ffffff' },
+          { id: 2, text: '✓', bgColor: '#24B768' },
+          { id: 3, text: 'X', bgColor: '#FFDCDC' },
+          { id: 4, text: 'X', bgColor: '#FFDCDC' },
+        ],
+      },
+
+      {
+        id: 3,
+        tableData: [
+          { id: 1, text: 'Results', bgColor: '#ffffff' },
+          { id: 2, text: '100% Premium Quality', bgColor: '#ffffff' },
+          { id: 3, text: 'Good', bgColor: '#ffffff' },
+          { id: 4, text: 'Unsure', bgColor: '#ffffff' },
+        ],
+      },
+
+      {
+        id: 4,
+        tableData: [
+          { id: 1, text: 'Documentation and Security', bgColor: '#ffffff' },
+          { id: 2, text: '✓', bgColor: '#24B768' },
+          { id: 3, text: 'X', bgColor: '#FFDCDC' },
+          { id: 4, text: 'X', bgColor: '#FFDCDC' },
+        ],
+      },
+
+      {
+        id: 5,
+        tableData: [
+          { id: 1, text: 'Rates', bgColor: '#ffffff' },
+          { id: 2, text: 'Reasonable', bgColor: '#ffffff' },
+          { id: 3, text: 'High Cost', bgColor: '#ffffff' },
+          { id: 4, text: 'High Cost', bgColor: '#ffffff' },
+        ],
+      },
+
+      {
+        id: 6,
+        tableData: [
+          { id: 1, text: 'Quality Guarantee', bgColor: '#ffffff' },
+          { id: 2, text: '✓', bgColor: '#24B768' },
+          { id: 3, text: 'X', bgColor: '#FFDCDC' },
+          { id: 4, text: 'Unsure', bgColor: '#FFDCDC' },
+        ],
+      },
+    ],
+
+    mobileTableData: [
+      {
+        id: 1,
+        title: 'Failure Rate',
+        tableHeading: ['Primathon', 'Other Company', 'Freelancers'],
+        tableData: [
+          { id: 1, text: 'X', bgColor: '#FFDCDC' },
+          { id: 2, text: 'Low', bgColor: '#ffffff' },
+          { id: 3, text: 'Very Low', bgColor: '#ffffff' },
+        ],
+      },
+      {
+        id: 2,
+        title: 'Pre-assessed Developers',
+        tableHeading: ['Primathon', 'Other Company', 'Freelancers'],
+        tableData: [
+          { id: 1, text: '✓', bgColor: '#24B768' },
+          { id: 2, text: 'X', bgColor: '#FFDCDC' },
+          { id: 3, text: 'X', bgColor: '#FFDCDC' },
+        ],
+      },
+      {
+        id: 3,
+        title: 'Results',
+        tableHeading: ['Primathon', 'Other Company', 'Freelancers'],
+        tableData: [
+          { id: 1, text: '100% Premium Quality', bgColor: '#ffffff' },
+          { id: 2, text: 'Good', bgColor: '#ffffff' },
+          { id: 3, text: 'Unsure', bgColor: '#ffffff' },
+        ],
+      },
+      {
+        id: 4,
+        title: 'Documentation and Security',
+        tableHeading: ['Primathon', 'Other Company', 'Freelancers'],
+        tableData: [
+          { id: 1, text: '✓', bgColor: '#24B768' },
+          { id: 2, text: 'X', bgColor: '#FFDCDC' },
+          { id: 3, text: 'X', bgColor: '#FFDCDC' },
+        ],
+      },
+      {
+        id: 5,
+        title: 'Rates',
+        tableHeading: ['Primathon', 'Other Company', 'Freelancers'],
+        tableData: [
+          { id: 1, text: 'Reasonable', bgColor: '#ffffff' },
+          { id: 2, text: 'High Cost', bgColor: '#ffffff' },
+          { id: 3, text: 'High Cost', bgColor: '#ffffff' },
+        ],
+      },
+      {
+        id: 5,
+        title: 'Quality Guarantee',
+        tableHeading: ['Primathon', 'Other Company', 'Freelancers'],
+        tableData: [
+          { id: 1, text: '✓', bgColor: '#24B768' },
+          { id: 2, text: 'X', bgColor: '#FFDCDC' },
+          { id: 3, text: 'Unsure', bgColor: '#FFDCDC' },
+        ],
+      },
+    ],
+  },
+
+  caseStudies: {
+    title: 'Our Case Studies',
+    subtitle: 'Explore Our Portfolio of JavaScript Development Projects',
+  },
+
+  faqs: {
+    title: 'FAQs',
+    cardData: [
+      {
+        id: 1,
+        question: 'What qualifications and experience do your JavaScript developers have?',
+        answer: [
+          'Our JavaScript developers boast a minimum of 7 years of experience in JavaScript development, demonstrating proficiency in various frameworks and libraries such as JavaScript, JavaScript 2+, and RxJS. They hold degrees in computer science or related disciplines and have a proven track record of delivering successful projects within the JavaScript ecosystem.',
+        ],
+      },
+      {
+        id: 2,
+        question: ' Is there demand for JavaScript Developers?',
+        answer: [
+          'Absolutely! There is a significant demand for JavaScript developers in the market. According to Devskiller, 72% of companies are actively seeking to hire JavaScript developers. For top-notch JavaScript developers who can work in your timezone at competitive rates, consider partnering with https://primathon.in/',
+        ],
+      },
+      {
+        id: 3,
+        question: 'How do I hire JavaScript developers?',
+        answer: [
+          'Hiring skilled JavaScript developers can be challenging, but with Turing, an AI-powered talent platform, you can source the best candidates for your company from talent pools worldwide in just a few days and at reasonable prices.',
+        ],
+      },
+      {
+        id: 4,
+        question: 'Will I get post-app development support?',
+        answer: [
+          'Yes, we offer comprehensive post-app development support! Through our flexible bucket model, you can hire a JavaScript programmer for a specified duration and access dedicated app support and maintenance services whenever necessary, eliminating the need for a full-time programmer on your team.',
+        ],
+      },
+      {
+        id: 5,
+        question: 'Can I hire a JavaScript developer for hourly or project-based tasks?',
+        answer: [
+          ' Certainly! At Primathon, we provide flexible hiring models including hourly, monthly, and yearly hiring options. You can hire a JavaScript developer on an hourly or project/task basis and easily adjust the hiring model as per your project requirements.',
+        ],
+      },
+    ],
+  },
+};

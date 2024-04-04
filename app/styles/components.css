@@ -55,6 +55,7 @@
 @import './services/end-to-end-services-details.css';
 @import './services/staff-augmentation-services-tech.css';
 @import './services/bullet-list.css';
+@import './services/table.css';
 
 /* Case Studies */
 @import './case-studies/poster.css';
