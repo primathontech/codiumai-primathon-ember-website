@@ -719,7 +719,7 @@ export const PYTHON_DEVELOPER = {
         id: 1,
         tableData: [
           { id: 1, text: 'Failure Rate', bgColor: '#ffffff' },
-          { id: 2, text: 'X', bgColor: '##ff0000' },
+          { id: 2, text: 'X', bgColor: '#FFDCDC' },
           { id: 3, text: 'Low', bgColor: '#ffffff' },
           { id: 4, text: 'Very Low', bgColor: '#ffffff' },
         ],
@@ -984,7 +984,7 @@ export const ANGULAR_DEVELOPER = {
       { id: 4, text: '24/7 Support' },
     ],
     service1: { number: '6+', text: 'Years of business' },
-    service2: { number: '100+', text: 'Softawre Developers' },
+    service2: { number: '100+', text: 'Software Developers' },
     service3: { number: '150+', text: 'Project Delivered' },
     service4: { number: '100+', text: 'Happy Client' },
   },
@@ -1004,7 +1004,7 @@ export const ANGULAR_DEVELOPER = {
       'You share your idea with us',
       'We create a strategy for your project',
       'Our AngularJS Developer starts building it',
-      'We deliver on time ',
+      'We deliver on time',
     ],
   },
 
@@ -1023,7 +1023,7 @@ export const ANGULAR_DEVELOPER = {
         id: 2,
         text: 'Planning and Design',
         description:
-          'We create a comprehensive plan and design layout for your Python project, focusing on usability, scalability, and performance.',
+          'We create a comprehensive plan and design layout for your angular project, focusing on usability, scalability, and performance.',
       },
       {
         id: 3,
@@ -1080,7 +1080,7 @@ export const ANGULAR_DEVELOPER = {
         id: 3,
         title: 'Diverse Talent Pool',
         description:
-          'When you hire a Python Developer from Primathon, you gain access to a wealth of knowledge spanning various Python frameworks and libraries, ensuring that your project receives the specialized skills it requires.',
+          'When you hire a AngularJS Developer from Primathon, you gain access to a wealth of knowledge spanning various AngularJS frameworks and libraries, ensuring that your project receives the specialized skills it requires.',
         listItems: ['Decrease the Chances of Project Disruption', 'Simplify Task'],
         imageSrc: '/assets/python/talent-pool.png',
         imageAlt: 'Diverse Talent Pool',
@@ -1673,7 +1673,7 @@ export const JAVASCRIPT = {
   },
 };
 
-export const ANDROID_NEW_DEVELOPER = {
+export const ANDROID_DEVELOPER_NEW = {
   heroSection: {
     title1: 'Hire',
     gradientTitle: 'Android ',
@@ -1795,7 +1795,7 @@ export const ANDROID_NEW_DEVELOPER = {
       { id: 4, text: '24/7 Support' },
     ],
     service1: { number: '6+', text: 'Years of business' },
-    service2: { number: '80+', text: 'Softawre Developers' },
+    service2: { number: '80+', text: 'Software Developers' },
     service3: { number: '150+', text: 'Project Delivered' },
     service4: { number: '100+', text: 'Happy Client' },
   },
@@ -1813,7 +1813,7 @@ export const ANDROID_NEW_DEVELOPER = {
     items: [
       'You share your idea with us',
       'We create a strategy for your project',
-      'Our Python Developer starts building it',
+      'Our Android Developer starts building it',
       'We deliver on time',
     ],
   },
@@ -1863,7 +1863,7 @@ export const ANDROID_NEW_DEVELOPER = {
   },
 
   benefitsOfHiringAndroid: {
-    title1: 'Benefits of Hiring Android Developers from Us',
+    title1: 'Benefits of Hiring',
     colouredTitle: 'Android Developers',
     title2: 'from us',
 
@@ -1880,7 +1880,7 @@ export const ANDROID_NEW_DEVELOPER = {
           'Ensure Client Satisfaction',
           'Keeps you updated throughout the Project',
         ],
-        imageSrc: '/assets/javascript/project-manager-discussing-project.png',
+        imageSrc: '/assets/angular-js/dedicated-project-manager.png',
         imageAlt: 'Dedicated Project Manager discussing project',
       },
       {
@@ -1889,7 +1889,7 @@ export const ANDROID_NEW_DEVELOPER = {
         description:
           "We provide daily updates and summaries of tasks finished, challenges encountered, and milestones reached. Hire Android Developer from us and at the end of each month, you'll receive a comprehensive timesheet detailing team activities and hours allocated to each task. This will help you to review payments based on completed work.",
         listItems: ['Keep Tabs on Progress', 'Quality Results', 'Optimize Time Management'],
-        imageSrc: '/assets/javascript/task-records.png',
+        imageSrc: '/assets/angular-js/task-records.png',
         imageAlt: 'Daily and Monthly Task Records',
       },
       {
@@ -1912,7 +1912,7 @@ export const ANDROID_NEW_DEVELOPER = {
         id: 1,
         tableData: [
           { id: 1, text: 'Failure Rate', bgColor: '#ffffff' },
-          { id: 2, text: 'X', bgColor: '##ff0000' },
+          { id: 2, text: 'X', bgColor: '#FFDCDC' },
           { id: 3, text: 'Low', bgColor: '#ffffff' },
           { id: 4, text: 'Very Low', bgColor: '#ffffff' },
         ],
@@ -1923,8 +1923,8 @@ export const ANDROID_NEW_DEVELOPER = {
         tableData: [
           { id: 1, text: 'Pre-assessed Developers', bgColor: '#ffffff' },
           { id: 2, text: '✓', bgColor: '#24B768' },
-          { id: 3, text: 'X', bgColor: '##ff0000' },
-          { id: 4, text: 'X', bgColor: '##ff0000' },
+          { id: 3, text: 'X', bgColor: '#FFDCDC' },
+          { id: 4, text: 'X', bgColor: '#FFDCDC' },
         ],
       },
 
@@ -1943,8 +1943,8 @@ export const ANDROID_NEW_DEVELOPER = {
         tableData: [
           { id: 1, text: 'Documentation and Security', bgColor: '#ffffff' },
           { id: 2, text: '✓', bgColor: '#24B768' },
-          { id: 3, text: 'X', bgColor: '##ff0000' },
-          { id: 4, text: 'X', bgColor: '##ff0000' },
+          { id: 3, text: 'X', bgColor: '#FFDCDC' },
+          { id: 4, text: 'X', bgColor: '#FFDCDC' },
         ],
       },
 
@@ -1962,8 +1962,8 @@ export const ANDROID_NEW_DEVELOPER = {
         id: 6,
         tableData: [
           { id: 1, text: 'Quality Guarantee', bgColor: '#ffffff' },
-          { id: 2, text: '✓', bgColor: '#ffffff' },
-          { id: 3, text: 'X', bgColor: '##ff0000' },
+          { id: 2, text: '✓', bgColor: '#24B768' },
+          { id: 3, text: 'X', bgColor: '#FFDCDC' },
           { id: 4, text: 'Unsure', bgColor: '#ffffff' },
         ],
       },
@@ -1975,7 +1975,7 @@ export const ANDROID_NEW_DEVELOPER = {
         title: 'Failure Rate',
         tableHeading: ['Primathon', 'Other Company', 'Freelancers'],
         tableData: [
-          { id: 1, text: 'X', bgColor: '##ff0000' },
+          { id: 1, text: 'X', bgColor: '#FFDCDC' },
           { id: 2, text: 'Low', bgColor: '#ffffff' },
           { id: 3, text: 'Very Low', bgColor: '#ffffff' },
         ],
@@ -1986,8 +1986,8 @@ export const ANDROID_NEW_DEVELOPER = {
         tableHeading: ['Primathon', 'Other Company', 'Freelancers'],
         tableData: [
           { id: 1, text: '✓', bgColor: '#24B768' },
-          { id: 2, text: 'X', bgColor: '##ff0000' },
-          { id: 3, text: 'X', bgColor: '##ff0000' },
+          { id: 2, text: 'X', bgColor: '#FFDCDC' },
+          { id: 3, text: 'X', bgColor: '#FFDCDC' },
         ],
       },
       {
@@ -2006,8 +2006,8 @@ export const ANDROID_NEW_DEVELOPER = {
         tableHeading: ['Primathon', 'Other Company', 'Freelancers'],
         tableData: [
           { id: 1, text: '✓', bgColor: '#24B768' },
-          { id: 2, text: 'X', bgColor: '##ff0000' },
-          { id: 3, text: 'X', bgColor: '##ff0000' },
+          { id: 2, text: 'X', bgColor: '#FFDCDC' },
+          { id: 3, text: 'X', bgColor: '#FFDCDC' },
         ],
       },
       {
@@ -2026,7 +2026,7 @@ export const ANDROID_NEW_DEVELOPER = {
         tableHeading: ['Primathon', 'Other Company', 'Freelancers'],
         tableData: [
           { id: 1, text: '✓', bgColor: '#24B768' },
-          { id: 2, text: 'X', bgColor: '#ff0000' },
+          { id: 2, text: 'X', bgColor: '#FFDCDC' },
           { id: 3, text: 'Unsure', bgColor: '#ffffff' },
         ],
       },
