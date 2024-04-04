@@ -1730,7 +1730,7 @@ export const ANDROID_DEVELOPER_NEW = {
   },
 
   androidDevelopmentServices: {
-    title: ' Elevate Your Projects with Our Seasoned Android App Developers ',
+    title: 'Elevate Your Projects with Our Seasoned Android App Developers',
     cardData: [
       {
         id: 1,
@@ -1874,7 +1874,7 @@ export const ANDROID_DEVELOPER_NEW = {
         id: 1,
         title: 'Get a Dedicated Project Manager',
         description:
-          "No matter what, you'll get a complimentary project manager from us. They'll handle all the nitty-gritty stuff like planning, setting timelines, and making sure everyone's on track. Their job? To guarantee you're getting top-notch results every step of the way with Primathon.",
+          'No matter what, you\'ll get a complimentary project manager from us. They\'ll handle all the nitty-gritty stuff like planning, setting timelines, and making sure everyone\'s on track. Their job? To guarantee you\'re getting top-notch results every step of the way with Primathon.',
         listItems: [
           'Analyze the Progress of the Project',
           'Ensure Client Satisfaction',
@@ -1887,7 +1887,7 @@ export const ANDROID_DEVELOPER_NEW = {
         id: 2,
         title: 'Stay in the Loop with Daily and Monthly Task Records',
         description:
-          "We provide daily updates and summaries of tasks finished, challenges encountered, and milestones reached. Hire Android Developer from us and at the end of each month, you'll receive a comprehensive timesheet detailing team activities and hours allocated to each task. This will help you to review payments based on completed work.",
+          'We provide daily updates and summaries of tasks finished, challenges encountered, and milestones reached. Hire Android Developer from us and at the end of each month, you\'ll receive a comprehensive timesheet detailing team activities and hours allocated to each task. This will help you to review payments based on completed work.',
         listItems: ['Keep Tabs on Progress', 'Quality Results', 'Optimize Time Management'],
         imageSrc: '/assets/angular-js/task-records.png',
         imageAlt: 'Daily and Monthly Task Records',
