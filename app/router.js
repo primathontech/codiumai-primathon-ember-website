@@ -21,6 +21,7 @@ Router.map(function () {
       this.route('python-developers');
       this.route('angular-developers');
       this.route('javascript-developers');
+      this.route('ios-developers');
       this.route('quality-analysts');
       this.route('platform');
     });
@@ -59,6 +60,7 @@ Router.map(function () {
   this.route('not-found', { path: '/*path' });
   this.route('ember-js-development-services');
   this.route('sitemap');
+  this.route('privacy-policy');
 });
 
 Router.reopen({
