@@ -2081,7 +2081,7 @@ export const IOS_DEVELOPER = {
     ctaText1: 'Get Free Consultation',
     redirect1: '/contact',
     ctaText2: 'View Case Studies',
-    redirect2: '#',
+    redirect2: '#case-studies',
   },
 
   iosDevelopmentServices: {
@@ -2131,11 +2131,15 @@ export const IOS_DEVELOPER = {
     ],
   },
 
-  hireDedicatedIosDeveloper: {
-    title: 'Hire Dedicated iOS Developer team based on your requirements.',
-    description: 'We provide various services tailored to meet the specific needs of your business.',
-    ctaText: 'Get in touch',
-    ctaRoute: 'contact',
+  ctaSection1: {
+    onlyDesc: true,
+    descp1: 'Hire Dedicated',
+    colouredDescp: 'iOS Developer',
+    descp2:
+      'team based on your requirements. We provide various hiring engagement models tailored to meet the specific needs of your business.',
+    ctaText: 'GET IN TOUCH',
+    redirect: '/contact',
+    bgColor: '#F4F4F4',
   },
 
   whyChoose: {
@@ -2154,12 +2158,13 @@ export const IOS_DEVELOPER = {
     service4: { number: '100+', text: 'Happy Client' },
   },
 
-  elevateYourJourney: {
+  ctaSection2: {
     title: 'Want to Create a User-friendly Web Application?',
     description:
       "Hire our iOS developer to improve your product's usability, satisfaction, and overall user experience.",
-    ctaText: 'Hire iOS  Developers Remotely',
-    ctaRoute: '/contact',
+    ctaText: 'HIRE US',
+    redirect: '/contact',
+    bgColor: '#21315B',
   },
 
   iosJourney: {
@@ -2174,7 +2179,7 @@ export const IOS_DEVELOPER = {
 
   iosDevelopmentStrategy: {
     title: 'An Overview of Our iOS Development Approach',
-    imageSrc: '/assets/python/development-strategy.png',
+    imageSrc: '/assets/ios/development-strategy.png',
     imageAlt: 'Development Strategy',
     cardData: [
       {
@@ -2215,7 +2220,7 @@ export const IOS_DEVELOPER = {
   benefitsOfHiringIos: {
     title1: 'Benefits of Hiring',
     colouredTitle: 'iOS Developers',
-    title2: 'from us',
+    title2: 'from Us',
 
     description:
       'From free manager service to punctual delivery and precise timesheets, we offer multiple benefits to a client when they hire iOS developers from Primathon.',
