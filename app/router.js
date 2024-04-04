@@ -59,6 +59,7 @@ Router.map(function () {
   this.route('not-found', { path: '/*path' });
   this.route('ember-js-development-services');
   this.route('sitemap');
+  this.route('privacy-policy');
 });
 
 Router.reopen({
