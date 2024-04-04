@@ -1760,7 +1760,7 @@ export const REACT_DEVELOPER = {
       },
       {
         id: 5,
-        imageSrc: '/assets/react-js/react-migration.svg',
+        imageSrc: '/assets/angular-js/angular-consulting.svg',
         cardTitle: 'React JS Enterprise App Development:',
         content:
           'Being a trusted react company, we can provide you with the expert advice and insights on the most effective methods to develop your app.  Moreover, our years of technical expertise aid in building scalable and secure apps that are integrated with cloud storage and analytics platforms.',
@@ -1838,7 +1838,7 @@ export const REACT_DEVELOPER = {
 
   reactDevelopmentStrategy: {
     title: "An Overview of Our React.js Development Approach",
-    imageSrc: '/assets/python/development-strategy.png',
+    imageSrc: '/assets/react-js/development-strategy.png',
     imageAlt: 'Development Strategy',
     cardData: [
       {

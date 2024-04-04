@@ -6,9 +6,9 @@ import { TESTIMONIAL_DATA } from '../../../constants/homepage/testimonial';
 export default class ServicesStaffAugmentationAndroidDevelopersRoute extends Route {
   @service headData;
   async model() {
-    const reactDevelopersData = REACT_DEVELOPER;
+    const data = REACT_DEVELOPER;
     const testinomialData = TESTIMONIAL_DATA;
-    return { reactDevelopersData, testinomialData };
+    return { data, testinomialData };
   }
 
   beforeModel() {
