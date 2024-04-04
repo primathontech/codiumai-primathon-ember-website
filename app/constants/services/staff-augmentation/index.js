@@ -3269,6 +3269,7 @@ export const VUE_DEVELOPER = {
     ],
     ctaText1: 'Book a Call',
     ctaText2: 'Get Free Consultation',
+    redirect: '/contact',
     imageSrc: '/assets/vue/hire-vue-herosection-img.png',
     imageAlt: 'Hire Vue Developer',
   },
@@ -3387,7 +3388,7 @@ export const VUE_DEVELOPER = {
 
   vueDevelopmentStrategy: {
     title: 'An Overview of Our Vue.js Development Approach',
-    imageSrc: '/assets/vue/development-strategy.png',
+    imageSrc: '/assets/python/development-strategy.png',
     imageAlt: 'Development Strategy',
     cardData: [
       {
@@ -3426,7 +3427,7 @@ export const VUE_DEVELOPER = {
   benefitsOfHiringVue: {
     title1: 'Benefits of Hiring ',
     colouredTitle: 'Vue.js Developers',
-    title2: 'from us',
+    title2: 'from Us',
 
     description:
       'From free manager service to punctual delivery and precise timesheets, we offer multiple benefits to a client when they hire Vue.js developers from Primathon.',
