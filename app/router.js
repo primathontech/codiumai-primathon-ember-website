@@ -13,16 +13,20 @@ Router.map(function () {
   this.route('about-us');
   this.route('services', function () {
     this.route('staff-augmentation', function () {
-      this.route('frontend-developers');
+      this.route('hire-frontend-developers');
       this.route('product-managers');
-      this.route('backend-developers');
+      this.route('hire-backend-developers');
       this.route('uiux-designers');
-      this.route('android-developers');
-      this.route('python-developers');
-      this.route('angular-developers');
-      this.route('javascript-developers');
+      this.route('hire-android-developers');
+      this.route('hire-python-developers');
+      this.route('hire-angular-developers');
+      this.route('hire-javascript-developers');
+      this.route('hire-react-developers');
+      this.route('hire-ios-developers');
+      this.route('hire-swift-developers');
       this.route('quality-analysts');
       this.route('platform');
+      this.route('hire-vue-developers');
     });
     this.route('end-to-end-products', function () {
       this.route('booking-platforms');
