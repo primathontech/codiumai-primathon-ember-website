@@ -3682,7 +3682,7 @@ export const EMBER_DEVELOPER = {
     ctaText1: 'Book a Call',
     ctaText2: 'Get Free Consultation',
     redirect: '/contact',
-    imageSrc: '/assets/vue/hire-vue-herosection-img.png',
+    imageSrc: '/assets/emberjs/hire-ember-herosection-img.png',
     imageAlt: 'Hire Ember Developer',
   },
 
@@ -3792,7 +3792,7 @@ export const EMBER_DEVELOPER = {
 
   emberDevelopmentStrategy: {
     title: 'An Overview of Our Ember.js Development Approach',
-    imageSrc: '/assets/python/development-strategy.png',
+    imageSrc: '/assets/emberjs/development-strategy.png',
     imageAlt: 'Development Strategy',
     cardData: [
       {
