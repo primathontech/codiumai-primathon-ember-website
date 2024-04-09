@@ -1,57 +1,12 @@
 export const AI_DRIVEN_TOOL = {
   heroSection: {
-    title1: 'AI-Driven Customer Behavior Analysis Tool',
-    // gradientTitle: 'Vue.js',
-    // title2: 'Developers',
-    // subtitle: 'Reasonable, Dedicated Experts for Your Business',
+    title1: 'AI-Driven Customer Behavior Analysis Tool:',
+    subtitle: 'Transforming Customer Insights',
     description:
       'Boost customer experience with our AI Customer Insights and streamline customer engagement with our advanced AI-Driven Customer Behavior Analysis Tool. Our software solution utilizes artificial intelligence and machine learning algorithms to analyze and interpret customer behavior patterns. It helps businesses gain deep insights into customer preferences, purchasing habits, interactions with products or services, and other relevant data points',
-    // listItems: [
-    //   {
-    //     id: 1,
-    //     text: '100% Skilled and Certified Developers',
-    //   },
-    //   {
-    //     id: 2,
-    //     text: 'Possesses an Average of 5+ Years of Experience',
-    //   },
-    //   {
-    //     id: 3,
-    //     text: 'Swift Onboarding Process',
-    //   },
-    //   {
-    //     id: 4,
-    //     text: 'Competitive Pricing Models',
-    //   },
-    //   {
-    //     id: 5,
-    //     text: 'Transparent and Smooth Communication',
-    //   },
-    // ],
-    // ctaText1: 'Book a Call',
-    // ctaText2: 'Get Free Consultation',
-    // redirect: '/contact',
-    // imageSrc: '/assets/vue/hire-vue-herosection-img.png',
-    // imageAlt: 'Hire Vue Developer',
+    imageSrc: '/assets/javascript/hire-javascript-herosection-img.png',
+    imageAlt: 'Hire JavaScript',
   },
-
-  //   elevateYourProject: {
-  //     title: 'Elevate Your Project by Hiring Top Vue.js  Developers in India',
-  //     description:
-  //       'Unlock the full potential of Vue.js for your projects by partnering with our seasoned team of experts. With years of experience and a dedication to innovation, we specialize in delivering bespoke solutions customized to your unique requirements. Contact us today to maximize the power of Vue.js for your projects.',
-  //     ctaText: 'GET IN TOUCH',
-  //     redirect: '/contact',
-  //     imageSrc: '/assets/python/elevate-your-project.png',
-  //     imageAlt: 'Elevate Your Project',
-  //   },
-
-  //   ctaSection: {
-  //     title: 'Experience Excellence with Our Vue.js Support Services',
-  //     description:
-  //       'With years of expertise and a commitment to innovation, we deliver bespoke solutions tailored to your unique requirements. Partner with us and experience the difference.',
-  //     ctaText1: "Let's Transform Your Projects!",
-  //     redirect1: '/contact',
-  //   },
 
   aiDrivenToolDevelopmentServices: {
     title: "Discover the Standout Features of Primathon's Customer Behavior Analysis Tool",
@@ -108,6 +63,63 @@ export const AI_DRIVEN_TOOL = {
     ],
   },
 
+  ctaSection: {
+    title: 'Are You Ready to Transform Your Business?',
+    description: '',
+    ctaText: 'HIRE US',
+    redirect: '/contact',
+  },
+
+  aiDrivenServices: {
+    title: 'Most commonly used',
+    description:
+      'There are various artificial intelligence services that businesses and organizations can leverage to improve their operations and services. Here are some of the most commonly used AI services',
+    cardData: [
+      {
+        id: 1,
+        imageSrc: '/assets/chatgpt/NLP.png',
+        cardTitle: 'Natural Language Processing (NLP)',
+        cardData:
+          'NLP is an AI service that enables machines to understand human language and interpret text or speech. It can be used to create chatbots, language translators, and voice assistants.',
+      },
+      {
+        id: 2,
+        imageSrc: '/assets/ai-development/media.png',
+        cardTitle: 'Image and Video Recognition',
+        cardData:
+          'This service enables machines to recognize and interpret visual content, such as images and videos. It can be used for applications such as facial recognition, object detection, and automated video analysis.',
+      },
+      {
+        id: 3,
+        imageSrc: '/assets/ai-development/voice-recognition.png',
+        cardTitle: 'Speech Recognition',
+        cardData:
+          'Speech recognition is an AI service that allows machines to recognize and interpret spoken language. It can be used for applications such as virtual assistants and automated voice response systems.',
+      },
+      {
+        id: 4,
+        imageSrc: '/assets/ai-development/brain.png',
+        cardTitle: 'Machine Learning',
+        cardData:
+          'Machine learning is a type of AI that enables machines to learn from data and improve their performance over time. It can be used for applications such as predictive analytics and fraud detection.',
+      },
+      {
+        id: 5,
+        imageSrc: '/assets/ai-development/automation.png',
+        cardTitle: 'Robotic Process Automation (RPA)',
+        cardData:
+          'RPA is an AI service that automates repetitive, rules-based tasks that are typically performed by humans. It can be used for applications such as data entry and invoice processing.',
+      },
+      {
+        id: 6,
+        imageSrc: '/assets/ai-development/predictive-chart.png',
+        cardTitle: 'Predictive Analytics',
+        cardData:
+          'Predictive analytics is an AI service that uses machine learning algorithms to analyze historical data and make predictions about future events. It can be used for applications such as sales forecasting and risk management.',
+      },
+    ],
+  },
+
   ctaSection1: {
     onlyDesc: true,
     descp1: 'Hire Dedicated',
@@ -118,7 +130,26 @@ export const AI_DRIVEN_TOOL = {
     redirect: '/contact',
     bgColor: '#F4F4F4',
   },
-
+  whyThisTool: {
+    title: ' Why is the Customer Behavior Analysis Tool Better?',
+    listItems: [
+      { id: 1, text: 'Data-Driven Insights' },
+      { id: 2, text: 'Enhanced Customer Understanding' },
+      { id: 3, text: 'Personalized Engagement' },
+      { id: 4, text: 'Competitive Advantage' },
+    ],
+  },
+  whyTrust: {
+    title: ' Why Trust Customer Behavior Analysis Tool in Customer Engagement ?',
+    description:
+      'By analyzing behavior patterns, it enables businesses to personalize interactions and offerings, boosting satisfaction and loyalty. through its ability to provide actionable insights into customer behavior.By leveraging advanced analytics, businesses can personalize interactions, anticipate future behavior, and gain a competitive edge. This tool facilitates continuous improvement by offering feedback on engagement strategies, ensuring businesses stay relevant and effective in their customer interactions.',
+    listItems: [
+      { id: 1, text: 'Enhanced Personalization' },
+      { id: 2, text: 'Predictive Capabilities' },
+      { id: 3, text: 'Competitive Edge' },
+      { id: 4, text: 'Continuous Improvement' },
+    ],
+  },
   whyChoose: {
     title: 'Why Hire Customer Behavior Analysis Tool Developers from Primathon?',
     description:
@@ -148,7 +179,7 @@ export const AI_DRIVEN_TOOL = {
   ctaSection2: {
     title: 'Want to Create a User-friendly Web Application?',
     description:
-      "Hire our Vue.js developer to improve your product's usability, satisfaction, and overall user experience.",
+      ' Hire Dedicated Tool Developer team based on your requirements. We provide various services tailored to meet the specific needs of your business.',
     ctaText: 'HIRE US',
     redirect: '/contact',
     bgColor: '#21315B',
@@ -192,9 +223,51 @@ export const AI_DRIVEN_TOOL = {
     ],
   },
 
+  gettingStarted: {
+    title: 'Why Choose Primathon For Customer Behavior Analysis',
+    subTitle: '',
+    cardData: [
+      {
+        id: 1,
+        cardTitle: 'Expertise',
+        content:
+          "Our team brings extensive expertise in customer behavior analysis, with years of experience in developing innovative solutions tailored to clients' needs.",
+      },
+      {
+        id: 2,
+        cardTitle: 'Advanced Technology',
+        content:
+          'We leverage cutting-edge technologies and tools to ensure that our customer behavior analysis solutions are at the forefront of industry standards.',
+      },
+      {
+        id: 3,
+        cardTitle: 'Customization',
+        content:
+          "We understand that every business is unique. That's why we offer customized solutions that address the specific requirements and challenges of each client.",
+      },
+      {
+        id: 4,
+        cardTitle: 'Proven Track Record',
+        content:
+          'With a track record of successful projects and satisfied clients, you can trust Primathon to deliver reliable and effective customer behavior analysis solutions.',
+      },
+      {
+        id: 5,
+        cardTitle: 'Collaboration',
+        content:
+          'We believe in collaborative partnerships with our clients, working closely with them to understand their goals and objectives and delivering solutions that exceed expectations.',
+      },
+      {
+        id: 6,
+        cardTitle: 'Support',
+        content:
+          ' Our dedicated support team is always available to provide assistance and guidance, ensuring a seamless experience throughout the customer behavior analysis process.',
+      },
+    ],
+  },
+
   benefitsOfHiringAiDrivenTool: {
-    title1: 'Benefits of Hiring ',
-    colouredTitle: 'Vue.js Developers',
+    title1: 'Why Choose Primathon For Customer Behavior Analysis?',
     title2: 'from Us',
 
     description:
@@ -233,141 +306,6 @@ export const AI_DRIVEN_TOOL = {
       },
     ],
   },
-
-  table: {
-    title: 'Hire Vue.js Developers From Primathon Vs Other Company',
-    tableHeading: ['', 'Primathon', 'Other Company', 'Freelancers'],
-    tableRows: [
-      {
-        id: 1,
-        tableData: [
-          { id: 1, text: 'Failure Rate', bgColor: '#ffffff' },
-          { id: 2, text: 'X', bgColor: '#FFDCDC' },
-          { id: 3, text: 'Low', bgColor: '#ffffff' },
-          { id: 4, text: 'Very Low', bgColor: '#ffffff' },
-        ],
-      },
-
-      {
-        id: 2,
-        tableData: [
-          { id: 1, text: 'Pre-assessed Developers', bgColor: '#ffffff' },
-          { id: 2, text: '✓', bgColor: '#24B768' },
-          { id: 3, text: 'X', bgColor: '#FFDCDC' },
-          { id: 4, text: 'X', bgColor: '#FFDCDC' },
-        ],
-      },
-
-      {
-        id: 3,
-        tableData: [
-          { id: 1, text: 'Results', bgColor: '#ffffff' },
-          { id: 2, text: '100% Premium Quality', bgColor: '#ffffff' },
-          { id: 3, text: 'Good', bgColor: '#ffffff' },
-          { id: 4, text: 'Unsure', bgColor: '#ffffff' },
-        ],
-      },
-
-      {
-        id: 4,
-        tableData: [
-          { id: 1, text: 'Documentation and Security', bgColor: '#ffffff' },
-          { id: 2, text: '✓', bgColor: '#24B768' },
-          { id: 3, text: 'X', bgColor: '#FFDCDC' },
-          { id: 4, text: 'X', bgColor: '#FFDCDC' },
-        ],
-      },
-
-      {
-        id: 5,
-        tableData: [
-          { id: 1, text: 'Rates', bgColor: '#ffffff' },
-          { id: 2, text: 'Reasonable', bgColor: '#ffffff' },
-          { id: 3, text: 'High Cost', bgColor: '#ffffff' },
-          { id: 4, text: 'High Cost', bgColor: '#ffffff' },
-        ],
-      },
-
-      {
-        id: 6,
-        tableData: [
-          { id: 1, text: 'Quality Guarantee', bgColor: '#ffffff' },
-          { id: 2, text: '✓', bgColor: '#24B768' },
-          { id: 3, text: 'X', bgColor: '#FFDCDC' },
-          { id: 4, text: 'Unsure', bgColor: '#FFDCDC' },
-        ],
-      },
-    ],
-
-    mobileTableData: [
-      {
-        id: 1,
-        title: 'Failure Rate',
-        tableHeading: ['Primathon', 'Other Company', 'Freelancers'],
-        tableData: [
-          { id: 1, text: 'X', bgColor: '#FFDCDC' },
-          { id: 2, text: 'Low', bgColor: '#ffffff' },
-          { id: 3, text: 'Very Low', bgColor: '#ffffff' },
-        ],
-      },
-      {
-        id: 2,
-        title: 'Pre-assessed Developers',
-        tableHeading: ['Primathon', 'Other Company', 'Freelancers'],
-        tableData: [
-          { id: 1, text: '✓', bgColor: '#24B768' },
-          { id: 2, text: 'X', bgColor: '#FFDCDC' },
-          { id: 3, text: 'X', bgColor: '#FFDCDC' },
-        ],
-      },
-      {
-        id: 3,
-        title: 'Results',
-        tableHeading: ['Primathon', 'Other Company', 'Freelancers'],
-        tableData: [
-          { id: 1, text: '100% Premium Quality', bgColor: '#ffffff' },
-          { id: 2, text: 'Good', bgColor: '#ffffff' },
-          { id: 3, text: 'Unsure', bgColor: '#ffffff' },
-        ],
-      },
-      {
-        id: 4,
-        title: 'Documentation and Security',
-        tableHeading: ['Primathon', 'Other Company', 'Freelancers'],
-        tableData: [
-          { id: 1, text: '✓', bgColor: '#24B768' },
-          { id: 2, text: 'X', bgColor: '#FFDCDC' },
-          { id: 3, text: 'X', bgColor: '#FFDCDC' },
-        ],
-      },
-      {
-        id: 5,
-        title: 'Rates',
-        tableHeading: ['Primathon', 'Other Company', 'Freelancers'],
-        tableData: [
-          { id: 1, text: 'Reasonable', bgColor: '#ffffff' },
-          { id: 2, text: 'High Cost', bgColor: '#ffffff' },
-          { id: 3, text: 'High Cost', bgColor: '#ffffff' },
-        ],
-      },
-      {
-        id: 5,
-        title: 'Quality Guarantee',
-        tableHeading: ['Primathon', 'Other Company', 'Freelancers'],
-        tableData: [
-          { id: 1, text: '✓', bgColor: '#24B768' },
-          { id: 2, text: 'X', bgColor: '#FFDCDC' },
-          { id: 3, text: 'Unsure', bgColor: '#ffffff' },
-        ],
-      },
-    ],
-  },
-
-  caseStudies: {
-    title: 'Our Case Studies',
-    subtitle: 'Explore Our Portfolio of Vue.js Development Projects',
-  },
-
   faqs: {
     title: 'FAQs',
     cardData: [
