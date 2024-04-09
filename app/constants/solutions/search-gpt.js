@@ -1,9 +1,10 @@
-export const SEARCH_GPT_DATA = {
+export const SEARCH_GPT = {
   heroSection: {
     title1: 'Search GPT',
     subtitle: 'Get Advanced AI-powered Document Management and Personalization',
     description:
-      'Streamline your workflow, enhance efficiency, and unlock unparalleled insights with advanced tools tailored to your needs. Transform the way you manage documents with innovative document solutions and propel your business forward with confidence. Why is <br /> <b>Search GPT Better?</b>',
+      'Streamline your workflow, enhance efficiency, and unlock unparalleled insights with advanced tools tailored to your needs. Transform the way you manage documents with innovative document solutions and propel your business forward with confidence.',
+    description2: 'Why is Search GPT Better?',
     listItems: [
       {
         id: 1,
@@ -41,21 +42,21 @@ export const SEARCH_GPT_DATA = {
       },
       {
         id: 2,
-        imageSrc: '/assets/emberjs/consulting.svg',
+        imageSrc: '/assets/angular-js/angular-consulting.svg',
         cardTitle: 'Comprehensive Document Summarization AI',
         content:
           'With advanced AI capabilities, Search GPT can summarize lengthy documents into concise and informative summaries, enabling users to grasp key insights and information efficiently.',
       },
       {
         id: 3,
-        imageSrc: '/assets/emberjs/design.svg',
+        imageSrc: '/assets/swift/design-services.svg',
         cardTitle: 'Intelligent Document Personalization',
         content:
           'Search GPT goes beyond basic summarization by offering intelligent document personalization. It analyzes user preferences and behaviors to tailor content recommendations, ensuring a customized and engaging experience.',
       },
       {
         id: 4,
-        imageSrc: '/assets/emberjs/maintenance.svg',
+        imageSrc: '/assets/javascript/javaScript-maintenance.svg',
         cardTitle: 'Semantic Understanding',
         content:
           'Leveraging cutting-edge natural language processing (NLP) techniques, Search GPT possesses a deep semantic understanding of text, allowing for accurate and contextually relevant summarization.',
@@ -76,7 +77,7 @@ export const SEARCH_GPT_DATA = {
       },
       {
         id: 7,
-        imageSrc: '/assets/vue/migration-service.svg',
+        imageSrc: '/assets/javascript/javaScript-maintenance.svg',
         cardTitle: 'Ease of Integration',
         content:
           'Seamlessly integrate Search GPT into existing workflows and systems with ease, thanks to its flexible and adaptable architecture, minimizing disruption and maximizing productivity.',
@@ -91,11 +92,12 @@ export const SEARCH_GPT_DATA = {
     ],
   },
 
-  ctaSection: {
+  ctaSection1: {
     title: 'Are You Ready to Transform Your Business?',
     description: '',
     ctaText: 'HIRE US',
     redirect: '/contact',
+    bgColor: '#21315B',
   },
 
   howSearchGptWorks: {
@@ -208,10 +210,12 @@ export const SEARCH_GPT_DATA = {
     ],
   },
 
-  ctaSection1: {
-    title: 'Trust Primathon To Boost Your AI Development Experience',
-    description:
-      'Let us assist you in transforming your web development journey so that you can experience excellence in AI development. Contact Primathon today to kickstart your Project.',
+  ctaSection2: {
+    onlyDesc: true,
+    descp1:
+      'Let us assist you in transforming your web development journey so that you can experience excellence in AI development.',
+    colouredDescp: 'Contact Primathon',
+    descp2: 'today to kickstart your Project.',
     ctaText: 'GET IN TOUCH',
     redirect: '/contact',
     bgColor: '#F4F4F4',
@@ -237,7 +241,7 @@ export const SEARCH_GPT_DATA = {
     ],
   },
 
-  benefitsOfHiringEmber: {
+  applicationsOfSearchGpt: {
     title1: 'Industry Application of',
     colouredTitle: 'Search GPT',
     title2: 'and Use Cases for Document AI Legal Industry',
