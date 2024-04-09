@@ -27,6 +27,7 @@ Router.map(function () {
       this.route('quality-analysts');
       this.route('platform');
       this.route('hire-vue-developers');
+      this.route('ai-driven-tool');
     });
     this.route('end-to-end-products', function () {
       this.route('booking-platforms');
