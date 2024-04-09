@@ -1,16 +1,16 @@
 .faq-list-section {
-  padding: 25px 25px 80px;
-  font-family: Poppins;
+  /* padding: 25px 25px 80px;
+  font-family: Poppins; */
 }
 
 .faq-list-section h2 {
-  font-style: normal;
+  /* font-style: normal;
   font-weight: 500;
   font-size: 30px;
   line-height: 42px;
   text-align: center;
   color: #1a284d;
-  padding-bottom: 35px;
+  padding-bottom: 35px; */
 }
 
 .faq-list-section details {

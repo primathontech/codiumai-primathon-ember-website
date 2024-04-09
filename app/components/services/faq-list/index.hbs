@@ -1,14 +1,27 @@
-<section class='faq-list-section services-responsive-container'>
-  <h2>{{@title}}</h2>
-  <div>
-    {{#each @data as |data|}}
-      <details>
-        <summary>
-          {{data.question}}
-          <img class='up-down-icon' src='/assets/svgs/down.svg' height='20px' width='20px' alt='button icon' />
-        </summary>
-        <p> {{data.answer}}</p>
-      </details>
-    {{/each}}
+<div class='faq-list-section px-6 py-10 sm:px-10 sm:py-24 lg:px-16 xl:p-24 max-w-[1600px] mx-auto'>
+  <div class='flex flex-col justify-between gap-10 md:flex-row'>
+    <div class='relative' style='flex-basis: 25%;'>
+      <div class='sticky top-32 md:mb-8'>
+        <h2 class='text-2xl sm:text-3xl font-semibold text-[#393F44]'>Frequently Asked Questions</h2>
+        <p class='text-[#4D5156] font-medium'>Find answers to commonly asked questions about hiring an Android
+          developer.</p>
+        <p class='text-lg font-bold text-[#4D5156]'>Still have questions ?</p>
+        <LinkTo @route='contact'>
+          <button
+            class='rounded border-2 border-[#24B768] text-[#24B768] border-solid font-medium text-white py-2 px-7'
+          >LET’S TALK!</button></LinkTo>
+      </div>
+    </div>
+    <div class='relative flex-1'>
+      {{#each @data as |data|}}
+        <details>
+          <summary>
+            {{data.question}}
+            <img class='up-down-icon' src='/assets/svgs/down.svg' height='20px' width='20px' alt='button icon' />
+          </summary>
+          <p> {{data.answer}}</p>
+        </details>
+      {{/each}}
+    </div>
   </div>
-</section>
+</div>
