@@ -1,0 +1,15 @@
+<Header />
+<div class='app-container'>
+  <Services::HeroSectionNew @data={{@heroSection}} @imgStyle={{@heroSectionImgStyle}} class={{@heroSectionClass}} />
+  <Homepage::PartnersSection />
+  <Chatgpt::Chatgptuse @useCases={{@features}} />
+  <Services::CallUs @data={{@data.data.ctaSection1}} />
+  <Chatgpt::Benefits @benefits={{@benefits}} />
+  <Chatgpt::Chatgptuse @useCases={{@useCases}} />
+  <Services::CallUs @data={{@data.data.ctaSection2}} />
+  <Services::BulletsList @data={{@bulletsList}} @imgStyle={{@bulletsListImgStyle}} />
+  <Services::Benefits @data={{@applications}} />
+  <Chatgpt::Getting-started @gettingStarted={{@features}} />
+  <Services::FaqList @title={{@faqs.title}} @data={{@faqs.cardData}} />
+  <Footer />
+</div>
