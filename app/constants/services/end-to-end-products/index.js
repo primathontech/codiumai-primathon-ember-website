@@ -679,7 +679,7 @@ export const OFFSHORE_DEVELOPMENT = {
       { id: 5, text: 'Flexibility in Resource Allocation' },
     ],
     imageSrc: '/assets/off-shore/why-choose-us.png',
-    imageAlt: 'Elevate Your Project',
+    imageAlt: 'why choose us',
   },
 
   whyChooseUs: {
@@ -725,7 +725,7 @@ export const OFFSHORE_DEVELOPMENT = {
       },
       {
         id: 3,
-        cardTitle: 'Web Development:',
+        cardTitle: 'Web Development',
         content:
           'Our team of professionals specializes in designing and creating websites, online apps, and content management systems (CMS) by utilizing trending technologies. To provide you with the finest experience in Offshore Development, we use the best tools like JavaScript, HTML/CSS, and well-known frameworks like React, Angular, or Vue.js to provide excellent solutions that are customized to your needs',
       },
