@@ -59,7 +59,7 @@
   animation: marquee 50s linear infinite;
 }
 
-.marquee::after {
+/* .marquee::after {
   content: '';
   position: absolute;
   width: 100%;
@@ -73,7 +73,7 @@
     rgba(255, 255, 255, 0) calc(100% - 80px),
     white
   );
-}
+} */
 
 @keyframes marquee {
   0% {
