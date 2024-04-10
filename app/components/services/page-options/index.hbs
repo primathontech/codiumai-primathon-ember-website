@@ -19,7 +19,8 @@
         @route={{this.staffAugmentation}}
       >
         Staff Augmentation
-	@@ -24,218 +24,148 @@
+      </LinkTo>
+    </li>
     {{! template-lint-disable no-invalid-interactive }}
     <li {{on 'mouseover' (fn this.changeContent this.buildAndManage)}}>
       <LinkTo
@@ -200,6 +201,14 @@
          React developers
         </LinkTo>
       </p>
+       <p>
+        <LinkTo
+        class='services-link'
+        @route='services.staff-augmentation.ai-driven-tool'
+        >
+         AI DRIVEN TOOL
+        </LinkTo>
+      </p>
       <p>
         <LinkTo
         class='services-link'
@@ -222,16 +231,16 @@
         </LinkTo>
       </p>
       <p>
+        <LinkTo class='services-link' @route="services.staff-augmentation.hire-ember-developers">
+          Ember.js developers
+        </LinkTo>
+      </p>
+      <p>
         <LinkTo
         class='services-link'
         @route="services.staff-augmentation.uiux-designers"
         >
         UI/UX Designers
-        </LinkTo>
-      </p>
-        <p>
-        <LinkTo class='services-link' @route='services.staff-augmentation.ai-driven-tool'>
-        AI DRIVEN TOOL
         </LinkTo>
       </p>
       <p>
@@ -242,8 +251,25 @@
         Platform
         </LinkTo>
       </p>
+      <p>
+        <LinkTo class='services-link' @route='services.staff-augmentation.ai-driven-tool'>
+          AI DRIVEN TOOL
+        </LinkTo>
+      </p>
     {{else if (eq this.hoverRoute this.buildAndManage)}}
-	@@ -255,12 +185,12 @@
+      <p>
+        Get the best
+        <b>
+          management
+        </b>
+        and
+        <b>
+          value
+        </b>
+      </p>
+      <p>
+        <b>
+          driven technology
         </b>
         aiming at digitally
       </p>

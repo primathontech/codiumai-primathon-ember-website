@@ -267,9 +267,7 @@ export const AI_DRIVEN_TOOL = {
   },
 
   benefitsOfHiringAiDrivenTool: {
-    title1: 'Why Choose Primathon For Customer Behavior Analysis?',
-    title2: 'from Us',
-
+    title: 'Why Choose Primathon For Customer Behavior Analysis?',
     description:
       'From free manager service to punctual delivery and precise timesheets, we offer multiple benefits to a client when they hire Vue.js developers from Primathon.',
     cardData: [
