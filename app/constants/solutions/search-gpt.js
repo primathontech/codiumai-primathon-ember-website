@@ -1,6 +1,6 @@
 export const SEARCH_GPT = {
   heroSection: {
-    title1: 'Search GPT',
+    gradientTitle: 'Search GPT',
     subtitle: 'Get Advanced AI-powered Document Management and Personalization',
     description:
       'Streamline your workflow, enhance efficiency, and unlock unparalleled insights with advanced tools tailored to your needs. Transform the way you manage documents with innovative document solutions and propel your business forward with confidence.',
