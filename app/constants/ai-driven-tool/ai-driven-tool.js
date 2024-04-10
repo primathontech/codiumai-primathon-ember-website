@@ -4,7 +4,7 @@ export const AI_DRIVEN_TOOL = {
     subtitle: 'Transforming Customer Insights',
     description:
       'Boost customer experience with our AI Customer Insights and streamline customer engagement with our advanced AI-Driven Customer Behavior Analysis Tool. Our software solution utilizes artificial intelligence and machine learning algorithms to analyze and interpret customer behavior patterns. It helps businesses gain deep insights into customer preferences, purchasing habits, interactions with products or services, and other relevant data points',
-    imageSrc: '/assets/javascript/hire-javascript-herosection-img.png',
+    imageSrc: '/assets/ai-driven/ai-driven-hero-image.png',
     imageAlt: 'Hire JavaScript',
   },
 
@@ -13,49 +13,49 @@ export const AI_DRIVEN_TOOL = {
     cardData: [
       {
         id: 1,
-        imageSrc: '/assets/vue/web-development.svg',
+        imageSrc: '/assets/ai-driven/data-analytics.svg',
         cardTitle: 'Advanced Data Analytics',
         content:
           'Gain deep insights into customer behavior through sophisticated data analytics capabilities, allowing you to uncover valuable trends and patterns',
       },
       {
         id: 2,
-        imageSrc: '/assets/vue/app-development.svg',
+        imageSrc: '/assets/ai-driven/real-time-monitoring.svg',
         cardTitle: 'Real-time Monitoring',
         content:
           'Monitor customer interactions and behavior in real-time, enabling proactive adjustments to strategies and campaigns for optimized results.',
       },
       {
         id: 3,
-        imageSrc: '/assets/vue/consulting.svg',
-        cardTitle: 'Vue.js Consulting',
+        imageSrc: '/assets/ai-driven/predictive-modeling.svg',
+        cardTitle: 'Predictive Modeling',
         content:
           'Utilize predictive modeling techniques to forecast future customer behavior, empowering you to anticipate trends and tailor your approach accordingly.',
       },
       {
         id: 4,
-        imageSrc: '/assets/vue/component-development.svg',
+        imageSrc: '/assets/ai-driven/interactive-dashboard.svg',
         cardTitle: 'Interactive Dashboards',
         content:
           'Access intuitive and interactive dashboards that present key metrics and insights in a visually appealing manner, facilitating easy interpretation and decision-making.',
       },
       {
         id: 5,
-        imageSrc: '/assets/vue/migration-service.svg',
+        imageSrc: '/assets/ai-driven/customizable-report.svg',
         cardTitle: 'Customizable Reports',
         content:
           'Generate customizable reports to suit your specific needs and requirements, providing comprehensive insights that drive informed business decisions.',
       },
       {
         id: 6,
-        imageSrc: '/assets/vue/support-maintenance.svg',
-        cardTitle: 'Integration Flexibility:',
+        imageSrc: '/assets/ai-driven/integration-flexibility.svg',
+        cardTitle: 'Customer Behavior Analysis Integration Flexibility',
         content:
           'Seamlessly integrate our Customer Behavior Analysis Tool with your existing systems and platforms, ensuring compatibility and maximizing efficiency. ',
       },
       {
         id: 7,
-        imageSrc: '/assets/vue/support-maintenance.svg',
+        imageSrc: '/assets/ai-driven/expert-support.svg',
         cardTitle: 'Expert Support:',
         content:
           'Benefit from dedicated support from our team of experts who are committed to helping you leverage the full potential of our tool for business success.',
@@ -165,17 +165,6 @@ export const AI_DRIVEN_TOOL = {
     service3: { number: '150+', text: 'Project Delivered' },
     service4: { number: '100+', text: 'Happy Client' },
   },
-
-  aiDrivenToolJourney: {
-    heading: 'Let us take your project on a journey!',
-    items: [
-      'You share your idea with us',
-      'We create a strategy for your project',
-      'Our Vue.js Developer starts building it',
-      'We deliver on time',
-    ],
-  },
-
   ctaSection2: {
     title: 'Want to Create a User-friendly Web Application?',
     description:
@@ -187,7 +176,7 @@ export const AI_DRIVEN_TOOL = {
 
   aiDrivenToolDevelopmentStrategy: {
     title: 'An Overview of Our Vue.js Development Approach',
-    imageSrc: '/assets/python/development-strategy.png',
+    imageSrc: '/assets/ai-driven/development-strategy.png',
     imageAlt: 'Development Strategy',
     cardData: [
       {
