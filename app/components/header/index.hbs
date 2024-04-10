@@ -37,7 +37,7 @@
       <LinkTo @route='index' class='menu-home' {{on 'click' this.closeOpenMenu}}>
         Home
       </LinkTo>
-      
+
       <div class='service-page-dialog'>
         <LinkTo @route='services.end-to-end-products' class='menu-service desktop-menu-link'>
           Our Services
@@ -90,6 +90,44 @@
           {{on 'click' (fn this.closeOpenMenu 'services')}}
         >
           Build and Manage
+        </LinkTo>
+      </div>
+      <div class='service-page-dialog'>
+        <LinkTo @route='solutions.search-gpt' class='menu-service desktop-menu-link'>
+          Solutions
+        </LinkTo>
+        <Solutions::PageOptions class='service-page-dialog-box' />
+      </div>
+      <p class='menu-service mobile-menu-link' id='our-services' {{on 'click' (fn this.onMenuOpen 'solutions')}}>
+        <span>Solutions</span>
+        {{#if this.openTechnologiesMenu}}
+          <img
+            class='up-down-icon'
+            src='/assets/images/arrow-up.svg'
+            height='10px'
+            width='10px'
+            alt='button icon'
+            title='button icon'
+          />
+        {{else}}
+          <img
+            class='up-down-icon'
+            src='/assets/images/arrow-down.svg'
+            height='10px'
+            width='10px'
+            alt='button icon'
+            title='button icon'
+          />
+        {{/if}}
+      </p>
+      <div class='services-menu {{if this.openTechnologiesMenu "services-menu-open"}} '>
+        <LinkTo
+          @route='solutions.search-gpt'
+          class='mobile-menu'
+          @activeClass='current-url'
+          {{on 'click' (fn this.closeOpenMenu 'technologies')}}
+        >
+          Search GPT
         </LinkTo>
       </div>
       <div class='service-page-dialog'>

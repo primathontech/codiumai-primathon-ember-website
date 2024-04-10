@@ -27,7 +27,7 @@ Router.map(function () {
       this.route('quality-analysts');
       this.route('platform');
       this.route('hire-vue-developers');
-      this.route('ai-driven-tool');
+      this.route('hire-ember-developers')
     });
     this.route('end-to-end-products', function () {
       this.route('booking-platforms');
@@ -43,6 +43,10 @@ Router.map(function () {
       this.route('ai-discovery');
     });
     this.route('build-and-manage');
+  });
+  this.route('solutions', function () {
+    this.route('search-gpt');
+    this.route('ai-driven-tool');
   });
   this.route('technologies', function () {
     this.route('node-js');
