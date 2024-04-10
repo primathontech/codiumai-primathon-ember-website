@@ -26,7 +26,7 @@ export const SEARCH_GPT = {
     ctaText1: 'Book a Call',
     ctaText2: 'Get Free Consultation',
     redirect: '/contact',
-    imageSrc: '/assets/emberjs/hire-ember-herosection-img.png',
+    imageSrc: '/assets/search-gpt-solution/search-gpt-herosection-img.png',
     imageAlt: 'Hire Ember Developer',
   },
 
@@ -42,7 +42,7 @@ export const SEARCH_GPT = {
       },
       {
         id: 2,
-        imageSrc: '/assets/angular-js/angular-consulting.svg',
+        imageSrc: '/assets/search-gpt-solution/comprehensive-document.svg',
         cardTitle: 'Comprehensive Document Summarization AI',
         content:
           'With advanced AI capabilities, Search GPT can summarize lengthy documents into concise and informative summaries, enabling users to grasp key insights and information efficiently.',
@@ -56,7 +56,7 @@ export const SEARCH_GPT = {
       },
       {
         id: 4,
-        imageSrc: '/assets/javascript/javaScript-maintenance.svg',
+        imageSrc: '/assets/search-gpt-solution/ease-of-integration.svg',
         cardTitle: 'Semantic Understanding',
         content:
           'Leveraging cutting-edge natural language processing (NLP) techniques, Search GPT possesses a deep semantic understanding of text, allowing for accurate and contextually relevant summarization.',
@@ -77,7 +77,7 @@ export const SEARCH_GPT = {
       },
       {
         id: 7,
-        imageSrc: '/assets/javascript/javaScript-maintenance.svg',
+        imageSrc: '/assets/search-gpt-solution/ease-of-integration.svg',
         cardTitle: 'Ease of Integration',
         content:
           'Seamlessly integrate Search GPT into existing workflows and systems with ease, thanks to its flexible and adaptable architecture, minimizing disruption and maximizing productivity.',
@@ -105,56 +105,56 @@ export const SEARCH_GPT = {
     cardData: [
       {
         id: 1,
-        imageSrc: '/assets/ai-discovery/strategic-AI-roadmap.png',
+        imageSrc: '/assets/search-gpt-solution/document-processing.svg',
         cardTitle: 'AI-Powered Document Processing',
         cardData:
           'Being an outstanding AI text summarization, Search GPT utilizes state-of-the-art artificial intelligence (AI) technology to process and analyze documents with unparalleled accuracy and efficiency.',
       },
       {
         id: 2,
-        imageSrc: '/assets/ai-discovery/in-depth-AI-potential.png',
+        imageSrc: '/assets/search-gpt-solution/deep-learning.svg',
         cardTitle: 'Machine Learning Document Analysis',
         cardData:
           'Through advanced machine learning algorithms, Search GPT learns from vast amounts of data to understand document structures, extract key information, and generate insightful summaries.',
       },
       {
         id: 3,
-        imageSrc: '/assets/ai-discovery/personalized-exploration-session.png',
+        imageSrc: '/assets/search-gpt-solution/language-processing-capabilities.svg',
         cardTitle: 'Natural Language Processing (NLP) Capabilities',
         cardData:
           'Leveraging natural language processing techniques, Search GPT comprehends the nuances of human language, enabling it to extract meaning and context from text with remarkable precision.',
       },
       {
         id: 4,
-        imageSrc: '/assets/ai-discovery/personalized-exploration-session.png',
+        imageSrc: '/assets/search-gpt-solution/data-parcing.svg',
         cardTitle: 'Data Parsing Techniques',
         cardData:
           'Search GPT employs data parsing techniques to identify relevant information within documents, including key phrases, topics, and entities, ensuring that summaries are comprehensive and informative.',
       },
       {
         id: 5,
-        imageSrc: '/assets/ai-discovery/personalized-exploration-session.png',
+        imageSrc: '/assets/search-gpt-solution/continuous-learning.svg',
         cardTitle: 'Personalization Algorithms',
         cardData:
           'With personalized algorithms, Search GPT tailors document summaries and recommendations based on user preferences, behavior, and interactions, delivering a customized experience for each user.',
       },
       {
         id: 6,
-        imageSrc: '/assets/ai-discovery/personalized-exploration-session.png',
+        imageSrc: '/assets/search-gpt-solution/continuous-learning.svg',
         cardTitle: 'Continuous Learning',
         cardData:
           'Search GPT continually learns and improves over time through feedback loops and data updates, ensuring that its summarization and personalization capabilities remain up-to-date and accurate.',
       },
       {
         id: 7,
-        imageSrc: '/assets/ai-discovery/personalized-exploration-session.png',
+        imageSrc: '/assets/search-gpt-solution/data-parcing.svg',
         cardTitle: 'Scalable Infrastructure',
         cardData:
           'Built on a scalable infrastructure, Search GPT can handle large volumes of documents and user requests with ease, providing reliable performance and responsiveness even as data volumes grow.',
       },
       {
         id: 8,
-        imageSrc: '/assets/ai-discovery/personalized-exploration-session.png',
+        imageSrc: '/assets/search-gpt-solution/continuous-learning.svg',
         cardTitle: 'Integration with AI Technologies',
         cardData:
           'Search GPT seamlessly integrates with other AI technologies and platforms, allowing businesses to leverage its capabilities within their existing workflows and systems for enhanced efficiency and productivity.',
@@ -167,42 +167,42 @@ export const SEARCH_GPT = {
     cardData: [
       {
         id: 1,
-        imageSrc: '/assets/vue/web-development.svg',
+        imageSrc: '/assets/search-gpt-solution/online-chat.svg',
         cardTitle: 'Document Format Compatibility',
         content:
           'Search GPT is compatible with a wide range of document formats, including PDF, DOCX, TXT, and more, ensuring flexibility and accessibility for users.',
       },
       {
         id: 2,
-        imageSrc: '/assets/emberjs/consulting.svg',
+        imageSrc: '/assets/search-gpt-solution/language-capabilities.svg',
         cardTitle: 'Language Capabilities',
         content:
           'Search GPT supports multiple languages, allowing users to analyze and summarize documents in their preferred language with ease.',
       },
       {
         id: 3,
-        imageSrc: '/assets/emberjs/design.svg',
+        imageSrc: '/assets/search-gpt-solution/robot.svg',
         cardTitle: 'System Integration Requirements',
         content:
           'To integrate Search GPT into existing systems, minimal system requirements are needed, including stable internet connectivity and compatible hardware configurations.',
       },
       {
         id: 4,
-        imageSrc: '/assets/emberjs/maintenance.svg',
+        imageSrc: '/assets/search-gpt-solution/settings.svg',
         cardTitle: 'Scalable Infrastructure',
         content:
           'Search GPT is built on a scalable infrastructure that can accommodate growing data volumes and user demands, ensuring reliable performance and responsiveness.',
       },
       {
         id: 5,
-        imageSrc: '/assets/vue/migration-service.svg',
+        imageSrc: '/assets/search-gpt-solution/translation.svg',
         cardTitle: 'API Integration',
         content:
           'Search GPT offers API integration options, allowing seamless integration with other applications and platforms, enhancing workflow efficiency and productivity.',
       },
       {
         id: 6,
-        imageSrc: '/assets/vue/migration-service.svg',
+        imageSrc: '/assets/search-gpt-solution/translation.svg',
         cardTitle: 'Updates and Maintenance',
         content:
           'Regular updates and maintenance are conducted to ensure that Search GPT remains up-to-date with the latest technologies and functionalities, delivering optimal performance and user experience.',
@@ -231,7 +231,7 @@ export const SEARCH_GPT = {
     title: 'AI Document Processing Security and Compliance',
     description:
       'Search GPT prioritizes security and compliance with stringent measures to ensure user privacy and data protection. When it comes to Data Privacy in AI Summarization, our platform employs robust data encryption standards and adheres to global data protection regulations such as GDPR and HIPAA. We are committed to safeguarding sensitive information throughout the document processing journey, providing in our AI-powered solutions. Compliance in AI document processing involves several key aspects',
-    imageSrc: '/assets/ai-discovery/seeing-ai-in-action.png',
+    imageSrc: '/assets/search-gpt-solution/security-and-compliance.png',
     alt: 'Seeing Ai In Action',
     listItems: [
       { id: 1, text: 'Data Privacy' },
@@ -253,7 +253,7 @@ export const SEARCH_GPT = {
         title: 'Legal Industry',
         description: '',
         listItems: ['Contract Analysis', 'Case Management', 'Legal Research'],
-        imageSrc: '/assets/angular-js/dedicated-project-manager.png',
+        imageSrc: '/assets/search-gpt-solution/career-guidance.png',
         imageAlt: 'Dedicated Project Manager discussing project',
       },
       {
@@ -261,7 +261,7 @@ export const SEARCH_GPT = {
         title: 'Educational Industry',
         description: '',
         listItems: ['Grading and Feedback', 'Plagiarism Detection', 'Curriculum Development'],
-        imageSrc: '/assets/angular-js/task-records.png',
+        imageSrc: '/assets/search-gpt-solution/committed-education-concept.png',
         imageAlt: 'Daily and Monthly Task Records',
       },
       {
@@ -269,7 +269,7 @@ export const SEARCH_GPT = {
         title: 'Customer Service Industry',
         description: '',
         listItems: ['Email Classification and Routing', 'Sentiment Analysis', 'Knowledge Base Management'],
-        imageSrc: '/assets/emberjs/strategy.png',
+        imageSrc: '/assets/search-gpt-solution/people-working-call-center.png',
         imageAlt: 'Diverse Talent Pool',
       },
     ],
