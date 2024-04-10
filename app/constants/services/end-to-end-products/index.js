@@ -714,36 +714,42 @@ export const OFFSHORE_DEVELOPMENT = {
       {
         id: 1,
         cardTitle: 'Custom Software Development',
+        imageSrc: '/assets/off-shore/python-web-development.png',
         content:
           'We thoroughly understand your requirements and then use our skilled team of developers to create solutions to solve unique business demands. We are a total pro at producing amazing software development outcomes for different industries.',
       },
       {
         id: 2,
         cardTitle: 'Mobile App Development',
+        imageSrc: '/assets/off-shore/mobile-app-development.svg',
         content:
           'We have built 100+ mobile applications for iOS and Android platforms throughout our journey. Our custom app development offshore services are carefully designed to be user-friendly and responsive, giving your company the best possible online presence.',
       },
       {
         id: 3,
         cardTitle: 'Web Development',
+        imageSrc: '/assets/off-shore/web-development.svg',
         content:
           'Our team of professionals specializes in designing and creating websites, online apps, and content management systems (CMS) by utilizing trending technologies. To provide you with the finest experience in Offshore Development, we use the best tools like JavaScript, HTML/CSS, and well-known frameworks like React, Angular, or Vue.js to provide excellent solutions that are customized to your needs',
       },
       {
         id: 4,
         cardTitle: 'UI/UX Designing',
+        imageSrc: '/assets/off-shore/ui-ux-design.svg',
         content:
           'As a leading offshore development company, we specialize in crafting intuitive and visually captivating user interfaces (UI) and user experiences (UX) for software applications and websites. Our goal is to elevate user engagement and satisfaction by seamlessly blending design and functionality.',
       },
       {
         id: 5,
         cardTitle: 'Cloud Solutions',
+        imageSrc: '/assets/off-shore/cloud-solution.svg',
         content:
           'Our expertise lies in creating and transferring applications to industry-leading cloud platforms like AWS, Azure, or Google Cloud, guaranteeing superior results.',
       },
       {
         id: 6,
         cardTitle: 'Cybersecurity Services',
+        imageSrc: '/assets/off-shore/cyber-security-services.svg',
         content:
           'Being your comprehensive offshore development partner, we also provide security assessments, penetration testing, threat monitoring, and cybersecurity solutions to protect your business against cyber threats and ensure data privacy and compliance.',
       },
