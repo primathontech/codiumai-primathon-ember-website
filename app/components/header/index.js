@@ -10,11 +10,13 @@ import {
   MENU_CASE_STUDIES_CLICK,
   MENU_CAREERS_CLICK,
   TECHNOLOGIES,
+  SOLUTIONS,
 } from '../../constants/event-name';
 
 export default class HeaderIndexComponent extends Component {
   @tracked openMenu = false;
   @tracked openTechnologiesMenu = false;
+  @tracked openSolutionsMenu = false;
   @tracked isHeaderfixed = false;
   @tracked activePrimathon = true;
 
@@ -51,6 +53,8 @@ export default class HeaderIndexComponent extends Component {
         window.gtag('event', MENU_CAREERS_CLICK);
       } else if (title === 'technologies') {
         window.gtag('event', TECHNOLOGIES);
+      } else if (title === 'solutions') {
+        window.gtag('event', SOLUTIONS);
       }
     }
   }
@@ -90,6 +94,8 @@ export default class HeaderIndexComponent extends Component {
   onMenuOpen(title) {
     if (title === 'technologies') {
       this.openTechnologiesMenu = !this.openTechnologiesMenu;
+    } else if (title === 'solutions') {
+      this.openSolutionsMenu = !this.openSolutionsMenu;
     } else {
       this.openMenu = !this.openMenu;
     }
