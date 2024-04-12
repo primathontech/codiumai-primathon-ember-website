@@ -129,6 +129,14 @@
         >
           Search GPT
         </LinkTo>
+        <LinkTo
+          @route='solutions.ai-driven-tool'
+          class='mobile-menu'
+          @activeClass='current-url'
+          {{on 'click' (fn this.closeOpenMenu 'technologies')}}
+        >
+          AI Driven Tool
+        </LinkTo>
       </div>
       <div class='service-page-dialog'>
         <LinkTo @route='technologies.node-js' class='menu-service desktop-menu-link'>

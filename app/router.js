@@ -46,6 +46,7 @@ Router.map(function () {
   });
   this.route('solutions', function () {
     this.route('search-gpt');
+    this.route('ai-driven-tool');
   });
   this.route('technologies', function () {
     this.route('node-js');
