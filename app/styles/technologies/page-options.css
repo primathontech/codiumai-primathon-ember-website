@@ -9,6 +9,7 @@
   background-color: #ffffff;
   box-sizing: border-box;
   box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.05);
+  border: 2px solid;
   /* display: none; */
 }
 

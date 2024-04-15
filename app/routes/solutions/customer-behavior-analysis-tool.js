@@ -12,9 +12,9 @@ export default class ServicesStaffAugmentationPythonDevelopersRoute extends Rout
   }
 
   beforeModel() {
-    const title =
-      'AI-Driven Customer Behavior Analysis Tool Solution | Primathon';
-    const description = 'Unlock insights with our AI-Driven Customer Behavior Analysis Tool. Understand customer trends effortlessly with our AI solutions. Enhance your strategy today.';
+    const title = 'Customer Behavior Analysis Tool Solution | Primathon';
+    const description =
+      'Unlock insights with our Customer Behavior Analysis Tool. Understand customer trends effortlessly with our AI solutions. Enhance your strategy today.';
 
     this.headData.setData({ title, description });
   }

@@ -1,14 +1,27 @@
-<div class='technology-page-options h-[100px]' ...attributes>
+<div class='technology-page-options h-[180px]' ...attributes>
   <ul>
+    {{! template-lint-disable no-invalid-interactive }}
+    <li>
+      <LinkTo class='service-page-link' @route='solutions.ai-chatbot'>
+        AI Conversational Chatbot
+      </LinkTo>
+    </li>
+    {{! template-lint-disable no-invalid-interactive }}
+    <li>
+      <LinkTo class='service-page-link' @route='solutions.ai-discovery'>
+        AI Discovery
+      </LinkTo>
+    </li>
     {{! template-lint-disable no-invalid-interactive }}
     <li>
       <LinkTo class='service-page-link' @route='solutions.search-gpt'>
         Search GPT
       </LinkTo>
     </li>
+    {{! template-lint-disable no-invalid-interactive }}
     <li>
-      <LinkTo class='service-page-link' @route='solutions.ai-driven-tool'>
-        AI Driven Tool
+      <LinkTo class='service-page-link' @route='solutions.customer-behavior-analysis-tool'>
+        Customer Behavior Analysis Tool
       </LinkTo>
     </li>
   </ul>

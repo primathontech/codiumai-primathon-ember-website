@@ -1,7 +1,7 @@
 import Route from '@ember/routing/route';
 import { inject as service } from '@ember/service';
-import { AI_DISCOVERY } from '../../../constants/services/end-to-end-products';
-import { TESTIMONIAL_DATA } from '../../../constants/homepage/testimonial';
+import { AI_DISCOVERY } from '../../constants/solutions/ai-discovery';
+import { TESTIMONIAL_DATA } from '../../constants/homepage/testimonial';
 
 export default class ServicesEndToEndProductsAiChatbotRoute extends Route {
   @service headData;

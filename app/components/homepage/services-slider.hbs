@@ -45,7 +45,7 @@
 </div>
 <div class="service-categories-spacer"></div>
 {{#unless @notShowFluidDetails}}
-  <div class="container-fluid service-details">
+  <div class="container-fluid service-details" id="fluid-service-details">
     <div class="container">
       <AnimatedContainer>
         {{#animated-value this.activeCardData rules=this.rules duration=300 as |v|}}
@@ -61,7 +61,7 @@
                 {{#each v.infoPoint as |infoData|}}
                   <li>
                     •
-                    {{infoData}}
+                    <a href={{infoData.url}} class="hover:underline font-medium text-[#016aba]">{{infoData.text}}</a>
                   </li>
                 {{/each}}
               </ul>
@@ -78,7 +78,9 @@
             {{/if}}
             <div class="text-center service-view-detail">
               <LinkTo @route={{v.linkUrl}}>
-                View Detail
+                <button class='rounded border border-[#24B768] border-solid font-medium py-2 px-6 hover:bg-[#24B768]'>
+                  View Detail
+                </button>
               </LinkTo>
             </div>
           </div>

@@ -1,20 +1,20 @@
-<Header />
-<div class='app-container'>
-  <Services::HeroSectionNew
-    @data={{@data.heroSection}}
-    @imgStyle='w-[500px] h-[530px] xl:w-[500px] xl:h-[530px]'
-    class='bg-[#1A284D]'
-  />
-  <Services::BulletsList @data={{@data.whyChoose}} @imgStyle='w-[350px] h-[350px] xl:w-[420px] xl:h-[380px]' />
-  <Services::CallUs @data={{@data.ctaSection1}} />
-  <Chatgpt::Benefits @benefits={{@data.whatWeOffer}} />
-  <Chatgpt::Getting-started @gettingStarted={{@data.whyChooseUs}} />
-  <Services::ArrowList @content={{@data.arrowList}} @style='chatGpt-arrowList' />
-  <Chatgpt::Getting-started @gettingStarted={{@data.offshoreDevelopmentProcess}} />
-  <Homepage::Tools />
-  <Services::CallUs @data={{@data.ctaSection2}} />
-  <Chatgpt::Chatgptuse @useCases={{@data.industryWeServe}} />
-  <Chatgpt::Getting-started @gettingStarted={{@data.whyOffshoreIsCostEffective}} />
-  <Services::FaqList @title={{@data.faqs.title}} @data={{@data.faqs.cardData}} />
-  <Footer />
+<div class='sticky top-0 z-10'>
+  <Header />
 </div>
+<Services::HeroSectionNew
+  @data={{@data.heroSection}}
+  @imgStyle='w-[500px] h-[530px] xl:w-[500px] xl:h-[530px]'
+  class='bg-[#1A284D]'
+/>
+<Services::BulletsList @data={{@data.whyChoose}} @imgStyle='w-[350px] h-[350px] xl:w-[420px] xl:h-[380px]' />
+<Services::CallUs @data={{@data.ctaSection1}} />
+<Chatgpt::Benefits @benefits={{@data.whatWeOffer}} />
+<Chatgpt::Getting-started @gettingStarted={{@data.whyChooseUs}} />
+<Services::ArrowList @content={{@data.arrowList}} @style='chatGpt-arrowList' />
+<Chatgpt::Getting-started @gettingStarted={{@data.offshoreDevelopmentProcess}} />
+<Homepage::Tools />
+<Services::CallUs @data={{@data.ctaSection2}} />
+<Chatgpt::Chatgptuse @useCases={{@data.industryWeServe}} />
+<Chatgpt::Getting-started @gettingStarted={{@data.whyOffshoreIsCostEffective}} />
+<Services::FaqList @title={{@data.faqs.title}} @data={{@data.faqs.cardData}} />
+<Footer />

@@ -10,15 +10,42 @@ export const SERVICE_DATA = {
       description:
         'From understanding your requirements to perfectly catering to them, from handling your E-commerce development to digitally transforming your business we have the most suitable technological solutions for you. ',
       infoPoint: [
-        'Dashboards and Data visualization',
-        'Shopify Stores',
-        'Booking platforms',
-        'Admin panels and CMS',
-        'Web & Mobile App development',
-        'AI/ML based Recommendation engines',
-        'ERC20 Tokens',
-        'Smart Contracts',
-        'E-commerce Marketplace/platform',
+        {
+          text: 'Dashboards and Data visualization',
+          url: '/services/end-to-end-products/dashboard-and-data-visualization'
+        },
+        {
+          text: 'Shopify Stores',
+          url: '/services/end-to-end-products/shopify-stores'
+        },
+        {
+          text: 'Booking platforms',
+          url: '/services/end-to-end-products/booking-platforms'
+        },
+        {
+          text: 'Admin panels and CMS',
+          url: '/services/end-to-end-products/admin-panels-and-cms'
+        },
+        {
+          text: 'Web & Mobile App development',
+          url: '/services/end-to-end-products/web-and-mobile-app-development'
+        },
+        {
+          text: 'AI/ML based Recommendation engines',
+          url: '/services/end-to-end-products/ai-ml-based-recommendation-engines'
+        },
+        {
+          text: 'ERC20 Tokens',
+          url: '/services/end-to-end-products/erc20-token'
+        },
+        {
+          text: 'Smart Contracts',
+          url: '/services/end-to-end-products/smart-contract'
+        },
+        {
+          text: 'E-commerce Marketplace/platform',
+          url: '#'
+        },
       ],
     },
     {
@@ -29,12 +56,30 @@ export const SERVICE_DATA = {
       description:
         'Count on us if you need an extra pair of experienced hands. We provide the individual or a whole team of Software Developers at one place by identifying the cream of designers and developers.',
       infoPoint: [
-        'Frontend Developers',
-        'Backend developers',
-        'Full-stack developers',
-        'Product managers',
-        'Quality Analysts',
-        'Product Designers',
+        {
+          text: 'Frontend Developers',
+          url: '/services/staff-augmentation/hire-frontend-developers'
+        },
+        {
+          text: 'Backend developers',
+          url: '/services/staff-augmentation/hire-backend-developers'
+        },
+        {
+          text: 'Full-stack developers',
+          url: '#'
+        },
+        {
+          text: 'Product managers',
+          url: '/services/staff-augmentation/product-managers'
+        },
+        {
+          text: 'Quality Analysts',
+          url: '/services/staff-augmentation/quality-analysts'
+        },
+        {
+          text: 'Product Designers',
+          url: '/services/staff-augmentation/uiux-designers'
+        }
       ],
     },
     {
