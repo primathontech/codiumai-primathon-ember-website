@@ -1,0 +1,33 @@
+<Header />
+<div class='app-container'>
+  <Services::HeroSectionNew @data={{@heroSection}} @imgStyle={{@heroSectionImgStyle}} class={{@heroSectionClass}} />
+  <Homepage::PartnersSection />
+  <Chatgpt::Chatgptuse @useCases={{@services}} />
+  <Services::CallUs @data={{@data.data.ctaSection1}} />
+  {{#if @bulletsList2}}
+    <Services::BulletsList @data={{@bulletsList2}} @imgStyle={{@bulletsListImgStyle2}} />
+  {{/if}}
+  {{#if @benefits}}
+    <Chatgpt::Benefits @benefits={{@benefits}} />
+  {{/if}}
+  {{#if @useCases}}
+    <Chatgpt::Chatgptuse @useCases={{@useCases}} />
+  {{/if}}
+  {{#if @journey}}
+    <Services::ArrowList @content={{@journey}} @style='chatGpt-arrowList' />
+  {{/if}}
+  {{#if @bulletsList3}}
+    <Services::BulletsList @data={{@bulletsList3}} @imgStyle={{@bulletsListImgStyle3}} />
+  {{/if}}
+  <Services::CallUs @data={{@data.data.ctaSection2}} />
+  <Services::BulletsList @data={{@bulletsList}} @imgStyle={{@bulletsListImgStyle}} />
+  {{#if @whyHire}}
+    <Services::WhyHireSection @data={{@whyHire}} />
+  {{/if}}
+  {{#if @applications}}
+    <Services::Benefits @data={{@applications}} />
+  {{/if}}
+  <Chatgpt::Getting-started @gettingStarted={{@features}} />
+  <Services::FaqList @title={{@faqs.title}} @data={{@faqs.cardData}} />
+  <Footer />
+</div>

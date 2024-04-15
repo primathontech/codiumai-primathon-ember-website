@@ -7,6 +7,7 @@ export const MENU_SERVICES_CLICK = 'menu_services_click';
 export const MENU_CASE_STUDIES_CLICK = 'menu_case_studies_click';
 export const MENU_CAREERS_CLICK = 'menu_careers_click';
 export const TECHNOLOGIES = 'menu_technologies_click';
+export const SOLUTIONS = 'menu_solutions_click';
 
 // Homepage Event
 export const HOME_VISITED = 'home_visited';

@@ -1,3 +1,298 @@
+export const STAFF_AUGMENTATIONS = {
+  heroSection: {
+    title1: 'Your',
+    gradientTitle: 'Comprehensive Development',
+    title2: 'Partner',
+    subtitle: 'Expand Your Business Without Limits with Primathon As Your Offshore Development Partner',
+    description:
+      "With Primathon as your trusted offshore development partner, the sky's the limit for your business expansion. Our comprehensive suite of services empowers you to scale operations seamlessly, leveraging cost-effective solutions and tapping into global talent pools. From software development to IT infrastructure management, we tailor our expertise to your specific needs, ensuring swift delivery and quality results. Break geographical barriers and accelerate growth with Primathon guiding your offshore development endeavors.",
+
+    imageSrc: '/assets/off-shore/offShore-hero-section.png',
+    imageAlt: 'Offshore Development Partner',
+    ctaText1: 'Book a Call',
+    ctaText2: 'Get Free Consultation',
+    redirect: '/contact',
+  },
+
+  whyChoose: {
+    title: 'Why Choose Offshore Development',
+    description:
+      "Enterprises are constantly seeking innovative strategies to gain a competitive edge in today's dynamic business environment. Collaborating with offshore development teams has emerged as a highly favored tactic in recent times. Offshore development partners present an enticing option for firms  looking to accelerate the advancement of their software development projects. Key offshore development advantages includes:",
+    listItems: [
+      { id: 1, text: 'Cost Savings' },
+      { id: 2, text: 'Access to a Larger Pool of Talent' },
+      { id: 3, text: 'Faster Time to Market' },
+      { id: 4, text: 'Scalability' },
+      { id: 5, text: 'Flexibility in Resource Allocation' },
+    ],
+    imageSrc: '/assets/off-shore/why-choose-us.png',
+    imageAlt: 'why choose us',
+  },
+
+  ctaSection1: {
+    title: 'Ready to start your offshore project?',
+    description:
+      'Contact our offshore development team today to discuss your requirements and take the first step towards achieving your business goals.',
+    ctaText: 'HIRE US',
+    redirect: '/contact',
+    bgColor: '#21315B',
+  },
+
+  whatWeOffer: {
+    title: 'Offshore Development Services Offered by Primathon',
+    cardData: [
+      {
+        id: 1,
+        cardTitle: 'Custom Software Development',
+        imageSrc: '/assets/python/python-web-development.png',
+        cardData:
+          'We thoroughly understand your requirements and then use our skilled team of developers to create solutions to solve unique business demands. We are a total pro at producing amazing software development outcomes for different industries.',
+      },
+      {
+        id: 2,
+        cardTitle: 'Mobile App Development',
+        imageSrc: '/assets/off-shore/mobile-app-development.svg',
+        cardData:
+          'We have built 100+ mobile applications for iOS and Android platforms throughout our journey. Our custom app development offshore services are carefully designed to be user-friendly and responsive, giving your company the best possible online presence.',
+      },
+      {
+        id: 3,
+        cardTitle: 'Web Development',
+        imageSrc: '/assets/off-shore/web-development.svg',
+        cardData:
+          'Our team of professionals specializes in designing and creating websites, online apps, and content management systems (CMS) by utilizing trending technologies. To provide you with the finest experience in Offshore Development, we use the best tools like JavaScript, HTML/CSS, and well-known frameworks like React, Angular, or Vue.js to provide excellent solutions that are customized to your needs',
+      },
+      {
+        id: 4,
+        cardTitle: 'UI/UX Designing',
+        imageSrc: '/assets/off-shore/ui-ux-design.svg',
+        cardData:
+          'As a leading offshore development company, we specialize in crafting intuitive and visually captivating user interfaces (UI) and user experiences (UX) for software applications and websites. Our goal is to elevate user engagement and satisfaction by seamlessly blending design and functionality.',
+      },
+      {
+        id: 5,
+        cardTitle: 'Cloud Solutions',
+        imageSrc: '/assets/off-shore/cloud-solution.svg',
+        cardData:
+          'Our expertise lies in creating and transferring applications to industry-leading cloud platforms like AWS, Azure, or Google Cloud, guaranteeing superior results.',
+      },
+      {
+        id: 6,
+        cardTitle: 'Cybersecurity Services',
+        imageSrc: '/assets/off-shore/cyber-security-services.svg',
+        cardData:
+          'Being your comprehensive offshore development partner, we also provide security assessments, penetration testing, threat monitoring, and cybersecurity solutions to protect your business against cyber threats and ensure data privacy and compliance.',
+      },
+    ],
+  },
+
+  whyChooseUs: {
+    title: 'Why Choose Us as Your Offshore Development Company?',
+    description:
+      "Our team comprises highly skilled professionals adept at delivering top-notch solutions tailored to your specific needs. Because of our 5+ years of expertise in offshore projects, we prioritize quality, ensuring that every project is executed with precision and excellence. Moreover, our strategic location in a region that is rich with technical talent allows us to offer cost-effective services without compromising on quality.With Primathon as your trusted offshore development partner, you don’t have to worry about your offshore development needs. Your company's advancement is our main priority, and we do this through our:",
+    cardData: [
+      {
+        id: 1,
+        cardTitle: 'Expertise',
+        content:
+          'Our team consists of highly skilled professionals with extensive experience in various domains of software development',
+      },
+      {
+        id: 2,
+        cardTitle: 'Efficiency',
+        content:
+          'We are committed to delivering projects promptly and efficiently, ensuring that deadlines are met without compromising on quality.',
+      },
+      {
+        id: 3,
+        cardTitle: 'Reliability',
+        content:
+          'You can count on us to consistently deliver high-quality results, meeting and exceeding your expectations.',
+      },
+    ],
+  },
+
+  arrowList: {
+    heading: 'How to Get Started with Our Offshore Development Services?',
+    items: [
+      'Define Your Requirements',
+      'Consultation and Proposal',
+      'Agreement and Kickoff',
+      'Regular Updates and Communication',
+    ],
+  },
+
+  offshoreDevelopmentProcess: {
+    title: 'Our Offshore Development Process',
+    cardData: [
+      {
+        id: 1,
+        cardTitle: 'Initial Consultation',
+        content:
+          'To ease out the offshore development workflow, we will start by outlining your project requirements and objectives. Contact our offshore development team to define your goals, timelines, and budget to ensure a smooth and efficient collaboration.',
+      },
+      {
+        id: 2,
+        cardTitle: 'Planning & Strategy',
+        content:
+          'Based on your unique requirements, our team of professionals will create a thorough project plan and strategy. To achieve the best results, we will share and discuss the right tools and technology, timeline, and resources after understanding your needs.',
+      },
+      {
+        id: 3,
+        cardTitle: 'Development Phase',
+        content:
+          'After putting the strategy in place, your project will be worked on by our committed development team. We follow agile approaches throughout this stage to guarantee adaptability, effectiveness, and on-time delivery',
+      },
+      {
+        id: 4,
+        cardTitle: 'Quality Assurance and Testing',
+        content:
+          'Prior to delivery, our quality assurance team conducts rigorous testing to identify and address any issues or bugs. We strive to deliver high-quality, error-free solutions that meet your expectations.',
+      },
+      {
+        id: 5,
+        cardTitle: 'Deployment and Delivery',
+        content:
+          'After the development and testing stages are finished, our experienced developers assist you with the deployment process and make sure everything goes smoothly.',
+      },
+      {
+        id: 6,
+        cardTitle: 'Post-Deployment Support',
+        content:
+          "Our commitment to your project doesn't end with delivery. We offer post-deployment support and maintenance services to address any issues, implement updates, and ensure the ongoing success of your solution.",
+      },
+    ],
+  },
+
+  ctaSection2: {
+    title: 'Are You Still Confused?',
+    description: 'Get in Touch with Our Offshore Development Experts Today',
+    ctaText: 'GET IN TOUCH',
+    ctaRoute: '/contact',
+    bgColor: '#21315B',
+  },
+
+  industryWeServe: {
+    title: 'Industries We Serve',
+    cardData: [
+      {
+        id: 1,
+        cardTitle: 'Finance and Banking',
+        imageSrc: '/assets/off-shore/finance.svg',
+        content:
+          'Delivering secure and scalable fintech solutions, including online banking platforms, payment gateways, and trading applications.',
+      },
+      {
+        id: 2,
+        imageSrc: '/assets/off-shore/healthcare.svg',
+        cardTitle: 'Healthcare',
+        content:
+          'Providing secure and scalable solutions, encompassing online platforms, payment gateways, and applications.',
+      },
+      {
+        id: 3,
+        imageSrc: '/assets/off-shore/retail.svg',
+        cardTitle: 'E-commerce and Retail',
+        content:
+          'We have been providing offshore solutions within the e-commerce sector for various years. Our expertise spans from crafting e-commerce platforms and inventory management systems to omnichannel retail solutions and CRM software. With a track record of delivering exceptional solutions, we continue to excel in this domain',
+      },
+      {
+        id: 4,
+        imageSrc: '/assets/off-shore/education.svg',
+        cardTitle: 'Education',
+        content:
+          'Another area in which our industry expertise in offshore development is e-learning. Building interactive e-learning platforms, learning management systems (LMS), virtual classrooms, and educational apps for students and educators.',
+      },
+      {
+        id: 5,
+        imageSrc: '/assets/off-shore/travel.svg',
+        cardTitle: 'Hospitality and Travel',
+        content:
+          'We have been providing booking engines, hotel management software, travel itinerary planners, and customer engagement solutions for the hospitality and travel industry.',
+      },
+    ],
+  },
+
+  whyOffshoreIsCostEffective: {
+    title: 'Why Offshore Development is Cost-effective?',
+    cardData: [
+      {
+        id: 1,
+        cardTitle: 'Reduced Labor Costs',
+        content:
+          ' Compared to industrialized nations, offshore locations frequently have labor costs that are cheaper, giving firms access to qualified specialists for a much smaller price.',
+      },
+      {
+        id: 2,
+        cardTitle: 'Lower Overhead',
+        content:
+          'Businesses can save a lot of money by outsourcing development since they don’t have the need to spend on the infrastructure, office space, tools, and employee perks that come with hiring in-house development teams',
+      },
+      {
+        id: 3,
+        cardTitle: 'Unlimited Talent from Across the Globe',
+        content:
+          'Businesses can discover experts with the necessary skills and knowledge for their projects without being limited by geography thanks to offshore development, which gives them access to a broad pool of talent from across the globe',
+      },
+      {
+        id: 4,
+        cardTitle: 'Scalability and Flexibility',
+        content:
+          "Businesses may swiftly scale their development teams up or down in accordance with project needs because of offshore development's scalability and flexibility. Because of its scalability, businesses may adjust to shifting project demands and market situations without having to pay hefty overhead expenses.",
+      },
+      {
+        id: 5,
+        cardTitle: 'Time Zone Advantage',
+        content:
+          'Time Zone Advantage: Around-the-clock development and support can be provided by offshore development teams situated in several time zones. This can result in quicker project completion timelines and better customer response, especially when ongoing development and support are needed for the project.',
+      },
+    ],
+  },
+
+  faqs: {
+    title: 'FAQs',
+    cardData: [
+      {
+        id: 1,
+        question: 'What are the key factors to consider when seeking top offshore development services?',
+        answer: [
+          "When looking for top offshore development services, it's essential to consider several factors:",
+          `<ul>
+          <li>Always check out the reputation and experience of the offshore development company.</li>
+          <li>Ensure to check their expertise in relevant technologies and industries.</li>
+          <li>Ask them to show their past projects and client testimonials.</li>
+          <li>Make sure to double check their communication capabilities and language proficiency.</li>
+          </ul>`,
+        ],
+      },
+      {
+        id: 2,
+        question: 'How can I ensure that the offshore development team understands my project requirements?',
+        answer: [
+          `<ul>
+          <li>Try to provide detailed project specifications, timelines and documentation.</li>
+          <li>Conduct frequent virtual or face-to-face meetings to discuss requirements.</li>
+          <li>Encourage clear communication and ask questions whenever necessary.</li>
+          <li>Request regular progress updates.</li>
+          </ul>`,
+        ],
+      },
+      {
+        id: 3,
+        question: 'What are some best practices for effectively managing offshore development projects?',
+        answer: [
+          `<ul>
+          <li>Make sure to clearly communicate your project objectives, milestones, and deliverables.</li>
+          <li>Designate a specific project manager or coordinator to facilitate communication and coordination between onshore and offshore teams.</li>
+          <li>Use collaborative project management tools and platforms to track progress, assign tasks, and share documents.</li>
+          <li>Conduct regular meetings and status updates.</li>
+          </ul>`,
+        ],
+      },
+    ],
+  },
+};
+
 export const FRONTEND = {
   heroSection: {
     title: 'Affordable Front End Development Services',
@@ -676,9 +971,9 @@ export const PYTHON_DEVELOPER = {
         id: 1,
         tableData: [
           { id: 1, text: 'Failure Rate', bgColor: '#ffffff' },
-          { id: 2, text: 'X', bgColor: '#FFDCDC' },
+          { id: 2, text: 'Very Low', bgColor: '#ffffff' },
           { id: 3, text: 'Low', bgColor: '#ffffff' },
-          { id: 4, text: 'Very Low', bgColor: '#ffffff' },
+          { id: 4, text: 'Very High', bgColor: '#ffffff' },
         ],
       },
 
@@ -729,9 +1024,9 @@ export const PYTHON_DEVELOPER = {
         title: 'Failure Rate',
         tableHeading: ['Primathon', 'Other Company', 'Freelancers'],
         tableData: [
-          { id: 1, text: 'X', bgColor: '#FFDCDC' },
+          { id: 1, text: 'Very Low', bgColor: '#ffffff' },
           { id: 2, text: 'Low', bgColor: '#ffffff' },
-          { id: 3, text: 'Very Low', bgColor: '#ffffff' },
+          { id: 3, text: 'Very High', bgColor: '#ffffff' },
         ],
       },
       {
@@ -1040,7 +1335,7 @@ export const ANGULAR_DEVELOPER = {
         description:
           'When you hire a AngularJS Developer from Primathon, you gain access to a wealth of knowledge spanning various AngularJS frameworks and libraries, ensuring that your project receives the specialized skills it requires.',
         listItems: ['Decrease the Chances of Project Disruption', 'Simplify Task'],
-        imageSrc: '/assets/python/talent-pool.png',
+        imageSrc: '/assets/emberjs/strategy.png',
         imageAlt: 'Diverse Talent Pool',
       },
     ],
@@ -1054,9 +1349,9 @@ export const ANGULAR_DEVELOPER = {
         id: 1,
         tableData: [
           { id: 1, text: 'Failure Rate', bgColor: '#ffffff' },
-          { id: 2, text: 'X', bgColor: '#FFDCDC' },
+          { id: 2, text: 'Very Low', bgColor: '#ffffff' },
           { id: 3, text: 'Low', bgColor: '#ffffff' },
-          { id: 4, text: 'Very Low', bgColor: '#ffffff' },
+          { id: 4, text: 'Very High', bgColor: '#ffffff' },
         ],
       },
 
@@ -1105,7 +1400,7 @@ export const ANGULAR_DEVELOPER = {
           { id: 1, text: 'Quality Guarantee', bgColor: '#ffffff' },
           { id: 2, text: '✓', bgColor: '#24B768' },
           { id: 3, text: 'x', bgColor: '#FFDCDC' },
-          { id: 4, text: 'Unsure', bgColor: '#fffff' },
+          { id: 4, text: 'Unsure', bgColor: '#FFDCDC' },
         ],
       },
     ],
@@ -1116,9 +1411,9 @@ export const ANGULAR_DEVELOPER = {
         title: 'Failure Rate',
         tableHeading: ['Primathon', 'Other Company', 'Freelancers'],
         tableData: [
-          { id: 1, text: 'X', bgColor: '#FFDCDC' },
+          { id: 1, text: 'Very Low', bgColor: '#ffffff' },
           { id: 2, text: 'Low', bgColor: '#ffffff' },
-          { id: 3, text: 'Very Low', bgColor: '#ffffff' },
+          { id: 3, text: 'Very High', bgColor: '#ffffff' },
         ],
       },
       {
@@ -1450,7 +1745,7 @@ export const JAVASCRIPT = {
         description:
           'When you hire a JavaScript Developer from Primathon, you gain access to a wealth of knowledge spanning various JavaScript frameworks and libraries, ensuring that your project receives the specialized skills it requires.',
         listItems: ['Decrease the Chances of Project Disruption', 'Simplify Task'],
-        imageSrc: '/assets/python/talent-pool.png',
+        imageSrc: '/assets/emberjs/strategy.png',
         imageAlt: 'Diverse Talent Pool',
       },
     ],
@@ -1464,9 +1759,9 @@ export const JAVASCRIPT = {
         id: 1,
         tableData: [
           { id: 1, text: 'Failure Rate', bgColor: '#ffffff' },
-          { id: 2, text: 'X', bgColor: '#FFDCDC' },
+          { id: 2, text: 'Very Low', bgColor: '#ffffff' },
           { id: 3, text: 'Low', bgColor: '#ffffff' },
-          { id: 4, text: 'Very Low', bgColor: '#ffffff' },
+          { id: 4, text: 'Very High', bgColor: '#ffffff' },
         ],
       },
 
@@ -1527,9 +1822,9 @@ export const JAVASCRIPT = {
         title: 'Failure Rate',
         tableHeading: ['Primathon', 'Other Company', 'Freelancers'],
         tableData: [
-          { id: 1, text: 'X', bgColor: '#FFDCDC' },
+          { id: 1, text: 'Very Low', bgColor: '#ffffff' },
           { id: 2, text: 'Low', bgColor: '#ffffff' },
-          { id: 3, text: 'Very Low', bgColor: '#ffffff' },
+          { id: 3, text: 'Very High', bgColor: '#ffffff' },
         ],
       },
       {
@@ -1863,7 +2158,7 @@ export const ANDROID_DEVELOPER = {
         description:
           'When you hire an Android Developer from Primathon, you gain access to a wealth of knowledge spanning various Android frameworks and libraries, ensuring that your project receives the specialized skills it requires.',
         listItems: ['Decrease the Chances of Project Disruption', 'Simplify Task'],
-        imageSrc: '/assets/python/talent-pool.png',
+        imageSrc: '/assets/emberjs/strategy.png',
         imageAlt: 'Diverse Talent Pool',
       },
     ],
@@ -1877,9 +2172,9 @@ export const ANDROID_DEVELOPER = {
         id: 1,
         tableData: [
           { id: 1, text: 'Failure Rate', bgColor: '#ffffff' },
-          { id: 2, text: 'X', bgColor: '#FFDCDC' },
+          { id: 2, text: 'Very Low', bgColor: '#ffffff' },
           { id: 3, text: 'Low', bgColor: '#ffffff' },
-          { id: 4, text: 'Very Low', bgColor: '#ffffff' },
+          { id: 4, text: 'Very High', bgColor: '#ffffff' },
         ],
       },
 
@@ -1928,7 +2223,7 @@ export const ANDROID_DEVELOPER = {
           { id: 1, text: 'Quality Guarantee', bgColor: '#ffffff' },
           { id: 2, text: '✓', bgColor: '#24B768' },
           { id: 3, text: 'X', bgColor: '#FFDCDC' },
-          { id: 4, text: 'Unsure', bgColor: '#ffffff' },
+          { id: 4, text: 'Unsure', bgColor: '#FFDCDC' },
         ],
       },
     ],
@@ -1939,9 +2234,9 @@ export const ANDROID_DEVELOPER = {
         title: 'Failure Rate',
         tableHeading: ['Primathon', 'Other Company', 'Freelancers'],
         tableData: [
-          { id: 1, text: 'X', bgColor: '#FFDCDC' },
+          { id: 1, text: 'Very Low', bgColor: '#ffffff' },
           { id: 2, text: 'Low', bgColor: '#ffffff' },
-          { id: 3, text: 'Very Low', bgColor: '#ffffff' },
+          { id: 3, text: 'Very High', bgColor: '#ffffff' },
         ],
       },
       {
@@ -1991,7 +2286,7 @@ export const ANDROID_DEVELOPER = {
         tableData: [
           { id: 1, text: '✓', bgColor: '#24B768' },
           { id: 2, text: 'X', bgColor: '#FFDCDC' },
-          { id: 3, text: 'Unsure', bgColor: '#ffffff' },
+          { id: 3, text: 'Unsure', bgColor: '#FFDCDC' },
         ],
       },
     ],
@@ -2257,7 +2552,7 @@ export const IOS_DEVELOPER = {
         description:
           'When you hire an iOS Developer from Primathon, you gain access to a wealth of knowledge spanning various iOS frameworks and libraries, ensuring that your project receives the specialized skills it requires.',
         listItems: ['Decrease the Chances of Project Disruption', 'Simplify Task'],
-        imageSrc: '/assets/python/talent-pool.png',
+        imageSrc: '/assets/emberjs/strategy.png',
         imageAlt: 'Diverse Talent Pool',
       },
     ],
@@ -2271,9 +2566,9 @@ export const IOS_DEVELOPER = {
         id: 1,
         tableData: [
           { id: 1, text: 'Failure Rate', bgColor: '#ffffff' },
-          { id: 2, text: 'X', bgColor: '#FFDCDC' },
+          { id: 2, text: 'Very Low', bgColor: '#ffffff' },
           { id: 3, text: 'Low', bgColor: '#ffffff' },
-          { id: 4, text: 'Very Low', bgColor: '#ffffff' },
+          { id: 4, text: 'Very High', bgColor: '#ffffff' },
         ],
       },
 
@@ -2323,7 +2618,7 @@ export const IOS_DEVELOPER = {
           { id: 1, text: 'Quality Guarantee', bgColor: '#ffffff' },
           { id: 2, text: '✓', bgColor: '#24B768' },
           { id: 3, text: 'X', bgColor: '#FFDCDC' },
-          { id: 4, text: 'Unsure', bgColor: '#ffffff' },
+          { id: 4, text: 'Unsure', bgColor: '#FFDCDC' },
         ],
       },
     ],
@@ -2334,9 +2629,9 @@ export const IOS_DEVELOPER = {
         title: 'Failure Rate',
         tableHeading: ['Primathon', 'Other Company', 'Freelancers'],
         tableData: [
-          { id: 1, text: 'X', bgColor: '#FFDCDC' },
+          { id: 1, text: 'Very Low', bgColor: '#ffffff' },
           { id: 2, text: 'Low', bgColor: '#ffffff' },
-          { id: 3, text: 'Very Low', bgColor: '#ffffff' },
+          { id: 3, text: 'Very High', bgColor: '#ffffff' },
         ],
       },
       {
@@ -2386,7 +2681,7 @@ export const IOS_DEVELOPER = {
         tableData: [
           { id: 1, text: '✓', bgColor: '#24B768' },
           { id: 2, text: 'X', bgColor: '#FFDCDC' },
-          { id: 3, text: 'Unsure', bgColor: '#ffffff' },
+          { id: 3, text: 'Unsure', bgColor: '#FFDCDC' },
         ],
       },
     ],
@@ -2654,7 +2949,7 @@ export const SWIFT_DEVELOPER = {
         id: 2,
         title: 'Stay in the Loop with Daily and Monthly Task Records',
         description:
-          "We provide daily updates and summaries of tasks finished, challenges encountered, and milestones reached. Hire Python Developer from us and at the end of each month, you'll receive a comprehensive timesheet detailing team activities and hours allocated to each task. This will help you to review payments based on completed work.",
+          "We provide daily updates and summaries of tasks finished, challenges encountered, and milestones reached. Hire Swift Developer from us and at the end of each month, you'll receive a comprehensive timesheet detailing team activities and hours allocated to each task. This will help you to review payments based on completed work.",
         listItems: ['Keep Tabs on Progress', 'Quality Results', 'Optimize Time Management'],
         imageSrc: '/assets/angular-js/task-records.png',
         imageAlt: 'Daily and Monthly Task Records',
@@ -2663,9 +2958,9 @@ export const SWIFT_DEVELOPER = {
         id: 3,
         title: 'Diverse Talent Pool',
         description:
-          'When you hire a Python Developer from Primathon, you gain access to a wealth of knowledge spanning various Python frameworks and libraries, ensuring that your project receives the specialized skills it requires.',
+          'When you hire a Swift Developer from Primathon, you gain access to a wealth of knowledge spanning various Swift frameworks and libraries, ensuring that your project receives the specialized skills it requires.',
         listItems: ['Decrease the Chances of Project Disruption', 'Simplify Task'],
-        imageSrc: '/assets/python/talent-pool.png',
+        imageSrc: '/assets/emberjs/strategy.png',
         imageAlt: 'Diverse Talent Pool',
       },
     ],
@@ -2679,9 +2974,9 @@ export const SWIFT_DEVELOPER = {
         id: 1,
         tableData: [
           { id: 1, text: 'Failure Rate', bgColor: '#ffffff' },
-          { id: 2, text: 'X', bgColor: '#FFDCDC' },
+          { id: 2, text: 'Very Low', bgColor: '#ffffff' },
           { id: 3, text: 'Low', bgColor: '#ffffff' },
-          { id: 4, text: 'Very Low', bgColor: '#ffffff' },
+          { id: 4, text: 'Very High', bgColor: '#ffffff' },
         ],
       },
 
@@ -2742,9 +3037,9 @@ export const SWIFT_DEVELOPER = {
         title: 'Failure Rate',
         tableHeading: ['Primathon', 'Other Company', 'Freelancers'],
         tableData: [
-          { id: 1, text: 'X', bgColor: '#FFDCDC' },
+          { id: 1, text: 'Very Low', bgColor: '#ffffff' },
           { id: 2, text: 'Low', bgColor: '#ffffff' },
-          { id: 3, text: 'Very Low', bgColor: '#ffffff' },
+          { id: 3, text: 'Very High', bgColor: '#ffffff' },
         ],
       },
       {
@@ -2794,7 +3089,7 @@ export const SWIFT_DEVELOPER = {
         tableData: [
           { id: 1, text: '✓', bgColor: '#24B768' },
           { id: 2, text: 'X', bgColor: '#FFDCDC' },
-          { id: 3, text: 'Unsure', bgColor: '#ffffff' },
+          { id: 3, text: 'Unsure', bgColor: '#FFDCDC' },
         ],
       },
     ],
@@ -2840,7 +3135,7 @@ export const REACT_DEVELOPER = {
     title2: 'Developers',
     subtitle: 'Reasonable, Dedicated Experts for Your Business',
     description:
-      'Discover the proficiency of our premier React.js developers to elevate your online footprint. Whether it\'s tailored solutions or smooth transitions, our seasoned experts guarantee excellence in your endeavors',
+      "Discover the proficiency of our premier React.js developers to elevate your online footprint. Whether it's tailored solutions or smooth transitions, our seasoned experts guarantee excellence in your endeavors",
     listItems: [
       {
         id: 1,
@@ -2873,7 +3168,7 @@ export const REACT_DEVELOPER = {
   elevateYourProject: {
     title: 'Elevate Your Project with Premier React.js Developers in India',
     description:
-      "Maximize the capabilities of React.js for your projects by collaborating with our seasoned team of professionals. With extensive experience and a commitment to creativity, we specialize in delivering tailored solutions tailored to your specific needs. Reach out to us today to harness the full potential of React.js for your projects.",
+      'Maximize the capabilities of React.js for your projects by collaborating with our seasoned team of professionals. With extensive experience and a commitment to creativity, we specialize in delivering tailored solutions tailored to your specific needs. Reach out to us today to harness the full potential of React.js for your projects.',
     ctaText: 'GET IN TOUCH',
     redirect: '/contact',
     imageSrc: '/assets/python/elevate-your-project.png',
@@ -2917,7 +3212,7 @@ export const REACT_DEVELOPER = {
         imageSrc: '/assets/swift/app-testing.svg',
         cardTitle: 'React.js Mobile App Development:',
         content:
-          'Our team creates feature-rich mobile applications for enhanced user experience across various devices, leveraging React Native and Redux. Whether it\'s coding, design, or project management, our experts are here to support you every step of the way.',
+          "Our team creates feature-rich mobile applications for enhanced user experience across various devices, leveraging React Native and Redux. Whether it's coding, design, or project management, our experts are here to support you every step of the way.",
       },
       {
         id: 5,
@@ -2931,7 +3226,7 @@ export const REACT_DEVELOPER = {
         imageSrc: '/assets/swift/custom-solution.svg',
         cardTitle: 'ReactJS Consulting Services:',
         content:
-          'Tackle technical and various challenges in ReactJS development at any point in your app\'s development life cycle. Our specialists will help you overcome technical challenges and enhance functionality throughout the app development lifecycle.',
+          "Tackle technical and various challenges in ReactJS development at any point in your app's development life cycle. Our specialists will help you overcome technical challenges and enhance functionality throughout the app development lifecycle.",
       },
     ],
   },
@@ -2991,7 +3286,7 @@ export const REACT_DEVELOPER = {
   },
 
   reactDevelopmentStrategy: {
-    title: "An Overview of Our React.js Development Approach",
+    title: 'An Overview of Our React.js Development Approach',
     imageSrc: '/assets/react-js/development-strategy.png',
     imageAlt: 'Development Strategy',
     cardData: [
@@ -3064,7 +3359,7 @@ export const REACT_DEVELOPER = {
         description:
           'When you hire a React.js Developer from Primathon, you gain access to a wealth of knowledge spanning various React.js frameworks and libraries, ensuring that your project receives the specialized skills it requires.',
         listItems: ['Decrease the Chances of Project Disruption', 'Simplify Task'],
-        imageSrc: '/assets/python/talent-pool.png',
+        imageSrc: '/assets/emberjs/strategy.png',
         imageAlt: 'Diverse Talent Pool',
       },
     ],
@@ -3078,9 +3373,9 @@ export const REACT_DEVELOPER = {
         id: 1,
         tableData: [
           { id: 1, text: 'Failure Rate', bgColor: '#ffffff' },
-          { id: 2, text: 'X', bgColor: '#FFDCDC' },
+          { id: 2, text: 'Very Low', bgColor: '#ffffff' },
           { id: 3, text: 'Low', bgColor: '#ffffff' },
-          { id: 4, text: 'Very Low', bgColor: '#ffffff' },
+          { id: 4, text: 'Very High', bgColor: '#ffffff' },
         ],
       },
 
@@ -3129,7 +3424,7 @@ export const REACT_DEVELOPER = {
           { id: 1, text: 'Quality Guarantee', bgColor: '#ffffff' },
           { id: 2, text: '✓', bgColor: '#24B768' },
           { id: 3, text: 'x', bgColor: '#FFDCDC' },
-          { id: 4, text: 'Unsure', bgColor: '#fffff' },
+          { id: 4, text: 'Unsure', bgColor: '#FFDCDC' },
         ],
       },
     ],
@@ -3140,9 +3435,9 @@ export const REACT_DEVELOPER = {
         title: 'Failure Rate',
         tableHeading: ['Primathon', 'Other Company', 'Freelancers'],
         tableData: [
-          { id: 1, text: 'X', bgColor: '#FFDCDC' },
+          { id: 1, text: 'Very Low', bgColor: '#ffffff' },
           { id: 2, text: 'Low', bgColor: '#ffffff' },
-          { id: 3, text: 'Very Low', bgColor: '#ffffff' },
+          { id: 3, text: 'Very High', bgColor: '#ffffff' },
         ],
       },
       {
@@ -3191,7 +3486,7 @@ export const REACT_DEVELOPER = {
           { id: 1, text: 'Quality Guarantee', bgColor: '#ffffff' },
           { id: 2, text: '✓', bgColor: '#24B768' },
           { id: 3, text: 'x', bgColor: '#FFDCDC' },
-          { id: 4, text: 'Unsure', bgColor: '#fffff' },
+          { id: 4, text: 'Unsure', bgColor: '#FFDCDC' },
         ],
       },
     ],
@@ -3223,7 +3518,7 @@ export const REACT_DEVELOPER = {
         id: 3,
         question: 'Will I get post-app development support?',
         answer: [
-          "Yes, we offer comprehensive post-app development support! Through our flexible bucket model, you can hire a React.js programmer for a specified duration and access dedicated app support and maintenance services whenever necessary, eliminating the need for a full-time programmer on your team.",
+          'Yes, we offer comprehensive post-app development support! Through our flexible bucket model, you can hire a React.js programmer for a specified duration and access dedicated app support and maintenance services whenever necessary, eliminating the need for a full-time programmer on your team.',
         ],
       },
       {
@@ -3449,7 +3744,7 @@ export const VUE_DEVELOPER = {
         id: 2,
         title: 'Stay in the Loop with Daily and Monthly Task Records',
         description:
-          "We provide daily updates and summaries of tasks finished, challenges encountered, and milestones reached. Hire Python Developer from us and at the end of each month, you'll receive a comprehensive timesheet detailing team activities and hours allocated to each task. This will help you to review payments based on completed work.",
+          "We provide daily updates and summaries of tasks finished, challenges encountered, and milestones reached. Hire Vue Developer from us and at the end of each month, you'll receive a comprehensive timesheet detailing team activities and hours allocated to each task. This will help you to review payments based on completed work.",
         listItems: ['Keep Tabs on Progress', 'Quality Results', 'Optimize Time Management'],
         imageSrc: '/assets/angular-js/task-records.png',
         imageAlt: 'Daily and Monthly Task Records',
@@ -3458,9 +3753,9 @@ export const VUE_DEVELOPER = {
         id: 3,
         title: 'Diverse Talent Pool',
         description:
-          'When you hire a Python Developer from Primathon, you gain access to a wealth of knowledge spanning various Python frameworks and libraries, ensuring that your project receives the specialized skills it requires.',
+          'When you hire a Vue Developer from Primathon, you gain access to a wealth of knowledge spanning various Vue frameworks and libraries, ensuring that your project receives the specialized skills it requires.',
         listItems: ['Decrease the Chances of Project Disruption', 'Simplify Task'],
-        imageSrc: '/assets/python/talent-pool.png',
+        imageSrc: '/assets/emberjs/strategy.png',
         imageAlt: 'Diverse Talent Pool',
       },
     ],
@@ -3474,9 +3769,9 @@ export const VUE_DEVELOPER = {
         id: 1,
         tableData: [
           { id: 1, text: 'Failure Rate', bgColor: '#ffffff' },
-          { id: 2, text: 'X', bgColor: '#FFDCDC' },
+          { id: 2, text: 'Very Low', bgColor: '#ffffff' },
           { id: 3, text: 'Low', bgColor: '#ffffff' },
-          { id: 4, text: 'Very Low', bgColor: '#ffffff' },
+          { id: 4, text: 'Very High', bgColor: '#ffffff' },
         ],
       },
 
@@ -3537,9 +3832,9 @@ export const VUE_DEVELOPER = {
         title: 'Failure Rate',
         tableHeading: ['Primathon', 'Other Company', 'Freelancers'],
         tableData: [
-          { id: 1, text: 'X', bgColor: '#FFDCDC' },
+          { id: 1, text: 'Very Low', bgColor: '#ffffff' },
           { id: 2, text: 'Low', bgColor: '#ffffff' },
-          { id: 3, text: 'Very Low', bgColor: '#ffffff' },
+          { id: 3, text: 'Very High', bgColor: '#ffffff' },
         ],
       },
       {
@@ -3589,7 +3884,7 @@ export const VUE_DEVELOPER = {
         tableData: [
           { id: 1, text: '✓', bgColor: '#24B768' },
           { id: 2, text: 'X', bgColor: '#FFDCDC' },
-          { id: 3, text: 'Unsure', bgColor: '#ffffff' },
+          { id: 3, text: 'Unsure', bgColor: '#FFDCDC' },
         ],
       },
     ],
@@ -3643,6 +3938,410 @@ export const VUE_DEVELOPER = {
         question: 'Can you help me complete my incomplete app development project?',
         answer: [
           'Yes, our team of Vue.js developers is experienced in working on both new and existing projects. Whether you have an incomplete app development project that needs to be finished or you need enhancements and updates to an existing Vue.js application, we can assist you in completing your project efficiently and effectively.',
+        ],
+      },
+    ],
+  },
+};
+
+export const EMBER_DEVELOPER = {
+  heroSection: {
+    title1: 'Hire',
+    gradientTitle: 'Ember.js',
+    title2: 'Developers',
+    subtitle: 'Reasonable, Dedicated Experts for Your Business',
+    description:
+      'Explore the proficiency of our skilled Ember.js developers in enhancing your online presence. Whether you require tailor-made solutions or seamless migrations, our experienced professionals guarantee exceptional results for your projects.',
+    listItems: [
+      {
+        id: 1,
+        text: '100% Skilled and Certified Developers',
+      },
+      {
+        id: 2,
+        text: 'Possesses an Average of 5+ Years of Experience',
+      },
+      {
+        id: 3,
+        text: 'Swift Onboarding Process',
+      },
+      {
+        id: 4,
+        text: 'Competitive Pricing Models',
+      },
+      {
+        id: 5,
+        text: 'Transparent and Smooth Communication',
+      },
+    ],
+    ctaText1: 'Book a Call',
+    ctaText2: 'Get Free Consultation',
+    redirect: '/contact',
+    imageSrc: '/assets/emberjs/hire-ember-herosection-img.png',
+    imageAlt: 'Hire Ember Developer',
+  },
+
+  elevateYourProject: {
+    title: 'Elevate Your Project by Hiring Top Ember.js  Developers in India',
+    description:
+      'Unlock the full potential of Ember.js for your projects by partnering with our seasoned team of experts. With years of experience and a dedication to innovation, we specialize in delivering bespoke solutions customized to your unique requirements. Contact us today to maximize the power of Ember.js for your projects.',
+    ctaText: 'GET IN TOUCH',
+    redirect: '/contact',
+    imageSrc: '/assets/python/elevate-your-project.png',
+    imageAlt: 'Elevate Your Project',
+  },
+
+  ctaSection: {
+    title: 'Experience Excellence with Our Ember.js Support Services',
+    description:
+      'With years of expertise and a commitment to innovation, we deliver bespoke solutions tailored to your unique requirements. Partner with us and experience the difference.',
+    ctaText1: "Let's Transform Your Projects!",
+    redirect1: '/contact',
+  },
+
+  emberDevelopmentServices: {
+    title: 'Explore Our Range of Expert Ember.js Development Services Tailored to Your Needs',
+    cardData: [
+      {
+        id: 1,
+        imageSrc: '/assets/vue/web-development.svg',
+        cardTitle: 'Custom Ember.js Application',
+        content:
+          "Development: Crafted solutions designed specifically to address your business's unique needs and challenges.",
+      },
+      {
+        id: 2,
+        imageSrc: '/assets/emberjs/consulting.svg',
+        cardTitle: 'Ember.js Consulting',
+        content:
+          'Receive expert advice and guidance on Ember.js architecture, industry best practices, and leveraging advanced features to optimize your projects.',
+      },
+      {
+        id: 3,
+        imageSrc: '/assets/emberjs/design.svg',
+        cardTitle: 'UI/UX Design for Ember.js Applications',
+        content: 'Create captivating and user-friendly interfaces that enhance user engagement and satisfaction.',
+      },
+      {
+        id: 4,
+        imageSrc: '/assets/emberjs/maintenance.svg',
+        cardTitle: 'Ember.js Application Maintenance and Support',
+        content:
+          'Ensure the longevity and optimal performance of your Ember.js applications with our comprehensive maintenance services, including updates and performance optimization.',
+      },
+      {
+        id: 5,
+        imageSrc: '/assets/vue/migration-service.svg',
+        cardTitle: 'Migration to Ember.js',
+        content:
+          'Seamlessly transition your existing applications to the Ember.js framework with our expert migration services, minimizing disruptions and maximizing efficiency.',
+      },
+    ],
+  },
+
+  ctaSection1: {
+    onlyDesc: true,
+    descp1: 'Hire Dedicated',
+    colouredDescp: 'Ember.js Developers',
+    descp2:
+      'team based on your requirements. We provide various hiring engagement models tailored to meet the specific needs of your business.',
+    ctaText: 'GET IN TOUCH',
+    redirect: '/contact',
+    bgColor: '#F4F4F4',
+  },
+
+  whyChoose: {
+    title: 'Why Hire Ember.js Developers from Primathon?',
+    description:
+      'Our Ember.js developers bring over 7 years of expertise, ensuring scalable and high-performing applications. We stay updated with the latest Ember.js advancements, prioritize security, and optimize applications for speed and efficiency. Additionally, you gain access to a pool of skilled professionals and flexible hiring models to suit your project needs. With Primathon, expect quality and timely delivery, empowering your business with exceptional Ember.js solutions.We fine-tune your Ember.js applications for speed and efficiency, delivering exceptional user experiences within your project timeline and budget constraints.',
+    listItems: [
+      { id: 1, text: 'Experience 1.5X Faster Delivery' },
+      { id: 2, text: 'Work at Your Time Zone' },
+      { id: 3, text: 'Hassle-free communication' },
+      { id: 4, text: '24/7 Support' },
+    ],
+    service1: { number: '6+', text: 'Years of business' },
+    service2: { number: '80+', text: 'Software Developers' },
+    service3: { number: '150+', text: 'Project Delivered' },
+    service4: { number: '100+', text: 'Happy Client' },
+  },
+
+  emberJourney: {
+    heading: 'Let us take your project on a journey!',
+    items: [
+      'You share your idea with us',
+      'We create a strategy for your project',
+      'Our Vue.js Developer starts building it',
+      'We deliver on time',
+    ],
+  },
+
+  ctaSection2: {
+    title: 'Want to Create a User-friendly Web Application?',
+    description:
+      "Hire our Ember.js developer to improve your product's usability, satisfaction, and overall user experience.",
+    ctaText: 'HIRE US',
+    redirect: '/contact',
+    bgColor: '#21315B',
+  },
+
+  emberDevelopmentStrategy: {
+    title: 'An Overview of Our Ember.js Development Approach',
+    imageSrc: '/assets/emberjs/development-strategy.png',
+    imageAlt: 'Development Strategy',
+    cardData: [
+      {
+        id: 1,
+        text: 'Requirement Analysis',
+        description:
+          'Our process begins with a thorough analysis of your project requirements, ensuring a clear understanding of your objectives and goals.',
+      },
+      {
+        id: 2,
+        text: 'Planning and Design',
+        description:
+          'We create a comprehensive plan and design layout for your Ember.js  project, focusing on usability, scalability, and performance.',
+      },
+      {
+        id: 3,
+        text: 'Development and Testing',
+        description:
+          'Our expert Ember.js developers begin the development phase, implementing robust code and conducting rigorous testing to ensure functionality and reliability.',
+      },
+      {
+        id: 4,
+        text: 'Deployment and Launch',
+        description:
+          'Once development is complete, we deploy your Ember.js solution to the desired environment and ensure a smooth launch, minimizing downtime and disruptions.',
+      },
+      {
+        id: 5,
+        text: 'Monitoring and Support',
+        description:
+          'We provide ongoing monitoring and support services to ensure your Ember.js solution operates smoothly, addressing any issues promptly and efficiently.',
+      },
+    ],
+  },
+
+  benefitsOfHiringEmber: {
+    title1: 'Benefits of Hiring ',
+    colouredTitle: 'Ember.js Developers',
+    title2: 'from Us',
+
+    description:
+      'From free manager service to punctual delivery and precise timesheets, we offer multiple benefits to a client when they hire Ember.js developers from Primathon.',
+    cardData: [
+      {
+        id: 1,
+        title: 'Get a Dedicated Project Manager',
+        description:
+          "No matter what, you'll get a complimentary project manager from us. They'll handle all the nitty-gritty stuff like planning, setting timelines, and making sure everyone's on track. Their job? To guarantee you're getting top-notch results every step of the way with Primathon.",
+        listItems: [
+          'Analyze the Progress of the Project',
+          'Ensure Client Satisfaction',
+          'Keeps you updated throughout the Project',
+        ],
+        imageSrc: '/assets/angular-js/dedicated-project-manager.png',
+        imageAlt: 'Dedicated Project Manager discussing project',
+      },
+      {
+        id: 2,
+        title: 'Stay in the Loop with Daily and Monthly Task Records',
+        description:
+          "We provide daily updates and summaries of tasks finished, challenges encountered, and milestones reached. Hire Ember.js Developer from us and at the end of each month, you'll receive a comprehensive timesheet detailing team activities and hours allocated to each task. This will help you to review payments based on completed work.",
+        listItems: ['Keep Tabs on Progress', 'Quality Results', 'Optimize Time Management'],
+        imageSrc: '/assets/angular-js/task-records.png',
+        imageAlt: 'Daily and Monthly Task Records',
+      },
+      {
+        id: 3,
+        title: 'Diverse Talent Pool',
+        description:
+          'When you hire a Ember.js Developer from Primathon, you gain access to a wealth of knowledge spanning various Ember.js frameworks and libraries, ensuring that your project receives the specialized skills it requires.',
+        listItems: ['Decrease the Chances of Project Disruption', 'Simplify Task'],
+        imageSrc: '/assets/emberjs/strategy.png',
+        imageAlt: 'Diverse Talent Pool',
+      },
+    ],
+  },
+
+  table: {
+    title: 'Hire Ember.js Developers From Primathon Vs Other Company',
+    tableHeading: ['', 'Primathon', 'Other Company', 'Freelancers'],
+    tableRows: [
+      {
+        id: 1,
+        tableData: [
+          { id: 1, text: 'Failure Rate', bgColor: '#ffffff' },
+          { id: 2, text: 'Very Low', bgColor: '#ffffff' },
+          { id: 3, text: 'Low', bgColor: '#ffffff' },
+          { id: 4, text: 'Very High', bgColor: '#ffffff' },
+        ],
+      },
+
+      {
+        id: 2,
+        tableData: [
+          { id: 1, text: 'Pre-assessed Developers', bgColor: '#ffffff' },
+          { id: 2, text: '✓', bgColor: '#24B768' },
+          { id: 3, text: 'X', bgColor: '#FFDCDC' },
+          { id: 4, text: 'X', bgColor: '#FFDCDC' },
+        ],
+      },
+
+      {
+        id: 3,
+        tableData: [
+          { id: 1, text: 'Results', bgColor: '#ffffff' },
+          { id: 2, text: '100% Premium Quality', bgColor: '#ffffff' },
+          { id: 3, text: 'Good', bgColor: '#ffffff' },
+          { id: 4, text: 'Unsure', bgColor: '#ffffff' },
+        ],
+      },
+
+      {
+        id: 4,
+        tableData: [
+          { id: 1, text: 'Documentation and Security', bgColor: '#ffffff' },
+          { id: 2, text: '✓', bgColor: '#24B768' },
+          { id: 3, text: 'X', bgColor: '#FFDCDC' },
+          { id: 4, text: 'X', bgColor: '#FFDCDC' },
+        ],
+      },
+
+      {
+        id: 5,
+        tableData: [
+          { id: 1, text: 'Rates', bgColor: '#ffffff' },
+          { id: 2, text: 'Reasonable', bgColor: '#ffffff' },
+          { id: 3, text: 'High Cost', bgColor: '#ffffff' },
+          { id: 4, text: 'High Cost', bgColor: '#ffffff' },
+        ],
+      },
+
+      {
+        id: 6,
+        tableData: [
+          { id: 1, text: 'Quality Guarantee', bgColor: '#ffffff' },
+          { id: 2, text: '✓', bgColor: '#24B768' },
+          { id: 3, text: 'X', bgColor: '#FFDCDC' },
+          { id: 4, text: 'Unsure', bgColor: '#FFDCDC' },
+        ],
+      },
+    ],
+
+    mobileTableData: [
+      {
+        id: 1,
+        title: 'Failure Rate',
+        tableHeading: ['Primathon', 'Other Company', 'Freelancers'],
+        tableData: [
+          { id: 1, text: 'Very Low', bgColor: '#ffffff' },
+          { id: 2, text: 'Low', bgColor: '#ffffff' },
+          { id: 3, text: 'Very High', bgColor: '#ffffff' },
+        ],
+      },
+      {
+        id: 2,
+        title: 'Pre-assessed Developers',
+        tableHeading: ['Primathon', 'Other Company', 'Freelancers'],
+        tableData: [
+          { id: 1, text: '✓', bgColor: '#24B768' },
+          { id: 2, text: 'X', bgColor: '#FFDCDC' },
+          { id: 3, text: 'X', bgColor: '#FFDCDC' },
+        ],
+      },
+      {
+        id: 3,
+        title: 'Results',
+        tableHeading: ['Primathon', 'Other Company', 'Freelancers'],
+        tableData: [
+          { id: 1, text: '100% Premium Quality', bgColor: '#ffffff' },
+          { id: 2, text: 'Good', bgColor: '#ffffff' },
+          { id: 3, text: 'Unsure', bgColor: '#ffffff' },
+        ],
+      },
+      {
+        id: 4,
+        title: 'Documentation and Security',
+        tableHeading: ['Primathon', 'Other Company', 'Freelancers'],
+        tableData: [
+          { id: 1, text: '✓', bgColor: '#24B768' },
+          { id: 2, text: 'X', bgColor: '#FFDCDC' },
+          { id: 3, text: 'X', bgColor: '#FFDCDC' },
+        ],
+      },
+      {
+        id: 5,
+        title: 'Rates',
+        tableHeading: ['Primathon', 'Other Company', 'Freelancers'],
+        tableData: [
+          { id: 1, text: 'Reasonable', bgColor: '#ffffff' },
+          { id: 2, text: 'High Cost', bgColor: '#ffffff' },
+          { id: 3, text: 'High Cost', bgColor: '#ffffff' },
+        ],
+      },
+      {
+        id: 5,
+        title: 'Quality Guarantee',
+        tableHeading: ['Primathon', 'Other Company', 'Freelancers'],
+        tableData: [
+          { id: 1, text: '✓', bgColor: '#24B768' },
+          { id: 2, text: 'X', bgColor: '#FFDCDC' },
+          { id: 3, text: 'Unsure', bgColor: '#FFDCDC' },
+        ],
+      },
+    ],
+  },
+
+  caseStudies: {
+    title: 'Our Case Studies',
+    subtitle: 'Explore Our Portfolio of Ember.js Development Projects',
+  },
+
+  faqs: {
+    title: 'FAQs',
+    cardData: [
+      {
+        id: 1,
+        question: 'What qualifications and experience do your Ember.js developers have?',
+        answer: [
+          'Our Ember.js developers at Primathon possess extensive experience and expertise in Ember.js development. They hold degrees in computer science or related fields and Our Ember.js developers possess a minimum of 5 years of experience, with expertise in Ember.js framework, JavaScript, HTML, and CSS. have worked on numerous successful projects.',
+        ],
+      },
+      {
+        id: 2,
+        question: 'How do I hire Ember.js developers',
+        answer: [
+          'Hiring Ember.js developers from Primathon is easy. Simply reach out to us with your project requirements, and we will provide you with a pool of skilled developers to choose from. You can then select the developers that best fit your needs and get started with your project.',
+        ],
+      },
+      {
+        id: 3,
+        question: 'Will I get post-app development support?',
+        answer: [
+          'Yes, we provide post-app development support to ensure the smooth functioning of your Ember.js application. Our dedicated support team is available to address any issues or concerns that may arise after the development phase.',
+        ],
+      },
+      {
+        id: 4,
+        question: 'Can I hire a Ember.js developer for hourly or project-based tasks?',
+        answer: [
+          'Yes, at Primathon, we offer flexible hiring models, including hourly, part-time, or project-based hiring. You can choose the hiring model that best suits your project requirements and budget.',
+        ],
+      },
+      {
+        id: 5,
+        question: 'Is there demand for Ember.js Developers?',
+        answer: [
+          'Yes, there is a high demand for Ember.js developers in the industry. Many companies are adopting Ember.js for their web development projects, leading to a growing demand for skilled Ember.js developers.',
+        ],
+      },
+      {
+        id: 6,
+        question: 'Can you help me complete my incomplete app development project?',
+        answer: [
+          'Yes, we can certainly help you complete your incomplete app development project. Our experienced Ember.js developers can analyze your existing codebase, understand your project requirements, and work towards completing your application efficiently.',
         ],
       },
     ],
