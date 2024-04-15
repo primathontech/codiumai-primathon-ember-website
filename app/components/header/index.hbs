@@ -100,7 +100,7 @@
       </div>
       <p class='menu-service mobile-menu-link' id='our-services' {{on 'click' (fn this.onMenuOpen 'solutions')}}>
         <span>Solutions</span>
-        {{#if this.openTechnologiesMenu}}
+        {{#if this.openSolutionsMenu}}
           <img
             class='up-down-icon'
             src='/assets/images/arrow-up.svg'
@@ -120,22 +120,38 @@
           />
         {{/if}}
       </p>
-      <div class='services-menu {{if this.openTechnologiesMenu "services-menu-open"}} '>
+      <div class='services-menu {{if this.openSolutionsMenu "services-menu-open"}} '>
+        <LinkTo
+          @route='solutions.ai-chatbot'
+          class='mobile-menu'
+          @activeClass='current-url'
+          {{on 'click' (fn this.closeOpenMenu 'solutions')}}
+        >
+          AI Conversational Chatbot
+        </LinkTo>
+        <LinkTo
+          @route='solutions.ai-discovery'
+          class='mobile-menu'
+          @activeClass='current-url'
+          {{on 'click' (fn this.closeOpenMenu 'solutions')}}
+        >
+          AI Discovery
+        </LinkTo>
         <LinkTo
           @route='solutions.search-gpt'
           class='mobile-menu'
           @activeClass='current-url'
-          {{on 'click' (fn this.closeOpenMenu 'technologies')}}
+          {{on 'click' (fn this.closeOpenMenu 'solutions')}}
         >
           Search GPT
         </LinkTo>
         <LinkTo
-          @route='solutions.ai-driven-tool'
+          @route='solutions.customer-behavior-analysis-tool'
           class='mobile-menu'
           @activeClass='current-url'
-          {{on 'click' (fn this.closeOpenMenu 'technologies')}}
+          {{on 'click' (fn this.closeOpenMenu 'solutions')}}
         >
-          AI Driven Tool
+          Customer Behavior Analysis Tool
         </LinkTo>
       </div>
       <div class='service-page-dialog'>
