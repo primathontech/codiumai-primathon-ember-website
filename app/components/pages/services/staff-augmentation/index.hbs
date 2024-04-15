@@ -1,14 +1,20 @@
 <Header />
 <div class='app-container'>
-  <Services::HeroStaffAugmentation />
-  <Services::CircularList @content={{this.circular_list_content}} />
-  <Services::LinearList @content={{this.linear_list_content}} />
-  <Services::TopNotchTalent />
-  <Services::ArrowList @content={{this.arrow_list_content}} />
-  <Services::WhatAreYouLooking />
-  <Services::ToolsOfTrades />
-  <Services::WeAreTrusted />
-  <Homepage::HireUs />
-  <Services::BrowseThroughServices @activeService={{1}} />
+  <Services::HeroSectionNew
+    @data={{@data.heroSection}}
+    @imgStyle='w-[500px] h-[530px] xl:w-[500px] xl:h-[530px]'
+    class='bg-[#1A284D]'
+  />
+  <Services::BulletsList @data={{@data.whyChoose}} @imgStyle='w-[350px] h-[350px] xl:w-[420px] xl:h-[380px]' />
+  <Services::CallUs @data={{@data.ctaSection1}} />
+  <Chatgpt::Benefits @benefits={{@data.whatWeOffer}} />
+  <Chatgpt::Getting-started @gettingStarted={{@data.whyChooseUs}} />
+  <Services::ArrowList @content={{@data.arrowList}} @style='chatGpt-arrowList' />
+  <Chatgpt::Getting-started @gettingStarted={{@data.offshoreDevelopmentProcess}} />
+  <Homepage::Tools />
+  <Services::CallUs @data={{@data.ctaSection2}} />
+  <Chatgpt::Chatgptuse @useCases={{@data.industryWeServe}} />
+  <Chatgpt::Getting-started @gettingStarted={{@data.whyOffshoreIsCostEffective}} />
+  <Services::FaqList @title={{@data.faqs.title}} @data={{@data.faqs.cardData}} />
   <Footer />
 </div>

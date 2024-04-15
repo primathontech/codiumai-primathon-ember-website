@@ -1,8 +1,7 @@
 export const AI_DRIVEN_TOOL = {
   heroSection: {
-    gradientTitle: 'AI-Driven Customer Behavior',
-    title2: 'Analysis Tool',
-    subtitle: 'Transforming Customer Insights',
+    gradientTitle: 'Customer Behavior Analysis',
+    title2: 'Tool',
     description:
       'Boost customer experience with our AI Customer Insights and streamline customer engagement with our advanced AI-Driven Customer Behavior Analysis Tool. Our software solution utilizes artificial intelligence and machine learning algorithms to analyze and interpret customer behavior patterns. It helps businesses gain deep insights into customer preferences, purchasing habits, interactions with products or services, and other relevant data points',
     imageSrc: '/assets/ai-driven/ai-driven-hero-image.png',
@@ -52,7 +51,7 @@ export const AI_DRIVEN_TOOL = {
       {
         id: 6,
         imageSrc: '/assets/ai-driven/expert-support.svg',
-        cardTitle: 'Expert Support:',
+        cardTitle: 'Expert Support',
         content:
           'Benefit from dedicated support from our team of experts who are committed to helping you leverage the full potential of our tool for business success.',
       },
@@ -79,7 +78,7 @@ export const AI_DRIVEN_TOOL = {
       { id: 4, text: 'Competitive Advantage' },
     ],
     imageSrc: '/assets/ai-driven/customer-behavior-analysis.png',
-    imageAlt: 'Customer Behavior Analysis'
+    imageAlt: 'Customer Behavior Analysis',
   },
 
   whyTrust: {
@@ -93,7 +92,7 @@ export const AI_DRIVEN_TOOL = {
       { id: 4, text: 'Continuous Improvement' },
     ],
     imageSrc: '/assets/ai-driven/tool-in-customer-engagement.png',
-    imageAlt: 'Tool in customer engagement'
+    imageAlt: 'Tool in customer engagement',
   },
 
   unlockingAIFeatures: {
@@ -107,7 +106,7 @@ export const AI_DRIVEN_TOOL = {
       { id: 4, text: 'Increases the likelihood of conversion' },
     ],
     imageSrc: '/assets/ai-driven/AI-in-banking.png',
-    imageAlt: 'AI In Banking'
+    imageAlt: 'AI In Banking',
   },
 
   whyHire: {
@@ -128,8 +127,7 @@ export const AI_DRIVEN_TOOL = {
 
   ctaSection2: {
     title: 'Are You Still Confused?',
-    description:
-      'Connect with Our Top Developers',
+    description: 'Connect with Our Top Developers',
     ctaText: 'Contact Us',
     redirect: '/contact',
     bgColor: '#21315B',
@@ -151,32 +149,38 @@ export const AI_DRIVEN_TOOL = {
       {
         id: '1',
         cardTitle: 'Expertise',
-        content: "Our team brings extensive expertise in customer segmentation AI, with years of experience in developing innovative solutions tailored to clients' needs.",
+        content:
+          "Our team brings extensive expertise in customer segmentation AI, with years of experience in developing innovative solutions tailored to clients' needs.",
       },
       {
         id: '2',
         cardTitle: 'Advanced Technology',
-        content: 'We leverage cutting-edge technologies and tools to ensure that our customer behavior analysis solutions are at the forefront of industry standards.',
+        content:
+          'We leverage cutting-edge technologies and tools to ensure that our customer behavior analysis solutions are at the forefront of industry standards.',
       },
       {
         id: '3',
         cardTitle: 'Customization',
-        content: "We understand that every business is unique. That's why we offer customized AI customer insights solutions that address the specific requirements and challenges of each client.",
+        content:
+          "We understand that every business is unique. That's why we offer customized AI customer insights solutions that address the specific requirements and challenges of each client.",
       },
       {
         id: '4',
         cardTitle: 'Proven Track Record',
-        content: 'With a track record of successful projects and satisfied clients, you can trust Primathon to deliver reliable and effective customer behavior analysis solutions.',
+        content:
+          'With a track record of successful projects and satisfied clients, you can trust Primathon to deliver reliable and effective customer behavior analysis solutions.',
       },
       {
         id: '5',
         cardTitle: 'Collaboration',
-        content: 'We believe in collaborative partnerships with our clients, working closely with them to understand their goals and objectives and delivering solutions that exceed expectations.',
+        content:
+          'We believe in collaborative partnerships with our clients, working closely with them to understand their goals and objectives and delivering solutions that exceed expectations.',
       },
       {
         id: '6',
         cardTitle: 'Support',
-        content: 'Our dedicated support team is always available to provide assistance and guidance, ensuring a seamless experience throughout the customer behavior analysis process.',
+        content:
+          'Our dedicated support team is always available to provide assistance and guidance, ensuring a seamless experience throughout the customer behavior analysis process.',
       },
     ],
   },
