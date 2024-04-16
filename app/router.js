@@ -47,6 +47,7 @@ Router.map(function () {
     this.route('customer-behavior-analysis-tool');
     this.route('ai-chatbot');
     this.route('ai-discovery');
+    this.route('data-visualization');
   });
   this.route('technologies', function () {
     this.route('node-js');
