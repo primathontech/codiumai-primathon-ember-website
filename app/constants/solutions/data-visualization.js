@@ -26,7 +26,7 @@ export const DATA_VISUALIZATION = {
     ctaText2: 'Get Free Consultation',
     redirect: '/contact',
     imageSrc: '/assets/data-visualization/data-visualization-herosection-img.png',
-    imageAlt: 'Hire Ember Developer',
+    imageAlt: 'Data visualization',
   },
 
   dataVisualizationDevelopmentServices: {
@@ -124,7 +124,6 @@ export const DATA_VISUALIZATION = {
         cardData: 'Stay ahead with real-time data. Our solutions provide live updates, empowering timely decisions.',
       },
     ],
-    title2: 'Choose Primathon for unparalleled benefits of our data visualization service!',
   },
 
   serviceProcess: {
@@ -201,12 +200,6 @@ export const DATA_VISUALIZATION = {
     ],
   },
 
-  technologiesAndTools: {
-    title: 'Technologies and Tools We Use',
-    description:
-      'At Primathon, we harness cutting-edge data visualization technologies to create impactful dashboards. Our toolkit includes',
-  },
-
   whatWeServe: {
     title: 'Industries We Serve with Our Data Visualization',
     subtitle:
@@ -221,8 +214,14 @@ export const DATA_VISUALIZATION = {
       { id: 5, text: 'Energy and Utilities' },
       { id: 6, text: 'Education and EdTech' },
     ],
-    description2:
-      'Our data visualization service for various industries ensures that insights are tailored to specific contexts, driving informed decisions. Let’s transform your data into actionable intelligence!',
+  },
+
+  ctaSection2: {
+    title: 'Contact Us for Your Data Visualization Needs',
+    description: 'Ready to transform your data into actionable insights? Reach out for data visualization services tailored to your business. Request a data visualization consultation from Primathon today! Let’s illuminate your data journey together.',
+    ctaText: 'Contact Us',
+    redirect: '/contact',
+    bgColor: '#21315B',
   },
 
   caseStudies: {
@@ -261,12 +260,6 @@ export const DATA_VISUALIZATION = {
           'Static reports are like frozen snapshots. Visualizations, on the other hand, pulse with life. Real-time dashboards track KPIs, inventory levels, or patient outcomes. Decisions become agile, responding to dynamic shifts.',
       },
     ],
-  },
-
-  testinomialData: {
-    title: 'Client Testimonials: Success with Our Data Visualization',
-    description:
-      'Our satisfied clients of data visualization service speak volumes. Let us illuminate your data journey!',
   },
 
   contactOurService: {
