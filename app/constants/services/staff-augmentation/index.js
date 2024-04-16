@@ -4694,7 +4694,7 @@ export const FRONTEND_DEVELOPER_NEW = {
         ],
       },
       {
-        id: 5,
+        id: 6,
         title: 'Quality Guarantee',
         tableHeading: ['Primathon', 'Other Company', 'Freelancers'],
         tableData: [
