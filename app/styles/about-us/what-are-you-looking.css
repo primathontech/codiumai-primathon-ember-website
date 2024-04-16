@@ -61,10 +61,17 @@ details > summary::marker {
 
 .what-are-you-looking-figures {
   width: 100%;
-  margin-top: 60px;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-  row-gap: 40px;
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  row-gap: 12px;
+  column-gap: 40px;
+}
+
+.what-are-you-looking-figures p:hover {
+  text-decoration: underline;
+  text-decoration-color: #016aba;
 }
 
 @media only screen and (min-width: 555px) {
