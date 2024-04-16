@@ -375,12 +375,4 @@ export const DATA_VISUALIZATION = {
       },
     ],
   },
-
-  // ctaSection2: {
-  //   title: 'Contact Us for Your Data Visualization Needs',
-  //   description:
-  //     'Ready to transform your data into actionable insights? Reach out for data visualization services tailored to your business. Request a data visualization consultation from Primathon today! Let’s illuminate your data journey together.',
-  //   ctaText1: "Let's Transform Your Projects!",
-  //   redirect1: '/contact',
-  // },
 };
