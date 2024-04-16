@@ -4347,3 +4347,401 @@ export const EMBER_DEVELOPER = {
     ],
   },
 };
+
+export const FRONTEND_DEVELOPER_NEW = {
+  heroSection: {
+    title1: 'Hire',
+    gradientTitle: 'Front End',
+    title2: 'Developers',
+    subtitle: 'Reasonable, Dedicated Experts for Your Business',
+    description:
+      "Navigate the digital landscape with creativity! Let’s collaborate to shape tomorrow's digital world along with our trusted front end development experts. Whether it's tailored solutions or smooth transitions, our seasoned experts guarantee excellence in your endeavors..",
+    listItems: [
+      {
+        id: 1,
+        text: '100% Skilled and Certified Developers',
+      },
+      {
+        id: 2,
+        text: 'Possesses an Average of 5+ Years of Experience',
+      },
+      {
+        id: 3,
+        text: 'Swift Onboarding Process',
+      },
+      {
+        id: 4,
+        text: 'Competitive Pricing Models',
+      },
+      {
+        id: 5,
+        text: 'Transparent and Smooth Communication',
+      },
+    ],
+    ctaText1: 'Book a Call',
+    ctaText2: 'Get Free Consultation',
+    redirect: '/contact',
+    imageSrc: '/assets/javascript/hire-javascript-herosection-img.png',
+    imageAlt: 'Hire JavaScript',
+  },
+
+  elevateYourProject: {
+    title: 'Elevate Your Project with Premier Front End Developers in India',
+    description:
+      'Maximize the capabilities of Front End for your projects by collaborating with our seasoned team of professionals. With extensive experience and a commitment to creativity, we specialize in delivering tailored solutions tailored to your specific needs. Reach out to us today to harness the full potential of Front End for your projects.',
+    ctaText: 'GET IN TOUCH',
+    redirect: '/contact',
+    imageSrc: '/assets/python/elevate-your-project.png',
+    imageAlt: 'Elevate Your Project',
+  },
+
+  ctaSection: {
+    title: ' Enhance Your Project with Our Experienced Front End Professionals',
+    description:
+      'With years of expertise and a commitment to innovation, we deliver bespoke solutions tailored to your unique requirements. Partner with us and experience the difference.',
+    ctaText1: 'CONTACT US',
+    redirect1: '/contact',
+  },
+
+  frontEndDevelopmentServices: {
+    title: ' Explore Our Range of Expert Front End Development Services Services',
+    cardData: [
+      {
+        id: 1,
+        imageSrc: '/assets/angular-js/custom-angular-solutions.svg',
+        cardTitle: 'Customised Front-End Design and Architecture',
+        content:
+          'We use the latest technologies for captivating and responsive user experiences. Being an experienced front end development company, we merge your vision with expert development capabilities to achieve your goals.',
+      },
+      {
+        id: 2,
+        imageSrc: '/assets/python/data-analysis.png',
+        cardTitle: 'UI/UX Design and Development',
+        content:
+          'From concept to execution, our designers ensure a captivating user experience tailored to your produc.',
+      },
+      {
+        id: 3,
+        imageSrc: '/assets/angular-js/angular-consulting.svg',
+        cardTitle: 'HTML5/CSS Development',
+        content:
+          'With our expertise, we aim to future-proof your digital platform by leveraging HTML5 and CSS components for resilient and targeted business solutions.',
+      },
+      {
+        id: 4,
+        imageSrc: '/assets/python/python-web-development.png',
+        cardTitle: 'Web App Interface Development',
+        content:
+          ' We design visually appealing websites and mobile apps to Enhance web app potential with appealing interfaces that convert leads and fuel growth.',
+      },
+      {
+        id: 5,
+        imageSrc: '/assets/javascript/javaScript-maintenance.svg',
+        cardTitle: 'Single Page App Development',
+        content:
+          'Because we are a proficient front end development company, we utilize cutting-edge technologies to craft dynamic single-page applications with modern features.',
+      },
+      {
+        id: 6,
+        imageSrc: '/assets/javascript/javaScript-design.svg',
+        cardTitle: 'PWA App Development Services',
+        content:
+          'Our specialists create secure and scalable Progressive Web Applications for seamless cross-platform experiences.',
+      },
+    ],
+  },
+
+  ctaSection1: {
+    onlyDesc: true,
+    descp1: 'Hire Dedicated',
+    colouredDescp: 'Front End Developers',
+    descp2:
+      'eam based on your requirements. We provide various hiring engagement models tailored to meet the specific needs of your business.',
+    ctaText: 'GET IN TOUCH',
+    redirect: '/contact',
+    bgColor: '#F4F4F4',
+  },
+
+  whyChoose: {
+    title: 'Why Hire Front End Developers from Primathon?',
+    description:
+      'At Primathon, our Front End developers excel in both expertise and dedication, boasting over 7 years of industry experience. Leverage the proficiency of our dedicated Front End engineers to craft premium websites and applications customized to maximize benefits through event-driven solutions. Benefit from the support of our committed Front End developers, ensuring seamless development and the creation of scalable and high-performing applications with flawless implementation. With our adept Front End engineers, we are dedicated to simplifying complex development challenges, positioning our team uniquely to deliver exceptional Front End development solutions.',
+    listItems: [
+      { id: 1, text: 'Experience 1.5X Faster Delivery' },
+      { id: 2, text: 'Work at Your Time Zone' },
+      { id: 3, text: 'Hassle-free communication' },
+      { id: 4, text: '24/7 Support' },
+    ],
+    service1: { number: '6+', text: 'Years of business' },
+    service2: { number: '100+', text: 'Software Developers' },
+    service3: { number: '150+', text: 'Project Delivered' },
+    service4: { number: '100+', text: 'Happy Client' },
+  },
+
+  frontEndJourney: {
+    heading: 'Let us take your project on a journey!',
+    items: [
+      'You share your idea with us',
+      'We create a strategy for your project',
+      'Our Front End Developer starts building it',
+      'We deliver on time',
+    ],
+  },
+
+  ctaSection2: {
+    title: 'Want to Create a User-friendly Web Application?',
+    description:
+      "Hire our Front End  developer to improve your product's usability, satisfaction, and overall user experience.",
+    ctaText: 'HIRE US',
+    redirect: '/contact',
+    bgColor: '#21315B',
+  },
+
+  frontEndDevelopmentStrategy: {
+    title: 'An Overview of Our Front End Development Approach',
+    imageSrc: '/assets/javascript/development-strategy.png',
+    imageAlt: 'Development Strategy',
+    cardData: [
+      {
+        id: 1,
+        text: 'Requirement Analysis',
+        description:
+          'We begin by conducting a thorough analysis of your project requirements, ensuring a clear understanding of your objectives and goals.',
+      },
+      {
+        id: 2,
+        text: 'Planning and Design',
+        description:
+          'Next, we create a comprehensive plan and design layout for your Front End project, focusing on usability, scalability, and user experience.',
+      },
+      {
+        id: 3,
+        text: 'Development and Testing',
+        description:
+          'Our experienced Front End developers commence the development phase, implementing clean and maintainable code. Rigorous testing is conducted to ensure functionality and reliability.',
+      },
+      {
+        id: 4,
+        text: 'Implementation and Optimization',
+        description:
+          'We implement the developed features into your project and optimize performance for enhanced user experience. Load times are minimized, and responsiveness is maximized.',
+      },
+      {
+        id: 5,
+        text: 'Deployment and Support',
+        description:
+          'Once development is complete, we deploy your Front End solution to the desired environment. Ongoing support is provided to address any issues and implement updates as needed.',
+      },
+    ],
+  },
+
+  benefitsOfHiringFrontEndDevelopers: {
+    title1: 'Benefits of Hiring ',
+    colouredTitle: 'Front End  Developers',
+    title2: 'from us',
+
+    description:
+      'From free manager service to punctual delivery and precise timesheets, we offer multiple benefits to a client when they hire Front End developers from Primathon.',
+    cardData: [
+      {
+        id: 1,
+        title: 'Get a Dedicated Project Manager',
+        description:
+          "No matter what, you'll get a complimentary project manager from us. They'll handle all the nitty-gritty stuff like planning, setting timelines, and making sure everyone's on track. Their job? To guarantee you're getting top-notch results every step of the way with Primathon.",
+        listItems: [
+          'Analyze the Progress of the Project',
+          'Ensure Client Satisfaction',
+          'Keeps you updated throughout the Project',
+        ],
+        imageSrc: '/assets/angular-js/dedicated-project-manager.png',
+        imageAlt: 'Dedicated Project Manager discussing project',
+      },
+      {
+        id: 2,
+        title: 'Stay in the Loop with Daily and Monthly Task Records',
+        description:
+          "We provide daily updates and summaries of tasks finished, challenges encountered, and milestones reached. Hire Front End Developers from us and at the end of each month, you'll receive a comprehensive timesheet detailing team activities and hours allocated to each task. This will help you to review payments based on completed work.",
+        listItems: ['Keep Tabs on Progress', 'Quality Results', 'Optimize Time Management'],
+        imageSrc: '/assets/angular-js/task-records.png',
+        imageAlt: 'Daily and Monthly Task Records',
+      },
+      {
+        id: 3,
+        title: 'Diverse Talent Pool',
+        description:
+          'When you hire a Front End Developer from Primathon, you gain access to a wealth of knowledge spanning various Front End frameworks and libraries, ensuring that your project receives the specialized skills it requires.',
+        listItems: ['Decrease the Chances of Project Disruption', 'Simplify Task'],
+        imageSrc: '/assets/emberjs/strategy.png',
+        imageAlt: 'Diverse Talent Pool',
+      },
+    ],
+  },
+
+  table: {
+    title: 'Hire Front End Developers From Primathon Vs Other Company',
+    tableHeading: ['', 'Primathon', 'Other Company', 'Freelancers'],
+    tableRows: [
+      {
+        id: 1,
+        tableData: [
+          { id: 1, text: 'Failure Rate', bgColor: '#ffffff' },
+          { id: 2, text: 'x', bgColor: '#FFDCDC' },
+          { id: 3, text: 'Low', bgColor: '#ffffff' },
+          { id: 4, text: 'Very Low', bgColor: '#ffffff' },
+        ],
+      },
+
+      {
+        id: 2,
+        tableData: [
+          { id: 1, text: 'Pre-assessed Developers', bgColor: '#ffffff' },
+          { id: 2, text: '✓', bgColor: '#24B768' },
+          { id: 3, text: 'X', bgColor: '#FFDCDC' },
+          { id: 4, text: 'X', bgColor: '#FFDCDC' },
+        ],
+      },
+
+      {
+        id: 3,
+        tableData: [
+          { id: 1, text: 'Results', bgColor: '#ffffff' },
+          { id: 2, text: '100% Premium Quality', bgColor: '#ffffff' },
+          { id: 3, text: 'Good', bgColor: '#ffffff' },
+          { id: 4, text: 'Unsure', bgColor: '#ffffff' },
+        ],
+      },
+
+      {
+        id: 4,
+        tableData: [
+          { id: 1, text: 'Documentation and Security', bgColor: '#ffffff' },
+          { id: 2, text: '✓', bgColor: '#24B768' },
+          { id: 3, text: 'X', bgColor: '#FFDCDC' },
+          { id: 4, text: 'X', bgColor: '#FFDCDC' },
+        ],
+      },
+
+      {
+        id: 5,
+        tableData: [
+          { id: 1, text: 'Rates', bgColor: '#ffffff' },
+          { id: 2, text: 'Reasonable', bgColor: '#ffffff' },
+          { id: 3, text: 'High Cost', bgColor: '#ffffff' },
+          { id: 4, text: 'High Cost', bgColor: '#ffffff' },
+        ],
+      },
+
+      {
+        id: 6,
+        tableData: [
+          { id: 1, text: 'Quality Guarantee', bgColor: '#ffffff' },
+          { id: 2, text: '✓', bgColor: '#24B768' },
+          { id: 3, text: 'X', bgColor: '#FFDCDC' },
+          { id: 4, text: 'Unsure', bgColor: '#FFDCDC' },
+        ],
+      },
+    ],
+
+    mobileTableData: [
+      {
+        id: 1,
+        title: 'Failure Rate',
+        tableHeading: ['Primathon', 'Other Company', 'Freelancers'],
+        tableData: [
+          { id: 1, text: 'x', bgColor: '#ffffff' },
+          { id: 2, text: 'Low', bgColor: '#ffffff' },
+          { id: 3, text: 'Very Low', bgColor: '#ffffff' },
+        ],
+      },
+      {
+        id: 2,
+        title: 'Pre-assessed Developers',
+        tableHeading: ['Primathon', 'Other Company', 'Freelancers'],
+        tableData: [
+          { id: 1, text: '✓', bgColor: '#24B768' },
+          { id: 2, text: 'X', bgColor: '#FFDCDC' },
+          { id: 3, text: 'X', bgColor: '#FFDCDC' },
+        ],
+      },
+      {
+        id: 3,
+        title: 'Results',
+        tableHeading: ['Primathon', 'Other Company', 'Freelancers'],
+        tableData: [
+          { id: 1, text: '100% Premium Quality', bgColor: '#ffffff' },
+          { id: 2, text: 'Good', bgColor: '#ffffff' },
+          { id: 3, text: 'Unsure', bgColor: '#ffffff' },
+        ],
+      },
+      {
+        id: 4,
+        title: 'Documentation and Security',
+        tableHeading: ['Primathon', 'Other Company', 'Freelancers'],
+        tableData: [
+          { id: 1, text: '✓', bgColor: '#24B768' },
+          { id: 2, text: 'X', bgColor: '#FFDCDC' },
+          { id: 3, text: 'X', bgColor: '#FFDCDC' },
+        ],
+      },
+      {
+        id: 5,
+        title: 'Rates',
+        tableHeading: ['Primathon', 'Other Company', 'Freelancers'],
+        tableData: [
+          { id: 1, text: 'Reasonable', bgColor: '#ffffff' },
+          { id: 2, text: 'High Cost', bgColor: '#ffffff' },
+          { id: 3, text: 'High Cost', bgColor: '#ffffff' },
+        ],
+      },
+      {
+        id: 5,
+        title: 'Quality Guarantee',
+        tableHeading: ['Primathon', 'Other Company', 'Freelancers'],
+        tableData: [
+          { id: 1, text: '✓', bgColor: '#24B768' },
+          { id: 2, text: 'X', bgColor: '#FFDCDC' },
+          { id: 3, text: 'Unsure', bgColor: '#FFDCDC' },
+        ],
+      },
+    ],
+  },
+
+  caseStudies: {
+    title: 'Our Case Studies',
+    subtitle: 'Explore Our Portfolio of Front End Development Projects',
+  },
+
+  faqs: {
+    title: 'FAQs',
+    cardData: [
+      {
+        id: 1,
+        question: 'What qualifications and experience do your Front End developers have?',
+        answer: [
+          'Our Front End developers boast a minimum of 7 years of experience in Front End development, demonstrating proficiency in various frameworks and libraries such as Front End, Front End 2+, and RxJS. They hold degrees in computer science or related disciplines and have a proven track record of delivering successful projects within the Front End ecosystem.',
+        ],
+      },
+      {
+        id: 2,
+        question: 'How do I hire Front End developers?',
+        answer: [
+          'Hiring skilled Front End developers can be challenging, but with Turing, an AI-powered talent platform, you can source the best candidates for your company from talent pools worldwide in just a few days and at reasonable prices',
+        ],
+      },
+      {
+        id: 3,
+        question: 'Will I get post-app development support?',
+        answer: [
+          'Yes, we offer comprehensive post-app development support! Through our flexible bucket model, you can hire a Front End programmer for a specified duration and access dedicated app support and maintenance services whenever necessary, eliminating the need for a full-time programmer on your team.',
+        ],
+      },
+      {
+        id: 4,
+        question: 'Can I hire a Front End developer for hourly or project-based tasks?',
+        answer: [
+          ' Certainly! At Primathon, we provide flexible hiring models including hourly, monthly, and yearly hiring options. You can hire a Front End developer as per your project requirements.',
+        ],
+      },
+    ],
+  },
+};
