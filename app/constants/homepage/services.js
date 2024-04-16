@@ -12,39 +12,43 @@ export const SERVICE_DATA = {
       infoPoint: [
         {
           text: 'Dashboards and Data visualization',
-          url: '/services/end-to-end-products/dashboard-and-data-visualization'
+          url: '/services/end-to-end-products/dashboard-and-data-visualization',
         },
         {
           text: 'Shopify Stores',
-          url: '/services/end-to-end-products/shopify-stores'
+          url: '/services/end-to-end-products/shopify-stores',
         },
         {
           text: 'Booking platforms',
-          url: '/services/end-to-end-products/booking-platforms'
+          url: '/services/end-to-end-products/booking-platforms',
         },
         {
           text: 'Admin panels and CMS',
-          url: '/services/end-to-end-products/admin-panels-and-cms'
+          url: '/services/end-to-end-products/admin-panels-and-cms',
         },
         {
           text: 'Web & Mobile App development',
-          url: '/services/end-to-end-products/web-and-mobile-app-development'
-        },
-        {
-          text: 'AI/ML based Recommendation engines',
-          url: '/services/end-to-end-products/ai-ml-based-recommendation-engines'
+          url: '/services/end-to-end-products/web-and-mobile-app-development',
         },
         {
           text: 'ERC20 Tokens',
-          url: '/services/end-to-end-products/erc20-token'
+          url: '/services/end-to-end-products/erc20-token',
         },
         {
           text: 'Smart Contracts',
-          url: '/services/end-to-end-products/smart-contract'
+          url: '/services/end-to-end-products/smart-contract',
         },
         {
-          text: 'E-commerce Marketplace/platform',
-          url: '#'
+          text: 'EmberJs Services',
+          url: '/ember-js-development-services',
+        },
+        {
+          text: 'ChatGPT Services',
+          url: '/services/end-to-end-products/chatgpt',
+        },
+        {
+          text: 'AI/ML based Recommendation engines',
+          url: '/services/end-to-end-products/ai-ml-based-recommendation-engines',
         },
       ],
     },
@@ -58,28 +62,60 @@ export const SERVICE_DATA = {
       infoPoint: [
         {
           text: 'Frontend Developers',
-          url: '/services/staff-augmentation/hire-frontend-developers'
+          url: '/services/staff-augmentation/hire-frontend-developers',
         },
         {
           text: 'Backend developers',
-          url: '/services/staff-augmentation/hire-backend-developers'
-        },
-        {
-          text: 'Full-stack developers',
-          url: '#'
+          url: '/services/staff-augmentation/hire-backend-developers',
         },
         {
           text: 'Product managers',
-          url: '/services/staff-augmentation/product-managers'
+          url: '/services/staff-augmentation/product-managers',
         },
         {
           text: 'Quality Analysts',
-          url: '/services/staff-augmentation/quality-analysts'
+          url: '/services/staff-augmentation/quality-analysts',
         },
         {
           text: 'Product Designers',
-          url: '/services/staff-augmentation/uiux-designers'
-        }
+          url: '/services/staff-augmentation/uiux-designers',
+        },
+        {
+          text: 'Android developers',
+          url: '/services/staff-augmentation/hire-android-developers',
+        },
+        {
+          text: 'Python developers',
+          url: '/services/staff-augmentation/hire-python-developers',
+        },
+        {
+          text: 'Angular developers',
+          url: '/services/staff-augmentation/hire-angular-developers',
+        },
+        {
+          text: 'JavaScript developers',
+          url: '/services/staff-augmentation/hire-javaScript-developers',
+        },
+        {
+          text: 'React developers',
+          url: '/services/staff-augmentation/hire-react-developers',
+        },
+        {
+          text: 'IOS developers',
+          url: '/services/staff-augmentation/hire-ios-developers',
+        },
+        {
+          text: 'Swift developers',
+          url: '/services/staff-augmentation/hire-swift-developers',
+        },
+        {
+          text: 'Vue developers',
+          url: '/services/staff-augmentation/hire-vue-developers',
+        },
+        {
+          text: 'Ember.js developers',
+          url: '/services/staff-augmentation/hire-ember-developers',
+        },
       ],
     },
     {
