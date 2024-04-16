@@ -1,5 +1,4 @@
 .technology-page-options {
-  height: 420px;
   z-index: 15;
   position: absolute;
   top: 50px;
@@ -10,6 +9,7 @@
   background-color: #ffffff;
   box-sizing: border-box;
   box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.05);
+  border: 2px solid;
   /* display: none; */
 }
 

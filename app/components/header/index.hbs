@@ -37,7 +37,7 @@
       <LinkTo @route='index' class='menu-home' {{on 'click' this.closeOpenMenu}}>
         Home
       </LinkTo>
-      
+
       <div class='service-page-dialog'>
         <LinkTo @route='services.end-to-end-products' class='menu-service desktop-menu-link'>
           Our Services
@@ -90,6 +90,68 @@
           {{on 'click' (fn this.closeOpenMenu 'services')}}
         >
           Build and Manage
+        </LinkTo>
+      </div>
+      <div class='service-page-dialog'>
+        <LinkTo @route='solutions.search-gpt' class='menu-service desktop-menu-link'>
+          Solutions
+        </LinkTo>
+        <Solutions::PageOptions class='service-page-dialog-box' />
+      </div>
+      <p class='menu-service mobile-menu-link' id='our-services' {{on 'click' (fn this.onMenuOpen 'solutions')}}>
+        <span>Solutions</span>
+        {{#if this.openSolutionsMenu}}
+          <img
+            class='up-down-icon'
+            src='/assets/images/arrow-up.svg'
+            height='10px'
+            width='10px'
+            alt='button icon'
+            title='button icon'
+          />
+        {{else}}
+          <img
+            class='up-down-icon'
+            src='/assets/images/arrow-down.svg'
+            height='10px'
+            width='10px'
+            alt='button icon'
+            title='button icon'
+          />
+        {{/if}}
+      </p>
+      <div class='services-menu {{if this.openSolutionsMenu "services-menu-open"}} '>
+        <LinkTo
+          @route='solutions.ai-chatbot'
+          class='mobile-menu'
+          @activeClass='current-url'
+          {{on 'click' (fn this.closeOpenMenu 'solutions')}}
+        >
+          AI Conversational Chatbot
+        </LinkTo>
+        <LinkTo
+          @route='solutions.ai-discovery'
+          class='mobile-menu'
+          @activeClass='current-url'
+          {{on 'click' (fn this.closeOpenMenu 'solutions')}}
+        >
+          AI Discovery
+        </LinkTo>
+        <LinkTo
+          @route='solutions.search-gpt'
+          class='mobile-menu'
+          @activeClass='current-url'
+          {{on 'click' (fn this.closeOpenMenu 'solutions')}}
+        >
+          Search GPT
+        </LinkTo>
+        <LinkTo
+          @route='solutions.customer-behavior-analysis-tool'
+          class='mobile-menu'
+          @activeClass='current-url'
+          {{on 'click' (fn this.closeOpenMenu 'solutions')}}
+        >
+          Customer Behavior Analysis Tool
         </LinkTo>
       </div>
       <div class='service-page-dialog'>

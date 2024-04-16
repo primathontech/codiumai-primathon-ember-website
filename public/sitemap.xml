@@ -114,8 +114,12 @@
     <loc>https://primathon.in/services/staff-augmentation/hire-swift-developers</loc>
   </url>
 
-   <url>
+  <url>
     <loc>https://primathon.in/services/staff-augmentation/hire-vue-developers</loc>
+  </url>
+
+  <url>
+    <loc>https://primathon.in/services/staff-augmentation/hire-ember-developers</loc>
   </url>
 
   <url>
@@ -301,5 +305,21 @@
 
   <url>
     <loc>https://primathon.in/technologies/swift</loc>
+  </url>
+
+  <url>
+    <loc>https://primathon.in/solutions/ai-chatbot</loc>
+  </url>
+
+  <url>
+    <loc>https://primathon.in/solutions/ai-discovery</loc>
+  </url>
+
+  <url>
+    <loc>https://primathon.in/solutions/search-gpt</loc>
+  </url>
+
+  <url>
+    <loc>https://primathon.in/solutions/customer-behavior-analysis-tool</loc>
   </url>
 </urlset>
