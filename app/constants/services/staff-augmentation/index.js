@@ -4667,9 +4667,9 @@ export const BACKEND_DEVELOPER = {
         id: 1,
         tableData: [
           { id: 1, text: 'Failure Rate', bgColor: '#ffffff' },
-          { id: 2, text: 'X', bgColor: '#FFDCDC' },
+          { id: 2, text: 'Very Low', bgColor: '#ffffff' },
           { id: 3, text: 'Low', bgColor: '#ffffff' },
-          { id: 4, text: 'Very Low', bgColor: '#ffffff' },
+          { id: 4, text: 'Very High', bgColor: '#ffffff' },
         ],
       },
 
@@ -4719,7 +4719,7 @@ export const BACKEND_DEVELOPER = {
           { id: 1, text: 'Quality Guarantee', bgColor: '#ffffff' },
           { id: 2, text: '✓', bgColor: '#24B768' },
           { id: 3, text: 'X', bgColor: '#FFDCDC' },
-          { id: 4, text: 'Unsure', bgColor: '#ffffff' },
+          { id: 4, text: 'X', bgColor: '#FFDCDC' },
         ],
       },
     ],
@@ -4730,7 +4730,7 @@ export const BACKEND_DEVELOPER = {
         title: 'Failure Rate',
         tableHeading: ['Primathon', 'Other Company', 'Freelancers'],
         tableData: [
-          { id: 1, text: 'X', bgColor: '#FFDCDC' },
+          { id: 1, text: 'Very Low', bgColor: '#ffffff' },
           { id: 2, text: 'Low', bgColor: '#ffffff' },
           { id: 3, text: 'Very High', bgColor: '#ffffff' },
         ],
@@ -4783,7 +4783,7 @@ export const BACKEND_DEVELOPER = {
         tableData: [
           { id: 1, text: '✓', bgColor: '#24B768' },
           { id: 2, text: 'X', bgColor: '#FFDCDC' },
-          { id: 3, text: 'Unsure', bgColor: '#ffffff' },
+          { id: 3, text: 'X', bgColor: '#FFDCDC' },
         ],
       },
     ],
