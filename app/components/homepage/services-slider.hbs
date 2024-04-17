@@ -25,7 +25,7 @@
                 {{data.title}}
               </h3>
               <div class="service-subtitle">
-                <p id={{if (eq index 2) 'service-details'}}>
+                <p>
                   {{data.subTitle}}
                 </p>
                 {{#if @explore}}
@@ -45,7 +45,7 @@
 </div>
 <div class="service-categories-spacer"></div>
 {{#unless @notShowFluidDetails}}
-  <div class="container-fluid service-details" id="fluid-service-details">
+  <div class="container-fluid service-details" id="service-details">
     <div class="container">
       <AnimatedContainer>
         {{#animated-value this.activeCardData rules=this.rules duration=300 as |v|}}
