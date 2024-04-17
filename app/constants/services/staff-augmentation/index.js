@@ -4422,9 +4422,9 @@ export const FRONTEND_DEVELOPER = {
         id: 1,
         tableData: [
           { id: 1, text: 'Failure Rate', bgColor: '#ffffff' },
-          { id: 2, text: 'x', bgColor: '#FFDCDC' },
+          { id: 2, text: 'Very Low', bgColor: '#ffffff' },
           { id: 3, text: 'Low', bgColor: '#ffffff' },
-          { id: 4, text: 'Very Low', bgColor: '#ffffff' },
+          { id: 4, text: 'Very High', bgColor: '#ffffff' },
         ],
       },
 
@@ -4485,9 +4485,9 @@ export const FRONTEND_DEVELOPER = {
         title: 'Failure Rate',
         tableHeading: ['Primathon', 'Other Company', 'Freelancers'],
         tableData: [
-          { id: 1, text: 'x', bgColor: '#ffffff' },
+          { id: 1, text: 'Very Low', bgColor: '#ffffff' },
           { id: 2, text: 'Low', bgColor: '#ffffff' },
-          { id: 3, text: 'Very Low', bgColor: '#ffffff' },
+          { id: 3, text: 'Very High', bgColor: '#ffffff' },
         ],
       },
       {
