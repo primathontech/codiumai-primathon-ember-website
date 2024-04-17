@@ -4218,7 +4218,7 @@ export const FRONTEND_DEVELOPER = {
     ctaText1: 'Book a Call',
     ctaText2: 'Get Free Consultation',
     redirect: '/contact',
-    imageSrc: '/assets/javascript/hire-javascript-herosection-img.png',
+    imageSrc: '/assets/frontend/hire-frontend-developer.png',
     imageAlt: 'Hire JavaScript',
   },
 
@@ -4245,42 +4245,42 @@ export const FRONTEND_DEVELOPER = {
     cardData: [
       {
         id: 1,
-        imageSrc: '/assets/angular-js/custom-angular-solutions.svg',
+        imageSrc: '/assets/frontend/customised-front-end-design.svg',
         cardTitle: 'Customised Front-End Design and Architecture',
         content:
           'We use the latest technologies for captivating and responsive user experiences. Being an experienced front end development company, we merge your vision with expert development capabilities to achieve your goals.',
       },
       {
         id: 2,
-        imageSrc: '/assets/python/data-analysis.png',
+        imageSrc: '/assets/frontend/ui-ux-design.svg',
         cardTitle: 'UI/UX Design and Development',
         content:
           'From concept to execution, our designers ensure a captivating user experience tailored to your produc.',
       },
       {
         id: 3,
-        imageSrc: '/assets/angular-js/angular-consulting.svg',
+        imageSrc: '/assets/frontend/html5-css-development.svg',
         cardTitle: 'HTML5/CSS Development',
         content:
           'With our expertise, we aim to future-proof your digital platform by leveraging HTML5 and CSS components for resilient and targeted business solutions.',
       },
       {
         id: 4,
-        imageSrc: '/assets/python/python-web-development.png',
+        imageSrc: '/assets/frontend/app-Interface-development.svg',
         cardTitle: 'Web App Interface Development',
         content:
           ' We design visually appealing websites and mobile apps to Enhance web app potential with appealing interfaces that convert leads and fuel growth.',
       },
       {
         id: 5,
-        imageSrc: '/assets/javascript/javaScript-maintenance.svg',
+        imageSrc: '/assets/frontend/single-page-app-development.svg',
         cardTitle: 'Single Page App Development',
         content:
           'Because we are a proficient front end development company, we utilize cutting-edge technologies to craft dynamic single-page applications with modern features.',
       },
       {
         id: 6,
-        imageSrc: '/assets/javascript/javaScript-design.svg',
+        imageSrc: '/assets/frontend/pwa-app-development-services.svg',
         cardTitle: 'PWA App Development Services',
         content:
           'Our specialists create secure and scalable Progressive Web Applications for seamless cross-platform experiences.',
@@ -4336,7 +4336,7 @@ export const FRONTEND_DEVELOPER = {
 
   frontEndDevelopmentStrategy: {
     title: 'An Overview of Our Front End Development Approach',
-    imageSrc: '/assets/javascript/development-strategy.png',
+    imageSrc: '/assets/frontend/development-strategy.png',
     imageAlt: 'Development Strategy',
     cardData: [
       {
