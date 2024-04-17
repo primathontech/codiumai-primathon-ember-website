@@ -179,9 +179,9 @@
 }
 
 .service-details:after {
-  border-width: 8px;
+  /* border-width: 8px;
   border-top-color: #24b768;
-  top: -20px;
+  top: -20px; */
 }
 
 .service-details:before {
@@ -204,7 +204,7 @@
 .service-details-card h3 {
   font-size: 24px;
   font-weight: 600;
-  color: #cccccc;
+  color: #1a284d;
   line-height: 1.6;
   /* text-transform: uppercase; */
   text-align: center;
@@ -341,12 +341,12 @@
   }
 
   .service-details {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     background-color: #f4f4f4;
     margin-top: 30px;
     position: static;
-    height: 400px;
+    height: 440px;
   }
 
   /* Service Card Active */

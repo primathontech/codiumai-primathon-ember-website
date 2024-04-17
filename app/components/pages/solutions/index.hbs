@@ -4,7 +4,9 @@
 <Services::HeroSectionNew @data={{@heroSection}} @imgStyle={{@heroSectionImgStyle}} class={{@heroSectionClass}} />
 <Homepage::PartnersSection />
 <Chatgpt::Chatgptuse @useCases={{@services}} />
-<Services::CallUs @data={{@data.data.ctaSection1}} />
+{{#if @ctaSection1}}
+  <Services::CallUs @data={{@ctaSection1}} />
+{{/if}}
 {{#if @bulletsList2}}
   <Services::BulletsList @data={{@bulletsList2}} @imgStyle={{@bulletsListImgStyle2}} />
 {{/if}}
@@ -20,7 +22,9 @@
 {{#if @bulletsList3}}
   <Services::BulletsList @data={{@bulletsList3}} @imgStyle={{@bulletsListImgStyle3}} />
 {{/if}}
-<Services::CallUs @data={{@data.data.ctaSection2}} />
+{{#if @data.data.ctaSection2}}
+  <Services::CallUs @data={{@data.data.ctaSection2}} />
+{{/if}}
 <Services::BulletsList @data={{@bulletsList}} @imgStyle={{@bulletsListImgStyle}} />
 {{#if @whyHire}}
   <Services::WhyHireSection @data={{@whyHire}} />
@@ -29,5 +33,19 @@
   <Services::Benefits @data={{@applications}} />
 {{/if}}
 <Chatgpt::Getting-started @gettingStarted={{@features}} />
+{{#if @caseStudies}}
+  <CaseStudies::Post @data={{@caseStudies}} />
+{{/if}}
+{{#if @features2}}
+  <Chatgpt::Getting-started @gettingStarted={{@features2}} />
+{{/if}}
+<Homepage::Testimonial
+  @title={{@data.testinomialData.title}}
+  @description={{@data.testinomialData.description}}
+  @data={{@data.testinomialData.data}}
+/>
+{{#if @benefits2}}
+  <Chatgpt::Benefits @benefits={{@benefits2}} />
+{{/if}}
 <Services::FaqList @title={{@faqs.title}} @data={{@faqs.cardData}} />
 <Footer />

@@ -3,6 +3,9 @@
     <div class='headingContainer'>
       <h2 class='heading max-w-[750px]'>{{@useCases.title}} <span>{{@useCases.subTitle}}</span></h2>
     </div>
+    {{#if @useCases.description}}
+      <p class='max-w-[1050px] mx-auto'>{{@useCases.description}}</p>
+    {{/if}}
   </div>
   <div class='cardContainer'>
     <div class='cards'>

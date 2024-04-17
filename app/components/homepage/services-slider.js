@@ -24,7 +24,7 @@ export default class HomepageServicesSliderComponent extends Component {
     if (width < 1200) {
       const elm = document.getElementById('service-details');
       if (elm) {
-        elm.scrollIntoView({ behavior: 'smooth' });
+        elm.scrollIntoView({ behavior: 'smooth', block: 'start' });
       }
     }
 

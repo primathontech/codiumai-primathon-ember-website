@@ -5,7 +5,9 @@
       <span>{{@gettingStarted.subTitle}}</span>
     </h2>
   </div>
-
+  {{#if @gettingStarted.description}}
+    <p class="max-w-[1050px] mx-auto">{{@gettingStarted.description}}</p>
+  {{/if}}
   <div class='chatgpt-getStartedCardContainer'>
     {{#each @gettingStarted.cardData as |card|}}
     <div class='chatgpt-getStartedCard'>
