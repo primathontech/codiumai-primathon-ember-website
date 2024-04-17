@@ -4355,7 +4355,7 @@ export const FRONTEND_DEVELOPER_NEW = {
     title2: 'Developers',
     subtitle: 'Reasonable, Dedicated Experts for Your Business',
     description:
-      "Navigate the digital landscape with creativity! Let’s collaborate to shape tomorrow's digital world along with our trusted front end development experts. Whether it's tailored solutions or smooth transitions, our seasoned experts guarantee excellence in your endeavors..",
+      "Navigate the digital landscape with creativity! Let’s collaborate to shape tomorrow's digital world along with our trusted front end development experts. Whether it's tailored solutions or smooth transitions, our seasoned experts guarantee excellence in your endeavors.",
     listItems: [
       {
         id: 1,
