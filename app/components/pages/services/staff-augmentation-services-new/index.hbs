@@ -20,5 +20,8 @@
 <CaseStudies::Post @data={{@caseStudies}} />
 <Services::Benefits @data={{@benefits}} />
 <Services::ComparisonTable @data={{@table}} />
+{{#if @features}}
+  <Chatgpt::Getting-started @gettingStarted={{@features}} />
+{{/if}}
 <Services::FaqList @title={{@faqs.title}} @data={{@faqs.cardData}} />
 <Footer />

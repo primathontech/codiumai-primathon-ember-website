@@ -1,20 +1,20 @@
 import Route from '@ember/routing/route';
-import { BACKEND } from '../../../constants/services/staff-augmentation';
+import { BACKEND_DEVELOPER } from '../../../constants/services/staff-augmentation';
 import { TESTIMONIAL_DATA } from '../../../constants/homepage/testimonial';
 import { inject as service } from '@ember/service';
 
 export default class ServicesStaffAugmentationBackendDevelopersRoute extends Route {
   @service headData;
   async model() {
-    const backendData = BACKEND;
+    const data = BACKEND_DEVELOPER;
     const testinomialData = TESTIMONIAL_DATA;
-    return { backendData, testinomialData };
+    return { data, testinomialData };
   }
 
   beforeModel() {
-    const title = "Redefine Your Web Development Journey with Primathon's Backend Services";
+    const title = 'Hire Backend developers | Dedicated & Certified BackendProgrammers | Primathon';
     const description =
-      'Are you looking for seamless and hassle free backend services? With Primathon, you have the chance to elevate your website with customized solutions today.';
+      'Hire Backend developers from Primathon for solutions tailored to your business needs. Trust our professionals and expert team for seamless integration.';
 
     this.headData.setData({ title, description });
   }
