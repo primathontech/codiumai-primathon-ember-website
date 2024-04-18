@@ -293,338 +293,6 @@ export const STAFF_AUGMENTATIONS = {
   },
 };
 
-export const FRONTEND = {
-  heroSection: {
-    title: 'Affordable Front End Development Services',
-    subTitle: "Transform Your Web Development Experience with Primathon's Front End Services",
-    buttonData: 'Get a Frontend Developer',
-    redirect: '/contact',
-  },
-
-  serviceByPrimathon: {
-    heading: 'Top-Notch Front-End Development Services by Primathon',
-    description: [
-      "Elevate your digital presence with Primathon's top-notch front-end development services. Our  team of professionals comprehends your business objectives and crafts top-tier solutions, leveraging cutting-edge front-end technologies and best practices.",
-      'From web applications to seamless mobile experiences, we excel in delivering robust user engagement across various platforms. Primathon has empowered countless businesses to scale operations and gain a competitive edge.',
-    ],
-    buttonText: 'Contact Us',
-    buttonLink: '/contact',
-    imageSrc: '/assets/frontend/serviceByPrimathon.png',
-  },
-
-  customizedFrontendDevelopment: {
-    title: 'Our Offerings: Customized Front End Development Solutions to Achieve Your Business Goals',
-    cardData: [
-      {
-        id: '1',
-        cardTitle: 'Customised Front-End Design and Architecture',
-        content:
-          'We use the latest technologies for captivating and responsive user experiences. Being an experienced front end development company, we merge your vision with expert development capabilities to achieve your goals.',
-      },
-      {
-        id: '2',
-        cardTitle: 'UI/UX Design and Development',
-        content:
-          'From concept to execution, our designers ensure a captivating user experience tailored to your product.',
-      },
-      {
-        id: '3',
-        cardTitle: 'HTML5/CSS Development',
-        content:
-          'With our expertise, we aim to future-proof your digital platform by leveraging HTML5 and CSS components for resilient and targeted business solutions.',
-      },
-      {
-        id: '4',
-        cardTitle: 'Web App Interface Development',
-        content: 'Enhance web app potential with appealing interfaces that convert leads and fuel growth.',
-      },
-      {
-        id: '5',
-        cardTitle: 'Single Page App Development',
-        content:
-          'Because we are a proficient front end development company, we utilize cutting-edge technologies to craft dynamic single-page applications with modern features.',
-      },
-      {
-        id: '6',
-        cardTitle: 'PWA App Development Services',
-        content:
-          'Our specialists create secure and scalable Progressive Web Applications for seamless cross-platform experiences.',
-      },
-    ],
-  },
-
-  whyChoose: {
-    title: 'Why Choose Primathon for Your Front-end Development Needs?',
-    cardData: [
-      {
-        id: 1,
-        cardTitle: 'Cutting-edge Solutions',
-        cardData:
-          'Our experienced developers leverage the latest front-end technologies for unparalleled service quality, ensuring error-free development aligned with industry best practices.',
-      },
-      {
-        id: 2,
-        cardTitle: 'Proven Expertise',
-        cardData:
-          'Benefit from the experience of our highly competent front-end development consultancy, equipped to tackle any TechBiz challenge.',
-      },
-      {
-        id: 3,
-        cardTitle: 'Cost and Time Efficiency',
-        cardData:
-          'Achieve optimal cost and time efficiency by outsourcing front-end services, eliminating the need for lengthy and resource-intensive in-house hiring processes.',
-      },
-      {
-        id: 4,
-        cardTitle: 'Guaranteed Project Delivery',
-        cardData:
-          'Rest assured with our commitment to guaranteed project delivery, ensuring timely completion of milestones.',
-      },
-      {
-        id: 5,
-        cardTitle: 'Uncompromising Quality',
-        cardData:
-          'Rely on our use of native technologies to deliver the best quality solutions tailored to your business needs.',
-      },
-    ],
-  },
-
-  nextLevelWebDevelopment: {
-    title: 'We Offer Next-Level Web Development for Next-Gen Businesses',
-    description: 'Partner with Primathon to experience excellence in Front-end development. Let’s get in touch today.',
-    ctaText: 'Contact Us',
-    ctaRoute: 'contact',
-  },
-
-  primathonApproach: {
-    heading: 'Primathon’s Approach to Front-End Development',
-    description: [
-      'At Primathon, our approach to Front-end development encompasses careful planning, robust development, rigorous testing, and seamless deployment phases. We prioritize scalability, maintainability, and security to deliver web solutions that perfectly align with your business objectives.',
-    ],
-    buttonText: 'Contact Us',
-    buttonLink: '/contact',
-    imageSrc: '/assets/frontend/primathonApproach.png',
-  },
-
-  advantagesOfFrontendDevelopment: {
-    title: 'Advantages of Front End Development Integrated into Our Offerings',
-    cardData: [
-      {
-        id: '1',
-        cardTitle: 'Quality Assurance',
-        content:
-          'Our rigorous testing ensures bug-free applications that meet the highest performance and security standards.',
-      },
-      {
-        id: '2',
-        cardTitle: 'Agile & Adaptive Approach',
-        content: 'We adopt a flexible and adaptive approach to meet evolving project requirements.',
-      },
-      {
-        id: '3',
-        cardTitle: 'Rapid Development',
-        content: 'We prioritize rapid development to deliver results quickly and efficiently.',
-      },
-      {
-        id: '4',
-        cardTitle: 'Flexible Engagement',
-        content: 'Choose from co-development, fixed price, or time and materials models to suit your business needs.',
-      },
-      {
-        id: '5',
-        cardTitle: 'Continuous Support',
-        content: 'Our ongoing maintenance ensures optimal performance and user satisfaction post-launch.',
-      },
-    ],
-  },
-
-  commenceYourJourneyOfFrontendDevelopment: {
-    title: 'Commence Your Journey of Front-End Development Now',
-    description: "Contact us today to discover how our services can elevate your web application's performance.",
-    ctaText: 'Contact Us',
-    ctaRoute: 'contact',
-  },
-
-  driveInnovation: {
-    heading: "Fuel Innovation with Primathon's Front-End Development Services",
-    description: [
-      "Our transparent process ensures adjustments and progress checks, while tailored solutions meet unique business objectives. Foster Innovation with Primathon's Front-End Development Services.",
-    ],
-    buttonText: 'Contact Us',
-    buttonLink: '/contact',
-    imageSrc: '/assets/frontend/driveInnovation.png',
-  },
-};
-
-export const BACKEND = {
-  heroSection: {
-    title: 'Best Backend Development Service Provider Company',
-    subTitle: "Transform Your Web Development Experience with Primathon's Backend Services",
-    buttonData: 'Get a Backend Developer',
-    redirect: '/contact',
-  },
-
-  serviceByPrimathon: {
-    heading: 'Top-Notch Backend Development Services By Primathon',
-    description: [
-      'Experience premier Backend Development services by Primathon. With our resilient, adaptable, and high-efficiency backend expertise that are customized to match your enterprise needs, you can now take your business to the next level. Trust us for exceptional backend development that ensures seamless operations and earns user loyalty.',
-    ],
-    buttonText: 'Contact Us',
-    buttonLink: '/contact',
-    imageSrc: '/assets/backend/serviceByPrimathon.png',
-  },
-
-  customizedBackendDevelopment: {
-    title: 'What We Offer',
-    cardData: [
-      {
-        id: '1',
-        cardTitle: 'Custom Backend Development',
-        content:
-          'We create customized backend solutions for complex interfaces, ensuring efficient handling of data from diverse sources. Our expertise enables us to craft intelligent solutions to meet your specific needs.',
-      },
-      {
-        id: '2',
-        cardTitle: 'Backend CRM Development',
-        content:
-          'Our smart CRM solutions are powered by advanced backend technology to enhance business outputs. We implement CRM solutions that adhere to professional technology protocols and guidelines, ensuring efficiency and effectiveness.',
-      },
-      {
-        id: '3',
-        cardTitle: 'Mobile App Back-End Development',
-        content:
-          "We specialize in developing backends for native and cross-platform mobile applications. Whether it's Java/Kotlin, Swift, Flutter, React Native, or Kotlin Multiplatform, we ensure your app runs smoothly across different operating systems and devices.",
-      },
-      {
-        id: '4',
-        cardTitle: 'Backend API Management',
-        content:
-          'We create robust interfaces in secure environments to ensure seamless user experiences. Our team can assist you in building, deploying, and managing complex user interfaces using cutting-edge backend API development solutions.',
-      },
-      {
-        id: '5',
-        cardTitle: 'Data Storage Backend Apps',
-        content:
-          'Being a trustable backend development company, our high-performing backend applications support scalable cloud-computing services. With efficient data storage in cloud-based distributed database systems, we enable seamless scaling for your business needs.',
-      },
-      {
-        id: '6',
-        cardTitle: 'Cloud Migration Services',
-        content:
-          "To accommodate growth, we smoothly migrate your on-premises infrastructure to cloud servers. We assist you in adjusting to changing company needs and meeting market demands, whether you're using a public, private, or hybrid cloud server.",
-      },
-    ],
-  },
-
-  whyChoose: {
-    title: 'Why Choose Primathon for Your Backend Development Needs?',
-    cardData: [
-      {
-        id: 1,
-        cardTitle: 'Expertise',
-        cardData:
-          'Our team brings extensive experience and expertise in backend development, ensuring top-notch solutions tailored to your requirements.',
-      },
-      {
-        id: 2,
-        cardTitle: 'Innovation',
-        cardData:
-          'We leverage cutting-edge technologies and innovative approaches to deliver robust and scalable backend solutions that drive business growth.',
-      },
-      {
-        id: 3,
-        cardTitle: 'Customization',
-        cardData:
-          'We understand that every project is unique, and we tailor our backend development services to meet your specific business needs and goals.',
-      },
-      {
-        id: 4,
-        cardTitle: 'Reliability',
-        cardData:
-          'With Primathon, you can count on reliable backend solutions that perform seamlessly, even under heavy loads, ensuring uninterrupted operations for your business.',
-      },
-      {
-        id: 5,
-        cardTitle: 'Support',
-        cardData:
-          'Our dedicated support team is committed to providing ongoing assistance and maintenance to ensure your backend systems run smoothly and efficiently.',
-      },
-    ],
-  },
-
-  nextLevelWebDevelopment: {
-    title: 'Contact Primathon Today to Embrace the Future of Web Development',
-    description:
-      'Accelerate your web development journey with our precision and expertise. Give us a ring today to elevate your web experience.',
-    ctaText: 'Contact Us',
-    ctaRoute: 'contact',
-  },
-
-  primathonApproach: {
-    heading: 'Primathon’s Approach to Backend Development',
-    description: [
-      'At Primathon, our approach to backend development is client-focused and innovative. We start by understanding your unique needs, then use cutting-edge technologies to craft tailored solutions. Our rigorous testing ensures reliability and scalability. We prioritize scalability, maintainability, collaboration and provide ongoing support for smooth operations and solutions that perfectly align with your business objectives.',
-    ],
-    buttonText: 'Contact Us',
-    buttonLink: '/contact',
-    imageSrc: '/assets/backend/primathonApproach.png',
-  },
-
-  advantagesOfBackendDevelopment: {
-    title: 'Benefits of Back End Development Incorporated in Our Services',
-    cardData: [
-      {
-        id: '1',
-        cardTitle: 'Tailored Solutions',
-        content:
-          'The backend development services are meticulously crafted to address your unique business requirements and objectives, ensuring a perfect fit for your organization.',
-      },
-      {
-        id: '2',
-        cardTitle: 'Quality Assurance',
-        content:
-          'We employ rigorous testing and quality assurance methodologies to provide backend solutions, delivering robust, bug-free applications that consistently perform at the highest levels of reliability and security.',
-      },
-      {
-        id: '3',
-        cardTitle: 'Continuous Support',
-        content:
-          'Beyond launch, we provide ongoing support and maintenance services to ensure your backend applications operate smoothly and efficiently over time, guaranteeing optimal performance and user satisfaction.',
-      },
-      {
-        id: '4',
-        cardTitle: 'Scalability',
-        content:
-          'Our backend solutions are designed with scalability in mind, allowing your applications to seamlessly handle increasing loads and user demands as your business grows.',
-      },
-      {
-        id: '5',
-        cardTitle: 'Innovation',
-        content:
-          'We stay at the forefront of technological advancements, continuously exploring new tools and methodologies to ensure that our backend development services remain cutting-edge and future-proof.',
-      },
-    ],
-  },
-
-  commenceYourJourneyOfBackendDevelopment: {
-    title: 'Start Your Backend Project with Primathon',
-    description:
-      "Kickstart your Backend development journey with Primathon. Connect with us to discover how our services can elevate your web application's performance.",
-    ctaText: 'Contact Us',
-    ctaRoute: 'contact',
-  },
-
-  driveInnovation: {
-    heading: "Boost Your Business with Primathon's Backend Development Services",
-    description: [
-      'Experience a new standard of backend excellence tailored to your business needs. Our agile approach ensures seamless operations, reduced downtime, and enhanced security, empowering your business for success. Discover unparalleled expertise in backend development with Primathon now.',
-    ],
-    buttonText: 'Contact Us',
-    buttonLink: '/contact',
-    imageSrc: '/assets/backend/driveInnovation.png',
-  },
-};
-
 export const QUALITY = {
   title: 'Certified Software Quality Analyst Service India',
   sub_heading:
@@ -4343,6 +4011,848 @@ export const EMBER_DEVELOPER = {
         answer: [
           'Yes, we can certainly help you complete your incomplete app development project. Our experienced Ember.js developers can analyze your existing codebase, understand your project requirements, and work towards completing your application efficiently.',
         ],
+      },
+    ],
+  },
+};
+
+export const FRONTEND_DEVELOPER = {
+  heroSection: {
+    title1: 'Hire',
+    gradientTitle: 'Front End',
+    title2: 'Developers',
+    subtitle: 'Reasonable, Dedicated Experts for Your Business',
+    description:
+      "Navigate the digital landscape with creativity! Let’s collaborate to shape tomorrow's digital world along with our trusted front end development experts. Whether it's tailored solutions or smooth transitions, our seasoned experts guarantee excellence in your endeavors.",
+    listItems: [
+      {
+        id: 1,
+        text: '100% Skilled and Certified Developers',
+      },
+      {
+        id: 2,
+        text: 'Possesses an Average of 5+ Years of Experience',
+      },
+      {
+        id: 3,
+        text: 'Swift Onboarding Process',
+      },
+      {
+        id: 4,
+        text: 'Competitive Pricing Models',
+      },
+      {
+        id: 5,
+        text: 'Transparent and Smooth Communication',
+      },
+    ],
+    ctaText1: 'Book a Call',
+    ctaText2: 'Get Free Consultation',
+    redirect: '/contact',
+    imageSrc: '/assets/frontend/hire-frontend-developer.png',
+    imageAlt: 'Hire JavaScript',
+  },
+
+  elevateYourProject: {
+    title: 'Elevate Your Project with Premier Front End Developers in India',
+    description:
+      'Maximize the capabilities of Front End for your projects by collaborating with our seasoned team of professionals. With extensive experience and a commitment to creativity, we specialize in delivering tailored solutions tailored to your specific needs. Reach out to us today to harness the full potential of Front End for your projects.',
+    ctaText: 'GET IN TOUCH',
+    redirect: '/contact',
+    imageSrc: '/assets/python/elevate-your-project.png',
+    imageAlt: 'Elevate Your Project',
+  },
+
+  ctaSection: {
+    title: ' Enhance Your Project with Our Experienced Front End Professionals',
+    description:
+      'With years of expertise and a commitment to innovation, we deliver bespoke solutions tailored to your unique requirements. Partner with us and experience the difference.',
+    ctaText1: 'CONTACT US',
+    redirect1: '/contact',
+  },
+
+  frontEndDevelopmentServices: {
+    title: ' Explore Our Range of Expert Front End Development Services Services',
+    cardData: [
+      {
+        id: 1,
+        imageSrc: '/assets/frontend/customised-front-end-design.svg',
+        cardTitle: 'Customised Front-End Design and Architecture',
+        content:
+          'We use the latest technologies for captivating and responsive user experiences. Being an experienced front end development company, we merge your vision with expert development capabilities to achieve your goals.',
+      },
+      {
+        id: 2,
+        imageSrc: '/assets/frontend/ui-ux-design.svg',
+        cardTitle: 'UI/UX Design and Development',
+        content:
+          'From concept to execution, our designers ensure a captivating user experience tailored to your produc.',
+      },
+      {
+        id: 3,
+        imageSrc: '/assets/frontend/html5-css-development.svg',
+        cardTitle: 'HTML5/CSS Development',
+        content:
+          'With our expertise, we aim to future-proof your digital platform by leveraging HTML5 and CSS components for resilient and targeted business solutions.',
+      },
+      {
+        id: 4,
+        imageSrc: '/assets/frontend/app-Interface-development.svg',
+        cardTitle: 'Web App Interface Development',
+        content:
+          ' We design visually appealing websites and mobile apps to Enhance web app potential with appealing interfaces that convert leads and fuel growth.',
+      },
+      {
+        id: 5,
+        imageSrc: '/assets/frontend/single-page-app-development.svg',
+        cardTitle: 'Single Page App Development',
+        content:
+          'Because we are a proficient front end development company, we utilize cutting-edge technologies to craft dynamic single-page applications with modern features.',
+      },
+      {
+        id: 6,
+        imageSrc: '/assets/frontend/pwa-app-development-services.svg',
+        cardTitle: 'PWA App Development Services',
+        content:
+          'Our specialists create secure and scalable Progressive Web Applications for seamless cross-platform experiences.',
+      },
+    ],
+  },
+
+  ctaSection1: {
+    onlyDesc: true,
+    descp1: 'Hire Dedicated',
+    colouredDescp: 'Front End Developers',
+    descp2:
+      'eam based on your requirements. We provide various hiring engagement models tailored to meet the specific needs of your business.',
+    ctaText: 'GET IN TOUCH',
+    redirect: '/contact',
+    bgColor: '#F4F4F4',
+  },
+
+  whyChoose: {
+    title: 'Why Hire Front End Developers from Primathon?',
+    description:
+      'At Primathon, our Front End developers excel in both expertise and dedication, boasting over 7 years of industry experience. Leverage the proficiency of our dedicated Front End engineers to craft premium websites and applications customized to maximize benefits through event-driven solutions. Benefit from the support of our committed Front End developers, ensuring seamless development and the creation of scalable and high-performing applications with flawless implementation. With our adept Front End engineers, we are dedicated to simplifying complex development challenges, positioning our team uniquely to deliver exceptional Front End development solutions.',
+    listItems: [
+      { id: 1, text: 'Experience 1.5X Faster Delivery' },
+      { id: 2, text: 'Work at Your Time Zone' },
+      { id: 3, text: 'Hassle-free communication' },
+      { id: 4, text: '24/7 Support' },
+    ],
+    service1: { number: '6+', text: 'Years of business' },
+    service2: { number: '100+', text: 'Software Developers' },
+    service3: { number: '150+', text: 'Project Delivered' },
+    service4: { number: '100+', text: 'Happy Client' },
+  },
+
+  frontEndJourney: {
+    heading: 'Let us take your project on a journey!',
+    items: [
+      'You share your idea with us',
+      'We create a strategy for your project',
+      'Our Front End Developer starts building it',
+      'We deliver on time',
+    ],
+  },
+
+  ctaSection2: {
+    title: 'Want to Create a User-friendly Web Application?',
+    description:
+      "Hire our Front End  developer to improve your product's usability, satisfaction, and overall user experience.",
+    ctaText: 'HIRE US',
+    redirect: '/contact',
+    bgColor: '#21315B',
+  },
+
+  frontEndDevelopmentStrategy: {
+    title: 'An Overview of Our Front End Development Approach',
+    imageSrc: '/assets/frontend/development-strategy.png',
+    imageAlt: 'Development Strategy',
+    cardData: [
+      {
+        id: 1,
+        text: 'Requirement Analysis',
+        description:
+          'We begin by conducting a thorough analysis of your project requirements, ensuring a clear understanding of your objectives and goals.',
+      },
+      {
+        id: 2,
+        text: 'Planning and Design',
+        description:
+          'Next, we create a comprehensive plan and design layout for your Front End project, focusing on usability, scalability, and user experience.',
+      },
+      {
+        id: 3,
+        text: 'Development and Testing',
+        description:
+          'Our experienced Front End developers commence the development phase, implementing clean and maintainable code. Rigorous testing is conducted to ensure functionality and reliability.',
+      },
+      {
+        id: 4,
+        text: 'Implementation and Optimization',
+        description:
+          'We implement the developed features into your project and optimize performance for enhanced user experience. Load times are minimized, and responsiveness is maximized.',
+      },
+      {
+        id: 5,
+        text: 'Deployment and Support',
+        description:
+          'Once development is complete, we deploy your Front End solution to the desired environment. Ongoing support is provided to address any issues and implement updates as needed.',
+      },
+    ],
+  },
+
+  benefitsOfHiringFrontEndDevelopers: {
+    title1: 'Benefits of Hiring ',
+    colouredTitle: 'Front End  Developers',
+    title2: 'from us',
+
+    description:
+      'From free manager service to punctual delivery and precise timesheets, we offer multiple benefits to a client when they hire Front End developers from Primathon.',
+    cardData: [
+      {
+        id: 1,
+        title: 'Get a Dedicated Project Manager',
+        description:
+          "No matter what, you'll get a complimentary project manager from us. They'll handle all the nitty-gritty stuff like planning, setting timelines, and making sure everyone's on track. Their job? To guarantee you're getting top-notch results every step of the way with Primathon.",
+        listItems: [
+          'Analyze the Progress of the Project',
+          'Ensure Client Satisfaction',
+          'Keeps you updated throughout the Project',
+        ],
+        imageSrc: '/assets/angular-js/dedicated-project-manager.png',
+        imageAlt: 'Dedicated Project Manager discussing project',
+      },
+      {
+        id: 2,
+        title: 'Stay in the Loop with Daily and Monthly Task Records',
+        description:
+          "We provide daily updates and summaries of tasks finished, challenges encountered, and milestones reached. Hire Front End Developers from us and at the end of each month, you'll receive a comprehensive timesheet detailing team activities and hours allocated to each task. This will help you to review payments based on completed work.",
+        listItems: ['Keep Tabs on Progress', 'Quality Results', 'Optimize Time Management'],
+        imageSrc: '/assets/angular-js/task-records.png',
+        imageAlt: 'Daily and Monthly Task Records',
+      },
+      {
+        id: 3,
+        title: 'Diverse Talent Pool',
+        description:
+          'When you hire a Front End Developer from Primathon, you gain access to a wealth of knowledge spanning various Front End frameworks and libraries, ensuring that your project receives the specialized skills it requires.',
+        listItems: ['Decrease the Chances of Project Disruption', 'Simplify Task'],
+        imageSrc: '/assets/emberjs/strategy.png',
+        imageAlt: 'Diverse Talent Pool',
+      },
+    ],
+  },
+
+  table: {
+    title: 'Hire Front End Developers From Primathon Vs Other Company',
+    tableHeading: ['', 'Primathon', 'Other Company', 'Freelancers'],
+    tableRows: [
+      {
+        id: 1,
+        tableData: [
+          { id: 1, text: 'Failure Rate', bgColor: '#ffffff' },
+          { id: 2, text: 'Very Low', bgColor: '#ffffff' },
+          { id: 3, text: 'Low', bgColor: '#ffffff' },
+          { id: 4, text: 'Very High', bgColor: '#ffffff' },
+        ],
+      },
+
+      {
+        id: 2,
+        tableData: [
+          { id: 1, text: 'Pre-assessed Developers', bgColor: '#ffffff' },
+          { id: 2, text: '✓', bgColor: '#24B768' },
+          { id: 3, text: 'X', bgColor: '#FFDCDC' },
+          { id: 4, text: 'X', bgColor: '#FFDCDC' },
+        ],
+      },
+
+      {
+        id: 3,
+        tableData: [
+          { id: 1, text: 'Results', bgColor: '#ffffff' },
+          { id: 2, text: '100% Premium Quality', bgColor: '#ffffff' },
+          { id: 3, text: 'Good', bgColor: '#ffffff' },
+          { id: 4, text: 'Unsure', bgColor: '#ffffff' },
+        ],
+      },
+
+      {
+        id: 4,
+        tableData: [
+          { id: 1, text: 'Documentation and Security', bgColor: '#ffffff' },
+          { id: 2, text: '✓', bgColor: '#24B768' },
+          { id: 3, text: 'X', bgColor: '#FFDCDC' },
+          { id: 4, text: 'X', bgColor: '#FFDCDC' },
+        ],
+      },
+
+      {
+        id: 5,
+        tableData: [
+          { id: 1, text: 'Rates', bgColor: '#ffffff' },
+          { id: 2, text: 'Reasonable', bgColor: '#ffffff' },
+          { id: 3, text: 'High Cost', bgColor: '#ffffff' },
+          { id: 4, text: 'High Cost', bgColor: '#ffffff' },
+        ],
+      },
+
+      {
+        id: 6,
+        tableData: [
+          { id: 1, text: 'Quality Guarantee', bgColor: '#ffffff' },
+          { id: 2, text: '✓', bgColor: '#24B768' },
+          { id: 3, text: 'X', bgColor: '#FFDCDC' },
+          { id: 4, text: 'Unsure', bgColor: '#FFDCDC' },
+        ],
+      },
+    ],
+
+    mobileTableData: [
+      {
+        id: 1,
+        title: 'Failure Rate',
+        tableHeading: ['Primathon', 'Other Company', 'Freelancers'],
+        tableData: [
+          { id: 1, text: 'Very Low', bgColor: '#ffffff' },
+          { id: 2, text: 'Low', bgColor: '#ffffff' },
+          { id: 3, text: 'Very High', bgColor: '#ffffff' },
+        ],
+      },
+      {
+        id: 2,
+        title: 'Pre-assessed Developers',
+        tableHeading: ['Primathon', 'Other Company', 'Freelancers'],
+        tableData: [
+          { id: 1, text: '✓', bgColor: '#24B768' },
+          { id: 2, text: 'X', bgColor: '#FFDCDC' },
+          { id: 3, text: 'X', bgColor: '#FFDCDC' },
+        ],
+      },
+      {
+        id: 3,
+        title: 'Results',
+        tableHeading: ['Primathon', 'Other Company', 'Freelancers'],
+        tableData: [
+          { id: 1, text: '100% Premium Quality', bgColor: '#ffffff' },
+          { id: 2, text: 'Good', bgColor: '#ffffff' },
+          { id: 3, text: 'Unsure', bgColor: '#ffffff' },
+        ],
+      },
+      {
+        id: 4,
+        title: 'Documentation and Security',
+        tableHeading: ['Primathon', 'Other Company', 'Freelancers'],
+        tableData: [
+          { id: 1, text: '✓', bgColor: '#24B768' },
+          { id: 2, text: 'X', bgColor: '#FFDCDC' },
+          { id: 3, text: 'X', bgColor: '#FFDCDC' },
+        ],
+      },
+      {
+        id: 5,
+        title: 'Rates',
+        tableHeading: ['Primathon', 'Other Company', 'Freelancers'],
+        tableData: [
+          { id: 1, text: 'Reasonable', bgColor: '#ffffff' },
+          { id: 2, text: 'High Cost', bgColor: '#ffffff' },
+          { id: 3, text: 'High Cost', bgColor: '#ffffff' },
+        ],
+      },
+      {
+        id: 6,
+        title: 'Quality Guarantee',
+        tableHeading: ['Primathon', 'Other Company', 'Freelancers'],
+        tableData: [
+          { id: 1, text: '✓', bgColor: '#24B768' },
+          { id: 2, text: 'X', bgColor: '#FFDCDC' },
+          { id: 3, text: 'Unsure', bgColor: '#FFDCDC' },
+        ],
+      },
+    ],
+  },
+
+  caseStudies: {
+    title: 'Our Case Studies',
+    subtitle: 'Explore Our Portfolio of Front End Development Projects',
+  },
+
+  faqs: {
+    title: 'FAQs',
+    cardData: [
+      {
+        id: 1,
+        question: 'What qualifications and experience do your Front End developers have?',
+        answer: [
+          'Our Front End developers boast a minimum of 7 years of experience in Front End development, demonstrating proficiency in various frameworks and libraries such as Front End, Front End 2+, and RxJS. They hold degrees in computer science or related disciplines and have a proven track record of delivering successful projects within the Front End ecosystem.',
+        ],
+      },
+      {
+        id: 2,
+        question: 'How do I hire Front End developers?',
+        answer: [
+          'Hiring skilled Front End developers can be challenging, but with Turing, an AI-powered talent platform, you can source the best candidates for your company from talent pools worldwide in just a few days and at reasonable prices',
+        ],
+      },
+      {
+        id: 3,
+        question: 'Will I get post-app development support?',
+        answer: [
+          'Yes, we offer comprehensive post-app development support! Through our flexible bucket model, you can hire a Front End programmer for a specified duration and access dedicated app support and maintenance services whenever necessary, eliminating the need for a full-time programmer on your team.',
+        ],
+      },
+      {
+        id: 4,
+        question: 'Can I hire a Front End developer for hourly or project-based tasks?',
+        answer: [
+          ' Certainly! At Primathon, we provide flexible hiring models including hourly, monthly, and yearly hiring options. You can hire a Front End developer as per your project requirements.',
+        ],
+      },
+    ],
+  },
+};
+
+export const BACKEND_DEVELOPER = {
+  heroSection: {
+    title1: 'Hire',
+    gradientTitle: 'Backend',
+    title2: 'Developers',
+    subtitle: 'Reasonable, Dedicated Experts for Your Business',
+    description:
+      "Ready to elevate your business's digital presence? Our dedicated Backend developers are here to bring innovation to life, ensuring robust, scalable, and efficient solutions delivered on time. With 100% skilled and certified developers, averaging over 7 years of experience, our Backend Onboarding process, competitive pricing models, and transparent communication guarantee a smooth journey towards your project's success.",
+    listItems: [
+      {
+        id: 1,
+        text: '100% Skilled and Certified Developers',
+      },
+      {
+        id: 2,
+        text: 'Possesses an Average of 5+ Years of Experience',
+      },
+      {
+        id: 3,
+        text: 'Backend Onboarding Process',
+      },
+      {
+        id: 4,
+        text: 'Competitive Pricing Models',
+      },
+      {
+        id: 5,
+        text: 'Transparent and Smooth Communication',
+      },
+    ],
+    ctaText1: 'Book a Call',
+    ctaText2: 'Get Free Consultation',
+    redirect: '/contact',
+    imageSrc: '/assets/backend/hire-backend-developer.png',
+    imageAlt: 'Hire Backend Developer',
+  },
+
+  elevateYourProject: {
+    title: "Unlock Your Project's Potential with Leading Backend developers in India",
+    description:
+      "With years of expertise and a dedication to innovation, we specialize in delivering customized solutions that meet your specific needs. Reach out to us to harness the full potential of Backendfor your projects. Whether you're seeking skilled Backend developers, a reliable BackendDevelopment Company, or cost-effective BackendDevelopment solutions, we've got you covered.",
+    ctaText: 'GET IN TOUCH',
+    redirect: '/contact',
+    imageSrc: '/assets/python/elevate-your-project.png',
+    imageAlt: 'Elevate Your Project',
+  },
+
+  ctaSection: {
+    title: 'Are you Confused About the Right Development Path?',
+    description:
+      'Allow our team of Backend Development experts to lead you through every stage of your project, ensuring you make confident and informed decisions along the way.',
+    ctaText1: 'Get Free Consultation',
+    redirect1: '/contact',
+    ctaText2: 'View Case Studies',
+    redirect2: '#case-studies',
+  },
+
+  backendDevelopmentServices: {
+    title: "BackendApp Development Services Offered by Primathon's Expert Coders",
+    cardData: [
+      {
+        id: 1,
+        imageSrc: '/assets/backend/custom-backend-development.svg',
+        cardTitle: 'Custom Backend Development',
+        content:
+          'We create customized backend solutions for complex interfaces, ensuring efficient handling of data from diverse sources. Our expertise enables us to craft intelligent solutions to meet your specific needs.',
+      },
+      {
+        id: 2,
+        imageSrc: '/assets/backend/crm-development.svg',
+        cardTitle: 'Backend CRM Development',
+        content:
+          'Our smart CRM solutions are powered by advanced backend technology to enhance business outputs. We implement CRM solutions that adhere to professional technology protocols and guidelines, ensuring efficiency and effectiveness.',
+      },
+      {
+        id: 3,
+        imageSrc: '/assets/backend/mobile-app.svg',
+        cardTitle: 'Mobile App Back-End Development',
+        content:
+          "We specialize in developing backends for native and cross-platform mobile applications. Whether it's Java/Kotlin, Swift, Flutter, React Native, or Kotlin Multiplatform, we ensure your app runs smoothly across different operating systems and devices.",
+      },
+      {
+        id: 4,
+        imageSrc: '/assets/backend/api-management.svg',
+        cardTitle: 'Backend API Management',
+        content:
+          'We create robust interfaces in secure environments to ensure seamless user experiences. Our team can assist you in building, deploying, and managing complex user interfaces using cutting-edge backend API development solutions.',
+      },
+      {
+        id: 5,
+        imageSrc: '/assets/backend/backend-apps.svg',
+        cardTitle: 'Data Storage Backend Apps',
+        content:
+          'Being a trustable backend development company, our high-performing backend applications support scalable cloud-computing services. With efficient data storage in cloud-based distributed database systems, we enable seamless scaling for your business needs.',
+      },
+      {
+        id: 6,
+        imageSrc: '/assets/backend/migration-services.svg',
+        cardTitle: 'Cloud Migration Services',
+        content:
+          "To accommodate growth, we smoothly migrate your on-premises infrastructure to cloud servers. We assist you in adjusting to changing company needs and meeting market demands, whether you're using a public, private, or hybrid cloud server.",
+      },
+    ],
+  },
+
+  ctaSection1: {
+    onlyDesc: true,
+    descp1: 'Hire Dedicated',
+    colouredDescp: 'Backend Developers',
+    descp2:
+      'team based on your requirements. We provide various hiring engagement models tailored to meet the specific needs of your business.',
+    ctaText: 'GET IN TOUCH',
+    redirect: '/contact',
+    bgColor: '#F4F4F4',
+  },
+
+  whyChoose: {
+    title: 'Why Hire Backend Developers from Primathon?',
+    description:
+      'Our Backend developers excel in their field, with over 7 years of experience in crafting scalable and high-performing Backend applications. We stay updated on the latest Backend advancements and tools, ensuring that your project is built using cutting-edge technology. Security is a top priority in our development process, ensuring that your Backend applications are protected against threats and vulnerabilities. We optimise your Backend applications for speed and efficiency, delivering outstanding user experiences within the project timeline and budget constraints.',
+    listItems: [
+      { id: 1, text: 'Experience 1.5X Faster Delivery' },
+      { id: 2, text: 'Work at Your Time Zone' },
+      { id: 3, text: 'Hassle-free communication' },
+      { id: 4, text: '24/7 Support' },
+    ],
+    service1: { number: '6+', text: 'Years of business' },
+    service2: { number: '100+', text: 'Softawre Developers' },
+    service3: { number: '150+', text: 'Project Delivered' },
+    service4: { number: '100+', text: 'Happy Client' },
+  },
+
+  elevateYourJourney: {
+    title: 'Want to Create a User-friendly Web Application?',
+    description:
+      "Hire our Backend developer to improve your product's usability, satisfaction, and overall user experience.",
+    ctaText: 'Hire Backend Developers Remotely',
+    ctaRoute: '/contact',
+  },
+
+  backendJourney: {
+    heading: 'Let us take your project on a journey!',
+    items: [
+      'You share your idea with us',
+      'We create a strategy for your project',
+      'Our Backend Developer starts building it',
+      'We deliver on time ',
+    ],
+  },
+
+  ctaSection2: {
+    title: 'Want to Create a User-friendly Web Application?',
+    description:
+      "Hire our Backend developer to improve your product's usability, satisfaction, and overall user experience.",
+    ctaText: 'HIRE US',
+    redirect: '/contact',
+    bgColor: '#21315B',
+  },
+
+  backendDevelopmentStrategy: {
+    title: 'An Overview of Our Backend Development Approach',
+    imageSrc: '/assets/backend/backend-development-approach.png',
+    imageAlt: 'Development Strategy',
+    cardData: [
+      {
+        id: 1,
+        text: 'Requirement Analysis',
+        description:
+          "Our process begins with a thorough analysis of your project requirements, objectives, and target audience.We gather detailed insights to ensure a clear understanding of your app's functionality and features.",
+      },
+      {
+        id: 2,
+        text: 'Design Prototyping',
+        description:
+          "we create wireframes and design prototypes that outline the user interface (UI) and user experience (UX) of your Backendapp.Our design experts collaborate with you to refine the visual elements and enhance the app's usability.",
+      },
+      {
+        id: 3,
+        text: 'Development Phase',
+        description:
+          'Once the design is approved, our experienced Backend developers begin the development phase.Using the latest technologies and coding standards, we build the backend infrastructure and frontend components of your Backendapp.',
+      },
+      {
+        id: 4,
+        text: 'Testing and Quality Assurance',
+        description:
+          'Rigorous testing is conducted to ensure the functionality, performance, and security of your Backend app.We conduct thorough testing across various devices and screen sizes to ensure compatibility and responsiveness.',
+      },
+      {
+        id: 5,
+        text: 'Deployment and Launch',
+        description:
+          "After successful testing, we prepare your Backend app for deployment to the App Store.Our team handles the submission process and ensures compliance with Apple's guidelines for a seamless launch.",
+      },
+      {
+        id: 6,
+        text: 'Post-Launch Support',
+        description:
+          "Our support doesn't end with the app launch. We provide ongoing maintenance and support services to address any issues and implement updates as needed.We monitor app performance and user feedback to continuously improve the app's functionality and user experience.",
+      },
+    ],
+  },
+
+  benefitsOfHiringBackendDevelopers: {
+    title1: 'Benefits of Hiring ',
+    colouredTitle: 'Backend Developers',
+    title2: 'from Us',
+
+    description:
+      'From free manager service to punctual delivery and precise timesheets, we offer multiple benefits to a client when they hire Backend developers from Primathon.',
+    cardData: [
+      {
+        id: 1,
+        title: 'Get a Dedicated Project Manager',
+        description:
+          "No matter what, you'll get a complimentary project manager from us. They'll handle all the nitty-gritty stuff like planning, setting timelines, and making sure everyone's on track. Their job? To guarantee you're getting top-notch results every step of the way with Primathon.",
+        listItems: [
+          'Analyze the Progress of the Project',
+          'Ensure Client Satisfaction',
+          'Keeps you updated throughout the Project',
+        ],
+        imageSrc: '/assets/python/dedicated-project-manager.png',
+        imageAlt: 'Dedicated Project Manager',
+      },
+      {
+        id: 2,
+        title: 'Stay in the Loop with Daily and Monthly Task Records',
+        description:
+          "We provide daily updates and summaries of tasks finished, challenges encountered, and milestones reached. Hire BackendDeveloper from us and at the end of each month, you'll receive a comprehensive timesheet detailing team activities and hours allocated to each task. This will help you to review payments based on completed work.",
+        listItems: ['Keep Tabs on Progress', 'Quality Results', 'Optimize Time Management'],
+        imageSrc: '/assets/python/task-records.png',
+        imageAlt: 'Daily and Monthly Task Records',
+      },
+      {
+        id: 3,
+        title: 'Diverse Talent Pool',
+        description:
+          'When you hire a BackendDeveloper from Primathon, you gain access to a wealth of knowledge spanning various Backend frameworks and libraries, ensuring that your project receives the specialized skills it requires.',
+        listItems: ['Decrease the Chances of Project Disruption', 'Simplify Task'],
+        imageSrc: '/assets/python/talent-pool.png',
+        imageAlt: 'Diverse Talent Pool',
+      },
+    ],
+  },
+
+  table: {
+    title: 'Hire Backend Developers From Primathon Vs Other Company',
+    tableHeading: ['', 'Primathon', 'Other Company', 'Freelancers'],
+    tableRows: [
+      {
+        id: 1,
+        tableData: [
+          { id: 1, text: 'Failure Rate', bgColor: '#ffffff' },
+          { id: 2, text: 'Very Low', bgColor: '#ffffff' },
+          { id: 3, text: 'Low', bgColor: '#ffffff' },
+          { id: 4, text: 'Very High', bgColor: '#ffffff' },
+        ],
+      },
+
+      {
+        id: 2,
+        tableData: [
+          { id: 1, text: 'Pre-assessed Developers', bgColor: '#ffffff' },
+          { id: 2, text: '✓', bgColor: '#24B768' },
+          { id: 3, text: 'X', bgColor: '#FFDCDC' },
+          { id: 4, text: 'X', bgColor: '#FFDCDC' },
+        ],
+      },
+
+      {
+        id: 3,
+        tableData: [
+          { id: 1, text: 'Results', bgColor: '#ffffff' },
+          { id: 2, text: '100% Premium Quality', bgColor: '#ffffff' },
+          { id: 3, text: 'Good', bgColor: '#ffffff' },
+          { id: 4, text: 'Unsure', bgColor: '#ffffff' },
+        ],
+      },
+
+      {
+        id: 4,
+        tableData: [
+          { id: 1, text: 'Documentation and Security', bgColor: '#ffffff' },
+          { id: 2, text: '✓', bgColor: '#24B768' },
+          { id: 3, text: 'X', bgColor: '#FFDCDC' },
+          { id: 4, text: 'X', bgColor: '#FFDCDC' },
+        ],
+      },
+
+      {
+        id: 5,
+        tableData: [
+          { id: 1, text: 'Rates', bgColor: '#ffffff' },
+          { id: 2, text: 'Reasonable', bgColor: '#ffffff' },
+          { id: 3, text: 'High Cost', bgColor: '#ffffff' },
+          { id: 4, text: 'High Cost', bgColor: '#ffffff' },
+        ],
+      },
+
+      {
+        id: 6,
+        tableData: [
+          { id: 1, text: 'Quality Guarantee', bgColor: '#ffffff' },
+          { id: 2, text: '✓', bgColor: '#24B768' },
+          { id: 3, text: 'X', bgColor: '#FFDCDC' },
+          { id: 4, text: 'X', bgColor: '#FFDCDC' },
+        ],
+      },
+    ],
+
+    mobileTableData: [
+      {
+        id: 1,
+        title: 'Failure Rate',
+        tableHeading: ['Primathon', 'Other Company', 'Freelancers'],
+        tableData: [
+          { id: 1, text: 'Very Low', bgColor: '#ffffff' },
+          { id: 2, text: 'Low', bgColor: '#ffffff' },
+          { id: 3, text: 'Very High', bgColor: '#ffffff' },
+        ],
+      },
+      {
+        id: 2,
+        title: 'Pre-assessed Developers',
+        tableHeading: ['Primathon', 'Other Company', 'Freelancers'],
+        tableData: [
+          { id: 1, text: '✓', bgColor: '#24B768' },
+          { id: 2, text: 'X', bgColor: '#FFDCDC' },
+          { id: 3, text: 'X', bgColor: '#FFDCDC' },
+        ],
+      },
+      {
+        id: 3,
+        title: 'Results',
+        tableHeading: ['Primathon', 'Other Company', 'Freelancers'],
+        tableData: [
+          { id: 1, text: '100% Premium Quality', bgColor: '#ffffff' },
+          { id: 2, text: 'Good', bgColor: '#ffffff' },
+          { id: 3, text: 'Unsure', bgColor: '#ffffff' },
+        ],
+      },
+      {
+        id: 4,
+        title: 'Documentation and Security',
+        tableHeading: ['Primathon', 'Other Company', 'Freelancers'],
+        tableData: [
+          { id: 1, text: '✓', bgColor: '#24B768' },
+          { id: 2, text: 'X', bgColor: '#FFDCDC' },
+          { id: 3, text: 'X', bgColor: '#FFDCDC' },
+        ],
+      },
+      {
+        id: 5,
+        title: 'Rates',
+        tableHeading: ['Primathon', 'Other Company', 'Freelancers'],
+        tableData: [
+          { id: 1, text: 'Reasonable', bgColor: '#ffffff' },
+          { id: 2, text: 'High Cost', bgColor: '#ffffff' },
+          { id: 3, text: 'High Cost', bgColor: '#ffffff' },
+        ],
+      },
+
+      {
+        id: 6,
+        title: 'Quality Guarantee',
+        tableHeading: ['Primathon', 'Other Company', 'Freelancers'],
+        tableData: [
+          { id: 1, text: '✓', bgColor: '#24B768' },
+          { id: 2, text: 'X', bgColor: '#FFDCDC' },
+          { id: 3, text: 'X', bgColor: '#FFDCDC' },
+        ],
+      },
+    ],
+  },
+
+  caseStudies: {
+    title: 'Our Case Studies',
+    subtitle: 'Explore Our Portfolio of Backend Development Projects',
+  },
+
+  faqs: {
+    title: 'FAQs',
+    cardData: [
+      {
+        id: 1,
+        question: 'How do you ensure the expertise of your Backend developers at Primathon?',
+        answer: [
+          'At Primathon, we have a rigorous screening process for Backend developers, including technical assessments and interviews. We ensure that our developers have strong expertise in Backend development through their education, certifications, and previous project experience.',
+        ],
+      },
+      {
+        id: 2,
+        question: 'Can I hire Backend developers from Primathon on a full-time or part-time basis?',
+        answer: [
+          'Yes, you can hire Backend developers from Primathon on both full-time and part-time basis, depending on your project requirements. We offer flexible engagement models to suit your needs and ensure dedicated resources for your project.',
+        ],
+      },
+      {
+        id: 3,
+        question: 'How do you ensure communication and collaboration between your Backend developers and clients?',
+        answer: [
+          'We prioritize transparent communication and collaboration with our clients. Our Backend developers are proficient in English and are available for regular updates, feedback sessions, and meetings through various communication channels like email, chat, and video calls.',
+        ],
+      },
+    ],
+  },
+
+  featuresOfPrimathonBackendDeveloper: {
+    title: 'Why Choose Primathon for Backend Development Services?',
+    cardData: [
+      {
+        id: '1',
+        cardTitle: 'Expertise',
+        content:
+          'Our team brings extensive experience and expertise in backend development, ensuring top-notch solutions tailored to your requirements.',
+      },
+      {
+        id: '2',
+        cardTitle: 'Innovation',
+        content:
+          'We leverage cutting-edge technologies and innovative approaches to deliver robust and scalable backend solutions that drive business growth.',
+      },
+      {
+        id: '3',
+        cardTitle: 'Customization',
+        content:
+          'We understand that every project is unique, and we tailor our backend development services to meet your specific business needs and goals.',
+      },
+      {
+        id: '4',
+        cardTitle: 'Reliability',
+        content:
+          'With Primathon, you can count on reliable backend solutions that perform seamlessly, even under heavy loads, ensuring uninterrupted operations for your business.',
+      },
+      {
+        id: '5',
+        cardTitle: 'Support',
+        content:
+          'Our dedicated support team is committed to providing ongoing assistance and maintenance to ensure your backend systems run smoothly and efficiently',
       },
     ],
   },
