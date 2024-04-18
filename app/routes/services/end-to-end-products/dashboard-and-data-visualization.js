@@ -1,14 +1,15 @@
 import Route from '@ember/routing/route';
-import { FAQ_DATA } from '../../../constants/services/faq';
-import { DASHBOARDANDDATA } from '../../../constants/services/end-to-end-products';
 import { inject as service } from '@ember/service';
+
+import { DATA_VISUALIZATION } from '../../../constants/solutions/data-visualization';
+import { TESTIMONIAL_DATA } from '../../../constants/homepage/testimonial';
 
 export default class ServicesEndToEndProductsDashboardAndDataVisualizationRoute extends Route {
   @service headData;
   async model() {
-    const faqData = FAQ_DATA;
-    const dashboardData = DASHBOARDANDDATA;
-    return { faqData, dashboardData };
+    const data = DATA_VISUALIZATION;
+    const testinomialData = TESTIMONIAL_DATA;
+    return { data, testinomialData };
   }
 
   beforeModel() {

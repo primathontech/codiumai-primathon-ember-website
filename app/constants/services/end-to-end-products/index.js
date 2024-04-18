@@ -74,44 +74,6 @@ export const SHOPIFY_STORES = {
   },
 };
 
-export const DASHBOARDANDDATA = {
-  title: 'Data Visualization Services Provider ',
-  about:
-    'Dashboard and data visualization is a tool that monitors, analyses, and displays key performance indicators (KPIs), metrics, and key data points. We provide the best Data Analytics and Visualization Services that you can seek. ',
-  description:
-    'It helps both technical and non-technical users understand and use business intelligence and data to make more informed decisions. By gathering data, showing trends or occurrences, and discovering an objective perspective of performance indicators that can be understood right away, users actively participate in the analytics process. Any organization, no matter the size or the industry, can benefit from tracking their metrics using a dashboard. Contact us if you are looking for a data visualisation service provider. We keep quality over everything and ensure that are services stay unmatched in the market.',
-  imgUrl: '/assets/end-to-end-services/dashboard.png',
-  bg: 'dashboard',
-  circular_list: {
-    heading: 'Why choose us for your project?',
-    items: [
-      'Business goal centric approach',
-      'Built for scalability',
-      'Accurate and clear insights into your KPIs',
-      'Highly qualified and experienced team',
-    ],
-  },
-  arrow_list: {
-    heading: 'Let us take your project on a journey!',
-    items: [
-      'You share your idea with us',
-      'We understand your business requirement',
-      'The most useful KPIs are determined for your requirements',
-      'Our team builds an extensive dashboard for you!',
-    ],
-  },
-
-  linear_list: {
-    heading: 'Why choose us?',
-    items: [
-      'Business Centric Approach',
-      'Seamless integration with your existing system',
-      'Created with attention to your target customers ',
-      'Highly qualified and experienced team',
-    ],
-  },
-};
-
 export const ADMINPALENANDCMS = {
   title: 'Admin Panel Development Services',
   sub_heading:

@@ -60,34 +60,6 @@ export const DATA_VISUALIZATION = {
         content:
           'We create dynamic visualizations that update in real time, ensuring that decision-makers have the most current information at their fingertips.',
       },
-      //   {
-      //     id: 5,
-      //     imageSrc: '/assets/vue/migration-service.svg',
-      //     cardTitle: 'Multi-Language Support',
-      //     content:
-      //       'Search GPT supports multiple languages, enabling users worldwide to access its powerful document management features regardless of language barriers.',
-      //   },
-      //   {
-      //     id: 6,
-      //     imageSrc: '/assets/vue/migration-service.svg',
-      //     cardTitle: 'Real-Time Updates',
-      //     content:
-      //       'Stay up-to-date with the latest information and developments through real-time updates provided by Search GPT, ensuring that users always have access to the most relevant and current content.',
-      //   },
-      //   {
-      //     id: 7,
-      //     imageSrc: '/assets/search-gpt-solution/ease-of-integration.svg',
-      //     cardTitle: 'Ease of Integration',
-      //     content:
-      //       'Seamlessly integrate Search GPT into existing workflows and systems with ease, thanks to its flexible and adaptable architecture, minimizing disruption and maximizing productivity.',
-      //   },
-      //   {
-      //     id: 8,
-      //     imageSrc: '/assets/vue/migration-service.svg',
-      //     cardTitle: 'Scalability',
-      //     content:
-      //       "Whether you're a small startup or a large enterprise, Search GPT is designed to scale with your business needs, providing reliable performance and efficiency as your document management requirements grow.",
-      //   },
     ],
   },
 
