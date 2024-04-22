@@ -1,0 +1,95 @@
+{{#if this.submitted}}
+<div class="form-response">
+    <h2>
+        Thanks for reaching out!
+    </h2>
+    <p>
+        Usually our representatives reply within 48 hours. For immediate assistance, please call our sales line or email
+        our customer support.
+    </p>
+</div>
+{{else}}
+<div class="contact-form max-w-[600px] rounded-3xl bg-white shadow-2xl px-12 pt-12 mx-5">
+    <div class="form-field">
+            <label for="Name" class="form-label">
+                <span class="form-label">
+                    Name
+                    <span class="required">
+                        *
+                    </span>
+                </span>
+                <Input name="name" @type="text" @value={{this.userQuestion.name}} class="form-input" placeholder="Name"
+                    {{on 'focus' (fn this.resetErrorMessage 'name' )}} />
+            </label>
+            {{#if this.validation.name}}
+            <span class="errMessage">
+            {{this.validation.name}}
+            </span>
+            {{/if}}
+    </div>
+    <div class="form-field">
+        <label for="email" class="form-label">
+            <span class="form-label">
+                Email Id
+                <span class="required">
+                    *
+                </span>
+            </span>
+            <Input name="email" @type="email" @value={{this.userQuestion.email}} class="form-input"
+                placeholder="Email Id" {{on 'focus' (fn this.resetErrorMessage 'email' )}} />
+        </label>
+        {{#if this.validation.email}}
+        <span class="errMessage">
+            {{this.validation.email}}
+        </span>
+        {{/if}}
+    </div>
+    <div class="form-field">
+        <label for="phone" class="form-label">
+            <span class="form-label">
+                Phone number
+                <span class="required">
+                    *
+                </span>
+            </span>
+            <div class="form-input-number-container">
+                <span class="form-field-input-number form-input-number form-input-country-code">+91</span>
+                <Input name="phone" @type="number" @value={{this.userQuestion.phone}}
+                    class="form-input-number form-field-input-number form-input-number form-input-phone-number"
+                    placeholder="Phone number" {{on 'focus' (fn this.resetErrorMessage 'phone' )}} />
+            </div>
+        </label>
+        {{#if this.validation.phone}}
+        <span class="errMessage">
+            {{this.validation.phone}}
+        </span>
+        {{/if}}
+    </div>
+    <div class="form-field">
+        <label for="phone" class="form-label">
+            <span class="form-label">
+                Company name
+                <span class="required">
+                    *
+                </span>
+            </span>
+            <Input name="companyName" @type="text" @value={{this.userQuestion.companyName}}
+                class="form-input form-input-number" placeholder="Company Name" {{on 'focus' (fn
+                this.resetErrorMessage 'companyName' )}} />
+        </label>
+        {{#if this.validation.companyName}}
+        <span class="errMessage">
+            {{this.validation.companyName}}
+        </span>
+        {{/if}}
+    </div>
+    {{#if this.apiError}}
+    <span class="errMessage">
+        Some error occurred. please try again later.
+    </span>
+    {{/if}}
+    <button type="submit" class="submit-btn w-full" disabled={{this.apiInProgress}} {{on 'click' this.sendMessage}}>
+        REQUEST A CALL BACK
+    </button>
+</div>
+{{/if}}

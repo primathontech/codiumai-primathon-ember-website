@@ -10,17 +10,15 @@
         </p>
       </div>
       <div class='global-comm-wrap buttons'>
-        {{#if @sameLink}}
-          <a href='#emberForm' class='btn btn-normal btn-hire' {{on 'click' (fn (or @onHireUs (noop)))}}>
-            GET IN TOUCH
-          </a>
-        {{else}}
-          <LinkTo @route='contact' class='btn btn-normal btn-hire' {{on 'click' (fn (or @onHireUs (noop)))}}>
-            GET IN TOUCH
-          </LinkTo>
-        {{/if}}
-
+        <button type="button" class='btn btn-normal btn-hire' {{on 'click' this.openModal}}>
+          GET IN TOUCH 
+        </button>
       </div>
     </div>
   </div>
 </section>
+{{#if this.isModalOpen}}
+<div class="fixed top-0 left-0 w-full h-full flex justify-center items-center z-50" {{on 'click' this.closeModal}}>
+  <Contact::ContactModal />
+</div>
+{{/if}}
