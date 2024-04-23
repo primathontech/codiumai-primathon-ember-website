@@ -1,15 +1,8 @@
 import Route from '@ember/routing/route';
 import { inject as service } from '@ember/service';
 
-import { TESTIMONIAL_DATA } from '../constants/homepage/testimonial';
-
 export default class ContactRoute extends Route {
   @service headData;
-
-  async model() {
-    const testimonialData = TESTIMONIAL_DATA;
-    return { testimonialData };
-  }
 
   beforeModel() {
     const title = 'Contact Primathon for Best Custom Software Development Services';

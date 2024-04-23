@@ -15,11 +15,6 @@
   list-style-image: url(/assets/svgs/white-checklist-icon.svg);
 }
 
-.white-bullet-list-ul li {
-  padding-left: 4px;
-  padding-bottom: 2px;
-}
-
 .yellow-list-ul {
   padding-left: 25px;
   display: flex;

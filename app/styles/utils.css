@@ -4,17 +4,3 @@
   -webkit-line-clamp: 3;
   overflow: hidden;
 }
-
-.contact-us-herosection {
-  background-image: image-set(
-    url('/assets/contact/heroSection-bgimg.webp') 2x,
-    url('/assets/contact/heroSection-bgimg.png')
-  );
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.icon-calender {
-  background: url(/assets/contact/calendar-icon.svg) no-repeat;
-}

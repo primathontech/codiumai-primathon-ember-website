@@ -1,8 +1,6 @@
 <section class='container-fluid pre-footer-wrap dark-blue-bg'>
   <div class='row'>
-    <div
-      class='px-6 py-12 md:p-12 w-screen flex flex-col items-center justify-between gap-y-12 max-w-[1200px] lg:flex-row'
-    >
+    <div class='px-6 py-12 md:p-12 w-screen flex flex-col items-center justify-between gap-y-12 max-w-[1200px] lg:flex-row'>
       <div class='flex-1 max-w-[800px] text-center lg:text-left'>
         <h2>
           {{@ctaSection.title}}
@@ -12,26 +10,10 @@
         </p>
       </div>
       <div>
-        {{#if @isModal}}
-          <button type='button' class='btn btn-normal btn-hire' {{on 'click' this.openModal}}>
-            {{@ctaSection.ctaText}}
-          </button>
-        {{else}}
-          <LinkTo @route={{@ctaSection.ctaRoute}} class='btn btn-normal btn-hire'>
-            {{@ctaSection.ctaText}}
-          </LinkTo>
-        {{/if}}
+        <LinkTo @route={{@ctaSection.ctaRoute}} class='btn btn-normal btn-hire'>
+          {{@ctaSection.ctaText}}
+        </LinkTo>
       </div>
     </div>
   </div>
 </section>
-{{#if this.isModalOpen}}
-  <div
-    class='fixed top-0 left-0 w-full h-full flex justify-center items-center z-50 overflow-y-auto bg-[#1A284D] bg-opacity-30'
-    {{on 'click' this.onCloseModal}}
-  >
-    <div class='w-11/12 max-w-[600px] rounded-3xl bg-white shadow-2xl overflow-hidden'>
-      <Contact::ContactForm @onCloseModal={{this.onCloseModal}} @isModal={{@isModal}} />
-    </div>
-  </div>
-{{/if}}

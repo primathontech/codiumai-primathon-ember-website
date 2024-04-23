@@ -1,5 +1,5 @@
 {{#if this.submitted}}
-  <div class='form-response fixed top-2 right-0 bg-[#24b768] max-w-[700px] z-10 rounded' {{did-insert this.closeToast}}>
+  <div class="form-response">
     <h2>
       Thanks for reaching out!
     </h2>
@@ -8,137 +8,110 @@
       our customer support.
     </p>
   </div>
-{{/if}}
-
-<div class='contact-form' ...attributes {{on 'click' (fn (if @isModal this.handleModalClick (noop)))}}>
-  <div class='p-5 bg-[#F6F6F6] rounded relative'>
-    <p class='text-[#333333] text-center text-lg mb-0'>Request a Call Back</p>
-    {{#if @isModal}}
-      <img
-        src='/assets/svgs/close-icon.svg'
-        alt='close icon'
-        title='close icon'
-        class='absolute top-6 right-6 cursor-pointer'
-        {{on 'click' (fn (or @onCloseModal (noop)))}}
-      />
-    {{/if}}
-  </div>
-  <div class='p-5'>
-    <div class='form-field {{if this.validation.name "mb-[21px]" "mb-[18px]"}}'>
-      <label for='Name' class='form-label'>
-        <span class='form-label'>
+{{else}}
+  <div class="contact-form">
+    <div class="form-field">
+      <label for="Name" class="form-label">
+        <span class="form-label">
           Name
-          <span class='required'>
+          <span class="required">
             *
           </span>
         </span>
         <Input
-          name='name'
-          @type='text'
+          name="name"
+          @type="text"
           @value={{this.userQuestion.name}}
-          class='form-input'
-          placeholder='Name'
+          class="form-input"
+          placeholder="Name"
           {{on 'focus' (fn this.resetErrorMessage 'name')}}
         />
       </label>
       {{#if this.validation.name}}
-        <span class='errMessage absolute'>
+        <span class="errMessage">
           {{this.validation.name}}
         </span>
       {{/if}}
     </div>
-    <div class='form-field {{if this.validation.email "mb-[21px]" "mb-[18px]"}}'>
-      <label for='email' class='form-label'>
-        <span class='form-label'>
+    <div class="form-field">
+      <label for="email" class="form-label">
+        <span class="form-label">
           Email Id
-          <span class='required'>
+          <span class="required">
             *
           </span>
         </span>
         <Input
-          name='email'
-          @type='email'
+          name="email"
+          @type="email"
           @value={{this.userQuestion.email}}
-          class='form-input'
-          placeholder='Email Id'
+          class="form-input"
+          placeholder="Email Id"
           {{on 'focus' (fn this.resetErrorMessage 'email')}}
         />
       </label>
       {{#if this.validation.email}}
-        <span class='errMessage absolute'>
+        <span class="errMessage">
           {{this.validation.email}}
         </span>
       {{/if}}
     </div>
-    <div class='form-field {{if this.validation.phone "mb-[21px]" "mb-[18px]"}}'>
-      <label for='phone' class='form-label'>
-        <span class='form-label'>
+    <div class="form-field">
+      <label for="phone" class="form-label">
+        <span class="form-label">
           Phone number
-          <span class='required'>
+          <span class="required">
             *
           </span>
         </span>
-        <div class='form-input-number-container'>
-          <select
-            defaultValue='+91'
-            class='form-field-input-number form-input-number form-input-country-code w-4/12 sm:w-2/12 lg:w-3/12'
-            {{on 'change' this.onChange}}
-          >
-            <option value='+91'>+91</option>
-            <option value='+1'>+1</option>
-            <option value='+44'>+44</option>
-            <option value='+61'>+61</option>
-            <option value='+62'>+62</option>
-            <option value='+966'>+966</option>
-          </select>
+        <div class="form-input-number-container">
+          <span  class="form-field-input-number form-input-number form-input-country-code">+91</span>
           <Input
-            name='phone'
-            @type='number'
+            name="phone"
+            @type="number"
             @value={{this.userQuestion.phone}}
-            class='form-input-number form-field-input-number form-input-number form-input-phone-number'
-            placeholder='Phone number'
+            class="form-input-number form-field-input-number form-input-number form-input-phone-number"
+            placeholder="Phone number"
             {{on 'focus' (fn this.resetErrorMessage 'phone')}}
           />
         </div>
       </label>
       {{#if this.validation.phone}}
-        <span class='errMessage absolute'>
+        <span class="errMessage">
           {{this.validation.phone}}
         </span>
       {{/if}}
     </div>
-    <div class='form-field {{if this.validation.companyName "mb-[21px]" "mb-[18px]"}}'>
-      <label for='phone' class='form-label'>
-        <span class='form-label'>
+    <div class="form-field">
+      <label for="phone" class="form-label">
+        <span class="form-label">
           Company name
-          <span class='required'>
+          <span class="required">
             *
           </span>
         </span>
         <Input
-          name='companyName'
-          @type='text'
+          name="companyName"
+          @type="text"
           @value={{this.userQuestion.companyName}}
-          class='form-input form-input-number'
-          placeholder='Company Name'
+          class="form-input form-input-number"
+          placeholder="Company Name"
           {{on 'focus' (fn this.resetErrorMessage 'companyName')}}
         />
       </label>
       {{#if this.validation.companyName}}
-        <span class='errMessage absolute'>
+        <span class="errMessage">
           {{this.validation.companyName}}
         </span>
       {{/if}}
     </div>
     {{#if this.apiError}}
-      <span class='errMessage'>
+      <span class="errMessage">
         Some error occurred. please try again later.
       </span>
     {{/if}}
-    <div class='flex justify-center'>
-      <button type='submit' class='submit-btn' disabled={{this.apiInProgress}} {{on 'click' this.sendMessage}}>
-        REQUEST A CALL BACK
-      </button>
-    </div>
+    <button type="submit" class="submit-btn" disabled={{this.apiInProgress}} {{on 'click' this.sendMessage}}>
+      REQUEST A CALL BACK
+    </button>
   </div>
-</div>
+{{/if}}

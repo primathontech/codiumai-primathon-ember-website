@@ -15,7 +15,6 @@ export default class ContactContactFormComponent extends Component {
   @tracked submitted = false; //check if form is submitted
   @tracked apiInProgress = false;
   @tracked apiError = false;
-  @tracked countryTelCode = '+91';
   _COUNTRY_CODE_REGEX = /^(\+?\d{1,3}|\d{1,4})$/;
 
   //user questions
@@ -43,10 +42,6 @@ export default class ContactContactFormComponent extends Component {
     if (this.validation[name]) {
       this.validation = { ...this.validation, [name]: '' };
     }
-  }
-
-  @action onChange(event) {
-    this.countryTelCode = event.target.value;
   }
 
   @action validate() {
@@ -84,7 +79,6 @@ export default class ContactContactFormComponent extends Component {
   async sendMessage() {
     this.trackEvent(CONTACT_SEND_MESSAGE_CLICK);
     if (this.validate()) {
-      this.userQuestion.phone = this.countryTelCode + this.userQuestion.phone;
       this.trackEvent(CONTACT_FORM_PAYLOAD_VALID, this.userQuestion);
 
       this.apiInProgress = true;
@@ -93,14 +87,6 @@ export default class ContactContactFormComponent extends Component {
       if (res.status === 200) {
         this.submitted = true;
         this.apiInProgress = true;
-        // reset the form
-        this.userQuestion = {
-          name: '',
-          email: '',
-          phone: '',
-          companyName: '',
-        };
-        this.args.onCloseModal && this.args.onCloseModal();
         this.trackEvent(CONTACT_API_SUCCESS, this.userQuestion);
       } else {
         this.apiError = true;
@@ -110,16 +96,6 @@ export default class ContactContactFormComponent extends Component {
     } else {
       this.trackEvent(CONTACT_FORM_PAYLOAD_INVALID, this.userQuestion);
     }
-  }
-
-  @action
-  closeToast() {
-    setTimeout(() => (this.submitted = false), 3000);
-  }
-
-  @action
-  handleModalClick(event) {
-    event.stopPropagation();
   }
 
   trackEvent(name, payload) {
