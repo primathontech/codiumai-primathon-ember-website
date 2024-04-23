@@ -100,6 +100,7 @@ export default class ContactContactFormComponent extends Component {
           phone: '',
           companyName: '',
         };
+        this.args.onCloseModal && this.args.onCloseModal();
         this.trackEvent(CONTACT_API_SUCCESS, this.userQuestion);
       } else {
         this.apiError = true;
@@ -114,6 +115,11 @@ export default class ContactContactFormComponent extends Component {
   @action
   closeToast() {
     setTimeout(() => (this.submitted = false), 3000);
+  }
+
+  @action
+  handleModalClick(event) {
+    event.stopPropagation();
   }
 
   trackEvent(name, payload) {
