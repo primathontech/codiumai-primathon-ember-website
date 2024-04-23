@@ -10,9 +10,18 @@
   </div>
 {{/if}}
 
-<div class='contact-form' ...attributes>
-  <div class='p-5 bg-[#F6F6F6] rounded'>
+<div class='contact-form' ...attributes {{on 'click' (fn (if @isModal this.handleModalClick (noop)))}}>
+  <div class='p-5 bg-[#F6F6F6] rounded relative'>
     <p class='text-[#333333] text-center text-lg mb-0'>Request a Call Back</p>
+    {{#if @isModal}}
+      <img
+        src='/assets/svgs/close-icon.svg'
+        alt='close icon'
+        title='close icon'
+        class='absolute top-6 right-6 cursor-pointer'
+        {{on 'click' (fn (or @onCloseModal (noop)))}}
+      />
+    {{/if}}
   </div>
   <div class='p-5'>
     <div class='form-field {{if this.validation.name "mb-[21px]" "mb-[18px]"}}'>
