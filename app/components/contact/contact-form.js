@@ -93,6 +93,13 @@ export default class ContactContactFormComponent extends Component {
       if (res.status === 200) {
         this.submitted = true;
         this.apiInProgress = true;
+        // reset the form
+        this.userQuestion = {
+          name: '',
+          email: '',
+          phone: '',
+          companyName: '',
+        };
         this.trackEvent(CONTACT_API_SUCCESS, this.userQuestion);
       } else {
         this.apiError = true;
@@ -102,6 +109,11 @@ export default class ContactContactFormComponent extends Component {
     } else {
       this.trackEvent(CONTACT_FORM_PAYLOAD_INVALID, this.userQuestion);
     }
+  }
+
+  @action
+  closeToast() {
+    setTimeout(() => (this.submitted = false), 3000);
   }
 
   trackEvent(name, payload) {
