@@ -1,12 +1,22 @@
 .contact-form {
   width: 100%;
+  border-radius: 4px;
+  background-color: #ffffff;
 }
+
+.contact-form-container {
+  box-shadow: 0px 0px 74px 0px rgba(41, 74, 69, 0.11);
+  bottom: -50px;
+  width: 100%;
+  border-radius: 4px;
+  background-color: #ffffff;
+}
+
 .contact-form .form-field {
-  margin: 0 0 18px 0px;
   clear: both;
 }
 
-.contact-form .form-input-number-container{
+.contact-form .form-input-number-container {
   display: flex;
 }
 
@@ -22,14 +32,14 @@
   line-height: 22px;
 }
 
-.contact-form .form-input-country-code{
-  padding: 8px 8px;
-  width: 10%;
+.contact-form .form-input-country-code {
+  padding: 7px 4px;
+  width: 18%;
 }
 
-.contact-form .form-input-phone-number{
-  width: 90%; 
-  max-width: 90%;
+.contact-form .form-input-phone-number {
+  width: 100%;
+  max-width: 100%;
 }
 
 .contact-form .form-input {
@@ -69,8 +79,7 @@
   border-color: rgba(82, 168, 236, 0.8);
 }
 .contact-form .submit-btn {
-  float: right;
-  margin: 35px 0;
+  margin: 15px 0;
   padding: 12px 24px;
   background: #24b768;
   border-color: #24b768;
@@ -150,4 +159,9 @@
     width: calc(50% + 12px);
     padding-right: 24px;
   }
+}
+
+/* for dial code */
+.iti {
+  width: 100%;
 }
