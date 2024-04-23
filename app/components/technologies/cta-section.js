@@ -1,17 +1,9 @@
 import Component from '@glimmer/component';
 import { tracked } from '@glimmer/tracking';
 import { action } from '@ember/object';
-import { FOOTER_GET_IN_TOUCH_CLICK } from '../../constants/event-name';
 
-export default class HomepageHireUsComponent extends Component {
+export default class TechnologiesCtaSectionComponent extends Component {
   @tracked isModalOpen = false;
-
-  @action
-  trackGetInTouch() {
-    if (window.gtag) {
-      window.gtag('event', FOOTER_GET_IN_TOUCH_CLICK);
-    }
-  }
 
   @action
   openModal() {
