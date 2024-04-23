@@ -1,9 +1,29 @@
-<Header @onHireUs={{this.onHireUs}} @type="2" />
-<div class="app-container">
-  <div id="contact-hero">
-    <Contact::HeroSection />
+<Header @onHireUs={{this.onHireUs}} @type='2' />
+<div class='app-container'>
+  <div class='contact-us-herosection pb-12 pt-36 lg:pb-0 px-10 lg:px-16 lg:mb-[20px]'>
+    <div
+      class='flex flex-col lg:flex-row justify-center items-center lg:items-end gap-y-12 lg:gap-x-16 max-w-[1600px] mx-auto'
+    >
+      <Contact::HeroSection />
+      <div class='w-full max-w-[600px] lg:max-w-[500px]' id='contact-hero'>
+        <Contact::ContactForm class='lg:relative bottom-[-20px]' />
+      </div>
+    </div>
   </div>
-  <Contact::FormSection />
+  <Homepage::PartnersSection />
+  <Contact::PrimathonAroundGlobe />
+  <Contact::ContactUs />
+  <Contact::PrimathonPerformance />
+  <CaseStudies::Post />
+  <Contact::PrimathonNews />
+  <Contact::ExploreOpenings />
+  <Homepage::Testimonial
+    @title={{@data.testimonialData.title}}
+    @description={{@data.testimonialData.description}}
+    @data={{@data.testimonialData.data}}
+  />
+
+  {{! <Contact::FormSection /> }}
   <Homepage::HireUs @onHireUs={{this.onHireUs}} />
   <Footer />
 </div>
