@@ -98,6 +98,11 @@ export default class ContactContactModalComponent extends Component {
     }
   }
 
+  @action
+  handleModalClick(event) {
+    event.stopPropagation();
+  }
+
   trackEvent(name, payload) {
     if (window.gtag) {
       window.gtag('event', name, payload);
