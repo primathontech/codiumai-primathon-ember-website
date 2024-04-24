@@ -1,6 +1,6 @@
 import Route from '@ember/routing/route';
 import { inject as service } from '@ember/service';
-import { AI_CREDIT_SCORING } from '../../constants/solutions/ai-credit-scroing';
+import { AI_CREDIT_SCORING } from '../../constants/solutions/ai-credit-scoring';
 import { TESTIMONIAL_DATA } from '../../constants/homepage/testimonial';
 
 export default class SolutionsAiCreditScoring extends Route {

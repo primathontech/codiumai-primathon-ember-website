@@ -42,42 +42,42 @@ export const AI_CREDIT_SCORING = {
     cardData: [
       {
         id: 1,
-        imageSrc: '/assets/ai-stock-predictor/customized-ai.svg',
+        imageSrc: '/assets/ai-credit-scoring/customized-credit.svg',
         cardTitle: 'Customized Credit Scoring Models',
         content:
           'Our tailored generative AI solutions are designed to create customized credit scoring models that align with your unique business needs.',
       },
       {
         id: 2,
-        imageSrc: '/assets/ai-stock-predictor/market-analysis.svg',
+        imageSrc: '/assets/ai-credit-scoring/enhanced-accuracy.svg',
         cardTitle: 'Enhanced Accuracy and Predictability',
         content:
           'We utilize advanced AI algorithms to provide more accurate and predictable credit scoring, enabling businesses to make informed decisions with confidence.',
       },
       {
         id: 3,
-        imageSrc: '/assets/swift/design-services.svg',
+        imageSrc: '/assets/ai-credit-scoring/flexible-and-scalable.svg',
         cardTitle: 'Flexible and Scalable Solutions',
         content:
           "We offer flexible and scalable AI credit scoring solutions that can adapt to the evolving needs of your business, whether you're processing a few applications or a large volume of transactions.",
       },
       {
         id: 4,
-        imageSrc: '/assets/ai-stock-predictor/optimization.svg',
+        imageSrc: '/assets/ai-credit-scoring/learning-and-optimization.svg',
         cardTitle: 'Continuous Learning and Optimization',
         content:
           'Our AI models continuously learn from new data and feedback, optimizing credit scoring models over time to adapt to changing market conditions and customer behaviors.',
       },
       {
         id: 5,
-        imageSrc: '/assets/ai-stock-predictor/integration.svg',
+        imageSrc: '/assets/ai-credit-scoring/auditable-processes.svg',
         cardTitle: 'Transparent and Auditable Processes',
         content:
           'We prioritize transparency and accountability in our AI credit scoring solutions, providing clear insights into the scoring process and ensuring auditable processes for regulatory compliance.',
       },
       {
         id: 6,
-        imageSrc: '/assets/ai-stock-predictor/performance.svg',
+        imageSrc: '/assets/ai-credit-scoring/partnership-and-support.svg',
         cardTitle: 'Partnership and Support',
         content:
           "We're committed to partnering with businesses to ensure the successful implementation and ongoing support of our AI credit scoring solutions, helping you achieve excellence in credit management and financial decision-making.",
@@ -152,12 +152,12 @@ export const AI_CREDIT_SCORING = {
     bgColor: '#F4F4F4',
   },
 
-  optForAiCreditScoringSystem: {
-    title: 'Why Opt for an AI Credit Scoring System',
+  optForAiCreditScore: {
+    title: ' Why Opt for an AI Credit Scoring System?',
     description:
-      'AI Credit Analysis offers a transformative approach to credit assessment, leveraging advanced technology to provide unparalleled precision and efficiency. With AI-driven algorithms, financial institutions can achieve accurate predictions and comprehensive risk analysis, facilitating well-informed lending choices. Additionally, it also guarantees to keep up with changing market conditions, and its smooth integration with current platforms improves operational effectiveness',
-    imageSrc: '/assets/ai-stock-predictor/financial-forecasting.png',
-    alt: 'Seeing Ai In Action',
+      'AI Credit Analysis offers a transformative approach to credit assessment, leveraging advanced technology to provide unparalleled precision and efficiency. With AI-driven algorithms, financial institutions can achieve accurate predictions and comprehensive risk analysis, facilitating well-informed lending choices. Additionally, it also guarantees to keep up with changing market conditions, and its smooth integration with current platforms improves operational effectiveness.',
+    imageSrc: '/assets/ai-stock-predictor/performance.svg',
+    alt: 'AI Credit',
   },
 
   whyChoose: {
