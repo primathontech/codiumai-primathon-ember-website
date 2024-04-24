@@ -1,184 +1,214 @@
 export const AI_CREDIT_SCORING = {
   heroSection: {
-    title: 'Revolutionize Your Customer Engagement with Our AI Conversational Bot',
-    subTitle: 'Boost customer experience and streamline operations with our 24/7 accessible AI Conversational Bots',
-    buttonData: 'Let’s Get Started',
+    gradientTitle: ' AI Credit Scoring Service',
+    subtitle: 'Transform Your Credit Assessment Process with Our Cutting-edge AI Credit Scoring System',
+    description:
+      "Revolutionize your credit scoring process with our advanced AI technology. Our AI credit analysis system provides accurate predictions and comprehensive risk analysis, empowering financial institutions to make informed lending decisions with confidence. Here's why AI-driven credit analysis system stands out.",
+    listItems: [
+      {
+        id: 1,
+        text: 'Precision',
+      },
+      {
+        id: 2,
+        text: 'Efficiency',
+      },
+      {
+        id: 3,
+        text: 'Insightful analysis',
+      },
+      {
+        id: 4,
+        text: 'Adaptability',
+      },
+      {
+        id: 5,
+        text: 'Integration ',
+      },
+      {
+        id: 6,
+        text: 'Compliance',
+      },
+    ],
+    ctaText1: 'Book a Call',
+    ctaText2: 'Get Free Consultation',
     redirect: '/contact',
+    imageSrc: '/assets/ai-stock-predictor/ai-stock-predictor-hero-section-img.png',
+    imageAlt: 'AI Credit Scoring Service',
   },
 
-  featuresOfPrimathonAIConversationalBot: {
-    title: "Discover the Standout Features of Primathon's AI Conversational Bot",
+  aiStCreditScoringDevelopmentServices: {
+    title: 'Let’s Explore Our Tailored Generative AI Credit Scoring Solutions for Business Excellence',
+    cardData: [
+      {
+        id: 1,
+        imageSrc: '/assets/ai-stock-predictor/customized-ai.svg',
+        cardTitle: 'Customized Credit Scoring Models',
+        content:
+          'Our tailored generative AI solutions are designed to create customized credit scoring models that align with your unique business needs.',
+      },
+      {
+        id: 2,
+        imageSrc: '/assets/ai-stock-predictor/market-analysis.svg',
+        cardTitle: 'Enhanced Accuracy and Predictability',
+        content:
+          'We utilize advanced AI algorithms to provide more accurate and predictable credit scoring, enabling businesses to make informed decisions with confidence.',
+      },
+      {
+        id: 3,
+        imageSrc: '/assets/swift/design-services.svg',
+        cardTitle: 'Flexible and Scalable Solutions',
+        content:
+          "We offer flexible and scalable AI credit scoring solutions that can adapt to the evolving needs of your business, whether you're processing a few applications or a large volume of transactions.",
+      },
+      {
+        id: 4,
+        imageSrc: '/assets/ai-stock-predictor/optimization.svg',
+        cardTitle: 'Continuous Learning and Optimization',
+        content:
+          'Our AI models continuously learn from new data and feedback, optimizing credit scoring models over time to adapt to changing market conditions and customer behaviors.',
+      },
+      {
+        id: 5,
+        imageSrc: '/assets/ai-stock-predictor/integration.svg',
+        cardTitle: 'Transparent and Auditable Processes',
+        content:
+          'We prioritize transparency and accountability in our AI credit scoring solutions, providing clear insights into the scoring process and ensuring auditable processes for regulatory compliance.',
+      },
+      {
+        id: 6,
+        imageSrc: '/assets/ai-stock-predictor/performance.svg',
+        cardTitle: 'Partnership and Support',
+        content:
+          "We're committed to partnering with businesses to ensure the successful implementation and ongoing support of our AI credit scoring solutions, helping you achieve excellence in credit management and financial decision-making.",
+      },
+    ],
+  },
+
+  ctaSection1: {
+    title: 'Are You Ready to Transform Your Business?',
+    description: '',
+    ctaText: 'HIRE US',
+    redirect: '/contact',
+    bgColor: '#21315B',
+  },
+
+  benefitsOfAiCreditScoring: {
+    title: 'Key Benefits of Primathon’s AI Credit Scoring for Your Business',
+    cardData: [
+      {
+        id: 1,
+        imageSrc: '/assets/ai-stock-predictor/data-collection.svg',
+        cardTitle: 'Comprehensive Analysis',
+        content:
+          'Our solutions offer thorough analysis of credit data, providing insights into borrower behavior and risk profiles.',
+      },
+      {
+        id: 2,
+        imageSrc: '/assets/ai-stock-predictor/algorithm.svg',
+        cardTitle: 'Precision Predictions',
+        content:
+          'With advanced algorithms, our AI solutions deliver precise credit score predictions, enabling accurate decision-making..',
+      },
+      {
+        id: 3,
+        imageSrc: '/assets/ai-stock-predictor/testing.svg',
+        cardTitle: 'Business Excellence',
+        content:
+          ' Our tailored solutions are designed to enhance business performance, enabling you to make informed decisions and achieve excellence in credit assessment.',
+      },
+      {
+        id: 4,
+        imageSrc: '/assets/ai-stock-predictor/business-systems.svg',
+        cardTitle: 'Strategic Insights',
+        content:
+          'Gain valuable insights into market trends and customer behavior, empowering you to stay ahead of the competition.',
+      },
+      {
+        id: 5,
+        imageSrc: '/assets/ai-stock-predictor/refinement.svg',
+        cardTitle: 'Seamless Integration',
+        content:
+          ' Our AI credit scoring solutions seamlessly integrate with your existing systems, ensuring smooth implementation and operation.',
+      },
+      {
+        id: 6,
+        imageSrc: '/assets/ai-stock-predictor/risk-management.svg',
+        cardTitle: 'Continuous Improvement',
+        content:
+          'We continuously refine and optimize our solutions to adapt to changing market conditions and deliver ongoing value to your business .',
+      },
+    ],
+  },
+
+  ctaSection2: {
+    onlyDesc: true,
+    descp1: 'Hire Dedicated',
+    colouredDescp: 'AI Developer',
+    descp2:
+      ' team based on your requirements. We provide various services tailored to meet the specific needs of your business.',
+    ctaText: 'GET IN TOUCH',
+    redirect: '/contact',
+    bgColor: '#F4F4F4',
+  },
+
+  optForAiCreditScoringSystem: {
+    title: 'Why Opt for an AI Credit Scoring System',
+    description:
+      'AI Credit Analysis offers a transformative approach to credit assessment, leveraging advanced technology to provide unparalleled precision and efficiency. With AI-driven algorithms, financial institutions can achieve accurate predictions and comprehensive risk analysis, facilitating well-informed lending choices. Additionally, it also guarantees to keep up with changing market conditions, and its smooth integration with current platforms improves operational effectiveness',
+    imageSrc: '/assets/ai-stock-predictor/financial-forecasting.png',
+    alt: 'Seeing Ai In Action',
+  },
+
+  whyChoose: {
+    title: 'Why Hire AI Credit Scoring Developers from Primathon?',
+    description:
+      'Our AI developers excel in their domain, boasting over 7 years of experience in crafting scalable and high-performing applications. We remain abreast of the latest AI advancements and tools, guaranteeing that your project is constructed using cutting-edge technology. We fine-tune your project for speed and efficiency, delivering exceptional user experiences within the project timeline and budget constraints.',
+    listItems: [
+      { id: 1, text: 'Experience 1.5X Faster Delivery' },
+      { id: 2, text: 'Work at Your Time Zone' },
+      { id: 3, text: 'Hassle-free communication' },
+      { id: 4, text: '24/7 Support' },
+    ],
+    service1: { number: '6+', text: 'Years of business' },
+    service2: { number: '80+', text: 'Software Developers' },
+    service3: { number: '150+', text: 'Project Delivered' },
+    service4: { number: '100+', text: 'Happy Client' },
+  },
+
+  featuresOfAiCreditScoring: {
+    title: 'Check Out a Brief Guide on How Our AI Credit Scoring Analyzes Market Trends',
     cardData: [
       {
         id: '1',
-        cardTitle: 'Round-the-Clock Customer Support',
+        cardTitle: 'Data Collection and Processing',
         content:
-          'Being the best AI conversational bot development company, our expert-designed AI bots offer seamless, hassle-free customer support, ensuring seamless assistance anytime, anywhere.',
+          ' Our AI system collects and processes vast amounts of data from various sources, including financial markets, economic indicators, and consumer behavior.',
       },
       {
         id: '2',
-        cardTitle: 'Multilingual Capabilities for Global Reach',
+        cardTitle: 'Machine Learning Algorithms',
         content:
-          'Our AI bots communicate with customers in their preferred language, enhancing accessibility and engagement. Bid farewell to frustrating inquiries and embrace efficient lead captures through our AI Conversational bots.',
+          'We use the best machine learning algorithms to analyze patterns and correlations within the data, allowing for the identification of market trends.',
       },
       {
         id: '3',
-        cardTitle: 'Tailorable Responses',
+        cardTitle: 'Pattern Recognition',
         content:
-          'With Primathon’s AI conversational bots, you can customize responses to align with your brand voice and policies, ensuring consistency and authenticity in every interaction.',
+          'Our AI system recognizes patterns in market data, such as fluctuations in interest rates, changes in consumer spending habits, and shifts in industry trends.',
       },
       {
         id: '4',
-        cardTitle: 'Easy Integration',
+        cardTitle: 'Predictive Modeling',
         content:
-          "Seamlessly connect Primathon's AI Conversational Bot with CRM, ERP, and other business systems for streamlined operations and enhanced data management capabilities.",
+          ' Our generative AI credit scoring system uses predictive modeling techniques to forecast future market trends based on historical data and current market conditions.',
       },
       {
         id: '5',
-        cardTitle: 'Scalable Solutions',
+        cardTitle: 'Risk Assessment',
         content:
-          'Our experts designed AI conversational bots offer scalable solutions tailored to accommodate businesses of any size, ensuring flexibility and adaptability to meet diverse needs and growth trajectories.',
-      },
-      {
-        id: '6',
-        cardTitle: 'Comprehensive Analytics',
-        content:
-          "With our services by your side, you can gain invaluable insights into customer interactions using Primathon's AI chatbot comprehensive analytics, empowering informed decision-making and continuous enhancement strategies.",
+          'Assesses the potential risks associated with market trends, such as volatility, liquidity, and creditworthiness, to inform decision-making processes.',
       },
     ],
-  },
-
-  bulletList: {
-    title: 'Unlock Core Advantages for Your Business with Primathon’s AI Conversational Bot',
-    imageSrc: '/assets/ai-chatbot/bullet-list-img.png',
-    alt: 'Primathon’s AI Conversational Bot',
-    listItems: [
-      { id: 1, text: 'Boost in Customer Satisfaction and Loyalty' },
-      { id: 2, text: 'Significant Reduction in Response Time' },
-      { id: 3, text: 'Cost Efficiency Through Automated Service' },
-      { id: 4, text: 'Deeper Insights into Customer Preferences and Behavior' },
-      { id: 5, text: 'Continuous Evolution with Machine Learning' },
-      { id: 6, text: 'Automation of Routine Inquiries, Freeing Up Human Agents for Complex Issues' },
-    ],
-  },
-
-  implementationAndOperation: {
-    title: 'Check Out a Brief Guide on Implementation and Operation of Our AI Conversational Bot',
-    cardData: [
-      {
-        id: 1,
-        cardTitle: 'Customization to Meet Specific Business Needs',
-        cardData:
-          "We offer tailored AI chatbots to match the unique requirements and preferences of individual businesses. From adapting conversation flows, branding elements, language and tone, to integration with existing systems, and incorporating specific functionalities- our team ensures the chatbot aligns seamlessly with your business's goals.",
-      },
-      {
-        id: 2,
-        cardTitle: 'Seamless Integration Process',
-        cardData:
-          'We have a team of best AI developers that ensures effortless incorporation of the AI chatbot into existing systems, minimizing disruptions and maximizing operational efficiency for businesses.',
-      },
-      {
-        id: 3,
-        cardTitle: 'Training the Bot with Industry-Specific Knowledge',
-        cardData:
-          'Being the trusted AI conversational bot development company, we curate conversational chatbots that have the potential to understand and respond to sector-specific queries accurately.',
-      },
-      {
-        id: 4,
-        cardTitle: 'Deployment Across Preferred Customer Service Channels',
-        cardData:
-          "Primathon's AI chatbot ensures accessibility and consistency in customer interactions across various platforms, enhancing overall engagement and satisfaction.",
-      },
-      {
-        id: 5,
-        cardTitle: 'Real-time Monitoring and Performance Optimization',
-        cardData:
-          'Our conversational Chatbots offer the features of real-time monitoring, allowing businesses to track interactions as they occur and make immediate adjustments to enhance efficiency.',
-      },
-    ],
-  },
-
-  aiConversationalBotUses: {
-    title: 'Common Use Cases for',
-    subTitle: 'AI Conversational Bot Solutions',
-    cardData: [
-      {
-        id: 1,
-        imageSrc: '/assets/ai-chatbot/customer-support.png',
-        cardTitle: 'Provides Instant Customer Support and FAQs',
-        content:
-          'Leveraging NLP, our AI conversational chatbots understand and respond to user inquiries in real-time. Additionally, they streamline access to FAQs by intelligently retrieving relevant answers to resolve customer queries promptly without human intervention.',
-      },
-      {
-        id: 2,
-        imageSrc: '/assets/ai-chatbot/booking-and-order-processing.png',
-        cardTitle: 'Assist with Bookings and Order Processing',
-        content:
-          'Our proficiency in developing AI conversational bots and their seamless integration helps in offering personalized recommendations, handling transactions, and automated tasks seamlessly within the conversation.',
-      },
-      {
-        id: 3,
-        imageSrc: '/assets/ai-chatbot/leads-and-sales-effort.png',
-        cardTitle: 'Generate Leads and Support Sales Efforts',
-        content:
-          'By engaging with website visitors, qualifying leads, and capturing contact information, our AI bots support sales efforts. Moreover, it also provides product information and guides users through the sales process.',
-      },
-      {
-        id: 4,
-        imageSrc: '/assets/ai-chatbot/quality-improvement.png',
-        cardTitle: 'Gather User Feedback for Quality Improvement',
-        content:
-          'By initiating surveys or prompting users for feedback during conversations, our AI Chatbots analyze responses, and identify areas for improvement. This data-driven approach allows businesses to continuously refine their products or services based on user input.',
-      },
-      {
-        id: 5,
-        imageSrc: '/assets/ai-chatbot/product-recommendation.png',
-        cardTitle: 'Offer Personalized Product Recommendations',
-        content:
-          'By analyzing user preferences, purchase history, and browsing behavior, our AI Conversational Bots engage users in conversations to understand their needs and interests, then suggest relevant products or services tailored to individual preferences.',
-      },
-    ],
-  },
-
-  faqs: {
-    title: 'FAQs',
-    cardData: [
-      {
-        id: 1,
-        question: 'How does the AI conversational bot improve customer engagement?',
-        answer: [
-          'Our AI conversational bot engages customers in real-time conversations, providing instant support and information, thereby enhancing overall engagement and satisfaction.',
-        ],
-      },
-      {
-        id: 2,
-        question: 'Is the setup of the AI conversational bot complex?',
-        answer: [
-          ' Not at all! Our AI conversational bot comes with an easy setup process, requiring minimal technical expertise. We provide comprehensive documentation and support to ensure a smooth implementation.',
-        ],
-      },
-      {
-        id: 3,
-        question: 'Can the AI conversational bot be customized to suit our specific business needs?',
-        answer: [
-          'Absolutely! Our AI conversational bot is highly customizable, allowing you to tailor its responses, design, and functionality according to your unique business requirements.',
-        ],
-      },
-      {
-        id: 4,
-        question: 'How often does the AI conversational bot require maintenance?',
-        answer: [
-          'Our AI conversational bot is designed to be low-maintenance. Regular updates and maintenance are handled automatically, ensuring optimal performance and reliability without interrupting your operations.',
-        ],
-      },
-    ],
-  },
-
-  areYouReady: {
-    title: 'Are you Ready to Optimize Customer Engagements and Streamline Operations?',
-    description:
-      'Take the Next Step and Contact Us to Explore Best AI Conversational Bot for Your Business. Let’s Schedule a Live Demo for You at Your Earliest Convenience',
-    ctaText: 'Contact Us',
-    ctaRoute: 'contact',
   },
 };
