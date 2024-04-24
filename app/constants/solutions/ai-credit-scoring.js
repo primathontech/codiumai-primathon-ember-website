@@ -156,7 +156,7 @@ export const AI_CREDIT_SCORING = {
     title: ' Why Opt for an AI Credit Scoring System?',
     description:
       'AI Credit Analysis offers a transformative approach to credit assessment, leveraging advanced technology to provide unparalleled precision and efficiency. With AI-driven algorithms, financial institutions can achieve accurate predictions and comprehensive risk analysis, facilitating well-informed lending choices. Additionally, it also guarantees to keep up with changing market conditions, and its smooth integration with current platforms improves operational effectiveness.',
-    imageSrc: '/assets/ai-stock-predictor/performance.svg',
+    imageSrc: '/assets/ai-credit-scoring/opt-for-ai-credit-score.png',
     alt: 'AI Credit',
   },
 
