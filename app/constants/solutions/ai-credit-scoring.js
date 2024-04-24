@@ -33,7 +33,7 @@ export const AI_CREDIT_SCORING = {
     ctaText1: 'Book a Call',
     ctaText2: 'Get Free Consultation',
     redirect: '/contact',
-    imageSrc: '/assets/ai-stock-predictor/ai-stock-predictor-hero-section-img.png',
+    imageSrc: '/assets/ai-credit-scoring/ai-credit-scoring-hero-img.png',
     imageAlt: 'AI Credit Scoring Service',
   },
 
@@ -98,42 +98,42 @@ export const AI_CREDIT_SCORING = {
     cardData: [
       {
         id: 1,
-        imageSrc: '/assets/ai-stock-predictor/data-collection.svg',
+        imageSrc: '/assets/ai-credit-scoring/analysis.svg',
         cardTitle: 'Comprehensive Analysis',
         content:
           'Our solutions offer thorough analysis of credit data, providing insights into borrower behavior and risk profiles.',
       },
       {
         id: 2,
-        imageSrc: '/assets/ai-stock-predictor/algorithm.svg',
+        imageSrc: '/assets/ai-credit-scoring/predictions.svg',
         cardTitle: 'Precision Predictions',
         content:
           'With advanced algorithms, our AI solutions deliver precise credit score predictions, enabling accurate decision-making..',
       },
       {
         id: 3,
-        imageSrc: '/assets/ai-stock-predictor/testing.svg',
+        imageSrc: '/assets/ai-credit-scoring/excellence.svg',
         cardTitle: 'Business Excellence',
         content:
           ' Our tailored solutions are designed to enhance business performance, enabling you to make informed decisions and achieve excellence in credit assessment.',
       },
       {
         id: 4,
-        imageSrc: '/assets/ai-stock-predictor/business-systems.svg',
+        imageSrc: '/assets/ai-credit-scoring/insights.svg',
         cardTitle: 'Strategic Insights',
         content:
           'Gain valuable insights into market trends and customer behavior, empowering you to stay ahead of the competition.',
       },
       {
         id: 5,
-        imageSrc: '/assets/ai-stock-predictor/refinement.svg',
+        imageSrc: '/assets/ai-credit-scoring/integration.svg',
         cardTitle: 'Seamless Integration',
         content:
           ' Our AI credit scoring solutions seamlessly integrate with your existing systems, ensuring smooth implementation and operation.',
       },
       {
         id: 6,
-        imageSrc: '/assets/ai-stock-predictor/risk-management.svg',
+        imageSrc: '/assets/ai-credit-scoring/improvement.svg',
         cardTitle: 'Continuous Improvement',
         content:
           'We continuously refine and optimize our solutions to adapt to changing market conditions and deliver ongoing value to your business .',
