@@ -1,6 +1,6 @@
 // Menu Event
 export const MENU_BLOG_CLICK = 'menu_blog_click';
-export const MENU_CONTACT_CLICK = 'menu_blog_click';
+export const MENU_CONTACT_CLICK = 'menu_contact_click';
 export const MENU_HIRE_US_CLICK = 'menu_hire_us_click';
 export const MENU_ABOUT_CLICK = 'menu_about_click';
 export const MENU_SERVICES_CLICK = 'menu_services_click';

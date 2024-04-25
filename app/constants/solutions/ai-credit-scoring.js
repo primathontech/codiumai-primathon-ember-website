@@ -1,6 +1,7 @@
 export const AI_CREDIT_SCORING = {
   heroSection: {
-    gradientTitle: ' AI Credit Scoring Service',
+    gradientTitle: ' AI Credit Scoring',
+    title2: 'Service',
     subtitle: 'Transform Your Credit Assessment Process with Our Cutting-edge AI Credit Scoring System',
     description:
       "Revolutionize your credit scoring process with our advanced AI technology. Our AI credit analysis system provides accurate predictions and comprehensive risk analysis, empowering financial institutions to make informed lending decisions with confidence. Here's why AI-driven credit analysis system stands out.",
@@ -8,10 +9,6 @@ export const AI_CREDIT_SCORING = {
       {
         id: 1,
         text: 'Precision',
-      },
-      {
-        id: 2,
-        text: 'Efficiency',
       },
       {
         id: 3,
