@@ -153,6 +153,22 @@
         >
           Customer Behavior Analysis Tool
         </LinkTo>
+        <LinkTo
+          @route='solutions.ai-stock-predictor'
+          class='mobile-menu'
+          @activeClass='current-url'
+          {{on 'click' (fn this.closeOpenMenu 'solutions')}}
+        >
+          AI Stock Predictor
+        </LinkTo>
+        <LinkTo
+          @route='solutions.ai-credit-scoring'
+          class='mobile-menu'
+          @activeClass='current-url'
+          {{on 'click' (fn this.closeOpenMenu 'solutions')}}
+        >
+          AI Credit Scoring
+        </LinkTo>
       </div>
       <div class='service-page-dialog'>
         <LinkTo @route='technologies.node-js' class='menu-service desktop-menu-link'>

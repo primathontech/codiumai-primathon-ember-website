@@ -26,6 +26,9 @@
   <Services::CallUs @data={{@data.data.ctaSection2}} />
 {{/if}}
 <Services::BulletsList @data={{@bulletsList}} @imgStyle={{@bulletsListImgStyle}} />
+{{#if @whyChoose}}
+  <Services::WhyHireSection @data={{@whyChoose}} />
+{{/if}}
 {{#if @whyHire}}
   <Services::WhyHireSection @data={{@whyHire}} />
 {{/if}}
@@ -47,5 +50,7 @@
 {{#if @benefits2}}
   <Chatgpt::Benefits @benefits={{@benefits2}} />
 {{/if}}
-<Services::FaqList @title={{@faqs.title}} @data={{@faqs.cardData}} />
+{{#if @faqs}}
+  <Services::FaqList @title={{@faqs.title}} @data={{@faqs.cardData}} />
+{{/if}}
 <Footer />
