@@ -11,7 +11,7 @@ export const REACT_JS = {
     description: [
       'Access top-tier ReactJS development services for your eCommerce platform and mobile applications. Our experienced team builds dynamic, component-driven solutions that are designed for easy maintenance and testing. With our extensive experience, we create optimized applications that are customized to meet the unique needs of various industries. ',
     ],
-    buttonText: 'Contact Us',
+    buttonText: 'Let’s Talk About Project',
     buttonLink: '/contact',
     imageSrc: '/assets/react-js/serviceByPrimathon.png',
   },
@@ -95,7 +95,7 @@ export const REACT_JS = {
         id: 6,
         cardTitle: '24x7 Support',
         cardData:
-          'Our dedicated support team provides round-the-clock assistance, ensuring all queries and concerns are addressed promptly and effectively.',
+          'Our dedicated support team provides round-the-clock assistance, ensuring all queries and concerns are addressed promptly and effectively. Hire React.js Developers from our team to shape the digital presence of your web applications.',
       },
     ],
   },
@@ -104,7 +104,7 @@ export const REACT_JS = {
     title: 'Boost Your Web Development Experience with Us',
     description:
       'Contact us today to accelerate your web development journey to bring your vision to life with precision and expertise.',
-    ctaText: 'Contact Us',
+    ctaText: 'Hire React.js Developer',
     ctaRoute: 'contact',
   },
 
@@ -113,7 +113,7 @@ export const REACT_JS = {
     description: [
       'At Primathon, our approach to React.js development encompasses careful planning, robust development, rigorous testing, and seamless deployment phases. We prioritize scalability, maintainability, and security to deliver web solutions that perfectly align with your business objectives.',
     ],
-    buttonText: 'Contact Us',
+    buttonText: 'Book a Call',
     buttonLink: '/contact',
     imageSrc: '/assets/react-js/primathonApproach.png',
   },
@@ -158,14 +158,14 @@ export const REACT_JS = {
     title: 'Get Ready to Begin Your React.js Development Journey with Primathon',
     description:
       "Give us a call to learn more about how our services can enhance your web application's performance and user experience.",
-    ctaText: 'Contact Us',
+    ctaText: 'Get a Developer Resume Now',
     ctaRoute: 'contact',
   },
 
   driveInnovation: {
     heading: "Drive Innovation with Primathon's React.js Services",
     description: ['Connect with Primathon and let our offerings boost your business in today’s competitive landscape.'],
-    buttonText: 'Contact Us',
+    buttonText: 'Connect with our React.js Expert',
     buttonLink: '/contact',
     imageSrc: '/assets/react-js/driveInnovation.png',
   },

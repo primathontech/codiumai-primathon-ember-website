@@ -2826,18 +2826,20 @@ export const REACT_DEVELOPER = {
         text: 'Transparent and Smooth Communication',
       },
     ],
-    ctaText1: 'Book a Call',
-    ctaText2: 'Get Free Consultation',
+    ctaText1: 'Hire a React.js Developer',
+    ctaText2: 'Book a 30 min call',
+    isCalendlyOpen: true,
+    isModal: true,
     redirect: '/contact',
     imageSrc: '/assets/react-js/hire-react-js-herosection.png',
     imageAlt: 'Hire React.js',
   },
 
   elevateYourProject: {
-    title: 'Elevate Your Project with Premier React.js Developers in India',
+    title: 'Hire React.js Developers in India to Elevate Your Project with Premier Services',
     description:
       'Maximize the capabilities of React.js for your projects by collaborating with our seasoned team of professionals. With extensive experience and a commitment to creativity, we specialize in delivering tailored solutions tailored to your specific needs. Reach out to us today to harness the full potential of React.js for your projects.',
-    ctaText: 'GET IN TOUCH',
+    ctaText: 'Hire React.js Experts',
     redirect: '/contact',
     imageSrc: '/assets/python/elevate-your-project.png',
     imageAlt: 'Elevate Your Project',
@@ -2847,7 +2849,7 @@ export const REACT_DEVELOPER = {
     title: 'Enhance Your Project with Our Experienced React.js Professionals',
     description:
       'With years of expertise and a commitment to innovation, we deliver bespoke solutions tailored to your unique requirements. Partner with us and experience the difference.',
-    ctaText1: 'CONTACT US',
+    ctaText1: 'Hire React.js Developers for Your Project',
     redirect1: '/contact',
   },
 
@@ -2905,7 +2907,7 @@ export const REACT_DEVELOPER = {
     colouredDescp: 'React.js Developers ',
     descp2:
       'team based on your requirements. We provide various hiring engagement models tailored to meet the specific needs of your business.',
-    ctaText: 'GET IN TOUCH',
+    ctaText: 'Schedule a React.js Developer Interview',
     redirect: '/contact',
     bgColor: '#F4F4F4',
   },
@@ -2948,7 +2950,7 @@ export const REACT_DEVELOPER = {
     title: 'Want to Create a User-friendly Web Application?',
     description:
       "Hire our React.js  developer to improve your product's usability, satisfaction, and overall user experience.",
-    ctaText: 'HIRE US',
+    ctaText: 'Hire React.js Developer',
     redirect: '/contact',
     bgColor: '#21315B',
   },

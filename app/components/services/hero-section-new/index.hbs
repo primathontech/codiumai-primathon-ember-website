@@ -27,12 +27,30 @@
         </ul>
       {{/if}}
       <div class='flex flex-col sm:flex-row gap-6 items-center mt-8'>
-        <a href={{@data.redirect}}><button
+        {{#if @data.isModal}}
+          <button
+            {{on 'click' this.openModal}}
             class='rounded border-2 border-[#24B768] border-solid font-medium text-white py-4 px-8 bg-[#24B768]'
-          >{{@data.ctaText1}}</button></a>
-        {{#if @data.ctaText2}}
-          <p class='text-sm text-gray-200 mb-0'>OR</p>
+          >{{@data.ctaText1}}</button>
+        {{else}}
           <a href={{@data.redirect}}><button
+              class='rounded border-2 border-[#24B768] border-solid font-medium text-white py-4 px-8 bg-[#24B768]'
+            >{{@data.ctaText1}}</button></a>
+        {{/if}}
+        {{#if @data.isCalendlyOpen}}
+          <p class='text-sm text-gray-200 mb-0'>OR</p>
+          <a
+            href='https://calendly.com/amitkumar-singh-r994/30min'
+            onclick="Calendly.initPopupWidget({url: 'https://calendly.com/amitkumar-singh-r994/30min'});return false;"
+            rel='noopener noreferrer'
+          >
+            <button
+              class='rounded border-2 border-[#24B768] border-solid font-medium text-white py-4 px-8 hover:bg-[#24B768] hover:border-[#24B768]'
+            >{{@data.ctaText2}}</button></a>
+        {{else if @data.ctaText2}}
+          <p class='text-sm text-gray-200 mb-0'>OR</p>
+          <a href={{@data.redirect}}>
+            <button
               class='rounded border-2 border-[#24B768] border-solid font-medium text-white py-4 px-8 hover:bg-[#24B768] hover:border-[#24B768]'
             >{{@data.ctaText2}}</button></a>
         {{/if}}
