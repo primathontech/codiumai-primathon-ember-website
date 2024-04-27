@@ -2833,6 +2833,8 @@ export const REACT_DEVELOPER = {
     redirect: '/contact',
     imageSrc: '/assets/react-js/hire-react-js-herosection.png',
     imageAlt: 'Hire React.js',
+    contactFormTitle: 'Schedule an Interview with React.js Developer',
+    contactFormCtaText: 'Hire React.js Developer Now',
   },
 
   elevateYourProject: {
@@ -2840,7 +2842,7 @@ export const REACT_DEVELOPER = {
     description:
       'Maximize the capabilities of React.js for your projects by collaborating with our seasoned team of professionals. With extensive experience and a commitment to creativity, we specialize in delivering tailored solutions tailored to your specific needs. Reach out to us today to harness the full potential of React.js for your projects.',
     ctaText: 'Hire React.js Experts',
-    redirect: '/contact',
+    redirect: '/contact?utm_source=hire-react-js-developer&utm_medium=hire-react-js-experts',
     imageSrc: '/assets/python/elevate-your-project.png',
     imageAlt: 'Elevate Your Project',
   },
@@ -2850,7 +2852,7 @@ export const REACT_DEVELOPER = {
     description:
       'With years of expertise and a commitment to innovation, we deliver bespoke solutions tailored to your unique requirements. Partner with us and experience the difference.',
     ctaText1: 'Hire React.js Developers for Your Project',
-    redirect1: '/contact',
+    redirect1: '/contact?utm_source=hire-react-js-developer&utm_medium=hire-react-js-developers-for-your-project',
   },
 
   reactDevelopmentServices: {
@@ -2908,7 +2910,7 @@ export const REACT_DEVELOPER = {
     descp2:
       'team based on your requirements. We provide various hiring engagement models tailored to meet the specific needs of your business.',
     ctaText: 'Schedule a React.js Developer Interview',
-    redirect: '/contact',
+    redirect: '/contact?utm_source=hire-react-js-developer&utm_medium=hire-dedicated-react-js-developers',
     bgColor: '#F4F4F4',
   },
 
@@ -2933,7 +2935,7 @@ export const REACT_DEVELOPER = {
     description:
       "Hire our React.js  developer to improve your product's usability, satisfaction, and overall user experience.",
     ctaText: 'Hire React.js Developers Remotely',
-    ctaRoute: '/contact',
+    ctaRoute: '/contact?utm_source=hire-react-js-developer&utm_medium=hire-react-js-developers-remotely',
   },
 
   reactJourney: {
@@ -2951,7 +2953,7 @@ export const REACT_DEVELOPER = {
     description:
       "Hire our React.js  developer to improve your product's usability, satisfaction, and overall user experience.",
     ctaText: 'Hire React.js Developer',
-    redirect: '/contact',
+    redirect: '/contact?utm_source=hire-react-js-developer&utm_medium=hire-react-js-developers',
     bgColor: '#21315B',
   },
 

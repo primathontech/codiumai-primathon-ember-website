@@ -105,7 +105,7 @@ export const REACT_JS = {
     description:
       'Contact us today to accelerate your web development journey to bring your vision to life with precision and expertise.',
     ctaText: 'Hire React.js Developer',
-    ctaRoute: 'contact',
+    ctaRoute: 'services.staff-augmentation.hire-react-js-developers',
   },
 
   primathonApproach: {
