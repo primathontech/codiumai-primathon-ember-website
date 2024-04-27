@@ -180,8 +180,8 @@
   visibility: visible;
 }
 
-.mobile-menu{
-  margin:0px 30px !important;
+.mobile-menu {
+  margin: 0px 30px !important;
 }
 
 .mobile-menu-link {
@@ -192,7 +192,7 @@
   letter-spacing: 0;
   padding: 16px 10px 16px 0;
   margin: 16px 0 16px 10px;
-  border-bottom: 1.86px solid #31B76A;
+  border-bottom: 1.86px solid #31b76a;
   width: 131px;
 }
 
@@ -258,8 +258,8 @@
   .links .current-url.current-url {
     border-bottom: 2px solid #198cca;
   }
-  
-  .mobile-menu{
+
+  .mobile-menu {
     display: none !important;
   }
 

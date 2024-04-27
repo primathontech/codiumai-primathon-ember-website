@@ -11,7 +11,6 @@ Router.map(function () {
   this.route('careers');
   this.route('open-position');
   this.route('about-us');
-  this.route('thank-you');
   this.route('services', function () {
     this.route('staff-augmentation', function () {
       this.route('hire-frontend-developers');
@@ -71,6 +70,9 @@ Router.map(function () {
   this.route('ember-js-development-services');
   this.route('sitemap');
   this.route('privacy-policy');
+  this.route('thank-you', function () {
+    this.route('index', { path: '/:name' });
+  });
 });
 
 Router.reopen({
