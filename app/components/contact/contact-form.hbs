@@ -12,7 +12,10 @@
 
 <div class='contact-form' ...attributes {{on 'click' (fn (if @isModal this.handleModalClick (noop)))}}>
   <div class='p-5 bg-[#F6F6F6] rounded relative'>
-    <p class='text-[#333333] text-center text-lg mb-0'>Request a Call Back</p>
+    <p class='text-[#333333] text-center text-lg mb-0 max-w-[85%] md:max-w-none mx-auto'>{{or
+        @title
+        'Request a Call Back'
+      }}</p>
     {{#if @isModal}}
       <img
         src='/assets/svgs/close-icon.svg'
@@ -137,7 +140,7 @@
     {{/if}}
     <div class='flex justify-center'>
       <button type='submit' class='submit-btn' disabled={{this.apiInProgress}} {{on 'click' this.sendMessage}}>
-        REQUEST A CALL BACK
+        {{or @ctaText 'REQUEST A CALL BACK'}}
       </button>
     </div>
   </div>

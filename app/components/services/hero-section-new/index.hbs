@@ -27,17 +27,61 @@
         </ul>
       {{/if}}
       <div class='flex flex-col sm:flex-row gap-6 items-center mt-8'>
-        <a href={{@data.redirect}}><button
-            class='rounded border-2 border-[#24B768] border-solid font-medium text-white py-4 px-8 bg-[#24B768]'
-          >{{@data.ctaText1}}</button></a>
-        {{#if @data.ctaText2}}
-          <p class='text-sm text-gray-200 mb-0'>OR</p>
+        {{#if @data.isModal}}
+          <button
+            {{on 'click' this.openModal}}
+            class='rounded border-2 border-[#24B768] border-solid font-medium text-white py-4 px-8 bg-[#24B768] block lg:hidden'
+          >{{@data.ctaText1}}</button>
+        {{else}}
           <a href={{@data.redirect}}><button
+              class='rounded border-2 border-[#24B768] border-solid font-medium text-white py-4 px-8 bg-[#24B768]'
+            >{{@data.ctaText1}}</button></a>
+        {{/if}}
+        {{#if @data.isCalendlyOpen}}
+          <p class='text-sm text-gray-200 mb-0 {{if @data.isModal "block lg:hidden"}}'>OR</p>
+          <a
+            href='https://calendly.com/amitkumar-singh-r994/30min'
+            onclick="Calendly.initPopupWidget({url: 'https://calendly.com/amitkumar-singh-r994/30min'});return false;"
+            rel='noopener noreferrer'
+          >
+            <button
+              class='rounded border-2 border-[#24B768] border-solid font-medium text-white py-4 px-8 hover:bg-[#24B768] hover:border-[#24B768]'
+            >{{@data.ctaText2}}</button></a>
+        {{else if @data.ctaText2}}
+          <p class='text-sm text-gray-200 mb-0 {{if @data.isModal "block lg:hidden"}}'>OR</p>
+          <a href={{@data.redirect}}>
+            <button
               class='rounded border-2 border-[#24B768] border-solid font-medium text-white py-4 px-8 hover:bg-[#24B768] hover:border-[#24B768]'
             >{{@data.ctaText2}}</button></a>
         {{/if}}
       </div>
     </div>
-    <img src={{@data.imageSrc}} class='{{@imgStyle}} hidden lg:block' alt={{@data.imageAlt}} title={{@data.imageAlt}} />
+    {{#if @data.isModal}}
+      <div class='w-full max-w-[600px] lg:max-w-[500px] mr-6 pb-10 hidden lg:block'>
+        <Contact::ContactForm @title={{@data.contactFormTitle}} @ctaText={{@data.contactFormCtaText}} />
+      </div>
+    {{else}}
+      <img
+        src={{@data.imageSrc}}
+        class='{{@imgStyle}} hidden lg:block'
+        alt={{@data.imageAlt}}
+        title={{@data.imageAlt}}
+      />
+    {{/if}}
   </div>
 </section>
+{{#if this.isModalOpen}}
+  <div
+    class='fixed top-0 left-0 w-full h-full flex justify-center items-center z-50 overflow-y-auto bg-[#1A284D] bg-opacity-30'
+    {{on 'click' this.onCloseModal}}
+  >
+    <div class='w-11/12 max-w-[600px] rounded-3xl bg-white shadow-2xl overflow-hidden'>
+      <Contact::ContactForm
+        @onCloseModal={{this.onCloseModal}}
+        @isModal={{true}}
+        @title={{@data.contactFormTitle}}
+        @ctaText={{@data.contactFormCtaText}}
+      />
+    </div>
+  </div>
+{{/if}}

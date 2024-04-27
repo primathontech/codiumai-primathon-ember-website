@@ -90,7 +90,7 @@ export const SERVICE_DATA = {
         },
         {
           text: 'Angular developers',
-          url: '/services/staff-augmentation/hire-angular-developers',
+          url: '/services/staff-augmentation/hire-angular-js-developers',
         },
         {
           text: 'JavaScript developers',
@@ -98,7 +98,7 @@ export const SERVICE_DATA = {
         },
         {
           text: 'React developers',
-          url: '/services/staff-augmentation/hire-react-developers',
+          url: '/services/staff-augmentation/hire-react-js-developers',
         },
         {
           text: 'IOS developers',
@@ -114,7 +114,7 @@ export const SERVICE_DATA = {
         },
         {
           text: 'Ember.js developers',
-          url: '/services/staff-augmentation/hire-ember-developers',
+          url: '/services/staff-augmentation/hire-ember-js-developers',
         },
       ],
     },

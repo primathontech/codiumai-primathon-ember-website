@@ -66,20 +66,13 @@ export const AI_STOCK_PREDICTOR = {
       },
       {
         id: 5,
-        imageSrc: '/assets/ai-stock-predictor/integration.svg',
-        cardTitle: 'Integration with Trading Platforms',
-        content:
-          ' Our team of expert developers seamlessly integrate AI stock predictor solutions with existing trading platforms and systems to achieve better results.',
-      },
-      {
-        id: 6,
         imageSrc: '/assets/ai-stock-predictor/performance.svg',
         cardTitle: 'Performance Monitoring and Reporting',
         content:
           'Track the performance of AI stock prediction models and measure their impact on business outcomes. Our AI services will help you receive comprehensive reports and analytics to evaluate the effectiveness of the solution.',
       },
       {
-        id: 7,
+        id: 6,
         imageSrc: '/assets/ai-stock-predictor/maintenance.svg',
         cardTitle: 'Dedicated Support and Maintenance',
         content:
@@ -209,36 +202,30 @@ export const AI_STOCK_PREDICTOR = {
       },
       {
         id: '2',
-        cardTitle: 'Improve Efficiency',
-        content:
-          'Automation of our stock analysis processes through AI reduces the time and effort required for manual research, enabling businesses to react quickly to market changes.',
-      },
-      {
-        id: '3',
         cardTitle: 'Increase Profitability',
         content:
           ' By accurately predicting stock price movements, businesses can capitalize on market opportunities, maximize returns on investments, and improve overall profitability.',
       },
       {
-        id: '4',
+        id: '3',
         cardTitle: 'Gain Competitive Edge',
         content:
           'Utilizing AI stock predictors allows businesses to stay ahead of competitors by leveraging cutting-edge technology to identify trends and make data-driven decisions.',
       },
       {
-        id: '5',
+        id: '4',
         cardTitle: 'Mitigate Risks',
         content:
           'AI can identify potential risks and vulnerabilities in investment strategies, enabling businesses to implement risk mitigation measures and protect their assets.',
       },
       {
-        id: '6',
+        id: '5',
         cardTitle: 'Adapt to Market Dynamics',
         content:
           'AI stock predictors continuously analyze market data and adapt to changing market conditions, helping businesses stay agile and responsive in dynamic financial markets.',
       },
       {
-        id: '7',
+        id: '6',
         cardTitle: 'Enhance Customer Satisfaction',
         content:
           ' By making well-informed investment decisions and achieving better financial outcomes, businesses can enhance customer satisfaction and loyalty.',

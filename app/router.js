@@ -19,15 +19,15 @@ Router.map(function () {
       this.route('uiux-designers');
       this.route('hire-android-developers');
       this.route('hire-python-developers');
-      this.route('hire-angular-developers');
+      this.route('hire-angular-js-developers');
       this.route('hire-javascript-developers');
-      this.route('hire-react-developers');
+      this.route('hire-react-js-developers');
       this.route('hire-ios-developers');
       this.route('hire-swift-developers');
       this.route('quality-analysts');
       this.route('platform');
       this.route('hire-vue-developers');
-      this.route('hire-ember-developers');
+      this.route('hire-ember-js-developers');
     });
     this.route('end-to-end-products', function () {
       this.route('booking-platforms');
@@ -48,6 +48,7 @@ Router.map(function () {
     this.route('ai-chatbot');
     this.route('ai-discovery');
     this.route('ai-stock-predictor');
+    this.route('ai-credit-scoring');
   });
   this.route('technologies', function () {
     this.route('node-js');

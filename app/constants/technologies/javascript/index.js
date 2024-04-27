@@ -47,7 +47,7 @@ export const JAVASCRIPT = {
         id: '5',
         cardTitle: 'JavaScript UI/UX Design Services',
         content:
-          'Design captivating and user-centric interfaces with our JavaScript UI/UX services. We prioritize user engagement and satisfaction, ensuring your applications are intuitive and enjoyable to use.',
+          'Design Captivating And User-Centric Interfaces With Our JavaScript UI/UX Services. We Prioritize User Engagement And Satisfaction, Ensuring Your Applications Are Intuitive And Enjoyable To Use. At Primathon, we use top-tier JavaScript libraries such as React.js, Next.js, Vue.js, Angular, and more to deliver optimal results. Hire React.js developers from our team to elevate your web development and take your projects to the next level.',
       },
       {
         id: '6',
