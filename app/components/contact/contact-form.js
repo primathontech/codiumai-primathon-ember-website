@@ -11,6 +11,7 @@ import {
 } from '../../constants/event-name';
 
 export default class ContactContactFormComponent extends Component {
+  @service router;
   @service api;
   @tracked submitted = false; //check if form is submitted
   @tracked apiInProgress = false;
@@ -91,7 +92,14 @@ export default class ContactContactFormComponent extends Component {
       const res = await this.api.sendContactMail(this.userQuestion);
 
       if (res.status === 200) {
-        this.submitted = true;
+        this.args.onCloseModal && this.args.onCloseModal();
+        if (this.args.isModal) {
+          this.submitted = true;
+        } else {
+          this.router.transitionTo('thank-you', {
+            queryParams: { name: this.userQuestion.name, prima_web_thank_you: 'protected' },
+          });
+        }
         this.apiInProgress = true;
         // reset the form
         this.userQuestion = {
@@ -100,7 +108,6 @@ export default class ContactContactFormComponent extends Component {
           phone: '',
           companyName: '',
         };
-        this.args.onCloseModal && this.args.onCloseModal();
         this.trackEvent(CONTACT_API_SUCCESS, this.userQuestion);
       } else {
         this.apiError = true;

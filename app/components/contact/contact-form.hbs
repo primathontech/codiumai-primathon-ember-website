@@ -1,5 +1,12 @@
-{{#if this.submitted}}
-  <div class='form-response fixed top-2 right-0 bg-[#24b768] max-w-[700px] z-10 rounded' {{did-insert this.closeToast}}>
+{{#if (and @isModal this.submitted)}}
+  <div class='form-response fixed top-2 right-0 bg-[#faebd7] max-w-[700px] z-10 rounded' {{did-insert this.closeToast}}>
+    <img
+      src='/assets/svgs/close-icon.svg'
+      alt='close icon'
+      title='close icon'
+      class='absolute top-6 right-6 cursor-pointer'
+      {{on 'click' (fn (or @onCloseModal (noop)))}}
+    />
     <h2>
       Thanks for reaching out!
     </h2>

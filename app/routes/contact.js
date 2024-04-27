@@ -6,7 +6,7 @@ import { TESTIMONIAL_DATA } from '../constants/homepage/testimonial';
 export default class ContactRoute extends Route {
   @service headData;
 
-  async model(params) {
+  async model() {
     const testimonialData = TESTIMONIAL_DATA;
     return { testimonialData };
   }
