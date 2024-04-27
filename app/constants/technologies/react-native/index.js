@@ -1,16 +1,16 @@
 export const REACT_NATIVE = {
   heroSection: {
-    title: "React Native Development Company",
+    title: 'React Native Development Company',
     subTitle:
-      "The Future Is Here! Help Your Business Reach the Sky With Custom React Native Software Development Company",
+      'The Future Is Here! Help Your Business Reach the Sky With Custom React Native Software Development Company',
     buttonData: 'Get a React Native Developer',
     redirect: '/contact',
   },
-  
-  unleashExcellenceWithPrimathon : {
+
+  unleashExcellenceWithPrimathon: {
     heading: "Unleash Excellence with Primathon's React Native Services",
     description: [
-      "Unlock the full potential of your app vision with Primathon's React Native Services Our seasoned team is dedicated to transforming your ideas into cutting-edge mobile solutions. With a focus on innovation and efficiency, we streamline the development process, delivering cross-platform solutions tailored for native-like experiences backed by our unwavering commitment to excellence."
+      "Unlock the full potential of your app vision with Primathon's React Native Services Our seasoned team is dedicated to transforming your ideas into cutting-edge mobile solutions. With a focus on innovation and efficiency, we streamline the development process, delivering cross-platform solutions tailored for native-like experiences backed by our unwavering commitment to excellence.",
     ],
     buttonText: 'Contact Us',
     buttonLink: '/contact',
@@ -44,12 +44,14 @@ export const REACT_NATIVE = {
         cardTitle: 'Maintenance and Support',
         content:
           'Providing ongoing maintenance and support services to ensure the smooth operation and performance optimization of React Native applications post-launch.',
-      },{
+      },
+      {
         id: '5',
         cardTitle: 'Migration Services',
         content:
           'Assisting clients in migrating their existing mobile applications to React Native, ensuring a seamless transition and minimal disruption to their business operations.',
-      },{
+      },
+      {
         id: '6',
         cardTitle: 'Consultation and Strategy',
         content:
@@ -78,7 +80,7 @@ export const REACT_NATIVE = {
         imageSrc: '/assets/react-native/cutting-edge-solutions.png',
         cardTitle: 'Cutting-Edge Solutions',
         cardData:
-          "Our expertise provides cutting-edge solutions tailored to your specific requirements. To create cross-platform apps that meet your unique needs, our team prioritizes creativity and innovation.",
+          'Our expertise provides cutting-edge solutions tailored to your specific requirements. To create cross-platform apps that meet your unique needs, our team prioritizes creativity and innovation.',
       },
       {
         id: 2,
@@ -92,22 +94,23 @@ export const REACT_NATIVE = {
         imageSrc: '/assets/react-native/customer-centric-approach.png',
         cardTitle: 'Customer-Centric Approach',
         cardData:
-          'We prioritize customer satisfaction and strive to exceed your expectations at every turn. Our team is dedicated to delivering solutions that meet your unique business needs and objectives, ensuring a partnership built on trust and reliability.',
+          'We prioritize customer satisfaction and strive to exceed your expectations at every turn. Our team is dedicated to delivering solutions that meet your unique business needs and objectives, ensuring a partnership built on trust and reliability. Hire React.js developers from our team to craft and enhance the digital footprint of your web applications.',
       },
     ],
   },
 
   elevateYourWebDevelopment: {
-    title: 'Partner with Primathon for React Native development and experience excellence in every aspect of your project.',
+    title:
+      'Partner with Primathon for React Native development and experience excellence in every aspect of your project.',
     description: 'Contact us today to empower your app journey.',
     ctaText: 'Contact Us',
-    ctaRoute: 'contact'
+    ctaRoute: 'contact',
   },
 
   approachToReactNativeDevelopment: {
-    heading: "Primathon’s Approach to React Native Development",
+    heading: 'Primathon’s Approach to React Native Development',
     description: [
-      "Primathon offers flexible solutions tailored to your React Native development needs. From augmenting your team to full project management, we adapt to your requirements. Our expert team ensures high-performance applications using cutting-edge technologies. With clear communication and a client-centric focus, we deliver exceptional results, driving your business forward."
+      'Primathon offers flexible solutions tailored to your React Native development needs. From augmenting your team to full project management, we adapt to your requirements. Our expert team ensures high-performance applications using cutting-edge technologies. With clear communication and a client-centric focus, we deliver exceptional results, driving your business forward.',
     ],
     buttonText: 'Contact Us',
     buttonLink: '/contact',
@@ -141,18 +144,19 @@ export const REACT_NATIVE = {
 
   startYourReactNativeProject: {
     title: 'Trust Primathon to drive your React Native projects to success with precision and expertise.',
-    description: "Get in Touch to learn more about how our services can enhance your application's performance and user experience.",
+    description:
+      "Get in Touch to learn more about how our services can enhance your application's performance and user experience.",
     ctaText: 'Get in Touch',
-    ctaRoute: 'contact'
+    ctaRoute: 'contact',
   },
 
   driveInnovation: {
     heading: "Drive Innovation with Primathon's React Native Services",
     description: [
-      "Choose Primathon for your React Native development needs and embark on a journey of innovation, efficiency, and growth. Our unwavering commitment to excellence guarantees that your web applications are not only tailored for today's requirements but also future-proofed to tackle tomorrow's challenges head-on. With Primathon as your partner, you'll harness the power of cutting-edge technology and forward-thinking solutions to drive innovation and propel your business to new heights."
+      "Choose Primathon for your React Native development needs and embark on a journey of innovation, efficiency, and growth. Our unwavering commitment to excellence guarantees that your web applications are not only tailored for today's requirements but also future-proofed to tackle tomorrow's challenges head-on. With Primathon as your partner, you'll harness the power of cutting-edge technology and forward-thinking solutions to drive innovation and propel your business to new heights.",
     ],
     buttonText: 'Contact Us',
     buttonLink: '/contact',
     imageSrc: '/assets/react-native/drive-innovation.png',
-  }
+  },
 };

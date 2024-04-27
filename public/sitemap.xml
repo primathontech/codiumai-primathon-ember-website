@@ -95,7 +95,7 @@
   </url>
 
    <url>
-    <loc>https://primathon.in/services/staff-augmentation/hire-angular-developers</loc>
+    <loc>https://primathon.in/services/staff-augmentation/hire-angular-js-developers</loc>
   </url>
 
    <url>
@@ -103,7 +103,7 @@
   </url>
 
    <url>
-    <loc>https://primathon.in/services/staff-augmentation/hire-react-developers</loc>
+    <loc>https://primathon.in/services/staff-augmentation/hire-react-js-developers</loc>
   </url>
 
    <url>
@@ -119,7 +119,7 @@
   </url>
 
   <url>
-    <loc>https://primathon.in/services/staff-augmentation/hire-ember-developers</loc>
+    <loc>https://primathon.in/services/staff-augmentation/hire-ember-js-developers</loc>
   </url>
 
   <url>
@@ -321,5 +321,13 @@
 
   <url>
     <loc>https://primathon.in/solutions/customer-behavior-analysis-tool</loc>
+  </url>
+
+  <url>
+    <loc>https://primathon.in/solutions/ai-stock-predictor</loc>
+  </url>
+
+  <url>
+    <loc>https://primathon.in/solutions/ai-credit-scoring</loc>
   </url>
 </urlset>
