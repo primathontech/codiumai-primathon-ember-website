@@ -71,9 +71,7 @@ Router.map(function () {
   this.route('ember-js-development-services');
   this.route('sitemap');
   this.route('privacy-policy');
-  this.route('thank-you', function () {
-    this.route('index', { path: '/:name' });
-  });
+  this.route('thank-you');
 });
 
 Router.reopen({
