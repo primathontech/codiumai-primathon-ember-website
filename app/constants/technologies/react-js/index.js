@@ -95,7 +95,7 @@ export const REACT_JS = {
         id: 6,
         cardTitle: '24x7 Support',
         cardData:
-          'Our dedicated support team provides round-the-clock assistance, ensuring all queries and concerns are addressed promptly and effectively. Hire React.js Developers from our team to shape the digital presence of your web applications.',
+          'Our dedicated support team provides round-the-clock assistance, ensuring all queries and concerns are addressed promptly and effectively. <a href="https://primathon.in/services/staff-augmentation/hire-react-js-developers" style="color:#ffffff">Hire React.js Developers</a> from our team to shape the digital presence of your web applications.',
       },
     ],
   },
