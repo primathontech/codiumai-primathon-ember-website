@@ -13,7 +13,7 @@ export default class IndexRoute extends Route {
 
   _HOSTNAME = '/blog';
   _PAGE_SIZE = 4;
-  _URL = `${this._HOSTNAME}/wp-json/wp/v2/posts?_embed&per_page=${this._PAGE_SIZE}`;
+  _URL = `https://primathon.in/blog/wp-json/wp/v2/posts?_embed&per_page=${this._PAGE_SIZE}`;
 
   getImageUrl(data) {
     if (

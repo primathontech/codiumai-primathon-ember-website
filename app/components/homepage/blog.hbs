@@ -11,7 +11,6 @@
         <div class="blog-card">
           <a
             href={{data.link}}
-            target="_blank"
             rel="noopener noreferrer"
             {{on 'click' (fn this.onBlogCardClick data.title data.link)}}
           >
@@ -38,7 +37,7 @@
       {{/each}}
     </div>
     <div class="view-more">
-      <a href="/blog" target="_blank" rel="noopener noreferrer" {{on 'click' this.onViewMoreBlog}}>
+      <a href="/blog"  rel="noopener noreferrer" {{on 'click' this.onViewMoreBlog}}>
         View More
       </a>
     </div>
