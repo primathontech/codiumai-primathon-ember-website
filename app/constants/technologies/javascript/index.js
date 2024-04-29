@@ -47,7 +47,7 @@ export const JAVASCRIPT = {
         id: '5',
         cardTitle: 'JavaScript UI/UX Design Services',
         content:
-          'Design Captivating And User-Centric Interfaces With Our JavaScript UI/UX Services. We Prioritize User Engagement And Satisfaction, Ensuring Your Applications Are Intuitive And Enjoyable To Use. At Primathon, we use top-tier JavaScript libraries such as React.js, Next.js, Vue.js, Angular, and more to deliver optimal results. Hire React.js developers from our team to elevate your web development and take your projects to the next level.',
+          'Design Captivating And User-Centric Interfaces With Our JavaScript UI/UX Services. We Prioritize User Engagement And Satisfaction, Ensuring Your Applications Are Intuitive And Enjoyable To Use. At Primathon, we use top-tier JavaScript libraries such as React.js, Next.js, Vue.js, Angular, and more to deliver optimal results. <a href="https://primathon.in/services/staff-augmentation/hire-react-js-developers" style="color:#000000">Hire React.js developers</a> from our team to elevate your web development and take your projects to the next level.',
       },
       {
         id: '6',

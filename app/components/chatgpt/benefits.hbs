@@ -3,11 +3,11 @@
     <div class='headingContainer'>
       <h2 class='heading'>{{@benefits.title}} <span>{{@benefits.subTitle}}</span></h2>
       {{#if @benefits.description}}
-          <p class="description">{{@benefits.description}}</p>
+        <p class='description'>{{@benefits.description}}</p>
       {{/if}}
     </div>
   </div>
-  <div class='cardContainer {{if @maxWidthStyle @maxWidthStyle 'max-w-[1400px]'}}'>
+  <div class='cardContainer {{if @maxWidthStyle @maxWidthStyle "max-w-[1400px]"}}'>
     <div class='cards'>
 
       {{#each @benefits.cardData as |card|}}
@@ -21,7 +21,7 @@
             <h3>{{card.cardTitle}}</h3>
           </div>
           <div class='cardContent'>
-            <p>{{card.cardData}}</p>
+            <p>{{html-safe card.cardData}}</p>
           </div>
         </div>
       {{/each}}

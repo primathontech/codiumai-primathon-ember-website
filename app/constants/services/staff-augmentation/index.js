@@ -4090,7 +4090,7 @@ export const FRONTEND_DEVELOPER = {
         imageSrc: '/assets/frontend/ui-ux-design.svg',
         cardTitle: 'UI/UX Design and Development',
         content:
-          'From concept to execution, our designers ensure a captivating user experience tailored to your produc.',
+          'From concept to execution, our designers ensure a captivating user experience tailored to your product. Seeking to enhance your front-end development process? Our team boasts the finest developers from across India, specializing in advanced libraries such as React.js, Vue.js, Angular, Ember, and more.<a href="https://primathon.in/services/staff-augmentation/hire-react-js-developers" style="color:#000000">Hire React.js developer</a> from our team to simplify your front end development. ',
       },
       {
         id: 3,

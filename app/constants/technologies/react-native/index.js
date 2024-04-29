@@ -94,7 +94,7 @@ export const REACT_NATIVE = {
         imageSrc: '/assets/react-native/customer-centric-approach.png',
         cardTitle: 'Customer-Centric Approach',
         cardData:
-          'We prioritize customer satisfaction and strive to exceed your expectations at every turn. Our team is dedicated to delivering solutions that meet your unique business needs and objectives, ensuring a partnership built on trust and reliability. Hire React.js developers from our team to craft and enhance the digital footprint of your web applications.',
+          'We prioritize customer satisfaction and strive to exceed your expectations at every turn. Our team is dedicated to delivering solutions that meet your unique business needs and objectives, ensuring a partnership built on trust and reliability. <a href="https://primathon.in/services/staff-augmentation/hire-react-js-developers" style="color:#ffffff">Hire React.js developers</a> from our team to craft and enhance the digital footprint of your web applications.',
       },
     ],
   },
