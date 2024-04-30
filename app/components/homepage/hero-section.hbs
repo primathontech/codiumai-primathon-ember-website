@@ -42,7 +42,7 @@
               {{/if}}
             </video>
             {{#if this.showPlayButton}}
-              <button type='button' class='play-button' {{on 'click' this.playVideo}}>
+              <button type='button' class='play-button' {{on 'click' this.playVideo}} aria-label='Play Button'>
                 <svg height='100%' width='100%'>
                   <g>
                     <path
