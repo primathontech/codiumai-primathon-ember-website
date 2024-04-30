@@ -5,6 +5,7 @@ export const TESTIMONIAL_DATA = {
   data: [
     {
       profilePicUrl: '/assets/client-head/Vikas-Kapoor.png',
+      fallbackProfilePicUrl: '/assets/client-head/Vikas-Kapoor.webp',
       name: 'Vikas Kapoor',
       title: 'Chairman & CEO at Mezocliq',
       comment:
@@ -12,6 +13,7 @@ export const TESTIMONIAL_DATA = {
     },
     {
       profilePicUrl: '/assets/client-head/Michael-Dotsikas.png',
+      fallbackProfilePicUrl: '/assets/client-head/Michael-Dotsikas.webp',
       name: 'Michael Dotsikas',
       title: 'Co-founder - Crypterns',
       comment:
@@ -19,6 +21,7 @@ export const TESTIMONIAL_DATA = {
     },
     {
       profilePicUrl: '/assets/client-head/Ray-Youssef.png',
+      fallbackProfilePicUrl: '/assets/client-head/Ray-Youssef.webp',
       name: 'Ray Youssef',
       title: 'CEO- Paxful',
       comment:
@@ -26,6 +29,7 @@ export const TESTIMONIAL_DATA = {
     },
     {
       profilePicUrl: '/assets/client-head/Simon-Munch-Andersen.png',
+      fallbackProfilePicUrl: ' /assets/client-head/Simon-Munch-Andersen.webp ',
       name: 'Simon Munch-Andersen, ',
       title: 'CTO- Ultimate AI',
       comment:

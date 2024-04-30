@@ -16,14 +16,27 @@
             </blockquote>
             <div class='testimonial-by'>
               <div class='person-img'>
-                <img
-                  src={{if data.profilePicUrl data.profilePicUrl '/assets/images/user.png'}}
+              {{#if data.fallbackProfilePicUrl}}
+                  <img
+                  srcset={{data.fallbackProfilePicUrl}}
+                  src={{data.profilePicUrl}}
                   loading='lazy'
                   alt={{data.name}}
                   title={{data.name}}
                   width="100%"
                   height="100%"
                 />
+             {{else}}
+                  <img
+                   srcset={{data.profilePicUrl}}
+                  src={{data.fallbackProfilePicUrl}}
+                  loading='lazy'
+                  alt={{data.name}}
+                  title={{data.name}}
+                  width="100%"
+                  height="100%"
+                />
+                {{/if}}
               </div>
               <div class='nfo'>
                 <p class='name'>
