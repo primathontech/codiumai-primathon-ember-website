@@ -1,0 +1,136 @@
+{
+  "challenges_Services_Section": {
+    "CHALLENGES_DATA": {
+      "ChallengeTitle": "The Challenge",
+      "ChallengeDescription": "The Client approached us with an exciting challenge:we needed to implement solutions that would appeal to a modern customer, while keeping in mind business objectives regarding scalability. This meant that any product created for the client would have to be as self-sufficient as possible, with minimal maintenance down the line.",
+      "BriefTitle": " Our brief was to:",
+      "BriefPoints": [
+        " Create a responsive platform that would appeal to younger audiences both in terms of functionality and aesthetics",
+        " Ensure CMS integration",
+        "Develop a hassle-free booking mechanism",
+        " Integrate a payments processing system"
+      ],
+      "months": "5",
+      "countryName": "India"
+    },
+    "SERVICES_PROVIDED_DATA": {
+      "data": [
+        {
+          "serviceLogo": "/assets/caseStudy/abtesting.png",
+          "serviceName": "A/B Testing"
+        },
+        {
+          "serviceLogo": "/assets/caseStudy/Fully_Dynamic_CMS.png",
+          "serviceName": " Fully Dynamic CMS"
+        },
+        {
+          "serviceLogo": "/assets/caseStudy/Sentry_for_Analytics.png",
+          "serviceName": "UX/UI Design"
+        }
+      ]
+    },
+    "TECHNOLOGIES_USED_DATA": {
+      "imagesData": [
+        {
+          "techName": "Angular",
+          "techImage": "/assets/frontend/angular.png"
+        },
+        {
+          "techName": "Node Js",
+          "techImage": "/assets/images/nodejs.png"
+        },
+        {
+          "techName": "MySQL",
+          "techImage": "/assets/images/mysql.png"
+        },
+        {
+          "techName": "Redis",
+          "techImage": "/assets/images/redis.png"
+        },
+        {
+          "techName": "S3",
+          "techImage": "/assets/caseStudy/s3.png"
+        }
+      ]
+    }
+  },
+
+  "bulletPoints": {
+    "heading": "About Bloom",
+    "bulletList": [
+      "A chain of award-winning hotels, designed and operated by world class professionals.",
+      "Ranked as the #1 Hotel Brand of Choice and recipient of the MakeMyTrip Customer Choice Award in 2020.",
+      "Estimated annual revenue standing at $41.9 million.",
+      "Recognized as the Best Concept Hotel by Shri Prahlad Singh Patel, Minister of State of Culture & Tourism.",
+      "Secured a total funding of $16.6 million",
+      "Establishing a new standard for travel experiences.",
+      "Preferred destination for travelers seeking a blend of luxury and affordability"
+    ],
+    "about": [
+      { "id": 1, "imageSrc": "/assets/new-case-study/building.svg", "title": "Industry", "detail": "Hospitality" },
+      { "id": 2, "imageSrc": "/assets/new-case-study/timer.svg", "title": "Project Timeline", "detail": "5 months" },
+      { "id": 3, "imageSrc": "/assets/new-case-study/location.svg", "title": "Location", "detail": "India" },
+      {
+        "id": 1,
+        "imageSrc": "/assets/new-case-study/technology.svg",
+        "title": "Technology Used",
+        "detail": "My SQL Redis Node JS Angular S3"
+      }
+    ]
+  },
+
+  "projectGoal": {
+    "imgSrc": "/assets/new-case-study/iphone-img.png",
+    "heading": "Our Project Goals",
+    "bulletList": [
+      "Design a responsive platform catering to a younger demographic, focusing on both functionality and visual appeal.",
+      "Ensure seamless integration with a Content Management System (CMS).",
+      "Implement a user-friendly booking system with minimal complications.",
+      "Integrate a secure payment processing system into the platform."
+    ]
+  },
+
+  "customSolution": {
+    "title": "Navigating Change:",
+    "subTitle": "Custom Solutions for Bloom's Digital Transformation",
+    "description": "Bloom asked us to create solutions that would attract modern customers and could be easily scaled in the future. This indicated their desire for a product that would be highly self-reliant, requiring minimal maintenance in the long term.",
+    "cardData": [
+      {
+        "id": 1,
+        "imageSrc": "/assets/new-case-study/ui-ux-design.svg",
+        "cardTitle": "UI/UX Design",
+        "cardContent": "For this industry type, we prioritized user-centricity, aesthetic appeal, and functional efficiency, ultimately delivering a compelling digital experience for their customers."
+      },
+      {
+        "id": 2,
+        "imageSrc": "/assets/new-case-study/web-application.svg",
+        "cardTitle": "Progressive Web Application",
+        "cardContent": "Our team meticulously designed and developed features tailored to Bloom's user onboarding needs, ensuring optimal functionality across devices. By implementing PWA principles and cutting-edge technology, we enhanced user accessibility and engagement, ultimately providing Bloom Hotel's guests with a responsive and intuitive booking platform."
+      },
+      {
+        "id": 3,
+        "imageSrc": "/assets/new-case-study/dynamic-cms.svg",
+        "cardTitle": "Fully Dynamic CMS",
+        "cardContent": "We successfully transitioned the entire codebase from TypeScript to JavaScript, resulting in notable enhancements in speed and performance."
+      },
+      {
+        "id": 4,
+        "imageSrc": "/assets/new-case-study/seo-domain.svg",
+        "cardTitle": "Best SEO Domain",
+        "cardContent": "We created numerous types of APIs for their backend to function seamlessly without any interruptions."
+      },
+      {
+        "id": 5,
+        "imageSrc": "/assets/new-case-study/testing.svg",
+        "cardTitle": "A/B Testing",
+        "cardContent": "We created two versions of the website interface, each with slight variations in design or content. Through careful analysis of user interactions and conversion rates, they determined which version performed better in terms of achieving desired outcomes such as bookings or engagement, helping Bloom Hotels optimize their online presence effectively."
+      },
+      {
+        "id": 6,
+        "imageSrc": "/assets/new-case-study/analytics.svg",
+        "cardTitle": "Sentry for Analytics",
+        "cardContent": "Indeed, Stockal expressed strong satisfaction with our services, offering positive reviews, and has indicated a desire to engage in future collaborations with our team."
+      }
+    ]
+  }
+}

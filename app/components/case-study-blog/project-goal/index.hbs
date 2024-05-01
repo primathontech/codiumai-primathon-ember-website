@@ -1,0 +1,18 @@
+<section
+  class='flex items-center justify-center gap-20 md:bg-[#FFC700] md:h-[400px] mt-32 flex-col md:flex-row md:p-24'
+>
+  <div class='pl-4 pr-4 md:p-0 md:h-[500px] md:relative md:top-12 lg:top-0 lg:bottom-24'>
+    <img src={{@data.imgSrc}} alt='iPhone image' class="h-[450px] md:h-[100%]"/>
+  </div>
+
+  <div class='p-16 sm:py-16 sm:px-20 md:p-0 flex flex-col justify-center bg-[#FFC700]'>
+    <h3 class='font-semibold text-3xl md:text-4xl mb-8'>{{@data.heading}}</h3>
+    <div class='md:max-w-[640px] pl-4'>
+      <ul class='list-disc'>
+        {{#each @data.bulletList as |list|}}
+          <li class='leading-8'>{{list}}</li>
+        {{/each}}
+      </ul>
+    </div>
+  </div>
+</section>
