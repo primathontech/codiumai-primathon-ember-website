@@ -1,11 +1,11 @@
-<p class='text-center mt-40 text-4xl font-weight-500 mb-8'>{{@data.title}}</p>
-<div class="max-w-[1400px] px-6 py-10 sm:p-10 md:p-0 mx-auto flex justify-center">
-  <div class='flex flex-wrap gap-4 flex-row mt-4'>
+<p class='text-center mt-40 md:text-4xl text-3xl font-medium md:mb-16 mb:10'>{{@data.title}}</p>
+<div class="max-w-[1400px] px-6 sm:p-10 md:p-0 mx-auto flex justify-center">
+  <div class='flex flex-wrap gap-10 flex-row mt-4 md:pl-10'>
     {{#each @data.data as |item|}}
       <div class='w-[300px] relative'>
         <img src='{{item.image}}' alt='arrow-image' />
-        <h3 class='text-lg font-bold absolute left-5 top-14 text-white'>{{item.subTitle}}</h3>
-        <p class='text-[#2E2E2E] mt-5 text-lg'>{{item.description}}</p>
+        <h3 class='text-xl font-semibold absolute left-5 top-10 md:text-xl text-white'>{{item.subTitle}}</h3>
+        <p class='text-[#2E2E2E] md:mt-5 mt-2.5 md:text-lg text-base'>{{item.description}}</p>
       </div>
     {{/each}}
   </div>
