@@ -1,13 +1,22 @@
-<div class="aiDevelopment-introductionContainer">
-    <div class="contentContainer">
-        <h2>{{@intro.heading}} </h2>
-        <p>
-            {{#each @intro.description as |item|}}
-            {{item}}
-            <br><br>
-            {{/each}}
-        </p>
-        <a href={{@intro.buttonLink}}><button>{{@intro.buttonText}}</button></a>
-    </div>
-    <img src={{@intro.imageSrc}} class='{{if @imgStyle @imgStyle 'w-[567px] h-[624px]'}}' alt="introduction" title="introduction">
+<div class='aiDevelopment-introductionContainer'>
+  <div class='contentContainer'>
+    <h2>{{@intro.heading}} </h2>
+    <p>
+      {{#each @intro.description as |item|}}
+        {{item}}
+        <br /><br />
+      {{/each}}
+    </p>
+    <a href={{@intro.buttonLink}}>
+      <button {{on 'click' (if @data.gtagEventName (fired-gtag-event @data.gtagEventName) (fn (noop)))}}>
+        {{@intro.buttonText}}
+      </button>
+    </a>
+  </div>
+  <img
+    src={{@intro.imageSrc}}
+    class='{{if @imgStyle @imgStyle "w-[567px] h-[624px]"}}'
+    alt='introduction'
+    title='introduction'
+  />
 </div>

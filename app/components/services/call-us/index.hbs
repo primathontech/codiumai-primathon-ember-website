@@ -1,5 +1,7 @@
 <section class='px-6 py-8 md:py-16 md:px-12' style='background-color: {{@data.bgColor}} '>
-  <div class='max-w-[1150px] mx-auto flex flex-col md:flex-row justify-center md:justify-between items-center gap-x-10 gap-y-4'>
+  <div
+    class='max-w-[1150px] mx-auto flex flex-col md:flex-row justify-center md:justify-between items-center gap-x-10 gap-y-4'
+  >
     <div class='max-w-[900px]'>
       {{#if @data.onlyDesc}}
         <p class='text-xl sm:text-2xl'>{{@data.descp1}}
@@ -10,8 +12,13 @@
         <p class='text-gray-400 mb-0 mt-1 text-center md:text-left'>{{@data.description}}</p>
       {{/if}}
     </div>
-    <a href={{@data.redirect}} style='flex-shrink: 0'><button
+    <a href={{@data.redirect}} style='flex-shrink: 0'>
+      <button
+        {{on 'click' (if @data.gtagEventName (fired-gtag-event @data.gtagEventName) (fn (noop)))}}
         class='rounded border border-[#24B768] border-solid font-medium text-white py-4 px-9 bg-[#24B768]'
-      >{{@data.ctaText}}</button></a>
+      >
+        {{@data.ctaText}}
+      </button>
+    </a>
   </div>
 </section>

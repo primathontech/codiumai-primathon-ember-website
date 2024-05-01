@@ -1,9 +1,12 @@
+import { REACT_JS_TECH_BUTTON_CLICK } from '../../../constants/event-name';
+
 export const REACT_JS = {
   heroSection: {
     title: 'React.js Development Company',
     subTitle: "Enhance Your Experience with Primathon's React.js Development Services",
     buttonData: 'Get a React Developer',
     redirect: '/contact',
+    gtagEventName: REACT_JS_TECH_BUTTON_CLICK,
   },
 
   serviceByPrimathon: {
@@ -14,6 +17,7 @@ export const REACT_JS = {
     buttonText: 'Let’s Talk About Project',
     buttonLink: '/contact',
     imageSrc: '/assets/react-js/serviceByPrimathon.png',
+    gtagEventName: REACT_JS_TECH_BUTTON_CLICK,
   },
 
   customizedReactJsSolution: {
@@ -116,6 +120,7 @@ export const REACT_JS = {
     buttonText: 'Book a Call',
     buttonLink: '/contact',
     imageSrc: '/assets/react-js/primathonApproach.png',
+    gtagEventName: REACT_JS_TECH_BUTTON_CLICK,
   },
 
   keyBenefitsOfReactJSDevelopment: {
@@ -160,6 +165,7 @@ export const REACT_JS = {
       "Give us a call to learn more about how our services can enhance your web application's performance and user experience.",
     ctaText: 'Get a Developer Resume Now',
     ctaRoute: 'contact',
+    gtagEventName: REACT_JS_TECH_BUTTON_CLICK,
   },
 
   driveInnovation: {
@@ -168,5 +174,6 @@ export const REACT_JS = {
     buttonText: 'Connect with our React.js Expert',
     buttonLink: '/contact',
     imageSrc: '/assets/react-js/driveInnovation.png',
+    gtagEventName: REACT_JS_TECH_BUTTON_CLICK,
   },
 };
