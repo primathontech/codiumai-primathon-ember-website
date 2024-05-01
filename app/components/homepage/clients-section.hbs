@@ -165,7 +165,7 @@
           <span class="dot"></span>
           <div class="logo-containter">
             <div class="logo-wrapper {{if (eq this.activeIndex 10) 'logo-wrapper-show' ''}}">
-              <a href="https://www.coca-cola.com" target="_blank" rel="noopener noreferrer"></a>
+              <a href="https://www.coca-cola.com" target="_blank" rel="noopener noreferrer" aria-label="Coco cola logo"></a>
               <img
                 srcset="/assets/clients/cococola-logo.webp, /assets/clients/cococola-logo.jpg"
                 src="/assets/clients/cococola-logo.jpg"
@@ -174,7 +174,7 @@
                 {{on 'mouseover' (fn this.setActiveIndex 10)}}
                 {{on 'mouseleave' this.removeActiveIndexImage}}
               />
-              <a href="https://www.coca-cola.com" target="_blank" rel="noopener noreferrer"></a>
+              <a href="https://www.coca-cola.com" target="_blank" rel="noopener noreferrer" aria-label="Coco cola logo"></a>
             </div>
           </div>
         </div>
