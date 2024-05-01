@@ -93,13 +93,12 @@ export default class ContactContactFormComponent extends Component {
 
       if (res.status === 200) {
         this.args.onCloseModal && this.args.onCloseModal();
-        if (this.args.isModal) {
-          this.submitted = true;
-        } else {
-          this.router.transitionTo('thank-you', {
-            queryParams: { name: this.userQuestion.name, prima_web_thank_you: 'protected' },
-          });
-        }
+
+        // redirect to thak you page
+        this.router.transitionTo('thank-you', {
+          queryParams: { name: this.userQuestion.name, prima_web_thank_you: 'protected' },
+        });
+
         this.apiInProgress = true;
         // reset the form
         this.userQuestion = {

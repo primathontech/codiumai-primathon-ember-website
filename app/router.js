@@ -21,6 +21,7 @@ Router.map(function () {
       this.route('hire-python-developers');
       this.route('hire-angular-js-developers');
       this.route('hire-javascript-developers');
+      this.route('hire-react-developers'); // redirect to hire-react-js-developers in route file
       this.route('hire-react-js-developers');
       this.route('hire-ios-developers');
       this.route('hire-swift-developers');
@@ -77,7 +78,9 @@ Router.map(function () {
 Router.reopen({
   // eslint-disable-next-line ember/no-function-prototype-extensions
   doSomethingOnUrlChange: function () {
-    window?.scrollTo(0, 0); // for scroll to top of the page on change route
+    if (window?.scrollTo) {
+      window?.scrollTo(0, 0); // for scroll to top of the page on change route
+    }
     window?.gtag?.('config', 'G-JE8T1MS4RZ', {
       page_path: this.url,
     });

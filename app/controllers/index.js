@@ -51,4 +51,8 @@ export default class IndexController extends Controller {
   get employeeTestimonialData() {
     return this.model.employeeTestimonialData.data;
   }
+
+  get getInTouchClickEvent() {
+    return this.model.getInTouchClickEvent;
+  }
 }
