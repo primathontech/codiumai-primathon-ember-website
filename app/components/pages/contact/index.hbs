@@ -4,7 +4,11 @@
     <div
       class='flex flex-col lg:flex-row justify-center items-center lg:items-end gap-y-12 lg:gap-x-16 max-w-[1600px] mx-auto'
     >
-      <Contact::HeroSection />
+      <Contact::HeroSection
+        @trackEvent={{this.trackEvent}}
+        @careerEventName={{this.CONTACT_CAREER_CLICK}}
+        @scheduleEventName={{this.CONTACT_SCHEDULE_MEETING_CLICK}}
+      />
       <div class='w-full max-w-[600px] lg:max-w-[500px]' id='contact-hero'>
         <Contact::ContactForm class='lg:relative bottom-[-20px]' />
       </div>
@@ -16,7 +20,7 @@
   <Contact::PrimathonPerformance />
   <CaseStudies::Post />
   <Contact::PrimathonNews />
-  <Contact::ExploreOpenings />
+  <Contact::ExploreOpenings @trackEvent={{this.trackEvent}} @eventName={{this.CONTACT_CAREER_CLICK}} />
   <Homepage::Testimonial
     @title={{@data.testimonialData.title}}
     @description={{@data.testimonialData.description}}

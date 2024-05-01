@@ -8,9 +8,14 @@
       <p class='mt-8 mb-10 sm:mt-12 sm:mb-16'>
         {{@data.description}}
       </p>
-      <a href={{@data.redirect}}><button
+      <a href={{@data.redirect}}>
+        <button
+          {{on 'click' (if @data.gtagEventName (fired-gtag-event @data.gtagEventName) (fn (noop)))}}
           class='rounded border-2 border-[#24B768] border-solid font-medium text-white py-4 px-8 bg-[#24B768]'
-        >{{@data.ctaText}}</button></a>
+        >
+          {{@data.ctaText}}
+        </button>
+      </a>
     </div>
   </div>
 </section>

@@ -8,6 +8,10 @@
       <p class='mb-0 mt-1 text-xl text-center md:text-left'>We encourage you to explore our career page to find the
         perfect fit for you.</p>
     </div>
-    <LinkTo @route='careers' class='rounded bg-[#24B768] font-medium text-white py-4 px-9'>Explore Openings</LinkTo>
+    <LinkTo
+      @route='careers'
+      class='rounded bg-[#24B768] font-medium text-white py-4 px-9'
+      {{on 'click' (fn @trackEvent @eventName)}}
+    >Explore Openings</LinkTo>
   </div>
 </section>

@@ -8,6 +8,9 @@
 <Chatgpt::Chatgptuse @useCases={{@useCases}} />
 <Services::CallUs @data={{@data.data.ctaSection1}} />
 <Services::WhyHireSection @data={{@whyChoose}} />
+{{#if @hireDeveloper}}
+  <Services::HireDeveloper @data={{@hireDeveloper}} />
+{{/if}}
 <Services::CallUs @data={{@data.data.ctaSection2}} />
 <Services::DevelopmentStrategy @data={{@developmentStrategy}} @imgStyle={{@developmentStrategyImgStyle}} />
 <Homepage::Tools />

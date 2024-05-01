@@ -1,0 +1,26 @@
+<section class='px-6 py-10 sm:py-24 sm:px-16 xl:p-24'>
+  <div class='max-w-[1400px] mx-auto'>
+    <h2 class='text-2xl sm:text-3xl text-center font-semibold'>{{@data.title}}</h2>
+    <p class='text-xl text-[#3F3F3F] text-center my-8 max-w-[1100px] mx-auto'>{{@data.description}}</p>
+    <div class='flex flex-wrap gap-x-8 gap-y-12 justify-center'>
+      {{#each @data.cardData as |data|}}
+        <div key={{data.id}} class='p-8 border-solid border-2 border-slate-200 rounded-md shadow-xl'>
+          <h3 class='text-xl mb-3 font-medium'>{{data.jobTitle}}</h3>
+          <ul class='yellow-list-ul mb-6'>
+            <li>{{data.experience}}</li>
+            <li>{{data.about}}</li>
+            <li>{{data.completeProject}}</li>
+          </ul>
+          <a href={{data.ctaRoute}}>
+            <button
+              {{on 'click' (if @data.gtagEventName (fired-gtag-event @data.gtagEventName) (fn (noop)))}}
+              class='transition-colors rounded font-medium text-[#2878c8] py-3 px-9 bg-[#f1f4f8] hover:bg-[ #ccd7e5] w-full'
+            >
+              {{data.ctaText}}
+            </button>
+          </a>
+        </div>
+      {{/each}}
+    </div>
+  </div>
+</section>
