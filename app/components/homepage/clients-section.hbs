@@ -9,7 +9,9 @@
     </p>
     <div class="holder">
       <div class="talent-map-wrap v-show">
-        <img src="/assets/images/talent_map.png" alt="map" />
+        <img
+        srcset="/assets/images/talent_map.webp , /assets/images/talent_map.png"
+         src="/assets/images/talent_map.png" alt="map" width="100%" height="100%"/>
         <div class="talent-map-developer client-1">
           {{! template-lint-disable no-invalid-interactive }}
           <span class="dot"></span>
@@ -130,6 +132,7 @@
             <div class="logo-wrapper {{if (eq this.activeIndex 7) 'logo-wrapper-show' ''}}">
               <a href="https://www.appsmith.com/" target="_blank" rel="noopener noreferrer">
                 <img
+                  srcset=" /assets/clients/appsmith-dark-logo.webp, /assets/clients/appsmith-dark-logo.png"
                   src="/assets/clients/appsmith-dark-logo.png"
                   loading="lazy"
                   alt="Primathon Client"
@@ -162,15 +165,16 @@
           <span class="dot"></span>
           <div class="logo-containter">
             <div class="logo-wrapper {{if (eq this.activeIndex 10) 'logo-wrapper-show' ''}}">
-              <a href="https://www.coca-cola.com" target="_blank" rel="noopener noreferrer"></a>
+              <a href="https://www.coca-cola.com" target="_blank" rel="noopener noreferrer" aria-label="Coco cola logo"></a>
               <img
+                srcset="/assets/clients/cococola-logo.webp, /assets/clients/cococola-logo.jpg"
                 src="/assets/clients/cococola-logo.jpg"
                 loading="lazy"
                 alt="Primathon Client"
                 {{on 'mouseover' (fn this.setActiveIndex 10)}}
                 {{on 'mouseleave' this.removeActiveIndexImage}}
               />
-              <a href="https://www.coca-cola.com" target="_blank" rel="noopener noreferrer"></a>
+              <a href="https://www.coca-cola.com" target="_blank" rel="noopener noreferrer" aria-label="Coco cola logo"></a>
             </div>
           </div>
         </div>
@@ -233,6 +237,7 @@
             <div class="logo-wrapper {{if (eq this.activeIndex 14) 'logo-wrapper-show' ''}}">
               <a href="https://www.reliancecapital.co.in/" target="_blank" rel="noopener noreferrer">
                 <img
+                  srcset="/assets/clients/relience-logo.webp , /assets/clients/relience-logo.png"
                   src="/assets/clients/relience-logo.png"
                   loading="lazy"
                   alt="Primathon Client"
