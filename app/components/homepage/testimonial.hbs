@@ -18,7 +18,7 @@
               <div class='person-img'>
               {{#if data.fallbackProfilePicUrl}}
                   <img
-                  srcset={{data.fallbackProfilePicUrl}}
+                  srcset={{data.fallbackProfilePicUrl, data.profilePicUrl}}
                   src={{data.profilePicUrl}}
                   loading='lazy'
                   alt={{data.name}}
@@ -28,8 +28,7 @@
                 />
              {{else}}
                   <img
-                   srcset={{data.profilePicUrl}}
-                  src={{data.fallbackProfilePicUrl}}
+                   src={{if data.profilePicUrl data.profilePicUrl '/assets/images/user.png'}}
                   loading='lazy'
                   alt={{data.name}}
                   title={{data.name}}
