@@ -1,6 +1,15 @@
 <div class='app-container'>
+  <Header />
   <CaseStudyBlog::HeroSection />
   <CaseStudyBlog::AboutBloom @data={{@data.bulletPoints}} />
   <CaseStudyBlog::ProjectGoal @data={{@data.projectGoal}} />
   <CaseStudyBlog::CustomSolution @data={{@data.customSolution}} />
+  <CaseStudyBlog::ColoredArrowList @data={{@data.arrowSection}} />
+  <CaseStudyBlog::OurStrategy @data={{@data.teamEfforts}} />
+  <Services::BulletsList
+    @data={{@data.collaborativeTriumph}}
+    @imgStyle='w-[350px] h-[320px]'
+    @isImgShownInMobile={{true}}
+  />
+  <CaseStudyBlog::EmpowerVision />
 </div>

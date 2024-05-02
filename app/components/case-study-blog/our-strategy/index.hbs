@@ -1,0 +1,22 @@
+<section
+  class='flex flex-col md:flex-row gap-12 items-center justify-center px-6 md:px-16 max-w-[1600px] mx-auto mt-16 md:mt-28 mb-8'
+>
+  <img
+    src='/assets/images/iPhone-15-pro.png'
+    alt='freshworks'
+    title='freshworks'
+    class='w-[400px] h-[400px] lg:w-[550px] xl:w-[630px] lg:h-[520px]'
+  />
+  <div class='flex-1'>
+    <div class='bullet-container'>
+      <ul>
+        {{#each @data.data as |item|}}
+          <li class='mb-4'>
+            <span class='text-lg !font-semibold'>{{item.title}}:</span>
+            <span class='text-lg'>{{item.description}}</span>
+          </li>
+        {{/each}}
+      </ul>
+    </div>
+  </div>
+</section>
