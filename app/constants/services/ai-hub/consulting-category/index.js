@@ -99,7 +99,7 @@ export const AI_CONSULTING_SERVICES = {
   },
 
   commonlyAiServices: {
-    title: 'Offering Tailored AI Business Transformation Services for Excellence',
+    title: 'Most Commonly Used AI Services',
     description:
       'There are various artificial intelligence services that businesses and organizations can leverage to improve their operations and services. Here are some of the most commonly used AI services:',
     cardData: [
