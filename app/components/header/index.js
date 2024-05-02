@@ -17,7 +17,7 @@ export default class HeaderIndexComponent extends Component {
   @tracked openMenu = false;
   @tracked openTechnologiesMenu = false;
   @tracked openSolutionsMenu = false;
-  @tracked openConsultingCategory = false;
+  @tracked aiHub = false;
   @tracked isHeaderfixed = false;
   @tracked activePrimathon = true;
 
@@ -97,8 +97,8 @@ export default class HeaderIndexComponent extends Component {
       this.openTechnologiesMenu = !this.openTechnologiesMenu;
     } else if (title === 'solutions') {
       this.openSolutionsMenu = !this.openSolutionsMenu;
-    } else if (title === 'consultingCategory') {
-      this.openConsultingCategory = !this.openConsultingCategory;
+    } else if (title === 'ai-hub') {
+      this.aiHub = !this.aiHub;
     } else {
       this.openMenu = !this.openMenu;
     }
