@@ -80,7 +80,7 @@
         >
           End-to-End Products
         </LinkTo>
-        <p
+        {{!-- <p
           class='menu-service mobile-menu-link'
           id='our-services'
           {{on 'click' (fn this.onMenuOpen 'consultingCategory')}}
@@ -105,7 +105,7 @@
               title='button icon'
             />
           {{/if}}
-        </p>
+        </p> --}}
         {{!-- <div class='services-menu {{if this.openConsultingCategory "services-menu-open"}} '>
           <LinkTo
             @route='technologies.node-js'
@@ -123,6 +123,14 @@
           {{on 'click' (fn this.closeOpenMenu 'services')}}
         >
           Staff Augmentation
+        </LinkTo>
+        <LinkTo
+          @route='services.ai-hub.ai-consulting-services'
+          class='mobile-menu'
+          @activeClass='current-url'
+          {{on 'click' (fn this.closeOpenMenu 'services')}}
+        >
+          AI Hub
         </LinkTo>
         <LinkTo
           @route='services.build-and-manage'
