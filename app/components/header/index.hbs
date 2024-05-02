@@ -77,6 +77,38 @@
         >
           End-to-End Products
         </LinkTo>
+          <p class='menu-service mobile-menu-link' id='our-services' {{on 'click' (fn this.onMenuOpen 'consultingCategory')}}>
+        <span>Consulting category</span>
+        {{#if this.openConsultingCategory}}
+          <img
+            class='up-down-icon'
+            src='/assets/images/arrow-up.svg'
+            height='10px'
+            width='10px'
+            alt='button icon'
+            title='button icon'
+          />
+        {{else}}
+          <img
+            class='up-down-icon'
+            src='/assets/images/arrow-down.svg'
+            height='10px'
+            width='10px'
+            alt='button icon'
+            title='button icon'
+          />
+        {{/if}}
+      </p>
+      <div class='services-menu {{if this.openConsultingCategory "services-menu-open"}} '>
+          <LinkTo
+          @route='technologies.node-js'
+          class='mobile-menu'
+          @activeClass='current-url'
+          {{on 'click' (fn this.closeOpenMenu 'technologies')}}
+        >
+          Node Js
+        </LinkTo>
+      </div>
         <LinkTo
           @route='services.staff-augmentation'
           class='mobile-menu'
