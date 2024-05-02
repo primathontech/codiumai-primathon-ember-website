@@ -15,9 +15,11 @@
             GET IN TOUCH
           </button>
         {{else}}
-          <LinkTo @route='contact' class='btn btn-normal btn-hire' {{on 'click' (fn (or @onHireUs (noop)))}}>
-            GET IN TOUCH
-          </LinkTo>
+          <button {{on 'click' (if @gtagEventName (fired-gtag-event @gtagEventName) (fn (noop)))}}>
+            <LinkTo @route='contact' class='btn btn-normal btn-hire' {{on 'click' (fn (or @onHireUs (noop)))}}>
+              GET IN TOUCH
+            </LinkTo>
+          </button>
         {{/if}}
       </div>
     </div>

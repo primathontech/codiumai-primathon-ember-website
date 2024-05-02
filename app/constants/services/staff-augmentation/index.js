@@ -1,3 +1,5 @@
+import { HIRE_REACT_JS_BUTTON_CLICK } from '../../../constants/event-name';
+
 export const STAFF_AUGMENTATIONS = {
   heroSection: {
     title1: 'Your',
@@ -2845,6 +2847,7 @@ export const REACT_DEVELOPER = {
     redirect: '/contact?utm_source=hire-react-js-developer&utm_medium=hire-react-js-experts',
     imageSrc: '/assets/python/elevate-your-project.png',
     imageAlt: 'Elevate Your Project',
+    gtagEventName: HIRE_REACT_JS_BUTTON_CLICK,
   },
 
   ctaSection: {
@@ -2853,6 +2856,7 @@ export const REACT_DEVELOPER = {
       'With years of expertise and a commitment to innovation, we deliver bespoke solutions tailored to your unique requirements. Partner with us and experience the difference.',
     ctaText1: 'Hire React.js Developers for Your Project',
     redirect1: '/contact?utm_source=hire-react-js-developer&utm_medium=hire-react-js-developers-for-your-project',
+    gtagEventName: HIRE_REACT_JS_BUTTON_CLICK,
   },
 
   reactDevelopmentServices: {
@@ -2912,6 +2916,7 @@ export const REACT_DEVELOPER = {
     ctaText: 'Schedule a React.js Developer Interview',
     redirect: '/contact?utm_source=hire-react-js-developer&utm_medium=hire-dedicated-react-js-developers',
     bgColor: '#F4F4F4',
+    gtagEventName: HIRE_REACT_JS_BUTTON_CLICK,
   },
 
   whyChoose: {
@@ -2936,6 +2941,7 @@ export const REACT_DEVELOPER = {
       "Hire our React.js  developer to improve your product's usability, satisfaction, and overall user experience.",
     ctaText: 'Hire React.js Developers Remotely',
     ctaRoute: '/contact?utm_source=hire-react-js-developer&utm_medium=hire-react-js-developers-remotely',
+    gtagEventName: HIRE_REACT_JS_BUTTON_CLICK,
   },
 
   reactJourney: {
@@ -2955,6 +2961,7 @@ export const REACT_DEVELOPER = {
     ctaText: 'Hire React.js Developer',
     redirect: '/contact?utm_source=hire-react-js-developer&utm_medium=hire-react-js-developers',
     bgColor: '#21315B',
+    gtagEventName: HIRE_REACT_JS_BUTTON_CLICK,
   },
 
   reactDevelopmentStrategy: {
@@ -3167,6 +3174,42 @@ export const REACT_DEVELOPER = {
   caseStudies: {
     title: 'Our Case Studies',
     subtitle: 'Explore Our Portfolio of React.js Development Projects',
+  },
+
+  hireDeveloper: {
+    title: 'Hire React.js Developers Based on Their Experience',
+    description:
+      'We offer a variety of skilled React developers to fulfill all your development needs at your fingertips. Hire React developers from our team to create customized applications that will fit all your business needs.',
+    gtagEventName: HIRE_REACT_JS_BUTTON_CLICK,
+    cardData: [
+      {
+        id: 1,
+        jobTitle: 'Junior React Developer',
+        experience: '1-3 years of React.js experience',
+        about: 'Appropriate for solo projects',
+        completeProject: '4-7 Projects completed',
+        ctaText: 'Get Resume',
+        ctaRoute: '/contact?utm_source=hire-react-js-developer&utm_medium=hire-dedicated-react-js-developers',
+      },
+      {
+        id: 2,
+        jobTitle: 'Senior React Developer',
+        experience: '3-6 years of React.js experience',
+        about: '7-10 Projects completed',
+        completeProject: 'Appropriate for intricate projects',
+        ctaText: 'Get Resume',
+        ctaRoute: '/contact?utm_source=hire-react-js-developer&utm_medium=hire-dedicated-react-js-developers',
+      },
+      {
+        id: 3,
+        jobTitle: 'React.js Project Manager',
+        experience: '10+ years of React Experience',
+        about: '15+ Projects Completed',
+        completeProject: 'Oversee your entire project',
+        ctaText: 'Get Resume',
+        ctaRoute: '/contact?utm_source=hire-react-js-developer&utm_medium=hire-dedicated-react-js-developers',
+      },
+    ],
   },
 
   faqs: {

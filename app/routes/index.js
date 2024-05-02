@@ -4,6 +4,7 @@ import { CORE_VALUE_DATA } from '../constants/homepage/core-value';
 import { BLOG_DATA } from '../constants/homepage/blog';
 import { TESTIMONIAL_DATA } from '../constants/homepage/testimonial';
 import { EMPLOYEE_TESTIMONIAL_DATA } from '../constants/careers/testimonial';
+import { HOME_POSTER_GET_IN_TOUCH } from '../constants/event-name';
 import fetch from 'fetch';
 import { inject as service } from '@ember/service';
 
@@ -31,6 +32,7 @@ export default class IndexRoute extends Route {
     const testimonialData = TESTIMONIAL_DATA;
     const blogData = BLOG_DATA;
     const employeeTestimonialData = EMPLOYEE_TESTIMONIAL_DATA;
+    const getInTouchClickEvent = HOME_POSTER_GET_IN_TOUCH;
     try {
       const blogResponse = (await (await fetch(this._URL)).json()).slice(0, 6);
       blogData['data'] = blogResponse.map((data) => {
@@ -45,7 +47,7 @@ export default class IndexRoute extends Route {
       //console.error('error', error);
       blogData['data'] = [];
     }
-    return { serviceData, coreValueData, testimonialData, blogData, employeeTestimonialData };
+    return { serviceData, coreValueData, testimonialData, blogData, employeeTestimonialData, getInTouchClickEvent };
   }
 
   beforeModel() {

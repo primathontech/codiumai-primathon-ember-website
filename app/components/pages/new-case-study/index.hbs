@@ -1,6 +1,10 @@
 <div class='app-container'>
   <Header />
-  <CaseStudyBlog::ColoredArrowList @data={{@data.arrowSection}}/>
+  <CaseStudyBlog::HeroSection />
+  <CaseStudyBlog::AboutBloom @data={{@data.bulletPoints}} />
+  <CaseStudyBlog::ProjectGoal @data={{@data.projectGoal}} />
+  <CaseStudyBlog::CustomSolution @data={{@data.customSolution}} />
+  <CaseStudyBlog::ColoredArrowList @data={{@data.arrowSection}} />
   <CaseStudyBlog::OurStrategy @data={{@data.teamEfforts}} />
   <CaseStudyBlog::BulletListBlue @data={{@data.collaborativeTriumph}} />
   <CaseStudyBlog::EmpowerVision />

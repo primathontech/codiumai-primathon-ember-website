@@ -19,14 +19,17 @@ Router.map(function () {
       this.route('uiux-designers');
       this.route('hire-android-developers');
       this.route('hire-python-developers');
+      this.route('hire-angular-developers'); // redirect to hire-angular-js-developers in route file
       this.route('hire-angular-js-developers');
       this.route('hire-javascript-developers');
+      this.route('hire-react-developers'); // redirect to hire-react-js-developers in route file
       this.route('hire-react-js-developers');
       this.route('hire-ios-developers');
       this.route('hire-swift-developers');
       this.route('quality-analysts');
       this.route('platform');
       this.route('hire-vue-developers');
+      this.route('hire-ember-developers'); // redirect to hire-ember-js-developers in route file
       this.route('hire-ember-js-developers');
     });
     this.route('end-to-end-products', function () {
@@ -78,7 +81,9 @@ Router.map(function () {
 Router.reopen({
   // eslint-disable-next-line ember/no-function-prototype-extensions
   doSomethingOnUrlChange: function () {
-    window?.scrollTo(0, 0); // for scroll to top of the page on change route
+    if (window?.scrollTo) {
+      window?.scrollTo(0, 0); // for scroll to top of the page on change route
+    }
     window?.gtag?.('config', 'G-JE8T1MS4RZ', {
       page_path: this.url,
     });

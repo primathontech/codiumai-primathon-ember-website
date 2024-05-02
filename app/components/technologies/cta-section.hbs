@@ -17,7 +17,11 @@
             {{@ctaSection.ctaText}}
           </button>
         {{else}}
-          <LinkTo @route={{@ctaSection.ctaRoute}} class='btn btn-normal btn-hire'>
+          <LinkTo
+            @route={{@ctaSection.ctaRoute}}
+            class='btn btn-normal btn-hire'
+            {{on 'click' (if @data.gtagEventName (fired-gtag-event @data.gtagEventName) (fn (noop)))}}
+          >
             {{@ctaSection.ctaText}}
           </LinkTo>
         {{/if}}

@@ -26,6 +26,8 @@ export const CONTACT_FORM_PAYLOAD_VALID = 'contact_form_payload_valid';
 export const CONTACT_FORM_PAYLOAD_INVALID = 'contact_form_payload_invalid';
 export const CONTACT_API_SUCCESS = 'contact_api_success';
 export const CONTACT_API_ERROR = 'contact_api_error';
+export const CONTACT_CAREER_CLICK = 'contact_career_click';
+export const CONTACT_SCHEDULE_MEETING_CLICK = 'contact_schedule_meeting_click';
 
 // Career Page
 export const CAREER_SEND_MESSAGE_CLICK = 'CAREER_send_message_click';
@@ -33,3 +35,9 @@ export const CAREER_FORM_PAYLOAD_VALID = 'CAREER_form_payload_valid';
 export const CAREER_FORM_PAYLOAD_INVALID = 'CAREER_form_payload_invalid';
 export const CAREER_API_SUCCESS = 'CAREER_api_success';
 export const CAREER_API_ERROR = 'CAREER_api_error';
+
+// Hire React js developer
+export const HIRE_REACT_JS_BUTTON_CLICK = 'hire_react_js_button_click';
+
+//React js technology
+export const REACT_JS_TECH_BUTTON_CLICK = 'react_js_button_click';

@@ -2,6 +2,10 @@
   <h1>{{@heroSection.title}}</h1>
   <p>{{@heroSection.subTitle}}</p>
   {{#if @heroSection.buttonData}}
-    <a href={{@heroSection.redirect}}><button>{{@heroSection.buttonData}}</button></a>
+    <a href={{@heroSection.redirect}}>
+      <button {{on 'click' (if @data.gtagEventName (fired-gtag-event @data.gtagEventName) (fn (noop)))}}>
+        {{@heroSection.buttonData}}
+      </button>
+    </a>
   {{/if}}
 </div>

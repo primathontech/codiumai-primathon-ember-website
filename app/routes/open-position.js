@@ -5,10 +5,10 @@ import { inject as service } from '@ember/service';
 export default class OpenPositionRoute extends Route {
   @service headData;
 
-  // async model() {
-  //   const jobData = await (await fetch('http://blog.primathon.in//wp-json/wp/v2/jobs_posting')).json();
-  //   return jobData;
-  // }
+  async model() {
+    const jobData = await (await fetch('https://primathon.in/blog/wp-json/wp/v2/jobs_posting')).json();
+    return jobData;
+  }
   beforeModel() {
     const title = 'Top Custom Software Development Services | Primathon';
     const description =
