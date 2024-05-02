@@ -67,7 +67,6 @@ Router.map(function () {
   });
   this.route('case-studies', function () {
     this.route('case-study', { path: '/:post_id' });
-    this.route('new-case-study');
     // this.route('index', { path: '/' });
   });
   this.route('job-desc');
