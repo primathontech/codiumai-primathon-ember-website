@@ -25,7 +25,7 @@
     <li class='consulting-category-tool-tip' {{on 'mouseover' (fn this.changeContent this.consultingCategory)}}>
       <LinkTo
         class='service-page-link {{if (eq this.activeRoute this.consultingCategory) "active-service"}}'
-        @route={{this.endToEndRoute}}
+        @route='services.ai-hub.ai-consulting-services'
       >
         AI Hub
       </LinkTo>
@@ -95,6 +95,11 @@
       <p class='services-link'>
         <LinkTo class='services-link' @route='services.ai-hub.ai-consulting-services'>
           AI Consulting Services
+        </LinkTo>
+      </p>
+      <p class='services-link'>
+        <LinkTo class='services-link' @route='services.ai-hub.custom-ai-solutions'>
+          Custom AI Solutions
         </LinkTo>
       </p>
     {{else if (eq this.hoverRoute this.staffAugmentation)}}

@@ -80,42 +80,6 @@
         >
           End-to-End Products
         </LinkTo>
-        {{!-- <p
-          class='menu-service mobile-menu-link'
-          id='our-services'
-          {{on 'click' (fn this.onMenuOpen 'consultingCategory')}}
-        >
-          <span>AI Hub</span>
-          {{#if this.openConsultingCategory}}
-            <img
-              class='up-down-icon'
-              src='/assets/images/arrow-up.svg'
-              height='10px'
-              width='10px'
-              alt='button icon'
-              title='button icon'
-            />
-          {{else}}
-            <img
-              class='up-down-icon'
-              src='/assets/images/arrow-down.svg'
-              height='10px'
-              width='10px'
-              alt='button icon'
-              title='button icon'
-            />
-          {{/if}}
-        </p> --}}
-        {{!-- <div class='services-menu {{if this.openConsultingCategory "services-menu-open"}} '>
-          <LinkTo
-            @route='technologies.node-js'
-            class='mobile-menu'
-            @activeClass='current-url'
-            {{on 'click' (fn this.closeOpenMenu 'technologies')}}
-          >
-            Node Js
-          </LinkTo>
-        </div> --}}
         <LinkTo
           @route='services.staff-augmentation'
           class='mobile-menu'
@@ -125,20 +89,52 @@
           Staff Augmentation
         </LinkTo>
         <LinkTo
-          @route='services.ai-hub.ai-consulting-services'
-          class='mobile-menu'
-          @activeClass='current-url'
-          {{on 'click' (fn this.closeOpenMenu 'services')}}
-        >
-          AI Hub
-        </LinkTo>
-        <LinkTo
           @route='services.build-and-manage'
           class='mobile-menu'
           @activeClass='current-url'
           {{on 'click' (fn this.closeOpenMenu 'services')}}
         >
           Build and Manage
+        </LinkTo>
+      </div>
+      <p class='menu-service mobile-menu-link' id='our-services' {{on 'click' (fn this.onMenuOpen 'ai-hub')}}>
+        <span>AI Hub</span>
+        {{#if this.aiHub}}
+          <img
+            class='up-down-icon'
+            src='/assets/images/arrow-up.svg'
+            height='10px'
+            width='10px'
+            alt='button icon'
+            title='button icon'
+          />
+        {{else}}
+          <img
+            class='up-down-icon'
+            src='/assets/images/arrow-down.svg'
+            height='10px'
+            width='10px'
+            alt='button icon'
+            title='button icon'
+          />
+        {{/if}}
+      </p>
+      <div class='services-menu {{if this.aiHub "services-menu-open"}} '>
+        <LinkTo
+          @route='services.ai-hub.ai-consulting-services'
+          class='mobile-menu'
+          @activeClass='current-url'
+          {{on 'click' (fn this.closeOpenMenu 'ai-hub')}}
+        >
+          AI Consulting Services
+        </LinkTo>
+        <LinkTo
+          @route='services.ai-hub.custom-ai-solutions'
+          class='mobile-menu'
+          @activeClass='current-url'
+          {{on 'click' (fn this.closeOpenMenu 'ai-hub')}}
+        >
+          Custom AI Solutions
         </LinkTo>
       </div>
       <div class='service-page-dialog'>
