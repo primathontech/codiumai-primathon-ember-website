@@ -1,23 +1,23 @@
-<section class='flex flex-col md:flex-row justify-center gap-10 md:gap-20 px-6 py-10 sm:px-10 sm:py-24 lg:px-24 xl:p-32'>
+<section class='flex flex-col md:flex-row justify-center gap-14 md:gap-28 px-4 py-14 sm:px-10 sm:py-24 lg:p-24 xl:py-36 xl:px-64'>
   <div>
-    <h3 class='font-medium text-3xl md:text-4xl mb-10'>{{@data.heading}}</h3>
-    <div class='md:max-w-[640px]'>
+    <h3 class='font-medium text-3xl md:text-4xl mb-5 md:mb-11'>{{@data.heading}}</h3>
+    <div class='max-w-[640px] xl:max-w-[800px]'>
       <ul class='list-disc pl-4'>
         {{#each @data.bulletList as |list|}}
-          <li class='leading-8 md:leading-7'>{{list}}</li>
+          <li class='leading-8 md:leading-7 text-[#333333] sm:text-base lg:text-lg xl:text-xl'>{{list}}</li>
         {{/each}}
       </ul>
     </div>
   </div>
-  <div class='flex flex-col gap-y-7 md:gap-y-9'>
+  <div class='flex flex-col gap-y-7 md:gap-y-10'>
     {{#each @data.about as |item|}}
-      <div key={{item.id}} class='flex items-center gap-x-6 md:gap-x-4'>
+      <div key={{item.id}} class='flex items-center gap-x-5 md:gap-x-8'>
         <div class='p-4 w-[56px] h-[56px] md:p-5 md:w-[64px] md:h-[64px] rounded-full bg-[#2487E8] items-center'>
           <img src={{item.imageSrc}} />
         </div>
         <div>
-          <p class='text-lg font-medium mb-0'>{{item.title}}</p>
-          <p class='text-sm text-[#0092FF] mb-0'>{{item.detail}}</p>
+          <p class='text-lg md:text-xl font-medium mb-0'>{{item.title}}</p>
+          <p class='text-sm md:text-base text-[#0092FF] mb-0'>{{item.detail}}</p>
         </div>
       </div>
     {{/each}}
