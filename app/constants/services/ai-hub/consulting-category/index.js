@@ -161,7 +161,7 @@ export const AI_CONSULTING_SERVICES = {
       },
       {
         id: 3,
-        imageSrc: '/assets/consulting-services/Personalization.svg',
+        imageSrc: '/assets/consulting-services/personalization.svg',
         cardTitle: 'Personalization',
         cardData:
           'AI consulting services can be used to analyze customer data and provide personalized recommendations and experiences based on individual preferences and behavior. This can help businesses to better understand their customers and tailor their products and services to meet their specific needs.',
@@ -187,7 +187,7 @@ export const AI_CONSULTING_SERVICES = {
   },
 
   aiConsultancyExpertise: {
-    title: 'OIndustries that Uses AI Consultancy Expertise',
+    title: 'Industries that Uses AI Consultancy Expertise',
     cardData: [
       {
         id: 1,

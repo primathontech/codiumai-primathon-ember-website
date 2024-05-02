@@ -30,7 +30,7 @@ Router.map(function () {
       this.route('hire-vue-developers');
       this.route('hire-ember-js-developers');
     });
-    this.route('consulting-category', function () {
+    this.route('ai-hub', function () {
       this.route('ai-consulting-services');
     });
     this.route('end-to-end-products', function () {

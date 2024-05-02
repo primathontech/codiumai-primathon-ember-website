@@ -13,7 +13,12 @@ export default class ServicesPageOptionsIndexComponent extends Component {
       return this.hoverServiceRoute;
     } else {
       const route = this.activeRoute;
-      if (route === this.endToEndRoute || route === this.consultingCategory || route === this.staffAugmentation || route === this.buildAndManage) {
+      if (
+        route === this.endToEndRoute ||
+        route === this.consultingCategory ||
+        route === this.staffAugmentation ||
+        route === this.buildAndManage
+      ) {
         return route;
       }
     }
@@ -29,7 +34,7 @@ export default class ServicesPageOptionsIndexComponent extends Component {
   }
 
   get consultingCategory() {
-    return 'services.consulting-category';
+    return 'services.ai-hub';
   }
 
   get staffAugmentation() {
@@ -48,7 +53,12 @@ export default class ServicesPageOptionsIndexComponent extends Component {
   @action
   onMouseLeave() {
     const route = this.activeRoute;
-    if (route === this.endToEndRoute || route === this.consultingCategory || route === this.staffAugmentation || route === this.buildAndManage) {
+    if (
+      route === this.endToEndRoute ||
+      route === this.consultingCategory ||
+      route === this.staffAugmentation ||
+      route === this.buildAndManage
+    ) {
       this.hoverServiceRoute = route;
     }
     this.hoverServiceRoute = this.endToEndRoute;

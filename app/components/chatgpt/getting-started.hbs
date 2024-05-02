@@ -6,16 +6,16 @@
     </h2>
   </div>
   {{#if @gettingStarted.description}}
-    <p class="max-w-[1050px] mx-auto">{{@gettingStarted.description}}</p>
+    <p class='mt-2 text-center max-w-[1050px] mx-auto'>{{@gettingStarted.description}}</p>
   {{/if}}
   <div class='chatgpt-getStartedCardContainer'>
     {{#each @gettingStarted.cardData as |card|}}
-    <div class='chatgpt-getStartedCard'>
-      <h2>{{card.cardTitle}}</h2>
-      <p>
-        {{html-safe card.content}}
-      </p>
-    </div>
+      <div class='chatgpt-getStartedCard'>
+        <h2>{{card.cardTitle}}</h2>
+        <p>
+          {{html-safe card.content}}
+        </p>
+      </div>
     {{/each}}
   </div>
 </div>

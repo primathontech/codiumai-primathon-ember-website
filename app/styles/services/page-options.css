@@ -58,7 +58,6 @@
   border-color: #24b768;
 }
 
-
 /* .end-to-end-tool-tip:hover .end-to-end {
   visibility: visible;
 }
@@ -75,6 +74,7 @@
   grid-auto-flow: column;
   row-gap: 8px;
   column-gap: 32px;
+  height: 100%;
 }
 
 .service-page-options .grid p {
