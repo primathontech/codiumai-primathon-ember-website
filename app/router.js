@@ -19,6 +19,7 @@ Router.map(function () {
       this.route('uiux-designers');
       this.route('hire-android-developers');
       this.route('hire-python-developers');
+      this.route('hire-angular-developers'); // redirect to hire-angular-js-developers in route file
       this.route('hire-angular-js-developers');
       this.route('hire-javascript-developers');
       this.route('hire-react-developers'); // redirect to hire-react-js-developers in route file
@@ -28,6 +29,7 @@ Router.map(function () {
       this.route('quality-analysts');
       this.route('platform');
       this.route('hire-vue-developers');
+      this.route('hire-ember-developers'); // redirect to hire-ember-js-developers in route file
       this.route('hire-ember-js-developers');
     });
     this.route('end-to-end-products', function () {
