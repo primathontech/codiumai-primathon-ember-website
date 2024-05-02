@@ -22,6 +22,15 @@
       </LinkTo>
     </li>
     {{! template-lint-disable no-invalid-interactive }}
+    <li class='consulting-category-tool-tip' {{on 'mouseover' (fn this.changeContent this.consultingCategory)}}>
+      <LinkTo
+        class='service-page-link {{if (eq this.activeRoute this.consultingCategory) "active-service"}}'
+        @route={{this.endToEndRoute}}
+      >
+        AI Hub
+      </LinkTo>
+    </li>
+    {{! template-lint-disable no-invalid-interactive }}
     <li {{on 'mouseover' (fn this.changeContent this.buildAndManage)}}>
       <LinkTo
         class='service-page-link {{if (eq this.activeRoute this.buildAndManage) "active-service"}}'
@@ -80,6 +89,12 @@
       <p class='page-options-extra-para'>
         <LinkTo class='services-link' @route='services.end-to-end-products.chatgpt'>
           ChatGPT Services
+        </LinkTo>
+      </p>
+    {{else if (eq this.hoverRoute this.consultingCategory)}}
+      <p class='services-link'>
+        <LinkTo class='services-link' @route='services.ai-hub.ai-consulting-services'>
+          AI Consulting Services
         </LinkTo>
       </p>
     {{else if (eq this.hoverRoute this.staffAugmentation)}}

@@ -1,1 +1,6 @@
-<Header /><Pages::CaseStudyBlog @data={{@model}}/>
+<Header />
+{{#if @model.isNewCaseStudy}}
+  <Pages::NewCaseStudy @data={{@model}} />
+{{else}}
+  <Pages::CaseStudyBlog @data={{@model}} />
+{{/if}}

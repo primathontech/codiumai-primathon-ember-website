@@ -51,6 +51,18 @@
         {{/each}}
       </ul>
     </div>
+        <div>
+      <p class='font-semibold text-lg text-black mb-1'>Consulting Category</p>
+      <ul class='list-disc list-inside pl-4'>
+        {{#each @consultingCategory as |link|}}
+          <li>
+            <a href={{link.url}} class='text-sm leading-7 text-black'>
+              {{link.name}}
+            </a>
+          </li>
+        {{/each}}
+      </ul>
+    </div>
   </div>
 
 </div>

@@ -50,12 +50,4 @@ Ember.run.scheduleOnce('afterRender', this, function () {
   calendlyLink.rel = 'stylesheet';
   document.head.appendChild(calendlyLink);
   // End calendly
-
-  //Start of primathon Zendesk Widget script
-  let zendeskScript = document.createElement('script');
-  zendeskScript.src = 'https://static.zdassets.com/ekr/snippet.js?key=994c6aed-dabd-40e9-9b33-952a4d6a41c5';
-  zendeskScript.id = 'ze-snippet';
-  zendeskScript.async = true;
-  document.head.appendChild(zendeskScript);
-  //End of primathon Zendesk Widget script-- >
 });

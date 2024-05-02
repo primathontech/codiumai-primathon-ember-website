@@ -1,9 +1,5 @@
 {
-  "heroSection": {
-    "companyLogo": "/assets/svgs/bloom.svg",
-    "description": "A platform for a new generation of hotels for intelligent travellers, at the best locations & rates.",
-    "backgroundStyle": "background-image: url('/assets/caseStudy/HeroImage.png');color: #ffffff;"
-  },
+  "isNewCaseStudy": true,
   "challenges_Services_Section": {
     "CHALLENGES_DATA": {
       "ChallengeTitle": "The Challenge",
@@ -59,14 +55,96 @@
       ]
     }
   },
+
+  "bulletPoints": {
+    "heading": "About Bloom",
+    "bulletList": [
+      "A chain of award-winning hotels, designed and operated by world class professionals.",
+      "Ranked as the #1 Hotel Brand of Choice and recipient of the MakeMyTrip Customer Choice Award in 2020.",
+      "Estimated annual revenue standing at $41.9 million.",
+      "Recognized as the Best Concept Hotel by Shri Prahlad Singh Patel, Minister of State of Culture & Tourism.",
+      "Secured a total funding of $16.6 million",
+      "Establishing a new standard for travel experiences.",
+      "Preferred destination for travelers seeking a blend of luxury and affordability"
+    ],
+    "about": [
+      { "id": 1, "imageSrc": "/assets/bloom-case-study/building.svg", "title": "Industry", "detail": "Hospitality" },
+      { "id": 2, "imageSrc": "/assets/bloom-case-study/timer.svg", "title": "Project Timeline", "detail": "5 months" },
+      { "id": 3, "imageSrc": "/assets/bloom-case-study/location.svg", "title": "Location", "detail": "India" },
+      {
+        "id": 1,
+        "imageSrc": "/assets/bloom-case-study/technology.svg",
+        "title": "Technology Used",
+        "detail": "My SQL Redis Node JS Angular S3"
+      }
+    ]
+  },
+
+  "projectGoal": {
+    "imgSrc": "/assets/bloom-case-study/iphone-img.png",
+    "heading": "Our Project Goals",
+    "bulletList": [
+      "Design a responsive platform catering to a younger demographic, focusing on both functionality and visual appeal.",
+      "Ensure seamless integration with a Content Management System (CMS).",
+      "Implement a user-friendly booking system with minimal complications.",
+      "Integrate a secure payment processing system into the platform."
+    ]
+  },
+
+  "customSolution": {
+    "title": "Navigating Change:",
+    "subTitle": "Custom Solutions for Bloom's Digital Transformation",
+    "description": "Bloom asked us to create solutions that would attract modern customers and could be easily scaled in the future. This indicated their desire for a product that would be highly self-reliant, requiring minimal maintenance in the long term.",
+    "cardData": [
+      {
+        "id": 1,
+        "imageSrc": "/assets/bloom-case-study/ui-ux-design.svg",
+        "cardTitle": "UI/UX Design",
+        "cardContent": "For this industry type, we prioritized user-centricity, aesthetic appeal, and functional efficiency, ultimately delivering a compelling digital experience for their customers."
+      },
+      {
+        "id": 2,
+        "imageSrc": "/assets/bloom-case-study/dynamic-cms.svg",
+        "cardTitle": "Fully Dynamic CMS",
+        "cardContent": "We successfully transitioned the entire codebase from TypeScript to JavaScript, resulting in notable enhancements in speed and performance."
+      },
+      {
+        "id": 3,
+        "imageSrc": "/assets/bloom-case-study/seo-domain.svg",
+        "cardTitle": "Best SEO Domain",
+        "cardContent": "We created numerous types of APIs for their backend to function seamlessly without any interruptions."
+      },
+      {
+        "id": 4,
+        "imageSrc": "/assets/bloom-case-study/analytics.svg",
+        "cardTitle": "Sentry for Analytics",
+        "cardContent": "Indeed, Stockal expressed strong satisfaction with our services, offering positive reviews, and has indicated a desire to engage in future collaborations with our team."
+      },
+      {
+        "id": 5,
+        "imageSrc": "/assets/bloom-case-study/testing.svg",
+        "cardTitle": "A/B Testing",
+        "cardContent": "We created two versions of the website interface, each with slight variations in design or content. Through careful analysis of user interactions and conversion rates, they determined which version performed better in terms of achieving desired outcomes such as bookings or engagement, helping Bloom Hotels optimize their online presence effectively."
+      },
+      {
+        "id": 6,
+        "imageSrc": "/assets/bloom-case-study/web-application.svg",
+        "cardTitle": "Progressive Web Application",
+        "cardContent": "Our team meticulously designed and developed features tailored to Bloom's user onboarding needs, ensuring optimal functionality across devices. By implementing PWA principles and cutting-edge technology, we enhanced user accessibility and engagement, ultimately providing Bloom Hotel's guests with a responsive and intuitive booking platform."
+      }
+    ]
+  },
+
   "processSection": {
     "description": "The Process: We started off the project by scheduling a series of workshops with the client to better understand the value they are contributing to the hospitality industry, as well as the unique offerings for the customers. As a result of this, we not only simplified our own planning process but also had a clearer picture of the MVP and ultimate product. This enabled us to create the best hotel management software. With a clear roadmap, we began work on Bloom’s deliverables. We leveraged a variety of tools and technology, such as Angular, Node, SQL, Redis and AWS S3 to develop the deliverables. As a team, we implemented an Agile workflow and ensured that the client could be a part of every stage of development. With this, we were able to implement feedback, redirect efforts, and brainstorm on the go without losing any time."
   },
+
   "resultSection": {
-    "title":"The Result",
+    "title": "The Result",
     "description": "Despite a tight timeline, we were armed with a strong knowledge base and an ever-relentless can- do attitude, which is what enabled us to deliver a world-class PWA for Bloom. The PWA was built after monitoring the behavioral patterns of the client’s target audience, in order to ensure easy onboarding, great functionality, and appealing aesthetics. We implemented a variety of APIs in the backend to achieve the best SEO in the domain. As a result, our client saw not only phenomenally high user retention over time, but also an SEO score of 100, accessibility score of 100, best practises score of 100 and an overall performance score of 91! Knowing that customer data is one of most important tools in the hospitality industry, we built a responsive CMS for the client that not only stored accurate data, but also updated the content on the PWA. To enhance the overall speed and performance, we migrated the codebase from typescript to javascript. Our A/B testing reduced the overall number of jobs required to finish the project on time, and also reduced the effort required for monitoring each and every task. In short, our team worked together to build a highly-efficient, comprehensive hotel property management software for a client on the cusp of disrupting the travel and hospitality industry. We were proud to be a part of their journey!",
     "image": "/assets/caseStudy/laptop.png"
   },
+
   "otherServicesSection": {
     "title": "Browse through other services that we provide",
     "data": [
@@ -81,6 +159,88 @@
         "serviceDescription": "Not just Building, We also Manage your Products!",
         "exploreLinkText": "Explore",
         "exploreLink": "#"
+      }
+    ]
+  },
+
+  "digitalExpansion": {
+    "heading": "Bloom's Digital Expansion: A Strategic Journey",
+    "data": [
+      {
+        "title": "Discovery Workshops",
+        "description": "Through immersive workshops, we deeply explored Bloom's hospitality contributions, unraveling the essence of their customer benefits. This foundational step streamlined our planning process, ensuring a clear understanding of project objectives from inception."
+      },
+      {
+        "title": "Roadmap Development",
+        "description": "Armed with insights from the discovery phase, we crafted a comprehensive roadmap delineating the journey from Minimum Viable Product (MVP) to the final product. This roadmap provided clarity and alignment, guiding our subsequent actions towards Bloom's digital expansion."
+      },
+      {
+        "title": "Agile Implementation",
+        "description": "Embracing Agile principles, we fostered a collaborative environment where client involvement was integral at every development stage. This methodology facilitated prompt feedback integration, enabling agile adjustments and ensuring the final product met evolving needs effectively."
+      },
+      {
+        "title": "Continuous Optimization",
+        "description": "Throughout the development process, we prioritized real-time brainstorming and flexible redirection of efforts. This approach not only optimized productivity but also allowed for continuous optimization, ensuring Bloom's digital footprint expanded dynamically in response to market demands."
+      }
+    ]
+  },
+
+  "collaborativeTriumph": {
+    "title": "A Collaborative Triumph",
+    "description": "Bloom and Primathon's collaboration yielded remarkable outcomes, including the implementation of a seamless CMS system and the development of a top-tier website. Their efforts garnered exceptional customer ratings and secured high-profile bookings from influencers and celebrities, marking their partnership as a resounding success:",
+    "listItems": [
+      { "id": 1, "text": "Perfect 5 out of 5 Rating" },
+      { "id": 2, "text": "Achieved a 50% Increase in Conversion Rates" },
+      { "id": 3, "text": "Surged Booking Numbers by 70%" },
+      { "id": 4, "text": "Achieved a 50% Upliftment in Revenue" }
+    ],
+    "imageSrc": "/assets/images/mac-studio.png",
+    "imageAlt": "A Collaborative Triumph"
+  },
+
+  "teamEfforts": {
+    "data": [
+      {
+        "title": "Diligent Team Effort",
+        "description": "With a tight timeline, our expert team works tirelessly, maintaining a can-do attitude to deliver a top-notch Progressive Web App (PWA) for Bloom.."
+      },
+      {
+        "title": "User-Centric Design",
+        "description": "The PWA, crafted after thorough analysis of target audience behavior, ensures seamless onboarding, superior functionality, and visually appealing aesthetics, bolstered by various backend APIs for exceptional SEO performance within the domain."
+      },
+      {
+        "title": "Responsive CMS Development",
+        "description": " Recognizing the importance of customer data, we developed a responsive Content Management System (CMS) that facilitates seamless content updates on the PWA, complemented by a migration from TypeScript to JavaScript for enhanced speed and performance."
+      },
+      {
+        "title": "Strategic A/B Testing",
+        "description": "  Our strategic A/B testing minimizes workload and streamlines task monitoring efforts, ensuring efficient project delivery. The result: a highly efficient hotel property management software poised to revolutionize the travel and hospitality sector, contributing to Bloom's journey to success."
+      }
+    ]
+  },
+
+  "arrowSection": {
+    "title": "Bloom's Digital Expansion: A Strategic Journey",
+    "data": [
+      {
+        "image": "/assets/images/yellow-arrow.png",
+        "subTitle": "Discovery Workshop",
+        "description": "Through immersive workshops, we deeply explored Bloom's hospitality contributions, unraveling the essence of their customer benefits. This foundational step streamlined our planning process, ensuring a clear understanding of project objectives from inception."
+      },
+      {
+        "image": "/assets/images/green-arrow.png",
+        "subTitle": "Roadmap Development",
+        "description": "Armed with insights from the discovery phase, we crafted a comprehensive roadmap delineating the journey from Minimum Viable Product (MVP) to the final product. This roadmap provided clarity and alignment, guiding our subsequent actions towards Bloom's digital expansion."
+      },
+      {
+        "image": "/assets/images/red-arrow.png",
+        "subTitle": "Agile Implementation",
+        "description": "Embracing Agile principles, we fostered a collaborative environment where client involvement was integral at every development stage. This methodology facilitated prompt feedback integration, enabling agile adjustments and ensuring the final product met evolving needs effectively."
+      },
+      {
+        "image": "/assets/images/blue-arrow.png",
+        "subTitle": "Continuous Optimization",
+        "description": "Throughout the development process, we prioritized real-time brainstorming and flexible redirection of efforts. This approach not only optimized productivity but also allowed for continuous optimization, ensuring Bloom's digital footprint expanded dynamically in response to market demands."
       }
     ]
   }
