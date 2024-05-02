@@ -11,6 +11,7 @@ Router.map(function () {
   this.route('careers');
   this.route('open-position');
   this.route('about-us');
+  this.route('custom-ai-solutions');
   this.route('services', function () {
     this.route('staff-augmentation', function () {
       this.route('hire-frontend-developers');

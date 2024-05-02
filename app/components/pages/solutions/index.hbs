@@ -35,7 +35,9 @@
 {{#if @applications}}
   <Services::Benefits @data={{@applications}} />
 {{/if}}
-<Chatgpt::Getting-started @gettingStarted={{@features}} />
+{{#if @features}}
+  <Chatgpt::Getting-started @gettingStarted={{@features}} />
+{{/if}}
 {{#if @caseStudies}}
   <CaseStudies::Post @data={{@caseStudies}} />
 {{/if}}
