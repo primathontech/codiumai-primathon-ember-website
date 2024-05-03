@@ -9,17 +9,16 @@
     </p>
     <div class="holder">
       <div class="talent-map-wrap v-show">
-        <img
-        srcset="/assets/images/talent_map.webp , /assets/images/talent_map.png"
-         src="/assets/images/talent_map.png" alt="map" width="100%" height="100%"/>
+        <Common::AppImage @srcset="/assets/images/talent_map.webp , /assets/images/talent_map.png"
+         @src="/assets/images/talent_map.png" alt="map" width="100%" height="100%"/>
         <div class="talent-map-developer client-1">
           {{! template-lint-disable no-invalid-interactive }}
           <span class="dot"></span>
           <div class="logo-containter">
             <div class="logo-wrapper {{if (eq this.activeIndex 1) 'logo-wrapper-show' ''}}">
               <a href="https://www.sothebys.com/en/" target="_blank" rel="noopener noreferrer">
-                <img
-                  src="/assets/clients/sothebys-logo.svg"
+                <Common::AppImage
+                  @src="/assets/clients/sothebys-logo.svg"
                   loading="lazy"
                   alt="Primathon Client"
                   {{on 'mouseover' (fn this.setActiveIndex 1)}}
@@ -35,8 +34,8 @@
           <div class="logo-containter">
             <div class="logo-wrapper {{if (eq this.activeIndex 2) 'logo-wrapper-show' ''}}">
               <a href="https://paxful.com/" target="_blank" rel="noopener noreferrer">
-                <img
-                  src="/assets/clients/paxful-logo.svg"
+                <Common::AppImage
+                  @src="/assets/clients/paxful-logo.svg"
                   loading="lazy"
                   alt="Primathon Client"
                   {{on 'mouseover' (fn this.setActiveIndex 2)}}
@@ -52,8 +51,8 @@
           <div class="logo-containter">
             <div class="logo-wrapper {{if (eq this.activeIndex 3) 'logo-wrapper-show' ''}}">
               <a href="https://staybloom.com/" target="_blank" rel="noopener noreferrer">
-                <img
-                  src="/assets/clients/staybloom-logo.svg"
+                <Common::AppImage
+                  @src="/assets/clients/staybloom-logo.svg"
                   loading="lazy"
                   alt="Primathon Client"
                   {{on 'mouseover' (fn this.setActiveIndex 3)}}
@@ -69,8 +68,8 @@
           <div class="logo-containter">
             {{!-- <div class="logo-wrapper {{if (eq this.activeIndex 4) 'logo-wrapper-show' ''}}">
               <a href="https://www.freshworks.com/" target="_blank" rel="noopener noreferrer">
-                <img
-                  src="/assets/clients/freshworks-logo.svg"
+                <Common::AppImage
+                  @src="/assets/clients/freshworks-logo.svg"
                   loading="lazy"
                   alt="Primathon Client"
                   {{on 'mouseover' (fn this.setActiveIndex 4)}}
@@ -80,8 +79,8 @@
             </div> --}}
             <div class="logo-wrapper {{if (eq this.activeIndex 4) 'logo-wrapper-show' ''}}">
               <a href="https://www.freshworks.com/" target="_blank" rel="noopener noreferrer">
-                <img
-                  src="/assets/clients/freshworks-logo.svg"
+                <Common::AppImage
+                  @src="/assets/clients/freshworks-logo.svg"
                   loading="lazy"
                   alt="Primathon Client"
                   {{on 'mouseover' (fn this.setActiveIndex 4)}}
@@ -97,8 +96,8 @@
           <div class="logo-containter">
             <div class="logo-wrapper {{if (eq this.activeIndex 5) 'logo-wrapper-show' ''}}">
               <a href="https://graphcms.com/" target="_blank" rel="noopener noreferrer">
-                <img
-                  src="/assets/clients/graphcms.svg"
+                <Common::AppImage
+                  @src="/assets/clients/graphcms.svg"
                   loading="lazy"
                   alt="Primathon Client"
                   {{on 'mouseover' (fn this.setActiveIndex 5)}}
@@ -114,8 +113,8 @@
           <div class="logo-containter">
             <div class="logo-wrapper {{if (eq this.activeIndex 6) 'logo-wrapper-show' ''}}">
               <a href="https://usercentrics.com/" target="_blank" rel="noopener noreferrer">
-                <img
-                  src="/assets/clients/usercentrics-logo.svg"
+                <Common::AppImage
+                  @src="/assets/clients/usercentrics-logo.svg"
                   loading="lazy"
                   alt="Primathon Client"
                   {{on 'mouseover' (fn this.setActiveIndex 6)}}
@@ -131,9 +130,9 @@
           <div class="logo-containter">
             <div class="logo-wrapper {{if (eq this.activeIndex 7) 'logo-wrapper-show' ''}}">
               <a href="https://www.appsmith.com/" target="_blank" rel="noopener noreferrer">
-                <img
-                  srcset=" /assets/clients/appsmith-dark-logo.webp, /assets/clients/appsmith-dark-logo.png"
-                  src="/assets/clients/appsmith-dark-logo.png"
+                <Common::AppImage
+                  @srcset=" /assets/clients/appsmith-dark-logo.webp, /assets/clients/appsmith-dark-logo.png"
+                  @src="/assets/clients/appsmith-dark-logo.png"
                   loading="lazy"
                   alt="Primathon Client"
                   {{on 'mouseover' (fn this.setActiveIndex 7)}}
@@ -149,8 +148,8 @@
           <div class="logo-containter">
             <div class="logo-wrapper {{if (eq this.activeIndex 9) 'logo-wrapper-show' ''}}">
               <a href="https://publaunch.com/" target="_blank" rel="noopener noreferrer">
-                <img
-                  src="/assets/clients/publaunch-logo.svg"
+                <Common::AppImage
+                  @src="/assets/clients/publaunch-logo.svg"
                   loading="lazy"
                   alt="Primathon Client"
                   {{on 'mouseover' (fn this.setActiveIndex 9)}}
@@ -166,9 +165,9 @@
           <div class="logo-containter">
             <div class="logo-wrapper {{if (eq this.activeIndex 10) 'logo-wrapper-show' ''}}">
               <a href="https://www.coca-cola.com" target="_blank" rel="noopener noreferrer" aria-label="Coco cola logo"></a>
-              <img
-                srcset="/assets/clients/cococola-logo.webp, /assets/clients/cococola-logo.jpg"
-                src="/assets/clients/cococola-logo.jpg"
+              <Common::AppImage
+                @srcset="/assets/clients/cococola-logo.webp, /assets/clients/cococola-logo.jpg"
+                @src="/assets/clients/cococola-logo.jpg"
                 loading="lazy"
                 alt="Primathon Client"
                 {{on 'mouseover' (fn this.setActiveIndex 10)}}
@@ -184,8 +183,8 @@
           <div class="logo-containter">
             <div class="logo-wrapper {{if (eq this.activeIndex 11) 'logo-wrapper-show' ''}}">
               <a href="https://crypterns.com/" target="_blank" rel="noopener noreferrer">
-                <img
-                  src="/assets/clients/crypterns-logo.svg"
+                <Common::AppImage
+                  @src="/assets/clients/crypterns-logo.svg"
                   loading="lazy"
                   alt="Primathon Client"
                   {{on 'mouseover' (fn this.setActiveIndex 11)}}
@@ -202,8 +201,8 @@
           <div class="logo-containter">
             <div class="logo-wrapper {{if (eq this.activeIndex 12) 'logo-wrapper-show' ''}}">
               <a href="https://fi.money/" target="_blank" rel="noopener noreferrer">
-                <img
-                  src="/assets/clients/epifi.svg"
+                <Common::AppImage
+                  @src="/assets/clients/epifi.svg"
                   loading="lazy"
                   alt="Primathon Client"
                   {{on 'mouseover' (fn this.setActiveIndex 12)}}
@@ -219,8 +218,8 @@
           <div class="logo-containter">
             <div class="logo-wrapper {{if (eq this.activeIndex 13) 'logo-wrapper-show' ''}}">
               <a href="https://www.exlservice.com/" target="_blank" rel="noopener noreferrer">
-                <img
-                  src="/assets/clients/exl-logo.png"
+                <Common::AppImage
+                  @src="/assets/clients/exl-logo.png"
                   loading="lazy"
                   alt="Primathon Client"
                   {{on 'mouseover' (fn this.setActiveIndex 13)}}
@@ -236,9 +235,9 @@
           <div class="logo-containter">
             <div class="logo-wrapper {{if (eq this.activeIndex 14) 'logo-wrapper-show' ''}}">
               <a href="https://www.reliancecapital.co.in/" target="_blank" rel="noopener noreferrer">
-                <img
-                  srcset="/assets/clients/relience-logo.webp , /assets/clients/relience-logo.png"
-                  src="/assets/clients/relience-logo.png"
+                <Common::AppImage
+                  @srcset="/assets/clients/relience-logo.webp , /assets/clients/relience-logo.png"
+                  @src="/assets/clients/relience-logo.png"
                   loading="lazy"
                   alt="Primathon Client"
                   {{on 'mouseover' (fn this.setActiveIndex 14)}}
@@ -254,8 +253,8 @@
           <div class="logo-containter">
             <div class="logo-wrapper {{if (eq this.activeIndex 15) 'logo-wrapper-show' ''}}">
               <a href="https://bisresearch.com/" target="_blank" rel="noopener noreferrer">
-                <img
-                  src="/assets/clients/bis-logo.png"
+                <Common::AppImage
+                  @src="/assets/clients/bis-logo.png"
                   loading="lazy"
                   alt="Primathon Client"
                   {{on 'mouseover' (fn this.setActiveIndex 15)}}
@@ -271,8 +270,8 @@
           <div class="logo-containter">
             <div class="logo-wrapper {{if (eq this.activeIndex 16) 'logo-wrapper-show' ''}}">
               <a href="https://www.fcmtravel.com/" target="_blank" rel="noopener noreferrer">
-                <img
-                  src="/assets/clients/fcm-logo.svg"
+                <Common::AppImage
+                  @src="/assets/clients/fcm-logo.svg"
                   loading="lazy"
                   alt="Primathon Client"
                   {{on 'mouseover' (fn this.setActiveIndex 16)}}
@@ -288,8 +287,8 @@
           <div class="logo-containter">
             <div class="logo-wrapper {{if (eq this.activeIndex 17) 'logo-wrapper-show' ''}}">
               <a href="https://www.ahfproducts.com" target="_blank" rel="noopener noreferrer">
-                <img
-                  src="/assets/clients/AHF-logo.svg"
+                <Common::AppImage
+                  @src="/assets/clients/AHF-logo.svg"
                   loading="lazy"
                   alt="Primathon Client"
                   {{on 'mouseover' (fn this.setActiveIndex 17)}}
@@ -305,8 +304,8 @@
           <div class="logo-containter">
             <div class="logo-wrapper {{if (eq this.activeIndex 18) 'logo-wrapper-show' ''}}">
               <a href="https://www.piramal.com/" target="_blank" rel="noopener noreferrer">
-                <img
-                  src="/assets/clients/piramal-logo.svg"
+                <Common::AppImage
+                  @src="/assets/clients/piramal-logo.svg"
                   loading="lazy"
                   alt="Primathon Client"
                   {{on 'mouseover' (fn this.setActiveIndex 18)}}

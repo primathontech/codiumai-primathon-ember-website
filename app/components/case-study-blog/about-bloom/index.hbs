@@ -15,7 +15,7 @@
     {{#each @data.about as |item|}}
       <div key={{item.id}} class='flex items-center gap-x-5 md:gap-x-8'>
         <div class='p-4 w-[56px] h-[56px] md:p-5 md:w-[64px] md:h-[64px] rounded-full bg-[#2487E8] items-center'>
-          <img src={{item.imageSrc}} alt='icon' title='icon' />
+          <Common::AppImage @src={{item.imageSrc}} alt='icon' title='icon' />
         </div>
         <div>
           <p class='text-lg md:text-xl font-medium mb-0'>{{item.title}}</p>

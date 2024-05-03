@@ -1,5 +1,5 @@
 <div class='yellow-ring'>
-  <img src='/assets/images/yellow_ring.png' alt='yellow ellipse' />
+  <Common::AppImage @src='/assets/images/yellow_ring.png' alt='yellow ellipse' />
 </div>
 <div class='container'>
   <h2 class='title'>
@@ -12,15 +12,15 @@
     {{#each @data as |data index|}}
       <div class='{{if (eq this.activeIndex index) 'isActive' 'isNotActive'}}'>
         <div class='person-img-desktop'>
-          <img src={{data.img.guid}} loading='lazy' alt={{data.name}} />
+          <Common::AppImage @src={{data.img.guid}} loading='lazy' alt={{data.name}} />
         </div>
         <div class='testimonial-item'>
           <blockquote>
             {{data.comment}}
           </blockquote>
           <div class='person-img-mobile'>
-            <img
-              src={{data.img.guid}}
+            <Common::AppImage
+              @src={{data.img.guid}}
               loading='lazy'
               alt={{data.name}}
             />
