@@ -36,6 +36,7 @@ Router.map(function () {
     this.route('ai-hub', function () {
       this.route('ai-consulting-services');
       this.route('custom-ai-solutions');
+      this.route('ai-strategy');
       this.route('ai-software-development-services');
     });
     this.route('end-to-end-products', function () {
