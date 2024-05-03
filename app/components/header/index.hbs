@@ -1,11 +1,11 @@
 <nav class='menu items-center text-white {{this.extraClass}}' {{on-window-scroll this.onScroll}}>
   <LinkTo @route='index' class='menu-index'>
     <div class='logo-holder' type='div'>
-      <Common::AppImage 
-        @srcset="/assets/images/primathon-logo.webp, /assets/images/primathon-logo.png"
+      <Common::AppImage
+        @srcset='/assets/images/primathon-logo.webp, /assets/images/primathon-logo.png'
         @src='/assets/images/primathon-logo.png'
-        alt='Primathon' 
-        title='Primathon' 
+        alt='Primathon'
+        title='Primathon'
       />
     </div>
     {{!-- <div
@@ -118,6 +118,14 @@
         {{/if}}
       </p>
       <div class='services-menu {{if this.aiHub "services-menu-open"}} '>
+        <LinkTo
+          @route='services.ai-hub.ai-software-development-services'
+          class='mobile-menu'
+          @activeClass='current-url'
+          {{on 'click' (fn this.closeOpenMenu 'ai-hub')}}
+        >
+          AI Software Development Services
+        </LinkTo>
         <LinkTo
           @route='services.ai-hub.ai-consulting-services'
           class='mobile-menu'
@@ -273,6 +281,14 @@
           {{on 'click' (fn this.closeOpenMenu 'technologies')}}
         >
           Angular Js
+        </LinkTo>
+        <LinkTo
+          @route='technologies.ember-js'
+          class='mobile-menu'
+          @activeClass='current-url'
+          {{on 'click' (fn this.closeOpenMenu 'technologies')}}
+        >
+          Ember Js
         </LinkTo>
         <LinkTo
           @route='technologies.javascript'
