@@ -24,15 +24,9 @@ export const SITEMAP = {
       name: 'Web And Mobile App Development',
       url: 'services/end-to-end-products/web-and-mobile-app-development',
     },
-    {
-      id: 6,
-      name: 'AI/Ml Based Recommendation Engines',
-      url: 'services/end-to-end-products/ai-ml-based-recommendation-engines',
-    },
-    { id: 7, name: 'ERC20 Token', url: 'services/end-to-end-products/erc20-token' },
-    { id: 8, name: 'Smart Contract', url: 'services/end-to-end-products/smart-contract' },
-    { id: 9, name: 'Chatgpt Services', url: 'services/end-to-end-products/chatgpt' },
-    { id: 10, name: 'Ember Js Development Services', url: 'ember-js-development-services' },
+    { id: 6, name: 'ERC20 Token', url: 'services/end-to-end-products/erc20-token' },
+    { id: 7, name: 'Smart Contract', url: 'services/end-to-end-products/smart-contract' },
+    { id: 8, name: 'Chatgpt Services', url: 'services/end-to-end-products/chatgpt' },
   ],
 
   staffAugmentation: [
