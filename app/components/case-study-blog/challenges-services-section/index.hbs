@@ -19,11 +19,11 @@
       <p class='time-heading'>Time & Location</p>
       <section class='time-content'>
         <section class='months-section'>
-          <img src='/assets/svgs/monthsLogo.svg' alt='monthLogo' />
+          <Common::AppImage @src='/assets/svgs/monthsLogo.svg' alt='monthLogo' />
           <span class='no-of-months'>{{@challenges.CHALLENGES_DATA.months}}&nbsp;Months</span>
         </section>
         <section class='country-section'>
-          <img src='/assets/svgs/countryLogo.svg' alt='countryLogo' />
+          <Common::AppImage @src='/assets/svgs/countryLogo.svg' alt='countryLogo' />
           <span class='country'>{{@challenges.CHALLENGES_DATA.countryName}}</span>
         </section>
       </section>
@@ -34,7 +34,7 @@
       <section class='all-services'>
         {{#each @challenges.SERVICES_PROVIDED_DATA.data as |item|}}
           <div class='service service-one'>
-            <img src={{item.serviceLogo}} alt='service image' />
+            <Common::AppImage @src={{item.serviceLogo}} alt='service image' />
             <span class='service-name'>{{item.serviceName}}</span>
           </div>
         {{/each}}
@@ -46,7 +46,7 @@
       <section class='all-services-mobile'>
         {{#each @challenges.SERVICES_PROVIDED_DATA.data as |item|}}
           <div class='service-mobile service-one'>
-            <img src={{item.serviceLogo}} alt='service image' />
+            <Common::AppImage @src={{item.serviceLogo}} alt='service image' />
             <span class='service-name'>{{item.serviceName}}</span>
           </div>
         {{/each}}
@@ -60,7 +60,7 @@
       <section class='all-technologies-logos'>
         {{#each @challenges.TECHNOLOGIES_USED_DATA.imagesData as |item|}}
         <div class='logo'>
-          <img src={{item.techImage}} alt=' tech image' />
+          <Common::AppImage @src={{item.techImage}} alt=' tech image' />
           <span class='technology-name'>{{item.techName}}</span>
         </div>
         {{/each}}

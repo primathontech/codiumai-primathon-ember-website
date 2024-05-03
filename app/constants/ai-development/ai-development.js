@@ -1,6 +1,6 @@
 export const AI_DATA = {
   heroSection: {
-    title: 'AI Software Development',
+    title: 'AI Software Development Services',
     subTitle:
       'The Future Is Here! Help Your Business Reach the Sky With Custom Artificial Intelligence Software Development',
     buttonData: 'Get an AI Developer',
@@ -38,11 +38,11 @@ export const AI_DATA = {
   },
 
   whatisAI: {
-    heading: 'What is AI software development?',
+    heading: 'What is AI Software Development Services?',
     description: [
       'Artificial intelligence (AI) software development involves creating computer programs and algorithms that can perform tasks that typically require human intelligence, such as learning, problem-solving, decision-making, and language processing.',
       'AI software developers use programming languages such as Python, Java, and C++ to create intelligent systems that can understand and analyze data, learn from patterns and past experiences, and make predictions and recommendations based on that data. These systems can be trained using various techniques, such as supervised learning, unsupervised learning, and reinforcement learning.',
-      'AI software development also involves working with various libraries, frameworks, and tools that enable the creation of intelligent systems. Some commonly used tools and frameworks in AI development include TensorFlow, PyTorch, Keras, and Scikit-learn. It is used in various industries and applications, such as finance, healthcare, manufacturing, and autonomous vehicles. It is a rapidly evolving field, with new technologies and techniques being developed regularly, making it an exciting area for developers to work in.',
+      'AI Software Development Services also involves working with various libraries, frameworks, and tools that enable the creation of intelligent systems. Some commonly used tools and frameworks in AI development include TensorFlow, PyTorch, Keras, and Scikit-learn. It is used in various industries and applications, such as finance, healthcare, manufacturing, and autonomous vehicles. It is a rapidly evolving field, with new technologies and techniques being developed regularly, making it an exciting area for developers to work in.',
     ],
     buttonText: 'Contact Us',
     buttonLink: '/contact',
@@ -264,7 +264,7 @@ export const AI_DATA = {
   },
 
   roadmapData: {
-    title: 'AI software development',
+    title: 'AI Software Development Services',
     subTitle: 'roadmap',
     description:
       'Developing software with AI capabilities can be a complex process, but the following roadmap can help guide you through the key steps involved:',
@@ -316,7 +316,7 @@ export const AI_DATA = {
 
   benefitsOfAi: {
     title: 'Benefits of',
-    subTitle: 'AI software development',
+    subTitle: 'AI Software Development Services',
     cardData: [
       {
         id: '1',
@@ -352,7 +352,7 @@ export const AI_DATA = {
         id: '6',
         cardTitle: 'Innovation',
         content:
-          'AI software development is a rapidly evolving field, with new technologies and techniques emerging all the time. By investing in AI software development, businesses can stay ahead of the curve and continue to innovate, driving growth and success over the long term.',
+          'AI Software Development Services is a rapidly evolving field, with new technologies and techniques emerging all the time. By investing in AI Software Development Services, businesses can stay ahead of the curve and continue to innovate, driving growth and success over the long term.',
       },
     ],
   },

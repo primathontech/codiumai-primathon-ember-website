@@ -6,7 +6,7 @@
     <div class="chatgpt-serviceCardContainer">
         {{#each @services.cardData as |service|}}
         <div class="chatgpt-serviceCard">
-            <img src={{service.imageSrc}} />
+            <Common::AppImage @src={{service.imageSrc}} />
             <p>{{service.content}}</p>
         </div>
         {{/each}}

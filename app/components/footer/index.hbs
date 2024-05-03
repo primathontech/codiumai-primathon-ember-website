@@ -7,18 +7,18 @@
           <span class='font-semibold text-lg text-white mb-1'>Company</span>
           {{#if this.isSmallScreen}}
             {{#if this.openCompanyMenu}}
-              <img
+              <Common::AppImage
                 class='up-down-icon'
-                src='/assets/svgs/white-arrow-up.svg'
+                @src='/assets/svgs/white-arrow-up.svg'
                 height='10px'
                 width='10px'
                 alt='button icon'
                 title='button icon'
               />
             {{else}}
-              <img
+              <Common::AppImage
                 class='up-down-icon'
-                src='/assets/svgs/white-arrow-down.svg'
+                @src='/assets/svgs/white-arrow-down.svg'
                 height='10px'
                 width='10px'
                 alt='button icon'
@@ -59,18 +59,18 @@
           >Services</span>
           {{#if this.isSmallScreen}}
             {{#if this.openServicesMenu}}
-              <img
+              <Common::AppImage
                 class='up-down-icon'
-                src='/assets/svgs/white-arrow-up.svg'
+                @src='/assets/svgs/white-arrow-up.svg'
                 height='10px'
                 width='10px'
                 alt='button icon'
                 title='button icon'
               />
             {{else}}
-              <img
+              <Common::AppImage
                 class='up-down-icon'
-                src='/assets/svgs/white-arrow-down.svg'
+                @src='/assets/svgs/white-arrow-down.svg'
                 height='10px'
                 width='10px'
                 alt='button icon'
@@ -117,18 +117,18 @@
           <span class='font-semibold text-lg text-white mb-1'>Solutions</span>
           {{#if this.isSmallScreen}}
             {{#if this.openSolutionsMenu}}
-              <img
+              <Common::AppImage
                 class='up-down-icon'
-                src='/assets/svgs/white-arrow-up.svg'
+                @src='/assets/svgs/white-arrow-up.svg'
                 height='10px'
                 width='10px'
                 alt='button icon'
                 title='button icon'
               />
             {{else}}
-              <img
+              <Common::AppImage
                 class='up-down-icon'
-                src='/assets/svgs/white-arrow-down.svg'
+                @src='/assets/svgs/white-arrow-down.svg'
                 height='10px'
                 width='10px'
                 alt='button icon'
@@ -141,10 +141,10 @@
           <ul>
             <li>
               <LinkTo
-                @route='services.end-to-end-products.ai-ml-based-recommendation-engines'
+                @route='services.ai-hub.ai-software-development-services'
                 class='text-sm leading-7 text-[#D9D9D9]'
               >
-                AI/ML based Recommendation Engines
+                AI Software Development Services
               </LinkTo>
             </li>
             <li>

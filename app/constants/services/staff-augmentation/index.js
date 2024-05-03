@@ -4904,3 +4904,381 @@ export const BACKEND_DEVELOPER = {
     ],
   },
 };
+
+export const NODE_DEVELOPER = {
+  heroSection: {
+    title1: 'Hire',
+    gradientTitle: 'Node.js',
+    title2: 'Developers',
+    subtitle: 'Reasonable, Dedicated Experts for Your Business',
+    description:
+      'Enhance your Node.js projects with Primathon’s proficient Node.js Development Services. Our experienced team provides high-quality solutions, effortless scalability, and swift development. Select us for innovation, dependability, and a partnership dedicated to your success.',
+    listItems: [
+      {
+        id: 1,
+        text: '100% Skilled and Certified Developers',
+      },
+      {
+        id: 2,
+        text: 'Possesses an Average of 5+ Years of Experience',
+      },
+      {
+        id: 3,
+        text: 'Swift Onboarding Process',
+      },
+      {
+        id: 4,
+        text: 'Competitive Pricing Models',
+      },
+      {
+        id: 5,
+        text: 'Transparent and Smooth Communication',
+      },
+    ],
+    ctaText1: 'Book a Call',
+    ctaText2: 'Get Free Consultation',
+    redirect: '/contact',
+    imageSrc: '/assets/node-js/node-js-hero-img.png',
+    imageAlt: 'Hire Node.js Developer',
+  },
+
+  elevateYourProject: {
+    title: 'Elevate Your Project by Hiring Top Node Js Developers in India',
+    description:
+      'With years of expertise and a commitment to innovation, we deliver bespoke solutions tailored to your unique requirements. Contact us to maximize Node js potential for your projects. Engage skilled node developers, partner with a trusted node development company, or choose cost-effective node js development solutions.',
+    ctaText: 'GET IN TOUCH',
+    redirect: '/contact',
+    imageSrc: '/assets/python/elevate-your-project.png',
+    imageAlt: 'Elevate Your Project',
+  },
+
+  ctaSection: {
+    title: 'Are you Confused About the Right Development Path?',
+    description:
+      'Allow our team of node js development experts to lead you through every stage of your project, ensuring you make confident and informed decisions along the way.',
+    ctaText1: 'Get Free Consultation',
+    redirect1: '/contact',
+    ctaText2: 'View Case Studies ',
+    redirect2: '#case-studies',
+  },
+
+  nodeDevelopmentServices: {
+    title: 'Node Js Development Services Offered by Primathon’s Expert Coders',
+    cardData: [
+      {
+        id: 1,
+        imageSrc: '/assets/node-js/development.svg',
+        cardTitle: 'Full-Stack Development',
+        content:
+          'We have comprehensive expertise in both front-end and back-end development using Node.js, ensuring seamless integration and functionality across the entire application.',
+      },
+      {
+        id: 2,
+        imageSrc: '/assets/node-js/architecture.svg',
+        cardTitle: 'Scalable Architecture',
+        content:
+          'Our team of experts offer seamless implementation of scalable architecture patterns in Node.js applications, ensuring optimal performance and adaptability to future growth.',
+      },
+      {
+        id: 3,
+        imageSrc: '/assets/node-js/app-development.svg',
+        cardTitle: 'Real-Time Application Development',
+        content:
+          'Being a trusted node js development company, we are proficient in building real-time applications such as chat applications, collaborative tools, and live streaming platforms using Node.js and related technologies.',
+      },
+      {
+        id: 4,
+        imageSrc: '/assets/node-js/api-integration.svg',
+        cardTitle: 'API Development and Integration',
+        content:
+          'As a reputable node js development company, our experts develop robust APIs and seamless integration with third-party services, databases, and external systems, facilitating smooth data exchange.',
+      },
+      {
+        id: 5,
+        imageSrc: '/assets/node-js/microservices.svg',
+        cardTitle: 'Microservices Architecture',
+        content:
+          'Our expertise lies in designing and implementing microservices architecture using Node.js, enabling modular development, deployment, and maintenance of complex applications.',
+      },
+      {
+        id: 6,
+        imageSrc: '/assets/node-js/optimization.svg',
+        cardTitle: 'Performance Optimization',
+        content:
+          'We offer fine-tuning and optimization of Node.js applications for improved performance, speed, and responsiveness, ensuring an exceptional user experience.',
+      },
+      {
+        id: 7,
+        imageSrc: '/assets/node-js/agile-development.svg',
+        cardTitle: 'Agile Development Methodology',
+        content:
+          'Adoption of agile development methodologies to ensure efficient project management, timely delivery of milestones, and collaboration with clients throughout the development lifecycle.',
+      },
+    ],
+  },
+
+  ctaSection1: {
+    onlyDesc: true,
+    descp1: 'Hire Dedicated',
+    colouredDescp: 'Node.js Developers',
+    descp2:
+      'team based on your requirements. We provide various services tailored to meet the specific needs of your business.',
+    ctaText: 'GET IN TOUCH',
+    redirect: '/contact',
+    bgColor: '#F4F4F4',
+  },
+
+  whyChoose: {
+    title: 'Why Hire Node.js Developers from Primathon?',
+    description:
+      'Our node.js developers excel in their domain, boasting over 7 years of experience in crafting scalable and high-performing python applications. We remain abreast of the latest python advancements and tools, guaranteeing that your project is constructed using cutting-edge technology. Security is paramount in our development process, ensuring that your node applications are shielded against threats and vulnerabilities. We fine-tune your node applications for speed and efficiency, delivering exceptional user experiences within the project timeline and budget constraints.',
+    listItems: [
+      { id: 1, text: 'Experience 1.5X Faster Delivery' },
+      { id: 2, text: 'Work at Your Time Zone' },
+      { id: 3, text: 'Hassle-free communication' },
+      { id: 4, text: '24/7 Support' },
+    ],
+    service1: { number: '6+', text: 'Years of business' },
+    service2: { number: '80+', text: 'Software Developers' },
+    service3: { number: '150+', text: 'Project Delivered' },
+    service4: { number: '100+', text: 'Happy Client' },
+  },
+
+  nodeJourney: {
+    heading: 'Let us take your project on a journey!',
+    items: [
+      'You share your idea with us',
+      'We create a strategy for your project',
+      'Our Node.js Developer starts building it',
+      'We deliver on time',
+    ],
+  },
+
+  ctaSection2: {
+    title: 'Want to Create a User-friendly Web Application?',
+    description:
+      "Hire our Node.js developer to improve your product's usability, satisfaction, and overall user experience.",
+    ctaText: 'HIRE US',
+    redirect: '/contact',
+    bgColor: '#21315B',
+  },
+
+  nodeDevelopmentStrategy: {
+    title: "Primathon's Node JS Development Strategy",
+    imageSrc: '/assets/node-js/development-strategy.png',
+    imageAlt: 'Development Strategy',
+    cardData: [
+      {
+        id: 1,
+        text: 'Requirement Analysis',
+        description:
+          "We first start with thorough understanding of the client's requirements, business objectives, and project goals to devise a tailored development strategy.",
+      },
+      {
+        id: 2,
+        text: 'Technology Selection',
+        description:
+          'After analyzing the requirements, we select the most suitable Node.js frameworks, libraries, and tools based on the project requirements, scalability needs, and performance expectations.',
+      },
+      {
+        id: 3,
+        text: 'Architecture Design',
+        description:
+          'We design scalable, robust, and flexible architectures leveraging Node.js to ensure optimal performance, scalability, and maintainability.',
+      },
+      {
+        id: 4,
+        text: 'Quality Assurance and Testing',
+        description:
+          'Our team conducts comprehensive testing, including unit tests, integration tests, and end-to-end tests, to ensure the reliability, functionality, and security of the application.',
+      },
+      {
+        id: 5,
+        text: 'Scalability and Elasticity',
+        description:
+          'Our specialized developers design applications to scale horizontally and vertically to handle growing user loads and traffic spikes efficiently.',
+      },
+      {
+        id: 6,
+        text: 'Post-Deployment Support',
+        description:
+          'We provide ongoing support, maintenance, and monitoring services to ensure the stability, security, and performance of the deployed Node.js applications.',
+      },
+    ],
+  },
+
+  benefitsOfHiringNode: {
+    title1: 'Benefits of Hiring ',
+    colouredTitle: 'Node.js Developers',
+    title2: 'from Us',
+    description:
+      'From free manager service to punctual delivery and precise timesheets, we offer multiple benefits to a client when they hire Node JS developers from Primathon.',
+    cardData: [
+      {
+        id: 1,
+        title: 'Get a Dedicated Project Manager',
+        description:
+          "No matter what, you'll get a complimentary project manager from us. They'll handle all the nitty-gritty stuff like planning, setting timelines, and making sure everyone's on track. Their job? To guarantee you're getting top-notch results every step of the way with Primathon.",
+        listItems: [
+          'Analyze the Progress of the Project',
+          'Ensure Client Satisfaction',
+          'Keeps you updated throughout the Project',
+        ],
+        imageSrc: '/assets/angular-js/dedicated-project-manager.png',
+        imageAlt: 'Dedicated Project Manager discussing project',
+      },
+      {
+        id: 2,
+        title: 'Stay in the Loop with Daily and Monthly Task Records',
+        description:
+          "We provide daily updates and summaries of tasks finished, challenges encountered, and milestones reached. Hire Node JS Developer from us and at the end of each month, you'll receive a comprehensive timesheet detailing team activities and hours allocated to each task. This will help you to review payments based on completed work.",
+        listItems: ['Keep Tabs on Progress', 'Quality Results', 'Optimize Time Management'],
+        imageSrc: '/assets/angular-js/task-records.png',
+        imageAlt: 'Daily and Monthly Task Records',
+      },
+      {
+        id: 3,
+        title: 'Diverse Talent Pool',
+        description:
+          'When you hire a Node JS Developer from Primathon, you gain access to a wealth of knowledge spanning various Node frameworks and libraries, ensuring that your project receives the specialized skills it requires.',
+        listItems: ['Decrease the Chances of Project Disruption', 'Simplify Task'],
+        imageSrc: '/assets/emberjs/strategy.png',
+        imageAlt: 'Diverse Talent Pool',
+      },
+    ],
+  },
+
+  table: {
+    title: 'Hire Node.js Developers From Primathon Vs Other Company',
+    tableHeading: ['', 'Primathon', 'Other Company', 'Freelancers'],
+    tableRows: [
+      {
+        id: 1,
+        tableData: [
+          { id: 1, text: 'Failure Rate', bgColor: '#ffffff' },
+          { id: 2, text: 'X', bgColor: '#FFDCDC' },
+          { id: 3, text: 'Low', bgColor: '#ffffff' },
+          { id: 4, text: 'Very High', bgColor: '#ffffff' },
+        ],
+      },
+
+      {
+        id: 2,
+        tableData: [
+          { id: 1, text: 'Pre-assessed Developers', bgColor: '#ffffff' },
+          { id: 2, text: '✓', bgColor: '#24B768' },
+          { id: 3, text: 'X', bgColor: '#FFDCDC' },
+          { id: 4, text: 'X', bgColor: '#FFDCDC' },
+        ],
+      },
+
+      {
+        id: 3,
+        tableData: [
+          { id: 1, text: 'Results', bgColor: '#ffffff' },
+          { id: 2, text: '100% Premium Quality', bgColor: '#ffffff' },
+          { id: 3, text: 'Good', bgColor: '#ffffff' },
+          { id: 4, text: 'Unsure', bgColor: '#ffffff' },
+        ],
+      },
+
+      {
+        id: 4,
+        tableData: [
+          { id: 1, text: 'Documentation and Security', bgColor: '#ffffff' },
+          { id: 2, text: '✓', bgColor: '#24B768' },
+          { id: 3, text: 'X', bgColor: '#FFDCDC' },
+          { id: 4, text: 'X', bgColor: '#FFDCDC' },
+        ],
+      },
+
+      {
+        id: 5,
+        tableData: [
+          { id: 1, text: 'Rates', bgColor: '#ffffff' },
+          { id: 2, text: 'Reasonable', bgColor: '#ffffff' },
+          { id: 3, text: 'High Cost', bgColor: '#ffffff' },
+          { id: 4, text: 'High Cost', bgColor: '#ffffff' },
+        ],
+      },
+
+      {
+        id: 6,
+        tableData: [
+          { id: 1, text: 'Quality Guarantee', bgColor: '#ffffff' },
+          { id: 2, text: '✓', bgColor: '#24B768' },
+          { id: 3, text: 'X', bgColor: '#FFDCDC' },
+          { id: 4, text: 'Unsure', bgColor: '#FFDCDC' },
+        ],
+      },
+    ],
+
+    mobileTableData: [
+      {
+        id: 1,
+        title: 'Failure Rate',
+        tableHeading: ['Primathon', 'Other Company', 'Freelancers'],
+        tableData: [
+          { id: 1, text: 'X', bgColor: '#FFDCDC' },
+          { id: 2, text: 'Low', bgColor: '#ffffff' },
+          { id: 3, text: 'Very High', bgColor: '#ffffff' },
+        ],
+      },
+      {
+        id: 2,
+        title: 'Pre-assessed Developers',
+        tableHeading: ['Primathon', 'Other Company', 'Freelancers'],
+        tableData: [
+          { id: 1, text: '✓', bgColor: '#24B768' },
+          { id: 2, text: 'X', bgColor: '#FFDCDC' },
+          { id: 3, text: 'X', bgColor: '#FFDCDC' },
+        ],
+      },
+      {
+        id: 3,
+        title: 'Results',
+        tableHeading: ['Primathon', 'Other Company', 'Freelancers'],
+        tableData: [
+          { id: 1, text: '100% Premium Quality', bgColor: '#ffffff' },
+          { id: 2, text: 'Good', bgColor: '#ffffff' },
+          { id: 3, text: 'Unsure', bgColor: '#ffffff' },
+        ],
+      },
+      {
+        id: 4,
+        title: 'Documentation and Security',
+        tableHeading: ['Primathon', 'Other Company', 'Freelancers'],
+        tableData: [
+          { id: 1, text: '✓', bgColor: '#24B768' },
+          { id: 2, text: 'X', bgColor: '#FFDCDC' },
+          { id: 3, text: 'X', bgColor: '#FFDCDC' },
+        ],
+      },
+      {
+        id: 5,
+        title: 'Rates',
+        tableHeading: ['Primathon', 'Other Company', 'Freelancers'],
+        tableData: [
+          { id: 1, text: 'Reasonable', bgColor: '#ffffff' },
+          { id: 2, text: 'High Cost', bgColor: '#ffffff' },
+          { id: 3, text: 'High Cost', bgColor: '#ffffff' },
+        ],
+      },
+      {
+        id: 5,
+        title: 'Quality Guarantee',
+        tableHeading: ['Primathon', 'Other Company', 'Freelancers'],
+        tableData: [
+          { id: 1, text: '✓', bgColor: '#24B768' },
+          { id: 2, text: 'X', bgColor: '#FFDCDC' },
+          { id: 3, text: 'Unsure', bgColor: '#FFDCDC' },
+        ],
+      },
+    ],
+  },
+
+  caseStudies: {
+    title: 'Our Case Studies',
+    subtitle: 'Explore Our Portfolio of Vue.js Development Projects',
+  },
+};

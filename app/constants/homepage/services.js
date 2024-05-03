@@ -39,16 +39,8 @@ export const SERVICE_DATA = {
           url: '/services/end-to-end-products/smart-contract',
         },
         {
-          text: 'EmberJs Services',
-          url: '/ember-js-development-services',
-        },
-        {
           text: 'ChatGPT Services',
           url: '/services/end-to-end-products/chatgpt',
-        },
-        {
-          text: 'AI/ML based Recommendation engines',
-          url: '/services/end-to-end-products/ai-ml-based-recommendation-engines',
         },
       ],
     },
@@ -115,6 +107,10 @@ export const SERVICE_DATA = {
         {
           text: 'Ember.js developers',
           url: '/services/staff-augmentation/hire-ember-js-developers',
+        },
+        {
+          text: 'Node.js developers',
+          url: '/services/staff-augmentation/hire-node-js-developers',
         },
       ],
     },

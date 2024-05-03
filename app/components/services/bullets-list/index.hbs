@@ -20,8 +20,7 @@
     </div>
   </div>
   <div class='{{if @isImgShownInMobile "block" "hidden"}} md:block' style='flex-shrink: 0;'>
-    <img
-      src={{@data.imageSrc}}
+    <Common::AppImage @src={{@data.imageSrc}}
       class='{{if @imgStyle @imgStyle "w-[350px] h-[350px]"}}'
       alt={{@data.alt}}
       title={{@data.alt}}
