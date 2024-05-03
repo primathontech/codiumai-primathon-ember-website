@@ -181,7 +181,7 @@ export const AI_INTEGRATION = {
   bulletData: {
     title: "Get in Touch with Us to Unlock Your Business's Potential with our AI Consultancy Expertise",
     description: 'During this call, you can expect',
-    imageSrc: '/assets/ai-integration/business-potential.png',
+    imageSrc: '/assets/ai-generating/unlock-your-business.png',
     alt: 'Ai Integration',
     listItems: [
       { id: 1, text: "Attaining in-depth understanding of Primathon's AI discovery methodology and its capabilities." },
