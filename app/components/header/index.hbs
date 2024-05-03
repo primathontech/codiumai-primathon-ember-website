@@ -143,6 +143,14 @@
           Custom AI Solutions
         </LinkTo>
         <LinkTo
+          @route='services.ai-hub.ai-integration'
+          class='mobile-menu'
+          @activeClass='current-url'
+          {{on 'click' (fn this.closeOpenMenu 'ai-hub')}}
+        >
+          AI Integration
+        </LinkTo>
+        <LinkTo
           @route='services.ai-hub.ai-generating-service'
           class='mobile-menu'
           @activeClass='current-url'
