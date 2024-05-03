@@ -15,8 +15,8 @@
             rel="noopener noreferrer"
             {{on 'click' (fn this.onBlogCardClick data.title data.link)}}
           >
-            <img
-              src={{if data.blogImageUrl data.blogImageUrl '/assets/images/blog.png'}}
+            <Common::AppImage
+              @src={{if data.blogImageUrl data.blogImageUrl '/assets/images/blog.png'}}
               loading="lazy"
               alt={{data.title}}
               title={{data.title}}
