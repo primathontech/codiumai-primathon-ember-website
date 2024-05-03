@@ -26,5 +26,7 @@
 {{#if @features}}
   <Chatgpt::Getting-started @gettingStarted={{@features}} />
 {{/if}}
-<Services::FaqList @title={{@faqs.title}} @data={{@faqs.cardData}} />
+{{#if @faqs}}
+  <Services::FaqList @title={{@faqs.title}} @data={{@faqs.cardData}} />
+{{/if}}
 <Footer />
