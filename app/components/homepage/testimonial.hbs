@@ -17,9 +17,9 @@
             <div class='testimonial-by'>
               <div class='person-img'>
               {{#if data.fallbackProfilePicUrl}}
-                  <img
-                  srcset={{data.fallbackProfilePicUrl data.profilePicUrl}}
-                  src={{data.profilePicUrl}}
+                  <Common::AppImage
+                  @srcset={{data.fallbackProfilePicUrl data.profilePicUrl}}
+                  @src={{data.profilePicUrl}}
                   loading='lazy'
                   alt={{data.name}}
                   title={{data.name}}
@@ -27,8 +27,8 @@
                   height="100%"
                 />
              {{else}}
-                  <img
-                   src={{if data.profilePicUrl data.profilePicUrl '/assets/images/user.png'}}
+                  <Common::AppImage
+                  @src={{if data.profilePicUrl data.profilePicUrl '/assets/images/user.png'}}
                   loading='lazy'
                   alt={{data.name}}
                   title={{data.name}}

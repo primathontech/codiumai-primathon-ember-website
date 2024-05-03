@@ -61,8 +61,7 @@
         <Contact::ContactForm @title={{@data.contactFormTitle}} @ctaText={{@data.contactFormCtaText}} />
       </div>
     {{else}}
-      <img
-        src={{@data.imageSrc}}
+      <Common::AppImage @src={{@data.imageSrc}}
         class='{{@imgStyle}} hidden lg:block'
         alt={{@data.imageAlt}}
         title={{@data.imageAlt}}
