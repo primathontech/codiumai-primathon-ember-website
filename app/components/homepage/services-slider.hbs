@@ -20,7 +20,7 @@
         >
           <LinkTo @route={{if data.route data.route}}>
             <div class="talent-category {{if @talent-category-two 'talent-category-two'}}">
-              <img src={{data.imageUrl}} loading="lazy" alt="Developers" title="Software Developers" />
+              <Common::AppImage @src={{data.imageUrl}} loading="lazy" alt="Developers" title="Software Developers" />
               <h3>
                 {{data.title}}
               </h3>

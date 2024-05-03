@@ -36,6 +36,7 @@ Router.map(function () {
     this.route('ai-hub', function () {
       this.route('ai-consulting-services');
       this.route('custom-ai-solutions');
+      this.route('ai-software-development-services');
     });
     this.route('end-to-end-products', function () {
       this.route('booking-platforms');
@@ -69,6 +70,7 @@ Router.map(function () {
     this.route('ios');
     this.route('vue');
     this.route('swift');
+    this.route('ember-js');
   });
   this.route('case-studies', function () {
     this.route('case-study', { path: '/:post_id' });

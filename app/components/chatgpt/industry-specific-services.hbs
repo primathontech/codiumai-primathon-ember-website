@@ -31,12 +31,12 @@
 
       {{#unless (eq this.active this.length)}}
         <button type='button' {{on 'click' this.showNext}} class='industrySpecificNextButton'>
-          <img src='/assets/chatgpt/next-white.svg' alt='customer obsession' />
+          <Common::AppImage @src='/assets/chatgpt/next-white.svg' alt='customer obsession' />
         </button>
       {{/unless}}
       {{#unless (eq this.active 0)}}
         <button type='button' {{on 'click' this.showPrevious}} class='industrySpecificPreviousButton'>
-          <img src='/assets/chatgpt/previous-white.svg' alt='customer obsession' />
+          <Common::AppImage @src='/assets/chatgpt/previous-white.svg' alt='customer obsession' />
         </button>
       {{/unless}}
     </div>
