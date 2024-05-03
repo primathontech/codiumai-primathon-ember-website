@@ -1,0 +1,16 @@
+<section class='mt-16 md:mt-32 mb-12 px-6 sm:px-12'>
+  <p class='text-center text-3xl md:text-4xl font-medium mb-10 md:mb-16'>{{@data.title}}</p>
+  <div class='flex flex-wrap justify-center gap-10 flex-row mt-4 md:pl-10'>
+    {{#each @data.data as |item|}}
+      <div class='w-[320px]'>
+        <div class='relative'>
+          <Common::AppImage @src='{{item.image}}' alt='arrow-image' />
+          <h3
+            class='text-xl font-semibold absolute bottom-[50px] left-[25px] md:text-xl text-white'
+          >{{item.subTitle}}</h3>
+        </div>
+        <p class='text-[#2E2E2E] md:mt-5 mt-2.5 md:text-lg text-base'>{{item.description}}</p>
+      </div>
+    {{/each}}
+  </div>
+</section>

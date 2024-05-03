@@ -1,22 +1,23 @@
 <nav class='menu items-center text-white {{this.extraClass}}' {{on-window-scroll this.onScroll}}>
   <LinkTo @route='index' class='menu-index'>
     <div class='logo-holder' type='div'>
-      <img 
-      srcset="/assets/images/primathon-logo.webp, /assets/images/primathon-logo.png"
-      src='/assets/images/primathon-logo.png' alt='Primathon' title='Primathon' />
+      <Common::AppImage 
+        @srcset="/assets/images/primathon-logo.webp, /assets/images/primathon-logo.png"
+        @src='/assets/images/primathon-logo.png'
+        alt='Primathon' 
+        title='Primathon' 
+      />
     </div>
     {{!-- <div
       class="logo-holder {{unless this.activePrimathon 'olympic'}}"
       type="div"
       {{timer-callback this.onLogoClick 2000}}
     >
-      <img
-        src="assets/images/primathon_icon_final.png"
+      <Common::AppImage @src="assets/images/primathon_icon_final.png"
         alt="Primathon"
         class={{if this.activePrimathon 'visible' 'hidden'}}
       />
-      <img
-        src="assets/images/logo-olympic.png"
+      <Common::AppImage @src="assets/images/logo-olympic.png"
         alt="Primathon"
         class={{unless this.activePrimathon 'visible' 'hidden'}}
       />
@@ -49,18 +50,18 @@
       <p class='menu-service mobile-menu-link' id='our-services' {{on 'click' (fn this.onMenuOpen 'services')}}>
         <span>Our Services</span>
         {{#if this.openMenu}}
-          <img
+          <Common::AppImage
             class='up-down-icon'
-            src='/assets/images/arrow-up.svg'
+            @src='/assets/images/arrow-up.svg'
             height='10px'
             width='10px'
             alt='button icon'
             title='button icon'
           />
         {{else}}
-          <img
+          <Common::AppImage
             class='up-down-icon'
-            src='/assets/images/arrow-down.svg'
+            @src='/assets/images/arrow-down.svg'
             height='10px'
             width='10px'
             alt='button icon'
@@ -94,6 +95,46 @@
           Build and Manage
         </LinkTo>
       </div>
+      <p class='menu-service mobile-menu-link' id='our-services' {{on 'click' (fn this.onMenuOpen 'ai-hub')}}>
+        <span>AI Hub</span>
+        {{#if this.aiHub}}
+          <Common::AppImage
+            class='up-down-icon'
+            @src='/assets/images/arrow-up.svg'
+            height='10px'
+            width='10px'
+            alt='button icon'
+            title='button icon'
+          />
+        {{else}}
+          <Common::AppImage
+            class='up-down-icon'
+            @src='/assets/images/arrow-down.svg'
+            height='10px'
+            width='10px'
+            alt='button icon'
+            title='button icon'
+          />
+        {{/if}}
+      </p>
+      <div class='services-menu {{if this.aiHub "services-menu-open"}} '>
+        <LinkTo
+          @route='services.ai-hub.ai-consulting-services'
+          class='mobile-menu'
+          @activeClass='current-url'
+          {{on 'click' (fn this.closeOpenMenu 'ai-hub')}}
+        >
+          AI Consulting Services
+        </LinkTo>
+        <LinkTo
+          @route='services.ai-hub.custom-ai-solutions'
+          class='mobile-menu'
+          @activeClass='current-url'
+          {{on 'click' (fn this.closeOpenMenu 'ai-hub')}}
+        >
+          Custom AI Solutions
+        </LinkTo>
+      </div>
       <div class='service-page-dialog'>
         <LinkTo @route='solutions.search-gpt' class='menu-service desktop-menu-link'>
           Solutions
@@ -103,18 +144,18 @@
       <p class='menu-service mobile-menu-link' id='our-services' {{on 'click' (fn this.onMenuOpen 'solutions')}}>
         <span>Solutions</span>
         {{#if this.openSolutionsMenu}}
-          <img
+          <Common::AppImage
             class='up-down-icon'
-            src='/assets/images/arrow-up.svg'
+            @src='/assets/images/arrow-up.svg'
             height='10px'
             width='10px'
             alt='button icon'
             title='button icon'
           />
         {{else}}
-          <img
+          <Common::AppImage
             class='up-down-icon'
-            src='/assets/images/arrow-down.svg'
+            @src='/assets/images/arrow-down.svg'
             height='10px'
             width='10px'
             alt='button icon'
@@ -181,18 +222,18 @@
       <p class='menu-service mobile-menu-link' id='our-services' {{on 'click' (fn this.onMenuOpen 'technologies')}}>
         <span>Technologies</span>
         {{#if this.openTechnologiesMenu}}
-          <img
+          <Common::AppImage
             class='up-down-icon'
-            src='/assets/images/arrow-up.svg'
+            @src='/assets/images/arrow-up.svg'
             height='10px'
             width='10px'
             alt='button icon'
             title='button icon'
           />
         {{else}}
-          <img
+          <Common::AppImage
             class='up-down-icon'
-            src='/assets/images/arrow-down.svg'
+            @src='/assets/images/arrow-down.svg'
             height='10px'
             width='10px'
             alt='button icon'
