@@ -6,7 +6,7 @@
     <div class='cardsContainer' style='transform:translateX({{this.scrollValue}});'>
       {{#each @thirdPartyIntegration.cardData as |item|}}
         <div class='thirdPartyIntegrationCard' style='width: calc({{this.width}} - 32px);'>
-          <img src={{item.imgSrc}} />
+          <Common::AppImage @src={{item.imgSrc}} />
           <div class='cardContent'>
             <h3>{{item.cardTitle}}</h3>
             <p>
@@ -17,10 +17,10 @@
       {{/each}}
     </div>
     {{!-- <button type='button' {{on 'click' this.showNext}} class='industrySpecificNextButton'>
-      <img src='/assets/images/next.png' alt='customer obsession' />
+      <Common::AppImage @src='/assets/images/next.png' alt='customer obsession' />
     </button>
     <button type='button' {{on 'click' this.showPrevious}} class='industrySpecificPreviousButton'>
-      <img src='/assets/images/prev.png' alt='customer obsession' />
+      <Common::AppImage @src='/assets/images/prev.png' alt='customer obsession' />
     </button> --}}
   </div>
 
