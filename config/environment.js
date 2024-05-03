@@ -21,7 +21,7 @@ module.exports = function (environment) {
     pipeline: {
       gzip: {
         filePattern: '**/*.{hbs,js,css,json,ico,map,xml,txt,svg,eot,ttf,woff,woff2}',
-        ignorePattern: '**/*.gz'
+        ignorePattern: '**/*.gz',
       },
       // other plugins in the pipeline...
     },
@@ -41,6 +41,9 @@ module.exports = function (environment) {
     ENV.APP.LOG_TRANSITIONS = true;
     ENV.APP.LOG_TRANSITIONS_INTERNAL = true;
     ENV.APP.LOG_VIEW_LOOKUPS = true;
+
+    // CDN URL ...................................................
+    ENV.ASSETS_CDN_URL = null;
   }
 
   if (environment === 'test') {
@@ -53,10 +56,15 @@ module.exports = function (environment) {
 
     ENV.APP.rootElement = '#ember-testing';
     ENV.APP.autoboot = false;
+
+    // CDN URL ...................................................
+    ENV.ASSETS_CDN_URL = null;
   }
 
   if (environment === 'production') {
     // here you can enable a production-specific feature
+    // CDN URL ...................................................
+    ENV.ASSETS_CDN_URL = 'https://d1gh5idcovu9p3.cloudfront.net';
   }
 
   return ENV;

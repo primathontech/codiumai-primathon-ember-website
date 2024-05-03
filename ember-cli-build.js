@@ -2,7 +2,7 @@
 
 const EmberApp = require('ember-cli/lib/broccoli/ember-app');
 
-// const isProduction = EmberApp.env() === 'production';
+const isProduction = EmberApp.env() === 'production';
 
 module.exports = function (defaults) {
   let app = new EmberApp(defaults, {
@@ -10,7 +10,8 @@ module.exports = function (defaults) {
       includePolyfill: true,
     },
     fingerprint: {
-      exclude: ['assets/*/*'],
+      enabled: isProduction,
+      exclude: ['assets/**/*'],
     },
     babel: {
       plugins: [require.resolve('ember-auto-import/babel-plugin')],

@@ -1,6 +1,6 @@
 <LinkTo @route='case-studies.case-study' @model={{@data.url}}>
   <div class='flex flex-col gap-y-10 items-center max-w-[370px]'>
-    <img src={{@data.poster}} loading='lazy' alt={{@data.title}} title={{@data.title}} />
+    <Common::AppImage @src={{@data.poster}} loading='lazy' alt={{@data.title}} title={{@data.title}} />
     <div class=''>
       <h3 class='text-2xl text-white'>
         {{@data.title}}

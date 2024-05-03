@@ -10,6 +10,9 @@
 {{#if @bulletsList2}}
   <Services::BulletsList @data={{@bulletsList2}} @imgStyle={{@bulletsListImgStyle2}} />
 {{/if}}
+{{#if @isDiscoverAiSolutions}}
+  <Services::DiscoverAiSolutions />
+{{/if}}
 {{#if @benefits}}
   <Chatgpt::Benefits @benefits={{@benefits}} />
 {{/if}}
@@ -28,6 +31,9 @@
 <Services::BulletsList @data={{@bulletsList}} @imgStyle={{@bulletsListImgStyle}} />
 {{#if @whyChoose}}
   <Services::WhyHireSection @data={{@whyChoose}} />
+{{/if}}
+{{#if @services2}}
+  <Chatgpt::Chatgptuse @useCases={{@services2}} />
 {{/if}}
 {{#if @whyHire}}
   <Services::WhyHireSection @data={{@whyHire}} />

@@ -1,6 +1,6 @@
 <div class='service-page-options' ...attributes {{on 'mouseleave' this.onMouseLeave}}>
   <div class='image'>
-    <img src='/assets/images/arrow-up.svg' alt='arrow-up' title='button icon' />
+    <Common::AppImage @src='/assets/images/arrow-up.svg' alt='arrow-up' title='button icon' />
   </div>
   <ul>
     {{! template-lint-disable no-invalid-interactive }}
@@ -66,11 +66,6 @@
           Web and Mobile App Development
         </LinkTo>
       </p>
-      <p>
-        <LinkTo class='services-link' @route='services.end-to-end-products.ai-ml-based-recommendation-engines'>
-          AI/ML based Recommendation Engines
-        </LinkTo>
-      </p>
       <p class='page-options-extra-para'>
         <LinkTo class='services-link' @route='services.end-to-end-products.erc20-token'>
           ERC20 Token
@@ -79,11 +74,6 @@
       <p class='page-options-extra-para'>
         <LinkTo class='services-link' @route='services.end-to-end-products.smart-contract'>
           Smart Contract
-        </LinkTo>
-      </p>
-      <p class='page-options-extra-para'>
-        <LinkTo class='services-link' @route='ember-js-development-services'>
-          EmberJs Services
         </LinkTo>
       </p>
       <p class='page-options-extra-para'>
@@ -104,7 +94,22 @@
       </p>
       <p class='services-link'>
         <LinkTo class='services-link' @route='services.ai-hub.ai-integration'>
-         AI Integration
+          AI Integration
+        </LinkTo>
+      </p>
+      <p class='services-link'>
+        <LinkTo class='services-link' @route='services.ai-hub.ai-generating-service'>
+          AI Generating Service
+        </LinkTo>
+      </p>
+      <p class='services-link'>
+        <LinkTo class='services-link' @route='services.ai-hub.ai-strategy'>
+          AI Strategy
+        </LinkTo>
+      </p>
+      <p class='services-link'>
+        <LinkTo class='services-link' @route='services.ai-hub.ai-software-development-services'>
+          AI Software Development Services
         </LinkTo>
       </p>
     {{else if (eq this.hoverRoute this.staffAugmentation)}}
@@ -171,6 +176,11 @@
       <p>
         <LinkTo class='services-link' @route='services.staff-augmentation.hire-ember-js-developers'>
           Ember.js developers
+        </LinkTo>
+      </p>
+      <p>
+        <LinkTo class='services-link' @route='services.staff-augmentation.hire-node-js-developers'>
+          Node.js developers
         </LinkTo>
       </p>
       <p>
