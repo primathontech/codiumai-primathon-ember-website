@@ -108,6 +108,10 @@ export const SERVICE_DATA = {
           text: 'Ember.js developers',
           url: '/services/staff-augmentation/hire-ember-js-developers',
         },
+        {
+          text: 'Node.js developers',
+          url: '/services/staff-augmentation/hire-node-js-developers',
+        },
       ],
     },
     {
