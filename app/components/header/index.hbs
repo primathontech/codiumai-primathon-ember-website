@@ -136,6 +136,14 @@
         >
           Custom AI Solutions
         </LinkTo>
+        <LinkTo
+          @route='services.ai-hub.ai-strategy'
+          class='mobile-menu'
+          @activeClass='current-url'
+          {{on 'click' (fn this.closeOpenMenu 'ai-hub')}}
+        >
+          AI Strategy
+        </LinkTo>
       </div>
       <div class='service-page-dialog'>
         <LinkTo @route='solutions.search-gpt' class='menu-service desktop-menu-link'>
