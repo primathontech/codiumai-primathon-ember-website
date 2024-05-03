@@ -9,12 +9,12 @@
   <Chatgpt::Benefits @benefits={{@data.aiData.aiServices}} />
   <div class='aiDevelopment-aiUses'>
     <Chatgpt::Chatgptuse @useCases={{@data.aiData.aiUses}} />
-    <img class='aiDevelopment-greenCircle' src='/assets/ai-development/greenCircle.png' />
+    <Common::AppImage class='aiDevelopment-greenCircle' @src='/assets/ai-development/greenCircle.png' />
   </div>
   <div class='aiDevelopment-emergingTech'>
     <Chatgpt::Customchatgpt @benefitsOfCustomChatGpt={{@data.aiData.emergingTechnology}} />
-    <img class='aiDevelopment-yellowCircle' src='/assets/chatgpt/yellowCircle.png' />
-    <img class='aiDevelopment-redCircle' src='/assets/chatgpt/redCircle.png' />
+    <Common::AppImage class='aiDevelopment-yellowCircle' @src='/assets/chatgpt/yellowCircle.png' />
+    <Common::AppImage class='aiDevelopment-redCircle' @src='/assets/chatgpt/redCircle.png' />
   </div>
   <Chatgpt::IndustrySpecificServices @specificServices={{@data.aiData.roadmapData}} />
   <Chatgpt::Getting-started @gettingStarted={{@data.aiData.benefitsOfAi}} />
