@@ -29,6 +29,9 @@
 {{#if @whyChoose}}
   <Services::WhyHireSection @data={{@whyChoose}} />
 {{/if}}
+{{#if @services2}}
+  <Chatgpt::Chatgptuse @useCases={{@services2}} />
+{{/if}}
 {{#if @whyHire}}
   <Services::WhyHireSection @data={{@whyHire}} />
 {{/if}}
