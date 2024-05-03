@@ -1,11 +1,11 @@
 <nav class='menu items-center text-white {{this.extraClass}}' {{on-window-scroll this.onScroll}}>
   <LinkTo @route='index' class='menu-index'>
     <div class='logo-holder' type='div'>
-      <img
-        srcset='/assets/images/primathon-logo.webp, /assets/images/primathon-logo.png'
-        src='/assets/images/primathon-logo.png'
-        alt='Primathon'
-        title='Primathon'
+      <Common::AppImage 
+        @srcset="/assets/images/primathon-logo.webp, /assets/images/primathon-logo.png"
+        @src='/assets/images/primathon-logo.png'
+        alt='Primathon' 
+        title='Primathon' 
       />
     </div>
     {{!-- <div
