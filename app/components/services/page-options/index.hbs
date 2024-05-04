@@ -22,9 +22,9 @@
       </LinkTo>
     </li>
     {{! template-lint-disable no-invalid-interactive }}
-    <li class='consulting-category-tool-tip' {{on 'mouseover' (fn this.changeContent this.consultingCategory)}}>
+    <li class='consulting-category-tool-tip' {{on 'mouseover' (fn this.changeContent this.aiHub)}}>
       <LinkTo
-        class='service-page-link {{if (eq this.activeRoute this.consultingCategory) "active-service"}}'
+        class='service-page-link {{if (eq this.activeRoute this.aiHub) "active-service"}}'
         @route='services.ai-hub.ai-consulting-services'
       >
         AI Hub
@@ -81,7 +81,7 @@
           ChatGPT Services
         </LinkTo>
       </p>
-    {{else if (eq this.hoverRoute this.consultingCategory)}}
+    {{else if (eq this.hoverRoute this.aiHub)}}
       <p class='services-link'>
         <LinkTo class='services-link' @route='services.ai-hub.ai-consulting-services'>
           AI Consulting Services
@@ -215,7 +215,9 @@
       </p>
     {{/if}}
   </div>
-  <LinkTo class='link' @route={{this.hoverRoute}}>
-    Explore
-  </LinkTo>
+  {{#if (not-eq this.hoverRoute this.aiHub)}}
+    <LinkTo class='link' @route={{this.hoverRoute}}>
+      Explore
+    </LinkTo>
+  {{/if}}
 </div>

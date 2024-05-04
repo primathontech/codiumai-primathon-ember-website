@@ -15,7 +15,7 @@ export default class ServicesPageOptionsIndexComponent extends Component {
       const route = this.activeRoute;
       if (
         route === this.endToEndRoute ||
-        route === this.consultingCategory ||
+        route === this.aiHub ||
         route === this.staffAugmentation ||
         route === this.buildAndManage
       ) {
@@ -33,7 +33,7 @@ export default class ServicesPageOptionsIndexComponent extends Component {
     return 'services.end-to-end-products';
   }
 
-  get consultingCategory() {
+  get aiHub() {
     return 'services.ai-hub';
   }
 
@@ -55,7 +55,7 @@ export default class ServicesPageOptionsIndexComponent extends Component {
     const route = this.activeRoute;
     if (
       route === this.endToEndRoute ||
-      route === this.consultingCategory ||
+      route === this.aiHub ||
       route === this.staffAugmentation ||
       route === this.buildAndManage
     ) {
