@@ -27,6 +27,7 @@ Router.map(function () {
       this.route('hire-react-js-developers');
       this.route('hire-ios-developers');
       this.route('hire-swift-developers');
+      this.route('hire-node-js-developers');
       this.route('quality-analysts');
       this.route('platform');
       this.route('hire-vue-developers');
@@ -36,6 +37,9 @@ Router.map(function () {
     this.route('ai-hub', function () {
       this.route('ai-consulting-services');
       this.route('custom-ai-solutions');
+      this.route('ai-integration')
+      this.route('ai-generating-service');
+      this.route('ai-strategy');
       this.route('ai-software-development-services');
     });
     this.route('end-to-end-products', function () {
