@@ -4,7 +4,7 @@
 server=site
 
 ssh  $server << 'EOF'
-    branch=master
+    branch=main
     directory=/home/ubuntu/ubuntu/projects/primathon-ember-web
     app_name=prima-web
     
