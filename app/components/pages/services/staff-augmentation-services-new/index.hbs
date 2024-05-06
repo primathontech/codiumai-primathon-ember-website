@@ -30,3 +30,8 @@
   <Services::FaqList @title={{@faqs.title}} @data={{@faqs.cardData}} />
 {{/if}}
 <Footer />
+{{#if @blogData}}
+  <Homepage::Blog @title={{@blogData.title}} @description={{@blogData.description}} @data={{@blogData.data}} />
+{{/if}}
+<Services::FaqList @title={{@faqs.title}} @data={{@faqs.cardData}} />
+<Footer />

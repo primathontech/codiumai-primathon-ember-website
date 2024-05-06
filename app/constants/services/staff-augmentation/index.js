@@ -3102,7 +3102,7 @@ export const REACT_DEVELOPER = {
         tableData: [
           { id: 1, text: 'Quality Guarantee', bgColor: '#ffffff' },
           { id: 2, text: '✓', bgColor: '#24B768' },
-          { id: 3, text: 'x', bgColor: '#FFDCDC' },
+          { id: 3, text: 'X', bgColor: '#FFDCDC' },
           { id: 4, text: 'Unsure', bgColor: '#FFDCDC' },
         ],
       },
